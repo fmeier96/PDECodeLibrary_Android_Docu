@@ -1,0 +1,10 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_p_d_e_animation_group_operation =
+[
+    [ "PDEAnimationGroupOperation", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_p_d_e_animation_group_operation.html#a5341321e517418ad735ef8b774c00294", null ],
+    [ "setObject", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_p_d_e_animation_group_operation.html#a702a56b0a5c2f1751a2bcaec7566f11f", null ],
+    [ "getObject", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_p_d_e_animation_group_operation.html#a1aae168c19191de968e94f144f9a3864", null ],
+    [ "setOperation", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_p_d_e_animation_group_operation.html#ad78db53a8e7b3f9e68f7174b8b5df302", null ],
+    [ "getOperation", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_p_d_e_animation_group_operation.html#aeebc6a8323252b6b3c6ea2c39b827cdd", null ],
+    [ "mObject", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_p_d_e_animation_group_operation.html#a85d57fcaea3e78c70b34d1a891d65410", null ],
+    [ "mOperation", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_p_d_e_animation_group_operation.html#ad14510a8f6efb5262cc46d3e3914a169", null ]
+];

@@ -1,0 +1,4525 @@
+@encoding "UTF-8";
+@encoding "UTF-8";
+/* normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 21, ../../sass/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 31, ../../sass/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 40, ../../sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 49, ../../sass/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 63, ../../sass/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+ * Removes default margin.
+ */
+/* line 73, ../../sass/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 85, ../../sass/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, ../../sass/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 107, ../../sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 115, ../../sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, ../../sass/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 132, ../../sass/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 140, ../../sass/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 153, ../../sass/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 162, ../../sass/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 172, ../../sass/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 180, ../../sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, ../../sass/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 196, ../../sass/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 200, ../../sass/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 212, ../../sass/_normalize.scss */
+img {
+  border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 220, ../../sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 232, ../../sass/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 244, ../../sass/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 255, ../../sass/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 269, ../../sass/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, ../../sass/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 296, ../../sass/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, ../../sass/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, ../../sass/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 327, ../../sass/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, ../../sass/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, ../../sass/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 359, ../../sass/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 372, ../../sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* wished pixel size of an em */
+/* default pixel font size in most browsers */
+@encoding "UTF-8";
+@font-face {
+  font-family: 'Radiobutton';
+  src: url("../fonts/Radiobutton.eot");
+  src: url("../fonts/Radiobutton.eot?#iefix") format("embedded-opentype"), url("../fonts/Radiobutton.svg#Radiobutton") format("svg"), url("../fonts/Radiobutton.woff") format("woff"), url("../fonts/Radiobutton.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../sass/custom/_fonts.scss */
+[class^="icon-radiobutton"]:before, [class*=" icon-radiobutton"]:before {
+  font-family: 'Radiobutton';
+}
+
+/* line 19, ../../sass/custom/_fonts.scss */
+.icon-radiobutton_bg:before {
+  content: "\21";
+}
+
+/* line 22, ../../sass/custom/_fonts.scss */
+.icon-radiobutton_checked:before {
+  content: "\22";
+}
+
+/* line 25, ../../sass/custom/_fonts.scss */
+.icon-radiobutton_shadow:before {
+  content: "\23";
+}
+
+@font-face {
+  font-family: 'Iconfont-Testset_V01';
+  src: url("../fonts/Iconfont-Testset_V01.eot");
+  src: url("../fonts/Iconfont-Testset_V01.eot?#iefix") format("embedded-opentype"), url("../fonts/Iconfont-Testset_V01.svg#Iconfont-Testset_V01") format("svg"), url("../fonts/Iconfont-Testset_V01.woff") format("woff"), url("../fonts/Iconfont-Testset_V01.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 56, ../../sass/custom/_fonts.scss */
+.icon:before {
+  font-family: Iconfont-Testset_V01;
+}
+
+/* line 60, ../../sass/custom/_fonts.scss */
+.icon-error .icon:before {
+  content: "\78";
+}
+
+/* line 63, ../../sass/custom/_fonts.scss */
+.icon-success .icon:before {
+  content: "\76";
+}
+
+/* line 66, ../../sass/custom/_fonts.scss */
+.icon-loading-indicator .icon:before {
+  content: "\6f";
+}
+
+/* line 69, ../../sass/custom/_fonts.scss */
+.icon-link .icon:before {
+  content: "\6c";
+}
+
+/* line 72, ../../sass/custom/_fonts.scss */
+.icon-edit .icon:before {
+  content: "\65";
+}
+
+/* line 75, ../../sass/custom/_fonts.scss */
+.icon-file .icon:before {
+  content: "\66";
+}
+
+/* line 78, ../../sass/custom/_fonts.scss */
+.icon-attachment .icon:before {
+  content: "\61";
+}
+
+/* line 81, ../../sass/custom/_fonts.scss */
+.icon-my-profile .icon:before {
+  content: "\55";
+}
+
+/* line 84, ../../sass/custom/_fonts.scss */
+.icon-zoom-out .icon:before {
+  content: "\5a";
+}
+
+/* line 87, ../../sass/custom/_fonts.scss */
+.icon-zoom-in .icon:before {
+  content: "\7a";
+}
+
+/* line 90, ../../sass/custom/_fonts.scss */
+.icon-warning .icon:before {
+  content: "\21";
+}
+
+/* line 93, ../../sass/custom/_fonts.scss */
+.icon-upload .icon:before {
+  content: "\75";
+}
+
+/* line 96, ../../sass/custom/_fonts.scss */
+.icon-tile-view .icon:before {
+  content: "\30";
+}
+
+/* line 99, ../../sass/custom/_fonts.scss */
+.icon-tablet-pc .icon:before {
+  content: "\45";
+}
+
+/* line 102, ../../sass/custom/_fonts.scss */
+.icon-synchronize .icon:before {
+  content: "\73";
+}
+
+/* line 105, ../../sass/custom/_fonts.scss */
+.icon-stop .icon:before {
+  content: "\36";
+}
+
+/* line 108, ../../sass/custom/_fonts.scss */
+.icon-start-call .icon:before {
+  content: "\4a";
+}
+
+/* line 111, ../../sass/custom/_fonts.scss */
+.icon-speaker-on .icon:before {
+  content: "\6b";
+}
+
+/* line 114, ../../sass/custom/_fonts.scss */
+.icon-speaker-off .icon:before {
+  content: "\4b";
+}
+
+/* line 117, ../../sass/custom/_fonts.scss */
+.icon-smartphone .icon:before {
+  content: "\57";
+}
+
+/* line 120, ../../sass/custom/_fonts.scss */
+.icon-skip-to-start .icon:before {
+  content: "\31";
+}
+
+/* line 123, ../../sass/custom/_fonts.scss */
+.icon-skip-to-end .icon:before {
+  content: "\39";
+}
+
+/* line 126, ../../sass/custom/_fonts.scss */
+.icon-shopping-cart .icon:before {
+  content: "\42";
+}
+
+/* line 129, ../../sass/custom/_fonts.scss */
+.icon-share .icon:before {
+  content: "\79";
+}
+
+/* line 132, ../../sass/custom/_fonts.scss */
+.icon-settings .icon:before {
+  content: "\53";
+}
+
+/* line 135, ../../sass/custom/_fonts.scss */
+.icon-search .icon:before {
+  content: "\71";
+}
+
+/* line 138, ../../sass/custom/_fonts.scss */
+.icon-scroll-right .icon:before {
+  content: "\2f";
+}
+
+/* line 141, ../../sass/custom/_fonts.scss */
+.icon-scroll-left .icon:before {
+  content: "\29";
+}
+
+/* line 144, ../../sass/custom/_fonts.scss */
+.icon-ringtone-on .icon:before {
+  content: "\6e";
+}
+
+/* line 147, ../../sass/custom/_fonts.scss */
+.icon-ringtone-off .icon:before {
+  content: "\4e";
+}
+
+/* line 150, ../../sass/custom/_fonts.scss */
+.icon-rewind .icon:before {
+  content: "\33";
+}
+
+/* line 153, ../../sass/custom/_fonts.scss */
+.icon-reply .icon:before {
+  content: "\72";
+}
+
+/* line 156, ../../sass/custom/_fonts.scss */
+.icon-reload .icon:before {
+  content: "\67";
+}
+
+/* line 159, ../../sass/custom/_fonts.scss */
+.icon-record .icon:before {
+  content: "\2e";
+}
+
+/* line 162, ../../sass/custom/_fonts.scss */
+.icon-print .icon:before {
+  content: "\70";
+}
+
+/* line 165, ../../sass/custom/_fonts.scss */
+.icon-previous .icon:before {
+  content: "\32";
+}
+
+/* line 168, ../../sass/custom/_fonts.scss */
+.icon-play .icon:before {
+  content: "\34";
+}
+
+/* line 171, ../../sass/custom/_fonts.scss */
+.icon-pause .icon:before {
+  content: "\35";
+}
+
+/* line 174, ../../sass/custom/_fonts.scss */
+.icon-next .icon:before {
+  content: "\38";
+}
+
+/* line 177, ../../sass/custom/_fonts.scss */
+.icon-navigation_up .icon:before {
+  content: "\22";
+}
+
+/* line 180, ../../sass/custom/_fonts.scss */
+.icon-navigation_right .icon:before {
+  content: "\a7";
+}
+
+/* line 183, ../../sass/custom/_fonts.scss */
+.icon-navigation_left .icon:before {
+  content: "\25";
+}
+
+/* line 186, ../../sass/custom/_fonts.scss */
+.icon-navigation_down .icon:before {
+  content: "\24";
+}
+
+/* line 189, ../../sass/custom/_fonts.scss */
+.icon-move-to-trash .icon:before {
+  content: "\44";
+}
+
+/* line 192, ../../sass/custom/_fonts.scss */
+.icon-more .icon:before {
+  content: "\3a";
+}
+
+/* line 195, ../../sass/custom/_fonts.scss */
+.icon-microphone-socket .icon:before {
+  content: "\4d";
+}
+
+/* line 198, ../../sass/custom/_fonts.scss */
+.icon-message .icon:before {
+  content: "\6d";
+}
+
+/* line 201, ../../sass/custom/_fonts.scss */
+.icon-login .icon:before {
+  content: "\48";
+}
+
+/* line 204, ../../sass/custom/_fonts.scss */
+.icon-lock .icon:before {
+  content: "\4c";
+}
+
+/* line 207, ../../sass/custom/_fonts.scss */
+.icon-list-view .icon:before {
+  content: "\3d";
+}
+
+/* line 210, ../../sass/custom/_fonts.scss */
+.icon-iptv .icon:before {
+  content: "\52";
+}
+
+/* line 213, ../../sass/custom/_fonts.scss */
+.icon-information .icon:before {
+  content: "\69";
+}
+
+/* line 216, ../../sass/custom/_fonts.scss */
+.icon-import .icon:before {
+  content: "\28";
+}
+
+/* line 219, ../../sass/custom/_fonts.scss */
+.icon-home .icon:before {
+  content: "\68";
+}
+
+/* line 222, ../../sass/custom/_fonts.scss */
+.icon-help .icon:before {
+  content: "\3f";
+}
+
+/* line 225, ../../sass/custom/_fonts.scss */
+.icon-forward .icon:before {
+  content: "\23";
+}
+
+/* line 228, ../../sass/custom/_fonts.scss */
+.icon-folder .icon:before {
+  content: "\46";
+}
+
+/* line 231, ../../sass/custom/_fonts.scss */
+.icon-filter .icon:before {
+  content: "\47";
+}
+
+/* line 234, ../../sass/custom/_fonts.scss */
+.icon-favorites .icon:before {
+  content: "\2a";
+}
+
+/* line 237, ../../sass/custom/_fonts.scss */
+.icon-fast-forward .icon:before {
+  content: "\37";
+}
+
+/* line 240, ../../sass/custom/_fonts.scss */
+.icon-export .icon:before {
+  content: "\26";
+}
+
+/* line 243, ../../sass/custom/_fonts.scss */
+.icon-end-call .icon:before {
+  content: "\6a";
+}
+
+/* line 246, ../../sass/custom/_fonts.scss */
+.icon-download .icon:before {
+  content: "\64";
+}
+
+/* line 249, ../../sass/custom/_fonts.scss */
+.icon-decrease .icon:before {
+  content: "\2d";
+}
+
+/* line 252, ../../sass/custom/_fonts.scss */
+.icon-cover-view .icon:before {
+  content: "\5c";
+}
+
+/* line 255, ../../sass/custom/_fonts.scss */
+.icon-copy .icon:before {
+  content: "\43";
+}
+
+/* line 258, ../../sass/custom/_fonts.scss */
+.icon-context-menu .icon:before {
+  content: "\63";
+}
+
+/* line 261, ../../sass/custom/_fonts.scss */
+.icon-confirm .icon:before {
+  content: "\56";
+}
+
+/* line 264, ../../sass/custom/_fonts.scss */
+.icon-computer .icon:before {
+  content: "\51";
+}
+
+/* line 267, ../../sass/custom/_fonts.scss */
+.icon-comment .icon:before {
+  content: "\49";
+}
+
+/* line 270, ../../sass/custom/_fonts.scss */
+.icon-cloud-view .icon:before {
+  content: "\59";
+}
+
+/* line 273, ../../sass/custom/_fonts.scss */
+.icon-clock .icon:before {
+  content: "\4f";
+}
+
+/* line 276, ../../sass/custom/_fonts.scss */
+.icon-cancel .icon:before {
+  content: "\58";
+}
+
+/* line 279, ../../sass/custom/_fonts.scss */
+.icon-calendar .icon:before {
+  content: "\41";
+}
+
+/* line 282, ../../sass/custom/_fonts.scss */
+.icon-bookmarks .icon:before {
+  content: "\62";
+}
+
+/* line 285, ../../sass/custom/_fonts.scss */
+.icon-Telekom-Digits .icon:before {
+  content: "\54";
+}
+
+/* line 288, ../../sass/custom/_fonts.scss */
+.icon-Telekom-1t1 .icon:before {
+  content: "\74";
+}
+
+/* line 291, ../../sass/custom/_fonts.scss */
+.icon-Telekom-3t7 .icon:before {
+  content: "\fc";
+}
+
+/* line 294, ../../sass/custom/_fonts.scss */
+.icon-Add-to-watchlist .icon:before {
+  content: "\50";
+}
+
+/* line 297, ../../sass/custom/_fonts.scss */
+.icon-Add .icon:before {
+  content: "\2b";
+}
+
+/* Border title */
+/* Border image */
+/* Text */
+/* Border default */
+/* Border list */
+/* Hyperlink */
+/*Hover List*/
+/*$delay-hover:50ms;
+$duration: 150ms;
+$timing:cubic-bezier(0.250, 0.250, 0.750, 0.750);
+$property: all;	*/
+/* addintional Colers */
+/* 
+
+NAVTREE
+
+*/
+/* line 11, ../../sass/_nav.scss */
+#doc-content {
+  overflow: auto;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 0px;
+  -webkit-overflow-scrolling: touch;
+  /* iOS 5+ */
+}
+
+/* line 23, ../../sass/_nav.scss */
+#side-nav {
+  padding: 0 0 0 0;
+  /*margin:34px 0 0 0;*/
+  display: block;
+  position: absolute;
+  left: 0px;
+  width: 300px;
+}
+
+/* line 36, ../../sass/_nav.scss */
+#nav-tree {
+  padding: 0px 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  /* iOS 5+ */
+  border-top: 1px solid #a4a4a4;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 300ms;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -webkit-transition-delay: 0ms;
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transition-property: all;
+  -moz-transition-duration: 300ms;
+  -moz-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition-delay: 0ms;
+  -ms-transition-property: all;
+  -ms-transition-duration: 300ms;
+  -ms-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition-delay: 0ms;
+  -o-transition-property: all;
+  -o-transition-duration: 300ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 300ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition-delay: 0ms;
+}
+/* line 47, ../../sass/_nav.scss */
+#nav-tree a {
+  text-decoration: none;
+}
+/* line 51, ../../sass/_nav.scss */
+#nav-tree .label {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: TeleGrotesk;
+  line-height: 2.5em;
+  vertical-align: middle;
+}
+/* line 61, ../../sass/_nav.scss */
+#nav-tree .label a {
+  margin: 0;
+  padding: 0;
+  color: #4b4b4b;
+  display: block;
+}
+/* line 69, ../../sass/_nav.scss */
+#nav-tree .label a:hover {
+  /*color:$dtag_primary_black;*/
+  /*background-color:$dtag_primary_gray_4;*/
+}
+/* line 81, ../../sass/_nav.scss */
+#nav-tree .item {
+  margin-left: 0px;
+  padding-left: 0px;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 300ms;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -webkit-transition-delay: 0ms;
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transition-property: all;
+  -moz-transition-duration: 300ms;
+  -moz-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition-delay: 0ms;
+  -ms-transition-property: all;
+  -ms-transition-duration: 300ms;
+  -ms-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition-delay: 0ms;
+  -o-transition-property: all;
+  -o-transition-duration: 300ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 300ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition-delay: 0ms;
+  border-bottom: 1px solid gainsboro;
+}
+/* line 88, ../../sass/_nav.scss */
+#nav-tree .item img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: middle;
+  float: left;
+}
+/* line 96, ../../sass/_nav.scss */
+#nav-tree .item .expand-toggle {
+  display: block;
+  float: left;
+  margin: 0 0 0 0;
+  padding: 0 0.875em 0 1em;
+  line-height: 40px;
+  font-family: Tele-Icon;
+  font-size: 0.625em;
+  outline: none;
+}
+/* line 109, ../../sass/_nav.scss */
+#nav-tree .item-over {
+  background-color: #ededed;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -webkit-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -webkit-transition-delay: 0ms;
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transition-property: all;
+  -moz-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -moz-transition-delay: 0ms;
+  -ms-transition-property: all;
+  -ms-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -ms-transition-delay: 0ms;
+  -o-transition-property: all;
+  -o-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -o-transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition-delay: 0ms;
+}
+/* line 116, ../../sass/_nav.scss */
+#nav-tree .item-press {
+  background-color: #d9d9d9;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -webkit-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -webkit-transition-delay: 0ms;
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transition-property: all;
+  -moz-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -moz-transition-delay: 0ms;
+  -ms-transition-property: all;
+  -ms-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -ms-transition-delay: 0ms;
+  -o-transition-property: all;
+  -o-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -o-transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition-delay: 0ms;
+}
+/* line 126, ../../sass/_nav.scss */
+#nav-tree .plus {
+  margin: 0px;
+}
+/* line 134, ../../sass/_nav.scss */
+#nav-tree .selected a {
+  text-decoration: none;
+  color: #e20074;
+}
+/* line 140, ../../sass/_nav.scss */
+#nav-tree .selected a:hover {
+  /*color: $dtag_primary_magenta_darker; */
+}
+/* line 147, ../../sass/_nav.scss */
+#nav-tree ul {
+  list-style: none outside none;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 154, ../../sass/_nav.scss */
+#nav-tree li {
+  white-space: nowrap;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 161, ../../sass/_nav.scss */
+#nav-tree .children_ul {
+  margin: 0;
+  padding: 0px;
+}
+/* line 165, ../../sass/_nav.scss */
+#nav-tree .children_ul img {
+  width: 1em;
+}
+
+/* line 177, ../../sass/_nav.scss */
+.ui-resizable .ui-resizable-handle {
+  display: block;
+}
+
+/* line 183, ../../sass/_nav.scss */
+.ui-resizable-handle {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 300ms;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -webkit-transition-delay: 0ms;
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transition-property: all;
+  -moz-transition-duration: 300ms;
+  -moz-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition-delay: 0ms;
+  -ms-transition-property: all;
+  -ms-transition-duration: 300ms;
+  -ms-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition-delay: 0ms;
+  -o-transition-property: all;
+  -o-transition-duration: 300ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 300ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition-delay: 0ms;
+}
+
+/* line 188, ../../sass/_nav.scss */
+.ui-resizable-handle-animation {
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 50ms;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -webkit-transition-delay: 0ms;
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transition-property: all;
+  -moz-transition-duration: 50ms;
+  -moz-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition-delay: 0ms;
+  -ms-transition-property: all;
+  -ms-transition-duration: 50ms;
+  -ms-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition-delay: 0ms;
+  -o-transition-property: all;
+  -o-transition-duration: 50ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 50ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition-delay: 0ms;
+}
+
+/* line 192, ../../sass/_nav.scss */
+.ui-resizable-e {
+  background: url("../images_doxygen/resize.png") no-repeat scroll right center transparent;
+  cursor: e-resize;
+  height: 100%;
+  top: 0;
+  right: -31px;
+  width: 1.3125em;
+  position: relative;
+}
+
+/* line 222, ../../sass/_nav.scss */
+.nav-resize-handele {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  	/*font-size: $building_unit*.8;
+      font-family:$dtag_font_icon;
+      .r{
+      	right:0;
+      	position: absolute;
+      }
+      .l{
+      	position: absolute;
+  		left: 0;
+      }*/
+}
+
+/* line 240, ../../sass/_nav.scss */
+.nav-resize-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  margin-left: 0.625em;
+  border-left: 1px solid #d0d0d0;
+}
+
+/* line 254, ../../sass/_nav.scss */
+.ui-resizable-handle {
+  display: none;
+  /*font-size: 0.1px;*/
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 263, ../../sass/_nav.scss */
+#nav-sync {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+/* line 268, ../../sass/_nav.scss */
+#nav-sync .DTExperience {
+  font-size: 62.5%;
+}
+
+/* line 273, ../../sass/_nav.scss */
+#nav-sync img {
+  opacity: 0.3;
+}
+
+/* line 277, ../../sass/_nav.scss */
+#nav-sync img:hover {
+  opacity: 0.9;
+}
+
+/* line 281, ../../sass/_nav.scss */
+#btn-back {
+  position: absolute;
+  left: 0;
+  top: -34px;
+  z-index: 2000;
+}
+/* line 286, ../../sass/_nav.scss */
+#btn-back.DTExperience {
+  font-size: 62.5%;
+}
+
+@media print {
+  /* line 293, ../../sass/_nav.scss */
+  #nav-tree {
+    display: none;
+  }
+
+  /* line 294, ../../sass/_nav.scss */
+  div.ui-resizable-handle {
+    display: none;
+    position: relative;
+  }
+}
+/* ***************** GOOD OLD DOXYGEN STYLES *************************************** */
+/* doxygen.css
+ *********************************************************************************** */
+/* The standard CSS for doxygen */
+/* line 7, ../../sass/_doxygen_original.scss */
+body, table, div, p, dl {
+  /*font: 400 14px/19px Roboto,sans-serif;*/
+}
+
+/* @group Heading Levels */
+/*
+h1 {
+	font-size: 150%;
+}
+*/
+/*.title {
+	font-size: 150%;
+	font-weight: bold;
+	margin: 10px 2px;
+}*/
+/* line 25, ../../sass/_doxygen_original.scss */
+h2 {
+  /*border-bottom: 1px solid #9E9E9E;
+  color: #4A4A4A;
+  font-size: 150%;
+  font-weight: normal;
+  margin-top: 1.75em;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  width: 100%;*/
+}
+
+/* line 36, ../../sass/_doxygen_original.scss */
+h3 {
+  font-size: 100%;
+}
+
+/* line 40, ../../sass/_doxygen_original.scss */
+h1, h2, h3, h4, h5, h6 {
+  -webkit-transition: text-shadow 0.5s linear;
+  -moz-transition: text-shadow 0.5s linear;
+  -ms-transition: text-shadow 0.5s linear;
+  -o-transition: text-shadow 0.5s linear;
+  transition: text-shadow 0.5s linear;
+  margin-right: 15px;
+}
+
+/* line 49, ../../sass/_doxygen_original.scss */
+h1.glow, h2.glow, h3.glow, h4.glow, h5.glow, h6.glow {
+  text-shadow: 0 0 15px cyan;
+}
+
+/* line 53, ../../sass/_doxygen_original.scss */
+dt {
+  font-weight: bold;
+}
+
+/* line 57, ../../sass/_doxygen_original.scss */
+div.multicol {
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+}
+
+/* line 64, ../../sass/_doxygen_original.scss */
+p.startli, p.startdd, p.starttd {
+  margin-top: 2px;
+}
+
+/* line 68, ../../sass/_doxygen_original.scss */
+p.endli {
+  margin-bottom: 0px;
+}
+
+/* line 72, ../../sass/_doxygen_original.scss */
+p.enddd {
+  margin-bottom: 4px;
+}
+
+/* line 76, ../../sass/_doxygen_original.scss */
+p.endtd {
+  margin-bottom: 2px;
+}
+
+/* @end */
+/* line 82, ../../sass/_doxygen_original.scss */
+caption {
+  font-weight: bold;
+}
+
+/* line 86, ../../sass/_doxygen_original.scss */
+span.legend {
+  font-size: 70%;
+  text-align: center;
+}
+
+/* line 91, ../../sass/_doxygen_original.scss */
+h3.version {
+  font-size: 90%;
+  text-align: center;
+}
+
+/* line 96, ../../sass/_doxygen_original.scss */
+div.qindex, div.navtab {
+  background-color: #EFEFEF;
+  border: 1px solid #B4B4B4;
+  text-align: center;
+}
+
+/* line 102, ../../sass/_doxygen_original.scss */
+div.qindex, div.navpath {
+  width: 100%;
+  line-height: 140%;
+}
+
+/* line 107, ../../sass/_doxygen_original.scss */
+div.navtab {
+  margin-right: 15px;
+}
+
+/* @group Link Styling */
+/* line 113, ../../sass/_doxygen_original.scss */
+a {
+  color: #565656;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/*.contents a:visited {
+	color: #666666;
+}*/
+/* line 123, ../../sass/_doxygen_original.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 127, ../../sass/_doxygen_original.scss */
+a.qindex {
+  font-weight: bold;
+}
+
+/* line 131, ../../sass/_doxygen_original.scss */
+a.qindexHL {
+  font-weight: bold;
+  background-color: #AEAEAE;
+  color: #ffffff;
+  border: 1px double #9D9D9D;
+}
+
+/* line 138, ../../sass/_doxygen_original.scss */
+.contents a.qindexHL:visited {
+  color: #ffffff;
+}
+
+/* line 142, ../../sass/_doxygen_original.scss */
+a.el {
+  font-weight: bold;
+}
+
+/* line 149, ../../sass/_doxygen_original.scss */
+a.code, a.code:visited {
+  color: #4665A2;
+}
+
+/* line 153, ../../sass/_doxygen_original.scss */
+a.codeRef, a.codeRef:visited {
+  color: #4665A2;
+}
+
+/* @end */
+/* line 159, ../../sass/_doxygen_original.scss */
+dl.el {
+  margin-left: -1cm;
+}
+
+/* line 163, ../../sass/_doxygen_original.scss */
+pre.fragment {
+  border: 1px solid #C4CFE5;
+  background-color: #FBFCFD;
+  padding: 4px 6px;
+  margin: 4px 8px 4px 2px;
+  overflow: auto;
+  word-wrap: break-word;
+  font-size: 9pt;
+  line-height: 125%;
+  font-family: monospace, fixed;
+  font-size: 105%;
+}
+
+/* line 176, ../../sass/_doxygen_original.scss */
+div.fragment {
+  padding: 4px;
+  margin: 4px;
+  background-color: #FCFCFC;
+  border: 1px solid #CFCFCF;
+}
+
+/* line 183, ../../sass/_doxygen_original.scss */
+div.ah {
+  background-color: black;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  padding: 0.2em;
+  border: solid thin #333;
+  border-radius: 0.5em;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  box-shadow: 2px 2px 3px #999;
+  -webkit-box-shadow: 2px 2px 3px #999;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 2px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(black), color-stop(0.3, #444444));
+  background-image: -moz-linear-gradient(center top, #eeeeee 0%, #444444 40%, black);
+}
+
+/* line 201, ../../sass/_doxygen_original.scss */
+div.groupHeader {
+  margin-left: 16px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+/* line 207, ../../sass/_doxygen_original.scss */
+div.groupText {
+  margin-left: 16px;
+  font-style: italic;
+}
+
+/* line 212, ../../sass/_doxygen_original.scss */
+body {
+  background-color: white;
+  color: black;
+  margin: 0;
+}
+
+/*div.contents {
+	margin-top: 10px;
+	margin-left: 12px;
+	margin-right: 8px;
+}*/
+/* line 224, ../../sass/_doxygen_original.scss */
+td.indexkey {
+  background-color: #EFEFEF;
+  font-weight: bold;
+  border: 1px solid #CFCFCF;
+  margin: 2px 0px 2px 0;
+  padding: 2px 10px;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+/* line 234, ../../sass/_doxygen_original.scss */
+td.indexvalue {
+  background-color: #EFEFEF;
+  border: 1px solid #CFCFCF;
+  padding: 2px 10px;
+  margin: 2px 0px;
+}
+
+/* line 241, ../../sass/_doxygen_original.scss */
+tr.memlist {
+  background-color: #F1F1F1;
+}
+
+/* line 245, ../../sass/_doxygen_original.scss */
+p.formulaDsp {
+  text-align: center;
+}
+
+/* line 253, ../../sass/_doxygen_original.scss */
+img.formulaInl {
+  vertical-align: middle;
+}
+
+/* line 257, ../../sass/_doxygen_original.scss */
+div.center {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+/* line 264, ../../sass/_doxygen_original.scss */
+div.center img {
+  border: 0px;
+}
+
+/* line 268, ../../sass/_doxygen_original.scss */
+address.footer {
+  text-align: right;
+  padding-right: 12px;
+}
+
+/* line 273, ../../sass/_doxygen_original.scss */
+img.footer {
+  border: 0px;
+  vertical-align: middle;
+}
+
+/* @group Code Colorization */
+/* line 280, ../../sass/_doxygen_original.scss */
+span.keyword {
+  color: green;
+}
+
+/* line 284, ../../sass/_doxygen_original.scss */
+span.keywordtype {
+  color: #604020;
+}
+
+/* line 288, ../../sass/_doxygen_original.scss */
+span.keywordflow {
+  color: #e08000;
+}
+
+/* line 292, ../../sass/_doxygen_original.scss */
+span.comment {
+  color: maroon;
+}
+
+/* line 296, ../../sass/_doxygen_original.scss */
+span.preprocessor {
+  color: #806020;
+}
+
+/* line 300, ../../sass/_doxygen_original.scss */
+span.stringliteral {
+  color: #002080;
+}
+
+/* line 304, ../../sass/_doxygen_original.scss */
+span.charliteral {
+  color: teal;
+}
+
+/* line 308, ../../sass/_doxygen_original.scss */
+span.vhdldigit {
+  color: magenta;
+}
+
+/* line 312, ../../sass/_doxygen_original.scss */
+span.vhdlchar {
+  color: black;
+}
+
+/* line 316, ../../sass/_doxygen_original.scss */
+span.vhdlkeyword {
+  color: #700070;
+}
+
+/* line 320, ../../sass/_doxygen_original.scss */
+span.vhdllogic {
+  color: red;
+}
+
+/* line 324, ../../sass/_doxygen_original.scss */
+blockquote {
+  background-color: #F8F8F8;
+  border-left: 2px solid #AEAEAE;
+  margin: 0 24px 0 4px;
+  padding: 0 12px 0 16px;
+}
+
+/* @end */
+/*
+.search {
+	color: #003399;
+	font-weight: bold;
+}
+
+form.search {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+input.search {
+	font-size: 75%;
+	color: #000080;
+	font-weight: normal;
+	background-color: #e8eef2;
+}
+*/
+/* line 352, ../../sass/_doxygen_original.scss */
+td.tiny {
+  font-size: 75%;
+}
+
+/* line 356, ../../sass/_doxygen_original.scss */
+.dirtab {
+  padding: 4px;
+  border-collapse: collapse;
+  border: 1px solid #B4B4B4;
+}
+
+/* line 362, ../../sass/_doxygen_original.scss */
+th.dirtab {
+  background: #EFEFEF;
+  font-weight: bold;
+}
+
+/* line 367, ../../sass/_doxygen_original.scss */
+hr {
+  height: 0px;
+  border: none;
+  border-top: 1px solid #6C6C6C;
+}
+
+/* line 373, ../../sass/_doxygen_original.scss */
+hr.footer {
+  height: 1px;
+}
+
+/* @group Member Descriptions */
+/* line 379, ../../sass/_doxygen_original.scss */
+table.memberdecls {
+  border-spacing: 0px;
+  padding: 0px;
+}
+
+/* line 384, ../../sass/_doxygen_original.scss */
+.memberdecls td, .fieldtable tr {
+  -webkit-transition-property: background-color, box-shadow;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-property: background-color, box-shadow;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-property: background-color, box-shadow;
+  -ms-transition-duration: 0.5s;
+  -o-transition-property: background-color, box-shadow;
+  -o-transition-duration: 0.5s;
+  transition-property: background-color, box-shadow;
+  transition-duration: 0.5s;
+}
+
+/* line 397, ../../sass/_doxygen_original.scss */
+.memberdecls td.glow, .fieldtable tr.glow {
+  background-color: cyan;
+  box-shadow: 0 0 15px cyan;
+}
+
+/* line 404, ../../sass/_doxygen_original.scss */
+.mdescLeft, .mdescRight,
+.memItemLeft, .memItemRight,
+.memTemplItemLeft, .memTemplItemRight, .memTemplParams {
+  background-color: #FAFAFA;
+  border: none;
+  margin: 4px;
+  padding: 1px 0 0 8px;
+}
+
+/* line 412, ../../sass/_doxygen_original.scss */
+.mdescLeft, .mdescRight {
+  padding: 0px 8px 4px 8px;
+  color: #555;
+}
+
+/* line 417, ../../sass/_doxygen_original.scss */
+.memItemLeft, .memItemRight, .memTemplParams {
+  border-bottom: 1px solid #E3E3E3;
+}
+
+/* line 421, ../../sass/_doxygen_original.scss */
+.memItemLeft, .memTemplItemLeft {
+  white-space: nowrap;
+}
+
+/* line 425, ../../sass/_doxygen_original.scss */
+.memItemRight {
+  width: 100%;
+}
+
+/* line 431, ../../sass/_doxygen_original.scss */
+.memTemplParams {
+  color: #666666;
+  white-space: nowrap;
+}
+
+/* @end */
+/* @group Member Details */
+/* Styles for detailed member documentation */
+/* line 442, ../../sass/_doxygen_original.scss */
+.memtemplate {
+  font-size: 80%;
+  color: #666666;
+  font-weight: normal;
+  margin-left: 9px;
+}
+
+/* line 449, ../../sass/_doxygen_original.scss */
+.memnav {
+  background-color: #EFEFEF;
+  border: 1px solid #B4B4B4;
+  text-align: center;
+  margin: 2px;
+  margin-right: 15px;
+  padding: 2px;
+}
+
+/* line 458, ../../sass/_doxygen_original.scss */
+.mempage {
+  width: 100%;
+}
+
+/*.memitem {
+	padding: 0;
+	margin-bottom: 10px;
+	margin-right: 5px;
+        -webkit-transition: box-shadow 0.5s linear;
+        -moz-transition: box-shadow 0.5s linear;
+        -ms-transition: box-shadow 0.5s linear;
+        -o-transition: box-shadow 0.5s linear;
+        transition: box-shadow 0.5s linear;
+        display: table !important;
+        width: 100%;
+}
+
+.memitem.glow {
+         box-shadow: 0 0 15px cyan;
+}
+
+.memname {
+        font-weight: bold;
+        margin-left: 6px;
+}
+
+.memname td {
+	vertical-align: bottom;
+}*/
+/*.memproto, dl.reflist dt {
+        border-top: 1px solid #B8B8B8;
+        border-left: 1px solid #B8B8B8;
+        border-right: 1px solid #B8B8B8;
+        padding: 6px 0px 6px 0px;
+        color: #303030;
+        font-weight: bold;
+        text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
+        background-image:url('nav_f.png');
+        background-repeat:repeat-x;
+        background-color: #E7E7E7;
+        opera specific markup 
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+      firefox specific markup
+        -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+        -moz-border-radius-topright: 4px;
+        -moz-border-radius-topleft: 4px;
+        webkit specific markup 
+        -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        -webkit-border-top-right-radius: 4px;
+        -webkit-border-top-left-radius: 4px;
+
+} 
+
+.memdoc, dl.reflist dd {
+        border-bottom: 1px solid #B8B8B8;      
+        border-left: 1px solid #B8B8B8;      
+        border-right: 1px solid #B8B8B8; 
+        padding: 6px 10px 2px 10px;
+        background-color: #FCFCFC;
+        border-top-width: 0;
+        background-image:url('nav_g.png');
+        background-repeat:repeat-x;
+        background-color: #FFFFFF;
+         opera specific markup 
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        firefox specific markup 
+        -moz-border-radius-bottomleft: 4px;
+        -moz-border-radius-bottomright: 4px;
+        -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+         webkit specific markup 
+        -webkit-border-bottom-left-radius: 4px;
+        -webkit-border-bottom-right-radius: 4px;
+        -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}*/
+/* line 538, ../../sass/_doxygen_original.scss */
+dl.reflist dt {
+  padding: 5px;
+}
+
+/* line 542, ../../sass/_doxygen_original.scss */
+dl.reflist dd {
+  margin: 0px 0px 10px 0px;
+  padding: 5px;
+}
+
+/*.paramkey {
+	text-align: right;
+}
+
+.paramtype {
+	white-space: nowrap;
+}
+
+.paramname {
+	color: #602020;
+	white-space: nowrap;
+}
+.paramname em {
+	font-style: normal;
+}
+.paramname code {
+        line-height: 14px;
+}
+
+.params, .retval, .exception, .tparams {
+        margin-left: 0px;
+        padding-left: 0px;
+}       
+
+.params .paramname, .retval .paramname {
+        font-weight: bold;
+        vertical-align: top;
+}
+        
+.params .paramtype {
+        font-style: italic;
+        vertical-align: top;
+}       
+        
+.params .paramdir {
+        font-family: "courier new",courier,monospace;
+        vertical-align: top;
+}
+
+/*table.mlabels {
+	border-spacing: 0px;
+}
+
+td.mlabels-left {
+	width: 100%;
+	padding: 0px;
+}
+
+td.mlabels-right {
+	vertical-align: bottom;
+	padding: 0px;
+	white-space: nowrap;
+}
+
+span.mlabels {
+        margin-left: 8px;
+}
+
+span.mlabel {
+        background-color: #8E8E8E;
+        border-top:1px solid #767676;
+        border-left:1px solid #767676;
+        border-right:1px solid #CFCFCF;
+        border-bottom:1px solid #CFCFCF;
+	text-shadow: none;
+        color: white;
+        margin-right: 4px;
+        padding: 2px 3px;
+        border-radius: 3px;
+        font-size: 7pt;
+	white-space: nowrap;
+}*/
+/* @end */
+/* these are for tree view when not used as main index */
+/*div.directory {
+        margin: 10px 0px;
+        border-top: 1px solid $dtag_primary_gray_3;
+        border-bottom: 1px solid $dtag_primary_gray_3;
+        width: 100%;
+}
+
+.directory table {
+        border-collapse:collapse;
+}
+
+.directory td {
+        margin: 0px;
+        padding: 0px;
+	vertical-align: top;
+}
+
+.directory td.entry {
+        white-space: nowrap;
+        padding-right: 6px;
+}
+
+.directory td.entry a {
+        outline:none;
+}
+
+.directory td.entry a img {
+        border: none;
+}
+
+.directory td.desc {
+        width: 100%;
+        padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	border-left: 1px solid rgba(0,0,0,0.05);
+}
+
+.directory tr.even {
+	padding-left: 6px;
+	background-color: #F8F8F8;
+}
+
+.directory img {
+	vertical-align: -30%;
+}
+
+.directory .levels {
+        white-space: nowrap;
+        width: 100%;
+        text-align: right;
+        font-size: 9pt;
+}
+
+.directory .levels span {
+        cursor: pointer;
+        padding-left: 2px;
+        padding-right: 2px;
+	color: #565656;
+}*/
+/*div.dynheader {
+        margin-top: 8px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}*/
+/* line 697, ../../sass/_doxygen_original.scss */
+address {
+  font-style: normal;
+  color: #393939;
+}
+
+/* line 702, ../../sass/_doxygen_original.scss */
+table.doxtable {
+  border-collapse: collapse;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+/* line 708, ../../sass/_doxygen_original.scss */
+table.doxtable td, table.doxtable th {
+  border: 1px solid #3D3D3D;
+  padding: 3px 7px 2px;
+}
+
+/* line 713, ../../sass/_doxygen_original.scss */
+table.doxtable th {
+  background-color: #4D4D4D;
+  color: #FFFFFF;
+  font-size: 110%;
+  padding-bottom: 4px;
+  padding-top: 5px;
+}
+
+/* line 721, ../../sass/_doxygen_original.scss */
+table.fieldtable {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #B8B8B8;
+  border-spacing: 0px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 2px;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* line 734, ../../sass/_doxygen_original.scss */
+.fieldtable td, .fieldtable th {
+  padding: 3px 7px 2px;
+}
+
+/* line 738, ../../sass/_doxygen_original.scss */
+.fieldtable td.fieldtype, .fieldtable td.fieldname {
+  white-space: nowrap;
+  border-right: 1px solid #B8B8B8;
+  border-bottom: 1px solid #B8B8B8;
+  vertical-align: top;
+}
+
+/* line 745, ../../sass/_doxygen_original.scss */
+.fieldtable td.fielddoc {
+  border-bottom: 1px solid #B8B8B8;
+  width: 100%;
+}
+
+/* line 750, ../../sass/_doxygen_original.scss */
+.fieldtable tr:last-child td {
+  border-bottom: none;
+}
+
+/* line 754, ../../sass/_doxygen_original.scss */
+.fieldtable th {
+  background-image: url("nav_f.png");
+  background-repeat: repeat-x;
+  background-color: #E7E7E7;
+  font-size: 90%;
+  color: #303030;
+  padding-bottom: 4px;
+  padding-top: 5px;
+  text-align: left;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: 1px solid #B8B8B8;
+}
+
+/* line 773, ../../sass/_doxygen_original.scss */
+.tabsearch {
+  top: 0px;
+  left: 10px;
+  height: 36px;
+  background-image: url("tab_b.png");
+  z-index: 101;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+/* line 784, ../../sass/_doxygen_original.scss */
+.navpath ul {
+  font-size: 11px;
+  background-image: url("tab_b.png");
+  background-repeat: repeat-x;
+  height: 30px;
+  line-height: 30px;
+  color: #A0A0A0;
+  border: solid 1px #CDCDCD;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 798, ../../sass/_doxygen_original.scss */
+.navpath li {
+  list-style-type: none;
+  float: left;
+  padding-left: 10px;
+  padding-right: 15px;
+  background-image: url("bc_s.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #4B4B4B;
+}
+
+/* line 810, ../../sass/_doxygen_original.scss */
+.navpath li.navelem a {
+  height: 32px;
+  display: block;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Lucida Grande',Geneva,Helvetica,Arial,sans-serif;
+}
+
+/* line 819, ../../sass/_doxygen_original.scss */
+.navpath li.navelem a:hover {
+  color: #868686;
+}
+
+/* line 824, ../../sass/_doxygen_original.scss */
+.navpath li.footer {
+  list-style-type: none;
+  float: right;
+  padding-left: 10px;
+  padding-right: 15px;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #4B4B4B;
+  font-size: 8pt;
+}
+
+/*div.summary
+{
+	float: right;
+	font-size: 8pt;
+	padding-right: 5px;
+	width: 50%;
+	text-align: right;
+}
+
+div.summary a
+{
+	white-space: nowrap;
+}*/
+/* line 852, ../../sass/_doxygen_original.scss */
+div.ingroups {
+  font-size: 8pt;
+  width: 50%;
+  text-align: left;
+}
+
+/* line 859, ../../sass/_doxygen_original.scss */
+div.ingroups a {
+  white-space: nowrap;
+}
+
+/*div.header
+{
+        background-image:url('nav_h.png');
+        background-repeat:repeat-x;
+	background-color: #FAFAFA;
+	margin:  0px;
+	border-bottom: 1px solid #CFCFCF;
+}*/
+/* line 873, ../../sass/_doxygen_original.scss */
+div.headertitle {
+  /*padding: 5px 5px 5px 10px;*/
+}
+
+/* line 878, ../../sass/_doxygen_original.scss */
+dl {
+  padding: 0 0 0 10px;
+}
+
+/* dl.note, dl.warning, dl.attention, dl.pre, dl.post, dl.invariant, dl.deprecated, dl.todo, dl.test, dl.bug */
+/* line 884, ../../sass/_doxygen_original.scss */
+dl.section {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+/* line 890, ../../sass/_doxygen_original.scss */
+dl.note {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #D0C000;
+}
+
+/* line 898, ../../sass/_doxygen_original.scss */
+dl.warning, dl.attention {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #FF0000;
+}
+
+/* line 906, ../../sass/_doxygen_original.scss */
+dl.pre, dl.post, dl.invariant {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #00D000;
+}
+
+/* line 914, ../../sass/_doxygen_original.scss */
+dl.deprecated {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #505050;
+}
+
+/* line 922, ../../sass/_doxygen_original.scss */
+dl.todo {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #00C0E0;
+}
+
+/* line 930, ../../sass/_doxygen_original.scss */
+dl.test {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #3030E0;
+}
+
+/* line 938, ../../sass/_doxygen_original.scss */
+dl.bug {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #C08050;
+}
+
+/* line 945, ../../sass/_doxygen_original.scss */
+dl.section dd {
+  margin-bottom: 6px;
+}
+
+/* line 951, ../../sass/_doxygen_original.scss */
+#projectlogo {
+  text-align: center;
+  vertical-align: bottom;
+  border-collapse: separate;
+}
+
+/* line 958, ../../sass/_doxygen_original.scss */
+#projectlogo img {
+  border: 0px none;
+}
+
+/* line 963, ../../sass/_doxygen_original.scss */
+#projectname {
+  font: 300% Tahoma, Arial,sans-serif;
+  margin: 0px;
+  padding: 2px 0px;
+}
+
+/* line 970, ../../sass/_doxygen_original.scss */
+#projectbrief {
+  font: 120% Tahoma, Arial,sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 977, ../../sass/_doxygen_original.scss */
+#projectnumber {
+  font: 50% Tahoma, Arial,sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 984, ../../sass/_doxygen_original.scss */
+#titlearea {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  border-bottom: 1px solid #767676;
+}
+
+/* line 992, ../../sass/_doxygen_original.scss */
+.image {
+  text-align: center;
+}
+
+/* line 997, ../../sass/_doxygen_original.scss */
+.dotgraph {
+  text-align: center;
+}
+
+/* line 1002, ../../sass/_doxygen_original.scss */
+.mscgraph {
+  text-align: center;
+}
+
+/* line 1007, ../../sass/_doxygen_original.scss */
+.caption {
+  font-weight: bold;
+}
+
+/* line 1012, ../../sass/_doxygen_original.scss */
+div.zoom {
+  border: 1px solid #A5A5A5;
+}
+
+/* line 1016, ../../sass/_doxygen_original.scss */
+dl.citelist {
+  margin-bottom: 50px;
+}
+
+/* line 1020, ../../sass/_doxygen_original.scss */
+dl.citelist dt {
+  color: #464646;
+  float: left;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+/* line 1028, ../../sass/_doxygen_original.scss */
+dl.citelist dd {
+  margin: 2px 0;
+  padding: 5px 0;
+}
+
+/* line 1033, ../../sass/_doxygen_original.scss */
+div.toc {
+  padding: 14px 25px;
+  background-color: #F6F6F6;
+  border: 1px solid #DFDFDF;
+  border-radius: 7px 7px 7px 7px;
+  float: right;
+  height: auto;
+  margin: 0 20px 10px 10px;
+  width: 200px;
+}
+
+/* line 1044, ../../sass/_doxygen_original.scss */
+div.toc li {
+  background: url("bdwn.png") no-repeat scroll 0 5px transparent;
+  font: 10px/1.2 Verdana, DejaVu Sans, Geneva, sans-serif;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+/* line 1052, ../../sass/_doxygen_original.scss */
+div.toc h3 {
+  font: bold 12px/1.2 Arial, FreeSans, sans-serif;
+  color: #666666;
+  border-bottom: 0 none;
+  margin: 0;
+}
+
+/* line 1059, ../../sass/_doxygen_original.scss */
+div.toc ul {
+  list-style: none outside none;
+  border: medium none;
+  padding: 0px;
+}
+
+/* line 1065, ../../sass/_doxygen_original.scss */
+div.toc li.level1 {
+  margin-left: 0px;
+}
+
+/* line 1069, ../../sass/_doxygen_original.scss */
+div.toc li.level2 {
+  margin-left: 15px;
+}
+
+/* line 1073, ../../sass/_doxygen_original.scss */
+div.toc li.level3 {
+  margin-left: 30px;
+}
+
+/* line 1077, ../../sass/_doxygen_original.scss */
+div.toc li.level4 {
+  margin-left: 45px;
+}
+
+/* line 1081, ../../sass/_doxygen_original.scss */
+.inherit_header {
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 1093, ../../sass/_doxygen_original.scss */
+.inherit_header td {
+  padding: 6px 0px 2px 5px;
+}
+
+/* line 1097, ../../sass/_doxygen_original.scss */
+.inherit {
+  display: none;
+}
+
+/* line 1101, ../../sass/_doxygen_original.scss */
+tr.heading h2 {
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+@media print {
+  /* line 1108, ../../sass/_doxygen_original.scss */
+  #top {
+    display: none;
+  }
+
+  /* line 1109, ../../sass/_doxygen_original.scss */
+  #side-nav {
+    display: none;
+  }
+
+  /* line 1110, ../../sass/_doxygen_original.scss */
+  #nav-path {
+    display: none;
+  }
+
+  /* line 1111, ../../sass/_doxygen_original.scss */
+  body {
+    overflow: visible;
+  }
+
+  /* line 1112, ../../sass/_doxygen_original.scss */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+
+  /* line 1113, ../../sass/_doxygen_original.scss */
+  .summary {
+    display: none;
+  }
+
+  /* line 1114, ../../sass/_doxygen_original.scss */
+  .memitem {
+    page-break-inside: avoid;
+  }
+
+  /* line 1116, ../../sass/_doxygen_original.scss */
+  #doc-content {
+    margin-left: 0 !important;
+    height: auto !important;
+    width: auto !important;
+    overflow: inherit;
+    display: inline;
+  }
+}
+/* tabs.css
+ *********************************************************************************** */
+/* line 1128, ../../sass/_doxygen_original.scss */
+.tabs, .tabs2, .tabs3 {
+  background-image: url("tab_b.png");
+  width: 100%;
+  z-index: 101;
+  font-size: 13px;
+  font-family: 'Lucida Grande',Geneva,Helvetica,Arial,sans-serif;
+}
+
+/* line 1136, ../../sass/_doxygen_original.scss */
+.tabs2 {
+  font-size: 10px;
+}
+
+/* line 1139, ../../sass/_doxygen_original.scss */
+.tabs3 {
+  font-size: 9px;
+}
+
+/* line 1143, ../../sass/_doxygen_original.scss */
+.tablist {
+  margin: 0;
+  padding: 0;
+  display: table;
+}
+
+/* line 1149, ../../sass/_doxygen_original.scss */
+.tablist li {
+  float: left;
+  display: table-cell;
+  background-image: url("tab_b.png");
+  line-height: 36px;
+  list-style: none;
+}
+
+/* line 1157, ../../sass/_doxygen_original.scss */
+.tablist a {
+  display: block;
+  padding: 0 20px;
+  font-weight: bold;
+  background-image: url("tab_s.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #353535;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 1170, ../../sass/_doxygen_original.scss */
+.tabs3 .tablist a {
+  padding: 0 10px;
+}
+
+/* line 1174, ../../sass/_doxygen_original.scss */
+.tablist a:hover {
+  background-image: url("tab_h.png");
+  background-repeat: repeat-x;
+  color: #fff;
+  text-shadow: 0px 1px 1px black;
+  text-decoration: none;
+}
+
+/* line 1182, ../../sass/_doxygen_original.scss */
+.tablist li.current a {
+  background-image: url("tab_a.png");
+  background-repeat: repeat-x;
+  color: #fff;
+  text-shadow: 0px 1px 1px black;
+}
+
+/* navtree.css
+ *********************************************************************************** */
+/*#nav-tree .children_ul {
+  margin:0;
+  padding:4px;
+}
+
+#nav-tree ul {
+  list-style:none outside none;
+  margin:0px;
+  padding:0px;
+}
+
+#nav-tree li {
+  white-space:nowrap;
+  margin:0px;
+  padding:0px;
+}
+
+#nav-tree .plus {
+  margin:0px;
+}*/
+/*#nav-tree .selected {
+  background-image: url('tab_a.png');
+  background-repeat:repeat-x;
+  color: #fff;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
+}
+
+#nav-tree img {
+  margin:0px;
+  padding:0px;
+  border:0px;
+  vertical-align: middle;
+}*/
+/*#nav-tree a {
+  text-decoration:none;
+  padding:0px;
+  margin:0px;
+  outline:none;
+}
+
+#nav-tree .label {
+  margin:0px;
+  padding:0px;
+  font: 12px 'Lucida Grande',Geneva,Helvetica,Arial,sans-serif;
+}
+
+#nav-tree .label a {
+  padding:2px;
+}
+
+#nav-tree .selected a {
+  text-decoration:none;
+  color:#fff;
+}
+
+#nav-tree .children_ul {
+  margin:0px;
+  padding:0px;
+}
+
+#nav-tree .item {
+  margin:0px;
+  padding:0px;
+}
+
+#nav-tree {
+  padding: 0px 0px;
+  background-color: #FAFAFF; 
+  font-size:14px;
+  overflow:auto;
+}*/
+/*#side-nav {
+  padding:0 6px 0 0;
+  margin: 0px;
+  display:block;
+  position: absolute;
+  left: 0px;
+  width: 300px;
+}
+
+.ui-resizable .ui-resizable-handle {
+  display:block;
+}
+
+.ui-resizable-e {
+  background:url("ftv2splitbar.png") repeat scroll right center transparent;
+  cursor:e-resize;
+  height:100%;
+  right:0;
+  top:0;
+  width:6px;
+}
+
+.ui-resizable-handle {
+  display:none;
+  font-size:0.1px;
+  position:absolute;
+  z-index:1;
+}*/
+/* line 1297, ../../sass/_doxygen_original.scss */
+#nav-tree-contents {
+  /*margin: 6px 0px 0px 0px;*/
+}
+
+/*#nav-tree {
+  background-image:url('nav_h.png');
+  background-repeat:repeat-x;
+  background-color: #FAFAFA;
+  -webkit-overflow-scrolling : touch; 
+}*/
+/*#nav-sync {
+  position:absolute;
+  top:5px;
+  right:24px;
+  z-index:0;
+}
+
+#nav-sync img {
+  opacity:0.3;
+}
+
+#nav-sync img:hover {
+  opacity:0.9;
+}
+
+@media print
+{
+  #nav-tree { display: none; }
+  div.ui-resizable-handle { display: none; position: relative; }
+}*/
+/* ***************** // GOOD OLD DOXYGEN STYLES ************************************ */
+@encoding "UTF-8";
+/* normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 21, ../../sass/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 31, ../../sass/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 40, ../../sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 49, ../../sass/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 63, ../../sass/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+ * Removes default margin.
+ */
+/* line 73, ../../sass/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 85, ../../sass/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, ../../sass/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 107, ../../sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 115, ../../sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, ../../sass/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 132, ../../sass/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 140, ../../sass/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 153, ../../sass/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 162, ../../sass/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 172, ../../sass/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 180, ../../sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, ../../sass/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 196, ../../sass/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 200, ../../sass/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 212, ../../sass/_normalize.scss */
+img {
+  border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 220, ../../sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 232, ../../sass/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 244, ../../sass/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 255, ../../sass/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 269, ../../sass/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, ../../sass/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 296, ../../sass/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, ../../sass/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, ../../sass/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 327, ../../sass/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, ../../sass/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, ../../sass/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 359, ../../sass/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 372, ../../sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* wished pixel size of an em */
+/* default pixel font size in most browsers */
+@encoding "UTF-8";
+@font-face {
+  font-family: 'Radiobutton';
+  src: url("../fonts/Radiobutton.eot");
+  src: url("../fonts/Radiobutton.eot?#iefix") format("embedded-opentype"), url("../fonts/Radiobutton.svg#Radiobutton") format("svg"), url("../fonts/Radiobutton.woff") format("woff"), url("../fonts/Radiobutton.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../sass/custom/_fonts.scss */
+[class^="icon-radiobutton"]:before, [class*=" icon-radiobutton"]:before {
+  font-family: 'Radiobutton';
+}
+
+/* line 19, ../../sass/custom/_fonts.scss */
+.icon-radiobutton_bg:before {
+  content: "\21";
+}
+
+/* line 22, ../../sass/custom/_fonts.scss */
+.icon-radiobutton_checked:before {
+  content: "\22";
+}
+
+/* line 25, ../../sass/custom/_fonts.scss */
+.icon-radiobutton_shadow:before {
+  content: "\23";
+}
+
+@font-face {
+  font-family: 'Iconfont-Testset_V01';
+  src: url("../fonts/Iconfont-Testset_V01.eot");
+  src: url("../fonts/Iconfont-Testset_V01.eot?#iefix") format("embedded-opentype"), url("../fonts/Iconfont-Testset_V01.svg#Iconfont-Testset_V01") format("svg"), url("../fonts/Iconfont-Testset_V01.woff") format("woff"), url("../fonts/Iconfont-Testset_V01.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 56, ../../sass/custom/_fonts.scss */
+.icon:before {
+  font-family: Iconfont-Testset_V01;
+}
+
+/* line 60, ../../sass/custom/_fonts.scss */
+.icon-error .icon:before {
+  content: "\78";
+}
+
+/* line 63, ../../sass/custom/_fonts.scss */
+.icon-success .icon:before {
+  content: "\76";
+}
+
+/* line 66, ../../sass/custom/_fonts.scss */
+.icon-loading-indicator .icon:before {
+  content: "\6f";
+}
+
+/* line 69, ../../sass/custom/_fonts.scss */
+.icon-link .icon:before {
+  content: "\6c";
+}
+
+/* line 72, ../../sass/custom/_fonts.scss */
+.icon-edit .icon:before {
+  content: "\65";
+}
+
+/* line 75, ../../sass/custom/_fonts.scss */
+.icon-file .icon:before {
+  content: "\66";
+}
+
+/* line 78, ../../sass/custom/_fonts.scss */
+.icon-attachment .icon:before {
+  content: "\61";
+}
+
+/* line 81, ../../sass/custom/_fonts.scss */
+.icon-my-profile .icon:before {
+  content: "\55";
+}
+
+/* line 84, ../../sass/custom/_fonts.scss */
+.icon-zoom-out .icon:before {
+  content: "\5a";
+}
+
+/* line 87, ../../sass/custom/_fonts.scss */
+.icon-zoom-in .icon:before {
+  content: "\7a";
+}
+
+/* line 90, ../../sass/custom/_fonts.scss */
+.icon-warning .icon:before {
+  content: "\21";
+}
+
+/* line 93, ../../sass/custom/_fonts.scss */
+.icon-upload .icon:before {
+  content: "\75";
+}
+
+/* line 96, ../../sass/custom/_fonts.scss */
+.icon-tile-view .icon:before {
+  content: "\30";
+}
+
+/* line 99, ../../sass/custom/_fonts.scss */
+.icon-tablet-pc .icon:before {
+  content: "\45";
+}
+
+/* line 102, ../../sass/custom/_fonts.scss */
+.icon-synchronize .icon:before {
+  content: "\73";
+}
+
+/* line 105, ../../sass/custom/_fonts.scss */
+.icon-stop .icon:before {
+  content: "\36";
+}
+
+/* line 108, ../../sass/custom/_fonts.scss */
+.icon-start-call .icon:before {
+  content: "\4a";
+}
+
+/* line 111, ../../sass/custom/_fonts.scss */
+.icon-speaker-on .icon:before {
+  content: "\6b";
+}
+
+/* line 114, ../../sass/custom/_fonts.scss */
+.icon-speaker-off .icon:before {
+  content: "\4b";
+}
+
+/* line 117, ../../sass/custom/_fonts.scss */
+.icon-smartphone .icon:before {
+  content: "\57";
+}
+
+/* line 120, ../../sass/custom/_fonts.scss */
+.icon-skip-to-start .icon:before {
+  content: "\31";
+}
+
+/* line 123, ../../sass/custom/_fonts.scss */
+.icon-skip-to-end .icon:before {
+  content: "\39";
+}
+
+/* line 126, ../../sass/custom/_fonts.scss */
+.icon-shopping-cart .icon:before {
+  content: "\42";
+}
+
+/* line 129, ../../sass/custom/_fonts.scss */
+.icon-share .icon:before {
+  content: "\79";
+}
+
+/* line 132, ../../sass/custom/_fonts.scss */
+.icon-settings .icon:before {
+  content: "\53";
+}
+
+/* line 135, ../../sass/custom/_fonts.scss */
+.icon-search .icon:before {
+  content: "\71";
+}
+
+/* line 138, ../../sass/custom/_fonts.scss */
+.icon-scroll-right .icon:before {
+  content: "\2f";
+}
+
+/* line 141, ../../sass/custom/_fonts.scss */
+.icon-scroll-left .icon:before {
+  content: "\29";
+}
+
+/* line 144, ../../sass/custom/_fonts.scss */
+.icon-ringtone-on .icon:before {
+  content: "\6e";
+}
+
+/* line 147, ../../sass/custom/_fonts.scss */
+.icon-ringtone-off .icon:before {
+  content: "\4e";
+}
+
+/* line 150, ../../sass/custom/_fonts.scss */
+.icon-rewind .icon:before {
+  content: "\33";
+}
+
+/* line 153, ../../sass/custom/_fonts.scss */
+.icon-reply .icon:before {
+  content: "\72";
+}
+
+/* line 156, ../../sass/custom/_fonts.scss */
+.icon-reload .icon:before {
+  content: "\67";
+}
+
+/* line 159, ../../sass/custom/_fonts.scss */
+.icon-record .icon:before {
+  content: "\2e";
+}
+
+/* line 162, ../../sass/custom/_fonts.scss */
+.icon-print .icon:before {
+  content: "\70";
+}
+
+/* line 165, ../../sass/custom/_fonts.scss */
+.icon-previous .icon:before {
+  content: "\32";
+}
+
+/* line 168, ../../sass/custom/_fonts.scss */
+.icon-play .icon:before {
+  content: "\34";
+}
+
+/* line 171, ../../sass/custom/_fonts.scss */
+.icon-pause .icon:before {
+  content: "\35";
+}
+
+/* line 174, ../../sass/custom/_fonts.scss */
+.icon-next .icon:before {
+  content: "\38";
+}
+
+/* line 177, ../../sass/custom/_fonts.scss */
+.icon-navigation_up .icon:before {
+  content: "\22";
+}
+
+/* line 180, ../../sass/custom/_fonts.scss */
+.icon-navigation_right .icon:before {
+  content: "\a7";
+}
+
+/* line 183, ../../sass/custom/_fonts.scss */
+.icon-navigation_left .icon:before {
+  content: "\25";
+}
+
+/* line 186, ../../sass/custom/_fonts.scss */
+.icon-navigation_down .icon:before {
+  content: "\24";
+}
+
+/* line 189, ../../sass/custom/_fonts.scss */
+.icon-move-to-trash .icon:before {
+  content: "\44";
+}
+
+/* line 192, ../../sass/custom/_fonts.scss */
+.icon-more .icon:before {
+  content: "\3a";
+}
+
+/* line 195, ../../sass/custom/_fonts.scss */
+.icon-microphone-socket .icon:before {
+  content: "\4d";
+}
+
+/* line 198, ../../sass/custom/_fonts.scss */
+.icon-message .icon:before {
+  content: "\6d";
+}
+
+/* line 201, ../../sass/custom/_fonts.scss */
+.icon-login .icon:before {
+  content: "\48";
+}
+
+/* line 204, ../../sass/custom/_fonts.scss */
+.icon-lock .icon:before {
+  content: "\4c";
+}
+
+/* line 207, ../../sass/custom/_fonts.scss */
+.icon-list-view .icon:before {
+  content: "\3d";
+}
+
+/* line 210, ../../sass/custom/_fonts.scss */
+.icon-iptv .icon:before {
+  content: "\52";
+}
+
+/* line 213, ../../sass/custom/_fonts.scss */
+.icon-information .icon:before {
+  content: "\69";
+}
+
+/* line 216, ../../sass/custom/_fonts.scss */
+.icon-import .icon:before {
+  content: "\28";
+}
+
+/* line 219, ../../sass/custom/_fonts.scss */
+.icon-home .icon:before {
+  content: "\68";
+}
+
+/* line 222, ../../sass/custom/_fonts.scss */
+.icon-help .icon:before {
+  content: "\3f";
+}
+
+/* line 225, ../../sass/custom/_fonts.scss */
+.icon-forward .icon:before {
+  content: "\23";
+}
+
+/* line 228, ../../sass/custom/_fonts.scss */
+.icon-folder .icon:before {
+  content: "\46";
+}
+
+/* line 231, ../../sass/custom/_fonts.scss */
+.icon-filter .icon:before {
+  content: "\47";
+}
+
+/* line 234, ../../sass/custom/_fonts.scss */
+.icon-favorites .icon:before {
+  content: "\2a";
+}
+
+/* line 237, ../../sass/custom/_fonts.scss */
+.icon-fast-forward .icon:before {
+  content: "\37";
+}
+
+/* line 240, ../../sass/custom/_fonts.scss */
+.icon-export .icon:before {
+  content: "\26";
+}
+
+/* line 243, ../../sass/custom/_fonts.scss */
+.icon-end-call .icon:before {
+  content: "\6a";
+}
+
+/* line 246, ../../sass/custom/_fonts.scss */
+.icon-download .icon:before {
+  content: "\64";
+}
+
+/* line 249, ../../sass/custom/_fonts.scss */
+.icon-decrease .icon:before {
+  content: "\2d";
+}
+
+/* line 252, ../../sass/custom/_fonts.scss */
+.icon-cover-view .icon:before {
+  content: "\5c";
+}
+
+/* line 255, ../../sass/custom/_fonts.scss */
+.icon-copy .icon:before {
+  content: "\43";
+}
+
+/* line 258, ../../sass/custom/_fonts.scss */
+.icon-context-menu .icon:before {
+  content: "\63";
+}
+
+/* line 261, ../../sass/custom/_fonts.scss */
+.icon-confirm .icon:before {
+  content: "\56";
+}
+
+/* line 264, ../../sass/custom/_fonts.scss */
+.icon-computer .icon:before {
+  content: "\51";
+}
+
+/* line 267, ../../sass/custom/_fonts.scss */
+.icon-comment .icon:before {
+  content: "\49";
+}
+
+/* line 270, ../../sass/custom/_fonts.scss */
+.icon-cloud-view .icon:before {
+  content: "\59";
+}
+
+/* line 273, ../../sass/custom/_fonts.scss */
+.icon-clock .icon:before {
+  content: "\4f";
+}
+
+/* line 276, ../../sass/custom/_fonts.scss */
+.icon-cancel .icon:before {
+  content: "\58";
+}
+
+/* line 279, ../../sass/custom/_fonts.scss */
+.icon-calendar .icon:before {
+  content: "\41";
+}
+
+/* line 282, ../../sass/custom/_fonts.scss */
+.icon-bookmarks .icon:before {
+  content: "\62";
+}
+
+/* line 285, ../../sass/custom/_fonts.scss */
+.icon-Telekom-Digits .icon:before {
+  content: "\54";
+}
+
+/* line 288, ../../sass/custom/_fonts.scss */
+.icon-Telekom-1t1 .icon:before {
+  content: "\74";
+}
+
+/* line 291, ../../sass/custom/_fonts.scss */
+.icon-Telekom-3t7 .icon:before {
+  content: "\fc";
+}
+
+/* line 294, ../../sass/custom/_fonts.scss */
+.icon-Add-to-watchlist .icon:before {
+  content: "\50";
+}
+
+/* line 297, ../../sass/custom/_fonts.scss */
+.icon-Add .icon:before {
+  content: "\2b";
+}
+
+/* Border title */
+/* Border image */
+/* Text */
+/* Border default */
+/* Border list */
+/* Hyperlink */
+/*Hover List*/
+/*$delay-hover:50ms;
+$duration: 150ms;
+$timing:cubic-bezier(0.250, 0.250, 0.750, 0.750);
+$property: all;	*/
+/* addintional Colers */
+/* line 21, ../../sass/dtag_doxygen.scss */
+body, table, div, p, dl {
+  font-family: TeleGrotesk;
+  /*font-size:1em;*/
+  color: #4b4b4b;
+}
+/* line 26, ../../sass/dtag_doxygen.scss */
+body a, table a, div a, p a, dl a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
+/*************	Dtag Header Modul by "Mehrwert" **************/
+/* line 37, ../../sass/dtag_doxygen.scss */
+#dtag_wrapper {
+  font-size: 62.5% !important;
+  overflow: visible !important;
+  padding-bottom: 1.25em !important;
+  width: 100%;
+  float: left;
+}
+
+/*
+#dtag_wrapper {
+	overflow: visible !important;
+	padding-bottom: 4em !important;
+}
+*/
+/* line 52, ../../sass/dtag_doxygen.scss */
+#doxygen-wrapper {
+  padding: 0.625em 0.625em 0 0.625em;
+  clear: both;
+}
+
+/* line 57, ../../sass/dtag_doxygen.scss */
+.scaled-header {
+  width: 33% !important;
+}
+
+/* line 61, ../../sass/dtag_doxygen.scss */
+#dtag_servicelevel #dtag_helpdesklist {
+  z-index: 99999;
+}
+
+/* line 65, ../../sass/dtag_doxygen.scss */
+#dtag_servicelevel .dtag-grid-col-right {
+  float: right !important;
+}
+
+/* line 69, ../../sass/dtag_doxygen.scss */
+.DTExperience a.beta-message {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  background: #e20074;
+  border: none;
+  color: white;
+  font-size: 10px !important;
+  line-height: 17px !important;
+  margin-left: 0.5em;
+  vertical-align: super;
+}
+
+/* line 84, ../../sass/dtag_doxygen.scss */
+#toggle-fullscreen {
+  margin-right: .5em;
+}
+
+/* line 88, ../../sass/dtag_doxygen.scss */
+body {
+  font-size: 100% !important;
+}
+
+/* **************************	Doxygen  Search Modul	****************************************
+overwrite the regular CSS - because of the autogeneration of the CCS by Doxygen*/
+/* ************************** DOXYGEN search/search.css overrides **************************
+
+
+************************** modified source rules follow below ************************** */
+/*---------------- Search Box */
+/* line 104, ../../sass/dtag_doxygen.scss */
+#FSearchBox {
+  float: left;
+}
+
+/* line 117, ../../sass/dtag_doxygen.scss */
+#MSearchSelect {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 19px;
+}
+
+/* line 124, ../../sass/dtag_doxygen.scss */
+.left #MSearchSelect {
+  left: 4px;
+}
+
+/* line 128, ../../sass/dtag_doxygen.scss */
+.right #MSearchSelect {
+  right: 5px;
+}
+
+/* line 133, ../../sass/dtag_doxygen.scss */
+#MSearchBox .right {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  width: 20px;
+  height: 19px;
+  background: url("search_r.png") no-repeat;
+  background-position: left;
+}
+
+/* line 144, ../../sass/dtag_doxygen.scss */
+#MSearchIcon {
+  position: absolute;
+  top: 0.625em;
+  right: 0.625em;
+}
+
+/* line 150, ../../sass/dtag_doxygen.scss */
+#MSearchClose {
+  display: none;
+  position: absolute;
+  right: 0.625em;
+  top: 0.75em;
+  background: none;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 161, ../../sass/dtag_doxygen.scss */
+.left #MSearchClose {
+  left: 6px;
+}
+
+/* line 165, ../../sass/dtag_doxygen.scss */
+.right #MSearchClose {
+  right: 2px;
+}
+
+/* line 169, ../../sass/dtag_doxygen.scss */
+.MSearchBoxActive #MSearchField {
+  color: #000000;
+}
+
+/*---------------- Search filter selection */
+/* line 175, ../../sass/dtag_doxygen.scss */
+#MSearchSelectWindow {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid #d0d0d0;
+  background-color: #ededed;
+  z-index: 1;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-width: 7.5em;
+  -webkit-border-radius: 0.20833em;
+  -moz-border-radius: 0.20833em;
+  -ms-border-radius: 0.20833em;
+  -o-border-radius: 0.20833em;
+  border-radius: 0.20833em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0px;
+}
+
+/* line 189, ../../sass/dtag_doxygen.scss */
+.SelectItem {
+  padding-left: 2px;
+  padding-right: 12px;
+  border: 0px;
+}
+
+/* line 195, ../../sass/dtag_doxygen.scss */
+span.SelectionMark {
+  margin-right: 4px;
+  font-family: monospace;
+  outline-style: none;
+  text-decoration: none;
+}
+
+/* line 202, ../../sass/dtag_doxygen.scss */
+a.SelectItem {
+  display: block;
+  outline-style: none;
+  color: #000000;
+  text-decoration: none;
+  padding-left: 6px;
+  padding-right: 12px;
+  line-height: 1.25em;
+}
+
+/* line 214, ../../sass/dtag_doxygen.scss */
+a.SelectItem:focus,
+a.SelectItem:active {
+  color: #000000;
+  outline-style: none;
+  text-decoration: none;
+}
+
+/* line 220, ../../sass/dtag_doxygen.scss */
+a.SelectItem:hover {
+  color: #FFFFFF;
+  background-color: #565656;
+  outline-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+/*---------------- Search results window */
+/* line 231, ../../sass/dtag_doxygen.scss */
+iframe#MSearchResults {
+  height: 15em;
+  width: 100%;
+}
+
+/* line 236, ../../sass/dtag_doxygen.scss */
+#MSearchResultsWindow {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #FFF;
+  border: 1px solid #d0d0d0;
+  -moz-border-radius-bottomleft: 0.3125em;
+  -webkit-border-bottom-left-radius: 0.3125em;
+  border-bottom-left-radius: 0.3125em;
+  -moz-border-radius-bottomright: 0.3125em;
+  -webkit-border-bottom-right-radius: 0.3125em;
+  border-bottom-right-radius: 0.3125em;
+  -webkit-box-shadow: 0 2px 4px -3px black;
+}
+
+/* ----------------------------------- */
+/* line 253, ../../sass/dtag_doxygen.scss */
+#SRIndex {
+  clear: both;
+  padding-bottom: 15px;
+}
+
+/* line 258, ../../sass/dtag_doxygen.scss */
+.SREntry {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0.20833em 0.625em;
+}
+/* line 266, ../../sass/dtag_doxygen.scss */
+.SREntry a {
+  font-family: TeleGroteskHal;
+  font-weight: normal;
+  color: #0090c4;
+  outline: none;
+}
+
+/* line 278, ../../sass/dtag_doxygen.scss */
+.search-result-prefix {
+  margin: 0 0 0 0;
+  font-family: Tele-Icon;
+  font-size: 0.625em;
+  outline: none;
+  display: inline-block;
+  width: 2em;
+}
+
+/* line 287, ../../sass/dtag_doxygen.scss */
+body.SRPage {
+  margin: 5px 2px;
+}
+
+/* line 291, ../../sass/dtag_doxygen.scss */
+.SRChildren {
+  padding-left: 3ex;
+  padding-bottom: 0.5em;
+}
+
+/* line 295, ../../sass/dtag_doxygen.scss */
+.SRPage .SRChildren {
+  display: none;
+}
+
+/* line 299, ../../sass/dtag_doxygen.scss */
+.SRSymbol {
+  font-weight: bold;
+  color: #5E5E5E;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 306, ../../sass/dtag_doxygen.scss */
+a.SRScope {
+  display: block;
+  color: #5E5E5E;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 314, ../../sass/dtag_doxygen.scss */
+a.SRSymbol:focus, a.SRSymbol:active,
+a.SRScope:focus, a.SRScope:active {
+  text-decoration: underline;
+}
+
+/* line 318, ../../sass/dtag_doxygen.scss */
+span.SRScope {
+  padding-left: 4px;
+}
+
+/* line 322, ../../sass/dtag_doxygen.scss */
+.SRPage .SRStatus {
+  padding: 2px 5px;
+  font-size: 8pt;
+  font-style: italic;
+}
+
+/* line 328, ../../sass/dtag_doxygen.scss */
+.SRResult {
+  display: none;
+}
+
+/* line 332, ../../sass/dtag_doxygen.scss */
+DIV.searchresults {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* ************************** end of search/search.css contents ************************** */
+/* line 340, ../../sass/dtag_doxygen.scss */
+#doxygen-search {
+  position: relative;
+  width: 100%;
+}
+
+/*
+#MSearchBox {
+
+	position:relative;
+    white-space : nowrap;
+
+	margin: $building_unit*6 auto $building_unit*6 auto;
+    width:$building_unit*54;
+    height: $building_unit*4;
+    z-index: 102;
+    
+}
+*/
+/* line 358, ../../sass/dtag_doxygen.scss */
+#MSearchSelect {
+  display: block;
+  position: absolute;
+  right: 0.625em;
+  top: 0.56818em;
+  width: auto;
+  height: auto;
+}
+
+/* line 372, ../../sass/dtag_doxygen.scss */
+#MSearchSelectWindow {
+  z-index: 3000;
+}
+
+/* line 376, ../../sass/dtag_doxygen.scss */
+#MSearchResultsWindow {
+  width: 33.75em;
+  z-index: 2000;
+  -webkit-transform-style: preserve-3d;
+  /* fixes the typo weight bug in safari */
+}
+
+/* line 382, ../../sass/dtag_doxygen.scss */
+#searchScope {
+  position: absolute;
+  background: #ededed;
+  min-width: 7.5em;
+  -webkit-border-radius: 0.20833em;
+  -moz-border-radius: 0.20833em;
+  -ms-border-radius: 0.20833em;
+  -o-border-radius: 0.20833em;
+  border-radius: 0.20833em;
+  margin: 0.3125em;
+  height: 1.875em;
+}
+/* line 389, ../../sass/dtag_doxygen.scss */
+#searchScope #selectedSearchScope {
+  font-size: 1em;
+  line-height: 1.8em;
+  padding: 0 0.625em;
+}
+/* line 394, ../../sass/dtag_doxygen.scss */
+#searchScope a {
+  display: block;
+  text-decoration: none;
+  height: 1.875em;
+  -webkit-border-radius: 0.20833em;
+  -moz-border-radius: 0.20833em;
+  -ms-border-radius: 0.20833em;
+  -o-border-radius: 0.20833em;
+  border-radius: 0.20833em;
+}
+/* line 398, ../../sass/dtag_doxygen.scss */
+#searchScope a:hover {
+  background: #e0e0e0;
+}
+
+/* line 403, ../../sass/dtag_doxygen.scss */
+#MSearchBox {
+  display: none;
+}
+
+/* line 407, ../../sass/dtag_doxygen.scss */
+#MSearchField {
+  height: 2.5em;
+  width: 33.75em;
+  padding-left: 8.125em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 0.3125em;
+  -moz-border-radius: 0.3125em;
+  -ms-border-radius: 0.3125em;
+  -o-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+  border: 1px solid #d0d0d0;
+  border-top: 1px solid #c6c6c6;
+  background: white;
+  color: #4b4b4b;
+  font-family: TeleGrotesk;
+  vertical-align: middle;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+}
+
+/* line 423, ../../sass/dtag_doxygen.scss */
+#sb {
+  height: 2.5em;
+  width: 33.75em;
+  margin: 1.875em auto 3.125em auto;
+  position: relative;
+}
+
+/* Highlighting the search results in DTAG style */
+/* line 432, ../../sass/dtag_doxygen.scss */
+.SRResult {
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 300ms;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -webkit-transition-delay: 0ms;
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transition-property: all;
+  -moz-transition-duration: 300ms;
+  -moz-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition-delay: 0ms;
+  -ms-transition-property: all;
+  -ms-transition-duration: 300ms;
+  -ms-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition-delay: 0ms;
+  -o-transition-property: all;
+  -o-transition-duration: 300ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 300ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition-delay: 0ms;
+  background-color: #fff;
+}
+
+/* line 442, ../../sass/dtag_doxygen.scss */
+.SRResult:hover, .SRResult.in-focus, .SREntry.in-focus {
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -webkit-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -webkit-transition-delay: 0ms;
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transition-property: all;
+  -moz-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -moz-transition-delay: 0ms;
+  -ms-transition-property: all;
+  -ms-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -ms-transition-delay: 0ms;
+  -o-transition-property: all;
+  -o-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -o-transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition-delay: 0ms;
+  background-color: #ededed;
+}
+
+/* HEADER LEFT */
+/* line 451, ../../sass/dtag_doxygen.scss */
+.doxygen-wrapper-animate {
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 300ms;
+  -webkit-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -webkit-transition-delay: 0ms;
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transition-property: all;
+  -moz-transition-duration: 300ms;
+  -moz-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -moz-transition-delay: 0ms;
+  -ms-transition-property: all;
+  -ms-transition-duration: 300ms;
+  -ms-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -ms-transition-delay: 0ms;
+  -o-transition-property: all;
+  -o-transition-duration: 300ms;
+  -o-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -o-transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 300ms;
+  -o-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition-delay: 0ms;
+}
+
+/* line 460, ../../sass/dtag_doxygen.scss */
+#titlearea {
+  /*padding: 0px;
+  margin: 0px;
+  width: 100%;
+  border-bottom: 1px solid #767676;*/
+  width: 100%;
+}
+
+/* line 472, ../../sass/dtag_doxygen.scss */
+#headline-position-fix {
+  position: relative;
+}
+
+/* line 477, ../../sass/dtag_doxygen.scss */
+.header {
+  position: relative;
+  border-bottom: 1px solid #a4a4a4;
+  height: 28px;
+  width: 100%;
+  background: white;
+}
+
+/* line 489, ../../sass/dtag_doxygen.scss */
+.headertitle {
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+}
+
+/* line 498, ../../sass/dtag_doxygen.scss */
+.title {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 10px 0;
+  position: absolute;
+  font-size: 21px;
+  line-height: 21px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* line 519, ../../sass/dtag_doxygen.scss */
+.summary {
+  position: relative;
+  margin-top: 0.125em;
+  right: 0;
+  z-index: 1001;
+  float: right;
+  text-align: right;
+  /*background: blue;*/
+}
+/* line 528, ../../sass/dtag_doxygen.scss */
+.summary a {
+  padding: 0.125em 0.625em 0 0.625em;
+  -webkit-border-radius: 0.625em;
+  -moz-border-radius: 0.625em;
+  -ms-border-radius: 0.625em;
+  -o-border-radius: 0.625em;
+  border-radius: 0.625em;
+  background-color: #b8d7e5;
+  font-size: 0.8125em;
+  line-height: 1.1875em;
+  white-space: nowrap;
+  text-decoration: none !important;
+  color: #1d1d1d;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 543, ../../sass/dtag_doxygen.scss */
+.summary a:hover {
+  background-color: #a9c6d4;
+}
+/* line 546, ../../sass/dtag_doxygen.scss */
+.summary a:active {
+  background-color: #9bb6c2;
+}
+
+/* CONTENT */
+/* line 566, ../../sass/dtag_doxygen.scss */
+.contents {
+  width: 100%;
+  margin: 14px 0 0 0px;
+}
+/* line 570, ../../sass/dtag_doxygen.scss */
+.contents a {
+  font-family: TeleGroteskHal;
+  font-weight: normal;
+  color: #0090c4;
+}
+/* line 576, ../../sass/dtag_doxygen.scss */
+.contents a:visited {
+  color: #0090c4;
+}
+/* line 580, ../../sass/dtag_doxygen.scss */
+.contents h1 {
+  width: 100%;
+  margin: 3.75em 0 0.625em 0;
+  border-bottom: 1px solid #a4a4a4;
+  padding: 0 0 5px  0;
+  font-size: 1.3125em;
+  line-height: 1.3125em;
+  font-weight: normal;
+  white-space: nowrap;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+/* line 594, ../../sass/dtag_doxygen.scss */
+.contents h2 {
+  width: 100%;
+  padding: 0 0 5px  0;
+  margin: 1.875em 0 0.625em 0;
+  border-bottom: 1px solid #a4a4a4;
+  font-size: 1.1875em;
+  font-weight: normal;
+}
+/* line 602, ../../sass/dtag_doxygen.scss */
+.contents h2 :first-child {
+  margin: 0.625em 0 0 0;
+}
+/* line 612, ../../sass/dtag_doxygen.scss */
+.contents p {
+  margin: 0 0 0.625em 0;
+}
+/* line 617, ../../sass/dtag_doxygen.scss */
+.contents ul {
+  padding: 0;
+  margin: 0;
+}
+/* line 622, ../../sass/dtag_doxygen.scss */
+.contents ul li {
+  width: 100%;
+  font-size: 0.8125em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 630, ../../sass/dtag_doxygen.scss */
+.contents pre {
+  margin: 0 0 2.5em 0;
+  -webkit-border-radius: 0.3125em;
+  -moz-border-radius: 0.3125em;
+  -ms-border-radius: 0.3125em;
+  -o-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 0.8125em;
+}
+
+/* line 649, ../../sass/dtag_doxygen.scss */
+code {
+  font-family: TeleGrotesk !important;
+}
+/* line 651, ../../sass/dtag_doxygen.scss */
+code a {
+  font-family: TeleGrotesk !important;
+}
+
+/* line 658, ../../sass/dtag_doxygen.scss */
+.dynheader {
+  width: 100%;
+  margin-top: 2.5em;
+  padding-bottom: 0.3125em;
+  border-bottom: 1px solid #a4a4a4;
+  font-size: 0.8125em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 673, ../../sass/dtag_doxygen.scss */
+.dyncontent {
+  width: 100%;
+  margin-top: 1.25em;
+  overflow-x: scroll;
+  padding-bottom: 1.25em;
+}
+
+/* line 687, ../../sass/dtag_doxygen.scss */
+.memitem {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table !important;
+  padding: 0 0.625em;
+  margin: 0 0 2.5em 0;
+  width: 100%;
+  -webkit-border-radius: 0.3125em;
+  -moz-border-radius: 0.3125em;
+  -ms-border-radius: 0.3125em;
+  -o-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+  background-color: #f2f2f2;
+  font-weight: normal;
+  /* hier müssen wir noch eine Transition finden*/
+  /* -webkit-transition: background 0.5s linear;
+   -moz-transition: background 0.5s linear;
+   -ms-transition: background 0.5s linear;
+   -o-transition: background 0.5s linear;
+   transition: background 0.5s linear;*/
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -webkit-transition-delay: 0ms;
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transition-property: all;
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition-delay: 0ms;
+  -ms-transition-property: all;
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition-delay: 0ms;
+  -o-transition-property: all;
+  -o-transition-duration: 500ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 500ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition-delay: 0ms;
+}
+
+/* line 709, ../../sass/dtag_doxygen.scss */
+.memproto, dl.reflist dt {
+  padding: 6px 0px 6px 0px;
+  font-weight: bold;
+  border-bottom: 1px solid #d0d0d0;
+  /* opera specific markup 
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);*/
+}
+
+/* line 724, ../../sass/dtag_doxygen.scss */
+.memdoc, dl.reflist dd {
+  margin: 0.375em 0 0.625em 0;
+  /*
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+     -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+     */
+}
+
+/* line 735, ../../sass/dtag_doxygen.scss */
+.memdoc {
+  font-size: 0.8125em;
+}
+
+/* line 745, ../../sass/dtag_doxygen.scss */
+.memitem.glow {
+  background: #e0e0e0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 100ms;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -webkit-transition-delay: 0ms;
+  /* -webkit-transform-style: preserve-3d; */
+  -moz-transition-property: all;
+  -moz-transition-duration: 100ms;
+  -moz-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition-delay: 0ms;
+  -ms-transition-property: all;
+  -ms-transition-duration: 100ms;
+  -ms-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -ms-transition-delay: 0ms;
+  -o-transition-property: all;
+  -o-transition-duration: 100ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 100ms;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition-delay: 0ms;
+}
+
+/* line 751, ../../sass/dtag_doxygen.scss */
+.memname {
+  font-size: 1em;
+}
+
+/* line 755, ../../sass/dtag_doxygen.scss */
+.memname td {
+  vertical-align: bottom;
+  font-weight: normal;
+}
+
+/* line 761, ../../sass/dtag_doxygen.scss */
+table.mlabels {
+  border-spacing: 0px;
+}
+
+/* line 766, ../../sass/dtag_doxygen.scss */
+td.mlabels-left {
+  width: 100%;
+  padding: 0px;
+}
+
+/* line 771, ../../sass/dtag_doxygen.scss */
+td.mlabels-right {
+  vertical-align: bottom;
+  padding: 0px;
+  white-space: nowrap;
+}
+
+/* line 777, ../../sass/dtag_doxygen.scss */
+span.mlabels {
+  margin-left: 8px;
+}
+
+/* line 781, ../../sass/dtag_doxygen.scss */
+span.mlabel {
+  font-weight: normal;
+  margin-left: 4px;
+  padding: 0 0.625em;
+  background-color: #a4a4a4;
+  -webkit-border-radius: 0.20833em;
+  -moz-border-radius: 0.20833em;
+  -ms-border-radius: 0.20833em;
+  -o-border-radius: 0.20833em;
+  border-radius: 0.20833em;
+  font-size: 13px;
+  line-height: 16px;
+  text-shadow: none;
+  color: white;
+  white-space: nowrap;
+}
+
+/* line 801, ../../sass/dtag_doxygen.scss */
+.paramkey {
+  text-align: right;
+}
+
+/* line 805, ../../sass/dtag_doxygen.scss */
+.paramtype {
+  white-space: nowrap;
+}
+
+/* line 809, ../../sass/dtag_doxygen.scss */
+.paramname {
+  color: #eda95a;
+  white-space: nowrap;
+}
+
+/* line 813, ../../sass/dtag_doxygen.scss */
+.paramname em {
+  font-style: normal;
+}
+
+/* line 816, ../../sass/dtag_doxygen.scss */
+.paramname code {
+  line-height: 14px;
+}
+
+/* line 820, ../../sass/dtag_doxygen.scss */
+.params dd {
+  margin: 0;
+}
+
+/* line 825, ../../sass/dtag_doxygen.scss */
+.params, .retval, .exception, .tparams {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+/* line 830, ../../sass/dtag_doxygen.scss */
+.params .paramname, .retval .paramname {
+  font-weight: bold;
+  vertical-align: top;
+}
+
+/* line 835, ../../sass/dtag_doxygen.scss */
+.params .paramtype {
+  font-style: italic;
+  vertical-align: top;
+}
+
+/* line 840, ../../sass/dtag_doxygen.scss */
+.params .paramdir {
+  font-family: "courier new",courier,monospace;
+  vertical-align: top;
+}
+
+/* Source Code Styles */
+/* line 848, ../../sass/dtag_doxygen.scss */
+div.line {
+  font-family: monospace, fixed;
+  font-size: 13px;
+  min-height: 13px;
+  line-height: 1.0;
+  text-wrap: unrestricted;
+  white-space: -moz-pre-wrap;
+  /* Moz */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  white-space: pre-wrap;
+  /* CSS3  */
+  word-wrap: break-word;
+  /* IE 5.5+ */
+  text-indent: -53px;
+  padding-left: 53px;
+  padding-bottom: 0px;
+  margin: 0px;
+  -webkit-transition-property: background-color, box-shadow;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-property: background-color, box-shadow;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-property: background-color, box-shadow;
+  -ms-transition-duration: 0.5s;
+  -o-transition-property: background-color, box-shadow;
+  -o-transition-duration: 0.5s;
+  transition-property: background-color, box-shadow;
+  transition-duration: 0.5s;
+}
+
+/* line 875, ../../sass/dtag_doxygen.scss */
+div.line.glow {
+  background-color: cyan;
+  box-shadow: 0 0 10px cyan;
+}
+
+/* line 880, ../../sass/dtag_doxygen.scss */
+div.line a.code {
+  font-family: monospace, fixed;
+}
+
+/* line 884, ../../sass/dtag_doxygen.scss */
+span.lineno {
+  padding-right: 4px;
+  text-align: right;
+  border-right: 2px solid #0F0;
+  background-color: #E8E8E8;
+  white-space: pre;
+}
+
+/* line 891, ../../sass/dtag_doxygen.scss */
+span.lineno a {
+  font-family: monospace, fixed;
+  background-color: #D8D8D8;
+}
+
+/* line 896, ../../sass/dtag_doxygen.scss */
+span.lineno a:hover {
+  background-color: #C8C8C8;
+}
+
+/* line 905, ../../sass/dtag_doxygen.scss */
+div.directory {
+  margin: 10px 0px;
+  border-top: 1px solid #6c6c6c;
+  border-bottom: 1px solid #6c6c6c;
+  width: 100%;
+}
+
+/* line 912, ../../sass/dtag_doxygen.scss */
+.directory table {
+  border-collapse: collapse;
+}
+
+/* line 916, ../../sass/dtag_doxygen.scss */
+.directory td {
+  margin: 0px;
+  padding: 0px;
+  vertical-align: top;
+}
+
+/* line 922, ../../sass/dtag_doxygen.scss */
+.directory td.entry {
+  white-space: nowrap;
+  padding-right: 6px;
+}
+
+/* line 927, ../../sass/dtag_doxygen.scss */
+.directory td.entry a {
+  outline: none;
+}
+
+/* line 931, ../../sass/dtag_doxygen.scss */
+.directory td.entry a img {
+  border: none;
+}
+
+/* line 935, ../../sass/dtag_doxygen.scss */
+.directory td.desc {
+  width: 100%;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 3px;
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* line 943, ../../sass/dtag_doxygen.scss */
+.directory tr.even {
+  padding-left: 6px;
+  background-color: #F8F8F8;
+}
+
+/* line 948, ../../sass/dtag_doxygen.scss */
+.directory img {
+  vertical-align: -30%;
+}
+
+/* line 952, ../../sass/dtag_doxygen.scss */
+.directory .levels {
+  white-space: nowrap;
+  width: 99%;
+  text-align: right;
+  font-size: .9em;
+  margin: .5em 0 .5em 0;
+}
+
+/* line 960, ../../sass/dtag_doxygen.scss */
+.directory .levels span {
+  cursor: pointer;
+  margin-left: .2em;
+  margin-right: .2em;
+  color: #565656;
+}
+
+/* line 967, ../../sass/dtag_doxygen.scss */
+::-ms-clear {
+  display: none;
+}

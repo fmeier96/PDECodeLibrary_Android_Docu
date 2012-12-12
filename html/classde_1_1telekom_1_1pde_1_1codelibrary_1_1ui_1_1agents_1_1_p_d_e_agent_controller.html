@@ -1,0 +1,3321 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-library-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.ui.agents.PDEAgentController Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>The controlling logic for all agents.  
+ <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.ui.agents.PDEAgentController:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.png" usemap="#de.telekom.pde.codelibrary.ui.agents.PDEAgentController_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.ui.agents.PDEAgentController_map" name="de.telekom.pde.codelibrary.ui.agents.PDEAgentController_map">
+<area href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html" title="Interface for Classes that use PDEEventSource." alt="de.telekom.pde.codelibrary.ui.events.PDEIEventSource" shape="rect" coords="0,0,376,24"/>
+<area href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source_delegate.html" title="Delegate interface for PDEEventSource." alt="de.telekom.pde.codelibrary.ui.events.PDEIEventSourceDelegate" shape="rect" coords="386,0,762,24"/>
+</map>
+ </div></div>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>The controlling logic for all agents. </p>
+<p>All Agent state transitions are (for the moment) collected in this one class, which handles standardized input and outputs state information and generates the necessary events. Which behaviour an actual Agent then exposes is up to configuration. The default Agent is a button.</p>
+<p>It's not certain that this will stay this way - eventually it will make more sense to build specialized agent behaviours. </p>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:a0841511e730a76d22731bf8511f55a1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a0841511e730a76d22731bf8511f55a1b">setInteractiveAttackTime</a> (long <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a59de5ac21deafcd545df9610118cb0e8">time</a>)</td></tr>
+<tr class="memitem:a4b25069e136f78574516763261fd69e4"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a4b25069e136f78574516763261fd69e4">getInteractiveAttackTime</a> ()</td></tr>
+<tr class="memitem:a16d531b49d97681e53e84dad2bd97820"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a16d531b49d97681e53e84dad2bd97820">setInteractiveDecayTime</a> (long <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a59de5ac21deafcd545df9610118cb0e8">time</a>)</td></tr>
+<tr class="memitem:aace0b724236d6af0ad6eb4cad753aa5d"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aace0b724236d6af0ad6eb4cad753aa5d">getInteractiveDecayTime</a> ()</td></tr>
+<tr class="memitem:a52d092aa1aa537fd49b2d2da644bae4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a52d092aa1aa537fd49b2d2da644bae4a">setActionShowTime</a> (long <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a59de5ac21deafcd545df9610118cb0e8">time</a>)</td></tr>
+<tr class="memitem:a43d03ee1a57e32f2288489089274ad43"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a43d03ee1a57e32f2288489089274ad43">getActionShowTime</a> ()</td></tr>
+<tr class="memitem:a665623a1a603a0dffaa7318ba3edd4f8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a665623a1a603a0dffaa7318ba3edd4f8">getStateAnimationProgress</a> ()</td></tr>
+<tr class="memitem:a15ca243b888367afcca8ee1e4c7554f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a15ca243b888367afcca8ee1e4c7554f1">setStateAnimationProgress</a> (double stateAnimationProgress)</td></tr>
+<tr class="memitem:aa22c3a6b2cb996a6475588f3f2dab850"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa22c3a6b2cb996a6475588f3f2dab850">getAgentAnimationFocus</a> ()</td></tr>
+<tr class="memitem:aec232a5d1684ee065fa8b3e16f6dcd9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aec232a5d1684ee065fa8b3e16f6dcd9d">setAgentAnimationFocus</a> (double focus)</td></tr>
+<tr class="memitem:aaaa2abdcac90d8f7c3c6ed22d2c3c9da"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aaaa2abdcac90d8f7c3c6ed22d2c3c9da">getAgentAnimationHighlight</a> ()</td></tr>
+<tr class="memitem:a9b623363d4547392a2aa225197d04ec4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a9b623363d4547392a2aa225197d04ec4">setAgentAnimationHighlight</a> (double highlight)</td></tr>
+<tr class="memitem:abfbb11615e7fa81c5e752d8216db0cbf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#abfbb11615e7fa81c5e752d8216db0cbf">getAgentAnimationPress</a> ()</td></tr>
+<tr class="memitem:a6cde4365968ffcc388f9142358262497"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a6cde4365968ffcc388f9142358262497">setAgentAnimationPress</a> (double press)</td></tr>
+<tr class="memitem:a722fe5e98f9b0e384d8d3cfef4339a1d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a722fe5e98f9b0e384d8d3cfef4339a1d">getAgentAnimationDown</a> ()</td></tr>
+<tr class="memitem:a794c10b1f9eacf63232a6d5f37166c91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a794c10b1f9eacf63232a6d5f37166c91">setAgentAnimationDown</a> (double down)</td></tr>
+<tr class="memitem:aca5ad3b992557df557d70520ac19fde7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aca5ad3b992557df557d70520ac19fde7">getAgentAnimationCombinedFocusAndHighlight</a> ()</td></tr>
+<tr class="memitem:ab61dcba19b116d2851cda0e0634c132a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ab61dcba19b116d2851cda0e0634c132a">setAgentAnimationCombinedFocusAndHighlight</a> (double value)</td></tr>
+<tr class="memitem:a7e247ba450ec0099e8495e7737e2329c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a7e247ba450ec0099e8495e7737e2329c">getAgentAnimationCombinedInteraction</a> ()</td></tr>
+<tr class="memitem:af96abbdab11a51d5b81762711c40b2b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#af96abbdab11a51d5b81762711c40b2b7">setmAgentAnimationCombinedInteraction</a> (double value)</td></tr>
+<tr class="memitem:a2ae25e4eaf64edefd59c5453b29a800e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a2ae25e4eaf64edefd59c5453b29a800e">PDEAgentController</a> ()</td></tr>
+<tr class="memitem:a394ab5642b0900a62a399587d655e4bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a394ab5642b0900a62a399587d655e4bc">setState</a> (String state)</td></tr>
+<tr class="memdesc:a394ab5642b0900a62a399587d655e4bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the main state.  <a href="#a394ab5642b0900a62a399587d655e4bc"></a><br/></td></tr>
+<tr class="memitem:a78f3706bd38e0a1f4368b1c95b6023c8"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a78f3706bd38e0a1f4368b1c95b6023c8">getState</a> ()</td></tr>
+<tr class="memdesc:a78f3706bd38e0a1f4368b1c95b6023c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the main state.  <a href="#a78f3706bd38e0a1f4368b1c95b6023c8"></a><br/></td></tr>
+<tr class="memitem:aa04754e6b8d4457cddc5129c51f54b76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa04754e6b8d4457cddc5129c51f54b76">addFocus</a> ()</td></tr>
+<tr class="memdesc:aa04754e6b8d4457cddc5129c51f54b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add focus.  <a href="#aa04754e6b8d4457cddc5129c51f54b76"></a><br/></td></tr>
+<tr class="memitem:a03ce5d67931bc38abb01eac9e5ac7f1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a03ce5d67931bc38abb01eac9e5ac7f1f">removeFocus</a> ()</td></tr>
+<tr class="memdesc:a03ce5d67931bc38abb01eac9e5ac7f1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove focus.  <a href="#a03ce5d67931bc38abb01eac9e5ac7f1f"></a><br/></td></tr>
+<tr class="memitem:aacee2600dedf9479cd2c55d2a6290b2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aacee2600dedf9479cd2c55d2a6290b2b">addHighlight</a> ()</td></tr>
+<tr class="memdesc:aacee2600dedf9479cd2c55d2a6290b2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add highlight.  <a href="#aacee2600dedf9479cd2c55d2a6290b2b"></a><br/></td></tr>
+<tr class="memitem:ae7c783252915fd729ba4bb8fcb5c5df9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ae7c783252915fd729ba4bb8fcb5c5df9">removeHighlight</a> ()</td></tr>
+<tr class="memdesc:ae7c783252915fd729ba4bb8fcb5c5df9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove highlight.  <a href="#ae7c783252915fd729ba4bb8fcb5c5df9"></a><br/></td></tr>
+<tr class="memitem:a22907ab3ea75971f3d70be49ec2d0b9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a22907ab3ea75971f3d70be49ec2d0b9f">addPress</a> ()</td></tr>
+<tr class="memdesc:a22907ab3ea75971f3d70be49ec2d0b9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a press.  <a href="#a22907ab3ea75971f3d70be49ec2d0b9f"></a><br/></td></tr>
+<tr class="memitem:a550d3e249ac2eb6f532b16ecfba824f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a550d3e249ac2eb6f532b16ecfba824f6">doPress</a> ()</td></tr>
+<tr class="memdesc:a550d3e249ac2eb6f532b16ecfba824f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a press (active).  <a href="#a550d3e249ac2eb6f532b16ecfba824f6"></a><br/></td></tr>
+<tr class="memitem:aabc3c97336c1ec65bd80ad37dc16bfd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aabc3c97336c1ec65bd80ad37dc16bfd0">cancelPress</a> ()</td></tr>
+<tr class="memdesc:aabc3c97336c1ec65bd80ad37dc16bfd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel a press.  <a href="#aabc3c97336c1ec65bd80ad37dc16bfd0"></a><br/></td></tr>
+<tr class="memitem:abe816fce28ef5e91c9f30820604e730a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#abe816fce28ef5e91c9f30820604e730a">getEventSource</a> ()</td></tr>
+<tr class="memdesc:abe816fce28ef5e91c9f30820604e730a"><td class="mdescLeft">&#160;</td><td class="mdescRight">EventSource implementation. Get Event Sender instance.  <a href="#abe816fce28ef5e91c9f30820604e730a"></a><br/></td></tr>
+<tr class="memitem:aa0c3bad457367f191a068c0437f68c39"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa0c3bad457367f191a068c0437f68c39">addListener</a> (Object target, String methodName)</td></tr>
+<tr class="memitem:acf70e51d529546efac91588a7c2f533b"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#acf70e51d529546efac91588a7c2f533b">addListener</a> (Object target, String methodName, String eventMask)</td></tr>
+<tr class="memitem:a0da69106fd1706beff5fbb718c43f54f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a0da69106fd1706beff5fbb718c43f54f">eventSourceDidAddListener</a> (Object listener)</td></tr>
+<tr class="memdesc:a0da69106fd1706beff5fbb718c43f54f"><td class="mdescLeft">&#160;</td><td class="mdescRight">EventSourceDelegate implementation. Send data update for initialization and maintain a consistent activation status.  <a href="#a0da69106fd1706beff5fbb718c43f54f"></a><br/></td></tr>
+<tr class="memitem:a7a3d030fe0316014e6c68c42d331f524"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a7a3d030fe0316014e6c68c42d331f524">eventSourceWillRemoveListener</a> (Object listener)</td></tr>
+<tr class="memdesc:a7a3d030fe0316014e6c68c42d331f524"><td class="mdescLeft">&#160;</td><td class="mdescRight">EventSourceDelegate implementation. Maintain a consistent state when a listener is removed.  <a href="#a7a3d030fe0316014e6c68c42d331f524"></a><br/></td></tr>
+<tr class="memitem:aa66783a9c17d15f182607f9dcb7288a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa66783a9c17d15f182607f9dcb7288a5">addAction</a> (int action)</td></tr>
+<tr class="memdesc:aa66783a9c17d15f182607f9dcb7288a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an action to the list. Trigger a delayed check for inputs.  <a href="#aa66783a9c17d15f182607f9dcb7288a5"></a><br/></td></tr>
+<tr class="memitem:ae3484aba96ab0e915d384937a9ae17f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ae3484aba96ab0e915d384937a9ae17f6">checkInput</a> ()</td></tr>
+<tr class="memdesc:ae3484aba96ab0e915d384937a9ae17f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">State check when input was changed.  <a href="#ae3484aba96ab0e915d384937a9ae17f6"></a><br/></td></tr>
+<tr class="memitem:a4b314f8459c1fdb05912135d6b68443b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a4b314f8459c1fdb05912135d6b68443b">performActions</a> ()</td></tr>
+<tr class="memdesc:a4b314f8459c1fdb05912135d6b68443b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go through the action queue and perform all pending actions.  <a href="#a4b314f8459c1fdb05912135d6b68443b"></a><br/></td></tr>
+<tr class="memitem:a58f772d90e42bdaf2d2112403d5c2934"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a58f772d90e42bdaf2d2112403d5c2934">performAction</a> (int action)</td></tr>
+<tr class="memdesc:a58f772d90e42bdaf2d2112403d5c2934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a single action.  <a href="#a58f772d90e42bdaf2d2112403d5c2934"></a><br/></td></tr>
+<tr class="memitem:a46a0e8a78b6fe427307d84095d1e45a4"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a46a0e8a78b6fe427307d84095d1e45a4">stateCanHandleAction</a> (int action)</td></tr>
+<tr class="memdesc:a46a0e8a78b6fe427307d84095d1e45a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information if the current state accepts user interaction.  <a href="#a46a0e8a78b6fe427307d84095d1e45a4"></a><br/></td></tr>
+<tr class="memitem:a03e86f177080c079ee38f363036961bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a03e86f177080c079ee38f363036961bf">checkSingleState</a> (boolean allowTiming)</td></tr>
+<tr class="memdesc:a03e86f177080c079ee38f363036961bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for state changes, do one step.  <a href="#a03e86f177080c079ee38f363036961bf"></a><br/></td></tr>
+<tr class="memitem:a5645af333ea5ab54c1ecaf41f5715b15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a5645af333ea5ab54c1ecaf41f5715b15">setAgentState</a> (int agentState)</td></tr>
+<tr class="memdesc:a5645af333ea5ab54c1ecaf41f5715b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the new state.  <a href="#a5645af333ea5ab54c1ecaf41f5715b15"></a><br/></td></tr>
+<tr class="memitem:ac4935ca971863acf0d51d4b2ae7e3e3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ac4935ca971863acf0d51d4b2ae7e3e3a">checkActions</a> ()</td></tr>
+<tr class="memdesc:ac4935ca971863acf0d51d4b2ae7e3e3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for pending actions.  <a href="#ac4935ca971863acf0d51d4b2ae7e3e3a"></a><br/></td></tr>
+<tr class="memitem:a28fce8438f69f29bfdb31d8bc1dc7b9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a28fce8438f69f29bfdb31d8bc1dc7b9f">checkAnimation</a> ()</td></tr>
+<tr class="memdesc:a28fce8438f69f29bfdb31d8bc1dc7b9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update animation states.  <a href="#a28fce8438f69f29bfdb31d8bc1dc7b9f"></a><br/></td></tr>
+<tr class="memitem:a7a45ef59ce1792ca91f1c44de3d31240"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a7a45ef59ce1792ca91f1c44de3d31240">updateAnimationData</a> ()</td></tr>
+<tr class="memdesc:a7a45ef59ce1792ca91f1c44de3d31240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Take over current animation data.  <a href="#a7a45ef59ce1792ca91f1c44de3d31240"></a><br/></td></tr>
+<tr class="memitem:af20497d0bc94f9a9af3f7aa82eae75ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#af20497d0bc94f9a9af3f7aa82eae75ed">setTiming</a> (boolean timing)</td></tr>
+<tr class="memdesc:af20497d0bc94f9a9af3f7aa82eae75ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn autotiming on or off.  <a href="#af20497d0bc94f9a9af3f7aa82eae75ed"></a><br/></td></tr>
+<tr class="memitem:a17b0c680f872106eb86a890c225882e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a17b0c680f872106eb86a890c225882e4">changed</a> ()</td></tr>
+<tr class="memdesc:a17b0c680f872106eb86a890c225882e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timing function called when manually timed, or when something in the animations changed.  <a href="#a17b0c680f872106eb86a890c225882e4"></a><br/></td></tr>
+<tr class="memitem:a59de5ac21deafcd545df9610118cb0e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a59de5ac21deafcd545df9610118cb0e8">time</a> (Long time)</td></tr>
+<tr class="memdesc:a59de5ac21deafcd545df9610118cb0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">timing function  <a href="#a59de5ac21deafcd545df9610118cb0e8"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Methods</h2></td></tr>
+<tr class="memitem:a6a37c34b9f9922445f48bbeabbb82d49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a6a37c34b9f9922445f48bbeabbb82d49">checkState</a> (boolean allowTiming)</td></tr>
+<tr class="memdesc:a6a37c34b9f9922445f48bbeabbb82d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for state changes.  <a href="#a6a37c34b9f9922445f48bbeabbb82d49"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pac-methods"></a>
+Package Methods</h2></td></tr>
+<tr class="memitem:a65f19bb4a5a60462427008e45a9815e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html">PDEEventAgentControllerState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a65f19bb4a5a60462427008e45a9815e8">createStateEvent</a> ()</td></tr>
+<tr class="memdesc:a65f19bb4a5a60462427008e45a9815e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event data helper.  <a href="#a65f19bb4a5a60462427008e45a9815e8"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aa23bf5c254d3a7240be0e6e140669a5d"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa23bf5c254d3a7240be0e6e140669a5d">TIME_STRETCH</a> = 1.0</td></tr>
+<tr class="memitem:a189d86ebd42fd8a98b8f513b1845a4b6"><td class="memItemLeft" align="right" valign="top">static final long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a189d86ebd42fd8a98b8f513b1845a4b6">INTERACTIVE_ATTACK_TIME</a> = Math.round(50*<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa23bf5c254d3a7240be0e6e140669a5d">TIME_STRETCH</a>)</td></tr>
+<tr class="memitem:ad112f1e181e5bbf5cfc057b8fbe9e933"><td class="memItemLeft" align="right" valign="top">static final long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ad112f1e181e5bbf5cfc057b8fbe9e933">INTERACTIVE_DECAY_TIME</a> = Math.round(150*<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa23bf5c254d3a7240be0e6e140669a5d">TIME_STRETCH</a>)</td></tr>
+<tr class="memitem:a3c5d1cdf4e028c661481582fb0fba17a"><td class="memItemLeft" align="right" valign="top">static final long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a3c5d1cdf4e028c661481582fb0fba17a">ACTION_SHOW_TIME</a> = Math.round(50*<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa23bf5c254d3a7240be0e6e140669a5d">TIME_STRETCH</a>)</td></tr>
+<tr class="memitem:ae28b0e11e4f374c4e2e67763a03721f0"><td class="memItemLeft" align="right" valign="top">static final long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ae28b0e11e4f374c4e2e67763a03721f0">STATECHANGETIME</a> = Math.round(150*<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa23bf5c254d3a7240be0e6e140669a5d">TIME_STRETCH</a>)</td></tr>
+<tr class="memitem:aabc341c931f4c4166886f7d547b4b47b"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aabc341c931f4c4166886f7d547b4b47b">PDE_AGENT_CONTROLLER_EVENT_MASK</a> = &quot;PDEAgentController.*&quot;</td></tr>
+<tr class="memdesc:aabc341c931f4c4166886f7d547b4b47b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event mask for all <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html" title="The controlling logic for all agents.">PDEAgentController</a> events.  <a href="#aabc341c931f4c4166886f7d547b4b47b"></a><br/></td></tr>
+<tr class="memitem:a0da74661bf985fd7baa946ad6b246203"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a0da74661bf985fd7baa946ad6b246203">PDE_AGENT_CONTROLLER_EVENT_MASK_ANIMATION</a> = &quot;PDEAgentController.animation.*&quot;</td></tr>
+<tr class="memdesc:a0da74661bf985fd7baa946ad6b246203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event mask for all <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html" title="The controlling logic for all agents.">PDEAgentController</a> animation events.  <a href="#a0da74661bf985fd7baa946ad6b246203"></a><br/></td></tr>
+<tr class="memitem:a37d2030294dc4f439895afe568aefa81"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a37d2030294dc4f439895afe568aefa81">PDE_AGENT_CONTROLLER_EVENT_MASK_ACTION</a> = &quot;PDEAgentController.action.*&quot;</td></tr>
+<tr class="memdesc:a37d2030294dc4f439895afe568aefa81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event mask for all actions.  <a href="#a37d2030294dc4f439895afe568aefa81"></a><br/></td></tr>
+<tr class="memitem:a68b2066923ba5091976e301a946c7ed9"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a68b2066923ba5091976e301a946c7ed9">PDE_AGENT_CONTROLLER_EVENT_ANIMATION_INITIALIZE</a> = &quot;PDEAgentController.animation.initialize&quot;</td></tr>
+<tr class="memitem:af46e2db85a0773b7762e3586246c9da8"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#af46e2db85a0773b7762e3586246c9da8">PDE_AGENT_CONTROLLER_EVENT_ANIMATION_BEGIN_STATE_CHANGE</a> = &quot;PDEAgentController.animation.beginStateChange&quot;</td></tr>
+<tr class="memitem:a998f06b619b69acf81f4e53882d16f4c"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a998f06b619b69acf81f4e53882d16f4c">PDE_AGENT_CONTROLLER_EVENT_ANIMATION_END_STATE_CHANGE</a> = &quot;PDEAgentController.animation.endStateChange&quot;</td></tr>
+<tr class="memitem:acc3d24e8aa65b5951f05871b1a889a94"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#acc3d24e8aa65b5951f05871b1a889a94">PDE_AGENT_CONTROLLER_EVENT_ANIMATION_DID_CHANGE</a> = &quot;PDEAgentController.animation.didChange&quot;</td></tr>
+<tr class="memdesc:acc3d24e8aa65b5951f05871b1a889a94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event is sent after some animation property has changed. Event class is PDEEvent.  <a href="#acc3d24e8aa65b5951f05871b1a889a94"></a><br/></td></tr>
+<tr class="memitem:a73d188e0ddf107d875f923de28b49635"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a73d188e0ddf107d875f923de28b49635">PDE_AGENT_CONTROLLER_EVENT_ACTION_BEGIN_INTERACTION</a> = &quot;PDEAgentController.action.beginInteraction&quot;</td></tr>
+<tr class="memitem:af561a3a47f998f7f83b71f0c3a8ee7f1"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#af561a3a47f998f7f83b71f0c3a8ee7f1">PDE_AGENT_CONTROLLER_EVENT_ACTION_END_INTERACTION</a> = &quot;PDEAgentController.action.endInteraction&quot;</td></tr>
+<tr class="memitem:a577ae2a058dfe61e4f4c83731f79889d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a577ae2a058dfe61e4f4c83731f79889d">PDE_AGENT_CONTROLLER_EVENT_ACTION_ACTIVATED</a> = &quot;PDEAgentController.action.activated&quot;</td></tr>
+<tr class="memdesc:a577ae2a058dfe61e4f4c83731f79889d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event is sent when user activates the agent.  <a href="#a577ae2a058dfe61e4f4c83731f79889d"></a><br/></td></tr>
+<tr class="memitem:a985d1c43178b6c4f16e0f9fa5bb3e2f3"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a985d1c43178b6c4f16e0f9fa5bb3e2f3">PDE_AGENT_CONTROLLER_EVENT_ACTION_DEACTIVATED</a> = &quot;PDEAgentController.action.deactivated&quot;</td></tr>
+<tr class="memdesc:a985d1c43178b6c4f16e0f9fa5bb3e2f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event is sent when user deactivates the agent.  <a href="#a985d1c43178b6c4f16e0f9fa5bb3e2f3"></a><br/></td></tr>
+<tr class="memitem:a9a9a08895a4bf1e66dbb6ab4abe3c9bb"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a9a9a08895a4bf1e66dbb6ab4abe3c9bb">PDE_AGENT_CONTROLLER_EVENT_ACTION_SELECTED</a> = &quot;PDEAgentController.action.selected&quot;</td></tr>
+<tr class="memdesc:a9a9a08895a4bf1e66dbb6ab4abe3c9bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event is sent when the agent was successfully selected.  <a href="#a9a9a08895a4bf1e66dbb6ab4abe3c9bb"></a><br/></td></tr>
+<tr class="memitem:a3015498387499b98340a1c2916e708a9"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a3015498387499b98340a1c2916e708a9">PDE_AGENT_CONTROLLER_EVENT_ACTION_WILL_BE_SELECTED</a> = &quot;PDEAgentController.action.willBeSelected&quot;</td></tr>
+<tr class="memdesc:a3015498387499b98340a1c2916e708a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event is sent immediately when user successfully selects the agents.  <a href="#a3015498387499b98340a1c2916e708a9"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a9c3b0fc6e3ff8453085d53b72679542c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a9c3b0fc6e3ff8453085d53b72679542c">PDE_AGENT_CONTROLLER_STATE_IDLE</a> = 0</td></tr>
+<tr class="memdesc:a9c3b0fc6e3ff8453085d53b72679542c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal agent controller states.  <a href="#a9c3b0fc6e3ff8453085d53b72679542c"></a><br/></td></tr>
+<tr class="memitem:abd3e84f16f9b67e0d5412841aa76c3b6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#abd3e84f16f9b67e0d5412841aa76c3b6">PDE_AGENT_CONTROLLER_STATE_INTERACTIVE</a> = 1</td></tr>
+<tr class="memitem:a6a085744ee43cc68b09f36c2f714c558"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a6a085744ee43cc68b09f36c2f714c558">PDE_AGENT_CONTROLLER_STATE_SHOWING</a> = 2</td></tr>
+<tr class="memitem:a25772a620ae3d90323e53c6f14918136"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a25772a620ae3d90323e53c6f14918136">PDE_AGENT_CONTROLLER_STATE_UNDERSTANDING</a> = 3</td></tr>
+<tr class="memitem:ab926dbe3dfab2435dee3c1f2954f423a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ab926dbe3dfab2435dee3c1f2954f423a">PDE_AGENT_CONTROLLER_STATE_DOING</a> = 4</td></tr>
+<tr class="memitem:a343f8745b1bb6f990df82c1532680afc"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a343f8745b1bb6f990df82c1532680afc">PDE_AGENT_CONTROLLER_STATE_DONE</a> = 5</td></tr>
+<tr class="memitem:ad7c3d4edc4a336bfd1511d7e19d6e39a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ad7c3d4edc4a336bfd1511d7e19d6e39a">PDE_AGENT_CONTROLLER_ACTION_GENERIC</a> = 0</td></tr>
+<tr class="memitem:a546f1442119116a1ee74d9d81409db9a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a546f1442119116a1ee74d9d81409db9a">PDE_AGENT_CONTROLLER_ACTION_FOCUS</a> = 1</td></tr>
+<tr class="memitem:a85e9e7ca7d4e61c930dd90945c149031"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a85e9e7ca7d4e61c930dd90945c149031">PDE_AGENT_CONTROLLER_ACTION_UNFOCUS</a> = 2</td></tr>
+<tr class="memitem:aed172dc0e5edc60c06f4e70722c265be"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aed172dc0e5edc60c06f4e70722c265be">PDE_AGENT_CONTROLLER_ACTION_HIGHLIGHT</a> = 3</td></tr>
+<tr class="memitem:ad83cf7dfed6bce6bd4fc42ade64f0d21"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ad83cf7dfed6bce6bd4fc42ade64f0d21">PDE_AGENT_CONTROLLER_ACTION_UNHIGHLIGHT</a> = 4</td></tr>
+<tr class="memitem:ac400adee88187688c8e5fe188cb1fa91"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ac400adee88187688c8e5fe188cb1fa91">PDE_AGENT_CONTROLLER_ACTION_PRESS</a> = 5</td></tr>
+<tr class="memitem:ae9a2d0258802524cdd085018839c15f2"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ae9a2d0258802524cdd085018839c15f2">PDE_AGENT_CONTROLLER_ACTION_DO_PRESS</a> = 6</td></tr>
+<tr class="memitem:a1a220dbbf91184d90184bcaa6e8a8c6a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a1a220dbbf91184d90184bcaa6e8a8c6a">PDE_AGENT_CONTROLLER_ACTION_CANCEL_PRESS</a> = 7</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a8c55a39e0777cb73091154c09701c2ec"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a8c55a39e0777cb73091154c09701c2ec">LOG_TAG</a> = PDEAgentController.class.getName()</td></tr>
+<tr class="memdesc:a8c55a39e0777cb73091154c09701c2ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#a8c55a39e0777cb73091154c09701c2ec"></a><br/></td></tr>
+<tr class="memitem:ad21a0ad30c5f4209f5308a76ee4cbb78"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ad21a0ad30c5f4209f5308a76ee4cbb78">DEBUGPARAMS</a> = false</td></tr>
+<tr class="memitem:a521a5bcac05849e7aff12e02f78afc11"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a521a5bcac05849e7aff12e02f78afc11">DEBUG_ACTIONS</a> = false</td></tr>
+<tr class="memitem:a0a4fbfa664755ca1b660aa43c60788f9"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a0a4fbfa664755ca1b660aa43c60788f9">DEBUG_COUNTS</a> = false</td></tr>
+<tr class="memitem:ac1aaf52eb4dda5a0a82f3d689d64d0bf"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ac1aaf52eb4dda5a0a82f3d689d64d0bf">DEBUG_STATE</a> = false</td></tr>
+<tr class="memitem:aed0d47d72e96f7e77330436d0bc92632"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aed0d47d72e96f7e77330436d0bc92632">DEBUG_VALUES</a> = false</td></tr>
+<tr class="memitem:af55eea6b163463715b8ff62764068ac6"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#af55eea6b163463715b8ff62764068ac6">DEBUG_TIMING</a> = false</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ab2d0fe5f31bff2d1dab3bc699270cd9d"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ab2d0fe5f31bff2d1dab3bc699270cd9d">mInteractiveAttackTime</a></td></tr>
+<tr class="memdesc:ab2d0fe5f31bff2d1dab3bc699270cd9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time it takes all interactive elements to reach full active state.  <a href="#ab2d0fe5f31bff2d1dab3bc699270cd9d"></a><br/></td></tr>
+<tr class="memitem:ab3f401fca17c53e5520e2682b84233bd"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ab3f401fca17c53e5520e2682b84233bd">mInteractiveDecayTime</a></td></tr>
+<tr class="memdesc:ab3f401fca17c53e5520e2682b84233bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time it takes to all interactive elements to go back to base state.  <a href="#ab3f401fca17c53e5520e2682b84233bd"></a><br/></td></tr>
+<tr class="memitem:a68805debe75f8a35e8d6adce56c0755a"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a68805debe75f8a35e8d6adce56c0755a">mActionShowTime</a></td></tr>
+<tr class="memdesc:a68805debe75f8a35e8d6adce56c0755a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time the agent must stay in taking input/pressed state as a minimum.  <a href="#a68805debe75f8a35e8d6adce56c0755a"></a><br/></td></tr>
+<tr class="memitem:aadd64b576d8f46dba1d53f8228f9a6d3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aadd64b576d8f46dba1d53f8228f9a6d3">mStateAnimationProgress</a></td></tr>
+<tr class="memdesc:aadd64b576d8f46dba1d53f8228f9a6d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Animation between state and nextState. Range is 0..1.  <a href="#aadd64b576d8f46dba1d53f8228f9a6d3"></a><br/></td></tr>
+<tr class="memitem:ad58f07b994db21643fef6e6fd0a60a9a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ad58f07b994db21643fef6e6fd0a60a9a">mAgentAnimationFocus</a></td></tr>
+<tr class="memdesc:ad58f07b994db21643fef6e6fd0a60a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Focus animation. Range is 0..1.  <a href="#ad58f07b994db21643fef6e6fd0a60a9a"></a><br/></td></tr>
+<tr class="memitem:a8061bb351950dc9d943af5af6b85ff90"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a8061bb351950dc9d943af5af6b85ff90">mAgentAnimationHighlight</a></td></tr>
+<tr class="memdesc:a8061bb351950dc9d943af5af6b85ff90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Highlight animation. Range is 0..1.  <a href="#a8061bb351950dc9d943af5af6b85ff90"></a><br/></td></tr>
+<tr class="memitem:a842e90071e48bfbb39bc0354a96010f6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a842e90071e48bfbb39bc0354a96010f6">mAgentAnimationPress</a></td></tr>
+<tr class="memdesc:a842e90071e48bfbb39bc0354a96010f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pressed animation. Range is 0..1.  <a href="#a842e90071e48bfbb39bc0354a96010f6"></a><br/></td></tr>
+<tr class="memitem:a95daab2a02ce5a3418b205b5d5f2bb96"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a95daab2a02ce5a3418b205b5d5f2bb96">mAgentAnimationDown</a></td></tr>
+<tr class="memdesc:a95daab2a02ce5a3418b205b5d5f2bb96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pressed animation. Range is 0..1.  <a href="#a95daab2a02ce5a3418b205b5d5f2bb96"></a><br/></td></tr>
+<tr class="memitem:ac288bd2b3d7b72bc2c84de2a7d771299"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ac288bd2b3d7b72bc2c84de2a7d771299">mAgentAnimationCombinedFocusAndHighlight</a></td></tr>
+<tr class="memdesc:ac288bd2b3d7b72bc2c84de2a7d771299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combined focus and highlight animation. Range is 0..1.  <a href="#ac288bd2b3d7b72bc2c84de2a7d771299"></a><br/></td></tr>
+<tr class="memitem:a4532fc0218b9499cee21e314753db7d9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a4532fc0218b9499cee21e314753db7d9">mAgentAnimationCombinedInteraction</a></td></tr>
+<tr class="memdesc:a4532fc0218b9499cee21e314753db7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combination of focus/highlight and pressed animations. Range is 0..2.  <a href="#a4532fc0218b9499cee21e314753db7d9"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pac-attribs"></a>
+Package Attributes</h2></td></tr>
+<tr class="memitem:a5ad398f95ee6d052b46a958b7a5bd51c"><td class="memItemLeft" align="right" valign="top">LinkedList&lt; Object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a5ad398f95ee6d052b46a958b7a5bd51c">mPendingActions</a></td></tr>
+<tr class="memitem:a9168b6aeeabb3a99e37fdaae124e6054"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a9168b6aeeabb3a99e37fdaae124e6054">mStateAnimationReversed</a></td></tr>
+<tr class="memitem:ae23d53d055bd0d74b7c0a3601287d20b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ae23d53d055bd0d74b7c0a3601287d20b">mNumFocus</a></td></tr>
+<tr class="memitem:ac835add03db0a5d5b36dd446e4dd875f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ac835add03db0a5d5b36dd446e4dd875f">mNumHighlights</a></td></tr>
+<tr class="memitem:add61337af2a991ed4bf3d356e16381bd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#add61337af2a991ed4bf3d356e16381bd">mNumPresses</a></td></tr>
+<tr class="memitem:acb8c001ca7e02c31fcfd25753893a617"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#acb8c001ca7e02c31fcfd25753893a617">mInternalFocus</a></td></tr>
+<tr class="memitem:a31b4f174bb215c0005179d31a30bb182"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a31b4f174bb215c0005179d31a30bb182">mInternalHighlight</a></td></tr>
+<tr class="memitem:a104f40d30e9d489da332146c89d44c7f"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a104f40d30e9d489da332146c89d44c7f">mInternalPress</a></td></tr>
+<tr class="memitem:a308609aedd841f827b372fad62ab1767"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a308609aedd841f827b372fad62ab1767">mInternalSelections</a></td></tr>
+<tr class="memitem:a8ab6e3808abdeec66a1a9aed270c9147"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a8ab6e3808abdeec66a1a9aed270c9147">mOutsideActive</a></td></tr>
+<tr class="memitem:ab0771fc9ea6de4d47eba8a8e03ded540"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ab0771fc9ea6de4d47eba8a8e03ded540">mOutsideActiveBracket</a></td></tr>
+<tr class="memitem:af63d82d12abb7b890454a596a67a78f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#af63d82d12abb7b890454a596a67a78f5">mPendingSelections1</a></td></tr>
+<tr class="memitem:acadc2d5130bb31546ea43d3529a1199f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#acadc2d5130bb31546ea43d3529a1199f">mPendingSelections2</a></td></tr>
+<tr class="memitem:ae4fa2292d8ccddc5dddcd8eb1033a8ee"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ae4fa2292d8ccddc5dddcd8eb1033a8ee">mAgentState</a></td></tr>
+<tr class="memitem:a1c784feb3a680eb381ed17600b13f2d5"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a1c784feb3a680eb381ed17600b13f2d5">mInputCheckScheduled</a></td></tr>
+<tr class="memitem:afcc7a251933da0b9b838164768bdb4d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html">PDEAnimationGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#afcc7a251933da0b9b838164768bdb4d2">mAnimations</a></td></tr>
+<tr class="memitem:a397d16db070849a09a469e374d4f2337"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a397d16db070849a09a469e374d4f2337">mFocusAnimation</a></td></tr>
+<tr class="memitem:a4be6dbf8ba555de4810b9b71d5025bbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a4be6dbf8ba555de4810b9b71d5025bbd">mHighlightAnimation</a></td></tr>
+<tr class="memitem:a5ba2178043a919c5db8e085c50dcd0a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a5ba2178043a919c5db8e085c50dcd0a0">mFocusAndHighlightAnimation</a></td></tr>
+<tr class="memitem:a67894e514dc510d867a2e0e884d66f19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a67894e514dc510d867a2e0e884d66f19">mPressAnimation</a></td></tr>
+<tr class="memitem:a0d8dd1d0d04b80616291ff461cb6ca12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a0d8dd1d0d04b80616291ff461cb6ca12">mDownAnimation</a></td></tr>
+<tr class="memitem:a214dcef1b4454e2b134ce8da221881fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a214dcef1b4454e2b134ce8da221881fa">mInteractionAnimation</a></td></tr>
+<tr class="memitem:ab58bd976f45abf9d1afe5ac7bf348eb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ab58bd976f45abf9d1afe5ac7bf348eb1">mStateAnimation</a></td></tr>
+<tr class="memitem:a17f70506664b89d3ca367baa98f7712c"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a17f70506664b89d3ca367baa98f7712c">mTiming</a></td></tr>
+<tr class="memitem:a1792caa6e02fa411240394bd3975f8f0"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a1792caa6e02fa411240394bd3975f8f0">mStateChangeTime</a></td></tr>
+<tr class="memdesc:a1792caa6e02fa411240394bd3975f8f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time it takes the agent to change main states.  <a href="#a1792caa6e02fa411240394bd3975f8f0"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a09e7583223a999771e7972cd0e6ea27c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a09e7583223a999771e7972cd0e6ea27c">mState</a></td></tr>
+<tr class="memdesc:a09e7583223a999771e7972cd0e6ea27c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The agent's state.  <a href="#a09e7583223a999771e7972cd0e6ea27c"></a><br/></td></tr>
+<tr class="memitem:a7acdb57bc56e2ab2be7feaaacc072ac3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a7acdb57bc56e2ab2be7feaaacc072ac3">mCurrentState</a></td></tr>
+<tr class="memdesc:a7acdb57bc56e2ab2be7feaaacc072ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The agent's current state.  <a href="#a7acdb57bc56e2ab2be7feaaacc072ac3"></a><br/></td></tr>
+<tr class="memitem:aa58a398460b5cd04755f4b98aa132cac"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa58a398460b5cd04755f4b98aa132cac">mNextState</a></td></tr>
+<tr class="memdesc:aa58a398460b5cd04755f4b98aa132cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The agent's next state.  <a href="#aa58a398460b5cd04755f4b98aa132cac"></a><br/></td></tr>
+<tr class="memitem:adddbe97cd02f00f203714e7c36f19c4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#adddbe97cd02f00f203714e7c36f19c4d">mEventSource</a></td></tr>
+<tr class="memdesc:adddbe97cd02f00f203714e7c36f19c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">PDEEventSource instance that provides the event sending behaviour.  <a href="#adddbe97cd02f00f203714e7c36f19c4d"></a><br/></td></tr>
+</table>
+<h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a2ae25e4eaf64edefd59c5453b29a800e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDEAgentController </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="a0841511e730a76d22731bf8511f55a1b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setInteractiveAttackTime </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4b25069e136f78574516763261fd69e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getInteractiveAttackTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a16d531b49d97681e53e84dad2bd97820"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setInteractiveDecayTime </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aace0b724236d6af0ad6eb4cad753aa5d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getInteractiveDecayTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a52d092aa1aa537fd49b2d2da644bae4a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setActionShowTime </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a43d03ee1a57e32f2288489089274ad43"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getActionShowTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a665623a1a603a0dffaa7318ba3edd4f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getStateAnimationProgress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a15ca243b888367afcca8ee1e4c7554f1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setStateAnimationProgress </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>stateAnimationProgress</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa22c3a6b2cb996a6475588f3f2dab850"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getAgentAnimationFocus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aec232a5d1684ee065fa8b3e16f6dcd9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setAgentAnimationFocus </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>focus</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaaa2abdcac90d8f7c3c6ed22d2c3c9da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getAgentAnimationHighlight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9b623363d4547392a2aa225197d04ec4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setAgentAnimationHighlight </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>highlight</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abfbb11615e7fa81c5e752d8216db0cbf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getAgentAnimationPress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6cde4365968ffcc388f9142358262497"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setAgentAnimationPress </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>press</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a722fe5e98f9b0e384d8d3cfef4339a1d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getAgentAnimationDown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a794c10b1f9eacf63232a6d5f37166c91"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setAgentAnimationDown </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>down</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aca5ad3b992557df557d70520ac19fde7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getAgentAnimationCombinedFocusAndHighlight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab61dcba19b116d2851cda0e0634c132a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setAgentAnimationCombinedFocusAndHighlight </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7e247ba450ec0099e8495e7737e2329c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getAgentAnimationCombinedInteraction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af96abbdab11a51d5b81762711c40b2b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setmAgentAnimationCombinedInteraction </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a394ab5642b0900a62a399587d655e4bc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setState </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change the main state. </p>
+
+</div>
+</div>
+<a class="anchor" id="a78f3706bd38e0a1f4368b1c95b6023c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the main state. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa04754e6b8d4457cddc5129c51f54b76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.addFocus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add focus. </p>
+
+</div>
+</div>
+<a class="anchor" id="a03ce5d67931bc38abb01eac9e5ac7f1f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.removeFocus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remove focus. </p>
+
+</div>
+</div>
+<a class="anchor" id="aacee2600dedf9479cd2c55d2a6290b2b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.addHighlight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add highlight. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae7c783252915fd729ba4bb8fcb5c5df9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.removeHighlight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remove highlight. </p>
+
+</div>
+</div>
+<a class="anchor" id="a22907ab3ea75971f3d70be49ec2d0b9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.addPress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a press. </p>
+
+</div>
+</div>
+<a class="anchor" id="a550d3e249ac2eb6f532b16ecfba824f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.doPress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Perform a press (active). </p>
+<p>Removes a press. The press is executed and the Agent continues eventually with UNDERSTANDING. This function is called when the user untaps the agent while the finger is in the active area. DoPress/CancelPress must match the number of addPresses.</p>
+<p>UNDERSTANDING requires program interaction for non-automatic buttons. </p>
+
+</div>
+</div>
+<a class="anchor" id="aabc3c97336c1ec65bd80ad37dc16bfd0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.cancelPress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cancel a press. </p>
+<p>Removes a press without any actions. This function is called when the finger leaves outside the active area, or some other component overrides the tap. DoPress/CancelPress must match the number of addPresses. </p>
+
+</div>
+</div>
+<a class="anchor" id="abe816fce28ef5e91c9f30820604e730a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a> de.telekom.pde.codelibrary.ui.agents.PDEAgentController.getEventSource </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>EventSource implementation. Get Event Sender instance. </p>
+
+<p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#a9f87fbb4eed399a3a84cf5a5d77f1fb8">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa0c3bad457367f191a068c0437f68c39"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object de.telekom.pde.codelibrary.ui.agents.PDEAgentController.addListener </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>methodName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#a1ff7001cbb6bfe41c71e596708dcf4d6">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf70e51d529546efac91588a7c2f533b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object de.telekom.pde.codelibrary.ui.agents.PDEAgentController.addListener </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>methodName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>eventMask</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#ae9c0f545e7c68b5684a0497c471a0eb9">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0da69106fd1706beff5fbb718c43f54f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.eventSourceDidAddListener </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>listener</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>EventSourceDelegate implementation. Send data update for initialization and maintain a consistent activation status. </p>
+
+<p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source_delegate.html#a3f47f49be977909c0526dd9784e22851">de.telekom.pde.codelibrary.ui.events.PDEIEventSourceDelegate</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7a3d030fe0316014e6c68c42d331f524"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.eventSourceWillRemoveListener </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>listener</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>EventSourceDelegate implementation. Maintain a consistent state when a listener is removed. </p>
+
+<p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source_delegate.html#a5a3b66b1406e2add603a696793edde07">de.telekom.pde.codelibrary.ui.events.PDEIEventSourceDelegate</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa66783a9c17d15f182607f9dcb7288a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.addAction </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>action</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add an action to the list. Trigger a delayed check for inputs. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae3484aba96ab0e915d384937a9ae17f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.checkInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>State check when input was changed. </p>
+<p>Do input checks asynchronously. Perform all pending actions. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4b314f8459c1fdb05912135d6b68443b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.performActions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Go through the action queue and perform all pending actions. </p>
+
+</div>
+</div>
+<a class="anchor" id="a58f772d90e42bdaf2d2112403d5c2934"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.performAction </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>action</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Perform a single action. </p>
+<p>Actions are performed and states are changed accordingly. Animations are started/stopped as necessary; we rely on the animation system to work correctly if several changes happen at once. </p>
+
+</div>
+</div>
+<a class="anchor" id="a46a0e8a78b6fe427307d84095d1e45a4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.stateCanHandleAction </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>action</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Information if the current state accepts user interaction. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6a37c34b9f9922445f48bbeabbb82d49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.checkState </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>allowTiming</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check for state changes. </p>
+<p>Based on current state and input variables, state changes are triggered. Several state changes might be triggered in sequence, depending on how the agent is configured (states might be instantaneously skipped, however the logic always walks through them). We do the check until the state is stable. Timed states may only be checked if allowTiming is set; this is to stay in timed states at least one frame.</p>
+<p><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a6a37c34b9f9922445f48bbeabbb82d49" title="Check for state changes.">checkState()</a> is used internally on input changes, and when timed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a03e86f177080c079ee38f363036961bf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.checkSingleState </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>allowTiming</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check for state changes, do one step. </p>
+<p>Only do one step based on current state, current input, and configuration. Send out appropriate change notifications and trigger animations where necessary. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5645af333ea5ab54c1ecaf41f5715b15"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setAgentState </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>agentState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the new state. </p>
+<p>Send out state change messages to delegate </p>
+
+</div>
+</div>
+<a class="anchor" id="ac4935ca971863acf0d51d4b2ae7e3e3a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.checkActions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check for pending actions. </p>
+<p>This sends out all actions that are sent immediately and are associated with input state. </p>
+
+</div>
+</div>
+<a class="anchor" id="a28fce8438f69f29bfdb31d8bc1dc7b9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.checkAnimation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update animation states. </p>
+<p>Startup animations if necessary. They are started only when the output value changes, otherwise they are kept running in their current behaviour. Change management stays inside the animation - additional care is taken in there to not use calculated values, so rounding errors should not occur.</p>
+<p>Note: should we allow non-linear movements of states, we probably have to do it here, since the appropriate decisions can no longer be made by the animation then. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7a45ef59ce1792ca91f1c44de3d31240"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.updateAnimationData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Take over current animation data. </p>
+<p>If something changed, send out a change notification to the delegate </p>
+
+</div>
+</div>
+<a class="anchor" id="af20497d0bc94f9a9af3f7aa82eae75ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setTiming </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>timing</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Turn autotiming on or off. </p>
+<p>Autotiming is done by linking into the global display timing </p>
+
+</div>
+</div>
+<a class="anchor" id="a17b0c680f872106eb86a890c225882e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.changed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Timing function called when manually timed, or when something in the animations changed. </p>
+<p>It's necessary to run the full checks if something in the animations changed; they might have changed their state, which would then retrigger the next phase.</p>
+<p>Manual timing is only invoked for special cases where an animation is not timed, but needs to be checked if it's done for a given time. </p>
+
+</div>
+</div>
+<a class="anchor" id="a59de5ac21deafcd545df9610118cb0e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.time </td>
+          <td>(</td>
+          <td class="paramtype">Long&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>timing function </p>
+<p>Originally we wanted to have a <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a59de5ac21deafcd545df9610118cb0e8" title="timing function">time()</a> method and a <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a59de5ac21deafcd545df9610118cb0e8" title="timing function">time(Long)</a> method. But this seems to make problems with java reflection. So now the originally <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a59de5ac21deafcd545df9610118cb0e8" title="timing function">time()</a> method is called <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a17b0c680f872106eb86a890c225882e4" title="Timing function called when manually timed, or when something in the animations changed.">changed()</a>, the other one stays as <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a59de5ac21deafcd545df9610118cb0e8" title="timing function">time(Long)</a>. For now it simply calls the other one ( <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a17b0c680f872106eb86a890c225882e4" title="Timing function called when manually timed, or when something in the animations changed.">changed()</a> ). </p>
+
+</div>
+</div>
+<a class="anchor" id="a65f19bb4a5a60462427008e45a9815e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html">PDEEventAgentControllerState</a> de.telekom.pde.codelibrary.ui.agents.PDEAgentController.createStateEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event data helper. </p>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="a8c55a39e0777cb73091154c09701c2ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.LOG_TAG = PDEAgentController.class.getName()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global tag for log outputs. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad21a0ad30c5f4209f5308a76ee4cbb78"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.DEBUGPARAMS = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a521a5bcac05849e7aff12e02f78afc11"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.DEBUG_ACTIONS = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0a4fbfa664755ca1b660aa43c60788f9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.DEBUG_COUNTS = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac1aaf52eb4dda5a0a82f3d689d64d0bf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.DEBUG_STATE = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aed0d47d72e96f7e77330436d0bc92632"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.DEBUG_VALUES = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af55eea6b163463715b8ff62764068ac6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.DEBUG_TIMING = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa23bf5c254d3a7240be0e6e140669a5d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.TIME_STRETCH = 1.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a189d86ebd42fd8a98b8f513b1845a4b6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final long de.telekom.pde.codelibrary.ui.agents.PDEAgentController.INTERACTIVE_ATTACK_TIME = Math.round(50*<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa23bf5c254d3a7240be0e6e140669a5d">TIME_STRETCH</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad112f1e181e5bbf5cfc057b8fbe9e933"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final long de.telekom.pde.codelibrary.ui.agents.PDEAgentController.INTERACTIVE_DECAY_TIME = Math.round(150*<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa23bf5c254d3a7240be0e6e140669a5d">TIME_STRETCH</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3c5d1cdf4e028c661481582fb0fba17a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final long de.telekom.pde.codelibrary.ui.agents.PDEAgentController.ACTION_SHOW_TIME = Math.round(50*<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa23bf5c254d3a7240be0e6e140669a5d">TIME_STRETCH</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae28b0e11e4f374c4e2e67763a03721f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final long de.telekom.pde.codelibrary.ui.agents.PDEAgentController.STATECHANGETIME = Math.round(150*<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa23bf5c254d3a7240be0e6e140669a5d">TIME_STRETCH</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aabc341c931f4c4166886f7d547b4b47b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_MASK = &quot;PDEAgentController.*&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event mask for all <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html" title="The controlling logic for all agents.">PDEAgentController</a> events. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0da74661bf985fd7baa946ad6b246203"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_MASK_ANIMATION = &quot;PDEAgentController.animation.*&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event mask for all <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html" title="The controlling logic for all agents.">PDEAgentController</a> animation events. </p>
+
+</div>
+</div>
+<a class="anchor" id="a37d2030294dc4f439895afe568aefa81"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_MASK_ACTION = &quot;PDEAgentController.action.*&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event mask for all actions. </p>
+
+</div>
+</div>
+<a class="anchor" id="a68b2066923ba5091976e301a946c7ed9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ANIMATION_INITIALIZE = &quot;PDEAgentController.animation.initialize&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af46e2db85a0773b7762e3586246c9da8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ANIMATION_BEGIN_STATE_CHANGE = &quot;PDEAgentController.animation.beginStateChange&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a998f06b619b69acf81f4e53882d16f4c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ANIMATION_END_STATE_CHANGE = &quot;PDEAgentController.animation.endStateChange&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acc3d24e8aa65b5951f05871b1a889a94"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ANIMATION_DID_CHANGE = &quot;PDEAgentController.animation.didChange&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event is sent after some animation property has changed. Event class is PDEEvent. </p>
+<p>Data sent is PDEAgentControllerEventState. </p>
+
+</div>
+</div>
+<a class="anchor" id="a73d188e0ddf107d875f923de28b49635"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ACTION_BEGIN_INTERACTION = &quot;PDEAgentController.action.beginInteraction&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af561a3a47f998f7f83b71f0c3a8ee7f1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ACTION_END_INTERACTION = &quot;PDEAgentController.action.endInteraction&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a577ae2a058dfe61e4f4c83731f79889d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ACTION_ACTIVATED = &quot;PDEAgentController.action.activated&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event is sent when user activates the agent. </p>
+<p>Activation usually happens when the user klicks on the agent. The agent stays active as long as the click is active and the mouse is over the input area. The active status can be used for behaviours like for e.g. forward buttons in music players. Don't use end of activation for triggering events! Use DTAgentControllerActionSelected or DTAgentControllerActionWillBeSelected instead.</p>
+<p>No special data is sent along. </p>
+
+</div>
+</div>
+<a class="anchor" id="a985d1c43178b6c4f16e0f9fa5bb3e2f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ACTION_DEACTIVATED = &quot;PDEAgentController.action.deactivated&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event is sent when user deactivates the agent. </p>
+<p>No special data is sent along. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9a9a08895a4bf1e66dbb6ab4abe3c9bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ACTION_SELECTED = &quot;PDEAgentController.action.selected&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event is sent when the agent was successfully selected. </p>
+<p>The event is after the animation has successfully displayed the active state to the user. Normally, you would use this event for all interaction, since it ensures that there's a proper visual response to the user's action. Especially use this event when the action triggers a removal of the agent (e.g. by switching to another screen).</p>
+<p>No special data is sent along. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3015498387499b98340a1c2916e708a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ACTION_WILL_BE_SELECTED = &quot;PDEAgentController.action.willBeSelected&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event is sent immediately when user successfully selects the agents. </p>
+<p>The agent system still needs some time to display the selection to the user. Use this event only if the selection triggers another action inside the same screen, and the agent has the opportunity of finishing it's animations afterwards. Examples would be a scrolldown button, where the scrolling can start while the agent displays the selection.</p>
+<p>No special data is sent along. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9c3b0fc6e3ff8453085d53b72679542c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_STATE_IDLE = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Internal agent controller states. </p>
+
+</div>
+</div>
+<a class="anchor" id="abd3e84f16f9b67e0d5412841aa76c3b6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_STATE_INTERACTIVE = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6a085744ee43cc68b09f36c2f714c558"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_STATE_SHOWING = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a25772a620ae3d90323e53c6f14918136"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_STATE_UNDERSTANDING = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab926dbe3dfab2435dee3c1f2954f423a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_STATE_DOING = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a343f8745b1bb6f990df82c1532680afc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_STATE_DONE = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad7c3d4edc4a336bfd1511d7e19d6e39a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_ACTION_GENERIC = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a546f1442119116a1ee74d9d81409db9a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_ACTION_FOCUS = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a85e9e7ca7d4e61c930dd90945c149031"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_ACTION_UNFOCUS = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aed172dc0e5edc60c06f4e70722c265be"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_ACTION_HIGHLIGHT = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad83cf7dfed6bce6bd4fc42ade64f0d21"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_ACTION_UNHIGHLIGHT = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac400adee88187688c8e5fe188cb1fa91"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_ACTION_PRESS = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae9a2d0258802524cdd085018839c15f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_ACTION_DO_PRESS = 6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1a220dbbf91184d90184bcaa6e8a8c6a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.PDE_AGENT_CONTROLLER_ACTION_CANCEL_PRESS = 7</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5ad398f95ee6d052b46a958b7a5bd51c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedList&lt;Object&gt; de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mPendingActions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9168b6aeeabb3a99e37fdaae124e6054"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mStateAnimationReversed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae23d53d055bd0d74b7c0a3601287d20b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mNumFocus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac835add03db0a5d5b36dd446e4dd875f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mNumHighlights</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="add61337af2a991ed4bf3d356e16381bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mNumPresses</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acb8c001ca7e02c31fcfd25753893a617"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mInternalFocus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a31b4f174bb215c0005179d31a30bb182"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mInternalHighlight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a104f40d30e9d489da332146c89d44c7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mInternalPress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a308609aedd841f827b372fad62ab1767"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mInternalSelections</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8ab6e3808abdeec66a1a9aed270c9147"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mOutsideActive</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab0771fc9ea6de4d47eba8a8e03ded540"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mOutsideActiveBracket</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af63d82d12abb7b890454a596a67a78f5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mPendingSelections1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acadc2d5130bb31546ea43d3529a1199f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mPendingSelections2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae4fa2292d8ccddc5dddcd8eb1033a8ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mAgentState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1c784feb3a680eb381ed17600b13f2d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mInputCheckScheduled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afcc7a251933da0b9b838164768bdb4d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html">PDEAnimationGroup</a> de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mAnimations</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a397d16db070849a09a469e374d4f2337"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a> de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mFocusAnimation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4be6dbf8ba555de4810b9b71d5025bbd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a> de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mHighlightAnimation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5ba2178043a919c5db8e085c50dcd0a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a> de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mFocusAndHighlightAnimation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a67894e514dc510d867a2e0e884d66f19"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a> de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mPressAnimation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0d8dd1d0d04b80616291ff461cb6ca12"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a> de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mDownAnimation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a214dcef1b4454e2b134ce8da221881fa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a> de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mInteractionAnimation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab58bd976f45abf9d1afe5ac7bf348eb1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html">PDELinearAnimation</a> de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mStateAnimation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a09e7583223a999771e7972cd0e6ea27c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The agent's state. </p>
+<p>States don't interfere with the agent's main agentstate logic (taking input, doing, etc.). They are a higher level of animation and performed by the agent regardless of other states. The main reason for them being in the agent is that it's a convenient place to manage them, and that sometimes state changes must be delayed until the agent is in a state where it can actually react to them. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7acdb57bc56e2ab2be7feaaacc072ac3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mCurrentState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The agent's current state. </p>
+<p>May be behind the state stored in the main state. Used for state animations. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa58a398460b5cd04755f4b98aa132cac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mNextState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The agent's next state. </p>
+<p>Only valid when a state animation is in progress. </p>
+
+</div>
+</div>
+<a class="anchor" id="a17f70506664b89d3ca367baa98f7712c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mTiming</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1792caa6e02fa411240394bd3975f8f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mStateChangeTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Time it takes the agent to change main states. </p>
+
+</div>
+</div>
+<a class="anchor" id="adddbe97cd02f00f203714e7c36f19c4d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a> de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mEventSource</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>PDEEventSource instance that provides the event sending behaviour. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab2d0fe5f31bff2d1dab3bc699270cd9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mInteractiveAttackTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Time it takes all interactive elements to reach full active state. </p>
+<p>Interactive elements are focus, highlight, etc. and all state transitions between idle, focus, taking input etc. in forward direction </p>
+
+</div>
+</div>
+<a class="anchor" id="ab3f401fca17c53e5520e2682b84233bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mInteractiveDecayTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Time it takes to all interactive elements to go back to base state. </p>
+<p>For state transitions, the time to backward-transition in the agent state model. </p>
+
+</div>
+</div>
+<a class="anchor" id="a68805debe75f8a35e8d6adce56c0755a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mActionShowTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Time the agent must stay in taking input/pressed state as a minimum. </p>
+<p>To show the users that something was activated. Otherwise a short press would just start animating, and then go back to idle, without much visual change. </p>
+
+</div>
+</div>
+<a class="anchor" id="aadd64b576d8f46dba1d53f8228f9a6d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mStateAnimationProgress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Animation between state and nextState. Range is 0..1. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad58f07b994db21643fef6e6fd0a60a9a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mAgentAnimationFocus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Focus animation. Range is 0..1. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8061bb351950dc9d943af5af6b85ff90"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mAgentAnimationHighlight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Highlight animation. Range is 0..1. </p>
+
+</div>
+</div>
+<a class="anchor" id="a842e90071e48bfbb39bc0354a96010f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mAgentAnimationPress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pressed animation. Range is 0..1. </p>
+
+</div>
+</div>
+<a class="anchor" id="a95daab2a02ce5a3418b205b5d5f2bb96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mAgentAnimationDown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pressed animation. Range is 0..1. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac288bd2b3d7b72bc2c84de2a7d771299"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mAgentAnimationCombinedFocusAndHighlight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Combined focus and highlight animation. Range is 0..1. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4532fc0218b9499cee21e314753db7d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mAgentAnimationCombinedInteraction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Combination of focus/highlight and pressed animations. Range is 0..2. </p>
+<p>This animation corresponds to the agentstate model where one value (usually color) is animated through the states. 0 is "available", 1 is "focus", 2 is "taking input". </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/src/de/telekom/pde/codelibrary/ui/agents/<a class="el" href="_p_d_e_agent_controller_8java.html">PDEAgentController.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

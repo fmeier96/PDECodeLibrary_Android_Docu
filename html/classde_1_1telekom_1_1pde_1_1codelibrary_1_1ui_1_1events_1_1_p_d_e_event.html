@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-library-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.ui.events.PDEEvent Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Event data base class.  
+ <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.ui.events.PDEEvent:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.png" usemap="#de.telekom.pde.codelibrary.ui.events.PDEEvent_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.ui.events.PDEEvent_map" name="de.telekom.pde.codelibrary.ui.events.PDEEvent_map">
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html" title="Event state sent along with all events." alt="de.telekom.pde.codelibrary.ui.agents.PDEEventAgentControllerState" shape="rect" coords="0,56,399,80"/>
+</map>
+ </div></div>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Event data base class. </p>
+<p>Events (and Event sources) provide communication between classes, using a weak coupling. Events can be sent to arbitrary methods of the receiving class, and can be filtered that a method only receives events of a single type, or events of a group. An event is a one-to-many form of communication, it has exactly one point of origin (the sender), and can have several (or none) registered handler functions. Handler functions are called in the order they were registered.</p>
+<p>Instances of the event class get sent to the receiving method every time an event is sent. The basic <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html" title="Event data base class.">PDEEvent</a> holds the type and a reference to the sender. It can be used as base for events, but event senders are free to derive their events from this class and pass on additional event specific data. The client should check for the event type (if not sure that the methods only receives events of a known type) and cast the event accordingly. The event's data can be changed by handlers while processing, remaining handlers will then receive the modified data. Never change the event type on the fly, the event will not be filtered and distributed again correctly.</p>
+<p>Additionally, events provide functionality for returning a result to the sender (if sent synchronously), and for marking an event as processed. If processed, an event is not sent on to any handlers remaining in the queue. If you define events, make sure to include documentation about the actual data class sent with the event, about what results are expected (if any), and if the event should be marked as processed when handler, or should be left for others as information to receive. For rules about how to compose an event type, see the documentation of the type property.</p>
+<p>The event sender set in the event should always the the instance actually sending the event, not for example some helper class like EventSourceSample. The receiver of an event should be able to easily identify the sender by comparing pointers to known objects with the sender. </p>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:a948176747425188421499bcd5c6a8aaa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a948176747425188421499bcd5c6a8aaa">PDEEvent</a> ()</td></tr>
+<tr class="memdesc:a948176747425188421499bcd5c6a8aaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a948176747425188421499bcd5c6a8aaa"></a><br/></td></tr>
+<tr class="memitem:a6ccf175a8fe9248e12b376fc06f3a442"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a6ccf175a8fe9248e12b376fc06f3a442">isType</a> (String type)</td></tr>
+<tr class="memdesc:a6ccf175a8fe9248e12b376fc06f3a442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the event type matches.  <a href="#a6ccf175a8fe9248e12b376fc06f3a442"></a><br/></td></tr>
+<tr class="memitem:a90cef2acb7a3c6373cb064ce57e2a4b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a90cef2acb7a3c6373cb064ce57e2a4b1">setType</a> (String type)</td></tr>
+<tr class="memdesc:a90cef2acb7a3c6373cb064ce57e2a4b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the event type.  <a href="#a90cef2acb7a3c6373cb064ce57e2a4b1"></a><br/></td></tr>
+<tr class="memitem:abcddefda4a9cab9210985aade1bcf8af"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#abcddefda4a9cab9210985aade1bcf8af">getType</a> ()</td></tr>
+<tr class="memdesc:abcddefda4a9cab9210985aade1bcf8af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of the event.  <a href="#abcddefda4a9cab9210985aade1bcf8af"></a><br/></td></tr>
+<tr class="memitem:a57bced813397611f34c57e958d4311a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a57bced813397611f34c57e958d4311a7">setSender</a> (Object sender)</td></tr>
+<tr class="memdesc:a57bced813397611f34c57e958d4311a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set object that sends the event.  <a href="#a57bced813397611f34c57e958d4311a7"></a><br/></td></tr>
+<tr class="memitem:a986b67e1498237a6b6869bb00e290c89"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a986b67e1498237a6b6869bb00e290c89">getSender</a> ()</td></tr>
+<tr class="memdesc:a986b67e1498237a6b6869bb00e290c89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive the object the event was originally sent from.  <a href="#a986b67e1498237a6b6869bb00e290c89"></a><br/></td></tr>
+<tr class="memitem:a06954e58a2a07c24ded557bb8e5f6fe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a06954e58a2a07c24ded557bb8e5f6fe5">setProcessed</a> ()</td></tr>
+<tr class="memdesc:a06954e58a2a07c24ded557bb8e5f6fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the event as processed.  <a href="#a06954e58a2a07c24ded557bb8e5f6fe5"></a><br/></td></tr>
+<tr class="memitem:a8954185ddcfb653d0d3b68712ee688d6"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a8954185ddcfb653d0d3b68712ee688d6">isProcessed</a> ()</td></tr>
+<tr class="memdesc:a8954185ddcfb653d0d3b68712ee688d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if event is marked as processed.  <a href="#a8954185ddcfb653d0d3b68712ee688d6"></a><br/></td></tr>
+<tr class="memitem:aa032f22f62c4c0a211242a3e28adc2d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#aa032f22f62c4c0a211242a3e28adc2d6">setDistributeToAll</a> ()</td></tr>
+<tr class="memdesc:aa032f22f62c4c0a211242a3e28adc2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force distribution of the event to all handlers.  <a href="#aa032f22f62c4c0a211242a3e28adc2d6"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pac-methods"></a>
+Package Methods</h2></td></tr>
+<tr class="memitem:aacc3dd1f153ac49908205ea49ed76bc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#aacc3dd1f153ac49908205ea49ed76bc7">clearDistributeToAll</a> ()</td></tr>
+<tr class="memdesc:aacc3dd1f153ac49908205ea49ed76bc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the distribute to all behaviour.  <a href="#aacc3dd1f153ac49908205ea49ed76bc7"></a><br/></td></tr>
+<tr class="memitem:ab12b3b4af1653dfa5583fdd6f45ecad2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#ab12b3b4af1653dfa5583fdd6f45ecad2">isDistributeToAll</a> ()</td></tr>
+<tr class="memdesc:ab12b3b4af1653dfa5583fdd6f45ecad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if event is marked for distribution to all handlers.  <a href="#ab12b3b4af1653dfa5583fdd6f45ecad2"></a><br/></td></tr>
+<tr class="memitem:a5d8fe98aff161fcfe5615ee3351f392e"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a5d8fe98aff161fcfe5615ee3351f392e">hasResult</a> ()</td></tr>
+<tr class="memdesc:a5d8fe98aff161fcfe5615ee3351f392e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if there is a result.  <a href="#a5d8fe98aff161fcfe5615ee3351f392e"></a><br/></td></tr>
+<tr class="memitem:a011d7d26a6ffc47752fc965970dea037"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a011d7d26a6ffc47752fc965970dea037">setResult</a> (Object resultObject)</td></tr>
+<tr class="memdesc:a011d7d26a6ffc47752fc965970dea037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Object instance as result.  <a href="#a011d7d26a6ffc47752fc965970dea037"></a><br/></td></tr>
+<tr class="memitem:a7f2cf0d5f701214d0141ba6846a2e80a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a7f2cf0d5f701214d0141ba6846a2e80a">setResult</a> (int value)</td></tr>
+<tr class="memdesc:a7f2cf0d5f701214d0141ba6846a2e80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set int value as result.  <a href="#a7f2cf0d5f701214d0141ba6846a2e80a"></a><br/></td></tr>
+<tr class="memitem:aca62b0d64d1f1b0a6a266907644ea482"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#aca62b0d64d1f1b0a6a266907644ea482">setResult</a> (double value)</td></tr>
+<tr class="memdesc:aca62b0d64d1f1b0a6a266907644ea482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set double value as result.  <a href="#aca62b0d64d1f1b0a6a266907644ea482"></a><br/></td></tr>
+<tr class="memitem:a7393101c111ea4e6ee964371ddd485ab"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a7393101c111ea4e6ee964371ddd485ab">getResult</a> ()</td></tr>
+<tr class="memdesc:a7393101c111ea4e6ee964371ddd485ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the result as an Object.  <a href="#a7393101c111ea4e6ee964371ddd485ab"></a><br/></td></tr>
+<tr class="memitem:a8a3a23a6ef94cb1d051957e71e602e73"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a8a3a23a6ef94cb1d051957e71e602e73">getIntResult</a> ()</td></tr>
+<tr class="memdesc:a8a3a23a6ef94cb1d051957e71e602e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the result as an int.  <a href="#a8a3a23a6ef94cb1d051957e71e602e73"></a><br/></td></tr>
+<tr class="memitem:abb4398d09c33a976ba5c9d9d3156d486"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#abb4398d09c33a976ba5c9d9d3156d486">getDoubleResult</a> ()</td></tr>
+<tr class="memdesc:abb4398d09c33a976ba5c9d9d3156d486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the result as a double.  <a href="#abb4398d09c33a976ba5c9d9d3156d486"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a018f4f4b50ae822c268b2484bf72a307"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a018f4f4b50ae822c268b2484bf72a307">FLAG_NONE</a> = 0</td></tr>
+<tr class="memdesc:a018f4f4b50ae822c268b2484bf72a307"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html" title="Event data base class.">PDEEvent</a> flag bitfield constants.  <a href="#a018f4f4b50ae822c268b2484bf72a307"></a><br/></td></tr>
+<tr class="memitem:a5d676d31fc4db5aab197b6f79da738d2"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a5d676d31fc4db5aab197b6f79da738d2">FLAG_PROCESSED</a> = 1 &lt;&lt; 0</td></tr>
+<tr class="memitem:a61f516df5b7fa158ed4c0e1173f97283"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a61f516df5b7fa158ed4c0e1173f97283">FLAG_DISTRIBUTE_TO_ALL</a> = 1 &lt;&lt; 1</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1c4405dad4d025285a068881c73abe32"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a1c4405dad4d025285a068881c73abe32">mType</a></td></tr>
+<tr class="memdesc:a1c4405dad4d025285a068881c73abe32"><td class="mdescLeft">&#160;</td><td class="mdescRight">properties.  <a href="#a1c4405dad4d025285a068881c73abe32"></a><br/></td></tr>
+<tr class="memitem:a3df4ab030ac648b6d07a9cd1ab0bb4ec"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a3df4ab030ac648b6d07a9cd1ab0bb4ec">mSender</a></td></tr>
+<tr class="memdesc:a3df4ab030ac648b6d07a9cd1ab0bb4ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event sender.  <a href="#a3df4ab030ac648b6d07a9cd1ab0bb4ec"></a><br/></td></tr>
+<tr class="memitem:a0bdedb5ac51d953a468e74d214f035a9"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a0bdedb5ac51d953a468e74d214f035a9">mResult</a></td></tr>
+<tr class="memdesc:a0bdedb5ac51d953a468e74d214f035a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event result.  <a href="#a0bdedb5ac51d953a468e74d214f035a9"></a><br/></td></tr>
+<tr class="memitem:af2b3db76118f200bde6b7b5adffdfa3d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#af2b3db76118f200bde6b7b5adffdfa3d">mFlags</a></td></tr>
+</table>
+<h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a948176747425188421499bcd5c6a8aaa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.events.PDEEvent.PDEEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="a6ccf175a8fe9248e12b376fc06f3a442"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.events.PDEEvent.isType </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the event type matches. </p>
+<p>Also checks wildcards - often all events of a group send the same data. Be sure to verify that this is actually the case for all events sent.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The type to check against. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the event is of the specified type. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a90cef2acb7a3c6373cb064ce57e2a4b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.events.PDEEvent.setType </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the event type. </p>
+<p>Set the type of your event. The event handlers filter for the event types they intend to process.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The type of the event. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="abcddefda4a9cab9210985aade1bcf8af"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.ui.events.PDEEvent.getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the type of the event. </p>
+<dl class="section return"><dt>Returns</dt><dd>The event type. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a57bced813397611f34c57e958d4311a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.events.PDEEvent.setSender </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>sender</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set object that sends the event. </p>
+<p>The event sender set in the event should always the the instance actually sending the event, not for example some helper class like EventSourceSample. The receiver of an event should be able to easily identify the sender by comparing pointers to known objects with the sender.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>The object that sends the event. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a986b67e1498237a6b6869bb00e290c89"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object de.telekom.pde.codelibrary.ui.events.PDEEvent.getSender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Receive the object the event was originally sent from. </p>
+<dl class="section return"><dt>Returns</dt><dd>Source-Object of the event. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a06954e58a2a07c24ded557bb8e5f6fe5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.events.PDEEvent.setProcessed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the event as processed. </p>
+<p>Used by event handling functions to mark the event as processed. A processed event is not distributed any more along the chain of handling functions, unless distribution to all handler was explicitly requested by the sender.</p>
+<p>An event cannot be set to unprocessed again. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8954185ddcfb653d0d3b68712ee688d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.events.PDEEvent.isProcessed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if event is marked as processed. </p>
+<p>IsProcessed can be checked by the sender to see if the event was marked as processed by any of the handling functions.</p>
+<dl class="section return"><dt>Returns</dt><dd>true if the event was processed. FALSE if there were no handlers listening to this event, or if the event was not marked as processed during sending. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa032f22f62c4c0a211242a3e28adc2d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.events.PDEEvent.setDistributeToAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Force distribution of the event to all handlers. </p>
+<p>Should be set by the sender prior to sending the event. If set, the processed flag is ignored and the event gets sent to all handlers. The default behaviour is not to distribute the event to all.</p>
+<p>If necessary, this flag can be cleared by handlers during processing. </p>
+
+</div>
+</div>
+<a class="anchor" id="aacc3dd1f153ac49908205ea49ed76bc7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.events.PDEEvent.clearDistributeToAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear the distribute to all behaviour. </p>
+<p>The default setting. The event is only distributed to handlers until the processed flag gets set. This function can be used during event handling to modify the event's behaviour, but be careful when modifying event behaviour. Other event handlers might need to receive the event to function correctly. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab12b3b4af1653dfa5583fdd6f45ecad2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.events.PDEEvent.isDistributeToAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if event is marked for distribution to all handlers. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if distribution to all is turned on. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5d8fe98aff161fcfe5615ee3351f392e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.events.PDEEvent.hasResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if there is a result. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if a result (other than null) was set. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a011d7d26a6ffc47752fc965970dea037"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.events.PDEEvent.setResult </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>resultObject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set Object instance as result. </p>
+<p>The intended results are int or double values. Box the value inside of a Integer- or Double-Object and deliver this object as parameter.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">resultObject</td><td>The value to be set, boxed in an object of appropriate type (Integer/Double). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7f2cf0d5f701214d0141ba6846a2e80a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.events.PDEEvent.setResult </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set int value as result. </p>
+<p>Boxes the value into an Integer instance and stores it. Use getIntResult to retrieve the value again.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The value to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aca62b0d64d1f1b0a6a266907644ea482"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.events.PDEEvent.setResult </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set double value as result. </p>
+<p>Boxes the value into a Double instance and stores it. Use getDoubleResult to retrieve the value again.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The value to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7393101c111ea4e6ee964371ddd485ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object de.telekom.pde.codelibrary.ui.events.PDEEvent.getResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieve the result as an Object. </p>
+<dl class="section return"><dt>Returns</dt><dd>The stored result object. The intended results are int or double values. We store them boxed in Integer- or Double-Objects. So the returned Object has to be casted correctly before use. Alternatively use the more specialized methods getIntResult or getDoubleResult. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8a3a23a6ef94cb1d051957e71e602e73"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.events.PDEEvent.getIntResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieve the result as an int. </p>
+<dl class="section return"><dt>Returns</dt><dd>The stored int result value. If no result is set, or if the result is whether of type Integer nor Double, return -1 as default/error value. If original type is Double it will be converted to int. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abb4398d09c33a976ba5c9d9d3156d486"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.events.PDEEvent.getDoubleResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieve the result as a double. </p>
+<dl class="section return"><dt>Returns</dt><dd>The stored double result value. If no result is set, or if the result is whether of type Double nor Integer, return 0.0 as default value. If original type is Integer it will be converted to double. </dd></dl>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="a1c4405dad4d025285a068881c73abe32"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.ui.events.PDEEvent.mType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>properties. </p>
+<p>Event type.</p>
+<p>Event types should conform to a hierarchical dot-notation: "class.event" to make filtering possible. It's allowed to introduce subcategories like "class.category.event" to filter for groups of events. The only filter allowed is to filter for a common prefix of the type, e.g. "class.category.*" will filter for all events of a defined category.</p>
+<p>If you define an event, define the event name as global static member string of the class sending the event. Always use this type to check for an event, and use the isType function of the event. Do not use hardcoded event strings in handling code.</p>
+<p>Never change the event type while processing. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3df4ab030ac648b6d07a9cd1ab0bb4ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object de.telekom.pde.codelibrary.ui.events.PDEEvent.mSender</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event sender. </p>
+<p>The sender of the event. This should be used to check the event's origin when a handler function might receive events from different instances.</p>
+<p>When composing and sending an event, set to the actual creator and sender of the event, not to a helper class like <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html" title="Event source.">PDEEventSource</a>. It should be easy for the handler of the event to determine where the event originated by checking against instances it already knows (instead of comparing against subimplementations etc.) </p>
+
+</div>
+</div>
+<a class="anchor" id="a0bdedb5ac51d953a468e74d214f035a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object de.telekom.pde.codelibrary.ui.events.PDEEvent.mResult</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event result. </p>
+<p>Initially empty. Some events are asking for a return value, which is stored here. The type of the expected result value depends on the event type. Use setResultWithInt: and setResultWithDouble: to simplify handling of common results. Use resultAsInt and resultAsDouble to retrieve these values. </p>
+
+</div>
+</div>
+<a class="anchor" id="af2b3db76118f200bde6b7b5adffdfa3d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.events.PDEEvent.mFlags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a018f4f4b50ae822c268b2484bf72a307"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.events.PDEEvent.FLAG_NONE = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html" title="Event data base class.">PDEEvent</a> flag bitfield constants. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5d676d31fc4db5aab197b6f79da738d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.events.PDEEvent.FLAG_PROCESSED = 1 &lt;&lt; 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a61f516df5b7fa158ed4c0e1173f97283"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.events.PDEEvent.FLAG_DISTRIBUTE_TO_ALL = 1 &lt;&lt; 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/src/de/telekom/pde/codelibrary/ui/events/<a class="el" href="_p_d_e_event_8java.html">PDEEvent.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

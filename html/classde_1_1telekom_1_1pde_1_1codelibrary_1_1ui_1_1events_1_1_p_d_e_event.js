@@ -1,0 +1,28 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event =
+[
+    [ "PDEEvent", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a948176747425188421499bcd5c6a8aaa", null ],
+    [ "isType", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a6ccf175a8fe9248e12b376fc06f3a442", null ],
+    [ "setType", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a90cef2acb7a3c6373cb064ce57e2a4b1", null ],
+    [ "getType", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#abcddefda4a9cab9210985aade1bcf8af", null ],
+    [ "setSender", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a57bced813397611f34c57e958d4311a7", null ],
+    [ "getSender", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a986b67e1498237a6b6869bb00e290c89", null ],
+    [ "setProcessed", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a06954e58a2a07c24ded557bb8e5f6fe5", null ],
+    [ "isProcessed", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a8954185ddcfb653d0d3b68712ee688d6", null ],
+    [ "setDistributeToAll", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#aa032f22f62c4c0a211242a3e28adc2d6", null ],
+    [ "clearDistributeToAll", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#aacc3dd1f153ac49908205ea49ed76bc7", null ],
+    [ "isDistributeToAll", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#ab12b3b4af1653dfa5583fdd6f45ecad2", null ],
+    [ "hasResult", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a5d8fe98aff161fcfe5615ee3351f392e", null ],
+    [ "setResult", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a011d7d26a6ffc47752fc965970dea037", null ],
+    [ "setResult", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a7f2cf0d5f701214d0141ba6846a2e80a", null ],
+    [ "setResult", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#aca62b0d64d1f1b0a6a266907644ea482", null ],
+    [ "getResult", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a7393101c111ea4e6ee964371ddd485ab", null ],
+    [ "getIntResult", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a8a3a23a6ef94cb1d051957e71e602e73", null ],
+    [ "getDoubleResult", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#abb4398d09c33a976ba5c9d9d3156d486", null ],
+    [ "mType", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a1c4405dad4d025285a068881c73abe32", null ],
+    [ "mSender", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a3df4ab030ac648b6d07a9cd1ab0bb4ec", null ],
+    [ "mResult", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a0bdedb5ac51d953a468e74d214f035a9", null ],
+    [ "mFlags", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#af2b3db76118f200bde6b7b5adffdfa3d", null ],
+    [ "FLAG_NONE", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a018f4f4b50ae822c268b2484bf72a307", null ],
+    [ "FLAG_PROCESSED", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a5d676d31fc4db5aab197b6f79da738d2", null ],
+    [ "FLAG_DISTRIBUTE_TO_ALL", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a61f516df5b7fa158ed4c0e1173f97283", null ]
+];

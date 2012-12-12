@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-library-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.ui.animation.PDEAnimation Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>The base class for the animation system.  
+ <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.ui.animation.PDEAnimation:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.png" usemap="#de.telekom.pde.codelibrary.ui.animation.PDEAnimation_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.ui.animation.PDEAnimation_map" name="de.telekom.pde.codelibrary.ui.animation.PDEAnimation_map">
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html" title="An animation group for grouping other animations." alt="de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup" shape="rect" coords="0,56,357,80"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html" title="Animation helper for PDEAgentController." alt="de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation" shape="rect" coords="367,56,724,80"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html" title="The root animation." alt="de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot" shape="rect" coords="0,112,357,136"/>
+</map>
+ </div></div>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>The base class for the animation system. </p>
+<p>The animation system differs from the builtin animation system a number of ways. Notably, there's some change management builtin which goes beyond KeyValue setting. It's necessary when a display-system-unrelated animated class needs to send out animation updates in a clearly defined bunch at the right time. There's also support for endless running animations that can be changed smoothly while they are running.</p>
+<p>Be careful with the times supplied in the animation system. They are only valid for the current instance of the animation object and should never be compared to any other animation times. All animation timings are ultimately derived from PDEFrameTiming times, but they may be modified by subsequent animations in the animation tree. </p>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:acf5c93d25840201e3da86c0bbfc96ccf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#acf5c93d25840201e3da86c0bbfc96ccf">PDEAnimation</a> ()</td></tr>
+<tr class="memitem:a3dbbe64ff14658ae59d733e0d1fbf1cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html">PDEAnimationGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a3dbbe64ff14658ae59d733e0d1fbf1cd">getParentAnimation</a> ()</td></tr>
+<tr class="memdesc:a3dbbe64ff14658ae59d733e0d1fbf1cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link to the animation's parent, which must be an animation group.  <a href="#a3dbbe64ff14658ae59d733e0d1fbf1cd"></a><br/></td></tr>
+<tr class="memitem:ad3d3d53fb5cc361e751cc6364df60993"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ad3d3d53fb5cc361e751cc6364df60993">getDidChangeTarget</a> ()</td></tr>
+<tr class="memdesc:ad3d3d53fb5cc361e751cc6364df60993"><td class="mdescLeft">&#160;</td><td class="mdescRight">The target for change notification.  <a href="#ad3d3d53fb5cc361e751cc6364df60993"></a><br/></td></tr>
+<tr class="memitem:af7af1b7a5d97f915ae855c06219a7bbf"><td class="memItemLeft" align="right" valign="top">Method&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#af7af1b7a5d97f915ae855c06219a7bbf">getDidChangeMethod</a> ()</td></tr>
+<tr class="memdesc:af7af1b7a5d97f915ae855c06219a7bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The method called for change notification.  <a href="#af7af1b7a5d97f915ae855c06219a7bbf"></a><br/></td></tr>
+<tr class="memitem:a6817c5fa53db4bea32a6db5a1a7d6edd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a6817c5fa53db4bea32a6db5a1a7d6edd">removeFromParentAnimation</a> ()</td></tr>
+<tr class="memdesc:a6817c5fa53db4bea32a6db5a1a7d6edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the animation from the parent.  <a href="#a6817c5fa53db4bea32a6db5a1a7d6edd"></a><br/></td></tr>
+<tr class="memitem:a0f17d33dea103dded5ca6dc86bd79476"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a0f17d33dea103dded5ca6dc86bd79476">isRunning</a> ()</td></tr>
+<tr class="memdesc:a0f17d33dea103dded5ca6dc86bd79476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the animation's current running status.  <a href="#a0f17d33dea103dded5ca6dc86bd79476"></a><br/></td></tr>
+<tr class="memitem:a6b53c3da12aa93cd741fd7c730a104c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a6b53c3da12aa93cd741fd7c730a104c6">setRunning</a> (boolean running)</td></tr>
+<tr class="memdesc:a6b53c3da12aa93cd741fd7c730a104c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the running status of the animation.  <a href="#a6b53c3da12aa93cd741fd7c730a104c6"></a><br/></td></tr>
+<tr class="memitem:ae20c6e934785041b8d2719a9f5df2ae3"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ae20c6e934785041b8d2719a9f5df2ae3">getTime</a> ()</td></tr>
+<tr class="memdesc:ae20c6e934785041b8d2719a9f5df2ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the animation's current time.  <a href="#ae20c6e934785041b8d2719a9f5df2ae3"></a><br/></td></tr>
+<tr class="memitem:a806600c67412abea62cefa1a6d7c4a0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a806600c67412abea62cefa1a6d7c4a0a">setTime</a> (long time)</td></tr>
+<tr class="memdesc:a806600c67412abea62cefa1a6d7c4a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify the instance's local time.  <a href="#a806600c67412abea62cefa1a6d7c4a0a"></a><br/></td></tr>
+<tr class="memitem:a0ba03fbf5bc97c9be543f5f948b0d632"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a0ba03fbf5bc97c9be543f5f948b0d632">getTimeFactor</a> ()</td></tr>
+<tr class="memdesc:a0ba03fbf5bc97c9be543f5f948b0d632"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjust timing by a factor.  <a href="#a0ba03fbf5bc97c9be543f5f948b0d632"></a><br/></td></tr>
+<tr class="memitem:ab961506632ff3853a40a141b1469f5bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ab961506632ff3853a40a141b1469f5bb">setTimeFactor</a> (double timeFactor)</td></tr>
+<tr class="memdesc:ab961506632ff3853a40a141b1469f5bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify the time factor.  <a href="#ab961506632ff3853a40a141b1469f5bb"></a><br/></td></tr>
+<tr class="memitem:a0630c709b0195e9885317a68b59fd01a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a0630c709b0195e9885317a68b59fd01a">animate</a> ()</td></tr>
+<tr class="memdesc:a0630c709b0195e9885317a68b59fd01a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement this function in derived classes.  <a href="#a0630c709b0195e9885317a68b59fd01a"></a><br/></td></tr>
+<tr class="memitem:a571f0c92622ddbd2a51f99e17fcaddb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a571f0c92622ddbd2a51f99e17fcaddb6">setChanged</a> ()</td></tr>
+<tr class="memdesc:a571f0c92622ddbd2a51f99e17fcaddb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set changed flag.  <a href="#a571f0c92622ddbd2a51f99e17fcaddb6"></a><br/></td></tr>
+<tr class="memitem:a557c89f0282d16a24759dc81d86b3f00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a557c89f0282d16a24759dc81d86b3f00">setDidChangeTarget</a> (Object target, String methodName)</td></tr>
+<tr class="memdesc:a557c89f0282d16a24759dc81d86b3f00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set target and method called when something was changed.  <a href="#a557c89f0282d16a24759dc81d86b3f00"></a><br/></td></tr>
+<tr class="memitem:ae11a002c7c031d334cd4e66a5cf08e4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ae11a002c7c031d334cd4e66a5cf08e4f">clearDidChangeTarget</a> ()</td></tr>
+<tr class="memdesc:ae11a002c7c031d334cd4e66a5cf08e4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the target link. The notification on change be sent any more.  <a href="#ae11a002c7c031d334cd4e66a5cf08e4f"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pac-methods"></a>
+Package Methods</h2></td></tr>
+<tr class="memitem:a75915d3a5412518f9ff75d68bfc36412"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a75915d3a5412518f9ff75d68bfc36412">isRunningRegisteredWithParent</a> ()</td></tr>
+<tr class="memdesc:a75915d3a5412518f9ff75d68bfc36412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get running-registration-state.  <a href="#a75915d3a5412518f9ff75d68bfc36412"></a><br/></td></tr>
+<tr class="memitem:ac27b337c6ccf9fad8effb40f4eabff76"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ac27b337c6ccf9fad8effb40f4eabff76">isChangedRegisteredWithParent</a> ()</td></tr>
+<tr class="memdesc:ac27b337c6ccf9fad8effb40f4eabff76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get change handling registration state.  <a href="#ac27b337c6ccf9fad8effb40f4eabff76"></a><br/></td></tr>
+<tr class="memitem:a0e9d25ab0b7cac92b412c8d496ebcebf"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a0e9d25ab0b7cac92b412c8d496ebcebf">isInAnimation</a> ()</td></tr>
+<tr class="memdesc:a0e9d25ab0b7cac92b412c8d496ebcebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells if we're currently in the animation phase.  <a href="#a0e9d25ab0b7cac92b412c8d496ebcebf"></a><br/></td></tr>
+<tr class="memitem:a48ef8edf2d40b1640da842171cd66e59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a48ef8edf2d40b1640da842171cd66e59">setInAnimation</a> (boolean inAnimation)</td></tr>
+<tr class="memdesc:a48ef8edf2d40b1640da842171cd66e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for InAnimation property.  <a href="#a48ef8edf2d40b1640da842171cd66e59"></a><br/></td></tr>
+<tr class="memitem:afb235a0f2c287d07f90e273f8f689571"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#afb235a0f2c287d07f90e273f8f689571">setParentAnimation</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html">PDEAnimationGroup</a> parentAnimation)</td></tr>
+<tr class="memdesc:afb235a0f2c287d07f90e273f8f689571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the parent animation.  <a href="#afb235a0f2c287d07f90e273f8f689571"></a><br/></td></tr>
+<tr class="memitem:ab0bef1cbd8a08e5887852ea101c057bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ab0bef1cbd8a08e5887852ea101c057bc">forgetParentAnimation</a> ()</td></tr>
+<tr class="memdesc:ab0bef1cbd8a08e5887852ea101c057bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called internally when the parent is being destructed.  <a href="#ab0bef1cbd8a08e5887852ea101c057bc"></a><br/></td></tr>
+<tr class="memitem:ad39e3ffe959b2884301760dd8a516560"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ad39e3ffe959b2884301760dd8a516560">checkRunning</a> ()</td></tr>
+<tr class="memdesc:ad39e3ffe959b2884301760dd8a516560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the running state and eventually register with parent.  <a href="#ad39e3ffe959b2884301760dd8a516560"></a><br/></td></tr>
+<tr class="memitem:a9110f76eb05768acc1fd762e223162da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a9110f76eb05768acc1fd762e223162da">setRunningRegisteredWithParent</a> (boolean running)</td></tr>
+<tr class="memdesc:a9110f76eb05768acc1fd762e223162da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal, propagate running state to parent.  <a href="#a9110f76eb05768acc1fd762e223162da"></a><br/></td></tr>
+<tr class="memitem:ada9858c1fde7e698cac15337600cfe6e"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ada9858c1fde7e698cac15337600cfe6e">isRunningWithSubAnimations</a> ()</td></tr>
+<tr class="memdesc:ada9858c1fde7e698cac15337600cfe6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper value for run handling in tree.  <a href="#ada9858c1fde7e698cac15337600cfe6e"></a><br/></td></tr>
+<tr class="memitem:a1beb0a4e37e4e147ed7a02826ac3eed9"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a1beb0a4e37e4e147ed7a02826ac3eed9">getParentTime</a> ()</td></tr>
+<tr class="memdesc:a1beb0a4e37e4e147ed7a02826ac3eed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the parent time (internal function).  <a href="#a1beb0a4e37e4e147ed7a02826ac3eed9"></a><br/></td></tr>
+<tr class="memitem:aad09b9c470bd27aed3862be733366fc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#aad09b9c470bd27aed3862be733366fc0">parentTimeDidChange</a> ()</td></tr>
+<tr class="memdesc:aad09b9c470bd27aed3862be733366fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timing propagation.  <a href="#aad09b9c470bd27aed3862be733366fc0"></a><br/></td></tr>
+<tr class="memitem:aa87b6bfe5c150847c50a888cc2ae6f30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#aa87b6bfe5c150847c50a888cc2ae6f30">setChangedRegisteredWithParent</a> ()</td></tr>
+<tr class="memdesc:aa87b6bfe5c150847c50a888cc2ae6f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register ourself for explicit change management in parent.  <a href="#aa87b6bfe5c150847c50a888cc2ae6f30"></a><br/></td></tr>
+<tr class="memitem:abb1c1fcb36fc29943016660a7607a5ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#abb1c1fcb36fc29943016660a7607a5ea">sendChanges</a> ()</td></tr>
+<tr class="memdesc:abb1c1fcb36fc29943016660a7607a5ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send out all pending change notifications.  <a href="#abb1c1fcb36fc29943016660a7607a5ea"></a><br/></td></tr>
+<tr class="memitem:a7e54598941f15b91b6dc59502f143218"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a7e54598941f15b91b6dc59502f143218">sendDidChange</a> ()</td></tr>
+<tr class="memdesc:a7e54598941f15b91b6dc59502f143218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the didChange notification to the stored target/method pair.  <a href="#a7e54598941f15b91b6dc59502f143218"></a><br/></td></tr>
+<tr class="memitem:a701b34b320049040ef262e976e511d97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a701b34b320049040ef262e976e511d97">clearChanges</a> ()</td></tr>
+<tr class="memdesc:a701b34b320049040ef262e976e511d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all pending change notifications.  <a href="#a701b34b320049040ef262e976e511d97"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a3655017f1869996e5176d3b8c0024b57"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a3655017f1869996e5176d3b8c0024b57">LOG_TAG</a> = PDEAnimation.class.getName()</td></tr>
+<tr class="memdesc:a3655017f1869996e5176d3b8c0024b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#a3655017f1869996e5176d3b8c0024b57"></a><br/></td></tr>
+<tr class="memitem:a2ff97ea3d66aff69681ef3f836e49c5d"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a2ff97ea3d66aff69681ef3f836e49c5d">DEBUGPARAMS</a> = false</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a66ec88ea699180bd8cebcf46c4256f26"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a66ec88ea699180bd8cebcf46c4256f26">mChanged</a></td></tr>
+<tr class="memdesc:a66ec88ea699180bd8cebcf46c4256f26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changed flag.  <a href="#a66ec88ea699180bd8cebcf46c4256f26"></a><br/></td></tr>
+<tr class="memitem:ae058e33d76c4b35570e068f65cc5641b"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ae058e33d76c4b35570e068f65cc5641b">mTimeOffset</a></td></tr>
+<tr class="memdesc:ae058e33d76c4b35570e068f65cc5641b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Our local time offset.  <a href="#ae058e33d76c4b35570e068f65cc5641b"></a><br/></td></tr>
+<tr class="memitem:a8607a592affda7d3e79f24ffd9cf37f9"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a8607a592affda7d3e79f24ffd9cf37f9">mCachedParentTime</a></td></tr>
+<tr class="memdesc:a8607a592affda7d3e79f24ffd9cf37f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">cached time of parent.  <a href="#a8607a592affda7d3e79f24ffd9cf37f9"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a43620bae469416151de18afb466074f2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a43620bae469416151de18afb466074f2">mRunningRegisteredWithParent</a></td></tr>
+<tr class="memdesc:a43620bae469416151de18afb466074f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag that shows if we're registered at the parent for running.  <a href="#a43620bae469416151de18afb466074f2"></a><br/></td></tr>
+<tr class="memitem:a84405648f415ceccb420af95d7fa0326"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a84405648f415ceccb420af95d7fa0326">mChangedRegisteredWithParent</a></td></tr>
+<tr class="memdesc:a84405648f415ceccb420af95d7fa0326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag that shows if we're registered at the parent for changes.  <a href="#a84405648f415ceccb420af95d7fa0326"></a><br/></td></tr>
+<tr class="memitem:a5c5c4e883da216e7c0768e5bdb8b0fe6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a5c5c4e883da216e7c0768e5bdb8b0fe6">mTimeFactor</a></td></tr>
+<tr class="memdesc:a5c5c4e883da216e7c0768e5bdb8b0fe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">factor to modify the animation speed.  <a href="#a5c5c4e883da216e7c0768e5bdb8b0fe6"></a><br/></td></tr>
+<tr class="memitem:a944cb06ea06208c45ac4409f2214c9d3"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a944cb06ea06208c45ac4409f2214c9d3">mRunning</a></td></tr>
+<tr class="memdesc:a944cb06ea06208c45ac4409f2214c9d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">running flag  <a href="#a944cb06ea06208c45ac4409f2214c9d3"></a><br/></td></tr>
+<tr class="memitem:a39acac11b4c4a5df7a6d43841bebaa91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html">PDEAnimationGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a39acac11b4c4a5df7a6d43841bebaa91">mParentAnimation</a></td></tr>
+<tr class="memdesc:a39acac11b4c4a5df7a6d43841bebaa91"><td class="mdescLeft">&#160;</td><td class="mdescRight">parent of animation  <a href="#a39acac11b4c4a5df7a6d43841bebaa91"></a><br/></td></tr>
+<tr class="memitem:aecbb7f3b66100ec51019b3b8302e95eb"><td class="memItemLeft" align="right" valign="top">WeakReference&lt; Object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#aecbb7f3b66100ec51019b3b8302e95eb">mDidChangeTarget</a></td></tr>
+<tr class="memdesc:aecbb7f3b66100ec51019b3b8302e95eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object that listens for changes of this animation.  <a href="#aecbb7f3b66100ec51019b3b8302e95eb"></a><br/></td></tr>
+<tr class="memitem:aaab23369de0b6399b145a5f1f83c473a"><td class="memItemLeft" align="right" valign="top">Method&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#aaab23369de0b6399b145a5f1f83c473a">mDidChangeMethod</a></td></tr>
+<tr class="memdesc:aaab23369de0b6399b145a5f1f83c473a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method of listener object that will be called when change takes place.  <a href="#aaab23369de0b6399b145a5f1f83c473a"></a><br/></td></tr>
+<tr class="memitem:a7a3af326f0cb284231ca3804911aad37"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a7a3af326f0cb284231ca3804911aad37">mInAnimation</a></td></tr>
+<tr class="memdesc:a7a3af326f0cb284231ca3804911aad37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag that shows if we're within the animation phase.  <a href="#a7a3af326f0cb284231ca3804911aad37"></a><br/></td></tr>
+</table>
+<h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="acf5c93d25840201e3da86c0bbfc96ccf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.animation.PDEAnimation.PDEAnimation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="a3dbbe64ff14658ae59d733e0d1fbf1cd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html">PDEAnimationGroup</a> de.telekom.pde.codelibrary.ui.animation.PDEAnimation.getParentAnimation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Link to the animation's parent, which must be an animation group. </p>
+<p>This property must only be set by the system internally. Never set the parent directly, use the supplied addSubAnimation, removeSubAnimation and removeFromParentAnimation functions. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad3d3d53fb5cc361e751cc6364df60993"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object de.telekom.pde.codelibrary.ui.animation.PDEAnimation.getDidChangeTarget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The target for change notification. </p>
+
+</div>
+</div>
+<a class="anchor" id="af7af1b7a5d97f915ae855c06219a7bbf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Method de.telekom.pde.codelibrary.ui.animation.PDEAnimation.getDidChangeMethod </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The method called for change notification. </p>
+
+</div>
+</div>
+<a class="anchor" id="a75915d3a5412518f9ff75d68bfc36412"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.animation.PDEAnimation.isRunningRegisteredWithParent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get running-registration-state. </p>
+<p>If we want this animation to be running/timed, we have to register ourselves for running at the parent. This method tells if we're already registered or not for running.</p>
+<dl class="section return"><dt>Returns</dt><dd>True if we're registered at the parent for running. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac27b337c6ccf9fad8effb40f4eabff76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.animation.PDEAnimation.isChangedRegisteredWithParent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get change handling registration state. </p>
+<p>If we want this animation to have explicit change handling by the parent, we have to register for this at the parent. This method tells if we're already registered for explicit change handling.</p>
+<dl class="section return"><dt>Returns</dt><dd>True if we're registered at the parent for explicit change handling. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0e9d25ab0b7cac92b412c8d496ebcebf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.animation.PDEAnimation.isInAnimation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tells if we're currently in the animation phase. </p>
+<p>Within the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a0630c709b0195e9885317a68b59fd01a" title="Implement this function in derived classes.">animate()</a> method the attributes of the object we want to animate are changed/updated. During the processing of this method the InAnimation property is set to true.</p>
+<dl class="section return"><dt>Returns</dt><dd>True if we're currently within the animation phase. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a48ef8edf2d40b1640da842171cd66e59"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.setInAnimation </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>inAnimation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Setter for InAnimation property. </p>
+<p>internal use only. </p>
+
+</div>
+</div>
+<a class="anchor" id="afb235a0f2c287d07f90e273f8f689571"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.setParentAnimation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html">PDEAnimationGroup</a>&#160;</td>
+          <td class="paramname"><em>parentAnimation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change the parent animation. </p>
+<p>Internal use only. Don't call this function directly. The function is called by the parent class while linking or unlinking the animation. If the animation is already linked to another animation, the link is properly cleared.</p>
+<p>In addition to remembering the new parent, this function also adjusts the timebase and registers the animation for running or change management as necessary.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parentAnimation</td><td>The new parent animation. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab0bef1cbd8a08e5887852ea101c057bc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.forgetParentAnimation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called internally when the parent is being destructed. </p>
+<p>Internal use only. Simply set ourself to a clean state. No parent cleanup / modifying functions must be called, because the parent is already in the process of destruction, and is cleaning itself. Any parent functions called might result in unexpected behaviour. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6817c5fa53db4bea32a6db5a1a7d6edd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.removeFromParentAnimation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remove the animation from the parent. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0f17d33dea103dded5ca6dc86bd79476"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.animation.PDEAnimation.isRunning </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the animation's current running status. </p>
+<p>Change this (with setRunning) to become running. Unless running, the timeDidChange function will never be called. When this property changes, no additional functions will be called and no notifications will be given. This property must never be written to externally, it should only be set by the animation itself in response to the animation's state. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6b53c3da12aa93cd741fd7c730a104c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.setRunning </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>running</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change the running status of the animation. </p>
+<p>If the animation is started, no immediate action is taken. From then on, parentTimeDidChange is called during every animation loop until the animation is stopped.</p>
+<p>The running status is propagated up through the animation tree, until the animation root eventually links into the display timing. If running is set, this does not necessarily mean that the animation is really running. The animation must be linked into the tree up to the root element, and all parent animations must be running and not paused in order to actually deliver regular timings.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">running</td><td>true if we're running. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad39e3ffe959b2884301760dd8a516560"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.checkRunning </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check the running state and eventually register with parent. </p>
+<p>Internal use only. This function checks the running state whenever something changes which might affect it. Reimplement the isRunningWithSubAnimations method to provide information if your animation should actually be running. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9110f76eb05768acc1fd762e223162da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.setRunningRegisteredWithParent </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>running</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Internal, propagate running state to parent. </p>
+<p>Internal use only. The real running state (determined by checkRunning) is propagated to the parent, which in turn might change it's running state.</p>
+<p>There's different levels of running. If we just set the running flag, this is only a request to be run. Registering with the parent tells the tree, and if the linking up to the root is correct, we're run.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">running</td><td>true if we should be running. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html#a88963558459395894eaab59cb3353ee3">de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ada9858c1fde7e698cac15337600cfe6e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.animation.PDEAnimation.isRunningWithSubAnimations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper value for run handling in tree. </p>
+<p>This function tells the base logic if the instance actually should be running. This class should be overloaded if running behaviour changes (e.g. groups should also run if any subanimation is running).</p>
+<dl class="section return"><dt>Returns</dt><dd>true if the instance is actually running and should be timed. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#a1e02d0780e6d24f8e00e50d6e5f46098">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae20c6e934785041b8d2719a9f5df2ae3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.animation.PDEAnimation.getTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Access the animation's current time. </p>
+<p>This time is relative to the animation. It stays the same when the animation switches parents. The time can also be set in the animation to adjust it's own base time. This change does not affect the other timing, or when timing/animation will be called.</p>
+<p>Time is measured in milliseconds</p>
+<p>The implementation concept of timing is to always cache the time when animating - since it will be accessed quite often then. If we're not animating, we're usually not actively querying the time. However, if we query the time, we need a valid value (e.g. used when the animation is done and we want to know how long it's done). In this case, the timing recursively bubbles, eventually up to top level if necessary. This is less efficient, but saves updating the time regularly while no animationis running.</p>
+<p>Time is constructed from parent's current time and our local timeoffset. Parent's time is cached when active, otherwise the current value is fetched dynamically from the parent. The cached parent time gets updated during animation functions, and when activation/parent properties change.</p>
+<dl class="section return"><dt>Returns</dt><dd>Local time in milliseconds. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1beb0a4e37e4e147ed7a02826ac3eed9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.animation.PDEAnimation.getParentTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Access the parent time (internal function). </p>
+<p>Use cached time if we're running, or if we have no parent animation. Otherwise get dynamic time.</p>
+<dl class="section return"><dt>Returns</dt><dd>Parent time (local to parent) in milliseconds. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html#a4c3a01565c2529f72864e507ea09e18b">de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a806600c67412abea62cefa1a6d7c4a0a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.setTime </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Modify the instance's local time. </p>
+<p>This modifies the offset our local time has. It does not change anything about our timing, animation status etc. It just shifts the timebase. This function can be of use if you're deriving from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html" title="The base class for the animation system.">PDEAnimation</a> and building a custom animation. Instead of remembering when the animation started (which makes calculations more complex) just reset the local time to zero.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>New local time in milliseconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#a30d3c712a4ec45b4cd527d01353fce1f">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ba03fbf5bc97c9be543f5f948b0d632"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.animation.PDEAnimation.getTimeFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adjust timing by a factor. </p>
+<p>Mostly useful for debugging. You can slow down or speed up animations or groups of animations. This might enable you to see what really happens, or might be used to simulate a slower device by speeding up internal timing.</p>
+<p>Use a factor &lt;1.0 for slowing down, a factor &gt;1.0 for speedup. Default is 1.0.</p>
+<p>0.0 can be temporarily used to pause - the time is not changed any more. Be careful with this feature, since this method of pausing everything does not unlink the animations from regular timing. The animation system still uses power while paused as usual. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab961506632ff3853a40a141b1469f5bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.setTimeFactor </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>timeFactor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Modify the time factor. </p>
+<p>Adjust the local timing speed. The parent time is scaled with the time factor. The default is 1.0, which gives an identity timing. When adjusting the time factor, the local time does not change.</p>
+<p>To pause an animation, the time factor can be set to 0.0. However, this method of pausing an animation is at the moment not recommended, since it doesn't change the running state, and this consumes resources while paused. This behaviour might change in the future.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timeFactor</td><td>The time factor to set. Default is 1.0. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aad09b9c470bd27aed3862be733366fc0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.parentTimeDidChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Timing propagation. </p>
+<p>Internal use only. The function is called when something in the parent time did change. Only called when we're running. The usual behaviour is to cache the parent time (to simplify timing lookups in deep trees later), and then call the (overloaded) animate function to calculate the actual animation. After calculations, change management messages will be sent.</p>
+<p>The function is at the moment also called if a parent's time base changed. This behaviour will change - parent time base changes should not affect subanimations, so a different adjustment function is necessary. </p>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#ad82deeb77637ef45a99ca678e5548588">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0630c709b0195e9885317a68b59fd01a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.animate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implement this function in derived classes. </p>
+<p>When this function is called, the time value did change and we're running. If the time value changes for another reason (e.g. because someone changed the timebase manually), animate won't get called. This is per design, because mostly the timebase gets changed by the animation itself when reconfiguring - and we wouldn't want an explicit animate in this case. </p>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#ae2ddc261c1632bf9d84226d02beb43c6">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a571f0c92622ddbd2a51f99e17fcaddb6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.setChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set changed flag. </p>
+<p>Be sure to call this function whenever something in your animation changes. Pure timing changes are not changes in this sense (unless you're specifically building an animation whose output is the current time).</p>
+<p>When the changed flag is set, changed notifications will be sent out after everything is animated, in one continuous block. Subanimation changes will be sent before parent animation changes. Any other ordering guarantee is not given.</p>
+<p>Be aware that the changed flag only gets set if there's actually someone listening for changes. If not, it doesn't get set, to avoid the eventually expensive resetting of the changed flags when the animation/change management phase is done. That's the reason why there's no explicit isChanged method to check for changes. </p>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#a988d7c7f1a28abcd4d8dcdf32077214e">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup</a>, and <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html#a1df7c96c2328c4e18cddd362e4057b63">de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa87b6bfe5c150847c50a888cc2ae6f30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.setChangedRegisteredWithParent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Register ourself for explicit change management in parent. </p>
+<p>Only register once, don't register again when we're already registered. By registering ourself we notify the parent that we need a change management phase and are called back later. This flag is completely independent from the changed flag itself - it manages if we're actually called, not if we're changed. </p>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html#ac435119373f51518aa332f6d6c0fd66e">de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a557c89f0282d16a24759dc81d86b3f00"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.setDidChangeTarget </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>methodName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set target and method called when something was changed. </p>
+<p>The target is not stored by a strong reference.</p>
+<p>Change management only happens if an animation is running and fully linked. Otherwise, changes (probably manually initiated) are ignored.</p>
+<p>Note: This behaviour might change. At the moment we're trying to keep the logic easy.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>Instance to be called. </td></tr>
+    <tr><td class="paramname">methodName</td><td>Name of method to be called. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae11a002c7c031d334cd4e66a5cf08e4f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.clearDidChangeTarget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear the target link. The notification on change be sent any more. </p>
+
+</div>
+</div>
+<a class="anchor" id="abb1c1fcb36fc29943016660a7607a5ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.sendChanges </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Send out all pending change notifications. </p>
+<p>Internal function. After eventually sending out a change notification, clear all change handling flags. We don't need to unregister from parent changed list (which would be expensive); the caller is responsible for properly cleaning the list of registered subanimations. </p>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#accfa8a31f62643f8c9bb16d39737c3fd">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7e54598941f15b91b6dc59502f143218"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.sendDidChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Send the didChange notification to the stored target/method pair. </p>
+<p>Helper function. No change to the flags. Just do the send call to the target. </p>
+
+</div>
+</div>
+<a class="anchor" id="a701b34b320049040ef262e976e511d97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.animation.PDEAnimation.clearChanges </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear all pending change notifications. </p>
+<p>Also unregister ourselves from the parent's class. This function is used to shutdown the change notification system upon unlinking - so we have to accept the possibly expensive manual cleanup. </p>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#af03ba510a9db0a516151d0e45cadb9e1">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup</a>.</p>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="a3655017f1869996e5176d3b8c0024b57"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.animation.PDEAnimation.LOG_TAG = PDEAnimation.class.getName()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global tag for log outputs. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2ff97ea3d66aff69681ef3f836e49c5d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean de.telekom.pde.codelibrary.ui.animation.PDEAnimation.DEBUGPARAMS = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a43620bae469416151de18afb466074f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.animation.PDEAnimation.mRunningRegisteredWithParent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag that shows if we're registered at the parent for running. </p>
+
+</div>
+</div>
+<a class="anchor" id="a66ec88ea699180bd8cebcf46c4256f26"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.animation.PDEAnimation.mChanged</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Changed flag. </p>
+
+</div>
+</div>
+<a class="anchor" id="a84405648f415ceccb420af95d7fa0326"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.animation.PDEAnimation.mChangedRegisteredWithParent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag that shows if we're registered at the parent for changes. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae058e33d76c4b35570e068f65cc5641b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.animation.PDEAnimation.mTimeOffset</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Our local time offset. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8607a592affda7d3e79f24ffd9cf37f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.animation.PDEAnimation.mCachedParentTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>cached time of parent. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5c5c4e883da216e7c0768e5bdb8b0fe6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double de.telekom.pde.codelibrary.ui.animation.PDEAnimation.mTimeFactor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>factor to modify the animation speed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a944cb06ea06208c45ac4409f2214c9d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.animation.PDEAnimation.mRunning</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>running flag </p>
+
+</div>
+</div>
+<a class="anchor" id="a39acac11b4c4a5df7a6d43841bebaa91"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html">PDEAnimationGroup</a> de.telekom.pde.codelibrary.ui.animation.PDEAnimation.mParentAnimation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parent of animation </p>
+
+</div>
+</div>
+<a class="anchor" id="aecbb7f3b66100ec51019b3b8302e95eb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WeakReference&lt;Object&gt; de.telekom.pde.codelibrary.ui.animation.PDEAnimation.mDidChangeTarget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Object that listens for changes of this animation. </p>
+
+</div>
+</div>
+<a class="anchor" id="aaab23369de0b6399b145a5f1f83c473a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Method de.telekom.pde.codelibrary.ui.animation.PDEAnimation.mDidChangeMethod</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Method of listener object that will be called when change takes place. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7a3af326f0cb284231ca3804911aad37"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.animation.PDEAnimation.mInAnimation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag that shows if we're within the animation phase. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/src/de/telekom/pde/codelibrary/ui/animation/<a class="el" href="_p_d_e_animation_8java.html">PDEAnimation.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

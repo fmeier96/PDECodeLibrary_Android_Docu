@@ -1,0 +1,7 @@
+var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foc86b80b05005749af1d1868fc39ae289 =
+[
+    [ "Undefined", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foc86b80b05005749af1d1868fc39ae289.html#a9da05308219ee6eb15fa778977643970", null ],
+    [ "Automatic", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foc86b80b05005749af1d1868fc39ae289.html#a5f210dc2040ceeea007a89f1ea2ad89b", null ],
+    [ "Styleguide", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foc86b80b05005749af1d1868fc39ae289.html#a0f431e293d65499fb79a98e65d292ca3", null ],
+    [ "Fixed", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foc86b80b05005749af1d1868fc39ae289.html#a848fcc7239871e2ed933dd5d425031b3", null ]
+];

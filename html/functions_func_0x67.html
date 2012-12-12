@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-library-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('functions_func_0x67.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+&#160;
+
+<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
+<li>generateDefaultLayoutParams()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1layout_1_1_p_d_e_absolute_layout.html#ac17c59ac91ca82e1796b32d67fd7d1e1">de.telekom.pde.codelibrary.ui.layout.PDEAbsoluteLayout</a>
+</li>
+<li>generateLayoutParams()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1layout_1_1_p_d_e_absolute_layout.html#a34cb35f2705bb4ce8608ce95af4394a9">de.telekom.pde.codelibrary.ui.layout.PDEAbsoluteLayout</a>
+</li>
+<li>getActionShowTime()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a43d03ee1a57e32f2288489089274ad43">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+</li>
+<li>getAgentAnimationCombinedFocusAndHighlight()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aca5ad3b992557df557d70520ac19fde7">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html#a727cdd787c84a235ca7f5e048d2b01a0">de.telekom.pde.codelibrary.ui.agents.PDEEventAgentControllerState</a>
+</li>
+<li>getAgentAnimationCombinedInteraction()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html#aad6cd890887e84f0bd9d01c849992fc9">de.telekom.pde.codelibrary.ui.agents.PDEEventAgentControllerState</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a7e247ba450ec0099e8495e7737e2329c">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+</li>
+<li>getAgentAnimationDown()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a722fe5e98f9b0e384d8d3cfef4339a1d">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html#a144646f990541368a89575bd700addc3">de.telekom.pde.codelibrary.ui.agents.PDEEventAgentControllerState</a>
+</li>
+<li>getAgentAnimationFocus()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa22c3a6b2cb996a6475588f3f2dab850">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html#ac36c32626ebc0f46fca556f23a7a0ffb">de.telekom.pde.codelibrary.ui.agents.PDEEventAgentControllerState</a>
+</li>
+<li>getAgentAnimationHighlight()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aaaa2abdcac90d8f7c3c6ed22d2c3c9da">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html#a87bae25eead28a0f814b605dfdda4f9b">de.telekom.pde.codelibrary.ui.agents.PDEEventAgentControllerState</a>
+</li>
+<li>getAgentAnimationPress()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html#a71c1362afa723ccf34019296f7409ce2">de.telekom.pde.codelibrary.ui.agents.PDEEventAgentControllerState</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#abfbb11615e7fa81c5e752d8216db0cbf">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+</li>
+<li>getAgentController()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a458baf5948b90efc93d36e105e159633">de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView</a>
+</li>
+<li>getAlignment()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#ab52f46396c0a17935cbfd473838859d3">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+</li>
+<li>getAlpha()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#af1582ab36a1ed8b566c3d0e5748a2b1c">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
+</li>
+<li>getAnimation()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_animation_holder.html#aed06345688905054b76025fa90ff9468">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup.AnimationHolder</a>
+</li>
+<li>getApplicationContext()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a4caec94fd8810dfd07640e1e95ed9c84">de.telekom.pde.codelibrary.ui.PDECodeLibrary</a>
+</li>
+<li>getBackgroundColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shape.html#adc2159081efb4ffdcc36a700dd06e7b8">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShape</a>
+</li>
+<li>getBackgroundDrawable()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_layer_sunken.html#ae425c36362eeebba3865ce6390c503f8">de.telekom.pde.codelibrary.ui.elements.common.PDELayerSunken</a>
+</li>
+<li>getBaseBool()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#aa3224e4a8f045c88c8f34def42de2f02">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getBaseColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a56d388ae574f7d2602ce5df2bc70fcb4">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getBaseFloat()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a58ef333bce445896faa68f73ce556880">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getBaseNumber()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#acf5fccf7a2b9417cc43b681f87eebf98">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getBaseObject()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a815e2d86d5a5c158fa2b42e3593fa8df">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getBasePosition()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a5cee172d2ede86b9c16bd49d928bac69">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getBaseValue()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a4c4f9fa9858e302cbac93a079953c9d1">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getBiggerBlurRadius()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#a9940082192005c735d2e4453ccaef90a">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedShadow</a>
+</li>
+<li>getBlue()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a306380d31ce3a60fddea4aaacb09416a">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
+</li>
+<li>getBlurRadius()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#a5e0220722e0e12ff9cd6094c2dcd795e">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedInnerShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#a8a3cfca44c028bd85570208787e68d53">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_inner_shadow.html#ae6ed2d54b09899f10605727d2da0ebd4">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedInnerShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_shadow.html#a92788a303bd2ec32f372f17976d8eb4b">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedShadow</a>
+</li>
+<li>getBoolForKey()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a244bb092326f949875de2e518e98d3a8">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getBorderColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_button_state_color_definition.html#a4c148dfa6cf055c0e6f4891c1fe9fea8">de.telekom.pde.codelibrary.ui.color.PDEButtonStateColorDefinition</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a60a37cbf0eb1c6003c26601b17a48766">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a9b90a5deb3a88fa65dced0e6d2f539da">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_border_line.html#a883d8ffe513cd99368f4cabc6d643a1a">de.telekom.pde.codelibrary.ui.elements.common.PDEViewBorderLine</a>
+</li>
+<li>getBorderLineDrawable()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_beveled.html#ad8f5ba5e7ff0dc68c67aca356b130d11">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundBeveled</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_embossed.html#ae6d94e7620bbba5125a1f330648bda21">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundEmbossed</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#ac5e42fb227c5045bd609d687f1bdb68c">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundFlat</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_indicative.html#a975b045d31fb7b164cca153385fb28bb">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundIndicative</a>
+</li>
+<li>getBorderWidth()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#acb3747d7a591498b1cc91cedb4a20cbd">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_border_line.html#a5f106c8d24b09d89e4f0a01d94713f23">de.telekom.pde.codelibrary.ui.elements.common.PDEViewBorderLine</a>
+</li>
+<li>getBottom()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_button_padding.html#a89778dfb5ea44e5f0c7e426a07d8ae25">de.telekom.pde.codelibrary.ui.components.helpers.PDEButtonPadding</a>
+</li>
+<li>getBottomColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_gradient_shape.html#a88573ca498e9359a29aeefc73c165b29">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableGradientShape</a>
+</li>
+<li>getBoundingRect()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a514e0e2dfe37089f7b7fa1d015de9c6a">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_gradient_shape.html#aac6c91b6c7515f997f5209e5e3a296e1">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableGradientShape</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shape.html#ae48f0f1b09979a9a2379624ab17fd326">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShape</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_border_line.html#aae824d2eda5249c3f837d6148e5f3d4f">de.telekom.pde.codelibrary.ui.elements.common.PDEViewBorderLine</a>
+</li>
+<li>getButtonLayerTypeForLayerId()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a84a53cd576be9a2ef713ae5b479a44b3">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+</li>
+<li>getCapHeight()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a981ae5b2299ea13483588bffa713fcb7">de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers</a>
+</li>
+<li>getCollectionLayer()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_beveled.html#aad23d3d94a72cfd72f88038c6633e170">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundBeveled</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_embossed.html#a52286e92760a8ae825e424465908b281">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundEmbossed</a>
+</li>
+<li>getColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#aa8e1c2678596d0c147ebc5f5f86db878">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#abcd8d78a5bf3e8734acfc82ba0216034">de.telekom.pde.codelibrary.ui.components.helpers.PDEComponentHelpers</a>
+</li>
+<li>getColorDefinition()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_data.html#a180eaf3df24f8808f81b87a692539285">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonData</a>
+</li>
+<li>getColorForKey()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#ad3e012bf402e68043f22fc24afa1986f">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getColorNameIdentifier()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a0b7034821d6c09b499feb00d35f366dc">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
+</li>
+<li>getColors()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_gradient_shape.html#a4d7de8976371383e95a0971e051a6bdc">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableGradientShape</a>
+</li>
+<li>getColorString()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a17ce736473cbe2305e888c96b765d00b">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
+</li>
+<li>getCornerRadius()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a671b3f7f2821d5b74cd72f9412a913e9">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a7d3569ab298319f4fa3fc8bef104aa9b">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_gradient_shape.html#a28d413aa0fc9ecdf47f0ebf39cbb4bd4">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableGradientShape</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shape.html#a4f9e12f823820bbd2a5c734ad98bf5ec">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShape</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_border_line.html#a3af2f163d47596084017eb0b6c09da76">de.telekom.pde.codelibrary.ui.elements.common.PDEViewBorderLine</a>
+</li>
+<li>getCurrentState()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html#a477f01bdc20c9c13cf247b144826d8fa">de.telekom.pde.codelibrary.ui.agents.PDEEventAgentControllerState</a>
+</li>
+<li>getDictionaryNameIdentifier()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#aafdef3128d8b4ecf0073a517db498c24">de.telekom.pde.codelibrary.ui.components.helpers.PDEComponentHelpers</a>
+</li>
+<li>getDidChangeMethod()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#af7af1b7a5d97f915ae855c06219a7bbf">de.telekom.pde.codelibrary.ui.animation.PDEAnimation</a>
+</li>
+<li>getDidChangeTarget()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ad3d3d53fb5cc361e751cc6364df60993">de.telekom.pde.codelibrary.ui.animation.PDEAnimation</a>
+</li>
+<li>getDoubleResult()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#abb4398d09c33a976ba5c9d9d3156d486">de.telekom.pde.codelibrary.ui.events.PDEEvent</a>
+</li>
+<li>getDrawable()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_background.html#ab170b2a607d53e2ac072ef935ee29c7e">de.telekom.pde.codelibrary.ui.elements.common.PDEViewBackground</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_border_line.html#ac477982cac26d2ea1cc2b4780521c67d">de.telekom.pde.codelibrary.ui.elements.common.PDEViewBorderLine</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_inner_shadow.html#a52ae01ba5c4ddde2efa69bd833a10eb3">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedInnerShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_shadow.html#a405c95a7c599325702981589450bd343">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedShadow</a>
+</li>
+<li>getDuration()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#a1139f62eb2a20968ab1564517eb2ac04">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>
+</li>
+<li>getEventDefaultSender()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a03822de1f8205e26394f17a8983fc6a5">de.telekom.pde.codelibrary.ui.events.PDEEventSource</a>
+</li>
+<li>getEventOverrideSender()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a77252bedf50f9b647eb8ef8f3787d30a">de.telekom.pde.codelibrary.ui.events.PDEEventSource</a>
+</li>
+<li>getEventSource()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#abe816fce28ef5e91c9f30820604e730a">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#ae20580296710acf38084470aae1cf630">de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#aa376bb68a3c5cbf72fd727e6a5795f9a">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a0193ae989b1b552409db83d5a4209c34">de.telekom.pde.codelibrary.ui.events.PDEEventSource</a>
+, <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#a9f87fbb4eed399a3a84cf5a5d77f1fb8">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>
+</li>
+<li>getEventSourceDelegate()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a8bf43c5e3db8a8606ac25f6167b50e6d">de.telekom.pde.codelibrary.ui.events.PDEEventSource</a>
+</li>
+<li>getFilename()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a30d33bf8e05f9af947be263399dba55a">de.telekom.pde.codelibrary.ui.helpers.PDETypeface</a>
+</li>
+<li>getFloat()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#ab1ba0ac0970bd50bf52bf333eda00826">de.telekom.pde.codelibrary.ui.components.helpers.PDEComponentHelpers</a>
+</li>
+<li>getFloatForKey()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a5836b673230a237ab035be4535b46979">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getFocusStateColorDefinition()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_button_color_definition.html#a5555a5e3d9d6b5b29f4cd607cb6f72c3">de.telekom.pde.codelibrary.ui.color.PDEButtonColorDefinition</a>
+</li>
+<li>getFont()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a5e23d07f19f43eb16225103c0b2d6cd7">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+</li>
+<li>getFontMetrics()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#acb144b79ccb0b0f2a8b3ca40e9362078">de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers</a>
+</li>
+<li>getFontSize()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a003675f82b72871a6253c2b9092f2284">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+</li>
+<li>getFontSizeString()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a7099fc5d89fb20d63f7e700c176973eb">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+</li>
+<li>getFrameTime()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#a0305e3c8bc30153e0a738e93e6788880">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_choreographer.html#abd227708f024f23de886e0a86425e2be">de.telekom.pde.codelibrary.ui.timing.PDEFrameTimingChoreographer</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_ordinary.html#a86ee9520c2b67c8142bb5a279b4ed561">de.telekom.pde.codelibrary.ui.timing.PDEFrameTimingOrdinary</a>
+</li>
+<li>getGradientDarkerColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_button_state_color_definition.html#a55d7d4431b19427f8bf0a914d3586142">de.telekom.pde.codelibrary.ui.color.PDEButtonStateColorDefinition</a>
+</li>
+<li>getGradientLighterColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_button_state_color_definition.html#a0f5601d9d9ece136930957e09b7023ad">de.telekom.pde.codelibrary.ui.color.PDEButtonStateColorDefinition</a>
+</li>
+<li>getGreen()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a0695a66fafc9537269c97713c429d5ab">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
+</li>
+<li>getHeight()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a2c34a87489886f7d881513881a17b134">de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers</a>
+</li>
+<li>getHexColorString()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#af56faf6c4921df8acea8dc8ea3768bfa">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
+</li>
+<li>getHue()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#aaa57fa554ccbebf86cbf4031de597053">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
+</li>
+<li>getIcon()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a322315b3345319593e8bd7cece300ac5">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_data.html#a5a1b84695b40742dd9293f7894829243">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonData</a>
+</li>
+<li>getIconAlignment()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a46c99333573f77d75130ba2db85bb464">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+</li>
+<li>getInnerShadowBlurRadius()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_layer_sunken.html#a53b2f34b34d18e6f48f21aef8195c315">de.telekom.pde.codelibrary.ui.elements.common.PDELayerSunken</a>
+</li>
+<li>getInnerShadowColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_layer_sunken.html#a551968269d45768da226cbadf48e8289">de.telekom.pde.codelibrary.ui.elements.common.PDELayerSunken</a>
+</li>
+<li>getInnerShadowDrawable()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_beveled.html#aa5741b547ea45e1e29f92a991637de6e">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundBeveled</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_embossed.html#aa37ad2a69954df7e664db131ad91cdfd">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundEmbossed</a>
+</li>
+<li>getInnerShadowOffset()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_layer_sunken.html#a9fb1dea87cbc43d0c21a551a6feff342">de.telekom.pde.codelibrary.ui.elements.common.PDELayerSunken</a>
+</li>
+<li>getInnerShadowOpacity()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_layer_sunken.html#a38554c319862b8d86d9ce71a6966533b">de.telekom.pde.codelibrary.ui.elements.common.PDELayerSunken</a>
+</li>
+<li>getInnerShadowView()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_beveled.html#a95cfd3742a9e36793f0a26d7f081a47e">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundBeveled</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_embossed.html#ab40126c26f4392a243f85a112b3410c2">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundEmbossed</a>
+</li>
+<li>getInputDoneStateColorDefinition()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_button_color_definition.html#a27c27278047df35f6a643983b95325f9">de.telekom.pde.codelibrary.ui.color.PDEButtonColorDefinition</a>
+</li>
+<li>getInstance()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#aa4b89047738350cf7404f2286ec1f3f0">de.telekom.pde.codelibrary.ui.PDECodeLibrary</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#ad18803d89ac9b389f5f188230c39a0a4">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming</a>
+</li>
+<li>getIntegerColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a0ae4ec36eee66701c1ba48401d74435b">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
+</li>
+<li>getInteractiveAttackTime()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a4b25069e136f78574516763261fd69e4">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+</li>
+<li>getInteractiveDecayTime()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aace0b724236d6af0ad6eb4cad753aa5d">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+</li>
+<li>getInterpolationInformationForAnimation()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_agent_helper.html#ab03a1df90732af429ee878ce0d2ed4d7">de.telekom.pde.codelibrary.ui.components.helpers.PDEAgentHelper</a>
+</li>
+<li>getIntResult()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a8a3a23a6ef94cb1d051957e71e602e73">de.telekom.pde.codelibrary.ui.events.PDEEvent</a>
+</li>
+<li>getLayer()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_embossed.html#a3b2f9d8c05893b8285b2a4368cc78de4">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundEmbossed</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a0109c3d4983a0cb826b5a9dc67a3e05d">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundFlat</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_indicative.html#ad3803fbcca7c1a194f56e1334dc46818">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundIndicative</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_plate.html#a29d5cb1341a04dd06027fd92fdcacb6b">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundPlate</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_rect.html#a5ba80c37a43fd22ac0751ad96c8b9608">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundRect</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a9d04d3dfab9f3076d4bfb9571be3d157">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText</a>
+, <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_interface.html#a85f45c7ba1064e1b8f937669c8e588c9">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerInterface</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_overlay_radio.html#aa6116e8ccdfee64d108658a42fd61f55">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerOverlayRadio</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_overlay_checkbox.html#a3b28b24f95f092ba50f7a55c2e4cfb71">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerOverlayCheckbox</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_beveled.html#aeceb81b732503f9a4ecd955c37b4d3fa">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundBeveled</a>
+</li>
+<li>getLayoutRect()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_beveled.html#aade964456d1b69c424083d27c895ac5a">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundBeveled</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_embossed.html#a0b1f378c9784a666d60133d9b13bf762">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundEmbossed</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_indicative.html#a2263f122a4b6309aeb3ba7d6a677531f">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundIndicative</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_plate.html#acffcab7d8efcdfbc397c05d98f61c2fb">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundPlate</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_rect.html#a53373e7616b8b291b1e8f3d1451712cf">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundRect</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a8a084366bfd3dfcebf923f1e30e16ceb">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundFlat</a>
+</li>
+<li>getLeft()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_button_padding.html#a9ac9e6774402b91d17e770bc489dd69e">de.telekom.pde.codelibrary.ui.components.helpers.PDEButtonPadding</a>
+</li>
+<li>getLineOffset()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_border_line.html#a81ef1a99f77775368b48e66bb7f88348">de.telekom.pde.codelibrary.ui.elements.common.PDEViewBorderLine</a>
+</li>
+<li>getMainColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_button_color_definition.html#aa34befcfdbd3cb1bc0f6252ebd812dd5">de.telekom.pde.codelibrary.ui.color.PDEButtonColorDefinition</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_button_state_color_definition.html#aef9d64897eb1932f66372537e8008fc0">de.telekom.pde.codelibrary.ui.color.PDEButtonStateColorDefinition</a>
+</li>
+<li>getMainDrawable()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_beveled.html#ab12764bb3606130bcbb1db3b0b8da485">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundBeveled</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_embossed.html#a9825aa85ffefa2960568da1f95b827f8">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundEmbossed</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#abe6a37d535d347f5c6cec60883e50772">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundFlat</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_indicative.html#a6e8873ee6fe69efbc8837c59fb95719b">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundIndicative</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_rect.html#ab9dad3dbbf53f7e428305cef205ede45">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundRect</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_plate.html#ac90498207783cb682aff3bf7d772c5ec">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundPlate</a>
+</li>
+<li>getMainLayoutTop()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a7f9973a5bec8a4adc559361c8f33a29a">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+</li>
+<li>getMainState()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a22e86397994470d0a9cdaee83af3dfb6">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+</li>
+<li>getMainView()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_embossed.html#a7f49e35407ff22886524c728208392e2">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundEmbossed</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a167278692c6d33ca1bf84aca4f6208d3">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundFlat</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_indicative.html#a65ecc4cc7acabc5c92b2fa1dded095b9">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundIndicative</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_rect.html#a792f6baf573ef81cec2f0db981976f93">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundRect</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_plate.html#a3063695e57382df79dc1a04dc5cfc78e">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundPlate</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_beveled.html#a261bfb24c95a97ed771bd383d8b7a194">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundBeveled</a>
+</li>
+<li>getMaxBlurRadius()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#a5079ee09121c13a9ba049330e7d673dd">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedShadow</a>
+</li>
+<li>getMetaInformation()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#af1121924b032d698b3a63365d9a44791">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getMiddleColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_gradient_shape.html#a06dbdfd3f3801d0ee921a5068ce22747">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableGradientShape</a>
+</li>
+<li>getMinButtonPadding()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#aed511225224e871cdae64c5df7394f9a">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+</li>
+<li>getmTextColorColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_button_state_color_definition.html#adeec084f0c7e08b3a29b6aa93603b5d2">de.telekom.pde.codelibrary.ui.color.PDEButtonStateColorDefinition</a>
+</li>
+<li>getName()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#aa9e25733669c17e1bf6bfc3d14a954cb">de.telekom.pde.codelibrary.ui.helpers.PDETypeface</a>
+</li>
+<li>getNextState()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html#a348ff69e9f0e1adda25bcb8ba98e5363">de.telekom.pde.codelibrary.ui.agents.PDEEventAgentControllerState</a>
+</li>
+<li>getNormalStateColorDefinition()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_button_color_definition.html#a2719aff2824048e4d197695b8d51d9ff">de.telekom.pde.codelibrary.ui.color.PDEButtonColorDefinition</a>
+</li>
+<li>getNumberForKey()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#ae9730db5d9c1616ba4ac1e055d425a16">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getNumValues()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter_1428c0d19e4f40344cba27e363490dcbd.html#a584e2ff6562fbf8123bd4a3c7b173783">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter.PDEParameterMetaInformation</a>
+</li>
+<li>getObject()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_p_d_e_animation_group_operation.html#a1aae168c19191de968e94f144f9a3864">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup.PDEAnimationGroupOperation</a>
+</li>
+<li>getObjectForKey()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a491b0c5515dff2dfb9c030f5bed999f0">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getOpacity()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#a5a0722db026d22d63fe5b4b427a5c7a2">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a99b3fe52dae36d4a510151591c796887">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#a4f96b6e5104d1bb3423921d27f36d062">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedInnerShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_gradient_shape.html#a198ac4db0f426233b60429c5920cb209">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableGradientShape</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shape.html#a10000e868662e9e1f82be6f81309109c">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShape</a>
+</li>
+<li>getOperation()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_p_d_e_animation_group_operation.html#aeebc6a8323252b6b3c6ea2c39b827cdd">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup.PDEAnimationGroupOperation</a>
+</li>
+<li>getPaddingRect()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_button_padding.html#a389054a97fa40cfde1cdd6a302405640">de.telekom.pde.codelibrary.ui.components.helpers.PDEButtonPadding</a>
+</li>
+<li>getParameters()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a026f22c3d64d6bd63ed249a644f230df">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter_dictionary.html#acbc3ab5f7f31245426396595e7db6e3c">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameterDictionary</a>
+</li>
+<li>getParentAnimation()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a3dbbe64ff14658ae59d733e0d1fbf1cd">de.telekom.pde.codelibrary.ui.animation.PDEAnimation</a>
+</li>
+<li>getParentTime()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a1beb0a4e37e4e147ed7a02826ac3eed9">de.telekom.pde.codelibrary.ui.animation.PDEAnimation</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html#a4c3a01565c2529f72864e507ea09e18b">de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot</a>
+</li>
+<li>getPixelsAboveBaseLine()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#aac8cd466209c7b0a587b93a0ed618f60">de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers</a>
+</li>
+<li>getPixelsBelowBaseLine()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a22fdb0566ab42cedc42937199673af9e">de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers</a>
+</li>
+<li>getPosition()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#af5bcfae4a92a0dedf677bb413296690d">de.telekom.pde.codelibrary.ui.components.helpers.PDEComponentHelpers</a>
+</li>
+<li>getPositionForKey()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a3e38d7400433b39a9f68cc2675fdfd66">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getReadableName()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#af85c15ded30c0dd55211c830686c6515">de.telekom.pde.codelibrary.ui.helpers.PDETypeface</a>
+</li>
+<li>getRed()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a73e67a9e032020f97e0239304a002791">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
+</li>
+<li>getRemainingDuration()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#a981beeec4ae73c44bcbfe3924ed46c25">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>
+</li>
+<li>getResult()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a7393101c111ea4e6ee964371ddd485ab">de.telekom.pde.codelibrary.ui.events.PDEEvent</a>
+</li>
+<li>getRight()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_button_padding.html#a410dcec6e0052e8c3c83e7f8826706d9">de.telekom.pde.codelibrary.ui.components.helpers.PDEButtonPadding</a>
+</li>
+<li>getRoot()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html#a6353777cb791e343783ef6fc5c3a4456">de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot</a>
+</li>
+<li>getSaturation()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a94e60e9f1fe8d5397b0cdfc31b116161">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
+</li>
+<li>getSender()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#a986b67e1498237a6b6869bb00e290c89">de.telekom.pde.codelibrary.ui.events.PDEEvent</a>
+</li>
+<li>getShadowDrawable()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_embossed.html#a209516dec67686b4933e7d8282c35b22">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundEmbossed</a>
+</li>
+<li>getShadowOffset()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#a7d7966b8c3c1531c531ee95db9bf948b">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedInnerShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_inner_shadow.html#a39c44b7e7ed63779e0a5810f9da02757">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedInnerShadow</a>
+</li>
+<li>getShadowView()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_embossed.html#a85166f902368f16cba5c757645751110">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerBackgroundEmbossed</a>
+</li>
+<li>getShapeColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#aa35aa44dac4613989d3385fd50ecf6af">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_shadow.html#aedfbacd3fc147f5f34704cdf6d151b1c">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_inner_shadow.html#aa8eb997c65660a32965c5a46400faddf">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedInnerShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#a190a1913e61d6fea96cad7505efda5f8">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedInnerShadow</a>
+</li>
+<li>getShapeOffset()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_shadow.html#ad792c747278f93fa52218483870cc79b">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_inner_shadow.html#ada23d58c67dc1346eace8a5a739c7162">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedInnerShadow</a>
+</li>
+<li>getShapeOpacity()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_shadow.html#aad4308848d6a32b195b78c00ecda8a7d">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_inner_shadow.html#a8b91018a86ae816526769c64c9b964ec">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedInnerShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#a8e0be8ba04854404fa1429be0dffbba5">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedInnerShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#a64baec4961456a5feaa0154895ae61b3">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedShadow</a>
+</li>
+<li>getShapePath()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#a55d3656d04e111af4d941e778bcc396f">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_shadow.html#ab546206170f8beb118b0c2f9735c15ae">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_gradient_shape.html#a7cf65d57c288ecf6b451f0564681c333">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableGradientShape</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_shaped_inner_shadow.html#ab76c0283248232f5c7749e6721e7d386">de.telekom.pde.codelibrary.ui.elements.common.PDEViewShapedInnerShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#addd71cc78c77c49a70ab455729184c30">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedInnerShadow</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a9b51160c9a482a4e14e919cfc1ab5d15">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shape.html#adec3bfe41294d37dd8aea4ba625da959">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShape</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_view_border_line.html#a9edf88fa6f615f6cae2388feff77ae98">de.telekom.pde.codelibrary.ui.elements.common.PDEViewBorderLine</a>
+</li>
+<li>getSpeed()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#a4c4123b2007e3eab928a7569917bd768">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>
+</li>
+<li>getState()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a78f3706bd38e0a1f4368b1c95b6023c8">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+</li>
+<li>getStateAnimationProgress()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html#a73836856ccd49e3fb81a095e4cd6627d">de.telekom.pde.codelibrary.ui.agents.PDEEventAgentControllerState</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a665623a1a603a0dffaa7318ba3edd4f8">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
+</li>
+<li>getSunkenBackgroundColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_layer_sunken.html#a164290a035cc9d85dc34e1c4a8caa8e0">de.telekom.pde.codelibrary.ui.elements.common.PDELayerSunken</a>
+</li>
+<li>getSunkenBorderColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_layer_sunken.html#a791e4ca4a9bcc755649cd05ba13dbdff">de.telekom.pde.codelibrary.ui.elements.common.PDELayerSunken</a>
+</li>
+<li>getTakingInputStateColorDefinition()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_button_color_definition.html#af2dddaa5002fd87d01197885648c8906">de.telekom.pde.codelibrary.ui.color.PDEButtonColorDefinition</a>
+</li>
+<li>getTarget()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html#a95f55b00650715212f7cc7d70212b85f">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.PDEFrameTimingListener</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#a64de9f7d1008e1c60c1a90d444a19811">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>
+</li>
+<li>getTestString()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1tests_1_1_p_d_e_library_test.html#af685a0e79530bfbbda690c501267bb9b">de.telekom.pde.codelibrary.ui.tests.PDELibraryTest</a>
+</li>
+<li>getTextViewBounds()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a8920f995ed7824906de4a3e0d61bd323">de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers</a>
+</li>
+<li>getTime()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ae20c6e934785041b8d2719a9f5df2ae3">de.telekom.pde.codelibrary.ui.animation.PDEAnimation</a>
+</li>
+<li>getTimeFactor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a0ba03fbf5bc97c9be543f5f948b0d632">de.telekom.pde.codelibrary.ui.animation.PDEAnimation</a>
+</li>
+<li>getTimeFactorStatic()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html#a0e1958323af37383dba4b719e9031ef1">de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot</a>
+</li>
+<li>getTimeSinceDone()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#a2d8f03609134871f369d846357aa8e97">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>
+</li>
+<li>getTimeStatic()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html#a7efe0ad9792e1895c8407510a86a6f2c">de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot</a>
+</li>
+<li>getTitle()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a2c0fe2c383350b607538cebf593bf346">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_data.html#ab291edfb86acf214e06a4aaa7c01ec9e">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonData</a>
+</li>
+<li>getTitleColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#ad58a97a6e2ddfed9d6fd258337414455">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+</li>
+<li>getTop()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_button_padding.html#a1fc43c85e6c14c97ae73537a3baf952d">de.telekom.pde.codelibrary.ui.components.helpers.PDEButtonPadding</a>
+</li>
+<li>getTopColor()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_gradient_shape.html#af05986e5b1ef2eb76f458958d64c4a49">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableGradientShape</a>
+</li>
+<li>getTopHeight()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a49e164a1cf582cdfdf19ebe5db958fc8">de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers</a>
+</li>
+<li>getType()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html#abcddefda4a9cab9210985aade1bcf8af">de.telekom.pde.codelibrary.ui.events.PDEEvent</a>
+</li>
+<li>getTypeface()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a33e618d546f06df49abc8e91c0ea1dee">de.telekom.pde.codelibrary.ui.helpers.PDETypeface</a>
+</li>
+<li>getValue()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#aba2cbf2fed352102a0208b082d33dd50">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#a782c5f3d6c4b4ba4c2e789539fe8bcf1">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>
+</li>
+<li>getValueForKey()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a22990aeab7a8c2643a0e9c570d795421">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
+</li>
+<li>getView()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a112b4e09ec7ecb4843dfb72fb6c69b83">de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView</a>
+</li>
+<li>goToValueWithDuration()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#a2e3d1a0286b9ffc7e785396194dae0bf">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>
+</li>
+<li>goToValueWithDurationForDistance()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#a1386b91831a1b3f1f0015a0fd7d9343f">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>
+</li>
+<li>goToValueWithDurationLimitedAtDistance()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#a658215ebcae7e07b3d1b9efac5974ad8">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>
+</li>
+<li>goToValueWithSpeed()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#a5c371a96ff87a89f6ac13e774a5454d9">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>
+</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

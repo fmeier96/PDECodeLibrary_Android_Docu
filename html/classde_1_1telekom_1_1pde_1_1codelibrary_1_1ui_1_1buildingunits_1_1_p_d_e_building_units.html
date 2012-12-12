@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-library-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-static-methods"></a>
+Static Public Methods</h2></td></tr>
+<tr class="memitem:ad5d8e699ee192541e3d571b26cdfadb2"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#ad5d8e699ee192541e3d571b26cdfadb2">exactPixelFromBU</a> (float bu)</td></tr>
+<tr class="memdesc:ad5d8e699ee192541e3d571b26cdfadb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert BuildingUnits (BU) to pixels depending on the class of device, returns a directly calcualated value.  <a href="#ad5d8e699ee192541e3d571b26cdfadb2"></a><br/></td></tr>
+<tr class="memitem:a73b59e72f0704f1167d6a67e0044c2e6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a73b59e72f0704f1167d6a67e0044c2e6">pixelFromBU</a> (float bu)</td></tr>
+<tr class="memdesc:a73b59e72f0704f1167d6a67e0044c2e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert BuildingUnits (BU) to pixels depending on the class of device, aligned to pixels.  <a href="#a73b59e72f0704f1167d6a67e0044c2e6"></a><br/></td></tr>
+<tr class="memitem:ace4d383d1f34b5b247d09354c90e7673"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#ace4d383d1f34b5b247d09354c90e7673">BU</a> ()</td></tr>
+<tr class="memdesc:ace4d383d1f34b5b247d09354c90e7673"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1 BU.  <a href="#ace4d383d1f34b5b247d09354c90e7673"></a><br/></td></tr>
+<tr class="memitem:a55f1c7455cb3a78f864acc08ef736bc1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a55f1c7455cb3a78f864acc08ef736bc1">oneThirdBU</a> ()</td></tr>
+<tr class="memdesc:a55f1c7455cb3a78f864acc08ef736bc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1/3 BU.  <a href="#a55f1c7455cb3a78f864acc08ef736bc1"></a><br/></td></tr>
+<tr class="memitem:a0c260cad08d9758974120a0128ef90cf"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a0c260cad08d9758974120a0128ef90cf">oneHalfBU</a> ()</td></tr>
+<tr class="memdesc:a0c260cad08d9758974120a0128ef90cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1/2 BU.  <a href="#a0c260cad08d9758974120a0128ef90cf"></a><br/></td></tr>
+<tr class="memitem:ac9df8d0ec2485be0938efa8e0da09db8"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#ac9df8d0ec2485be0938efa8e0da09db8">twoThirdsBU</a> ()</td></tr>
+<tr class="memdesc:ac9df8d0ec2485be0938efa8e0da09db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 2/3 BU.  <a href="#ac9df8d0ec2485be0938efa8e0da09db8"></a><br/></td></tr>
+<tr class="memitem:a6b764474f1d960b7c9e9068957b4fb9f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a6b764474f1d960b7c9e9068957b4fb9f">oneFourthBU</a> ()</td></tr>
+<tr class="memdesc:a6b764474f1d960b7c9e9068957b4fb9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1/4 BU.  <a href="#a6b764474f1d960b7c9e9068957b4fb9f"></a><br/></td></tr>
+<tr class="memitem:af14c9fa9fb9079fccd66ce0e2c370cdc"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#af14c9fa9fb9079fccd66ce0e2c370cdc">oneSixthBU</a> ()</td></tr>
+<tr class="memdesc:af14c9fa9fb9079fccd66ce0e2c370cdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1/6 BU.  <a href="#af14c9fa9fb9079fccd66ce0e2c370cdc"></a><br/></td></tr>
+<tr class="memitem:a750756db22efae4af882e6026ba7e592"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a750756db22efae4af882e6026ba7e592">oneTwelfthsBU</a> ()</td></tr>
+<tr class="memdesc:a750756db22efae4af882e6026ba7e592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1/12 BU.  <a href="#a750756db22efae4af882e6026ba7e592"></a><br/></td></tr>
+<tr class="memitem:a512df5270e7d07474926c3c9d812ab10"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a512df5270e7d07474926c3c9d812ab10">exactBU</a> ()</td></tr>
+<tr class="memdesc:a512df5270e7d07474926c3c9d812ab10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1 BU.  <a href="#a512df5270e7d07474926c3c9d812ab10"></a><br/></td></tr>
+<tr class="memitem:a2bea8b3590a5e971f20b31229adeb702"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a2bea8b3590a5e971f20b31229adeb702">exactOneThirdBU</a> ()</td></tr>
+<tr class="memdesc:a2bea8b3590a5e971f20b31229adeb702"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1/3 BU.  <a href="#a2bea8b3590a5e971f20b31229adeb702"></a><br/></td></tr>
+<tr class="memitem:a8cfd3e5ac10612e2f85cd52dfb55493b"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a8cfd3e5ac10612e2f85cd52dfb55493b">exactOneHalfBU</a> ()</td></tr>
+<tr class="memdesc:a8cfd3e5ac10612e2f85cd52dfb55493b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1/2 BU.  <a href="#a8cfd3e5ac10612e2f85cd52dfb55493b"></a><br/></td></tr>
+<tr class="memitem:a4c43ad8b981091be6982f1a0c1264c53"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a4c43ad8b981091be6982f1a0c1264c53">exactTwoThirdsBU</a> ()</td></tr>
+<tr class="memdesc:a4c43ad8b981091be6982f1a0c1264c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 2/3 BU.  <a href="#a4c43ad8b981091be6982f1a0c1264c53"></a><br/></td></tr>
+<tr class="memitem:a857278815d85cabae36fcf9a088b3652"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a857278815d85cabae36fcf9a088b3652">exactOneForthBU</a> ()</td></tr>
+<tr class="memdesc:a857278815d85cabae36fcf9a088b3652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1/4 BU.  <a href="#a857278815d85cabae36fcf9a088b3652"></a><br/></td></tr>
+<tr class="memitem:a4d6e2b3c06aec54761e3a0509213c765"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a4d6e2b3c06aec54761e3a0509213c765">exactOneSixthBU</a> ()</td></tr>
+<tr class="memdesc:a4d6e2b3c06aec54761e3a0509213c765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1/6 BU.  <a href="#a4d6e2b3c06aec54761e3a0509213c765"></a><br/></td></tr>
+<tr class="memitem:a92e669969cd3a5b7ef7101844f883846"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a92e669969cd3a5b7ef7101844f883846">exactOneTwelfthsBU</a> ()</td></tr>
+<tr class="memdesc:a92e669969cd3a5b7ef7101844f883846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1/12 BU.  <a href="#a92e669969cd3a5b7ef7101844f883846"></a><br/></td></tr>
+<tr class="memitem:ab9b03935b77f2741571808031c05a9a1"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#ab9b03935b77f2741571808031c05a9a1">isTablet</a> ()</td></tr>
+<tr class="memitem:a5b985f5c0e3840c5bce9c7925f1876f0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a5b985f5c0e3840c5bce9c7925f1876f0">nativePixel</a> ()</td></tr>
+<tr class="memitem:a48c6569cd1a0d954f730e370de8a5e4d"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a48c6569cd1a0d954f730e370de8a5e4d">exactRoundToScreenCoordinates</a> (float coordinate)</td></tr>
+<tr class="memitem:a91f91f1b91438572536538c2c05c1956"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a91f91f1b91438572536538c2c05c1956">roundToScreenCoordinates</a> (float coordinate)</td></tr>
+<tr class="memitem:ad1c850bdea7f376a6b4d440df76951c4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#ad1c850bdea7f376a6b4d440df76951c4">ceilToScreenCoordinates</a> (float coordinate)</td></tr>
+<tr class="memitem:a9fddd894df3f72eedceddbf2cadbd916"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a9fddd894df3f72eedceddbf2cadbd916">parseSize</a> (String sizeString)</td></tr>
+<tr class="memdesc:a9fddd894df3f72eedceddbf2cadbd916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a string, may optionally contain a unit.  <a href="#a9fddd894df3f72eedceddbf2cadbd916"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pac-static-methods"></a>
+Static Package Methods</h2></td></tr>
+<tr class="memitem:a2cbdcd8b923543a3bbdd3d80cc0db81f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a2cbdcd8b923543a3bbdd3d80cc0db81f">[static initializer]</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:aab52e45ec69ae215d2f5be755c0f16cb"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#aab52e45ec69ae215d2f5be755c0f16cb">BU</a></td></tr>
+<tr class="memitem:a55cce4c176b84b005a318639a0dbd2cc"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a55cce4c176b84b005a318639a0dbd2cc">BU_1_6</a></td></tr>
+<tr class="memitem:a76ac7862e0acd3bdcae92a5a0525a2de"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a76ac7862e0acd3bdcae92a5a0525a2de">BU_1_4</a></td></tr>
+<tr class="memitem:a9c2fb19d90791ec1a3595ab78a502ef4"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a9c2fb19d90791ec1a3595ab78a502ef4">BU_1_3</a></td></tr>
+<tr class="memitem:a6321af4cabb86fa9dc1f7c7937445133"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a6321af4cabb86fa9dc1f7c7937445133">BU_1_2</a></td></tr>
+<tr class="memitem:a61dfc07e56ce1c8044d0d1d31a778f73"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a61dfc07e56ce1c8044d0d1d31a778f73">BU_2_3</a></td></tr>
+<tr class="memitem:a2dd3ae01e610207776008e6d090817a6"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a2dd3ae01e610207776008e6d090817a6">BU_1_12</a></td></tr>
+</table>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="a2cbdcd8b923543a3bbdd3d80cc0db81f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.[static initializer] </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad5d8e699ee192541e3d571b26cdfadb2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.exactPixelFromBU </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>bu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert BuildingUnits (BU) to pixels depending on the class of device, returns a directly calcualated value. </p>
+<p>Convert BUs to pixel. </p>
+
+</div>
+</div>
+<a class="anchor" id="a73b59e72f0704f1167d6a67e0044c2e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.pixelFromBU </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>bu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert BuildingUnits (BU) to pixels depending on the class of device, aligned to pixels. </p>
+<p>Convert BUs to pixel. </p>
+
+</div>
+</div>
+<a class="anchor" id="ace4d383d1f34b5b247d09354c90e7673"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.BU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a55f1c7455cb3a78f864acc08ef736bc1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.oneThirdBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1/3 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1/3-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0c260cad08d9758974120a0128ef90cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.oneHalfBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1/2 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1/2-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac9df8d0ec2485be0938efa8e0da09db8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.twoThirdsBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 2/3 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 2/3-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6b764474f1d960b7c9e9068957b4fb9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.oneFourthBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1/4 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1/4-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af14c9fa9fb9079fccd66ce0e2c370cdc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.oneSixthBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1/6 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1/6-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a750756db22efae4af882e6026ba7e592"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.oneTwelfthsBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1/12 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1/12-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a512df5270e7d07474926c3c9d812ab10"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.exactBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2bea8b3590a5e971f20b31229adeb702"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.exactOneThirdBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1/3 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1/3-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8cfd3e5ac10612e2f85cd52dfb55493b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.exactOneHalfBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1/2 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1/2-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4c43ad8b981091be6982f1a0c1264c53"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.exactTwoThirdsBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 2/3 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 2/3-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a857278815d85cabae36fcf9a088b3652"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.exactOneForthBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1/4 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1/4-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4d6e2b3c06aec54761e3a0509213c765"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.exactOneSixthBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1/6 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1/6-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a92e669969cd3a5b7ef7101844f883846"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.exactOneTwelfthsBU </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function to get the pixels for 1/12 BU. </p>
+<dl class="section return"><dt>Returns</dt><dd>pixels for 1/12-BU </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab9b03935b77f2741571808031c05a9a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.isTablet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5b985f5c0e3840c5bce9c7925f1876f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.nativePixel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a48c6569cd1a0d954f730e370de8a5e4d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.exactRoundToScreenCoordinates </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>coordinate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a91f91f1b91438572536538c2c05c1956"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.roundToScreenCoordinates </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>coordinate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad1c850bdea7f376a6b4d440df76951c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.ceilToScreenCoordinates </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>coordinate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9fddd894df3f72eedceddbf2cadbd916"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.parseSize </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>sizeString</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse a string, may optionally contain a unit. </p>
+<p>Recognized units are BU; they are converted to pixel-sides BUs </p>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="aab52e45ec69ae215d2f5be755c0f16cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.BU</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a55cce4c176b84b005a318639a0dbd2cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.BU_1_6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a76ac7862e0acd3bdcae92a5a0525a2de"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.BU_1_4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9c2fb19d90791ec1a3595ab78a502ef4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.BU_1_3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6321af4cabb86fa9dc1f7c7937445133"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.BU_1_2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a61dfc07e56ce1c8044d0d1d31a778f73"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.BU_2_3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2dd3ae01e610207776008e6d090817a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.BU_1_12</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/src/de/telekom/pde/codelibrary/ui/buildingunits/<a class="el" href="_p_d_e_building_units_8java.html">PDEBuildingUnits.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>
