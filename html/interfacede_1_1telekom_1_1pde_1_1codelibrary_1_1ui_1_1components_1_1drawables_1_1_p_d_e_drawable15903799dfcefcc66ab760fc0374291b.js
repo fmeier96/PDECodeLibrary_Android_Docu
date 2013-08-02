@@ -1,0 +1,4 @@
+var interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable15903799dfcefcc66ab760fc0374291b =
+[
+    [ "onPDEBoundsChange", "interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable15903799dfcefcc66ab760fc0374291b.html#af22ccf45f3ed772e958ec87e108d06fc", null ]
+];

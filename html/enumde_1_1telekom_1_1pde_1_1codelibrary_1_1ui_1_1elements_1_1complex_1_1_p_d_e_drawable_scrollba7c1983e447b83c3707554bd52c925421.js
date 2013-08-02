@@ -1,0 +1,5 @@
+var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba7c1983e447b83c3707554bd52c925421 =
+[
+    [ "Horizontal", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba7c1983e447b83c3707554bd52c925421.html#a0754cc55230efc1ccdd04ca23a9888ae", null ],
+    [ "Vertical", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba7c1983e447b83c3707554bd52c925421.html#a8ffdf6cf82eecd78f73e4587cef2d003", null ]
+];

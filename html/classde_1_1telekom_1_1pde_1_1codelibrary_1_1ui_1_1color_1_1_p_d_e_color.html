@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
 	<title>Code Library Android</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -11,13 +11,14 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-library-android/';
+		var headerBaseUrl = '/code-library/code-components-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
-	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
 	<script type="text/javascript" src="dynsections.js"></script>
 	<script type="text/javascript" src="search/search.js"></script>
 	<script type="text/javascript">$(document).ready(initResizable);</script>
@@ -112,7 +113,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android</li>
+                <li>Android Code Library</li>
             </ul>
         </nav>
 			</div>
@@ -126,6 +127,7 @@
 				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
 			</a>
 		</div>
+		<label for="MSearchField" class="hide">Search</label>
 		<input type="text" id="MSearchField" value="" accesskey="S"
 			onfocus="searchBox.OnSearchFieldFocus(true)" 
 			onblur="searchBox.OnSearchFieldFocus(false)" 
@@ -181,14 +183,24 @@ $(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibra
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Methods</h2></td></tr>
+<tr class="memitem:ab7ad5a3a3d95225edfbbf680ca1d8ac9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#ab7ad5a3a3d95225edfbbf680ca1d8ac9">DTUITextColor</a> ()</td></tr>
+<tr class="memdesc:ab7ad5a3a3d95225edfbbf680ca1d8ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create text color depending on the current dark/light style setting of the library.  <a href="#ab7ad5a3a3d95225edfbbf680ca1d8ac9"></a><br/></td></tr>
+<tr class="memitem:a94e7d64a82e2c087bc6f03901a5ccf7e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a94e7d64a82e2c087bc6f03901a5ccf7e">DTUIBackgroundColor</a> ()</td></tr>
+<tr class="memdesc:a94e7d64a82e2c087bc6f03901a5ccf7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create background color depending on the current dark/light style setting of the library.  <a href="#a94e7d64a82e2c087bc6f03901a5ccf7e"></a><br/></td></tr>
+<tr class="memitem:a15d57a9ad3d301e99bdddaeb56540386"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a15d57a9ad3d301e99bdddaeb56540386">DTUIInteractiveColor</a> ()</td></tr>
+<tr class="memdesc:a15d57a9ad3d301e99bdddaeb56540386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create interactive color depending on the current dark/light style setting of the library.  <a href="#a15d57a9ad3d301e99bdddaeb56540386"></a><br/></td></tr>
+<tr class="memitem:a4d55ec30faac608de5b95ec846fc6f9f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a4d55ec30faac608de5b95ec846fc6f9f">DTUIIndicativeTextColor</a> ()</td></tr>
+<tr class="memdesc:a4d55ec30faac608de5b95ec846fc6f9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create interactive text color depending on the current dark/light style setting of the library.  <a href="#a4d55ec30faac608de5b95ec846fc6f9f"></a><br/></td></tr>
 <tr class="memitem:a77f5df5c4f33fb978d897178c2ac5f99"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a77f5df5c4f33fb978d897178c2ac5f99">valueOf</a> (String colorString)</td></tr>
 <tr class="memdesc:a77f5df5c4f33fb978d897178c2ac5f99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve colors.  <a href="#a77f5df5c4f33fb978d897178c2ac5f99"></a><br/></td></tr>
 <tr class="memitem:a69a20ef27614ea3af48f9fd97d53d19e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a69a20ef27614ea3af48f9fd97d53d19e">valueOf</a> (int color)</td></tr>
 <tr class="memdesc:a69a20ef27614ea3af48f9fd97d53d19e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color conversion 32bit unsigned int to UIColor.  <a href="#a69a20ef27614ea3af48f9fd97d53d19e"></a><br/></td></tr>
-<tr class="memitem:a6093b105f83a225e2be0391dd8cf64d1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a6093b105f83a225e2be0391dd8cf64d1">valueOf</a> (int color, boolean ignoreAlpha)</td></tr>
-<tr class="memdesc:a6093b105f83a225e2be0391dd8cf64d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color conversion 32bit unsigned int to UIColor.  <a href="#a6093b105f83a225e2be0391dd8cf64d1"></a><br/></td></tr>
+<tr class="memitem:a4a8ffadd0cc99f4dfb814a2e8d46ea19"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a4a8ffadd0cc99f4dfb814a2e8d46ea19">valueOf</a> (int color,@SuppressWarnings(&quot;SameParameterValue&quot;) boolean ignoreAlpha)</td></tr>
+<tr class="memdesc:a4a8ffadd0cc99f4dfb814a2e8d46ea19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color conversion 32bit unsigned int to UIColor.  <a href="#a4a8ffadd0cc99f4dfb814a2e8d46ea19"></a><br/></td></tr>
 <tr class="memitem:adcbf85d84a7f11fc848d1e2657409785"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#adcbf85d84a7f11fc848d1e2657409785">stringFromIntColor</a> (int color)</td></tr>
 <tr class="memdesc:adcbf85d84a7f11fc848d1e2657409785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an int color to the form "#aarrggbb". This always uses alpha.  <a href="#adcbf85d84a7f11fc848d1e2657409785"></a><br/></td></tr>
+<tr class="memitem:a922291776dda59dea8827f9eb6f7d798"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a922291776dda59dea8827f9eb6f7d798">getIntegerColorCombinedWithAlpha</a> (int integerColor, int extraAlpha)</td></tr>
+<tr class="memdesc:a922291776dda59dea8827f9eb6f7d798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to get a given integer color combined with a extra alpha.  <a href="#a922291776dda59dea8827f9eb6f7d798"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Methods</h2></td></tr>
@@ -207,8 +219,8 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:accabbc37eae8ae285fcec1f322e33fbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if it's a transparent color (so the transparent scheme is applied).  <a href="#accabbc37eae8ae285fcec1f322e33fbb"></a><br/></td></tr>
 <tr class="memitem:a104fbfc876ed839a1050170fd9b8e179"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a104fbfc876ed839a1050170fd9b8e179">mixColors</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> colorToMix, float blend)</td></tr>
 <tr class="memdesc:a104fbfc876ed839a1050170fd9b8e179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mix two colors in RGB space.  <a href="#a104fbfc876ed839a1050170fd9b8e179"></a><br/></td></tr>
-<tr class="memitem:a9ed947ecc377f928eca90619d0f2edf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a9ed947ecc377f928eca90619d0f2edf0">darkerColor</a> (float step)</td></tr>
-<tr class="memdesc:a9ed947ecc377f928eca90619d0f2edf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primitive color math. Calculate a darker color.  <a href="#a9ed947ecc377f928eca90619d0f2edf0"></a><br/></td></tr>
+<tr class="memitem:ab004b84721215e24e57057660f3b2cc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#ab004b84721215e24e57057660f3b2cc2">darkerColor</a> (@SuppressWarnings(&quot;SameParameterValue&quot;) float step)</td></tr>
+<tr class="memdesc:ab004b84721215e24e57057660f3b2cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primitive color math. Calculate a darker color.  <a href="#ab004b84721215e24e57057660f3b2cc2"></a><br/></td></tr>
 <tr class="memitem:a5a09a417323a0bd619c72d0d5202b1e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a5a09a417323a0bd619c72d0d5202b1e1">lighterColor</a> (float step)</td></tr>
 <tr class="memdesc:a5a09a417323a0bd619c72d0d5202b1e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primitive color math. Calculate a lighter color.  <a href="#a5a09a417323a0bd619c72d0d5202b1e1"></a><br/></td></tr>
 <tr class="memitem:a6f74e432fa9efe4a5edb6f35bb18e643"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a6f74e432fa9efe4a5edb6f35bb18e643">styleguideGradientDarkerColor</a> ()</td></tr>
@@ -217,6 +229,8 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:a97c4642640066ab19f663262f510f902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Styleguide color math. Lighter gradient color.  <a href="#a97c4642640066ab19f663262f510f902"></a><br/></td></tr>
 <tr class="memitem:ae24501f6e12f61afa93dc19e64f24761"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#ae24501f6e12f61afa93dc19e64f24761">styleguideBorderColor</a> ()</td></tr>
 <tr class="memdesc:ae24501f6e12f61afa93dc19e64f24761"><td class="mdescLeft">&#160;</td><td class="mdescRight">Styleguide color math. Border color.  <a href="#ae24501f6e12f61afa93dc19e64f24761"></a><br/></td></tr>
+<tr class="memitem:a589028e327915eea3f5461d02256c7c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a589028e327915eea3f5461d02256c7c2">styleguideBrightColor</a> ()</td></tr>
+<tr class="memdesc:a589028e327915eea3f5461d02256c7c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Styleguide color math. Bright color (used as textfield background).  <a href="#a589028e327915eea3f5461d02256c7c2"></a><br/></td></tr>
 <tr class="memitem:a8395242b4b8ea55e96da87c959b0673c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a8395242b4b8ea55e96da87c959b0673c">styleguideAgentStateColor</a> (float step)</td></tr>
 <tr class="memdesc:a8395242b4b8ea55e96da87c959b0673c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Styleguide color math. Agent state color scheme.  <a href="#a8395242b4b8ea55e96da87c959b0673c"></a><br/></td></tr>
 <tr class="memitem:a5a1a8f56457d86f0eb66c01baa56a249"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a5a1a8f56457d86f0eb66c01baa56a249">convertRGBToHSV</a> ()</td></tr>
@@ -241,6 +255,12 @@ Public Methods</h2></td></tr>
 <tr class="memitem:aaa57fa554ccbebf86cbf4031de597053"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#aaa57fa554ccbebf86cbf4031de597053">getHue</a> ()</td></tr>
 <tr class="memitem:a94e60e9f1fe8d5397b0cdfc31b116161"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a94e60e9f1fe8d5397b0cdfc31b116161">getSaturation</a> ()</td></tr>
 <tr class="memitem:aba2cbf2fed352102a0208b082d33dd50"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#aba2cbf2fed352102a0208b082d33dd50">getValue</a> ()</td></tr>
+<tr class="memitem:a0596da1a0f4cfec28aca38cf01a18d40"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a0596da1a0f4cfec28aca38cf01a18d40">equals</a> (Object o)</td></tr>
+<tr class="memitem:ad6ed588cbf4d2a68723990c1139ca7e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#ad6ed588cbf4d2a68723990c1139ca7e2">hashCode</a> ()</td></tr>
+<tr class="memitem:afa5a824a068b425e69fc07c246945b4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#afa5a824a068b425e69fc07c246945b4f">newColorWithCombinedAlpha</a> (int extraAlpha)</td></tr>
+<tr class="memdesc:afa5a824a068b425e69fc07c246945b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to get new pdecolor of this color combined with a extra alpha.  <a href="#afa5a824a068b425e69fc07c246945b4f"></a><br/></td></tr>
+<tr class="memitem:a9182309759d5eece1a6b5508e874d113"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a9182309759d5eece1a6b5508e874d113">newIntegerColorWithCombinedAlpha</a> (int extraAlpha)</td></tr>
+<tr class="memdesc:a9182309759d5eece1a6b5508e874d113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to get new integer color of this color combined with a extra alpha.  <a href="#a9182309759d5eece1a6b5508e874d113"></a><br/></td></tr>
 <tr class="memitem:ad82d3fe1dedf0639de3e14aaaaa81dfc"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#ad82d3fe1dedf0639de3e14aaaaa81dfc">debug</a> ()</td></tr>
 <tr class="memdesc:ad82d3fe1dedf0639de3e14aaaaa81dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve debug string containing several color representations.  <a href="#ad82d3fe1dedf0639de3e14aaaaa81dfc"></a><br/></td></tr>
 </table><table class="memberdecls">
@@ -264,11 +284,23 @@ Private Methods</h2></td></tr>
 <tr class="memitem:a3e3a66a4b285c05807f3c18b22be5ea6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a3e3a66a4b285c05807f3c18b22be5ea6">resolveColorForFloatString</a> (String intString)</td></tr>
 <tr class="memdesc:a3e3a66a4b285c05807f3c18b22be5ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolve a float color.  <a href="#a3e3a66a4b285c05807f3c18b22be5ea6"></a><br/></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aefe02be2792a29e18ded1fe7f431bcd8"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#aefe02be2792a29e18ded1fe7f431bcd8">DTUIText</a> = &quot;DTUITextAuto&quot;</td></tr>
+<tr class="memitem:ac09a5d5454daf7a7e0efe7423e320fca"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#ac09a5d5454daf7a7e0efe7423e320fca">DTUIBackground</a> = &quot;DTUIBackgroundAuto&quot;</td></tr>
+<tr class="memitem:a9a79184e9079f01f97517ac1c6e3f0c5"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a9a79184e9079f01f97517ac1c6e3f0c5">DTUIInteractive</a> = &quot;DTUIInteractiveAuto&quot;</td></tr>
+<tr class="memitem:a0efc9248137241e9ac4f6ecda4fa0f7f"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a0efc9248137241e9ac4f6ecda4fa0f7f">DTUIIndicativeText</a> = &quot;DTUIIndicativeTextAuto&quot;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pac-static-attribs"></a>
 Static Package Attributes</h2></td></tr>
-<tr class="memitem:ac2f7a748f8636436a05dfcd97d8fa3b7"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#ac2f7a748f8636436a05dfcd97d8fa3b7">PDEColorGlobal_hexCharacterSet</a> = &quot;[0-9a-fA-F]*&quot;</td></tr>
-<tr class="memitem:a97d847f1b04ec2c9b5201675c8965d1c"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a97d847f1b04ec2c9b5201675c8965d1c">PDEColorGlobal_digitCommaCharacterSet</a> = &quot;[0-9, ]*&quot;</td></tr>
-<tr class="memitem:ad6bec67c4937254f10a52d6312a224e1"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#ad6bec67c4937254f10a52d6312a224e1">PDEColorGlobal_digitPointCommaCharacterSet</a> = &quot;[0-9., ]*&quot;</td></tr>
+<tr class="memitem:a75227775f6eb816da6d8de7849592e98"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a75227775f6eb816da6d8de7849592e98">PDEColorGlobal_hexCharacterSet</a> = &quot;[0-9a-fA-F]*&quot;</td></tr>
+<tr class="memitem:ae48cf4a06e386f53b9c2a0e5b84de8cd"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#ae48cf4a06e386f53b9c2a0e5b84de8cd">PDEColorGlobal_digitCommaCharacterSet</a> = &quot;[0-9, ]*&quot;</td></tr>
+<tr class="memitem:a838547895ef70793535282c349c64e5a"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a838547895ef70793535282c349c64e5a">PDEColorGlobal_digitPointCommaCharacterSet</a> = &quot;[0-9., ]*&quot;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a3f4cbf8b38873e8d64f56f2af2e89929"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a3f4cbf8b38873e8d64f56f2af2e89929">LOG_TAG</a> = PDEColor.class.getName()</td></tr>
+<tr class="memdesc:a3f4cbf8b38873e8d64f56f2af2e89929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#a3f4cbf8b38873e8d64f56f2af2e89929"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -453,6 +485,106 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab7ad5a3a3d95225edfbbf680ca1d8ac9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.color.PDEColor.DTUITextColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create text color depending on the current dark/light style setting of the library. </p>
+
+</div>
+</div>
+<a class="anchor" id="a94e7d64a82e2c087bc6f03901a5ccf7e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.color.PDEColor.DTUIBackgroundColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create background color depending on the current dark/light style setting of the library. </p>
+
+</div>
+</div>
+<a class="anchor" id="a15d57a9ad3d301e99bdddaeb56540386"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.color.PDEColor.DTUIInteractiveColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create interactive color depending on the current dark/light style setting of the library. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4d55ec30faac608de5b95ec846fc6f9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.color.PDEColor.DTUIIndicativeTextColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create interactive text color depending on the current dark/light style setting of the library. </p>
 
 </div>
 </div>
@@ -898,7 +1030,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9ed947ecc377f928eca90619d0f2edf0"></a>
+<a class="anchor" id="ab004b84721215e24e57057660f3b2cc2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -908,7 +1040,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.color.PDEColor.darkerColor </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">@SuppressWarnings(&quot;SameParameterValue&quot;) float&#160;</td>
           <td class="paramname"><em>step</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1029,6 +1161,32 @@ Private Attributes</h2></td></tr>
 
 <p>Styleguide color math. Border color. </p>
 <p>The color used for borders seems to be the same color as the gradient darker color. </p>
+
+</div>
+</div>
+<a class="anchor" id="a589028e327915eea3f5461d02256c7c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.color.PDEColor.styleguideBrightColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Styleguide color math. Bright color (used as textfield background). </p>
+<p>Go to a really almost white color: saturation to 5%, value to 95% (unless original saturation is lower, or value is higher) </p>
 
 </div>
 </div>
@@ -1545,7 +1703,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6093b105f83a225e2be0391dd8cf64d1"></a>
+<a class="anchor" id="a4a8ffadd0cc99f4dfb814a2e8d46ea19"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1561,7 +1719,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boolean&#160;</td>
+          <td class="paramtype">@SuppressWarnings(&quot;SameParameterValue&quot;) boolean&#160;</td>
           <td class="paramname"><em>ignoreAlpha</em>&#160;</td>
         </tr>
         <tr>
@@ -1609,6 +1767,141 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0596da1a0f4cfec28aca38cf01a18d40"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.color.PDEColor.equals </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>o</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad6ed588cbf4d2a68723990c1139ca7e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.color.PDEColor.hashCode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afa5a824a068b425e69fc07c246945b4f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.color.PDEColor.newColorWithCombinedAlpha </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>extraAlpha</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function to get new pdecolor of this color combined with a extra alpha. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9182309759d5eece1a6b5508e874d113"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.color.PDEColor.newIntegerColorWithCombinedAlpha </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>extraAlpha</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function to get new integer color of this color combined with a extra alpha. </p>
+
+</div>
+</div>
+<a class="anchor" id="a922291776dda59dea8827f9eb6f7d798"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.color.PDEColor.getIntegerColorCombinedWithAlpha </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>integerColor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>extraAlpha</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function to get a given integer color combined with a extra alpha. </p>
+
+</div>
+</div>
 <a class="anchor" id="ad82d3fe1dedf0639de3e14aaaaa81dfc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1635,6 +1928,28 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2>Member Data Documentation</h2>
+<a class="anchor" id="a3f4cbf8b38873e8d64f56f2af2e89929"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.color.PDEColor.LOG_TAG = PDEColor.class.getName()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global tag for log outputs. </p>
+
+</div>
+</div>
 <a class="anchor" id="a4a67496c479516c8f7bfb68ab9f89862"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1775,7 +2090,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac2f7a748f8636436a05dfcd97d8fa3b7"></a>
+<a class="anchor" id="aefe02be2792a29e18ded1fe7f431bcd8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1783,7 +2098,87 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">String de.telekom.pde.codelibrary.ui.color.PDEColor.PDEColorGlobal_hexCharacterSet = &quot;[0-9a-fA-F]*&quot;</td>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.color.PDEColor.DTUIText = &quot;DTUITextAuto&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac09a5d5454daf7a7e0efe7423e320fca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.color.PDEColor.DTUIBackground = &quot;DTUIBackgroundAuto&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9a79184e9079f01f97517ac1c6e3f0c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.color.PDEColor.DTUIInteractive = &quot;DTUIInteractiveAuto&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0efc9248137241e9ac4f6ecda4fa0f7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.color.PDEColor.DTUIIndicativeText = &quot;DTUIIndicativeTextAuto&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a75227775f6eb816da6d8de7849592e98"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.color.PDEColor.PDEColorGlobal_hexCharacterSet = &quot;[0-9a-fA-F]*&quot;</td>
         </tr>
       </table>
   </td>
@@ -1795,7 +2190,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a97d847f1b04ec2c9b5201675c8965d1c"></a>
+<a class="anchor" id="ae48cf4a06e386f53b9c2a0e5b84de8cd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1803,7 +2198,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">String de.telekom.pde.codelibrary.ui.color.PDEColor.PDEColorGlobal_digitCommaCharacterSet = &quot;[0-9, ]*&quot;</td>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.color.PDEColor.PDEColorGlobal_digitCommaCharacterSet = &quot;[0-9, ]*&quot;</td>
         </tr>
       </table>
   </td>
@@ -1815,7 +2210,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad6bec67c4937254f10a52d6312a224e1"></a>
+<a class="anchor" id="a838547895ef70793535282c349c64e5a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1823,7 +2218,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">String de.telekom.pde.codelibrary.ui.color.PDEColor.PDEColorGlobal_digitPointCommaCharacterSet = &quot;[0-9., ]*&quot;</td>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.color.PDEColor.PDEColorGlobal_digitPointCommaCharacterSet = &quot;[0-9., ]*&quot;</td>
         </tr>
       </table>
   </td>

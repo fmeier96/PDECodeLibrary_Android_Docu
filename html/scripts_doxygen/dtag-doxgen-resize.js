@@ -140,10 +140,12 @@ function resizeHeight()
 function repositioningSearchResults() 
 {
 	
-	var searchResults = $('#MSearchResultsWindow')
-		, searchField = $('#MSearchField');
+	var searchResults = $('#MSearchResultsWindow');
+	var searchField = $('#MSearchField');
 
-	searchResults.css({ 'left' : searchField.offset().left + 'px' });
+	//searchResults.css({ 'left' : searchField.offset().left + 'px' });
+	
+	searchResults.css( 'left', searchField.offset().left + 'px');
 
 }
 

@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-components-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android Code Library</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe-members.html">List of all members</a> &#124;
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle">
+<div class="title">com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.png" usemap="#com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe_map" alt=""/>
+  <map id="com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe_map" name="com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe_map">
+<area href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_float_keyframe.html" alt="com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.FloatKeyframe" shape="rect" coords="0,56,490,80"/>
+<area href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_int_keyframe.html" alt="com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.IntKeyframe" shape="rect" coords="500,56,990,80"/>
+<area href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_object_keyframe.html" alt="com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.ObjectKeyframe" shape="rect" coords="1000,56,1490,80"/>
+</map>
+ </div></div>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>This class holds a time/value pair for an animation. The <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> class is used by <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_value_animator.html">ValueAnimator</a> to define the values that the animation target will have over the course of the animation. As the time proceeds from one keyframe to the other, the value of the target object will animate between the value at the previous keyframe and the value at the next keyframe. Each keyframe also holds an optional <a class="el" href="">TimeInterpolator</a> object, which defines the time interpolation over the intervalue preceding the keyframe.</p>
+<p>The <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> class itself is abstract. The type-specific factory methods will return a subclass of <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> specific to the type of value being stored. This is done to improve performance when dealing with the most common cases (e.g., <code>float</code> and <code>int</code> values). Other types will fall into a more general <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> class that treats its values as Objects. Unless your animation requires dealing with a custom type or a data structure that needs to be animated directly (and evaluated using an implementation of <a class="el" href="">TypeEvaluator</a>), you should stick to using float and int as animations using those types have lower runtime overhead than other types.</p>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_float_keyframe.html">FloatKeyframe</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_int_keyframe.html">IntKeyframe</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_object_keyframe.html">ObjectKeyframe</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-static-methods"></a>
+Static Public Methods</h2></td></tr>
+<tr class="memitem:a713ff8c8e6cfc7c8bf11e3cf8a15f6a8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a713ff8c8e6cfc7c8bf11e3cf8a15f6a8">ofInt</a> (float fraction, int value)</td></tr>
+<tr class="memitem:a32a1e691382038cf54798b409d37457a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a32a1e691382038cf54798b409d37457a">ofInt</a> (float fraction)</td></tr>
+<tr class="memitem:a6eb18e8c297fb7682c37a46677b65be6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a6eb18e8c297fb7682c37a46677b65be6">ofFloat</a> (float fraction, float value)</td></tr>
+<tr class="memitem:a4662dc6f626f517700588ef145853dd9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a4662dc6f626f517700588ef145853dd9">ofFloat</a> (float fraction)</td></tr>
+<tr class="memitem:ab4b3d13cf1e3d68bdc26147c3e8b20d6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#ab4b3d13cf1e3d68bdc26147c3e8b20d6">ofObject</a> (float fraction, Object value)</td></tr>
+<tr class="memitem:aa87ba9035bf2b2ea9ea09fee38a448ef"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#aa87ba9035bf2b2ea9ea09fee38a448ef">ofObject</a> (float fraction)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:a9af50fac8bb193f3b7f933eb17bc6eba"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a9af50fac8bb193f3b7f933eb17bc6eba">hasValue</a> ()</td></tr>
+<tr class="memitem:aeb1aa0e8de2868af452c2e3ce7638234"><td class="memItemLeft" align="right" valign="top">abstract Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#aeb1aa0e8de2868af452c2e3ce7638234">getValue</a> ()</td></tr>
+<tr class="memitem:ab833b9145862af7de12c4a117fc13a0f"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#ab833b9145862af7de12c4a117fc13a0f">setValue</a> (Object value)</td></tr>
+<tr class="memitem:a1b70cf073077341c7ba94823cef1fcc8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a1b70cf073077341c7ba94823cef1fcc8">getFraction</a> ()</td></tr>
+<tr class="memitem:ae12d3845bcec455422a0fc64844516e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#ae12d3845bcec455422a0fc64844516e0">setFraction</a> (float fraction)</td></tr>
+<tr class="memitem:a57faf4c263ea467d1473ddd7343788f6"><td class="memItemLeft" align="right" valign="top">Interpolator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a57faf4c263ea467d1473ddd7343788f6">getInterpolator</a> ()</td></tr>
+<tr class="memitem:a24ad7dc5994fbb86a885998f0e6d58de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a24ad7dc5994fbb86a885998f0e6d58de">setInterpolator</a> (Interpolator interpolator)</td></tr>
+<tr class="memitem:a4410795cc8a623ae124300cc4c5d8c99"><td class="memItemLeft" align="right" valign="top">Class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a4410795cc8a623ae124300cc4c5d8c99">getType</a> ()</td></tr>
+<tr class="memitem:a2cf6bd3c752960b75f8f9ecf9a95583d"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a2cf6bd3c752960b75f8f9ecf9a95583d">clone</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pac-attribs"></a>
+Package Attributes</h2></td></tr>
+<tr class="memitem:aa14cc48b59ee23eaa5c965ad460151d5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#aa14cc48b59ee23eaa5c965ad460151d5">mFraction</a></td></tr>
+<tr class="memitem:a76f299af5abbb03e9602df59f6b5250b"><td class="memItemLeft" align="right" valign="top">Class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a76f299af5abbb03e9602df59f6b5250b">mValueType</a></td></tr>
+<tr class="memitem:a59244c6f123eff654aef6273aacf018a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a59244c6f123eff654aef6273aacf018a">mHasValue</a> = false</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a8ddf1e9e44c558b95d8b6d6878e0b067"><td class="memItemLeft" align="right" valign="top">Interpolator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html#a8ddf1e9e44c558b95d8b6d6878e0b067">mInterpolator</a> = null</td></tr>
+</table>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="a713ff8c8e6cfc7c8bf11e3cf8a15f6a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.ofInt </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fraction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Constructs a <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> object with the given time and value. The time defines the time, as a proportion of an overall animation's duration, at which the value will hold true for the animation. The value for the animation between keyframes will be calculated as an interpolation between the values at those keyframes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fraction</td><td>The time, expressed as a value between 0 and 1, representing the fraction of time elapsed of the overall animation duration. </td></tr>
+    <tr><td class="paramname">value</td><td>The value that the object will animate to as the animation time approaches the time in this keyframe, and the the value animated from as the time passes the time in this keyframe. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a32a1e691382038cf54798b409d37457a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.ofInt </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fraction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Constructs a <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> object with the given time. The value at this time will be derived from the target object when the animation first starts (note that this implies that keyframes with no initial value must be used as part of an <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_object_animator.html">ObjectAnimator</a>). The time defines the time, as a proportion of an overall animation's duration, at which the value will hold true for the animation. The value for the animation between keyframes will be calculated as an interpolation between the values at those keyframes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fraction</td><td>The time, expressed as a value between 0 and 1, representing the fraction of time elapsed of the overall animation duration. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6eb18e8c297fb7682c37a46677b65be6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.ofFloat </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fraction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Constructs a <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> object with the given time and value. The time defines the time, as a proportion of an overall animation's duration, at which the value will hold true for the animation. The value for the animation between keyframes will be calculated as an interpolation between the values at those keyframes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fraction</td><td>The time, expressed as a value between 0 and 1, representing the fraction of time elapsed of the overall animation duration. </td></tr>
+    <tr><td class="paramname">value</td><td>The value that the object will animate to as the animation time approaches the time in this keyframe, and the the value animated from as the time passes the time in this keyframe. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4662dc6f626f517700588ef145853dd9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.ofFloat </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fraction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Constructs a <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> object with the given time. The value at this time will be derived from the target object when the animation first starts (note that this implies that keyframes with no initial value must be used as part of an <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_object_animator.html">ObjectAnimator</a>). The time defines the time, as a proportion of an overall animation's duration, at which the value will hold true for the animation. The value for the animation between keyframes will be calculated as an interpolation between the values at those keyframes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fraction</td><td>The time, expressed as a value between 0 and 1, representing the fraction of time elapsed of the overall animation duration. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab4b3d13cf1e3d68bdc26147c3e8b20d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.ofObject </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fraction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Constructs a <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> object with the given time and value. The time defines the time, as a proportion of an overall animation's duration, at which the value will hold true for the animation. The value for the animation between keyframes will be calculated as an interpolation between the values at those keyframes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fraction</td><td>The time, expressed as a value between 0 and 1, representing the fraction of time elapsed of the overall animation duration. </td></tr>
+    <tr><td class="paramname">value</td><td>The value that the object will animate to as the animation time approaches the time in this keyframe, and the the value animated from as the time passes the time in this keyframe. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa87ba9035bf2b2ea9ea09fee38a448ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.ofObject </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fraction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Constructs a <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> object with the given time. The value at this time will be derived from the target object when the animation first starts (note that this implies that keyframes with no initial value must be used as part of an <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_object_animator.html">ObjectAnimator</a>). The time defines the time, as a proportion of an overall animation's duration, at which the value will hold true for the animation. The value for the animation between keyframes will be calculated as an interpolation between the values at those keyframes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fraction</td><td>The time, expressed as a value between 0 and 1, representing the fraction of time elapsed of the overall animation duration. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a9af50fac8bb193f3b7f933eb17bc6eba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.hasValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Indicates whether this keyframe has a valid value. This method is called internally when an <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_object_animator.html">ObjectAnimator</a> first starts; keyframes without values are assigned values at that time by deriving the value for the property from the target object.</p>
+<dl class="section return"><dt>Returns</dt><dd>boolean Whether this object has a value assigned. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aeb1aa0e8de2868af452c2e3ce7638234"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Object com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.getValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the value for this <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>.</p>
+<dl class="section return"><dt>Returns</dt><dd>The value for this <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>. </dd></dl>
+
+<p>Implemented in <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_float_keyframe.html#a39955a417346b30bfa43c35244a36c99">com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.FloatKeyframe</a>, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_int_keyframe.html#a7f950fbfb18ad88d269b2c1adaf823c6">com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.IntKeyframe</a>, and <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_object_keyframe.html#ab06aef808dde0ed19d899d1296ad6a6f">com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.ObjectKeyframe</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab833b9145862af7de12c4a117fc13a0f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.setValue </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sets the value for this <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>value for this <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_float_keyframe.html#a8ba2f308be859c3393a7fed59d31305c">com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.FloatKeyframe</a>, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_int_keyframe.html#ad2b7c44e6dd09e163498b2d4a7a84b02">com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.IntKeyframe</a>, and <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_object_keyframe.html#a831057eaae2b1df097a67a8b9e250529">com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.ObjectKeyframe</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1b70cf073077341c7ba94823cef1fcc8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.getFraction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the time for this keyframe, as a fraction of the overall animation duration.</p>
+<dl class="section return"><dt>Returns</dt><dd>The time associated with this keyframe, as a fraction of the overall animation duration. This should be a value between 0 and 1. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae12d3845bcec455422a0fc64844516e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.setFraction </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fraction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sets the time for this keyframe, as a fraction of the overall animation duration.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fraction</td><td>time associated with this keyframe, as a fraction of the overall animation duration. This should be a value between 0 and 1. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a57faf4c263ea467d1473ddd7343788f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Interpolator com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.getInterpolator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the optional interpolator for this <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>. A value of <code>null</code> indicates that there is no interpolation, which is the same as linear interpolation.</p>
+<dl class="section return"><dt>Returns</dt><dd>The optional interpolator for this <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a24ad7dc5994fbb86a885998f0e6d58de"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.setInterpolator </td>
+          <td>(</td>
+          <td class="paramtype">Interpolator&#160;</td>
+          <td class="paramname"><em>interpolator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sets the optional interpolator for this <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>. A value of <code>null</code> indicates that there is no interpolation, which is the same as linear interpolation.</p>
+<dl class="section return"><dt>Returns</dt><dd>The optional interpolator for this <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4410795cc8a623ae124300cc4c5d8c99"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Class com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the type of keyframe. This information is used by <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_value_animator.html">ValueAnimator</a> to determine the type of <a class="el" href="">TypeEvaluator</a> to use when calculating values between keyframes. The type is based on the type of <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> created.</p>
+<dl class="section return"><dt>Returns</dt><dd>The type of the value stored in the <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2cf6bd3c752960b75f8f9ecf9a95583d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a> com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_float_keyframe.html#aa2e945bc9919291d21e327efd9e5493c">com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.FloatKeyframe</a>, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_int_keyframe.html#af6408b9b267786ac7a184e6ee6e4181f">com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.IntKeyframe</a>, and <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_object_keyframe.html#ae7cdcaaf702fef37d3ad18176724e617">com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.ObjectKeyframe</a>.</p>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="aa14cc48b59ee23eaa5c965ad460151d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.mFraction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The time at which mValue will hold true. </p>
+
+</div>
+</div>
+<a class="anchor" id="a76f299af5abbb03e9602df59f6b5250b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Class com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.mValueType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The type of the value in this <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe.html">Keyframe</a>. This type is determined at construction time, based on the type of the <code>value</code> object passed into the constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8ddf1e9e44c558b95d8b6d6878e0b067"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Interpolator com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.mInterpolator = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The optional time interpolator for the interval preceding this keyframe. A null interpolator (the default) results in linear interpolation over the interval. </p>
+
+</div>
+</div>
+<a class="anchor" id="a59244c6f123eff654aef6273aacf018a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.actionbarsherlock.internal.nineoldandroids.animation.Keyframe.mHasValue = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Flag to indicate whether this keyframe has a valid value. This flag is used when an animation first starts, to populate placeholder keyframes with real values derived from the target object. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/ActionBarSherlock/actionbarsherlock/src/com/actionbarsherlock/internal/nineoldandroids/animation/<a class="el" href="_keyframe_8java.html">Keyframe.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

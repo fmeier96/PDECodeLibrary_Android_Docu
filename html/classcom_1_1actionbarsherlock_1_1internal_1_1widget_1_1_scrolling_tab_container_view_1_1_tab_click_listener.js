@@ -1,0 +1,4 @@
+var classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_scrolling_tab_container_view_1_1_tab_click_listener =
+[
+    [ "onClick", "classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_scrolling_tab_container_view_1_1_tab_click_listener.html#a1b1d7508b8691c5ec3f210b6be294277", null ]
+];

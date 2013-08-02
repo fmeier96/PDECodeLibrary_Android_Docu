@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-components-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android Code Library</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">com.actionbarsherlock.internal.view.StandaloneActionMode Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for com.actionbarsherlock.internal.view.StandaloneActionMode:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.png" usemap="#com.actionbarsherlock.internal.view.StandaloneActionMode_map" alt=""/>
+  <map id="com.actionbarsherlock.internal.view.StandaloneActionMode_map" name="com.actionbarsherlock.internal.view.StandaloneActionMode_map">
+<area href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html" alt="com.actionbarsherlock.view.ActionMode" shape="rect" coords="0,0,379,24"/>
+<area href="interfacecom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder_1_1_callback.html" alt="com.actionbarsherlock.internal.view.menu.MenuBuilder.Callback" shape="rect" coords="389,0,768,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:a6a449824d6354ea25f4d8e186e306620"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a6a449824d6354ea25f4d8e186e306620">StandaloneActionMode</a> (Context context, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_action_bar_context_view.html">ActionBarContextView</a> view, ActionMode.Callback callback, boolean isFocusable)</td></tr>
+<tr class="memitem:ae27024ef0e36eaa3f2df137e60680909"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#ae27024ef0e36eaa3f2df137e60680909">setTitle</a> (CharSequence title)</td></tr>
+<tr class="memitem:a1816ce53cb6960e48d8d04c30799e50c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a1816ce53cb6960e48d8d04c30799e50c">setSubtitle</a> (CharSequence subtitle)</td></tr>
+<tr class="memitem:a0999feb29e0297cd36fcfc555dc50a50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a0999feb29e0297cd36fcfc555dc50a50">setTitle</a> (int resId)</td></tr>
+<tr class="memitem:af3bb5f483c6b298708eb34aad85f1fcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#af3bb5f483c6b298708eb34aad85f1fcc">setSubtitle</a> (int resId)</td></tr>
+<tr class="memitem:a8dc088ca7b60e403734fdea017bc3e1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a8dc088ca7b60e403734fdea017bc3e1e">setCustomView</a> (View view)</td></tr>
+<tr class="memitem:a80519fb684102c31e498db8b2741b26d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a80519fb684102c31e498db8b2741b26d">invalidate</a> ()</td></tr>
+<tr class="memitem:a4881c7f8864a6a395c7453e54bf6ebe8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a4881c7f8864a6a395c7453e54bf6ebe8">finish</a> ()</td></tr>
+<tr class="memitem:ad178451de61854cdc4881ca5ebe4841f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu.html">Menu</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#ad178451de61854cdc4881ca5ebe4841f">getMenu</a> ()</td></tr>
+<tr class="memitem:adc63f3502671b2df33061aecf656c631"><td class="memItemLeft" align="right" valign="top">CharSequence&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#adc63f3502671b2df33061aecf656c631">getTitle</a> ()</td></tr>
+<tr class="memitem:a8fd8e2f36a2193fb26669f212469d7c1"><td class="memItemLeft" align="right" valign="top">CharSequence&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a8fd8e2f36a2193fb26669f212469d7c1">getSubtitle</a> ()</td></tr>
+<tr class="memitem:a6990ce0697653a4d235678f51b67bfb2"><td class="memItemLeft" align="right" valign="top">View&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a6990ce0697653a4d235678f51b67bfb2">getCustomView</a> ()</td></tr>
+<tr class="memitem:acb62485bfda1e95c357b80f7b418b19f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_menu_inflater.html">MenuInflater</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#acb62485bfda1e95c357b80f7b418b19f">getMenuInflater</a> ()</td></tr>
+<tr class="memitem:a26ba631aa72653a3c5cb2c6466b28897"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a26ba631aa72653a3c5cb2c6466b28897">onMenuItemSelected</a> (<a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html">MenuBuilder</a> menu, <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu_item.html">MenuItem</a> item)</td></tr>
+<tr class="memitem:a5711c9db7f6ef2e8f4baab8327e74afe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a5711c9db7f6ef2e8f4baab8327e74afe">onCloseMenu</a> (<a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html">MenuBuilder</a> menu, boolean allMenusAreClosing)</td></tr>
+<tr class="memitem:a545390e1977843d448e3bbb8fb372845"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a545390e1977843d448e3bbb8fb372845">onSubMenuSelected</a> (<a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_sub_menu_builder.html">SubMenuBuilder</a> subMenu)</td></tr>
+<tr class="memitem:a014fd486639161d425122dd51fc6da20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a014fd486639161d425122dd51fc6da20">onCloseSubMenu</a> (<a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_sub_menu_builder.html">SubMenuBuilder</a> menu)</td></tr>
+<tr class="memitem:a6b10333d591ff18e77f51ad065c8ac9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a6b10333d591ff18e77f51ad065c8ac9d">onMenuModeChange</a> (<a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html">MenuBuilder</a> menu)</td></tr>
+<tr class="memitem:a53835d049033c8abc322829ff872f07b"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a53835d049033c8abc322829ff872f07b">isUiFocusable</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ace54c12e0b743d971f60f7eaa7418312"><td class="memItemLeft" align="right" valign="top">Context&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#ace54c12e0b743d971f60f7eaa7418312">mContext</a></td></tr>
+<tr class="memitem:a6a20548d76afc0b42e6b174571a7a6d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_action_bar_context_view.html">ActionBarContextView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a6a20548d76afc0b42e6b174571a7a6d2">mContextView</a></td></tr>
+<tr class="memitem:ab5844d2a2f96db4e733dece2da417d7f"><td class="memItemLeft" align="right" valign="top">ActionMode.Callback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#ab5844d2a2f96db4e733dece2da417d7f">mCallback</a></td></tr>
+<tr class="memitem:a067c22d49cafee18e79e3467ffbac1cd"><td class="memItemLeft" align="right" valign="top">WeakReference&lt; View &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a067c22d49cafee18e79e3467ffbac1cd">mCustomView</a></td></tr>
+<tr class="memitem:a738bc1c4b812215452773eb41dc0ff66"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a738bc1c4b812215452773eb41dc0ff66">mFinished</a></td></tr>
+<tr class="memitem:a4cf83f1ada73678c7969699f42168a64"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a4cf83f1ada73678c7969699f42168a64">mFocusable</a></td></tr>
+<tr class="memitem:aaf1550c165179349255714df59bc649a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html">MenuBuilder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#aaf1550c165179349255714df59bc649a">mMenu</a></td></tr>
+</table>
+<h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a6a449824d6354ea25f4d8e186e306620"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.actionbarsherlock.internal.view.StandaloneActionMode.StandaloneActionMode </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_action_bar_context_view.html">ActionBarContextView</a>&#160;</td>
+          <td class="paramname"><em>view</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ActionMode.Callback&#160;</td>
+          <td class="paramname"><em>callback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>isFocusable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="ae27024ef0e36eaa3f2df137e60680909"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.view.StandaloneActionMode.setTitle </td>
+          <td>(</td>
+          <td class="paramtype">CharSequence&#160;</td>
+          <td class="paramname"><em>title</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set the title of the action mode. This method will have no visible effect if a custom view has been set.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>Title string to set</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a0999feb29e0297cd36fcfc555dc50a50">setTitle(int)</a> </dd>
+<dd>
+<a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a8dc088ca7b60e403734fdea017bc3e1e">setCustomView(View)</a> </dd></dl>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#a1da8e9c63af47afaa8438ac0be3973a2">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1816ce53cb6960e48d8d04c30799e50c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.view.StandaloneActionMode.setSubtitle </td>
+          <td>(</td>
+          <td class="paramtype">CharSequence&#160;</td>
+          <td class="paramname"><em>subtitle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set the subtitle of the action mode. This method will have no visible effect if a custom view has been set.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">subtitle</td><td>Subtitle string to set</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#af3bb5f483c6b298708eb34aad85f1fcc">setSubtitle(int)</a> </dd>
+<dd>
+<a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a8dc088ca7b60e403734fdea017bc3e1e">setCustomView(View)</a> </dd></dl>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#a27da993cb45a9beccec4bcdf21b9cca1">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0999feb29e0297cd36fcfc555dc50a50"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.view.StandaloneActionMode.setTitle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>resId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set the title of the action mode. This method will have no visible effect if a custom view has been set.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">resId</td><td>Resource ID of a string to set as the title</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#ae27024ef0e36eaa3f2df137e60680909">setTitle(CharSequence)</a> </dd>
+<dd>
+<a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a8dc088ca7b60e403734fdea017bc3e1e">setCustomView(View)</a> </dd></dl>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#aa782594785d2828d693efef790df8bc2">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af3bb5f483c6b298708eb34aad85f1fcc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.view.StandaloneActionMode.setSubtitle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>resId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set the subtitle of the action mode. This method will have no visible effect if a custom view has been set.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">resId</td><td>Resource ID of a string to set as the subtitle</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a1816ce53cb6960e48d8d04c30799e50c">setSubtitle(CharSequence)</a> </dd>
+<dd>
+<a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a8dc088ca7b60e403734fdea017bc3e1e">setCustomView(View)</a> </dd></dl>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#af2b3c25c07b008fe475ee350d7ebee89">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8dc088ca7b60e403734fdea017bc3e1e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.view.StandaloneActionMode.setCustomView </td>
+          <td>(</td>
+          <td class="paramtype">View&#160;</td>
+          <td class="paramname"><em>view</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set a custom view for this action mode. The custom view will take the place of the title and subtitle. Useful for things like search boxes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">view</td><td>Custom view to use in place of the title/subtitle.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#ae27024ef0e36eaa3f2df137e60680909">setTitle(CharSequence)</a> </dd>
+<dd>
+<a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1_standalone_action_mode.html#a1816ce53cb6960e48d8d04c30799e50c">setSubtitle(CharSequence)</a> </dd></dl>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#ab18fcb72f88e9db2d07cc8b0630565d4">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a80519fb684102c31e498db8b2741b26d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.view.StandaloneActionMode.invalidate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Invalidate the action mode and refresh menu content. The mode's <a class="el" href="">ActionMode.Callback</a> will have its <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_action_mode_1_1_callback.html#ac2c36041b7a0debf4198abe61af7f027">Callback#onPrepareActionMode(ActionMode, Menu)</a> method called. If it returns true the menu will be scanned for updated content and any relevant changes will be reflected to the user. </p>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#a38915fa3f57abeba7749a9113e1c20c7">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4881c7f8864a6a395c7453e54bf6ebe8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.view.StandaloneActionMode.finish </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Finish and close this action mode. The action mode's <a class="el" href="">ActionMode.Callback</a> will have its <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_action_mode_1_1_callback.html#a582d67f78ce70a0b3568917c800067c6">Callback#onDestroyActionMode(ActionMode)</a> method called. </p>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#a5fad5da380cdb138a356202a8a74ccb5">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad178451de61854cdc4881ca5ebe4841f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu.html">Menu</a> com.actionbarsherlock.internal.view.StandaloneActionMode.getMenu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the menu of actions that this action mode presents. </p>
+<dl class="section return"><dt>Returns</dt><dd>The action mode's menu. </dd></dl>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#a352417438bae8d2ebb9a7eafd1277eef">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adc63f3502671b2df33061aecf656c631"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CharSequence com.actionbarsherlock.internal.view.StandaloneActionMode.getTitle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the current title of this action mode. </p>
+<dl class="section return"><dt>Returns</dt><dd>Title text </dd></dl>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#acb0b56ca5ca8c381493d6943313a0d6f">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8fd8e2f36a2193fb26669f212469d7c1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CharSequence com.actionbarsherlock.internal.view.StandaloneActionMode.getSubtitle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the current subtitle of this action mode. </p>
+<dl class="section return"><dt>Returns</dt><dd>Subtitle text </dd></dl>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#a8c400213c7623339810b5161649807ec">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6990ce0697653a4d235678f51b67bfb2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">View com.actionbarsherlock.internal.view.StandaloneActionMode.getCustomView </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the current custom view for this action mode. </p>
+<dl class="section return"><dt>Returns</dt><dd>The current custom view </dd></dl>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#aeea9404c966ff528ddbf42c78d646c8e">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acb62485bfda1e95c357b80f7b418b19f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_menu_inflater.html">MenuInflater</a> com.actionbarsherlock.internal.view.StandaloneActionMode.getMenuInflater </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns a <a class="el" href="">MenuInflater</a> with the ActionMode's context. </p>
+
+<p>Implements <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#a00bc97451355b92ec37dcf763dab9b48">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a26ba631aa72653a3c5cb2c6466b28897"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.actionbarsherlock.internal.view.StandaloneActionMode.onMenuItemSelected </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html">MenuBuilder</a>&#160;</td>
+          <td class="paramname"><em>menu</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu_item.html">MenuItem</a>&#160;</td>
+          <td class="paramname"><em>item</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called when a menu item is selected. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">menu</td><td>The menu that is the parent of the item </td></tr>
+    <tr><td class="paramname">item</td><td>The menu item that is selected </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>whether the menu item selection was handled </dd></dl>
+
+<p>Implements <a class="el" href="interfacecom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder_1_1_callback.html#a668c3f004ce02e85cbe2360cab45d02e">com.actionbarsherlock.internal.view.menu.MenuBuilder.Callback</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5711c9db7f6ef2e8f4baab8327e74afe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.view.StandaloneActionMode.onCloseMenu </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html">MenuBuilder</a>&#160;</td>
+          <td class="paramname"><em>menu</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>allMenusAreClosing</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a545390e1977843d448e3bbb8fb372845"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.actionbarsherlock.internal.view.StandaloneActionMode.onSubMenuSelected </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_sub_menu_builder.html">SubMenuBuilder</a>&#160;</td>
+          <td class="paramname"><em>subMenu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a014fd486639161d425122dd51fc6da20"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.view.StandaloneActionMode.onCloseSubMenu </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_sub_menu_builder.html">SubMenuBuilder</a>&#160;</td>
+          <td class="paramname"><em>menu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6b10333d591ff18e77f51ad065c8ac9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.actionbarsherlock.internal.view.StandaloneActionMode.onMenuModeChange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html">MenuBuilder</a>&#160;</td>
+          <td class="paramname"><em>menu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called when the mode of the menu changes (for example, from icon to expanded).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">menu</td><td>the menu that has changed modes </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="interfacecom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder_1_1_callback.html#a84cd4fbfcb7f4c790dd533982e3ac8f4">com.actionbarsherlock.internal.view.menu.MenuBuilder.Callback</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a53835d049033c8abc322829ff872f07b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.actionbarsherlock.internal.view.StandaloneActionMode.isUiFocusable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns whether the UI presenting this action mode can take focus or not. This is used by internal components within the framework that would otherwise present an action mode UI that requires focus, such as an EditText as a custom view.</p>
+<dl class="section return"><dt>Returns</dt><dd>true if the UI used to show this action mode can take focus  Internal use only </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html#ad5aaad05863322fa7c9c0463f2907efb">com.actionbarsherlock.view.ActionMode</a>.</p>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="ace54c12e0b743d971f60f7eaa7418312"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Context com.actionbarsherlock.internal.view.StandaloneActionMode.mContext</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6a20548d76afc0b42e6b174571a7a6d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_action_bar_context_view.html">ActionBarContextView</a> com.actionbarsherlock.internal.view.StandaloneActionMode.mContextView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab5844d2a2f96db4e733dece2da417d7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ActionMode.Callback com.actionbarsherlock.internal.view.StandaloneActionMode.mCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a067c22d49cafee18e79e3467ffbac1cd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WeakReference&lt;View&gt; com.actionbarsherlock.internal.view.StandaloneActionMode.mCustomView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a738bc1c4b812215452773eb41dc0ff66"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.actionbarsherlock.internal.view.StandaloneActionMode.mFinished</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4cf83f1ada73678c7969699f42168a64"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.actionbarsherlock.internal.view.StandaloneActionMode.mFocusable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaf1550c165179349255714df59bc649a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html">MenuBuilder</a> com.actionbarsherlock.internal.view.StandaloneActionMode.mMenu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/ActionBarSherlock/actionbarsherlock/src/com/actionbarsherlock/internal/view/<a class="el" href="_standalone_action_mode_8java.html">StandaloneActionMode.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
 	<title>Code Library Android</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -11,13 +11,14 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-library-android/';
+		var headerBaseUrl = '/code-library/code-components-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
-	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
 	<script type="text/javascript" src="dynsections.js"></script>
 	<script type="text/javascript" src="search/search.js"></script>
 	<script type="text/javascript">$(document).ready(initResizable);</script>
@@ -112,7 +113,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android</li>
+                <li>Android Code Library</li>
             </ul>
         </nav>
 			</div>
@@ -126,6 +127,7 @@
 				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
 			</a>
 		</div>
+		<label for="MSearchField" class="hide">Search</label>
 		<input type="text" id="MSearchField" value="" accesskey="S"
 			onfocus="searchBox.OnSearchFieldFocus(true)" 
 			onblur="searchBox.OnSearchFieldFocus(false)" 
@@ -179,51 +181,72 @@ $(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibra
 </div><!--header-->
 <div class="contents">
 
-<p>Inherits Drawable.</p>
-<table class="memberdecls">
+<p>With this Drawable the outline of the button is drawn.  
+ <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.png" usemap="#de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine_map" name="de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine_map">
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_base.html" title="Base Class for our PDE Drawables." alt="de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableBase" shape="rect" coords="0,56,446,80"/>
+<area href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_interface.html" alt="de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableInterface" shape="rect" coords="0,0,446,24"/>
+</map>
+ </div></div>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>With this Drawable the outline of the button is drawn. </p>
+<p>Some Buttons have a thin outline around them. This outline is drawn by this drawable. </p>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Methods</h2></td></tr>
 <tr class="memitem:a88cecb47904cd7bf257a66e60e45cdc7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a88cecb47904cd7bf257a66e60e45cdc7">PDEDrawableBorderLine</a> ()</td></tr>
-<tr class="memitem:ac62c97741c06a0d07ac982d1c57a0c20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#ac62c97741c06a0d07ac982d1c57a0c20">setAlpha</a> (int alpha)</td></tr>
-<tr class="memitem:a9cd835aba9d9626b5bbe8849e42bbb4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a9cd835aba9d9626b5bbe8849e42bbb4f">draw</a> (android.graphics.Canvas canvas)</td></tr>
-<tr class="memitem:a99b3fe52dae36d4a510151591c796887"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a99b3fe52dae36d4a510151591c796887">getOpacity</a> ()</td></tr>
-<tr class="memdesc:a99b3fe52dae36d4a510151591c796887"><td class="mdescLeft">&#160;</td><td class="mdescRight">abstract in Drawable, need to override  <a href="#a99b3fe52dae36d4a510151591c796887"></a><br/></td></tr>
-<tr class="memitem:a445ace6d767b014e39e088f8345af989"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a445ace6d767b014e39e088f8345af989">setColorFilter</a> (android.graphics.ColorFilter cf)</td></tr>
-<tr class="memdesc:a445ace6d767b014e39e088f8345af989"><td class="mdescLeft">&#160;</td><td class="mdescRight">abstract in Drawable, need to override  <a href="#a445ace6d767b014e39e088f8345af989"></a><br/></td></tr>
-<tr class="memitem:a3565bb498dbf4372f59706a58b0eebe0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a3565bb498dbf4372f59706a58b0eebe0">setCornerRadius</a> (float radius)</td></tr>
-<tr class="memitem:a7d3569ab298319f4fa3fc8bef104aa9b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a7d3569ab298319f4fa3fc8bef104aa9b">getCornerRadius</a> ()</td></tr>
-<tr class="memitem:af3432e8625afba2003bb2b5b6203b952"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#af3432e8625afba2003bb2b5b6203b952">setBorderWidth</a> (float width)</td></tr>
-<tr class="memitem:acb3747d7a591498b1cc91cedb4a20cbd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#acb3747d7a591498b1cc91cedb4a20cbd">getBorderWidth</a> ()</td></tr>
-<tr class="memitem:ac8f9d6aca6dee53bfdcde7fb8d3ce62b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#ac8f9d6aca6dee53bfdcde7fb8d3ce62b">setBorderColor</a> (int color)</td></tr>
-<tr class="memitem:a9b90a5deb3a88fa65dced0e6d2f539da"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a9b90a5deb3a88fa65dced0e6d2f539da">getBorderColor</a> ()</td></tr>
-<tr class="memitem:a239b39e705181f07667707f6884b5e2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a239b39e705181f07667707f6884b5e2b">setBoundingRect</a> (Rect bounds)</td></tr>
-<tr class="memitem:a514e0e2dfe37089f7b7fa1d015de9c6a"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a514e0e2dfe37089f7b7fa1d015de9c6a">getBoundingRect</a> ()</td></tr>
-<tr class="memitem:a1162b4a8fb015a1fa8a3a76255acfa54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a1162b4a8fb015a1fa8a3a76255acfa54">setShapePath</a> (Path path)</td></tr>
-<tr class="memitem:a9b51160c9a482a4e14e919cfc1ab5d15"><td class="memItemLeft" align="right" valign="top">Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a9b51160c9a482a4e14e919cfc1ab5d15">getShapePath</a> ()</td></tr>
-<tr class="memitem:acef0897737e041ac061c6ab6ba88d116"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#acef0897737e041ac061c6ab6ba88d116">setShapeRect</a> (RectF rect)</td></tr>
-<tr class="memdesc:acef0897737e041ac061c6ab6ba88d116"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a rectangular path.  <a href="#acef0897737e041ac061c6ab6ba88d116"></a><br/></td></tr>
-<tr class="memitem:aa4c9c84782baa9e16b345525f0f5bfc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#aa4c9c84782baa9e16b345525f0f5bfc5">setShapeRoundedRect</a> (RectF rect, float cornerRadius)</td></tr>
-<tr class="memdesc:aa4c9c84782baa9e16b345525f0f5bfc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a rectangular path with rounded corners.  <a href="#aa4c9c84782baa9e16b345525f0f5bfc5"></a><br/></td></tr>
-<tr class="memitem:a5324783d98fef6ff9f9ccccd5c8ec710"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a5324783d98fef6ff9f9ccccd5c8ec710">setShapeOval</a> (RectF rect)</td></tr>
-<tr class="memdesc:a5324783d98fef6ff9f9ccccd5c8ec710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a oval inscribing the rect. Use a square to get a circle.  <a href="#a5324783d98fef6ff9f9ccccd5c8ec710"></a><br/></td></tr>
+<tr class="memdesc:a88cecb47904cd7bf257a66e60e45cdc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class initialization.  <a href="#a88cecb47904cd7bf257a66e60e45cdc7"></a><br/></td></tr>
+<tr class="memitem:a9ba8d413cd576da6c40e92533a10ee17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a9ba8d413cd576da6c40e92533a10ee17">setElementCornerRadius</a> (float radius)</td></tr>
+<tr class="memdesc:a9ba8d413cd576da6c40e92533a10ee17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the corner radius (rounded rect)  <a href="#a9ba8d413cd576da6c40e92533a10ee17"></a><br/></td></tr>
+<tr class="memitem:af13db03672ebc5928d5e9e3bf3957d3b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#af13db03672ebc5928d5e9e3bf3957d3b">getElementCornerRadius</a> ()</td></tr>
+<tr class="memdesc:af13db03672ebc5928d5e9e3bf3957d3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the corner radius (rounded rect)  <a href="#af13db03672ebc5928d5e9e3bf3957d3b"></a><br/></td></tr>
+<tr class="memitem:a33e0f10ffe75a9c3adf47423f58d0e94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a33e0f10ffe75a9c3adf47423f58d0e94">setElementBorderWidth</a> (float width)</td></tr>
+<tr class="memdesc:a33e0f10ffe75a9c3adf47423f58d0e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the width of the outline.  <a href="#a33e0f10ffe75a9c3adf47423f58d0e94"></a><br/></td></tr>
+<tr class="memitem:a46c484c70adcee1ee7f5bce6822f20bb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a46c484c70adcee1ee7f5bce6822f20bb">getElementBorderWidth</a> ()</td></tr>
+<tr class="memdesc:a46c484c70adcee1ee7f5bce6822f20bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the width of the outline.  <a href="#a46c484c70adcee1ee7f5bce6822f20bb"></a><br/></td></tr>
+<tr class="memitem:a1f61b4171e575e6f11403b8196917651"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a1f61b4171e575e6f11403b8196917651">setElementBorderColor</a> (int color)</td></tr>
+<tr class="memdesc:a1f61b4171e575e6f11403b8196917651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the color of the outline.  <a href="#a1f61b4171e575e6f11403b8196917651"></a><br/></td></tr>
+<tr class="memitem:a9793b6531fb1d875e58e28b99df8a8ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a9793b6531fb1d875e58e28b99df8a8ce">getElementBorderColor</a> ()</td></tr>
+<tr class="memdesc:a9793b6531fb1d875e58e28b99df8a8ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the color of the outline.  <a href="#a9793b6531fb1d875e58e28b99df8a8ce"></a><br/></td></tr>
+<tr class="memitem:adfcc770da7cf55fb0efa720df1889e0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#adfcc770da7cf55fb0efa720df1889e0b">setElementShapePath</a> (Path path)</td></tr>
+<tr class="memdesc:adfcc770da7cf55fb0efa720df1889e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set custom path of shape.  <a href="#adfcc770da7cf55fb0efa720df1889e0b"></a><br/></td></tr>
+<tr class="memitem:a984111cfe8a4c2ca214d6ac634cb31ae"><td class="memItemLeft" align="right" valign="top">Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a984111cfe8a4c2ca214d6ac634cb31ae">getElementShapePath</a> ()</td></tr>
+<tr class="memdesc:a984111cfe8a4c2ca214d6ac634cb31ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get custom path of shape.  <a href="#a984111cfe8a4c2ca214d6ac634cb31ae"></a><br/></td></tr>
+<tr class="memitem:ae7b963571dc0b1c6a1dcbfb2311fb0a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#ae7b963571dc0b1c6a1dcbfb2311fb0a3">setElementShapeRect</a> ()</td></tr>
+<tr class="memdesc:ae7b963571dc0b1c6a1dcbfb2311fb0a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a rectangular shape.  <a href="#ae7b963571dc0b1c6a1dcbfb2311fb0a3"></a><br/></td></tr>
+<tr class="memitem:a9ec0e44283d3dd52f110721b3b8bbd75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a9ec0e44283d3dd52f110721b3b8bbd75">setElementShapeRoundedRect</a> (float cornerRadius)</td></tr>
+<tr class="memdesc:a9ec0e44283d3dd52f110721b3b8bbd75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a rectangular shape with rounded corners.  <a href="#a9ec0e44283d3dd52f110721b3b8bbd75"></a><br/></td></tr>
+<tr class="memitem:aa36024e7b0d39e764d0ae54a1e1dc772"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#aa36024e7b0d39e764d0ae54a1e1dc772">setElementShapeOval</a> ()</td></tr>
+<tr class="memdesc:aa36024e7b0d39e764d0ae54a1e1dc772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set oval shape of outline.  <a href="#aa36024e7b0d39e764d0ae54a1e1dc772"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Methods</h2></td></tr>
+<tr class="memitem:a3d9f1153c6c83db21f13e678fbc9ab39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a3d9f1153c6c83db21f13e678fbc9ab39">updateAllPaints</a> ()</td></tr>
+<tr class="memdesc:a3d9f1153c6c83db21f13e678fbc9ab39"><td class="mdescLeft">&#160;</td><td class="mdescRight">update background and border paint values  <a href="#a3d9f1153c6c83db21f13e678fbc9ab39"></a><br/></td></tr>
+<tr class="memitem:a22ab8a3bf658664cfc27eb35582266e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a22ab8a3bf658664cfc27eb35582266e1">updateDrawingBitmap</a> (Canvas c, Rect bounds)</td></tr>
+<tr class="memdesc:a22ab8a3bf658664cfc27eb35582266e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates our drawing bitmap and triggers a redraw of this element.  <a href="#a22ab8a3bf658664cfc27eb35582266e1"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
+Private Methods</h2></td></tr>
+<tr class="memitem:a99eece53fa8549c393e51f5c68637a63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a99eece53fa8549c393e51f5c68637a63">createBorderPaint</a> ()</td></tr>
+<tr class="memdesc:a99eece53fa8549c393e51f5c68637a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">create border paint for drawing  <a href="#a99eece53fa8549c393e51f5c68637a63"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aa4f936248e51162ff12845f33dfc86df"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#aa4f936248e51162ff12845f33dfc86df">mCornerRadius</a></td></tr>
-<tr class="memitem:aae18362196c2761a0937eeefd8c47898"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#aae18362196c2761a0937eeefd8c47898">mBorderWidth</a></td></tr>
-<tr class="memitem:a9104c53d6d890b9c29301f6130412264"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a9104c53d6d890b9c29301f6130412264">mBorderColor</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="pac-attribs"></a>
-Package Attributes</h2></td></tr>
-<tr class="memitem:ac814744dbb6a60189e8a9910ce4b64fe"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#ac814744dbb6a60189e8a9910ce4b64fe">mBoundingRect</a></td></tr>
+<tr class="memitem:a4398f6c492cbd2455a267030ae8a69c5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a4398f6c492cbd2455a267030ae8a69c5">mElementCornerRadius</a></td></tr>
+<tr class="memitem:ac12a1097fe7ca5ade81bcc7e6bfedec3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#ac12a1097fe7ca5ade81bcc7e6bfedec3">mElementBorderWidth</a></td></tr>
+<tr class="memitem:aeaa1dd7a28a03304e0dde11e410b06c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#aeaa1dd7a28a03304e0dde11e410b06c6">mElementBorderColor</a></td></tr>
+<tr class="memitem:a3af4069b0ad6779462e9f337437541b4"><td class="memItemLeft" align="right" valign="top">Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a3af4069b0ad6779462e9f337437541b4">mElementShapePath</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a3c348d51b30c9258f152c7d72480f373"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a3c348d51b30c9258f152c7d72480f373">mAlpha</a> = 0xFF</td></tr>
-<tr class="memitem:a9718a99d4a4dfb0da44b215503c51a20"><td class="memItemLeft" align="right" valign="top">Paint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a9718a99d4a4dfb0da44b215503c51a20">mPaint</a> = null</td></tr>
-<tr class="memitem:a234680282cd772d1eddccd3e4180332f"><td class="memItemLeft" align="right" valign="top">ColorFilter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a234680282cd772d1eddccd3e4180332f">mColorFilter</a></td></tr>
-<tr class="memitem:aa27a4b94afd91a33811c4e9c564f2373"><td class="memItemLeft" align="right" valign="top">Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#aa27a4b94afd91a33811c4e9c564f2373">mShapePath</a></td></tr>
 <tr class="memitem:a775d1208f4b3c04c9887b74e9568cdb0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a775d1208f4b3c04c9887b74e9568cdb0">mShapeType</a></td></tr>
+<tr class="memitem:a9e1d72887de984fde2b76e4ca0852f0c"><td class="memItemLeft" align="right" valign="top">Paint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html#a9e1d72887de984fde2b76e4ca0852f0c">mBorderPaint</a> = null</td></tr>
 </table>
 <h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a88cecb47904cd7bf257a66e60e45cdc7"></a>
@@ -247,10 +270,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Class initialization. </p>
+
 </div>
 </div>
 <h2>Member Function Documentation</h2>
-<a class="anchor" id="ac62c97741c06a0d07ac982d1c57a0c20"></a>
+<a class="anchor" id="a9ba8d413cd576da6c40e92533a10ee17"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -258,106 +283,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setAlpha </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>alpha</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9cd835aba9d9626b5bbe8849e42bbb4f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.draw </td>
-          <td>(</td>
-          <td class="paramtype">android.graphics.Canvas&#160;</td>
-          <td class="paramname"><em>canvas</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a99b3fe52dae36d4a510151591c796887"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.getOpacity </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>abstract in Drawable, need to override </p>
-
-</div>
-</div>
-<a class="anchor" id="a445ace6d767b014e39e088f8345af989"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setColorFilter </td>
-          <td>(</td>
-          <td class="paramtype">android.graphics.ColorFilter&#160;</td>
-          <td class="paramname"><em>cf</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>abstract in Drawable, need to override </p>
-
-</div>
-</div>
-<a class="anchor" id="a3565bb498dbf4372f59706a58b0eebe0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setCornerRadius </td>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setElementCornerRadius </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>radius</em></td><td>)</td>
@@ -371,9 +297,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Set the corner radius (rounded rect) </p>
+
 </div>
 </div>
-<a class="anchor" id="a7d3569ab298319f4fa3fc8bef104aa9b"></a>
+<a class="anchor" id="af13db03672ebc5928d5e9e3bf3957d3b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -381,7 +309,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.getCornerRadius </td>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.getElementCornerRadius </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -394,9 +322,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Get the corner radius (rounded rect) </p>
+
 </div>
 </div>
-<a class="anchor" id="af3432e8625afba2003bb2b5b6203b952"></a>
+<a class="anchor" id="a33e0f10ffe75a9c3adf47423f58d0e94"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -404,7 +334,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setBorderWidth </td>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setElementBorderWidth </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>width</em></td><td>)</td>
@@ -418,9 +348,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Set the width of the outline. </p>
+
 </div>
 </div>
-<a class="anchor" id="acb3747d7a591498b1cc91cedb4a20cbd"></a>
+<a class="anchor" id="a46c484c70adcee1ee7f5bce6822f20bb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -428,7 +360,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.getBorderWidth </td>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.getElementBorderWidth </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -441,9 +373,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Get the width of the outline. </p>
+<dl class="section return"><dt>Returns</dt><dd>Width of the outline </dd></dl>
+
 </div>
 </div>
-<a class="anchor" id="ac8f9d6aca6dee53bfdcde7fb8d3ce62b"></a>
+<a class="anchor" id="a1f61b4171e575e6f11403b8196917651"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -451,7 +386,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setBorderColor </td>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setElementBorderColor </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>color</em></td><td>)</td>
@@ -465,9 +400,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Set the color of the outline. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>of the outline </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a class="anchor" id="a9b90a5deb3a88fa65dced0e6d2f539da"></a>
+<a class="anchor" id="a9793b6531fb1d875e58e28b99df8a8ce"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -475,7 +418,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.getBorderColor </td>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.getElementBorderColor </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -488,33 +431,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a239b39e705181f07667707f6884b5e2b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setBoundingRect </td>
-          <td>(</td>
-          <td class="paramtype">Rect&#160;</td>
-          <td class="paramname"><em>bounds</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Get the color of the outline. </p>
+<dl class="section return"><dt>Returns</dt><dd>color of the outline </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a514e0e2dfe37089f7b7fa1d015de9c6a"></a>
+<a class="anchor" id="adfcc770da7cf55fb0efa720df1889e0b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -522,30 +444,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Rect de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.getBoundingRect </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1162b4a8fb015a1fa8a3a76255acfa54"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setShapePath </td>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setElementShapePath </td>
           <td>(</td>
           <td class="paramtype">Path&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -559,9 +458,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Set custom path of shape. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>A path that defines a custom shape </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a class="anchor" id="a9b51160c9a482a4e14e919cfc1ab5d15"></a>
+<a class="anchor" id="a984111cfe8a4c2ca214d6ac634cb31ae"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -569,7 +476,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Path de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.getShapePath </td>
+          <td class="memname">Path de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.getElementShapePath </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -582,9 +489,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Get custom path of shape. </p>
+<dl class="section return"><dt>Returns</dt><dd>path of our custom shape </dd></dl>
+
 </div>
 </div>
-<a class="anchor" id="acef0897737e041ac061c6ab6ba88d116"></a>
+<a class="anchor" id="ae7b963571dc0b1c6a1dcbfb2311fb0a3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -592,10 +502,9 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setShapeRect </td>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setElementShapeRect </td>
           <td>(</td>
-          <td class="paramtype">RectF&#160;</td>
-          <td class="paramname"><em>rect</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -606,11 +515,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set a rectangular path. </p>
+<p>Set a rectangular shape. </p>
 
 </div>
 </div>
-<a class="anchor" id="aa4c9c84782baa9e16b345525f0f5bfc5"></a>
+<a class="anchor" id="a9ec0e44283d3dd52f110721b3b8bbd75"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -618,16 +527,125 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setShapeRoundedRect </td>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setElementShapeRoundedRect </td>
           <td>(</td>
-          <td class="paramtype">RectF&#160;</td>
-          <td class="paramname"><em>rect</em>, </td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>cornerRadius</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set a rectangular shape with rounded corners. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cornerRadius</td><td>the radius of the rounded corners of our rounded rectangle </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa36024e7b0d39e764d0ae54a1e1dc772"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setElementShapeOval </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set oval shape of outline. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3d9f1153c6c83db21f13e678fbc9ab39"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.updateAllPaints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>update background and border paint values </p>
+
+<p>Implements <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_base.html#a181aff0e3e176f0d8ded3f6af78c7bdb">de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a99eece53fa8549c393e51f5c68637a63"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.createBorderPaint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>create border paint for drawing </p>
+
+</div>
+</div>
+<a class="anchor" id="a22ab8a3bf658664cfc27eb35582266e1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.updateDrawingBitmap </td>
+          <td>(</td>
+          <td class="paramtype">Canvas&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>cornerRadius</em>&#160;</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>bounds</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -637,43 +655,20 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set a rectangular path with rounded corners. </p>
+<p>Updates our drawing bitmap and triggers a redraw of this element. </p>
+<p>If a drawing parameter changes, we need to call this function in order to update our drawing-bitmap and in order to trigger the draw of our updated bitmap to the canvas. </p>
 
-</div>
-</div>
-<a class="anchor" id="a5324783d98fef6ff9f9ccccd5c8ec710"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.setShapeOval </td>
-          <td>(</td>
-          <td class="paramtype">RectF&#160;</td>
-          <td class="paramname"><em>rect</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set a oval inscribing the rect. Use a square to get a circle. </p>
+<p>Implements <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_base.html#a0377949e9a62f0b03a62cf781925c268">de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableBase</a>.</p>
 
 </div>
 </div>
 <h2>Member Data Documentation</h2>
-<a class="anchor" id="aa4f936248e51162ff12845f33dfc86df"></a>
+<a class="anchor" id="a4398f6c492cbd2455a267030ae8a69c5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -681,7 +676,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mCornerRadius</td>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mElementCornerRadius</td>
         </tr>
       </table>
   </td>
@@ -693,7 +688,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aae18362196c2761a0937eeefd8c47898"></a>
+<a class="anchor" id="ac12a1097fe7ca5ade81bcc7e6bfedec3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -701,7 +696,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mBorderWidth</td>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mElementBorderWidth</td>
         </tr>
       </table>
   </td>
@@ -713,7 +708,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9104c53d6d890b9c29301f6130412264"></a>
+<a class="anchor" id="aeaa1dd7a28a03304e0dde11e410b06c6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -721,7 +716,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mBorderColor</td>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mElementBorderColor</td>
         </tr>
       </table>
   </td>
@@ -733,7 +728,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3c348d51b30c9258f152c7d72480f373"></a>
+<a class="anchor" id="a3af4069b0ad6779462e9f337437541b4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -741,92 +736,12 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mAlpha = 0xFF</td>
+          <td class="memname">Path de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mElementShapePath</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9718a99d4a4dfb0da44b215503c51a20"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Paint de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mPaint = null</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a234680282cd772d1eddccd3e4180332f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ColorFilter de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mColorFilter</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa27a4b94afd91a33811c4e9c564f2373"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Path de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mShapePath</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac814744dbb6a60189e8a9910ce4b64fe"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Rect de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mBoundingRect</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -842,6 +757,26 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mShapeType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9e1d72887de984fde2b76e4ca0852f0c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Paint de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBorderLine.mBorderPaint = null</td>
         </tr>
       </table>
   </td>

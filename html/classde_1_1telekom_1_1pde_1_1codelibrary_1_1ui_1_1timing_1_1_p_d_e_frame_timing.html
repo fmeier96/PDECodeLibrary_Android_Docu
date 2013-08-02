@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
 	<title>Code Library Android</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -11,13 +11,14 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-library-android/';
+		var headerBaseUrl = '/code-library/code-components-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
-	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
 	<script type="text/javascript" src="dynsections.js"></script>
 	<script type="text/javascript" src="search/search.js"></script>
 	<script type="text/javascript">$(document).ready(initResizable);</script>
@@ -112,7 +113,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android</li>
+                <li>Android Code Library</li>
             </ul>
         </nav>
 			</div>
@@ -126,6 +127,7 @@
 				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
 			</a>
 		</div>
+		<label for="MSearchField" class="hide">Search</label>
 		<input type="text" id="MSearchField" value="" accesskey="S"
 			onfocus="searchBox.OnSearchFieldFocus(true)" 
 			onblur="searchBox.OnSearchFieldFocus(false)" 
@@ -253,6 +255,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a290b1fffec469f6c1cab253c87aca4d4"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#a290b1fffec469f6c1cab253c87aca4d4">mFrameTime</a></td></tr>
 <tr class="memitem:a0dec162011fb84a2fb6933cdb4bc09e4"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#a0dec162011fb84a2fb6933cdb4bc09e4">mLastFrameTime</a></td></tr>
 <tr class="memitem:ae4674d687ba19b669a43fd5bb7960e74"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#ae4674d687ba19b669a43fd5bb7960e74">mActive</a></td></tr>
+<tr class="memitem:a6d1c49297fb22b6bbc82db50e1877236"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#a6d1c49297fb22b6bbc82db50e1877236">mInTiming</a></td></tr>
+<tr class="memitem:ae05a54bd489dc25502bc4d712d0e4a65"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#ae05a54bd489dc25502bc4d712d0e4a65">mNeedsCleanup</a></td></tr>
 <tr class="memitem:a73fe2126f849cba523f84a2aef933ddc"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#a73fe2126f849cba523f84a2aef933ddc">mLoopLocked</a></td></tr>
 <tr class="memitem:ae6815d6080e34f9ec2a37c2908bd1946"><td class="memItemLeft" align="right" valign="top">Handler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#ae6815d6080e34f9ec2a37c2908bd1946">mHandler</a></td></tr>
 <tr class="memitem:aa80102de5d753e86daa6d5c8910b8f2d"><td class="memItemLeft" align="right" valign="top">LinkedList<br class="typebreak"/>
@@ -889,6 +893,46 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">boolean de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.mActive</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6d1c49297fb22b6bbc82db50e1877236"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.mInTiming</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae05a54bd489dc25502bc4d712d0e4a65"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.mNeedsCleanup</td>
         </tr>
       </table>
   </td>

@@ -1,0 +1,7 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1splashscreen_1_1_activity_splash_sample =
+[
+    [ "NextActivityLoader", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1splashscreen_1_1_activity_splash_sample_1_1_next_activity_loader.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1splashscreen_1_1_activity_splash_sample_1_1_next_activity_loader" ],
+    [ "onResume", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1splashscreen_1_1_activity_splash_sample.html#a96c568c06a69c666ca4a8a4a795134f8", null ],
+    [ "startNextActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1splashscreen_1_1_activity_splash_sample.html#a2e9717cc0f7319a5ef74f2f59d27f5ff", null ],
+    [ "DELAY_IN_MS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1splashscreen_1_1_activity_splash_sample.html#a61597b074f3e90a80707c621faea73a3", null ]
+];

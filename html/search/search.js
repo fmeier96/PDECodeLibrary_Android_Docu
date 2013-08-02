@@ -7,13 +7,13 @@
 
 var indexSectionsWithContent =
 {
-  0: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000111111111001111101111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-  1: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001001000100100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-  2: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-  3: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-  4: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000111111111001111101111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-  5: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000110111001001111101111001100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-  6: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  0: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000111111111111111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  1: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111011111101110111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  2: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  3: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111101011111101110110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  4: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000111111111111111101111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  5: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111011111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  6: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 };
 
 var indexSectionNames =
@@ -26,8 +26,6 @@ var indexSectionNames =
   5: "variables",
   6: "pages"
 };
-
-/* ****************************************************************************************** */
 
 function DTAG_getOffset( el ) {
     var _x = 0;
@@ -43,15 +41,9 @@ function DTAG_getOffset( el ) {
 function DTAG_removeFocusClass(el) {
 
 	var className = 'in-focus';
+	
 	var els = DTAG_getElementsByClass(className,el,'DIV');
 
-	for(var i = 0; i < els.length; i++) {
-		DTAG_removeClass(els[i], className);
-	}
-}
-
-function DTAG_removeFocusClassFromElements(els) {
-	var className = 'in-focus';
 	for(var i = 0; i < els.length; i++) {
 		DTAG_removeClass(els[i], className);
 	}
@@ -75,29 +67,12 @@ function DTAG_getElementsByClass(searchClass,node,tag) {
 	return classElements;
 }
 
-function DTAG_searchChildrenToggle(parent, state) {
-	var el = DTAG_getElementsByClass('has-children',parent,'span');
-	var inner = '';
-
-	switch(state) {
-		case 'open':
-			inner = '$';
-			break;
-		case 'close':
-			inner = '§';
-			break;
-	}
-	for(var i = 0; i < el.length; i++) {
-		el[i].innerHTML = inner;
-	}
-}
-
 function DTAG_hasClass(ele, cls) {
     return ele.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
 }
 
 function DTAG_addClass(ele, cls) {
-	if (!this.DTAG_hasClass(ele, cls)) ele.className += " " + cls;
+    if (!this.DTAG_hasClass(ele, cls)) ele.className += " " + cls;
 }
 
 function DTAG_removeClass(ele, cls) {
@@ -379,6 +354,7 @@ function SearchBox(name, resultsPath, inFrame, label)
 
 					var scope = document.getElementById("selectedSearchScope");
 					scope.innerHTML = child.innerHTML.replace(/<span[^>]*?>[\s\S]*?<\/span>/gi, '');
+					
 					node.innerHTML='&#8226;';
         }
         else
@@ -413,7 +389,6 @@ function SearchBox(name, resultsPath, inFrame, label)
     }
     else if (e.keyCode==38 && this.searchIndex>0) // Up
     {
-
       this.searchIndex--;
       this.OnSelectItem(this.searchIndex);
     }
@@ -596,20 +571,16 @@ function SearchResults(name)
 
     this.Toggle = function(id)
     {
-			var element = this.FindChildElement(id);
+      var element = this.FindChildElement(id);
       if (element)
       {
-        var p = document.getElementById(id);
-
-				if (element.style.display == 'block')
+        if (element.style.display == 'block')
         {
-					DTAG_searchChildrenToggle(p, 'close');
-					element.style.display = 'none';
+          element.style.display = 'none';
         }
         else
         {
-					var arrow = DTAG_searchChildrenToggle(p, 'open');
-					element.style.display = 'block';
+          element.style.display = 'block';
         }
       }
     }
@@ -749,7 +720,6 @@ function SearchResults(name)
         var focusItem = this.NavPrev(newIndex);
         if (focusItem)
         {
-					DTAG_removeFocusClass(focusItem.parentNode.parentNode.parentNode);
           var child = this.FindChildElement(focusItem.parentNode.parentNode.id);
           if (child && child.style.display == 'block') // children visible
           { 
@@ -779,8 +749,7 @@ function SearchResults(name)
         }
         else // return focus to search field
         {
-          DTAG_removeFocusClassFromElements(DTAG_getElementsByClass('in-focus', null));
-					parent.document.getElementById("MSearchField").focus();
+           parent.document.getElementById("MSearchField").focus();
         }
       }
       else if (this.lastKey==40) // Down
@@ -793,10 +762,8 @@ function SearchResults(name)
         {
           focusItem = document.getElementById('Item'+itemIndex+'_c0');
         }
-        if (!focusItem) {
-					focusItem = this.NavNext(newIndex);
-				}
-				if (focusItem)  {
+        if (!focusItem) focusItem = this.NavNext(newIndex);
+        if (focusItem)  {
 					DTAG_removeFocusClass(focusItem.parentNode.parentNode.parentNode);
 					DTAG_addClass(focusItem.parentNode.parentNode, 'in-focus');
 					focusItem.focus();
@@ -806,20 +773,14 @@ function SearchResults(name)
       {
         var item = document.getElementById('Item'+itemIndex);
         var elem = this.FindChildElement(item.parentNode.parentNode.id);
-        if (elem) {
-					DTAG_searchChildrenToggle(elem.parentNode, 'open');
-					elem.style.display = 'block';
-				}
+        if (elem) elem.style.display = 'block';
       }
       else if (this.lastKey==37) // Left
       {
         var item = document.getElementById('Item'+itemIndex);
         var elem = this.FindChildElement(item.parentNode.parentNode.id);
-        if (elem) {
-					DTAG_searchChildrenToggle(elem.parentNode, 'close');
-					elem.style.display = 'none';
-      	}
-			}
+        if (elem) elem.style.display = 'none';
+      }
       else if (this.lastKey==27) // Escape
       {
         parent.searchBox.CloseResultsWindow();
@@ -843,12 +804,12 @@ function SearchResults(name)
         if (childIndex>0)
         {
           var newIndex = childIndex-1;
-					document.getElementById('Item'+itemIndex+'_c'+newIndex).focus();
+          document.getElementById('Item'+itemIndex+'_c'+newIndex).focus();
 
         }
         else // already at first child, jump to parent
         {
-					document.getElementById('Item'+itemIndex).focus();
+          document.getElementById('Item'+itemIndex).focus();
         }
       }
       else if (this.lastKey==40) // Down
@@ -861,11 +822,7 @@ function SearchResults(name)
         }
         if (elem)
         {
-          if(DTAG_hasClass(elem, 'SRSymbol')) {
-						DTAG_removeFocusClass(elem.parentNode.parentNode.parentNode);
-						DTAG_addClass(elem.parentNode, 'in-focus');
-					};
-					elem.focus();
+          elem.focus();
         } 
       }
       else if (this.lastKey==27) // Escape
@@ -925,25 +882,13 @@ function createResults()
       var srScope = document.createElement('span');
       setClassAttr(srScope,'SRScope');
       srScope.innerHTML = searchData[e][1][1][2];
-			theKid = document.createElement("span");
-			setClassAttr(theKid,'search-result-prefix');
-			theKid.innerHTML = '&nbsp;';
-			srEntry.insertBefore(theKid, srEntry.firstChild);
-			srEntry.appendChild(srScope);
+      srEntry.appendChild(srScope);
     }
     else // multiple results
     {
-			//srLink.setAttribute('href','javascript:searchResults.Toggle("SR_'+id+'")');
-			srLink.setAttribute('href','javascript:void(0);');
-			theKid = document.createElement("span");
-			setClassAttr(theKid,'search-result-prefix has-children');
-			theKid.innerHTML = '§';
-			srEntry.insertBefore(theKid, srEntry.firstChild);
+			srLink.setAttribute('href','javascript:searchResults.Toggle("SR_'+id+'")');
 			srResult.setAttribute('onclick','javascript:searchResults.Toggle("SR_'+id+'")');
-			/*
-			var srToggle = document.createElement('a');
-	    srToggle.setAttribute('id','toggleItem'+e);
-			*/
+
 			var srChildren = document.createElement('div');
       setClassAttr(srChildren,'SRChildren');
       for (var c=0; c<searchData[e][1].length-1; c++)
@@ -960,10 +905,9 @@ function createResults()
         srChild.innerHTML = searchData[e][1][c+1][2];
         srChildren.appendChild(srChild);
       }
-			//srEntry.appendChild(srToggle);
-			srEntry.appendChild(srChildren);
+      srEntry.appendChild(srChildren);
     }
-		srResult.appendChild(srEntry);
+    srResult.appendChild(srEntry);
     results.appendChild(srResult);
   }
 }

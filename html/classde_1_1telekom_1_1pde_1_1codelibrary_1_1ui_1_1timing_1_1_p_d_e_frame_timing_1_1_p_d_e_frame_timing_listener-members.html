@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
 	<title>Code Library Android</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -11,13 +11,14 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-library-android/';
+		var headerBaseUrl = '/code-library/code-components-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
-	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
 	<script type="text/javascript" src="dynsections.js"></script>
 	<script type="text/javascript" src="search/search.js"></script>
 	<script type="text/javascript">$(document).ready(initResizable);</script>
@@ -112,7 +113,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android</li>
+                <li>Android Code Library</li>
             </ul>
         </nav>
 			</div>
@@ -126,6 +127,7 @@
 				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
 			</a>
 		</div>
+		<label for="MSearchField" class="hide">Search</label>
 		<input type="text" id="MSearchField" value="" accesskey="S"
 			onfocus="searchBox.OnSearchFieldFocus(true)" 
 			onblur="searchBox.OnSearchFieldFocus(false)" 
@@ -181,9 +183,10 @@ $(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibra
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html#a95f55b00650715212f7cc7d70212b85f">getTarget</a>()</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.PDEFrameTimingListener</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html#a9917d62884527f6b4610915089f68089">mMethod</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.PDEFrameTimingListener</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html#ad053f73a6f699f4bae093b526bf23bf0">mStrongTarget</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.PDEFrameTimingListener</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html#a734a2c44ca7726859c4e93ea7ff5eec0">mWeakTarget</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.PDEFrameTimingListener</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html#ab66dfe9d2724284b25100fd50faa853b">PDEFrameTimingListener</a>(Object target, Method method, boolean strongReference)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.PDEFrameTimingListener</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">package</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html#abdce14a0b2e412d4a79833ec9ca689af">mNeedsRemoval</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.PDEFrameTimingListener</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html#ad053f73a6f699f4bae093b526bf23bf0">mStrongTarget</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.PDEFrameTimingListener</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html#a734a2c44ca7726859c4e93ea7ff5eec0">mWeakTarget</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.PDEFrameTimingListener</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html#ab66dfe9d2724284b25100fd50faa853b">PDEFrameTimingListener</a>(Object target, Method method, boolean strongReference)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_p_d_e_frame_timing_listener.html">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming.PDEFrameTimingListener</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">package</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 

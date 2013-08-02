@@ -1,0 +1,4 @@
+var interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_dialog_helper_1_1_choice_list_on_item_click_listener =
+[
+    [ "onListItemClicked", "interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_dialog_helper_1_1_choice_list_on_item_click_listener.html#a3c35d0798777eea25200ff1990e3f470", null ]
+];

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
 	<title>Code Library Android</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -11,13 +11,14 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-library-android/';
+		var headerBaseUrl = '/code-library/code-components-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
-	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
 	<script type="text/javascript" src="dynsections.js"></script>
 	<script type="text/javascript" src="search/search.js"></script>
 	<script type="text/javascript">$(document).ready(initResizable);</script>
@@ -112,7 +113,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android</li>
+                <li>Android Code Library</li>
             </ul>
         </nav>
 			</div>
@@ -126,6 +127,7 @@
 				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
 			</a>
 		</div>
+		<label for="MSearchField" class="hide">Search</label>
 		<input type="text" id="MSearchField" value="" accesskey="S"
 			onfocus="searchBox.OnSearchFieldFocus(true)" 
 			onblur="searchBox.OnSearchFieldFocus(false)" 
@@ -223,6 +225,10 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:a394ab5642b0900a62a399587d655e4bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the main state.  <a href="#a394ab5642b0900a62a399587d655e4bc"></a><br/></td></tr>
 <tr class="memitem:a78f3706bd38e0a1f4368b1c95b6023c8"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a78f3706bd38e0a1f4368b1c95b6023c8">getState</a> ()</td></tr>
 <tr class="memdesc:a78f3706bd38e0a1f4368b1c95b6023c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the main state.  <a href="#a78f3706bd38e0a1f4368b1c95b6023c8"></a><br/></td></tr>
+<tr class="memitem:a2742570966fff8de5044205804c92fd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a2742570966fff8de5044205804c92fd5">setInputEnabled</a> (boolean enabled)</td></tr>
+<tr class="memdesc:a2742570966fff8de5044205804c92fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/disable input.  <a href="#a2742570966fff8de5044205804c92fd5"></a><br/></td></tr>
+<tr class="memitem:a5dcaf45caee89dfc1d2ac12cf5b21a85"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a5dcaf45caee89dfc1d2ac12cf5b21a85">isInputEnabled</a> ()</td></tr>
+<tr class="memdesc:a5dcaf45caee89dfc1d2ac12cf5b21a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if input is enabled.  <a href="#a5dcaf45caee89dfc1d2ac12cf5b21a85"></a><br/></td></tr>
 <tr class="memitem:aa04754e6b8d4457cddc5129c51f54b76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#aa04754e6b8d4457cddc5129c51f54b76">addFocus</a> ()</td></tr>
 <tr class="memdesc:aa04754e6b8d4457cddc5129c51f54b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add focus.  <a href="#aa04754e6b8d4457cddc5129c51f54b76"></a><br/></td></tr>
 <tr class="memitem:a03ce5d67931bc38abb01eac9e5ac7f1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a03ce5d67931bc38abb01eac9e5ac7f1f">removeFocus</a> ()</td></tr>
@@ -333,7 +339,6 @@ Static Protected Attributes</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a8c55a39e0777cb73091154c09701c2ec"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a8c55a39e0777cb73091154c09701c2ec">LOG_TAG</a> = PDEAgentController.class.getName()</td></tr>
 <tr class="memdesc:a8c55a39e0777cb73091154c09701c2ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#a8c55a39e0777cb73091154c09701c2ec"></a><br/></td></tr>
-<tr class="memitem:ad21a0ad30c5f4209f5308a76ee4cbb78"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ad21a0ad30c5f4209f5308a76ee4cbb78">DEBUGPARAMS</a> = false</td></tr>
 <tr class="memitem:a521a5bcac05849e7aff12e02f78afc11"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a521a5bcac05849e7aff12e02f78afc11">DEBUG_ACTIONS</a> = false</td></tr>
 <tr class="memitem:a0a4fbfa664755ca1b660aa43c60788f9"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a0a4fbfa664755ca1b660aa43c60788f9">DEBUG_COUNTS</a> = false</td></tr>
 <tr class="memitem:ac1aaf52eb4dda5a0a82f3d689d64d0bf"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ac1aaf52eb4dda5a0a82f3d689d64d0bf">DEBUG_STATE</a> = false</td></tr>
@@ -402,6 +407,8 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:aa58a398460b5cd04755f4b98aa132cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The agent's next state.  <a href="#aa58a398460b5cd04755f4b98aa132cac"></a><br/></td></tr>
 <tr class="memitem:adddbe97cd02f00f203714e7c36f19c4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#adddbe97cd02f00f203714e7c36f19c4d">mEventSource</a></td></tr>
 <tr class="memdesc:adddbe97cd02f00f203714e7c36f19c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">PDEEventSource instance that provides the event sending behaviour.  <a href="#adddbe97cd02f00f203714e7c36f19c4d"></a><br/></td></tr>
+<tr class="memitem:a91d85922a0bec8218142a44020769e09"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a91d85922a0bec8218142a44020769e09">mInputEnabled</a></td></tr>
+<tr class="memdesc:a91d85922a0bec8218142a44020769e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input enabled. Has no effect on the looks of the agent. Visual disablement is a different entity.  <a href="#a91d85922a0bec8218142a44020769e09"></a><br/></td></tr>
 </table>
 <h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a2ae25e4eaf64edefd59c5453b29a800e"></a>
@@ -946,6 +953,57 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the main state. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2742570966fff8de5044205804c92fd5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentController.setInputEnabled </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable/disable input. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5dcaf45caee89dfc1d2ac12cf5b21a85"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.isInputEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if input is enabled. </p>
 
 </div>
 </div>
@@ -1705,26 +1763,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Global tag for log outputs. </p>
-
-</div>
-</div>
-<a class="anchor" id="ad21a0ad30c5f4209f5308a76ee4cbb78"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.DEBUGPARAMS = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -3084,6 +3122,28 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>PDEEventSource instance that provides the event sending behaviour. </p>
+
+</div>
+</div>
+<a class="anchor" id="a91d85922a0bec8218142a44020769e09"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentController.mInputEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Input enabled. Has no effect on the looks of the agent. Visual disablement is a different entity. </p>
 
 </div>
 </div>

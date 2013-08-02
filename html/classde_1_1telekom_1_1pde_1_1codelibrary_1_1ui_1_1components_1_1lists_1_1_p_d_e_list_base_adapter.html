@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-components-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android Code Library</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Base adapter for all PDELists.  
+ <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.png" usemap="#de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter_map" name="de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter_map">
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_checkbox_sample_adapter.html" title="Simple sample adapter for List with checkbox buttons." alt="de.telekom.pde.codelibrary.samples.pdelist.ListCheckboxSampleAdapter" shape="rect" coords="490,56,970,80"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_adapter.html" title="This small PDEList example just shows, that it&#39;s also possible to use your very own holder class for ..." alt="de.telekom.pde.codelibrary.samples.pdelist.ListSampleCustomHolderAdapter" shape="rect" coords="490,112,970,136"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter.html" title="Example of an adapter for a list item that consists of a graphic and multiple lines of text..." alt="de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainGraphicMultiLineAdapter" shape="rect" coords="490,168,970,192"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_single_line_adapter.html" title="Example of an adapter for a list item that consists of a graphic and a single line of text..." alt="de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainGraphicSingleLineAdapter" shape="rect" coords="490,224,970,248"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_adapter.html" title="Example of an adapter for a list item that consists of a PDEIcon and multiple lines of text..." alt="de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainIconMultiLineAdapter" shape="rect" coords="490,280,970,304"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_icon_single_line_adapter.html" title="Example of an adapter for a list item that consists of a PDEIcon and a single line of text..." alt="de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainIconSingleLineAdapter" shape="rect" coords="490,336,970,360"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_adapter.html" title="Example of an adapter for a multi line text list item." alt="de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainTextMultiLineAdapter" shape="rect" coords="490,392,970,416"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_text_single_line_adapter.html" title="Example of an adapter for a single line text list item." alt="de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainTextSingleLineAdapter" shape="rect" coords="490,448,970,472"/>
+</map>
+ </div></div>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Base adapter for all PDELists. </p>
+<p>When dealing with PDELists we recommend to use this class as a base class for your derived list adapter. For styleguide conform behaviour of the list elements we have to wrap the xml-layouted list items into PDEListItems. This base class handles the correct wrapping process. It also creates <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder.html" title="Holder class for List Item Elements.">PDEHolder</a> objects to increase the performance of the item recycling. It creates these holder objects automatically by default to increase your comfort. </p>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:af2ff470f0eb03f3fee44ad9ee4ae3eb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#af2ff470f0eb03f3fee44ad9ee4ae3eb3">PDEListBaseAdapter</a> (Context context, int itemTemplateResourceID, int[] targetViewIDs)</td></tr>
+<tr class="memdesc:af2ff470f0eb03f3fee44ad9ee4ae3eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="#af2ff470f0eb03f3fee44ad9ee4ae3eb3"></a><br/></td></tr>
+<tr class="memitem:aa8dee9c809052e67e30e2f04dd72f017"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#aa8dee9c809052e67e30e2f04dd72f017">getCount</a> ()</td></tr>
+<tr class="memitem:a92e4f41dcc18a5412546fc2d2dbe5bc4"><td class="memItemLeft" align="right" valign="top">abstract Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#a92e4f41dcc18a5412546fc2d2dbe5bc4">getItem</a> (int position)</td></tr>
+<tr class="memitem:a3380c84e27e96ddd132325529ee0e4f2"><td class="memItemLeft" align="right" valign="top">abstract long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#a3380c84e27e96ddd132325529ee0e4f2">getItemId</a> (int position)</td></tr>
+<tr class="memitem:a1c3bde5e239b0da045d074302300f3ef"><td class="memItemLeft" align="right" valign="top">View&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#a1c3bde5e239b0da045d074302300f3ef">getView</a> (int position, View convertView, ViewGroup parent)</td></tr>
+<tr class="memdesc:a1c3bde5e239b0da045d074302300f3ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a View that displays the data at the specified position in the data set.  <a href="#a1c3bde5e239b0da045d074302300f3ef"></a><br/></td></tr>
+<tr class="memitem:aa444ce9963d5e8a7efdfcf12e0518055"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#aa444ce9963d5e8a7efdfcf12e0518055">setItemCount</a> (int num)</td></tr>
+<tr class="memdesc:aa444ce9963d5e8a7efdfcf12e0518055"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set number of list items.  <a href="#aa444ce9963d5e8a7efdfcf12e0518055"></a><br/></td></tr>
+<tr class="memitem:ac92ca697c8da6da053c8c715a9b7f0ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#ac92ca697c8da6da053c8c715a9b7f0ce">setAutomaticHolderCreation</a> (boolean autoCreation)</td></tr>
+<tr class="memdesc:ac92ca697c8da6da053c8c715a9b7f0ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on / off automatic creation of holder objects.  <a href="#ac92ca697c8da6da053c8c715a9b7f0ce"></a><br/></td></tr>
+<tr class="memitem:a6f83b6c8738fa4e107bccb9163a8dea7"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#a6f83b6c8738fa4e107bccb9163a8dea7">isHolderCreatedAutomatically</a> ()</td></tr>
+<tr class="memdesc:a6f83b6c8738fa4e107bccb9163a8dea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find out if automatic creation is turned on.  <a href="#a6f83b6c8738fa4e107bccb9163a8dea7"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Methods</h2></td></tr>
+<tr class="memitem:a51fb2a95490501e0d088c273f5c161d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#a51fb2a95490501e0d088c273f5c161d7">initListItem</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html">PDEListItem</a> listItem)</td></tr>
+<tr class="memdesc:a51fb2a95490501e0d088c273f5c161d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize layout elements of the list item.  <a href="#a51fb2a95490501e0d088c273f5c161d7"></a><br/></td></tr>
+<tr class="memitem:a83d680bd61747a8d09a807979ce8009b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#a83d680bd61747a8d09a807979ce8009b">fillListItem</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html">PDEListItem</a> listItem)</td></tr>
+<tr class="memdesc:a83d680bd61747a8d09a807979ce8009b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill list item with actual data.  <a href="#a83d680bd61747a8d09a807979ce8009b"></a><br/></td></tr>
+<tr class="memitem:aaaea7fe8b272a0793e34e9ea09081843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder_interface.html">PDEHolderInterface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#aaaea7fe8b272a0793e34e9ea09081843">createHolder</a> (int type)</td></tr>
+<tr class="memdesc:aaaea7fe8b272a0793e34e9ea09081843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory function for creation of holder object.  <a href="#aaaea7fe8b272a0793e34e9ea09081843"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:adc64fa284a43857be0905a7c32e81893"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#adc64fa284a43857be0905a7c32e81893">mItemTemplateResourceID</a></td></tr>
+<tr class="memitem:a1780773e98e0b28f20bcd93eb0f99e6a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#a1780773e98e0b28f20bcd93eb0f99e6a">mItemCount</a></td></tr>
+<tr class="memitem:ac08874a1d1f4eb50ad7c2bce11c67828"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#ac08874a1d1f4eb50ad7c2bce11c67828">mTargetViewIDs</a></td></tr>
+<tr class="memitem:ae826b19f71b7351d0182d61f8dbfb6ae"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#ae826b19f71b7351d0182d61f8dbfb6ae">mCreateHolderAutomatically</a></td></tr>
+</table>
+<h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="af2ff470f0eb03f3fee44ad9ee4ae3eb3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.PDEListBaseAdapter </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>itemTemplateResourceID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>targetViewIDs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructor </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">context</td><td></td></tr>
+    <tr><td class="paramname">itemTemplateResourceID</td><td>Resource ID for the layout of the list item. </td></tr>
+    <tr><td class="paramname">targetViewIDs</td><td>Resource IDs of the subviews of the item view. Deliver all IDs of the subviews of which you want to change the content later on. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="aa8dee9c809052e67e30e2f04dd72f017"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.getCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>How many items are in the data set represented by this Adapter.</p>
+<dl class="section return"><dt>Returns</dt><dd>Count of items. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_adapter.html#a4775f2d0b181707c82df781ec3a25b5e">de.telekom.pde.codelibrary.samples.pdelist.ListSampleCustomHolderAdapter</a>, and <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_checkbox_sample_adapter.html#a7409d52b26f4ce1be2e77df72eaa9fca">de.telekom.pde.codelibrary.samples.pdelist.ListCheckboxSampleAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a92e4f41dcc18a5412546fc2d2dbe5bc4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Object de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.getItem </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the data item associated with the specified position in the data set.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>Position of the item whose data we want within the adapter's data set. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The data at the specified position. </dd></dl>
+
+<p>Implemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_adapter.html#a77658596bb7d9b6fe1e719cb4e14ce34">de.telekom.pde.codelibrary.samples.pdelist.ListSampleCustomHolderAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_checkbox_sample_adapter.html#af49ce43c6a2d4591f845db278d8fe247">de.telekom.pde.codelibrary.samples.pdelist.ListCheckboxSampleAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter.html#a7f880c0086002bd8f6a0c790af5d011f">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainGraphicMultiLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_adapter.html#a058e42af93e429448aab290b20b3a009">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainIconMultiLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_adapter.html#a4053377f55eb4136aafa4e151bfad08c">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainTextMultiLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_single_line_adapter.html#a2548c469714f74875bd11d7d030dddf2">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainGraphicSingleLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_icon_single_line_adapter.html#a3e3532d614e7a38affa2fc155c9d173d">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainIconSingleLineAdapter</a>, and <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_text_single_line_adapter.html#a92daca83148914664cf520497178bf56">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainTextSingleLineAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3380c84e27e96ddd132325529ee0e4f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract long de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.getItemId </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the row id associated with the specified position in the list.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>The position of the item within the adapter's data set whose row id we want. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The id of the item at the specified position. </dd></dl>
+
+<p>Implemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_adapter.html#ac9500f8c13b900146c3b340a8f26d3d7">de.telekom.pde.codelibrary.samples.pdelist.ListSampleCustomHolderAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_checkbox_sample_adapter.html#acfeb65fe02df67f700a7727a43571d87">de.telekom.pde.codelibrary.samples.pdelist.ListCheckboxSampleAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter.html#a4bc0421437c1f822a986fac525d98025">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainGraphicMultiLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_adapter.html#a4ef53f8043a8dc871e8553cb48495b42">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainIconMultiLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_adapter.html#ac28b01e5f48e7e4ca26abef0fa02814b">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainTextMultiLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_single_line_adapter.html#ae3e62122106e5e4263f4affd8f290c77">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainGraphicSingleLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_icon_single_line_adapter.html#ae51d0f3b1644dd5556a8f80908c4121b">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainIconSingleLineAdapter</a>, and <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_text_single_line_adapter.html#a5a491d7ab36b7c3e63ee3f31e8780da3">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainTextSingleLineAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1c3bde5e239b0da045d074302300f3ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">View de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.getView </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">View&#160;</td>
+          <td class="paramname"><em>convertView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ViewGroup&#160;</td>
+          <td class="paramname"><em>parent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a View that displays the data at the specified position in the data set. </p>
+<p>In order to give our list items the styleguide agentstate highlight behaviour we have to wrap the xml-layouted list items into PDEListItems. This function does the needed work for you. It creates the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html" title="List item wrapper that holds the styleguide agentstate highlight logic.">PDEListItem</a> object and delivers this object the resource ID of the list item layout. The <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html" title="List item wrapper that holds the styleguide agentstate highlight logic.">PDEListItem</a> object inflates it internally. This method also does the automatic creation of the holder elements which increase the list performance. It calls the functions initListItem and fillListItem which should be overriden by the user in the derived adapter for initialization / content update purposes. Normally you have to override at least fillListItem because we use list item recycling and so you always have to set the actual contents of the list item. At the end the method delivers the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html" title="List item wrapper that holds the styleguide agentstate highlight logic.">PDEListItem</a> View.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>The position of the item within the adapter's data set of the item whose view we want. </td></tr>
+    <tr><td class="paramname">convertView</td><td>The old view to reuse, if possible. </td></tr>
+    <tr><td class="paramname">parent</td><td>The parent that this view will eventually be attached to </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A View corresponding to the data at the specified position. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a51fb2a95490501e0d088c273f5c161d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.initListItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html">PDEListItem</a>&#160;</td>
+          <td class="paramname"><em>listItem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize layout elements of the list item. </p>
+<p>Override in derived class if needed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listItem</td><td>the listitem that should be initialized </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_adapter.html#af35215b589a568ac1bcf0012a4ccfa60">de.telekom.pde.codelibrary.samples.pdelist.ListSampleCustomHolderAdapter</a>, and <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_checkbox_sample_adapter.html#a3c0d89ee41d453697c48ac4d8dfca3cf">de.telekom.pde.codelibrary.samples.pdelist.ListCheckboxSampleAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a83d680bd61747a8d09a807979ce8009b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.fillListItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html">PDEListItem</a>&#160;</td>
+          <td class="paramname"><em>listItem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fill list item with actual data. </p>
+<p>Override in derived class if needed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listItem</td><td>the list item whose data should be updated. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_adapter.html#a48324e4303307c05d7657157a1a9aae2">de.telekom.pde.codelibrary.samples.pdelist.ListSampleCustomHolderAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_checkbox_sample_adapter.html#a63dcdd9affaf836ea8a0be4d718af8dd">de.telekom.pde.codelibrary.samples.pdelist.ListCheckboxSampleAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter.html#a95837288c043cf99f21d644af8da6b77">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainGraphicMultiLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_adapter.html#a05ce64f29e1aa9411ed29a3f28486747">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainIconMultiLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_adapter.html#a0e590566d9f6219b7cb9b27721a38bbc">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainTextMultiLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_single_line_adapter.html#a286bbe509a43d67468b7c07abffb7427">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainGraphicSingleLineAdapter</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_icon_single_line_adapter.html#a7f4e2c8e1c8bb554d87637873ca66c49">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainIconSingleLineAdapter</a>, and <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_text_single_line_adapter.html#aca5f8784c0a57cb321da138ed010a7f9">de.telekom.pde.codelibrary.samples.pdelist.PDEListPlainTextSingleLineAdapter</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaaea7fe8b272a0793e34e9ea09081843"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder_interface.html">PDEHolderInterface</a> de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.createHolder </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Factory function for creation of holder object. </p>
+<p>If you wan to use an other holder class than the default one, overload this method and deliver your own holder.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa444ce9963d5e8a7efdfcf12e0518055"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.setItemCount </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set number of list items. </p>
+<p>This base adapter holds no data source for the list items. Normally the number of entries in the data source define the size of the list. In this base adapter the items and their contents are created dynamically. So we have to deliver how many of them we want to have. If you want to use a data source, add it in a derived class (and keep mItemCount up to date if you don't also overload <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html#aa8dee9c809052e67e30e2f04dd72f017">getCount()</a>).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac92ca697c8da6da053c8c715a9b7f0ce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.setAutomaticHolderCreation </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>autoCreation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Turn on / off automatic creation of holder objects. </p>
+<p>If you want to use custom holder classes which do not implement <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder_interface.html" title="Interface for PDE (List) Holder classes.">PDEHolderInterface</a> or if you don't want to use holders at all, then turn the automatic creation off. If you only want to use a custom holder that implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder_interface.html" title="Interface for PDE (List) Holder classes.">PDEHolderInterface</a> and not the default one (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder.html" title="Holder class for List Item Elements.">PDEHolder</a>) then simply override createHolder and leave automatic creation turned on.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">autoCreation</td><td>true -&gt; automatic creation on / false -&gt; automatic creation off </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6f83b6c8738fa4e107bccb9163a8dea7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.isHolderCreatedAutomatically </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Find out if automatic creation is turned on. </p>
+<dl class="section return"><dt>Returns</dt><dd>true -&gt; automatic holder generation is on, false -&gt; automatic holder generation is off </dd></dl>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="adc64fa284a43857be0905a7c32e81893"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.mItemTemplateResourceID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1780773e98e0b28f20bcd93eb0f99e6a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.mItemCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac08874a1d1f4eb50ad7c2bce11c67828"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.mTargetViewIDs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae826b19f71b7351d0182d61f8dbfb6ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.lists.PDEListBaseAdapter.mCreateHolderAutomatically</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/src/de/telekom/pde/codelibrary/ui/components/lists/<a class="el" href="_p_d_e_list_base_adapter_8java.html">PDEListBaseAdapter.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

@@ -8,6 +8,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_
     [ "fillGradientColors", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#a2741bf264c816ab0fc501b0709bce022", null ],
     [ "fillGradientColors", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#aa067fbf6e6dff050bab78ac4ad78ad9c", null ],
     [ "fillBorderColors", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#ab77a65f9518ab20a93c1c78d4c39c809", null ],
+    [ "brightenColors", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#ae8190a77249ca4b867b219bcb4ddef52", null ],
     [ "fillTitleColors", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#a76342a34d5e4146023cfb2b5ad890eea", null ],
     [ "fillTitleShadowColors", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#ad62a3efce74aeaea8cc89baab7a130a5", null ],
     [ "fillTitleShadowOffsets", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#adc8b57d0d10e31e68e8406cfcab564b1", null ],

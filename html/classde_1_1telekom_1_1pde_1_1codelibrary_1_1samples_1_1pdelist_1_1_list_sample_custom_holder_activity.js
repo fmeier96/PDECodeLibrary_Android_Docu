@@ -1,0 +1,5 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_activity =
+[
+    [ "onCreate", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_activity.html#a1a55cbcab762b06c741766cc9f2fbc27", null ],
+    [ "NUMBER_OF_LIST_ITEMS_SHOWN", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_activity.html#ac80f60b664205d71f17c73a5626f83cd", null ]
+];

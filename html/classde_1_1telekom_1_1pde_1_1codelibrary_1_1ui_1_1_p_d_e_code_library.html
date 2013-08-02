@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
 	<title>Code Library Android</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -11,13 +11,14 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-library-android/';
+		var headerBaseUrl = '/code-library/code-components-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
-	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
 	<script type="text/javascript" src="dynsections.js"></script>
 	<script type="text/javascript" src="search/search.js"></script>
 	<script type="text/javascript">$(document).ready(initResizable);</script>
@@ -112,7 +113,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android</li>
+                <li>Android Code Library</li>
             </ul>
         </nav>
 			</div>
@@ -126,6 +127,7 @@
 				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
 			</a>
 		</div>
+		<label for="MSearchField" class="hide">Search</label>
 		<input type="text" id="MSearchField" value="" accesskey="S"
 			onfocus="searchBox.OnSearchFieldFocus(true)" 
 			onblur="searchBox.OnSearchFieldFocus(false)" 
@@ -217,6 +219,10 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:a8580d3202d43657d21ae4dac06263597"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set (or clear) software rendering.  <a href="#a8580d3202d43657d21ae4dac06263597"></a><br/></td></tr>
 <tr class="memitem:a0c54a78d0cdead3843e33b1e8ac8a3ac"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a0c54a78d0cdead3843e33b1e8ac8a3ac">isSoftwareRenderingParent</a> ()</td></tr>
 <tr class="memdesc:a0c54a78d0cdead3843e33b1e8ac8a3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if we do only software rendering.  <a href="#a0c54a78d0cdead3843e33b1e8ac8a3ac"></a><br/></td></tr>
+<tr class="memitem:a29065112e629b48371b2afc610a79bb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a29065112e629b48371b2afc610a79bb7">setAssignmentOfDefaultFontToTextViews</a> (boolean enabled)</td></tr>
+<tr class="memdesc:a29065112e629b48371b2afc610a79bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable the PDEFontLayoutFactory which sets the default font to all newly created views within an activity. The PDEFontLayoutFactory is set in all PDEActivities (if enabled) when the activity is instanciated, thus changing this setting affects only newly created activities.  <a href="#a29065112e629b48371b2afc610a79bb7"></a><br/></td></tr>
+<tr class="memitem:a999b84580da08c8803508c9c79d1ef67"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a999b84580da08c8803508c9c79d1ef67">isAssignmentOfDefaultFontToTextViewsEnabled</a> ()</td></tr>
+<tr class="memdesc:a999b84580da08c8803508c9c79d1ef67"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if PDEFontLayoutFactory is enabled.  <a href="#a999b84580da08c8803508c9c79d1ef67"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
 Private Methods</h2></td></tr>
@@ -232,6 +238,8 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:af73bdc7e018788da805244274d71ebea"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#af73bdc7e018788da805244274d71ebea">PDECodeLibraryButtonSoftwareRendering</a> = false</td></tr>
 <tr class="memitem:ae32a0c5dd540b65454679fec9d996656"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#ae32a0c5dd540b65454679fec9d996656">PDECodeLibraryParentSoftwareRendering</a> = false</td></tr>
 <tr class="memitem:a4d9a33f52fefc6a8b745abb47ff59084"><td class="memItemLeft" align="right" valign="top">static Context&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a4d9a33f52fefc6a8b745abb47ff59084">mApplicationContext</a> = null</td></tr>
+<tr class="memitem:a69e3bd02568935c4e2135dd0c574c075"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a69e3bd02568935c4e2135dd0c574c075">DEBUG_SHOW_LOGS</a> = true</td></tr>
+<tr class="memitem:ab03cb0bef3a7157dd891d317e1dfa601"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#ab03cb0bef3a7157dd891d317e1dfa601">mAssignmentOfDefaultFontToTextViewsEnabled</a> = true</td></tr>
 </table>
 <h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a191c95160dc2359ba2ccf85f28767b3d"></a>
@@ -542,6 +550,64 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a29065112e629b48371b2afc610a79bb7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.PDECodeLibrary.setAssignmentOfDefaultFontToTextViews </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable or disable the PDEFontLayoutFactory which sets the default font to all newly created views within an activity. The PDEFontLayoutFactory is set in all PDEActivities (if enabled) when the activity is instanciated, thus changing this setting affects only newly created activities. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enabled</td><td>control the activation of the factory </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a999b84580da08c8803508c9c79d1ef67"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.PDECodeLibrary.isAssignmentOfDefaultFontToTextViewsEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check if PDEFontLayoutFactory is enabled. </p>
+<dl class="section return"><dt>Returns</dt><dd>state </dd></dl>
+
+</div>
+</div>
 <h2>Member Data Documentation</h2>
 <a class="anchor" id="ab5e746938c0fe2d87896f2c1d2d1f9a7"></a>
 <div class="memitem">
@@ -654,6 +720,46 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">Context de.telekom.pde.codelibrary.ui.PDECodeLibrary.mApplicationContext = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a69e3bd02568935c4e2135dd0c574c075"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.PDECodeLibrary.DEBUG_SHOW_LOGS = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab03cb0bef3a7157dd891d317e1dfa601"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.PDECodeLibrary.mAssignmentOfDefaultFontToTextViewsEnabled = true</td>
         </tr>
       </table>
   </td>

@@ -10,19 +10,50 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_p_d_e_absolute_layout_8java.html",
-"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html#a348ff69e9f0e1adda25bcb8ba98e5363",
-"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a5a09a417323a0bd619c72d0d5202b1e1",
-"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_embossed.html#a0b1f378c9784a666d60133d9b13bf762",
-"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_overlay_checkbox.html#a308af530883bf4eba3197ef6ecc84e5a",
-"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#ad67e238776216b96c3572b42d7d1e668",
-"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_shadow_image_view.html#ae59e0a1b93457916ccd2def42001bccb",
-"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_1_1_post_execute_function_holder.html#a0011ecb160601727e379fc3201812a2d"
+"_abs_action_bar_view_8java.html",
+"_p_d_e_slider_controller_8java.html",
+"classcom_1_1actionbarsherlock_1_1app_1_1_sherlock_dialog_fragment.html#a0322a051c507d41bbe2afe57a13b3357",
+"classcom_1_1actionbarsherlock_1_1internal_1_1_action_bar_sherlock_compat.html#a728a4babb672fbe9ed2b245e1fce0c2f",
+"classcom_1_1actionbarsherlock_1_1internal_1_1app_1_1_action_bar_impl_1_1_tab_impl.html#ad7320b44c8f81fc7c7c3a3ec9b78ac49",
+"classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_keyframe_1_1_object_keyframe.html#ab06aef808dde0ed19d899d1296ad6a6f",
+"classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1widget_1_1_nine_frame_layout.html#ab5884a9b854d4e338cea85d3a96dbdba",
+"classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu_presenter_1_1_overflow_popup.html#a2935e95d671a80d7ff4456792b009ff0",
+"classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_item_impl.html#a2b30d5a8aa5fc7d15f104e5d3484de70",
+"classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_sub_menu_wrapper.html#a52eec1b2d9a4b2a93740567dcb7caa06",
+"classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_action_bar_view_1_1_saved_state.html#a84a9e71eda1c9b9bdd3f5e79eeb705b5",
+"classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_list_popup_window.html#aa1ee5bc7c6c4674c534a86478808dc53",
+"classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_scrolling_tab_container_view.html#af3d6867e9451f0b547075ae0844b2947",
+"classcom_1_1actionbarsherlock_1_1widget_1_1_activity_chooser_view.html#abe6f4a861862b1d3e5995c3614c1e82e",
+"classcom_1_1actionbarsherlock_1_1widget_1_1_suggestions_adapter.html#aca8ff3edbaaa02f1c895c7424dca7229",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1string.html#a5cbef29a58423c6cfed00c3928e6f55e",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_layer_text_test_screen.html#a0f974515c01f937006777427ad9e6d7b",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1graphicelements_1_1_gfx_primitives_resize_activity.html#a384e8c6661dbf6c98341fc1948c95663",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_single_line_adapter.html#a4e29ab5cf4705ede9ca1638075152bfd",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1attr.html#a91781b43587c599977b6c7efa9a0f5b2",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1styleable.html#a355b328248a8e412b07a883f0ff8aacc",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_event_agent_controller_state.html#a73836856ccd49e3fb81a095e4cd6627d",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a6f74e432fa9efe4a5edb6f35bb18e643",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_beveled.html#a85cffcc5360cc8a9e6a63c5a4a674735",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a159ca271853a7e16f13769ffcf328a11",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_agent_helper.html#afa2af87baef4a43908695e96166178cb",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#aea47a6df9da7cf32949a44026224c46f",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_notification_frame.html#a27160009313aa6af2d78627e40cccad3",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shape.html#a1b1bfe0bd4133beb449fa4a8958b84e3",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollbar_indicative.html#a2578a6d29045f984dc91171d3232f44d",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metapher_1_1_p_d_e_drawable_music_metaphor.html#acb94f64be56c74ed100107762d0b24d1",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1wrapper_1_1_p_d_e_icon_view.html#a16350dabeee26f42a186e02ae53b1884",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_grid_background_drawable.html#aba7048e760affccd81b18dcbb524483d",
+"classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_base_login_screen_activity.html#a8ba7a6ee0dd8c39f00145af5b55d9bcf",
+"dir_c5f3e968d784c1061ba76a859eb6d565.html",
+"interfacecom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_presenter_1_1_callback.html",
+"namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1wrapper.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
 var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
+
+var offset = 0;
 
 function getData(varName)
 {
@@ -113,13 +144,13 @@ function createIndent(o,domNode,node,level)
   //a:before{content:'\25B8';font-family:Iconfont-Testset_V01;display:inline-block;padding-right:.9em;font-size:.8em;vertical-align:top}
   
   
-  var imgNode = document.createElement("img");
-  imgNode.width = 12;
-  imgNode.height = 40;
+ // var imgNode = document.createElement("img");
+  //imgNode.width = 12;
+  //imgNode.height = 40;
   
   
   if (level==0 && node.childrenData) {
-    node.plus_img = imgNode;
+   // node.plus_img = imgNode;
     
     node.expandToggle = document.createElement("a");
     
@@ -138,7 +169,9 @@ function createIndent(o,domNode,node,level)
         }
         
          /* DTAG STYLE */
-     	 node.expandToggle.innerHTML = "§";
+     	node.expandToggle.innerHTML = "<i class=\"icon-navigation-right\"></i><span class=\"hide\">open node</span>";
+     	node.expandToggle.setAttribute("title","open node");
+      //node.expandToggle.setAttribute("alt","open node");
         
         
         node.expanded = false;
@@ -173,43 +206,57 @@ function createIndent(o,domNode,node,level)
     
     
     
-    var atext = document.createTextNode("§");
- 	node.expandToggle.appendChild(atext);
+    var atext = document.createElement('span'); //document.createTextNode("§");
+    atext.innerHTML = "<i class=\"icon-navigation-right\"></i><span class=\"hide\">open node</span>";
+ 	  node.expandToggle.appendChild(atext);
+   
+   node.expandToggle.setAttribute("title","open node");
+   //node.expandToggle.setAttribute("alt","open node");
     
     
    	//node.expandToggle.appendChild(imgNode);
     domNode.appendChild(node.expandToggle);
     
+    $(node.expandToggle).css("margin-left", offset);
+   
+     offset = 0;
     
   } else {
-    domNode.appendChild(imgNode);
+  	
+   // domNode.appendChild(imgNode);
   }
   
   
   if (level==0) {
     if (node.isLast) {
       if (node.childrenData) {
-        imgNode.src = node.relpath+"ftv2plastnode.png";
+        //imgNode.src = node.relpath+"ftv2plastnode.png";
+        offset+=12;
       } else {
-        imgNode.src = node.relpath+"ftv2lastnode.png";
-        domNode.appendChild(imgNode);
+        //imgNode.src = node.relpath+"ftv2lastnode.png";
+        offset+=12;
+       // domNode.appendChild(imgNode);
       }
     } else {
       if (node.childrenData) {
-        imgNode.src = node.relpath+"ftv2pnode.png";
+       // imgNode.src = node.relpath+"ftv2pnode.png";
+        offset+=12;
       } else {
-        imgNode.src = node.relpath+"ftv2node.png";
-        domNode.appendChild(imgNode);
+       // imgNode.src = node.relpath+"ftv2node.png";
+       // domNode.appendChild(imgNode);
+        offset+=12;
       }
     }
   } else {
     if (node.isLast) {
-      imgNode.src = node.relpath+"ftv2blank.png";
+      //imgNode.src = node.relpath+"ftv2blank.png";
+      offset+=12;
     } else {
-      imgNode.src = node.relpath+"ftv2vertline.png";
+     // imgNode.src = node.relpath+"ftv2vertline.png";
+      offset+=12;
     }
   }
-  imgNode.border = "0";
+ // imgNode.border = "0";
 }
 
 function newNode(o, po, text, link, childrenData, lastNode)
@@ -244,7 +291,16 @@ function newNode(o, po, text, link, childrenData, lastNode)
   node.expanded = false;
   a.appendChild(node.label);
   
+  
+if ( $(node.labelSpan).prev().attr("class") != "expand-toggle")
+{
+  	$(node.labelSpan).css("margin-left", offset+5);
+}
+  
+  offset = 0;
+  
   if (link) {
+    
     var url;
     if (link.substring(0,1)=='^') {
       url = link.substring(1);
@@ -253,7 +309,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
       url = node.relpath+link;
     }
     a.className = stripPath(link.replace('#',':'));
-    
+    $(a).attr("title","Read more about " + text);
   
     
     if (link.indexOf('#')!=-1) {
@@ -306,7 +362,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
     } else {
       a.href = url;
       a.onclick = function() { storeLink(link);}
-       
+      
       
       
     }
@@ -436,11 +492,15 @@ function expandNode(o, node, imm, showRoot)
      
       if (node.isLast) {
        // node.plus_img.src = node.relpath+"ftv2mlastnode.png";
-        node.expandToggle.innerHTML = "$";
+        node.expandToggle.innerHTML = "<i class=\"icon-navigation-down\"></i><span class=\"hide\">close node</span>";
+        node.expandToggle.setAttribute("title","close node");
+        //node.expandToggle.setAttribute("alt","close node");
         
       } else {
         //node.plus_img.src = node.relpath+"ftv2mnode.png";
-        node.expandToggle.innerHTML = "$";
+        node.expandToggle.innerHTML = "<i class=\"icon-navigation-down\"></i><span class=\"hide\">close node</span>";
+        node.expandToggle.setAttribute("title","close node");
+        //node.expandToggle.setAttribute("alt","close node");
          
       } 
       
@@ -511,12 +571,16 @@ function showNode(o, node, index, hash)
       
       if (node.isLast) {
        //node.plus_img.src = node.relpath+"ftv2mlastnode.png";
-       node.expandToggle.innerHTML = "$";
+       node.expandToggle.innerHTML = "<i class=\"icon-navigation-down\"></i><span class=\"hide\">close node</span>";
+       node.expandToggle.setAttribute("title","close node");
+       //node.expandToggle.setAttribute("alt","close node");
        
        
       } else {
        // node.plus_img.src = node.relpath+"ftv2mnode.png";
-        node.expandToggle.innerHTML = "$";
+        node.expandToggle.innerHTML = "<i class=\"icon-navigation-down\"></i><span class=\"hide\">close node</span>";
+        node.expandToggle.setAttribute("title","close node");
+        //node.expandToggle.setAttribute("alt","close node");
       }
       
      
@@ -671,10 +735,10 @@ function initNavTree(toroot,relpath)
   o.node.relpath = relpath;
   o.node.expanded = false;
   o.node.isLast = true;
-  o.node.plus_img = document.createElement("img");
-  o.node.plus_img.src = relpath+"ftv2pnode.png";
-  o.node.plus_img.width = 12;
-  o.node.plus_img.height = 40;
+  //o.node.plus_img = document.createElement("img");
+  //o.node.plus_img.src = relpath+"ftv2pnode.png";
+  //o.node.plus_img.width = 12;
+  //o.node.plus_img.height = 40;
   
   //o.node.plus_text = document.createTextNode("§");
   o.node.expandToggle = document.createElement("a");

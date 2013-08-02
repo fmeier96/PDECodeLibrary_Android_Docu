@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-components-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android Code Library</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity-members.html">List of all members</a> &#124;
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Activity class for sample screen to select all different types of Deutsche Telekom Button and set event output.  
+ <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.png" usemap="#de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity_map" name="de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity_map">
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity.html" alt="de.telekom.pde.codelibrary.ui.activity.PDEActivity" shape="rect" coords="0,0,402,24"/>
+</map>
+ </div></div>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Activity class for sample screen to select all different types of Deutsche Telekom Button and set event output. </p>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_color.html">ButtonColor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper Class for the color information of the button.  <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_color.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_content.html">ButtonContent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper Class for the content information of the button.  <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_content.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_f6e76ec810d1021305afe503b83617a7.html">ButtonSelectorArrayAdapter&lt; T &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_type.html">ButtonType</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper Class for the background layer type information of the button.  <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_type.html#details">More...</a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:a6acd93a34aa1245833a3736182f0548e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a6acd93a34aa1245833a3736182f0548e">onStart</a> ()</td></tr>
+<tr class="memitem:a93ac99c89110e508413edbdadfaf6e2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a93ac99c89110e508413edbdadfaf6e2f">onButtonEventFromAgentController</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html">PDEEvent</a> event)</td></tr>
+<tr class="memdesc:a93ac99c89110e508413edbdadfaf6e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function called when the PDEButton is clicked.  <a href="#a93ac99c89110e508413edbdadfaf6e2f"></a><br/></td></tr>
+<tr class="memitem:a3002543820bffb564154d0f9624b5dcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a3002543820bffb564154d0f9624b5dcc">onButtonChange</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_type.html">ButtonType</a> buttonType, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_content.html">ButtonContent</a> buttonContent, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_color.html">ButtonColor</a> buttonColor)</td></tr>
+<tr class="memdesc:a3002543820bffb564154d0f9624b5dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function called when the ok button was clicked in the selector dialog.  <a href="#a3002543820bffb564154d0f9624b5dcc"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Methods</h2></td></tr>
+<tr class="memitem:a2bb6589423ed99d46a12785fdfe83cf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a2bb6589423ed99d46a12785fdfe83cf5">onCreate</a> (Bundle savedInstanceState)</td></tr>
+<tr class="memdesc:a2bb6589423ed99d46a12785fdfe83cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the Activity.  <a href="#a2bb6589423ed99d46a12785fdfe83cf5"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a047b7f05eba8d7754b1f713a13d9d8e0"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a047b7f05eba8d7754b1f713a13d9d8e0">LOG_TAG</a> = ButtonSelectorActivity.class.getName()</td></tr>
+<tr class="memdesc:a047b7f05eba8d7754b1f713a13d9d8e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#a047b7f05eba8d7754b1f713a13d9d8e0"></a><br/></td></tr>
+<tr class="memitem:ae15591bcf4e2b929b5eb331f6b9a3236"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#ae15591bcf4e2b929b5eb331f6b9a3236">TELEKOM_BUTTON_TITLE</a> = &quot;Telekom Button&quot;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a49cb9e3e74ff1698362ce8f36d9ebc07"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a49cb9e3e74ff1698362ce8f36d9ebc07">mButtonEvents</a> = new ArrayList&lt;String&gt;()</td></tr>
+<tr class="memitem:a40b12d6b4997b37bcfdc51b5184b412f"><td class="memItemLeft" align="right" valign="top">ListView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a40b12d6b4997b37bcfdc51b5184b412f">mButtonEventList</a> = null</td></tr>
+<tr class="memitem:af85106ae12f5ab29080dbadcb34514b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html">PDEButton</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#af85106ae12f5ab29080dbadcb34514b2">mTelekomButton</a> = null</td></tr>
+<tr class="memitem:ae6fac37d7e7231a4a75487f02d8d9db3"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#ae6fac37d7e7231a4a75487f02d8d9db3">mClearButton</a> = null</td></tr>
+<tr class="memitem:a1422f175949b0ef35e1861c851cc7643"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a1422f175949b0ef35e1861c851cc7643">mChangeTypeButton</a> = null</td></tr>
+<tr class="memitem:ad93469fdcd487cb7b6bf6368422eda9f"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#ad93469fdcd487cb7b6bf6368422eda9f">mSelectedSpinnerIndexes</a> = new int[]{0,0,0}</td></tr>
+<tr class="memitem:a11ab75682c09c7b2fb2ee5e387b19936"><td class="memItemLeft" align="right" valign="top">ArrayAdapter&lt; <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_type.html">ButtonType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a11ab75682c09c7b2fb2ee5e387b19936">mBackgroundTypeAdapter</a> = null</td></tr>
+<tr class="memitem:a4761a6a95c79d3459e5e670704872bf3"><td class="memItemLeft" align="right" valign="top">ArrayAdapter&lt; <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_content.html">ButtonContent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a4761a6a95c79d3459e5e670704872bf3">mContentAdapter</a> = null</td></tr>
+<tr class="memitem:a3a38a4a069312eab41a7a29916092bf4"><td class="memItemLeft" align="right" valign="top">ArrayAdapter&lt; <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_color.html">ButtonColor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a3a38a4a069312eab41a7a29916092bf4">mColorAdapter</a> = null</td></tr>
+<tr class="memitem:aba87dcbcdc1d22df296ebc1bfdf1d311"><td class="memItemLeft" align="right" valign="top">ArrayAdapter&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#aba87dcbcdc1d22df296ebc1bfdf1d311">mButtonEventListAdapter</a> = null</td></tr>
+<tr class="memitem:abd52139257487a8582337b25be960793"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#abd52139257487a8582337b25be960793">mDefaultWidth</a></td></tr>
+<tr class="memitem:a93a6e370178bf0590de1b6a20db1af25"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a93a6e370178bf0590de1b6a20db1af25">mDefaultHeight</a></td></tr>
+<tr class="memitem:a7526681a150a9fb87cb61cba8733bddb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a7526681a150a9fb87cb61cba8733bddb">mDefaultMarginTop</a></td></tr>
+<tr class="memitem:a627ece996aeafc7b05b5867a2d9d18f3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a627ece996aeafc7b05b5867a2d9d18f3">mDefaultMarginBottom</a></td></tr>
+<tr class="memitem:aa9cce6577b2388e472a3d230479b5b7a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#aa9cce6577b2388e472a3d230479b5b7a">mDefaultMarginLeft</a></td></tr>
+<tr class="memitem:a69d189a0843520d02757f39a9a6febea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity.html#a69d189a0843520d02757f39a9a6febea">mDefaultMarginRight</a></td></tr>
+</table>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="a2bb6589423ed99d46a12785fdfe83cf5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.onCreate </td>
+          <td>(</td>
+          <td class="paramtype">Bundle&#160;</td>
+          <td class="paramname"><em>savedInstanceState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create the Activity. </p>
+<p>Creates the Activity where the user can select the type of PDEButton he wants.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">savedInstanceState</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity.html#ae56b7222802bce951168812c06e8cfc5">de.telekom.pde.codelibrary.ui.activity.PDEActivity</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6acd93a34aa1245833a3736182f0548e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.onStart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a93ac99c89110e508413edbdadfaf6e2f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.onButtonEventFromAgentController </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html">PDEEvent</a>&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function called when the PDEButton is clicked. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>a PDEEvent object with information about the state of the button </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3002543820bffb564154d0f9624b5dcc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.onButtonChange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_type.html">ButtonType</a>&#160;</td>
+          <td class="paramname"><em>buttonType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_content.html">ButtonContent</a>&#160;</td>
+          <td class="paramname"><em>buttonContent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_color.html">ButtonColor</a>&#160;</td>
+          <td class="paramname"><em>buttonColor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function called when the ok button was clicked in the selector dialog. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buttonType</td><td>the new background layer type of the button </td></tr>
+    <tr><td class="paramname">buttonContent</td><td>the new content type of the button </td></tr>
+    <tr><td class="paramname">buttonColor</td><td>the new color of the button </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="a047b7f05eba8d7754b1f713a13d9d8e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.LOG_TAG = ButtonSelectorActivity.class.getName()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global tag for log outputs. </p>
+
+</div>
+</div>
+<a class="anchor" id="a49cb9e3e74ff1698362ce8f36d9ebc07"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mButtonEvents = new ArrayList&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a40b12d6b4997b37bcfdc51b5184b412f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ListView de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mButtonEventList = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af85106ae12f5ab29080dbadcb34514b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html">PDEButton</a> de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mTelekomButton = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae6fac37d7e7231a4a75487f02d8d9db3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Button de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mClearButton = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1422f175949b0ef35e1861c851cc7643"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Button de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mChangeTypeButton = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad93469fdcd487cb7b6bf6368422eda9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mSelectedSpinnerIndexes = new int[]{0,0,0}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a11ab75682c09c7b2fb2ee5e387b19936"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayAdapter&lt;<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_type.html">ButtonType</a>&gt; de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mBackgroundTypeAdapter = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4761a6a95c79d3459e5e670704872bf3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayAdapter&lt;<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_content.html">ButtonContent</a>&gt; de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mContentAdapter = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3a38a4a069312eab41a7a29916092bf4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayAdapter&lt;<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdebutton_1_1_button_selector_activity_1_1_button_color.html">ButtonColor</a>&gt; de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mColorAdapter = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aba87dcbcdc1d22df296ebc1bfdf1d311"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayAdapter&lt;String&gt; de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mButtonEventListAdapter = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abd52139257487a8582337b25be960793"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mDefaultWidth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a93a6e370178bf0590de1b6a20db1af25"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mDefaultHeight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7526681a150a9fb87cb61cba8733bddb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mDefaultMarginTop</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a627ece996aeafc7b05b5867a2d9d18f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mDefaultMarginBottom</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa9cce6577b2388e472a3d230479b5b7a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mDefaultMarginLeft</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a69d189a0843520d02757f39a9a6febea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.mDefaultMarginRight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae15591bcf4e2b929b5eb331f6b9a3236"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.samples.pdebutton.ButtonSelectorActivity.TELEKOM_BUTTON_TITLE = &quot;Telekom Button&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeSamples/src/de/telekom/pde/codelibrary/samples/pdebutton/<a class="el" href="_button_selector_activity_8java.html">ButtonSelectorActivity.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

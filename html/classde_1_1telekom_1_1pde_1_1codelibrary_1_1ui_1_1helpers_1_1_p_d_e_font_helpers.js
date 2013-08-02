@@ -12,6 +12,16 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_hel
     [ "getCapHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a981ae5b2299ea13483588bffa713fcb7", null ],
     [ "getHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a2c34a87489886f7d881513881a17b134", null ],
     [ "getTopHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a49e164a1cf582cdfdf19ebe5db958fc8", null ],
+    [ "getTeleGroteskNormal", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a59e7d4e0fdffe7285885665fd7976650", null ],
+    [ "getTeleGroteskFett", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a9a77890404d41ed7b0dde9b05e4b9ca3", null ],
+    [ "getTeleGroteskHalbFettl", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a8c67e5ea71fa0fb57abf0388dd2b848b", null ],
+    [ "getTeleGroteskUltra", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#ac0fce8581d0d06b7bfc324af6e5b4b7a", null ],
+    [ "getTeleGroteskIconFont", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#aee7b17ea6c994670d8267c50de47261b", null ],
+    [ "setViewFontTo", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#adbfc96eec86e8f0dd9f25eb8461df14b", null ],
+    [ "setViewFontTo", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a00995cd10b01f22b17f038474c589f17", null ],
+    [ "createSpannableDefaultFontString", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#ac6faa2d4b4bde46cdc85da63cc9120d4", null ],
+    [ "createSpannableDefaultFontString", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a268120d4200268853b3fcf9740afa4ac", null ],
+    [ "createSpannableString", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a98b88f8e6ec134cf618fce84e626e2ee", null ],
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#aa3baa0645bb125053cc3ede9aa790ede", null ],
     [ "DEBUGPARAMS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#ac36e3b1a8e45c828c1aeec8027ca615c", null ]
 ];

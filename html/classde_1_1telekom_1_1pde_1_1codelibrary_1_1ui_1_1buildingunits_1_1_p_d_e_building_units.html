@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
 	<title>Code Library Android</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -11,13 +11,14 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-library-android/';
+		var headerBaseUrl = '/code-library/code-components-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
-	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
 	<script type="text/javascript" src="dynsections.js"></script>
 	<script type="text/javascript" src="search/search.js"></script>
 	<script type="text/javascript">$(document).ready(initResizable);</script>
@@ -112,7 +113,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android</li>
+                <li>Android Code Library</li>
             </ul>
         </nav>
 			</div>
@@ -126,6 +127,7 @@
 				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
 			</a>
 		</div>
+		<label for="MSearchField" class="hide">Search</label>
 		<input type="text" id="MSearchField" value="" accesskey="S"
 			onfocus="searchBox.OnSearchFieldFocus(true)" 
 			onblur="searchBox.OnSearchFieldFocus(false)" 
@@ -178,13 +180,21 @@ $(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibra
 <div class="title">de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
+
+<p>Helper class for handling Styleguide Building Units.  
+ <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#details">More...</a></p>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Helper class for handling Styleguide Building Units. </p>
+<p>Class calculates Pixel from Building Units und also holds some often used static members for this purpose. How many pixels are in a building unit depends on the screen density. The intention is that a component / layout based on Building Units has the same size on all devices. </p>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Methods</h2></td></tr>
 <tr class="memitem:ad5d8e699ee192541e3d571b26cdfadb2"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#ad5d8e699ee192541e3d571b26cdfadb2">exactPixelFromBU</a> (float bu)</td></tr>
 <tr class="memdesc:ad5d8e699ee192541e3d571b26cdfadb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert BuildingUnits (BU) to pixels depending on the class of device, returns a directly calcualated value.  <a href="#ad5d8e699ee192541e3d571b26cdfadb2"></a><br/></td></tr>
 <tr class="memitem:a73b59e72f0704f1167d6a67e0044c2e6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a73b59e72f0704f1167d6a67e0044c2e6">pixelFromBU</a> (float bu)</td></tr>
 <tr class="memdesc:a73b59e72f0704f1167d6a67e0044c2e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert BuildingUnits (BU) to pixels depending on the class of device, aligned to pixels.  <a href="#a73b59e72f0704f1167d6a67e0044c2e6"></a><br/></td></tr>
+<tr class="memitem:a2bdc0cdc6fd496cd4bf9d54e1f85aca0"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a2bdc0cdc6fd496cd4bf9d54e1f85aca0">buildingUnitsFromPixel</a> (float px)</td></tr>
+<tr class="memdesc:a2bdc0cdc6fd496cd4bf9d54e1f85aca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert pixels to BuildingUnits (BU)  <a href="#a2bdc0cdc6fd496cd4bf9d54e1f85aca0"></a><br/></td></tr>
 <tr class="memitem:ace4d383d1f34b5b247d09354c90e7673"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#ace4d383d1f34b5b247d09354c90e7673">BU</a> ()</td></tr>
 <tr class="memdesc:ace4d383d1f34b5b247d09354c90e7673"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1 BU.  <a href="#ace4d383d1f34b5b247d09354c90e7673"></a><br/></td></tr>
 <tr class="memitem:a55f1c7455cb3a78f864acc08ef736bc1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a55f1c7455cb3a78f864acc08ef736bc1">oneThirdBU</a> ()</td></tr>
@@ -214,10 +224,13 @@ Static Public Methods</h2></td></tr>
 <tr class="memitem:a92e669969cd3a5b7ef7101844f883846"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a92e669969cd3a5b7ef7101844f883846">exactOneTwelfthsBU</a> ()</td></tr>
 <tr class="memdesc:a92e669969cd3a5b7ef7101844f883846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the pixels for 1/12 BU.  <a href="#a92e669969cd3a5b7ef7101844f883846"></a><br/></td></tr>
 <tr class="memitem:ab9b03935b77f2741571808031c05a9a1"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#ab9b03935b77f2741571808031c05a9a1">isTablet</a> ()</td></tr>
+<tr class="memdesc:ab9b03935b77f2741571808031c05a9a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the device is a tablet.  <a href="#ab9b03935b77f2741571808031c05a9a1"></a><br/></td></tr>
 <tr class="memitem:a5b985f5c0e3840c5bce9c7925f1876f0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a5b985f5c0e3840c5bce9c7925f1876f0">nativePixel</a> ()</td></tr>
 <tr class="memitem:a48c6569cd1a0d954f730e370de8a5e4d"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a48c6569cd1a0d954f730e370de8a5e4d">exactRoundToScreenCoordinates</a> (float coordinate)</td></tr>
 <tr class="memitem:a91f91f1b91438572536538c2c05c1956"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a91f91f1b91438572536538c2c05c1956">roundToScreenCoordinates</a> (float coordinate)</td></tr>
-<tr class="memitem:ad1c850bdea7f376a6b4d440df76951c4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#ad1c850bdea7f376a6b4d440df76951c4">ceilToScreenCoordinates</a> (float coordinate)</td></tr>
+<tr class="memdesc:a91f91f1b91438572536538c2c05c1956"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mathematically round to screen pixel coordinates.  <a href="#a91f91f1b91438572536538c2c05c1956"></a><br/></td></tr>
+<tr class="memitem:a87fd4124f0bfbc357b4436c747d61311"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a87fd4124f0bfbc357b4436c747d61311">roundUpToScreenCoordinates</a> (float coordinate)</td></tr>
+<tr class="memdesc:a87fd4124f0bfbc357b4436c747d61311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mathematically round up to screen pixel coordinates.  <a href="#a87fd4124f0bfbc357b4436c747d61311"></a><br/></td></tr>
 <tr class="memitem:a9fddd894df3f72eedceddbf2cadbd916"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a9fddd894df3f72eedceddbf2cadbd916">parseSize</a> (String sizeString)</td></tr>
 <tr class="memdesc:a9fddd894df3f72eedceddbf2cadbd916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a string, may optionally contain a unit.  <a href="#a9fddd894df3f72eedceddbf2cadbd916"></a><br/></td></tr>
 </table><table class="memberdecls">
@@ -310,6 +323,32 @@ Static Private Attributes</h2></td></tr>
 
 <p>Convert BuildingUnits (BU) to pixels depending on the class of device, aligned to pixels. </p>
 <p>Convert BUs to pixel. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2bdc0cdc6fd496cd4bf9d54e1f85aca0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.buildingUnitsFromPixel </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>px</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert pixels to BuildingUnits (BU) </p>
 
 </div>
 </div>
@@ -698,6 +737,10 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Check if the device is a tablet. </p>
+<p>The android screenLayout of configuration is evaluated. Every device with Configuration.SCREENLAYOUT_SIZE_LARGE or bigger is considered as a tablet.</p>
+<dl class="section return"><dt>Returns</dt><dd>true if the device is a tablet </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a5b985f5c0e3840c5bce9c7925f1876f0"></a>
@@ -769,9 +812,19 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Mathematically round to screen pixel coordinates. </p>
+<p>Pixels are always at whole numbers in android.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coordinate</td><td>size of coordinate as float value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rounded value of coordinate </dd></dl>
+
 </div>
 </div>
-<a class="anchor" id="ad1c850bdea7f376a6b4d440df76951c4"></a>
+<a class="anchor" id="a87fd4124f0bfbc357b4436c747d61311"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -779,7 +832,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.ceilToScreenCoordinates </td>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits.roundUpToScreenCoordinates </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>coordinate</em></td><td>)</td>
@@ -792,6 +845,15 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Mathematically round up to screen pixel coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coordinate</td><td>size or coordinate as float value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ceil of the coordinate </dd></dl>
 
 </div>
 </div>

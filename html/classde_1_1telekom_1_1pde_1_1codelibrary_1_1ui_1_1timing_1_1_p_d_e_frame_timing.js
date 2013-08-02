@@ -25,6 +25,8 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_tim
     [ "mFrameTime", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#a290b1fffec469f6c1cab253c87aca4d4", null ],
     [ "mLastFrameTime", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#a0dec162011fb84a2fb6933cdb4bc09e4", null ],
     [ "mActive", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#ae4674d687ba19b669a43fd5bb7960e74", null ],
+    [ "mInTiming", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#a6d1c49297fb22b6bbc82db50e1877236", null ],
+    [ "mNeedsCleanup", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#ae05a54bd489dc25502bc4d712d0e4a65", null ],
     [ "mLoopLocked", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#a73fe2126f849cba523f84a2aef933ddc", null ],
     [ "mHandler", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#ae6815d6080e34f9ec2a37c2908bd1946", null ],
     [ "mListener", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#aa80102de5d753e86daa6d5c8910b8f2d", null ],

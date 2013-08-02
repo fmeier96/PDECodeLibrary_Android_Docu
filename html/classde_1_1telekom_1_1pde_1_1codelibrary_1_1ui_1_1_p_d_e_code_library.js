@@ -13,10 +13,14 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library =
     [ "isSoftwareRenderingButton", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a0218d69ca2e5923d3d8b32f705c0c9c4", null ],
     [ "setSoftwareRenderingParent", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a8580d3202d43657d21ae4dac06263597", null ],
     [ "isSoftwareRenderingParent", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a0c54a78d0cdead3843e33b1e8ac8a3ac", null ],
+    [ "setAssignmentOfDefaultFontToTextViews", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a29065112e629b48371b2afc610a79bb7", null ],
+    [ "isAssignmentOfDefaultFontToTextViewsEnabled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a999b84580da08c8803508c9c79d1ef67", null ],
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#ab5e746938c0fe2d87896f2c1d2d1f9a7", null ],
     [ "PDECodeLibraryInitialized", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a7f7604c51b84ff3c2d491909b595b4b3", null ],
     [ "PDECodeLibraryDarkStyle", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a2ae1b654d3a07223177962578c13400e", null ],
     [ "PDECodeLibraryButtonSoftwareRendering", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#af73bdc7e018788da805244274d71ebea", null ],
     [ "PDECodeLibraryParentSoftwareRendering", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#ae32a0c5dd540b65454679fec9d996656", null ],
-    [ "mApplicationContext", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a4d9a33f52fefc6a8b745abb47ff59084", null ]
+    [ "mApplicationContext", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a4d9a33f52fefc6a8b745abb47ff59084", null ],
+    [ "DEBUG_SHOW_LOGS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#a69e3bd02568935c4e2135dd0c574c075", null ],
+    [ "mAssignmentOfDefaultFontToTextViewsEnabled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_code_library.html#ab03cb0bef3a7157dd891d317e1dfa601", null ]
 ];

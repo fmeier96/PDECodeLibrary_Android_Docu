@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
 	<title>Code Library Android</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -11,13 +11,14 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-library-android/';
+		var headerBaseUrl = '/code-library/code-components-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
-	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
 	<script type="text/javascript" src="dynsections.js"></script>
 	<script type="text/javascript" src="search/search.js"></script>
 	<script type="text/javascript">$(document).ready(initResizable);</script>
@@ -112,7 +113,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android</li>
+                <li>Android Code Library</li>
             </ul>
         </nav>
 			</div>
@@ -126,6 +127,7 @@
 				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
 			</a>
 		</div>
+		<label for="MSearchField" class="hide">Search</label>
 		<input type="text" id="MSearchField" value="" accesskey="S"
 			onfocus="searchBox.OnSearchFieldFocus(true)" 
 			onblur="searchBox.OnSearchFieldFocus(false)" 
@@ -173,7 +175,8 @@ $(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibra
 
 <div class="header">
   <div class="summary">
-<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view-members.html">List of all members</a>  </div>
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view-members.html">List of all members</a> &#124;
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
 <div class="title">de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView Class Reference</div>  </div>
 </div><!--header-->
@@ -194,6 +197,11 @@ Inheritance diagram for de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerA
 <div class="textblock"><p>Adapter for button style UI elements to AgentController. </p>
 <p>This class links an AgentController to a UIControl. It consumes the button's events and passes them on to the AgentController in a suitable form. </p>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view_1_1_check_for_tap.html">CheckForTap</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper class for a delayed check for a Tap.  <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view_1_1_check_for_tap.html#details">More...</a><br/></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Methods</h2></td></tr>
 <tr class="memitem:ac0a8a2c1f7444e13524456e3e0e33b97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#ac0a8a2c1f7444e13524456e3e0e33b97">PDEAgentControllerAdapterView</a> ()</td></tr>
@@ -208,6 +216,13 @@ Public Methods</h2></td></tr>
 <tr class="memitem:ad66287b16d914f6f8b50293b2ccf3771"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#ad66287b16d914f6f8b50293b2ccf3771">setView</a> (View view)</td></tr>
 <tr class="memitem:adf20ad38384b72a4d92248a19f3bed1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#adf20ad38384b72a4d92248a19f3bed1f">linkAgent</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html">PDEAgentController</a> agentController, View view)</td></tr>
 <tr class="memdesc:adf20ad38384b72a4d92248a19f3bed1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link an AgentController to a UIControl element.  <a href="#adf20ad38384b72a4d92248a19f3bed1f"></a><br/></td></tr>
+<tr class="memitem:ac281a727ab7cf4567bea308c68fcd042"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#ac281a727ab7cf4567bea308c68fcd042">doCancel</a> (View view, MotionEvent motionEvent)</td></tr>
+<tr class="memdesc:ac281a727ab7cf4567bea308c68fcd042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Public callable handling of a cancel event (hack).  <a href="#ac281a727ab7cf4567bea308c68fcd042"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Methods</h2></td></tr>
+<tr class="memitem:a0df974d1ab2091655d80ff4a02a1ade0"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a0df974d1ab2091655d80ff4a02a1ade0">postDelayed</a> (Runnable r, long delayMillis)</td></tr>
+<tr class="memdesc:a0df974d1ab2091655d80ff4a02a1ade0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Causes the Runnable r to be added to the message queue, to be run after the specified amount of time elapses.  <a href="#a0df974d1ab2091655d80ff4a02a1ade0"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
 Private Methods</h2></td></tr>
@@ -228,6 +243,7 @@ Private Methods</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a4fa0d62e98c611fa0e276765300cdb6c"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a4fa0d62e98c611fa0e276765300cdb6c">LOG_TAG</a> = PDEAgentControllerAdapterView.class.getName()</td></tr>
 <tr class="memdesc:a4fa0d62e98c611fa0e276765300cdb6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#a4fa0d62e98c611fa0e276765300cdb6c"></a><br/></td></tr>
+<tr class="memitem:a03c344ee84d30d887c070ef7bf62876c"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a03c344ee84d30d887c070ef7bf62876c">DEBUG</a> = false</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -235,6 +251,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a87cdb7d7d9c4b6114319a795d67aca34"><td class="memItemLeft" align="right" valign="top">WeakReference&lt; View &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a87cdb7d7d9c4b6114319a795d67aca34">mView</a></td></tr>
 <tr class="memitem:a8e7641b2ff8bb9a10b150b20a20d2cef"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a8e7641b2ff8bb9a10b150b20a20d2cef">mHighlight</a></td></tr>
 <tr class="memitem:a279d224fcec1d1f421fffd3ec60c167b"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a279d224fcec1d1f421fffd3ec60c167b">mDown</a></td></tr>
+<tr class="memitem:aa49a009a95d4a4c343e435f5dc2d932b"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#aa49a009a95d4a4c343e435f5dc2d932b">mIsListItem</a></td></tr>
+<tr class="memitem:ac43794c911076ec6a234228b96c83bc3"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#ac43794c911076ec6a234228b96c83bc3">mTouchDownMode</a></td></tr>
+<tr class="memitem:a1285d3a5410fe959496ebfeac53792d7"><td class="memItemLeft" align="right" valign="top">Runnable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a1285d3a5410fe959496ebfeac53792d7">mPendingCheckForTap</a></td></tr>
+<tr class="memitem:a7edc1d1be029b79420a3a2386d844b54"><td class="memItemLeft" align="right" valign="top">Handler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a7edc1d1be029b79420a3a2386d844b54">mHandler</a></td></tr>
+<tr class="memitem:a2efef11a2e9f80c5cc2c0554a3500324"><td class="memItemLeft" align="right" valign="top">View&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a2efef11a2e9f80c5cc2c0554a3500324">mTouchDownView</a></td></tr>
+<tr class="memitem:ae6c652ed988c28b4197e4646e2e7e80f"><td class="memItemLeft" align="right" valign="top">MotionEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#ae6c652ed988c28b4197e4646e2e7e80f">mDownEvent</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -730,6 +752,95 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0df974d1ab2091655d80ff4a02a1ade0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView.postDelayed </td>
+          <td>(</td>
+          <td class="paramtype">Runnable&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>delayMillis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Causes the Runnable r to be added to the message queue, to be run after the specified amount of time elapses. </p>
+<p>Convenience function. We use this mechanism in order to start delayed the runnable which checks if we're still in touchdown-mode.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">r</td><td>The Runnable that will be executed. </td></tr>
+    <tr><td class="paramname">delayMillis</td><td>The delay (in milliseconds) until the Runnable will be executed.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns true if the Runnable was successfully placed in to the message queue. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac281a727ab7cf4567bea308c68fcd042"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView.doCancel </td>
+          <td>(</td>
+          <td class="paramtype">View&#160;</td>
+          <td class="paramname"><em>view</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MotionEvent&#160;</td>
+          <td class="paramname"><em>motionEvent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Public callable handling of a cancel event (hack). </p>
+<p>On Devices below Android 4.0 the event handling doesn't work as intended, so for proper handling of Cancel we have to be able to call the cancel-eventhandling manually (not by eventsystem). I don't like this workaround, but as long as we have to deal with lower devices it seems to be the only way.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">view</td><td>the view that received the touch event. </td></tr>
+    <tr><td class="paramname">motionEvent</td><td>the received touch event. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2>Member Data Documentation</h2>
 <a class="anchor" id="a4fa0d62e98c611fa0e276765300cdb6c"></a>
 <div class="memitem">
@@ -750,6 +861,26 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Global tag for log outputs. </p>
+
+</div>
+</div>
+<a class="anchor" id="a03c344ee84d30d887c070ef7bf62876c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView.DEBUG = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -822,6 +953,126 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView.mDown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa49a009a95d4a4c343e435f5dc2d932b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView.mIsListItem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac43794c911076ec6a234228b96c83bc3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView.mTouchDownMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1285d3a5410fe959496ebfeac53792d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Runnable de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView.mPendingCheckForTap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7edc1d1be029b79420a3a2386d844b54"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Handler de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView.mHandler</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2efef11a2e9f80c5cc2c0554a3500324"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">View de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView.mTouchDownView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae6c652ed988c28b4197e4646e2e7e80f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MotionEvent de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView.mDownEvent</td>
         </tr>
       </table>
   </td>

@@ -13,6 +13,7 @@ var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p
     [ "BackgroundIndicative", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_1_1_p_d_e_button_layer_type.html#a392b9617a55214525f2103875450d4e9", null ],
     [ "BackgroundPlate", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_1_1_p_d_e_button_layer_type.html#afe0a799cb9ca663eabaf596dc881b091", null ],
     [ "BackgroundRect", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_1_1_p_d_e_button_layer_type.html#ad94e5a959213202189f377f6c040d694", null ],
+    [ "BackgroundText", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_1_1_p_d_e_button_layer_type.html#a8fff92ddc3fa183f2eafda8150444a89", null ],
     [ "OverlayNone", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_1_1_p_d_e_button_layer_type.html#a95ccbfa1aa2b1d93c2de200bd4380920", null ],
     [ "OverlayUser", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_1_1_p_d_e_button_layer_type.html#aced5d55dc3dc91a5d3e72ca0e5242fe0", null ],
     [ "OverlayCheckbox", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_1_1_p_d_e_button_layer_type.html#a9ffaf77c9a2db2fea21665687f8608f5", null ],

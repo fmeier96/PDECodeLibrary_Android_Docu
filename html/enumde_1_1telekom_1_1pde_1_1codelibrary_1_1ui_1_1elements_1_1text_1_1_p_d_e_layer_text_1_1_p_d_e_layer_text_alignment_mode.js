@@ -1,0 +1,6 @@
+var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text_1_1_p_d_e_layer_text_alignment_mode =
+[
+    [ "PDELayerTextAlignmentModeStandard", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text_1_1_p_d_e_layer_text_alignment_mode.html#ad9ee9e8ee0c18eb27202f2cc71f8dda1", null ],
+    [ "PDELayerTextAlignmentModeBaseLine", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text_1_1_p_d_e_layer_text_alignment_mode.html#a3e03b1057580aa9dc3ec80870639026a", null ],
+    [ "PDELayerTextAlignmentModeCapHeight", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text_1_1_p_d_e_layer_text_alignment_mode.html#a87127ee4eb1c6f412ea34b7e064260c3", null ]
+];

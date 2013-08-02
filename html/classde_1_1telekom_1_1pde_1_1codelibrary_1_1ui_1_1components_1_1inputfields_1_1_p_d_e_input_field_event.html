@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-components-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android Code Library</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.png" usemap="#de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent_map" name="de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent_map">
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html" title="Event data base class." alt="de.telekom.pde.codelibrary.ui.events.PDEEvent" shape="rect" coords="0,0,428,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:abbea930ffdbbbfdbc13c2f23465f6c12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#abbea930ffdbbbfdbc13c2f23465f6c12">PDEInputFieldEvent</a> ()</td></tr>
+<tr class="memdesc:abbea930ffdbbbfdbc13c2f23465f6c12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#abbea930ffdbbbfdbc13c2f23465f6c12"></a><br/></td></tr>
+<tr class="memitem:ae3bfe1cb1da689c8a537177361569cde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#ae3bfe1cb1da689c8a537177361569cde">setShouldDoAction</a> (boolean doAction)</td></tr>
+<tr class="memdesc:ae3bfe1cb1da689c8a537177361569cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the should do action flag.  <a href="#ae3bfe1cb1da689c8a537177361569cde"></a><br/></td></tr>
+<tr class="memitem:a945154047e2145afa2ed64ea937b4977"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a945154047e2145afa2ed64ea937b4977">getShouldDoAction</a> ()</td></tr>
+<tr class="memdesc:a945154047e2145afa2ed64ea937b4977"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the should do action flag.  <a href="#a945154047e2145afa2ed64ea937b4977"></a><br/></td></tr>
+<tr class="memitem:a6c9954de0c5e3d7e5762f1773c6dd116"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a6c9954de0c5e3d7e5762f1773c6dd116">setStartPos</a> (int startPos)</td></tr>
+<tr class="memdesc:a6c9954de0c5e3d7e5762f1773c6dd116"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the startpos value.  <a href="#a6c9954de0c5e3d7e5762f1773c6dd116"></a><br/></td></tr>
+<tr class="memitem:a5306e357956263af6817e43d73e9b042"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a5306e357956263af6817e43d73e9b042">getStartPos</a> ()</td></tr>
+<tr class="memdesc:a5306e357956263af6817e43d73e9b042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the startPos value.  <a href="#a5306e357956263af6817e43d73e9b042"></a><br/></td></tr>
+<tr class="memitem:a2124988d8324f5ba3403cac5b515b343"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a2124988d8324f5ba3403cac5b515b343">setLengthBefore</a> (int lengthBefore)</td></tr>
+<tr class="memdesc:a2124988d8324f5ba3403cac5b515b343"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the lengthBefore value.  <a href="#a2124988d8324f5ba3403cac5b515b343"></a><br/></td></tr>
+<tr class="memitem:af19b796c1628412160abebc1e82a7319"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#af19b796c1628412160abebc1e82a7319">getLengthBefore</a> ()</td></tr>
+<tr class="memdesc:af19b796c1628412160abebc1e82a7319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the lengthBefore value.  <a href="#af19b796c1628412160abebc1e82a7319"></a><br/></td></tr>
+<tr class="memitem:abd9f30e6eeb597f7f9b7d79b8a7566f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#abd9f30e6eeb597f7f9b7d79b8a7566f2">setLengthAfter</a> (int lengthAfter)</td></tr>
+<tr class="memdesc:abd9f30e6eeb597f7f9b7d79b8a7566f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the lengthAfter value.  <a href="#abd9f30e6eeb597f7f9b7d79b8a7566f2"></a><br/></td></tr>
+<tr class="memitem:a363bda47dae7c8c1a15d0f30f25898ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a363bda47dae7c8c1a15d0f30f25898ce">getLengthAfter</a> ()</td></tr>
+<tr class="memdesc:a363bda47dae7c8c1a15d0f30f25898ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the lengthAfter value.  <a href="#a363bda47dae7c8c1a15d0f30f25898ce"></a><br/></td></tr>
+<tr class="memitem:a75047814a6a4068a431a083761c640e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a75047814a6a4068a431a083761c640e9">setCount</a> (int count)</td></tr>
+<tr class="memdesc:a75047814a6a4068a431a083761c640e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the count value.  <a href="#a75047814a6a4068a431a083761c640e9"></a><br/></td></tr>
+<tr class="memitem:a3857333cbe31177d9e4d12141c33eca0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a3857333cbe31177d9e4d12141c33eca0">getCount</a> ()</td></tr>
+<tr class="memdesc:a3857333cbe31177d9e4d12141c33eca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the count value.  <a href="#a3857333cbe31177d9e4d12141c33eca0"></a><br/></td></tr>
+<tr class="memitem:a39676631c3738ebfda5ce5d858f158e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a39676631c3738ebfda5ce5d858f158e1">setCurrentText</a> (CharSequence newText)</td></tr>
+<tr class="memdesc:a39676631c3738ebfda5ce5d858f158e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current text.  <a href="#a39676631c3738ebfda5ce5d858f158e1"></a><br/></td></tr>
+<tr class="memitem:abdd74bc4d5f221025696e04f9462cd26"><td class="memItemLeft" align="right" valign="top">CharSequence&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#abdd74bc4d5f221025696e04f9462cd26">getCurrentText</a> ()</td></tr>
+<tr class="memdesc:abdd74bc4d5f221025696e04f9462cd26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current text.  <a href="#abdd74bc4d5f221025696e04f9462cd26"></a><br/></td></tr>
+<tr class="memitem:ae0c66c8d8c8922bc335b3add7ab9d562"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#ae0c66c8d8c8922bc335b3add7ab9d562">setKeyEvent</a> (KeyEvent keyEvent)</td></tr>
+<tr class="memdesc:ae0c66c8d8c8922bc335b3add7ab9d562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current Key event, used for onEditorAction events.  <a href="#ae0c66c8d8c8922bc335b3add7ab9d562"></a><br/></td></tr>
+<tr class="memitem:a8a367d5a8e859149b9e5a72bc3190dca"><td class="memItemLeft" align="right" valign="top">KeyEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a8a367d5a8e859149b9e5a72bc3190dca">getKeyEvent</a> ()</td></tr>
+<tr class="memdesc:a8a367d5a8e859149b9e5a72bc3190dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current Key event, used for onEditorAction events.  <a href="#a8a367d5a8e859149b9e5a72bc3190dca"></a><br/></td></tr>
+<tr class="memitem:aefe3e11a5158672f1c063b5e7ef666e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#aefe3e11a5158672f1c063b5e7ef666e7">setActionId</a> (int actionId)</td></tr>
+<tr class="memdesc:aefe3e11a5158672f1c063b5e7ef666e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current action id, used for onEditorAction events.  <a href="#aefe3e11a5158672f1c063b5e7ef666e7"></a><br/></td></tr>
+<tr class="memitem:a9b8d679a675d787bc88c15c7eaa4fe36"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a9b8d679a675d787bc88c15c7eaa4fe36">getActionId</a> ()</td></tr>
+<tr class="memdesc:a9b8d679a675d787bc88c15c7eaa4fe36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current action id, used for onEditorAction events.  <a href="#a9b8d679a675d787bc88c15c7eaa4fe36"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a28256b890454f335ce6e9b297aabc60b"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a28256b890454f335ce6e9b297aabc60b">LOG_TAG</a> = PDEInputFieldEvent.class.getName()</td></tr>
+<tr class="memdesc:a28256b890454f335ce6e9b297aabc60b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#a28256b890454f335ce6e9b297aabc60b"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aaca82d074a347aaa3b31399e24523233"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#aaca82d074a347aaa3b31399e24523233">mShouldDoAction</a></td></tr>
+<tr class="memitem:a31ad63a107b2f2d5e7769d6eb29f99d5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a31ad63a107b2f2d5e7769d6eb29f99d5">mStartPos</a></td></tr>
+<tr class="memitem:a25fa4b22420f7631f3ff933fd1c54e47"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a25fa4b22420f7631f3ff933fd1c54e47">mLengthBefore</a></td></tr>
+<tr class="memitem:aa25f4c6f5368f502adb54918fa09fa9d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#aa25f4c6f5368f502adb54918fa09fa9d">mLengthAfter</a></td></tr>
+<tr class="memitem:a4923445adecb56360c44693e7f519c68"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a4923445adecb56360c44693e7f519c68">mCount</a></td></tr>
+<tr class="memitem:a6ab0a5e8f5cd03ca8f388ab87bdb2c5d"><td class="memItemLeft" align="right" valign="top">CharSequence&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#a6ab0a5e8f5cd03ca8f388ab87bdb2c5d">mCurrentText</a></td></tr>
+<tr class="memitem:ade3cfc6c2649209752fd85c0adc379d6"><td class="memItemLeft" align="right" valign="top">KeyEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#ade3cfc6c2649209752fd85c0adc379d6">mKeyEvent</a></td></tr>
+<tr class="memitem:aedb8ecd732a2ac016731011bf9087f44"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_field_event.html#aedb8ecd732a2ac016731011bf9087f44">mActionId</a></td></tr>
+</table>
+<h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="abbea930ffdbbbfdbc13c2f23465f6c12"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.PDEInputFieldEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="ae3bfe1cb1da689c8a537177361569cde"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.setShouldDoAction </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>doAction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the should do action flag. </p>
+
+</div>
+</div>
+<a class="anchor" id="a945154047e2145afa2ed64ea937b4977"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.getShouldDoAction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the should do action flag. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6c9954de0c5e3d7e5762f1773c6dd116"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.setStartPos </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startPos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the startpos value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5306e357956263af6817e43d73e9b042"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.getStartPos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the startPos value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2124988d8324f5ba3403cac5b515b343"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.setLengthBefore </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lengthBefore</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the lengthBefore value. </p>
+
+</div>
+</div>
+<a class="anchor" id="af19b796c1628412160abebc1e82a7319"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.getLengthBefore </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the lengthBefore value. </p>
+
+</div>
+</div>
+<a class="anchor" id="abd9f30e6eeb597f7f9b7d79b8a7566f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.setLengthAfter </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lengthAfter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the lengthAfter value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a363bda47dae7c8c1a15d0f30f25898ce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.getLengthAfter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the lengthAfter value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a75047814a6a4068a431a083761c640e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.setCount </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the count value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3857333cbe31177d9e4d12141c33eca0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.getCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the count value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a39676631c3738ebfda5ce5d858f158e1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.setCurrentText </td>
+          <td>(</td>
+          <td class="paramtype">CharSequence&#160;</td>
+          <td class="paramname"><em>newText</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the current text. </p>
+
+</div>
+</div>
+<a class="anchor" id="abdd74bc4d5f221025696e04f9462cd26"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CharSequence de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.getCurrentText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current text. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae0c66c8d8c8922bc335b3add7ab9d562"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.setKeyEvent </td>
+          <td>(</td>
+          <td class="paramtype">KeyEvent&#160;</td>
+          <td class="paramname"><em>keyEvent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the current Key event, used for onEditorAction events. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8a367d5a8e859149b9e5a72bc3190dca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">KeyEvent de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.getKeyEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current Key event, used for onEditorAction events. </p>
+
+</div>
+</div>
+<a class="anchor" id="aefe3e11a5158672f1c063b5e7ef666e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.setActionId </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>actionId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the current action id, used for onEditorAction events. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9b8d679a675d787bc88c15c7eaa4fe36"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.getActionId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current action id, used for onEditorAction events. </p>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="a28256b890454f335ce6e9b297aabc60b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.LOG_TAG = PDEInputFieldEvent.class.getName()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global tag for log outputs. </p>
+
+</div>
+</div>
+<a class="anchor" id="aaca82d074a347aaa3b31399e24523233"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.mShouldDoAction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a31ad63a107b2f2d5e7769d6eb29f99d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.mStartPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a25fa4b22420f7631f3ff933fd1c54e47"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.mLengthBefore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa25f4c6f5368f502adb54918fa09fa9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.mLengthAfter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4923445adecb56360c44693e7f519c68"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.mCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6ab0a5e8f5cd03ca8f388ab87bdb2c5d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CharSequence de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.mCurrentText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ade3cfc6c2649209752fd85c0adc379d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">KeyEvent de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.mKeyEvent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aedb8ecd732a2ac016731011bf9087f44"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputFieldEvent.mActionId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/src/de/telekom/pde/codelibrary/ui/components/inputfields/<a class="el" href="_p_d_e_input_field_event_8java.html">PDEInputFieldEvent.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

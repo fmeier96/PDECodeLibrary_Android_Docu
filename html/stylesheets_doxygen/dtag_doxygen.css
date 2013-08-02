@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @encoding "UTF-8";
 @encoding "UTF-8";
 /* normalize.css v2.0.1 | MIT License | git.io/normalize */
@@ -839,6 +840,15 @@ table {
 $duration: 150ms;
 $timing:cubic-bezier(0.250, 0.250, 0.750, 0.750);
 $property: all;	*/
+/* line 92, ../../sass/_doxygen_config.scss */
+.hide {
+  position: absolute;
+  top: -1000em;
+  left: -1000em;
+  height: 1px;
+  width: 1px;
+}
+
 /* addintional Colers */
 /* 
 
@@ -964,11 +974,25 @@ NAVTREE
   margin: 0 0 0 0;
   padding: 0 0.875em 0 1em;
   line-height: 40px;
-  font-family: Tele-Icon;
+  /* font-family:$dtag_font_icon;*/
   font-size: 0.625em;
   outline: none;
 }
-/* line 109, ../../sass/_nav.scss */
+/* line 105, ../../sass/_nav.scss */
+#nav-tree .item .expand-toggle .icon-navigation-right, #nav-tree .item .expand-toggle .icon-navigation-down {
+  font-family: Tele-Icon;
+  font-style: normal;
+  float: left;
+}
+/* line 110, ../../sass/_nav.scss */
+#nav-tree .item .expand-toggle .icon-navigation-right:before {
+  content: "\a7";
+}
+/* line 113, ../../sass/_nav.scss */
+#nav-tree .item .expand-toggle .icon-navigation-down:before {
+  content: "\24";
+}
+/* line 120, ../../sass/_nav.scss */
 #nav-tree .item-over {
   background-color: #ededed;
   -webkit-transition-property: all;
@@ -993,7 +1017,7 @@ NAVTREE
   -o-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   transition-delay: 0ms;
 }
-/* line 116, ../../sass/_nav.scss */
+/* line 127, ../../sass/_nav.scss */
 #nav-tree .item-press {
   background-color: #d9d9d9;
   -webkit-transition-property: all;
@@ -1018,47 +1042,47 @@ NAVTREE
   -o-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   transition-delay: 0ms;
 }
-/* line 126, ../../sass/_nav.scss */
+/* line 137, ../../sass/_nav.scss */
 #nav-tree .plus {
   margin: 0px;
 }
-/* line 134, ../../sass/_nav.scss */
+/* line 145, ../../sass/_nav.scss */
 #nav-tree .selected a {
   text-decoration: none;
   color: #e20074;
 }
-/* line 140, ../../sass/_nav.scss */
+/* line 151, ../../sass/_nav.scss */
 #nav-tree .selected a:hover {
   /*color: $dtag_primary_magenta_darker; */
 }
-/* line 147, ../../sass/_nav.scss */
+/* line 158, ../../sass/_nav.scss */
 #nav-tree ul {
   list-style: none outside none;
   margin: 0px;
   padding: 0px;
 }
-/* line 154, ../../sass/_nav.scss */
+/* line 165, ../../sass/_nav.scss */
 #nav-tree li {
   white-space: nowrap;
   margin: 0px;
   padding: 0px;
 }
-/* line 161, ../../sass/_nav.scss */
+/* line 172, ../../sass/_nav.scss */
 #nav-tree .children_ul {
   margin: 0;
   padding: 0px;
 }
-/* line 165, ../../sass/_nav.scss */
+/* line 176, ../../sass/_nav.scss */
 #nav-tree .children_ul img {
   width: 1em;
 }
 
-/* line 177, ../../sass/_nav.scss */
+/* line 188, ../../sass/_nav.scss */
 .ui-resizable .ui-resizable-handle {
   display: block;
 }
 
-/* line 183, ../../sass/_nav.scss */
+/* line 194, ../../sass/_nav.scss */
 .ui-resizable-handle {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -1085,7 +1109,7 @@ NAVTREE
   transition-delay: 0ms;
 }
 
-/* line 188, ../../sass/_nav.scss */
+/* line 199, ../../sass/_nav.scss */
 .ui-resizable-handle-animation {
   -webkit-transition-property: all;
   -webkit-transition-duration: 50ms;
@@ -1110,7 +1134,7 @@ NAVTREE
   transition-delay: 0ms;
 }
 
-/* line 192, ../../sass/_nav.scss */
+/* line 203, ../../sass/_nav.scss */
 .ui-resizable-e {
   background: url("../images_doxygen/resize.png") no-repeat scroll right center transparent;
   cursor: e-resize;
@@ -1121,7 +1145,7 @@ NAVTREE
   position: relative;
 }
 
-/* line 222, ../../sass/_nav.scss */
+/* line 233, ../../sass/_nav.scss */
 .nav-resize-handele {
   position: absolute;
   width: 100%;
@@ -1139,7 +1163,7 @@ NAVTREE
       }*/
 }
 
-/* line 240, ../../sass/_nav.scss */
+/* line 251, ../../sass/_nav.scss */
 .nav-resize-border {
   position: absolute;
   top: 0;
@@ -1149,7 +1173,7 @@ NAVTREE
   border-left: 1px solid #d0d0d0;
 }
 
-/* line 254, ../../sass/_nav.scss */
+/* line 265, ../../sass/_nav.scss */
 .ui-resizable-handle {
   display: none;
   /*font-size: 0.1px;*/
@@ -1157,47 +1181,47 @@ NAVTREE
   z-index: 1;
 }
 
-/* line 263, ../../sass/_nav.scss */
+/* line 274, ../../sass/_nav.scss */
 #nav-sync {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 0;
 }
-/* line 268, ../../sass/_nav.scss */
+/* line 279, ../../sass/_nav.scss */
 #nav-sync .DTExperience {
   font-size: 62.5%;
 }
 
-/* line 273, ../../sass/_nav.scss */
+/* line 284, ../../sass/_nav.scss */
 #nav-sync img {
   opacity: 0.3;
 }
 
-/* line 277, ../../sass/_nav.scss */
+/* line 288, ../../sass/_nav.scss */
 #nav-sync img:hover {
   opacity: 0.9;
 }
 
-/* line 281, ../../sass/_nav.scss */
+/* line 292, ../../sass/_nav.scss */
 #btn-back {
   position: absolute;
   left: 0;
   top: -34px;
   z-index: 2000;
 }
-/* line 286, ../../sass/_nav.scss */
+/* line 297, ../../sass/_nav.scss */
 #btn-back.DTExperience {
   font-size: 62.5%;
 }
 
 @media print {
-  /* line 293, ../../sass/_nav.scss */
+  /* line 304, ../../sass/_nav.scss */
   #nav-tree {
     display: none;
   }
 
-  /* line 294, ../../sass/_nav.scss */
+  /* line 305, ../../sass/_nav.scss */
   div.ui-resizable-handle {
     display: none;
     position: relative;
@@ -3457,6 +3481,15 @@ table {
 $duration: 150ms;
 $timing:cubic-bezier(0.250, 0.250, 0.750, 0.750);
 $property: all;	*/
+/* line 92, ../../sass/_doxygen_config.scss */
+.hide {
+  position: absolute;
+  top: -1000em;
+  left: -1000em;
+  height: 1px;
+  width: 1px;
+}
+
 /* addintional Colers */
 /* line 21, ../../sass/dtag_doxygen.scss */
 body, table, div, p, dl {
@@ -3911,9 +3944,17 @@ DIV.searchresults {
   margin: 1.875em auto 3.125em auto;
   position: relative;
 }
+/* line 429, ../../sass/dtag_doxygen.scss */
+#sb label {
+  position: absolute;
+  top: -1000em;
+  left: -1000em;
+  height: 1px;
+  width: 1px;
+}
 
 /* Highlighting the search results in DTAG style */
-/* line 432, ../../sass/dtag_doxygen.scss */
+/* line 434, ../../sass/dtag_doxygen.scss */
 .SRResult {
   cursor: pointer;
   -webkit-transition-property: all;
@@ -3940,7 +3981,7 @@ DIV.searchresults {
   background-color: #fff;
 }
 
-/* line 442, ../../sass/dtag_doxygen.scss */
+/* line 444, ../../sass/dtag_doxygen.scss */
 .SRResult:hover, .SRResult.in-focus, .SREntry.in-focus {
   -webkit-transition-property: all;
   -webkit-transition-duration: 50ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
@@ -3967,7 +4008,7 @@ DIV.searchresults {
 }
 
 /* HEADER LEFT */
-/* line 451, ../../sass/dtag_doxygen.scss */
+/* line 453, ../../sass/dtag_doxygen.scss */
 .doxygen-wrapper-animate {
   -webkit-transition-property: all;
   -webkit-transition-duration: 300ms;
@@ -3992,7 +4033,7 @@ DIV.searchresults {
   transition-delay: 0ms;
 }
 
-/* line 460, ../../sass/dtag_doxygen.scss */
+/* line 462, ../../sass/dtag_doxygen.scss */
 #titlearea {
   /*padding: 0px;
   margin: 0px;
@@ -4001,12 +4042,12 @@ DIV.searchresults {
   width: 100%;
 }
 
-/* line 472, ../../sass/dtag_doxygen.scss */
+/* line 474, ../../sass/dtag_doxygen.scss */
 #headline-position-fix {
   position: relative;
 }
 
-/* line 477, ../../sass/dtag_doxygen.scss */
+/* line 479, ../../sass/dtag_doxygen.scss */
 .header {
   position: relative;
   border-bottom: 1px solid #a4a4a4;
@@ -4015,14 +4056,14 @@ DIV.searchresults {
   background: white;
 }
 
-/* line 489, ../../sass/dtag_doxygen.scss */
+/* line 491, ../../sass/dtag_doxygen.scss */
 .headertitle {
   width: 100%;
   position: relative;
   z-index: 1000;
 }
 
-/* line 498, ../../sass/dtag_doxygen.scss */
+/* line 500, ../../sass/dtag_doxygen.scss */
 .title {
   width: 100%;
   margin: 0;
@@ -4037,7 +4078,7 @@ DIV.searchresults {
   overflow: hidden;
 }
 
-/* line 519, ../../sass/dtag_doxygen.scss */
+/* line 521, ../../sass/dtag_doxygen.scss */
 .summary {
   position: relative;
   margin-top: 0.125em;
@@ -4047,7 +4088,7 @@ DIV.searchresults {
   text-align: right;
   /*background: blue;*/
 }
-/* line 528, ../../sass/dtag_doxygen.scss */
+/* line 530, ../../sass/dtag_doxygen.scss */
 .summary a {
   padding: 0.125em 0.625em 0 0.625em;
   -webkit-border-radius: 0.625em;
@@ -4065,32 +4106,32 @@ DIV.searchresults {
   text-align: center;
   vertical-align: middle;
 }
-/* line 543, ../../sass/dtag_doxygen.scss */
+/* line 545, ../../sass/dtag_doxygen.scss */
 .summary a:hover {
   background-color: #a9c6d4;
 }
-/* line 546, ../../sass/dtag_doxygen.scss */
+/* line 548, ../../sass/dtag_doxygen.scss */
 .summary a:active {
   background-color: #9bb6c2;
 }
 
 /* CONTENT */
-/* line 566, ../../sass/dtag_doxygen.scss */
+/* line 568, ../../sass/dtag_doxygen.scss */
 .contents {
   width: 100%;
   margin: 14px 0 0 0px;
 }
-/* line 570, ../../sass/dtag_doxygen.scss */
+/* line 572, ../../sass/dtag_doxygen.scss */
 .contents a {
   font-family: TeleGroteskHal;
   font-weight: normal;
   color: #0090c4;
 }
-/* line 576, ../../sass/dtag_doxygen.scss */
+/* line 578, ../../sass/dtag_doxygen.scss */
 .contents a:visited {
   color: #0090c4;
 }
-/* line 580, ../../sass/dtag_doxygen.scss */
+/* line 582, ../../sass/dtag_doxygen.scss */
 .contents h1 {
   width: 100%;
   margin: 3.75em 0 0.625em 0;
@@ -4103,7 +4144,7 @@ DIV.searchresults {
   text-align: center;
   text-overflow: ellipsis;
 }
-/* line 594, ../../sass/dtag_doxygen.scss */
+/* line 596, ../../sass/dtag_doxygen.scss */
 .contents h2 {
   width: 100%;
   padding: 0 0 5px  0;
@@ -4112,27 +4153,27 @@ DIV.searchresults {
   font-size: 1.1875em;
   font-weight: normal;
 }
-/* line 602, ../../sass/dtag_doxygen.scss */
+/* line 604, ../../sass/dtag_doxygen.scss */
 .contents h2 :first-child {
   margin: 0.625em 0 0 0;
 }
-/* line 612, ../../sass/dtag_doxygen.scss */
+/* line 614, ../../sass/dtag_doxygen.scss */
 .contents p {
   margin: 0 0 0.625em 0;
 }
-/* line 617, ../../sass/dtag_doxygen.scss */
+/* line 619, ../../sass/dtag_doxygen.scss */
 .contents ul {
   padding: 0;
   margin: 0;
 }
-/* line 622, ../../sass/dtag_doxygen.scss */
+/* line 624, ../../sass/dtag_doxygen.scss */
 .contents ul li {
   width: 100%;
   font-size: 0.8125em;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 630, ../../sass/dtag_doxygen.scss */
+/* line 632, ../../sass/dtag_doxygen.scss */
 .contents pre {
   margin: 0 0 2.5em 0;
   -webkit-border-radius: 0.3125em;
@@ -4145,16 +4186,16 @@ DIV.searchresults {
   font-size: 0.8125em;
 }
 
-/* line 649, ../../sass/dtag_doxygen.scss */
+/* line 651, ../../sass/dtag_doxygen.scss */
 code {
   font-family: TeleGrotesk !important;
 }
-/* line 651, ../../sass/dtag_doxygen.scss */
+/* line 653, ../../sass/dtag_doxygen.scss */
 code a {
   font-family: TeleGrotesk !important;
 }
 
-/* line 658, ../../sass/dtag_doxygen.scss */
+/* line 660, ../../sass/dtag_doxygen.scss */
 .dynheader {
   width: 100%;
   margin-top: 2.5em;
@@ -4169,7 +4210,7 @@ code a {
   user-select: none;
 }
 
-/* line 673, ../../sass/dtag_doxygen.scss */
+/* line 675, ../../sass/dtag_doxygen.scss */
 .dyncontent {
   width: 100%;
   margin-top: 1.25em;
@@ -4177,7 +4218,7 @@ code a {
   padding-bottom: 1.25em;
 }
 
-/* line 687, ../../sass/dtag_doxygen.scss */
+/* line 689, ../../sass/dtag_doxygen.scss */
 .memitem {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -4222,7 +4263,7 @@ code a {
   transition-delay: 0ms;
 }
 
-/* line 709, ../../sass/dtag_doxygen.scss */
+/* line 711, ../../sass/dtag_doxygen.scss */
 .memproto, dl.reflist dt {
   padding: 6px 0px 6px 0px;
   font-weight: bold;
@@ -4233,7 +4274,7 @@ code a {
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);*/
 }
 
-/* line 724, ../../sass/dtag_doxygen.scss */
+/* line 726, ../../sass/dtag_doxygen.scss */
 .memdoc, dl.reflist dd {
   margin: 0.375em 0 0.625em 0;
   /*
@@ -4243,12 +4284,12 @@ code a {
      */
 }
 
-/* line 735, ../../sass/dtag_doxygen.scss */
+/* line 737, ../../sass/dtag_doxygen.scss */
 .memdoc {
   font-size: 0.8125em;
 }
 
-/* line 745, ../../sass/dtag_doxygen.scss */
+/* line 747, ../../sass/dtag_doxygen.scss */
 .memitem.glow {
   background: #e0e0e0;
   -webkit-transition-property: all;
@@ -4274,41 +4315,41 @@ code a {
   transition-delay: 0ms;
 }
 
-/* line 751, ../../sass/dtag_doxygen.scss */
+/* line 753, ../../sass/dtag_doxygen.scss */
 .memname {
   font-size: 1em;
 }
 
-/* line 755, ../../sass/dtag_doxygen.scss */
+/* line 757, ../../sass/dtag_doxygen.scss */
 .memname td {
   vertical-align: bottom;
   font-weight: normal;
 }
 
-/* line 761, ../../sass/dtag_doxygen.scss */
+/* line 763, ../../sass/dtag_doxygen.scss */
 table.mlabels {
   border-spacing: 0px;
 }
 
-/* line 766, ../../sass/dtag_doxygen.scss */
+/* line 768, ../../sass/dtag_doxygen.scss */
 td.mlabels-left {
   width: 100%;
   padding: 0px;
 }
 
-/* line 771, ../../sass/dtag_doxygen.scss */
+/* line 773, ../../sass/dtag_doxygen.scss */
 td.mlabels-right {
   vertical-align: bottom;
   padding: 0px;
   white-space: nowrap;
 }
 
-/* line 777, ../../sass/dtag_doxygen.scss */
+/* line 779, ../../sass/dtag_doxygen.scss */
 span.mlabels {
   margin-left: 8px;
 }
 
-/* line 781, ../../sass/dtag_doxygen.scss */
+/* line 783, ../../sass/dtag_doxygen.scss */
 span.mlabel {
   font-weight: normal;
   margin-left: 4px;
@@ -4326,63 +4367,63 @@ span.mlabel {
   white-space: nowrap;
 }
 
-/* line 801, ../../sass/dtag_doxygen.scss */
+/* line 803, ../../sass/dtag_doxygen.scss */
 .paramkey {
   text-align: right;
 }
 
-/* line 805, ../../sass/dtag_doxygen.scss */
+/* line 807, ../../sass/dtag_doxygen.scss */
 .paramtype {
   white-space: nowrap;
 }
 
-/* line 809, ../../sass/dtag_doxygen.scss */
+/* line 811, ../../sass/dtag_doxygen.scss */
 .paramname {
   color: #eda95a;
   white-space: nowrap;
 }
 
-/* line 813, ../../sass/dtag_doxygen.scss */
+/* line 815, ../../sass/dtag_doxygen.scss */
 .paramname em {
   font-style: normal;
 }
 
-/* line 816, ../../sass/dtag_doxygen.scss */
+/* line 818, ../../sass/dtag_doxygen.scss */
 .paramname code {
   line-height: 14px;
 }
 
-/* line 820, ../../sass/dtag_doxygen.scss */
+/* line 822, ../../sass/dtag_doxygen.scss */
 .params dd {
   margin: 0;
 }
 
-/* line 825, ../../sass/dtag_doxygen.scss */
+/* line 827, ../../sass/dtag_doxygen.scss */
 .params, .retval, .exception, .tparams {
   margin-left: 0px;
   padding-left: 0px;
 }
 
-/* line 830, ../../sass/dtag_doxygen.scss */
+/* line 832, ../../sass/dtag_doxygen.scss */
 .params .paramname, .retval .paramname {
   font-weight: bold;
   vertical-align: top;
 }
 
-/* line 835, ../../sass/dtag_doxygen.scss */
+/* line 837, ../../sass/dtag_doxygen.scss */
 .params .paramtype {
   font-style: italic;
   vertical-align: top;
 }
 
-/* line 840, ../../sass/dtag_doxygen.scss */
+/* line 842, ../../sass/dtag_doxygen.scss */
 .params .paramdir {
   font-family: "courier new",courier,monospace;
   vertical-align: top;
 }
 
 /* Source Code Styles */
-/* line 848, ../../sass/dtag_doxygen.scss */
+/* line 850, ../../sass/dtag_doxygen.scss */
 div.line {
   font-family: monospace, fixed;
   font-size: 13px;
@@ -4415,18 +4456,18 @@ div.line {
   transition-duration: 0.5s;
 }
 
-/* line 875, ../../sass/dtag_doxygen.scss */
+/* line 877, ../../sass/dtag_doxygen.scss */
 div.line.glow {
   background-color: cyan;
   box-shadow: 0 0 10px cyan;
 }
 
-/* line 880, ../../sass/dtag_doxygen.scss */
+/* line 882, ../../sass/dtag_doxygen.scss */
 div.line a.code {
   font-family: monospace, fixed;
 }
 
-/* line 884, ../../sass/dtag_doxygen.scss */
+/* line 886, ../../sass/dtag_doxygen.scss */
 span.lineno {
   padding-right: 4px;
   text-align: right;
@@ -4435,18 +4476,18 @@ span.lineno {
   white-space: pre;
 }
 
-/* line 891, ../../sass/dtag_doxygen.scss */
+/* line 893, ../../sass/dtag_doxygen.scss */
 span.lineno a {
   font-family: monospace, fixed;
   background-color: #D8D8D8;
 }
 
-/* line 896, ../../sass/dtag_doxygen.scss */
+/* line 898, ../../sass/dtag_doxygen.scss */
 span.lineno a:hover {
   background-color: #C8C8C8;
 }
 
-/* line 905, ../../sass/dtag_doxygen.scss */
+/* line 907, ../../sass/dtag_doxygen.scss */
 div.directory {
   margin: 10px 0px;
   border-top: 1px solid #6c6c6c;
@@ -4454,35 +4495,35 @@ div.directory {
   width: 100%;
 }
 
-/* line 912, ../../sass/dtag_doxygen.scss */
+/* line 914, ../../sass/dtag_doxygen.scss */
 .directory table {
   border-collapse: collapse;
 }
 
-/* line 916, ../../sass/dtag_doxygen.scss */
+/* line 918, ../../sass/dtag_doxygen.scss */
 .directory td {
   margin: 0px;
   padding: 0px;
   vertical-align: top;
 }
 
-/* line 922, ../../sass/dtag_doxygen.scss */
+/* line 924, ../../sass/dtag_doxygen.scss */
 .directory td.entry {
   white-space: nowrap;
   padding-right: 6px;
 }
 
-/* line 927, ../../sass/dtag_doxygen.scss */
+/* line 929, ../../sass/dtag_doxygen.scss */
 .directory td.entry a {
   outline: none;
 }
 
-/* line 931, ../../sass/dtag_doxygen.scss */
+/* line 933, ../../sass/dtag_doxygen.scss */
 .directory td.entry a img {
   border: none;
 }
 
-/* line 935, ../../sass/dtag_doxygen.scss */
+/* line 937, ../../sass/dtag_doxygen.scss */
 .directory td.desc {
   width: 100%;
   padding-left: 6px;
@@ -4491,18 +4532,18 @@ div.directory {
   border-left: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-/* line 943, ../../sass/dtag_doxygen.scss */
+/* line 945, ../../sass/dtag_doxygen.scss */
 .directory tr.even {
   padding-left: 6px;
   background-color: #F8F8F8;
 }
 
-/* line 948, ../../sass/dtag_doxygen.scss */
+/* line 950, ../../sass/dtag_doxygen.scss */
 .directory img {
   vertical-align: -30%;
 }
 
-/* line 952, ../../sass/dtag_doxygen.scss */
+/* line 954, ../../sass/dtag_doxygen.scss */
 .directory .levels {
   white-space: nowrap;
   width: 99%;
@@ -4511,7 +4552,7 @@ div.directory {
   margin: .5em 0 .5em 0;
 }
 
-/* line 960, ../../sass/dtag_doxygen.scss */
+/* line 962, ../../sass/dtag_doxygen.scss */
 .directory .levels span {
   cursor: pointer;
   margin-left: .2em;
@@ -4519,7 +4560,7 @@ div.directory {
   color: #565656;
 }
 
-/* line 967, ../../sass/dtag_doxygen.scss */
+/* line 969, ../../sass/dtag_doxygen.scss */
 ::-ms-clear {
   display: none;
 }

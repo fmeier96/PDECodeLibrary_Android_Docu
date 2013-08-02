@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-components-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android Code Library</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.png" usemap="#de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity_map" name="de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity_map">
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity.html" alt="de.telekom.pde.codelibrary.ui.activity.PDEActivity" shape="rect" coords="0,0,475,24"/>
+</map>
+ </div></div>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Created with IntelliJ IDEA. User: kdanner Date: 03.05.13 Time: 15:33 To change this template use File | Settings | File Templates. </p>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:a2f7ed1f6dc9b73b8336ff5192913e932"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a2f7ed1f6dc9b73b8336ff5192913e932">onCreate</a> (Bundle savedInstanceState)</td></tr>
+<tr class="memitem:ae695f04f81b1849d957f31047160ce83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#ae695f04f81b1849d957f31047160ce83">onProgressChanged</a> (SeekBar seekBar, int progress, boolean fromUser)</td></tr>
+<tr class="memitem:a5c927ca97e7cfb8881b1099542a681ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a5c927ca97e7cfb8881b1099542a681ac">onStartTrackingTouch</a> (SeekBar seekBar)</td></tr>
+<tr class="memitem:ac29e1e806e12714ae3b484d36706c701"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#ac29e1e806e12714ae3b484d36706c701">onStopTrackingTouch</a> (SeekBar seekBar)</td></tr>
+<tr class="memitem:a4bff403a95917371b81a69b6ba5b3c8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a4bff403a95917371b81a69b6ba5b3c8c">onCheckedChanged</a> (CompoundButton buttonView, boolean isChecked)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
+Private Methods</h2></td></tr>
+<tr class="memitem:a825a021d6d0edef16402d4e84399fe05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a825a021d6d0edef16402d4e84399fe05">updateFont</a> (float size, boolean bold)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a29ffc3d942c8efc6f2c8a110aa4b2de0"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a29ffc3d942c8efc6f2c8a110aa4b2de0">LOG_TAG</a> = TeleGroteskScreenActivity.class.getName()</td></tr>
+<tr class="memitem:aa10d40f25c54866a13cbcc429a8d1dde"><td class="memItemLeft" align="right" valign="top">static final float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#aa10d40f25c54866a13cbcc429a8d1dde">MIN_SEEKBAR</a> = 5.0f</td></tr>
+<tr class="memitem:a4c71c4df9d4427ca6f5a6bfdb0e95685"><td class="memItemLeft" align="right" valign="top">static final float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a4c71c4df9d4427ca6f5a6bfdb0e95685">MAX_SEEKBAR</a> = 55.0f</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4ab760b0e50f1491c6216b6a93ff9639"><td class="memItemLeft" align="right" valign="top">TextView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a4ab760b0e50f1491c6216b6a93ff9639">mLabelSystem</a></td></tr>
+<tr class="memitem:acf92f2b74a3fb037b75a7bb1f3cbd341"><td class="memItemLeft" align="right" valign="top">TextView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#acf92f2b74a3fb037b75a7bb1f3cbd341">mLabelTeleGrotesk</a></td></tr>
+<tr class="memitem:a19b407aae62e41a50ff561fcf144a64f"><td class="memItemLeft" align="right" valign="top">TextView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a19b407aae62e41a50ff561fcf144a64f">mLabelArial</a></td></tr>
+<tr class="memitem:ac20cd4d28e5e303f65e9652881b6c4eb"><td class="memItemLeft" align="right" valign="top">TextView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#ac20cd4d28e5e303f65e9652881b6c4eb">mTextViewSystem</a></td></tr>
+<tr class="memitem:a73df8efe5bc4047f7661f7d63c3fa1ca"><td class="memItemLeft" align="right" valign="top">TextView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a73df8efe5bc4047f7661f7d63c3fa1ca">mTextViewTeleGrotesk</a></td></tr>
+<tr class="memitem:a383e8f3594370ce57447d2b5afc63f31"><td class="memItemLeft" align="right" valign="top">TextView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a383e8f3594370ce57447d2b5afc63f31">mTextViewArial</a></td></tr>
+<tr class="memitem:a19de49fdf901d52947f4dbf2c9129fd4"><td class="memItemLeft" align="right" valign="top">EditText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a19de49fdf901d52947f4dbf2c9129fd4">mEditTextSystem</a></td></tr>
+<tr class="memitem:a3450a96c9ab9c05c0c8bc8391efecff3"><td class="memItemLeft" align="right" valign="top">EditText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a3450a96c9ab9c05c0c8bc8391efecff3">mEditTextTeleGrotesk</a></td></tr>
+<tr class="memitem:a2ae31d19e6e93110f2f7b40ee006e0e4"><td class="memItemLeft" align="right" valign="top">EditText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a2ae31d19e6e93110f2f7b40ee006e0e4">mEditTextArial</a></td></tr>
+<tr class="memitem:a2217753a6e17aa41d1c97f3ee8a4c8a1"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a2217753a6e17aa41d1c97f3ee8a4c8a1">mButtonSystem</a></td></tr>
+<tr class="memitem:aa4f76b1001427066a893861b3b9f927f"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#aa4f76b1001427066a893861b3b9f927f">mButtonTeleGrotesk</a></td></tr>
+<tr class="memitem:a46dbe6de35d80003fc7daa9924228c0f"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a46dbe6de35d80003fc7daa9924228c0f">mButtonArial</a></td></tr>
+<tr class="memitem:a7201046f655f41951f97f196bdd2d464"><td class="memItemLeft" align="right" valign="top">ToggleButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#a7201046f655f41951f97f196bdd2d464">mToggleBold</a></td></tr>
+<tr class="memitem:ad1494fff0aea524b6fc5034c4b90d253"><td class="memItemLeft" align="right" valign="top">SeekBar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_tele_grotesk_screen_activity.html#ad1494fff0aea524b6fc5034c4b90d253">mSeekbar</a></td></tr>
+</table>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="a2f7ed1f6dc9b73b8336ff5192913e932"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.onCreate </td>
+          <td>(</td>
+          <td class="paramtype">Bundle&#160;</td>
+          <td class="paramname"><em>savedInstanceState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity.html#ae56b7222802bce951168812c06e8cfc5">de.telekom.pde.codelibrary.ui.activity.PDEActivity</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae695f04f81b1849d957f31047160ce83"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.onProgressChanged </td>
+          <td>(</td>
+          <td class="paramtype">SeekBar&#160;</td>
+          <td class="paramname"><em>seekBar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>progress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>fromUser</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5c927ca97e7cfb8881b1099542a681ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.onStartTrackingTouch </td>
+          <td>(</td>
+          <td class="paramtype">SeekBar&#160;</td>
+          <td class="paramname"><em>seekBar</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac29e1e806e12714ae3b484d36706c701"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.onStopTrackingTouch </td>
+          <td>(</td>
+          <td class="paramtype">SeekBar&#160;</td>
+          <td class="paramname"><em>seekBar</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4bff403a95917371b81a69b6ba5b3c8c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.onCheckedChanged </td>
+          <td>(</td>
+          <td class="paramtype">CompoundButton&#160;</td>
+          <td class="paramname"><em>buttonView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>isChecked</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a825a021d6d0edef16402d4e84399fe05"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.updateFont </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>bold</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="a29ffc3d942c8efc6f2c8a110aa4b2de0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.LOG_TAG = TeleGroteskScreenActivity.class.getName()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa10d40f25c54866a13cbcc429a8d1dde"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final float de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.MIN_SEEKBAR = 5.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4c71c4df9d4427ca6f5a6bfdb0e95685"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final float de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.MAX_SEEKBAR = 55.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4ab760b0e50f1491c6216b6a93ff9639"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextView de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mLabelSystem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acf92f2b74a3fb037b75a7bb1f3cbd341"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextView de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mLabelTeleGrotesk</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a19b407aae62e41a50ff561fcf144a64f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextView de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mLabelArial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac20cd4d28e5e303f65e9652881b6c4eb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextView de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mTextViewSystem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a73df8efe5bc4047f7661f7d63c3fa1ca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextView de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mTextViewTeleGrotesk</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a383e8f3594370ce57447d2b5afc63f31"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextView de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mTextViewArial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a19de49fdf901d52947f4dbf2c9129fd4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EditText de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mEditTextSystem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3450a96c9ab9c05c0c8bc8391efecff3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EditText de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mEditTextTeleGrotesk</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2ae31d19e6e93110f2f7b40ee006e0e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EditText de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mEditTextArial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2217753a6e17aa41d1c97f3ee8a4c8a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Button de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mButtonSystem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa4f76b1001427066a893861b3b9f927f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Button de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mButtonTeleGrotesk</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a46dbe6de35d80003fc7daa9924228c0f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Button de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mButtonArial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7201046f655f41951f97f196bdd2d464"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ToggleButton de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mToggleBold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad1494fff0aea524b6fc5034c4b90d253"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SeekBar de.telekom.pde.codelibrary.samples.developerscreens.TeleGroteskScreenActivity.mSeekbar</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeSamples/src/de/telekom/pde/codelibrary/samples/developerscreens/<a class="el" href="_tele_grotesk_screen_activity_8java.html">TeleGroteskScreenActivity.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

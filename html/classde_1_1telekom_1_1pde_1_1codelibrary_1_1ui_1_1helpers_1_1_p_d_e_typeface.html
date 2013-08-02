@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
 	<title>Code Library Android</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -11,13 +11,14 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-library-android/';
+		var headerBaseUrl = '/code-library/code-components-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
 	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
-	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>	
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
 	<script type="text/javascript" src="dynsections.js"></script>
 	<script type="text/javascript" src="search/search.js"></script>
 	<script type="text/javascript">$(document).ready(initResizable);</script>
@@ -112,7 +113,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android</li>
+                <li>Android Code Library</li>
             </ul>
         </nav>
 			</div>
@@ -126,6 +127,7 @@
 				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
 			</a>
 		</div>
+		<label for="MSearchField" class="hide">Search</label>
 		<input type="text" id="MSearchField" value="" accesskey="S"
 			onfocus="searchBox.OnSearchFieldFocus(true)" 
 			onblur="searchBox.OnSearchFieldFocus(false)" 
@@ -191,7 +193,7 @@ Static Public Methods</h2></td></tr>
 <tr class="memitem:ad2017964d9d9f668c2a2490487aebaa4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#ad2017964d9d9f668c2a2490487aebaa4">createFromAsset</a> (String filename)</td></tr>
 <tr class="memdesc:ad2017964d9d9f668c2a2490487aebaa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">static function to create dttypeface object, from a "assets/fonts" folder by its name Only the filename is saved, not the complete path  <a href="#ad2017964d9d9f668c2a2490487aebaa4"></a><br/></td></tr>
 <tr class="memitem:a1c20cb14c29a2558c9c8d956e7f00a06"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a1c20cb14c29a2558c9c8d956e7f00a06">createByNameAndTypeface</a> (String name, Typeface typeface)</td></tr>
-<tr class="memdesc:a1c20cb14c29a2558c9c8d956e7f00a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">static function to create dttypeface object, by its name and give android typeface Only the filename is saved, not the complete path  <a href="#a1c20cb14c29a2558c9c8d956e7f00a06"></a><br/></td></tr>
+<tr class="memdesc:a1c20cb14c29a2558c9c8d956e7f00a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">static function to create <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> object, by its name and give android typeface Only the filename is saved, not the complete path  <a href="#a1c20cb14c29a2558c9c8d956e7f00a06"></a><br/></td></tr>
 <tr class="memitem:a53cb91c6823797b89ad63a1a0caf8dd7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a53cb91c6823797b89ad63a1a0caf8dd7">createByName</a> (String name)</td></tr>
 <tr class="memdesc:a53cb91c6823797b89ad63a1a0caf8dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a font with the specified name. First trys to create it from file if this goes wront -&gt; try to get it from assests Only the filename is saved, not the complete path.  <a href="#a53cb91c6823797b89ad63a1a0caf8dd7"></a><br/></td></tr>
 </table><table class="memberdecls">
@@ -205,34 +207,45 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:a2e7b0367e5b3ddce34f636e7809f4dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a font is in telegrotesk family. Caution: throws exception if there is no tele_grotesk array resource!!!  <a href="#a2e7b0367e5b3ddce34f636e7809f4dfb"></a><br/></td></tr>
 <tr class="memitem:af85c15ded30c0dd55211c830686c6515"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#af85c15ded30c0dd55211c830686c6515">getReadableName</a> ()  throws Resources.NotFoundException</td></tr>
 <tr class="memdesc:af85c15ded30c0dd55211c830686c6515"><td class="mdescLeft">&#160;</td><td class="mdescRight">trys to get the readable name of the font (at the moment declared in font_families.xml file). Caution: throws exception if there is no tele_grotesk array resource!!!  <a href="#af85c15ded30c0dd55211c830686c6515"></a><br/></td></tr>
-<tr class="memitem:a3b8a55431a4ce7e4efba91a0b40d5738"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a3b8a55431a4ce7e4efba91a0b40d5738">getReadableName</a> (int resourceArrayIdentifier)  throws Resources.NotFoundException</td></tr>
-<tr class="memdesc:a3b8a55431a4ce7e4efba91a0b40d5738"><td class="mdescLeft">&#160;</td><td class="mdescRight">trys to get the readable name of the font (declared in the resourceArrayIdentifier parameter). Caution: throws exception if there is no string array resource!!!  <a href="#a3b8a55431a4ce7e4efba91a0b40d5738"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pac-static-methods"></a>
 Static Package Methods</h2></td></tr>
 <tr class="memitem:a8ae39b7c4edd3df232a20446c7f85b3b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a8ae39b7c4edd3df232a20446c7f85b3b">[static initializer]</a></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-methods"></a>
+Static Private Methods</h2></td></tr>
+<tr class="memitem:a13b021e0b06f435c094615029f1c742e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a13b021e0b06f435c094615029f1c742e">saveTypeface</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> typeface, String name)</td></tr>
+<tr class="memitem:a3a8042385cf68375fdb58dbfdf08d500"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a3a8042385cf68375fdb58dbfdf08d500">loadTypeface</a> (String name)</td></tr>
+<tr class="memitem:a957910aecabaf1ba5634c3d130b934d3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a957910aecabaf1ba5634c3d130b934d3">createFromFile</a> (String filepath, boolean showExceptionMessage)</td></tr>
+<tr class="memdesc:a957910aecabaf1ba5634c3d130b934d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">static function to create dttypeface object, from a file by the pathname Only the filename is saved, not the complete path  <a href="#a957910aecabaf1ba5634c3d130b934d3"></a><br/></td></tr>
+<tr class="memitem:a885710109934277c2f90cae0523d47df"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a885710109934277c2f90cae0523d47df">createFromAsset</a> (String filename, boolean showExceptionMessage)</td></tr>
+<tr class="memdesc:a885710109934277c2f90cae0523d47df"><td class="mdescLeft">&#160;</td><td class="mdescRight">static function to create dttypeface object, from a "assets/fonts" folder by its name Only the filename is saved, not the complete path  <a href="#a885710109934277c2f90cae0523d47df"></a><br/></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
 Private Methods</h2></td></tr>
-<tr class="memitem:abed98e021f9ef0cd239a25822f6333ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#abed98e021f9ef0cd239a25822f6333ef">PDETypeface</a> (String filename, Typeface typeface)</td></tr>
-<tr class="memdesc:abed98e021f9ef0cd239a25822f6333ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructro to create dttypeface object with name and android typeface object Only the filename is saved, not the complete path  <a href="#abed98e021f9ef0cd239a25822f6333ef"></a><br/></td></tr>
-<tr class="memitem:ad934d246765c873502e089fe641b1b54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#ad934d246765c873502e089fe641b1b54">init</a> (String filename, Typeface typeface)  throws NullPointerException</td></tr>
-<tr class="memdesc:ad934d246765c873502e089fe641b1b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">init function to create dttypeface object with name and android typeface object Only the filename is saved, not the complete path  <a href="#ad934d246765c873502e089fe641b1b54"></a><br/></td></tr>
+<tr class="memitem:a50cbbe88e43f589981bc6422be1a199c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a50cbbe88e43f589981bc6422be1a199c">PDETypeface</a> (String typefaceName, Typeface typeface)</td></tr>
+<tr class="memdesc:a50cbbe88e43f589981bc6422be1a199c"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructro to create dttypeface object with name and android typeface object Only the filename is saved, not the complete path  <a href="#a50cbbe88e43f589981bc6422be1a199c"></a><br/></td></tr>
+<tr class="memitem:adf50f53240f54879e328ac0478c19881"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#adf50f53240f54879e328ac0478c19881">init</a> (String filepath, Typeface typeface)  throws NullPointerException</td></tr>
+<tr class="memdesc:adf50f53240f54879e328ac0478c19881"><td class="mdescLeft">&#160;</td><td class="mdescRight">init function to create dttypeface object with name and android typeface object Only the filename is saved, not the complete path  <a href="#adf50f53240f54879e328ac0478c19881"></a><br/></td></tr>
 <tr class="memitem:a30d33bf8e05f9af947be263399dba55a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a30d33bf8e05f9af947be263399dba55a">getFilename</a> (String path)  throws NullPointerException </td></tr>
 <tr class="memdesc:a30d33bf8e05f9af947be263399dba55a"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper class to get only the filename out of the complete path  <a href="#a30d33bf8e05f9af947be263399dba55a"></a><br/></td></tr>
+<tr class="memitem:a3b8a55431a4ce7e4efba91a0b40d5738"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a3b8a55431a4ce7e4efba91a0b40d5738">getReadableName</a> (int resourceArrayIdentifier)  throws Resources.NotFoundException</td></tr>
+<tr class="memdesc:a3b8a55431a4ce7e4efba91a0b40d5738"><td class="mdescLeft">&#160;</td><td class="mdescRight">trys to get the readable name of the font (declared in the resourceArrayIdentifier parameter). Caution: throws exception if there is no string array resource!!!  <a href="#a3b8a55431a4ce7e4efba91a0b40d5738"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a3e37d21b8892a0d0c3fc04706455eca4"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a3e37d21b8892a0d0c3fc04706455eca4">sAssetFontFolderPath</a> = &quot;fonts/&quot;</td></tr>
-<tr class="memitem:ae72612a86bb30bc7a15ebc1e436d35c4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#ae72612a86bb30bc7a15ebc1e436d35c4">sDefaultFont</a> = <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a1c20cb14c29a2558c9c8d956e7f00a06">PDETypeface.createByNameAndTypeface</a>(Typeface.DEFAULT.toString(), Typeface.DEFAULT)</td></tr>
-<tr class="memitem:a7aacd5f88aa51853cbad5da4ee11cdbe"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a7aacd5f88aa51853cbad5da4ee11cdbe">sTeleGroteskDefaultSize</a></td></tr>
-<tr class="memitem:ad45140084576c4759787861c5b0ed290"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#ad45140084576c4759787861c5b0ed290">sOtherFontsDefaultSize</a></td></tr>
+<tr class="memitem:ae72612a86bb30bc7a15ebc1e436d35c4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#ae72612a86bb30bc7a15ebc1e436d35c4">sDefaultFont</a></td></tr>
+<tr class="memitem:a6d423afbac3394594faf2252a03d41b6"><td class="memItemLeft" align="right" valign="top">static final float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a6d423afbac3394594faf2252a03d41b6">sTeleGroteskDefaultSize</a></td></tr>
+<tr class="memitem:a616d3d74f968cab7b1df90f1cfbc77d9"><td class="memItemLeft" align="right" valign="top">static final float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a616d3d74f968cab7b1df90f1cfbc77d9">sOtherFontsDefaultSize</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a46ee586d97ecd9c065969938cf324701"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a46ee586d97ecd9c065969938cf324701">LOG_TAG</a> = PDETypeface.class.getName()</td></tr>
 <tr class="memdesc:a46ee586d97ecd9c065969938cf324701"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#a46ee586d97ecd9c065969938cf324701"></a><br/></td></tr>
-<tr class="memitem:aa81ad19a61868fe300a85d2a3032eed3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#aa81ad19a61868fe300a85d2a3032eed3">TELE_GROTESK_STRINGRESOURCE_ID</a> = R.array.tele_grotesk</td></tr>
+<tr class="memitem:ab35cf3253728a5acafc616870bd9a379"><td class="memItemLeft" align="right" valign="top">static LinkedHashMap&lt; String, <br class="typebreak"/>
+<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#ab35cf3253728a5acafc616870bd9a379">mTypefaceCache</a></td></tr>
+<tr class="memitem:aa81ad19a61868fe300a85d2a3032eed3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#aa81ad19a61868fe300a85d2a3032eed3">TELE_GROTESK_STRINGRESOURCE_ID</a> = <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1array.html#a478396f9e19c597bca6565f018767122">R.array.tele_grotesk</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -240,7 +253,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:adc3756364601516c7e77f7a57ee596e2"><td class="memItemLeft" align="right" valign="top">Typeface&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#adc3756364601516c7e77f7a57ee596e2">mTypeface</a> = null</td></tr>
 </table>
 <h2>Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="abed98e021f9ef0cd239a25822f6333ef"></a>
+<a class="anchor" id="a50cbbe88e43f589981bc6422be1a199c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -251,7 +264,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">de.telekom.pde.codelibrary.ui.helpers.PDETypeface.PDETypeface </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>filename</em>, </td>
+          <td class="paramname"><em>typefaceName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -275,7 +288,7 @@ Private Attributes</h2></td></tr>
 <p>constructro to create dttypeface object with name and android typeface object Only the filename is saved, not the complete path </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filename</td><td>name of the font </td></tr>
+    <tr><td class="paramname">typefaceName</td><td>name of the font </td></tr>
     <tr><td class="paramname">typeface</td><td>android typefaceobject containing to the filename </td></tr>
   </table>
   </dd>
@@ -307,7 +320,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad934d246765c873502e089fe641b1b54"></a>
+<a class="anchor" id="adf50f53240f54879e328ac0478c19881"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -318,7 +331,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void de.telekom.pde.codelibrary.ui.helpers.PDETypeface.init </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>filename</em>, </td>
+          <td class="paramname"><em>filepath</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -342,11 +355,69 @@ Private Attributes</h2></td></tr>
 <p>init function to create dttypeface object with name and android typeface object Only the filename is saved, not the complete path </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filename</td><td>name of the font </td></tr>
+    <tr><td class="paramname">filepath</td><td>name of the font </td></tr>
     <tr><td class="paramname">typeface</td><td>android typefaceobject belongs to the filename </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a13b021e0b06f435c094615029f1c742e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void de.telekom.pde.codelibrary.ui.helpers.PDETypeface.saveTypeface </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td>
+          <td class="paramname"><em>typeface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3a8042385cf68375fdb58dbfdf08d500"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDETypeface.loadTypeface </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -376,6 +447,50 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>pathname of the font </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>created <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> object or null if there is no font at the path </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a957910aecabaf1ba5634c3d130b934d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDETypeface.createFromFile </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>filepath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>showExceptionMessage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>static function to create dttypeface object, from a file by the pathname Only the filename is saved, not the complete path </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filepath</td><td>pathname of the font </td></tr>
+    <tr><td class="paramname">showExceptionMessage</td><td>show exception message to inform user </td></tr>
   </table>
   </dd>
 </dl>
@@ -416,6 +531,50 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a885710109934277c2f90cae0523d47df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDETypeface.createFromAsset </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>showExceptionMessage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>static function to create dttypeface object, from a "assets/fonts" folder by its name Only the filename is saved, not the complete path </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>name of the font </td></tr>
+    <tr><td class="paramname">showExceptionMessage</td><td>show exception message to inform user </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>created <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> object or null if there is no font at the path </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a1c20cb14c29a2558c9c8d956e7f00a06"></a>
 <div class="memitem">
 <div class="memproto">
@@ -448,7 +607,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>static function to create dttypeface object, by its name and give android typeface Only the filename is saved, not the complete path </p>
+<p>static function to create <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> object, by its name and give android typeface Only the filename is saved, not the complete path </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>name of the font </td></tr>
@@ -641,7 +800,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -748,7 +907,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDETypeface.sDefaultFont = <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a1c20cb14c29a2558c9c8d956e7f00a06">PDETypeface.createByNameAndTypeface</a>(Typeface.DEFAULT.toString(), Typeface.DEFAULT)</td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDETypeface.sDefaultFont</td>
         </tr>
       </table>
   </td>
@@ -760,7 +919,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7aacd5f88aa51853cbad5da4ee11cdbe"></a>
+<a class="anchor" id="a6d423afbac3394594faf2252a03d41b6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -768,7 +927,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float de.telekom.pde.codelibrary.ui.helpers.PDETypeface.sTeleGroteskDefaultSize</td>
+          <td class="memname">final float de.telekom.pde.codelibrary.ui.helpers.PDETypeface.sTeleGroteskDefaultSize</td>
         </tr>
       </table>
   </td>
@@ -780,7 +939,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad45140084576c4759787861c5b0ed290"></a>
+<a class="anchor" id="a616d3d74f968cab7b1df90f1cfbc77d9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -788,7 +947,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float de.telekom.pde.codelibrary.ui.helpers.PDETypeface.sOtherFontsDefaultSize</td>
+          <td class="memname">final float de.telekom.pde.codelibrary.ui.helpers.PDETypeface.sOtherFontsDefaultSize</td>
         </tr>
       </table>
   </td>
@@ -797,6 +956,27 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab35cf3253728a5acafc616870bd9a379"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LinkedHashMap&lt;String, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&gt; de.telekom.pde.codelibrary.ui.helpers.PDETypeface.mTypefaceCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>An <code>LruCache</code> for previously loaded typefaces. </p>
 
 </div>
 </div>
@@ -808,7 +988,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int de.telekom.pde.codelibrary.ui.helpers.PDETypeface.TELE_GROTESK_STRINGRESOURCE_ID = R.array.tele_grotesk</td>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.helpers.PDETypeface.TELE_GROTESK_STRINGRESOURCE_ID = <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1array.html#a478396f9e19c597bca6565f018767122">R.array.tele_grotesk</a></td>
         </tr>
       </table>
   </td>

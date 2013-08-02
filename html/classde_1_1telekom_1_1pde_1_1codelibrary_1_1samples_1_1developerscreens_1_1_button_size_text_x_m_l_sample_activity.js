@@ -1,0 +1,5 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_button_size_text_x_m_l_sample_activity =
+[
+    [ "onCreate", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_button_size_text_x_m_l_sample_activity.html#aa75e7123f7870d41b768e95ebf0a9c8d", null ],
+    [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_button_size_text_x_m_l_sample_activity.html#aecf08eb5d2000055a078e67769175538", null ]
+];

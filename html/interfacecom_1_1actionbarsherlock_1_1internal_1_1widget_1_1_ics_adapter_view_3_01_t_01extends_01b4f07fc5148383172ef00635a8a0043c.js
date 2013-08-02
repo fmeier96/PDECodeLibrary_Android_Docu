@@ -1,0 +1,4 @@
+var interfacecom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01b4f07fc5148383172ef00635a8a0043c =
+[
+    [ "onItemLongClick", "interfacecom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01b4f07fc5148383172ef00635a8a0043c.html#aee859220ce99f617238c74e04f2f58c7", null ]
+];

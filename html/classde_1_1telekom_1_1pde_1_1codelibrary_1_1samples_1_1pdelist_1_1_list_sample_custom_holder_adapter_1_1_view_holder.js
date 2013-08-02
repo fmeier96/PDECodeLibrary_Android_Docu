@@ -1,0 +1,5 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_adapter_1_1_view_holder =
+[
+    [ "titleView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_adapter_1_1_view_holder.html#a824150b320812b46e56e5bc907bc0c27", null ],
+    [ "iconView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_list_sample_custom_holder_adapter_1_1_view_holder.html#af147ae7a11daa7a1ddd66ac3796d96e8", null ]
+];

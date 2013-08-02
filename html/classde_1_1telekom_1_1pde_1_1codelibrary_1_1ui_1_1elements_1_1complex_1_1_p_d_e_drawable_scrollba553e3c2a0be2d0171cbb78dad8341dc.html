@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-components-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
+						<span class="icon">
+							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
+						</span>
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android Code Library</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollbc2fad9f3b29c35d0a688ae9333908d14.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Graphics primitive - the handle for the interactive scrollbar.  
+ <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.png" usemap="#de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle_map" name="de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle_map">
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_multilayer.html" alt="de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableMultilayer" shape="rect" coords="0,56,711,80"/>
+<area href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_interface.html" alt="de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableInterface" shape="rect" coords="0,0,711,24"/>
+</map>
+ </div></div>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Graphics primitive - the handle for the interactive scrollbar. </p>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:af71b1a76004b7c173b77bf69af88ff2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#af71b1a76004b7c173b77bf69af88ff2c">PDEDrawableScrollbarInteractiveHandle</a> ()</td></tr>
+<tr class="memdesc:af71b1a76004b7c173b77bf69af88ff2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization.  <a href="#af71b1a76004b7c173b77bf69af88ff2c"></a><br/></td></tr>
+<tr class="memitem:a34f1016e44d2a574ec090213aa766772"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a34f1016e44d2a574ec090213aa766772">setElementBackgroundColor</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
+<tr class="memdesc:a34f1016e44d2a574ec090213aa766772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set fill (background) color.  <a href="#a34f1016e44d2a574ec090213aa766772"></a><br/></td></tr>
+<tr class="memitem:a474134ed81d674438870c49a6052e3c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a474134ed81d674438870c49a6052e3c9">getElementBackgroundColor</a> ()</td></tr>
+<tr class="memdesc:a474134ed81d674438870c49a6052e3c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get background color.  <a href="#a474134ed81d674438870c49a6052e3c9"></a><br/></td></tr>
+<tr class="memitem:a5fef914690039373ec97142760616947"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a5fef914690039373ec97142760616947">setElementBorderColor</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
+<tr class="memdesc:a5fef914690039373ec97142760616947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set border color.  <a href="#a5fef914690039373ec97142760616947"></a><br/></td></tr>
+<tr class="memitem:a6ea428115e0778925939d7e14a8d43d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a6ea428115e0778925939d7e14a8d43d2">getElementBorderColor</a> ()</td></tr>
+<tr class="memdesc:a6ea428115e0778925939d7e14a8d43d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get outline color.  <a href="#a6ea428115e0778925939d7e14a8d43d2"></a><br/></td></tr>
+<tr class="memitem:a8d9c3e541f1d0d6765e0217736fd91dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a8d9c3e541f1d0d6765e0217736fd91dd">setElementCornerRadius</a> (float radius)</td></tr>
+<tr class="memdesc:a8d9c3e541f1d0d6765e0217736fd91dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set corner radius.  <a href="#a8d9c3e541f1d0d6765e0217736fd91dd"></a><br/></td></tr>
+<tr class="memitem:af384bee50d26e1ef0b09ad3ea2775d67"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#af384bee50d26e1ef0b09ad3ea2775d67">getElementCornerRadius</a> ()</td></tr>
+<tr class="memdesc:af384bee50d26e1ef0b09ad3ea2775d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get corner radius.  <a href="#af384bee50d26e1ef0b09ad3ea2775d67"></a><br/></td></tr>
+<tr class="memitem:a6ea070391339aa91f77d4b93e3987e8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a6ea070391339aa91f77d4b93e3987e8d">setElementRiffleColors</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> riffleCol1, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> riffleCol2)</td></tr>
+<tr class="memdesc:a6ea070391339aa91f77d4b93e3987e8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set riffle colors.  <a href="#a6ea070391339aa91f77d4b93e3987e8d"></a><br/></td></tr>
+<tr class="memitem:a4404df14fc630994f127583e4ebb9aba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a4404df14fc630994f127583e4ebb9aba">setLightStyle</a> ()</td></tr>
+<tr class="memdesc:a4404df14fc630994f127583e4ebb9aba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set light style.  <a href="#a4404df14fc630994f127583e4ebb9aba"></a><br/></td></tr>
+<tr class="memitem:a30e48ff7d876532623954bb91a5896c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a30e48ff7d876532623954bb91a5896c0">setDarkStyle</a> ()</td></tr>
+<tr class="memdesc:a30e48ff7d876532623954bb91a5896c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set dark style.  <a href="#a30e48ff7d876532623954bb91a5896c0"></a><br/></td></tr>
+<tr class="memitem:ad5f3c4576d04dea34c40ff8ba90f771d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#ad5f3c4576d04dea34c40ff8ba90f771d">setElementScrollbarType</a> (PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveType type)</td></tr>
+<tr class="memdesc:ad5f3c4576d04dea34c40ff8ba90f771d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set type / orientation of the scrollbar.  <a href="#ad5f3c4576d04dea34c40ff8ba90f771d"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Methods</h2></td></tr>
+<tr class="memitem:a79f15e76b5dbf76c52d90e13e5fb343b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a79f15e76b5dbf76c52d90e13e5fb343b">doLayout</a> ()</td></tr>
+<tr class="memdesc:a79f15e76b5dbf76c52d90e13e5fb343b"><td class="mdescLeft">&#160;</td><td class="mdescRight">update function.  <a href="#a79f15e76b5dbf76c52d90e13e5fb343b"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
+Private Methods</h2></td></tr>
+<tr class="memitem:a7d21f33f05a658bd664487afccf8fd55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a7d21f33f05a658bd664487afccf8fd55">initLayers</a> ()</td></tr>
+<tr class="memdesc:a7d21f33f05a658bd664487afccf8fd55"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal initial helper to inti needed layers. shadow is not created here, it must inited by createShadow seperatly  <a href="#a7d21f33f05a658bd664487afccf8fd55"></a><br/></td></tr>
+<tr class="memitem:afbca6b1f41d28df5d614e611e5c70daf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#afbca6b1f41d28df5d614e611e5c70daf">updateBackgroundDrawable</a> (Rect bounds)</td></tr>
+<tr class="memdesc:afbca6b1f41d28df5d614e611e5c70daf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the background drawable.  <a href="#afbca6b1f41d28df5d614e611e5c70daf"></a><br/></td></tr>
+<tr class="memitem:a22e641560b484a91bb83696ff1d37a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a22e641560b484a91bb83696ff1d37a1c">updateRiffleDrawable</a> (Rect bounds)</td></tr>
+<tr class="memdesc:a22e641560b484a91bb83696ff1d37a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the riffle drawable.  <a href="#a22e641560b484a91bb83696ff1d37a1c"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a01cbf9ef9e32b5a2136795a494bcbfd5"><td class="memItemLeft" align="right" valign="top">PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a01cbf9ef9e32b5a2136795a494bcbfd5">mElementScrollbarType</a></td></tr>
+<tr class="memitem:ab238000c8a8c1ee6eef2e8bddce08e2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#ab238000c8a8c1ee6eef2e8bddce08e2d">mElementBackgroundColor</a></td></tr>
+<tr class="memitem:ab76e01a8e83c4685ad0c17f5b07c0806"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#ab76e01a8e83c4685ad0c17f5b07c0806">mElementBorderColor</a></td></tr>
+<tr class="memitem:a4a3b8bb0878561764749746f7acf45e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a4a3b8bb0878561764749746f7acf45e3">mElementRiffleColor1</a></td></tr>
+<tr class="memitem:a76e4ab990b767bef32d61f8c168b8f78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a76e4ab990b767bef32d61f8c168b8f78">mElementRiffleColor2</a></td></tr>
+<tr class="memitem:a77ca64ea62a331575466cf3f097a0f33"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#a77ca64ea62a331575466cf3f097a0f33">mElementCornerRadius</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa794c4c905823cf93085589790b60176"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_rounded_box.html">PDEDrawableRoundedBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#aa794c4c905823cf93085589790b60176">mElementBackgroundDrawable</a></td></tr>
+<tr class="memitem:aa2f07b4cb9ad21f23ce776abc757ff4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_multilayer.html">PDEDrawableMultilayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_scrollba553e3c2a0be2d0171cbb78dad8341dc.html#aa2f07b4cb9ad21f23ce776abc757ff4d">mElementRiffleDrawable</a></td></tr>
+</table>
+<h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="af71b1a76004b7c173b77bf69af88ff2c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.PDEDrawableScrollbarInteractiveHandle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialization. </p>
+
+</div>
+</div>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="a7d21f33f05a658bd664487afccf8fd55"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.initLayers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>internal initial helper to inti needed layers. shadow is not created here, it must inited by createShadow seperatly </p>
+
+</div>
+</div>
+<a class="anchor" id="a34f1016e44d2a574ec090213aa766772"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.setElementBackgroundColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set fill (background) color. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>The new backgroundcolor of the handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a474134ed81d674438870c49a6052e3c9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.getElementBackgroundColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get background color. </p>
+<dl class="section return"><dt>Returns</dt><dd>The color of the background. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5fef914690039373ec97142760616947"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.setElementBorderColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set border color. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>The new color of the outline. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6ea428115e0778925939d7e14a8d43d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.getElementBorderColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get outline color. </p>
+<dl class="section return"><dt>Returns</dt><dd>The color of the outline. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8d9c3e541f1d0d6765e0217736fd91dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.setElementCornerRadius </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set corner radius. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radius</td><td>The new radius of the rounded corners. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af384bee50d26e1ef0b09ad3ea2775d67"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.getElementCornerRadius </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get corner radius. </p>
+<dl class="section return"><dt>Returns</dt><dd>The radius of the rounded corners. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6ea070391339aa91f77d4b93e3987e8d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.setElementRiffleColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td>
+          <td class="paramname"><em>riffleCol1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td>
+          <td class="paramname"><em>riffleCol2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set riffle colors. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4404df14fc630994f127583e4ebb9aba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.setLightStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set light style. </p>
+
+</div>
+</div>
+<a class="anchor" id="a30e48ff7d876532623954bb91a5896c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.setDarkStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set dark style. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad5f3c4576d04dea34c40ff8ba90f771d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.setElementScrollbarType </td>
+          <td>(</td>
+          <td class="paramtype">PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveType&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set type / orientation of the scrollbar. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>new type of the scrollbar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a79f15e76b5dbf76c52d90e13e5fb343b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.doLayout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>update function. </p>
+
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_multilayer.html#a486ff6bdaa230fc608d796b9de062911">de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableMultilayer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afbca6b1f41d28df5d614e611e5c70daf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.updateBackgroundDrawable </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>bounds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates the background drawable. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bounds</td><td>The new bounds of the background. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a22e641560b484a91bb83696ff1d37a1c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.updateRiffleDrawable </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>bounds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates the riffle drawable. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bounds</td><td>the new bounds. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="a01cbf9ef9e32b5a2136795a494bcbfd5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveType de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.mElementScrollbarType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab238000c8a8c1ee6eef2e8bddce08e2d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.mElementBackgroundColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab76e01a8e83c4685ad0c17f5b07c0806"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.mElementBorderColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4a3b8bb0878561764749746f7acf45e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.mElementRiffleColor1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a76e4ab990b767bef32d61f8c168b8f78"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.mElementRiffleColor2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a77ca64ea62a331575466cf3f097a0f33"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.mElementCornerRadius</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa794c4c905823cf93085589790b60176"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_rounded_box.html">PDEDrawableRoundedBox</a> de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.mElementBackgroundDrawable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa2f07b4cb9ad21f23ce776abc757ff4d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_multilayer.html">PDEDrawableMultilayer</a> de.telekom.pde.codelibrary.ui.elements.complex.PDEDrawableScrollbarInteractive.PDEDrawableScrollbarInteractiveHandle.mElementRiffleDrawable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/src/de/telekom/pde/codelibrary/ui/elements/complex/PDEDrawableScrollbarInteractive/<a class="el" href="_p_d_e_drawable_scrollbar_interactive_handle_8java.html">PDEDrawableScrollbarInteractiveHandle.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>
