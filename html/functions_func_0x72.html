@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -195,17 +194,8 @@ $(document).ready(function(){initNavTree('functions_func_0x72.html','');});
 <li>readDictionaryXml()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_component_helpers.html#a5530ae195e544aaceff27ae284c181e1">de.telekom.pde.codelibrary.ui.components.helpers.PDEComponentHelpers</a>
 </li>
-<li>readGroup()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_menu_inflater_1_1_menu_state.html#adb4f58acdfec58feb606c8fadbd1f978">com.actionbarsherlock.view.MenuInflater.MenuState</a>
-</li>
-<li>readHistoricalData()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1widget_1_1_activity_chooser_model.html#a1f677e6b1da91772c5253c3b3b182161">com.actionbarsherlock.widget.ActivityChooserModel</a>
-</li>
 <li>readIt()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_one_i_d_m_module.html#aa83e03170264744c89b6cf27ddf8bbb0">de.telekom.pde.codelibrary.ui.modules.login.PDEOneIDMModule</a>
-</li>
-<li>readItem()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_menu_inflater_1_1_menu_state.html#ae77df5db844e87126a1e3e18f8b89a32">com.actionbarsherlock.view.MenuInflater.MenuState</a>
 </li>
 <li>readLine()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_parser.html#a37911c15a66cbbc2890e6536fe0d3ada">de.telekom.pde.codelibrary.ui.helpers.PDEParser</a>
@@ -237,23 +227,8 @@ $(document).ready(function(){initNavTree('functions_func_0x72.html','');});
 <li>readToSeparatorSetAndSkip()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_parser.html#a8fdc57d1c7c34e4b7cadc5fbb322feac">de.telekom.pde.codelibrary.ui.helpers.PDEParser</a>
 </li>
-<li>recycleAllViews()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_abs_spinner.html#a9bf267a1935872cfdd539caa725cfdff">com.actionbarsherlock.internal.widget.IcsAbsSpinner</a>
-</li>
 <li>refreshMetrics()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#aaf6504403bab292a2adb3f6a06daf0f1">de.telekom.pde.codelibrary.ui.elements.text.PDELayerText</a>
-</li>
-<li>refreshProgress()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_progress_bar.html#a2ca3779279d6aada8d135616bad8825c">com.actionbarsherlock.internal.widget.IcsProgressBar</a>
-</li>
-<li>RefreshProgressRunnable()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_progress_bar_1_1_refresh_progress_runnable.html#a55a3a38f413e392ef785a54ca9e8e98b">com.actionbarsherlock.internal.widget.IcsProgressBar.RefreshProgressRunnable</a>
-</li>
-<li>registerDataSetObserver()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_spinner_1_1_drop_down_adapter.html#a77a250751f67054b6cd2c74299437115">com.actionbarsherlock.internal.widget.IcsSpinner.DropDownAdapter</a>
-</li>
-<li>registerImplementation()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1_action_bar_sherlock.html#a934be78dc2d5ea8c8013e10e53460998">com.actionbarsherlock.ActionBarSherlock</a>
 </li>
 <li>registerSubAnimationForChanged()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#a1740422dd6dd9a46ee2478715de901be">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup</a>
@@ -265,32 +240,23 @@ $(document).ready(function(){initNavTree('functions_func_0x72.html','');});
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html#a41594b7d46b22b42bba2bba8d7c9ed70">de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot</a>
 </li>
 <li>relayout()
-: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_overlay_checkbox.html#ac18ec2410c4abb08adb3ce550c483208">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerOverlayCheckbox</a>
-, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_overlay_radio.html#a28f1cdaf4af07c5022009ae9949a31a8">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerOverlayRadio</a>
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_overlay_checkbox_base.html#ac38ca4403d55e63a31acf1f95bb9a6ec">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerOverlayCheckboxBase</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_overlay_radio_base.html#af8a6aa500af138fd4b87e29ec1278297">de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerOverlayRadioBase</a>
 </li>
-<li>rememberSyncState()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01_adapter_01_4.html#aec5550417445fe18d76ea96c9fbf558e">com.actionbarsherlock.internal.widget.IcsAdapterView&lt; T extends Adapter &gt;</a>
+<li>releaseAllDragAccesses()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider.html#ad914438d34323f718f661cb6c0bf64f4">de.telekom.pde.codelibrary.ui.components.sliders.PDESlider</a>
+</li>
+<li>releaseDragAccessForController()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider.html#a87498de643fe0890942153a56dc69b3f">de.telekom.pde.codelibrary.ui.components.sliders.PDESlider</a>
+</li>
+<li>releaseDragAccessForSlider()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#ac68b3a5f32478b1b31890b47c080a89f">de.telekom.pde.codelibrary.ui.components.sliders.PDESliderController</a>
 </li>
 <li>remove()
-: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html#aaaa3419fd412e3bd1fc5e2f6d66cb050">de.telekom.pde.codelibrary.ui.components.parameters.PDEDictionary</a>
-</li>
-<li>removeAllListeners()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_animator.html#ade780878966ca381810ef0f1aac0d2ac">com.actionbarsherlock.internal.nineoldandroids.animation.Animator</a>
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html#a190fa143658147957df019080ba21904">de.telekom.pde.codelibrary.ui.helpers.PDEDictionary</a>
 </li>
 <li>removeAllObjects()
-: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#ab82faea0d9af00ed6022010b49df212c">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
-</li>
-<li>removeAllTabs()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1app_1_1_action_bar.html#a5e51959ab9614bccd3b53a1cada201a1">com.actionbarsherlock.app.ActionBar</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1app_1_1_action_bar_impl.html#a5bdc4db859f6c3c486160a2f2afb228c">com.actionbarsherlock.internal.app.ActionBarImpl</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1app_1_1_action_bar_wrapper.html#aa545166ef841637c65476d830b4b743f">com.actionbarsherlock.internal.app.ActionBarWrapper</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_scrolling_tab_container_view.html#ae78215186ef7834a0e87ec953ffba8cf">com.actionbarsherlock.internal.widget.ScrollingTabContainerView</a>
-</li>
-<li>removeAllUpdateListeners()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_value_animator.html#a581822c8a6d4ff292b59a08a0e4f5862">com.actionbarsherlock.internal.nineoldandroids.animation.ValueAnimator</a>
-</li>
-<li>removeAllViews()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01_adapter_01_4.html#aad09f5109d6f819402793080d5d90298">com.actionbarsherlock.internal.widget.IcsAdapterView&lt; T extends Adapter &gt;</a>
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter.html#aae1632f253159dc904a81250d3aff1ca">de.telekom.pde.codelibrary.ui.components.helpers.parameters.PDEParameter</a>
 </li>
 <li>removeAnimationFromCustomList()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#ad2e9900234720c18caf2eb0e716209f9">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup</a>
@@ -307,61 +273,33 @@ $(document).ready(function(){initNavTree('functions_func_0x72.html','');});
 <li>removeFromParentAnimation()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a6817c5fa53db4bea32a6db5a1a7d6edd">de.telekom.pde.codelibrary.ui.animation.PDEAnimation</a>
 </li>
-<li>removeGroup()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu.html#a8721e650fe0f39e8ca6fba6c6b22f5c5">com.actionbarsherlock.internal.view.menu.ActionMenu</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html#aca29b313c5590bfd0edbe3b8ea895849">com.actionbarsherlock.internal.view.menu.MenuBuilder</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_wrapper.html#a4dc52029e2f0a5a382d24bfed163455e">com.actionbarsherlock.internal.view.menu.MenuWrapper</a>
-, <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu.html#a3c98bbafdac28102887a18235f83fd7b">com.actionbarsherlock.view.Menu</a>
-</li>
 <li>removeHighlight()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#ae7c783252915fd729ba4bb8fcb5c5df9">de.telekom.pde.codelibrary.ui.agents.PDEAgentController</a>
 </li>
-<li>removeItem()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu.html#a09aecb6d410b08f40be0d7533946aa17">com.actionbarsherlock.internal.view.menu.ActionMenu</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html#ad22192c25739d018698a40ef71980e94">com.actionbarsherlock.internal.view.menu.MenuBuilder</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_wrapper.html#a76dbaeb7bc569a75f396866c06c2a584">com.actionbarsherlock.internal.view.menu.MenuWrapper</a>
-, <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu.html#a4600de512ca8ce4102b077be43b1c071">com.actionbarsherlock.view.Menu</a>
-</li>
-<li>removeItemAt()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html#a0c51fc8daa9cf34b898271272eb870f4">com.actionbarsherlock.internal.view.menu.MenuBuilder</a>
-</li>
-<li>removeItemAtInt()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html#a181e5e55fe74bbb5efaa2c3a2a01d7ad">com.actionbarsherlock.internal.view.menu.MenuBuilder</a>
-</li>
 <li>removeLayer()
-: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_multilayer.html#a6e6ce55d03a64b700339cc08cfae46d0">de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableMultilayer</a>
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_multilayer.html#a040ad534dd193522bd1acd8cbf56ee90">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableMultilayer</a>
 </li>
 <li>removeLayerAtIndex()
-: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_multilayer.html#a5712067f9a16fab63ce9480cbb8e764f">de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableMultilayer</a>
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_multilayer.html#a017bde642301a947f3d8daec4fd6ee9c">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableMultilayer</a>
 </li>
 <li>removeListener()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_animator.html#a0f2224d9ba5d5c4af1c91301da18ca50">com.actionbarsherlock.internal.nineoldandroids.animation.Animator</a>
-, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a1413beaf77eca91b3ece645060a75da3">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a6df1af5d84c7b28eb489f19b9834f4a6">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a>
 , <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a3e8ced00a1a76a73341b304e61c62b5b">de.telekom.pde.codelibrary.ui.events.PDEEventSource</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a1413beaf77eca91b3ece645060a75da3">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#abb50163e815bec5eda813080d7c1d842">de.telekom.pde.codelibrary.ui.components.lists.PDEListItem</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider.html#aa7e29cb23d16e00a4035cbd9e7a31497">de.telekom.pde.codelibrary.ui.components.sliders.PDESlider</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#abdad2fcded2b53324feabbea53744ad5">de.telekom.pde.codelibrary.ui.components.sliders.PDESliderController</a>
+, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_base.html#a0fd225fd47dee18b6df0e62d841e4f79">de.telekom.pde.codelibrary.ui.components.sliders.PDESliderScrollHandlerBase</a>
 , <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing.html#a099f0479b91f24d5d1b72e67bc8fb849">de.telekom.pde.codelibrary.ui.timing.PDEFrameTiming</a>
 </li>
 <li>removeListenersForTarget()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#aaf004473d128fa77b175ad222cb6758b">de.telekom.pde.codelibrary.ui.events.PDEEventSource</a>
 </li>
-<li>removeMenuPresenter()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html#abf887e304fc9dda54027a3c0211ba13e">com.actionbarsherlock.internal.view.menu.MenuBuilder</a>
-</li>
 <li>removeObjectForKey()
-: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html#a6f10834bbf694eac95aafc64ab1fdb34">de.telekom.pde.codelibrary.ui.components.parameters.PDEParameter</a>
-</li>
-<li>removeOnAttachStateChangeListener()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu_item_view.html#a56dab2583b8014be7b4cf0f244ea64c8">com.actionbarsherlock.internal.view.menu.ActionMenuItemView</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu_presenter_1_1_overflow_menu_button.html#a68ee23678ac3ef5f3cecf36e39799578">com.actionbarsherlock.internal.view.menu.ActionMenuPresenter.OverflowMenuButton</a>
-, <a class="el" href="interfacecom_1_1actionbarsherlock_1_1internal_1_1view_1_1_view___has_state_listener_support.html#aef61ca7ac1c8bd5e367c6d36ef11e211">com.actionbarsherlock.internal.view.View_HasStateListenerSupport</a>
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter.html#a5fd25fc26623a06b5c5f22b92c2c8ffa">de.telekom.pde.codelibrary.ui.components.helpers.parameters.PDEParameter</a>
 </li>
 <li>removeOnGlobalLayoutListener()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_resize_base_activity.html#a3189950938a514c986eb13ae962abc73">de.telekom.pde.codelibrary.samples.basescreens.ResizeBaseActivity</a>
-, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_layer_text_test_screen.html#a6079f3aaa6bb26881ac1e4a382573e82">de.telekom.pde.codelibrary.samples.developerscreens.LayerTextTestScreen</a>
-</li>
-<li>removeOnMenuVisibilityListener()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1app_1_1_action_bar.html#a7a7261fd1531ff432c64a183ab8acf6a">com.actionbarsherlock.app.ActionBar</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1app_1_1_action_bar_impl.html#a6608aca312f48873287fce9236b7207d">com.actionbarsherlock.internal.app.ActionBarImpl</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1app_1_1_action_bar_wrapper.html#a0d9d7c364ae8c9d0bdda14064fcba843">com.actionbarsherlock.internal.app.ActionBarWrapper</a>
 </li>
 <li>removeSubAnimation()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#ab78a8dc3b1de38f440c52ad495399cf8">de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup</a>
@@ -369,88 +307,32 @@ $(document).ready(function(){initNavTree('functions_func_0x72.html','');});
 <li>removeSubAnimationStatic()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html#a8a5d14a6df3a198c83463a4e2a5f5177">de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot</a>
 </li>
-<li>removeTab()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1app_1_1_action_bar.html#a030480b8bea1a241d64cc1d9a566ba87">com.actionbarsherlock.app.ActionBar</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1app_1_1_action_bar_impl.html#a76a4a51fe0dbf31ae50e8e1520d396ad">com.actionbarsherlock.internal.app.ActionBarImpl</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1app_1_1_action_bar_wrapper.html#adfb29aa500fe94310086a37a180876a9">com.actionbarsherlock.internal.app.ActionBarWrapper</a>
-</li>
-<li>removeTabAt()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1app_1_1_action_bar.html#a769689c88fead46d2adc18f9e1474cb7">com.actionbarsherlock.app.ActionBar</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1app_1_1_action_bar_impl.html#a768384d029818f4b2f576ebb0630d0cd">com.actionbarsherlock.internal.app.ActionBarImpl</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1app_1_1_action_bar_wrapper.html#aff381c29dc4d4251a3fab61e5044572c">com.actionbarsherlock.internal.app.ActionBarWrapper</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_scrolling_tab_container_view.html#a4a830966e7d6a9b5655d2f875e745c18">com.actionbarsherlock.internal.widget.ScrollingTabContainerView</a>
-</li>
-<li>removeUpdateListener()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_value_animator.html#aed35bc8b154d83d2a286bfe37acd3fca">com.actionbarsherlock.internal.nineoldandroids.animation.ValueAnimator</a>
-</li>
 <li>removeUsernameShowInfoRunnable()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_one_i_d_m_login_screen_activity.html#a1d095c9b47a050e4fc0a1dfd03a10ac5">de.telekom.pde.codelibrary.ui.modules.login.PDEOneIDMLoginScreenActivity</a>
 </li>
-<li>removeView()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01_adapter_01_4.html#a42ade16129cb8632c0da39aa2cb05241">com.actionbarsherlock.internal.widget.IcsAdapterView&lt; T extends Adapter &gt;</a>
-</li>
-<li>removeViewAt()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01_adapter_01_4.html#ab99a816067314bab6f60e0f4548950a2">com.actionbarsherlock.internal.widget.IcsAdapterView&lt; T extends Adapter &gt;</a>
-</li>
-<li>reopenMenu()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1_action_bar_sherlock_compat.html#a728a4babb672fbe9ed2b245e1fce0c2f">com.actionbarsherlock.internal.ActionBarSherlockCompat</a>
-</li>
-<li>replaceText()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1widget_1_1_search_view_1_1_search_auto_complete.html#a0e2f2e430d544749aaaea38ba58b2821">com.actionbarsherlock.widget.SearchView.SearchAutoComplete</a>
+<li>replaceControllerIdForEvent()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider.html#a962e773206865ae5fc6250688442e2dc">de.telekom.pde.codelibrary.ui.components.sliders.PDESlider</a>
 </li>
 <li>replaceULRwithTouchableURL()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_base_login_screen_activity.html#a5eaab866a32c5d4b1d136855191ad4e4">de.telekom.pde.codelibrary.ui.modules.login.PDEBaseLoginScreenActivity</a>
 </li>
 <li>requestAccessToken()
-: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_one_i_d_m_module.html#adb40b030a51baa182f787d85e38907e9">de.telekom.pde.codelibrary.ui.modules.login.PDEOneIDMModule</a>
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_one_i_d_m_module.html#a6edaeda60a567defe274f28426817e46">de.telekom.pde.codelibrary.ui.modules.login.PDEOneIDMModule</a>
 </li>
 <li>requestDeinitializationForListener()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a76ba0516b2044ee6329b20e77e9f3fc5">de.telekom.pde.codelibrary.ui.events.PDEEventSource</a>
 </li>
-<li>requestFeature()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1_action_bar_sherlock_compat.html#a9e2b64a746c29057e12794b383bb12ba">com.actionbarsherlock.internal.ActionBarSherlockCompat</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1_action_bar_sherlock.html#ac9c5a6efd7da055ad9a0d209a2fe91a6">com.actionbarsherlock.ActionBarSherlock</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1_action_bar_sherlock_native.html#a105b9f504c4748ace5b54242f4f4234b">com.actionbarsherlock.internal.ActionBarSherlockNative</a>
-</li>
-<li>requestFocus()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1widget_1_1_search_view.html#aba3243183629c4f737dc6fa5998a5ddd">com.actionbarsherlock.widget.SearchView</a>
-</li>
 <li>requestInitializationForListener()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a5effb1508f06b6c189515a16953ba9e5">de.telekom.pde.codelibrary.ui.events.PDEEventSource</a>
 </li>
-<li>requestLayout()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_abs_spinner.html#ab7817ba8dcc33b8038cf82b6ea6526d4">com.actionbarsherlock.internal.widget.IcsAbsSpinner</a>
-</li>
 <li>requestOneTimeDeinitialization()
-: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a89adab496de1bc88fbfca8579985b0ec">de.telekom.pde.codelibrary.ui.events.PDEEventSource</a>
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a0eed3dbef2976c7cb98ba2e118b875cb">de.telekom.pde.codelibrary.ui.events.PDEEventSource</a>
 </li>
 <li>requestOneTimeInitialization()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a1cd0fcb5cb8e9309ad96aa3c64d5f755">de.telekom.pde.codelibrary.ui.events.PDEEventSource</a>
 </li>
-<li>requestsActionButton()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_item_impl.html#a5f792f4295675e8a086b61594abbb5d4">com.actionbarsherlock.internal.view.menu.MenuItemImpl</a>
-</li>
-<li>requestWindowFeature()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1app_1_1_sherlock_preference_activity.html#a31bf761d3bc83d40e6c045ce4e7161d5">com.actionbarsherlock.app.SherlockPreferenceActivity</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1app_1_1_sherlock_fragment_activity.html#a30622fa582c8142a84d231035fac043e">com.actionbarsherlock.app.SherlockFragmentActivity</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1app_1_1_sherlock_activity.html#a8c371fc21e6e4c3765e4c33438480330">com.actionbarsherlock.app.SherlockActivity</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1app_1_1_sherlock_expandable_list_activity.html#a6ebc973ec1acff413ad141ca0ce481ca">com.actionbarsherlock.app.SherlockExpandableListActivity</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1app_1_1_sherlock_list_activity.html#a7336a1984c34b1cc36b4c0b7edf10a5a">com.actionbarsherlock.app.SherlockListActivity</a>
-</li>
-<li>requiresActionButton()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_item_impl.html#a760d212c282aee09fd35642419394b57">com.actionbarsherlock.internal.view.menu.MenuItemImpl</a>
-</li>
-<li>reserveOverflow()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu_presenter.html#aeb0c642528cfc03034357aa2220a58d8">com.actionbarsherlock.internal.view.menu.ActionMenuPresenter</a>
-</li>
-<li>reset()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1view_1_1animation_1_1_animator_proxy.html#a127880ffb12686f61036ef7093e3f333">com.actionbarsherlock.internal.nineoldandroids.view.animation.AnimatorProxy</a>
-</li>
-<li>resetGroup()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_menu_inflater_1_1_menu_state.html#aac9a4716252175947ee6dfb98b940a87">com.actionbarsherlock.view.MenuInflater.MenuState</a>
-</li>
-<li>resetList()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_abs_spinner.html#ab937e1f33c9e4255b582129461cd8975">com.actionbarsherlock.internal.widget.IcsAbsSpinner</a>
+<li>requestSliderContentInit()
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider.html#a84064388636d273d9acb638e0f0cf28c">de.telekom.pde.codelibrary.ui.components.sliders.PDESlider</a>
 </li>
 <li>resolveButtonPadding()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a1343391161095921fea2c0e17d0b50b5">de.telekom.pde.codelibrary.ui.components.buttons.PDEButton</a>
@@ -470,23 +352,8 @@ $(document).ready(function(){initNavTree('functions_func_0x72.html','');});
 <li>resolveColorForSymbolicName()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#add39555de46176abbe9932520ff6c60d">de.telekom.pde.codelibrary.ui.color.PDEColor</a>
 </li>
-<li>ResourcesCompat()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1_resources_compat.html#a67ce645a72b73a8091cc82e0c98c72b1">com.actionbarsherlock.internal.ResourcesCompat</a>
-</li>
 <li>reStartUsernameShowInfoRunnable()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_one_i_d_m_login_screen_activity.html#a8124822d60ddfe0d9134755bc103662e">de.telekom.pde.codelibrary.ui.modules.login.PDEOneIDMLoginScreenActivity</a>
-</li>
-<li>restoreActionViewStates()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html#a3c589dbea72a7027ec6de65ff48f102a">com.actionbarsherlock.internal.view.menu.MenuBuilder</a>
-</li>
-<li>restorePresenterStates()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_menu_builder.html#ac3444457cf6e19217978f91f09cb87b2">com.actionbarsherlock.internal.view.menu.MenuBuilder</a>
-</li>
-<li>reverse()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1animation_1_1_value_animator.html#a60fc5842328912e4bca4198ac760d996">com.actionbarsherlock.internal.nineoldandroids.animation.ValueAnimator</a>
-</li>
-<li>rewriteQueryFromSuggestion()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1widget_1_1_search_view.html#a25a379ce0957ef6a487c46cc38ca8807">com.actionbarsherlock.widget.SearchView</a>
 </li>
 <li>roundToScreenCoordinates()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a91f91f1b91438572536538c2c05c1956">de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits</a>
@@ -495,22 +362,11 @@ $(document).ready(function(){initNavTree('functions_func_0x72.html','');});
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a87fd4124f0bfbc357b4436c747d61311">de.telekom.pde.codelibrary.ui.buildingunits.PDEBuildingUnits</a>
 </li>
 <li>run()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1widget_1_1_activity_chooser_model_1_1_history_loader.html#ad021f045ff491127f1ba964892b8a8c2">com.actionbarsherlock.widget.ActivityChooserModel.HistoryLoader</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01_adac22d0bbb63b0ddde201873976921cc3b.html#a453d16ed0813854c17dd3cff3e9c16d9">com.actionbarsherlock.internal.widget.IcsAdapterView&lt; T extends Adapter &gt;.SelectionNotifier</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_list_popup_window_1_1_list_selector_hider.html#a7f30f4d924de4f24b6667edc78188188">com.actionbarsherlock.internal.widget.IcsListPopupWindow.ListSelectorHider</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu_presenter_1_1_open_overflow_runnable.html#a5348570827994c6a6503409df765ef06">com.actionbarsherlock.internal.view.menu.ActionMenuPresenter.OpenOverflowRunnable</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_progress_bar_1_1_accessibility_event_sender.html#add0273ff3ca847d811d42be59c469593">com.actionbarsherlock.internal.widget.IcsProgressBar.AccessibilityEventSender</a>
+: <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1splashscreen_1_1_activity_splash_sample_1_1_next_activity_loader.html#a322df7691dadbaf3be90c33ab56f4773">de.telekom.pde.codelibrary.samples.splashscreen.ActivitySplashSample.NextActivityLoader</a>
 , <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view_1_1_check_for_tap.html#ae1d78b0aa6b854ca286da25414403488">de.telekom.pde.codelibrary.ui.agents.PDEAgentControllerAdapterView.CheckForTap</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_progress_bar_1_1_refresh_progress_runnable.html#a2d6d578706a94ae047bc268ffb597f1a">com.actionbarsherlock.internal.widget.IcsProgressBar.RefreshProgressRunnable</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1widget_1_1_activity_chooser_model_1_1_history_persister.html#a1f750e1a40eeb70d05fe5586178a23b9">com.actionbarsherlock.widget.ActivityChooserModel.HistoryPersister</a>
-, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1splashscreen_1_1_activity_splash_sample_1_1_next_activity_loader.html#a322df7691dadbaf3be90c33ab56f4773">de.telekom.pde.codelibrary.samples.splashscreen.ActivitySplashSample.NextActivityLoader</a>
-, <a class="el" href="classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_list_popup_window_1_1_resize_popup_runnable.html#aea21bfeabdd870f7c83e70643dd4ca8d">com.actionbarsherlock.internal.widget.IcsListPopupWindow.ResizePopupRunnable</a>
 </li>
 <li>runloopTiming()
 : <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html#aaf3655677df09ce44dcf8436c8568aaa">de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot</a>
-</li>
-<li>runQueryOnBackgroundThread()
-: <a class="el" href="classcom_1_1actionbarsherlock_1_1widget_1_1_suggestions_adapter.html#af5cea649bea39430b23eaab1f12e3c80">com.actionbarsherlock.widget.SuggestionsAdapter</a>
 </li>
 </ul>
 </div><!-- contents -->

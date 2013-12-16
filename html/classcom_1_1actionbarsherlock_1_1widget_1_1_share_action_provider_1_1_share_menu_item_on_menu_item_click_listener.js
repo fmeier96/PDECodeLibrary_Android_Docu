@@ -1,4 +1,0 @@
-var classcom_1_1actionbarsherlock_1_1widget_1_1_share_action_provider_1_1_share_menu_item_on_menu_item_click_listener =
-[
-    [ "onMenuItemClick", "classcom_1_1actionbarsherlock_1_1widget_1_1_share_action_provider_1_1_share_menu_item_on_menu_item_click_listener.html#a8d1b6fe6c533a5651aa7b9933a09aa7f", null ]
-];

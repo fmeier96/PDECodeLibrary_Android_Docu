@@ -1,5 +1,0 @@
-var classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu_presenter_1_1_action_button_submenu =
-[
-    [ "ActionButtonSubmenu", "classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu_presenter_1_1_action_button_submenu.html#a81280222d03f628b344f9ce8068ca6ae", null ],
-    [ "onDismiss", "classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu_presenter_1_1_action_button_submenu.html#ac2f28e7285a925bece45ded4c529d2e3", null ]
-];

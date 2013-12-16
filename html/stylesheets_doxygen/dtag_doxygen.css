@@ -3513,6 +3513,16 @@ body a, table a, div a, p a, dl a {
   float: left;
 }
 
+#dtag_logo {
+  background: url('../images/deutsche-telekom-brand-logo-web.png') no-repeat 0 2px !important;
+}
+
+#dtag_servicelevel h2 {
+  font-size: 21px;
+  color: #d0d0d0;
+  text-transform: uppercase;
+  margin-top: 3px !important;
+}
 /*
 #dtag_wrapper {
 	overflow: visible !important;
@@ -3915,9 +3925,9 @@ DIV.searchresults {
 
 /* line 407, ../../sass/dtag_doxygen.scss */
 #MSearchField {
-  height: 2.5em;
-  width: 33.75em;
-  padding-left: 8.125em;
+  height: 1.6em;
+  width: 21.25em;
+  padding-left: 5.25em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;

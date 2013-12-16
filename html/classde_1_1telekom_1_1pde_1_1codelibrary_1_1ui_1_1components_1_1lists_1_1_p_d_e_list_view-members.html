@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -181,17 +180,19 @@ $(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibra
 
 <p>This is the complete list of members for <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a>, including all inherited members.</p>
 <table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a5243c8286e6a4d630a46395641deaa07">addListener</a>(Object target, String methodName)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a5157af8fe8ae665252a8802bf7b0e52b">addListener</a>(Object target, String methodName, String eventMask)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#aaa39cf6a83c735ff1e507a790ad19eea">DEBUG</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#adbdc6a28fe6f4cd305350546c92df6e3">dispatchTouchEvent</a>(MotionEvent ev)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a363887b20cc82b4deae76cdefa2b92b6">getEventSource</a>()</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#ac663dfb5a112851a1b5fe117f23c5d3a">init</a>()</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a8d687c2ccce98c506044eaff777b524d">LOG_TAG</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a244d6de1d1cf63869ac18a5e9f712727">mIsScrolling</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a1a096f3edf85ceac180f83fce5fd352b">mTapDownPosition</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a33f6acdff6e9868766d0e5962cbf5c41">mTapped</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a33a2ffacf54c1626c1f4f64208763d6c">onInterceptTouchEvent</a>(MotionEvent ev)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a647630f702d415d319bb9d8a83584d82">mEventSource</a></td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#acfab1c26061446bb94634bc4a57ae46d">onPDEListItemClicked</a>(PDEEvent event)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#aded1e3174896a61bb5e089ff89c0744a">PDEListView</a>(Context context)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#aff1a34a8af8653d484afab79984aa63c">PDEListView</a>(Context context, AttributeSet attrs)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a730e62bddc46ed4994b4f331577383c2">PDEListView</a>(Context context, AttributeSet attrs, int defStyle)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a6df1af5d84c7b28eb489f19b9834f4a6">removeListener</a>(Object listener)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a0b2f5ad5c3c4c8dd83132b1986070369">sendListEvent</a>(String type, int listPosition)</td><td class="entry"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">de.telekom.pde.codelibrary.ui.components.lists.PDEListView</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 

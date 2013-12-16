@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -196,9 +195,9 @@ Inheritance diagram for de.telekom.pde.codelibrary.ui.animation.PDEAnimationGrou
  </div></div>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>An animation group for grouping other animations. </p>
-<p>Animations can be grouped by using <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html" title="An animation group for grouping other animations.">PDEAnimationGroup</a>. Groups are useful to structure your animations. All subanimations run on the group's timebase, which can be easily changed by modifying the group's time factor. Animation groups also offer consolidated change management. The didChange: callback of an animation group gets called if at least one of the subanimations did change during the animation phase, so it's easy to check for changes after everything has actually been changed by listening on the group.</p>
+<p>Animations can be grouped by using <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html" title="An animation group for grouping other animations.">PDEAnimationGroup</a>. Groups are useful to structure your animations. All sub-animations run on the group's timebase, which can be easily changed by modifying the group's time factor. Animation groups also offer consolidated change management. The didChange: callback of an animation group gets called if at least one of the sub-animations did change during the animation phase, so it's easy to check for changes after everything has actually been changed by listening on the group.</p>
 <p>Animation groups inherit functionality from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html" title="The base class for the animation system.">PDEAnimation</a> so they can be linked into other groups, building a tree of animations. There's one special animation group, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html" title="The root animation.">PDEAnimationRoot</a>, which is the root instance of all animations in the system and is linked into frame timing. Link an animation or group to <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html" title="The root animation.">PDEAnimationRoot</a> to start getting animation updates. Unlinked animations will never be updated or changing.</p>
-<p>Animation groups are optimized to save battery and processing power. They have a consolidated internal running state and only set themselves to running if any of the subanimations is running. If an animation group is not running, it goes completely idle and does not participate in the regular animation cycle.</p>
+<p>Animation groups are optimized to save battery and processing power. They have a consolidated internal running state and only set themselves to running if any of the sub-animations is running. If an animation group is not running, it goes completely idle and does not participate in the regular animation cycle.</p>
 <p>Animation groups are usually not derived from. There's not much to be changed inside an animation group. The timing and animation behaviour should not be modified by a derived class. </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
@@ -244,11 +243,11 @@ Package Methods</h2></td></tr>
 <tr class="memitem:a1e02d0780e6d24f8e00e50d6e5f46098"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#a1e02d0780e6d24f8e00e50d6e5f46098">isRunningWithSubAnimations</a> ()</td></tr>
 <tr class="memdesc:a1e02d0780e6d24f8e00e50d6e5f46098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload for base function.  <a href="#a1e02d0780e6d24f8e00e50d6e5f46098"></a><br/></td></tr>
 <tr class="memitem:a1740422dd6dd9a46ee2478715de901be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#a1740422dd6dd9a46ee2478715de901be">registerSubAnimationForChanged</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html">PDEAnimation</a> animation)</td></tr>
-<tr class="memdesc:a1740422dd6dd9a46ee2478715de901be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register one of our subanimations for change handling.  <a href="#a1740422dd6dd9a46ee2478715de901be"></a><br/></td></tr>
+<tr class="memdesc:a1740422dd6dd9a46ee2478715de901be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register one of our sub-animations for change handling.  <a href="#a1740422dd6dd9a46ee2478715de901be"></a><br/></td></tr>
 <tr class="memitem:aff90b8ed4bc0d9ca02222685291ad6c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#aff90b8ed4bc0d9ca02222685291ad6c5">unregisterSubAnimationForChanged</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html">PDEAnimation</a> animation)</td></tr>
 <tr class="memdesc:aff90b8ed4bc0d9ca02222685291ad6c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister a child animation for changes.  <a href="#aff90b8ed4bc0d9ca02222685291ad6c5"></a><br/></td></tr>
 <tr class="memitem:a6b059f3dbe0fd50b3d69ddf6eea7e699"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#a6b059f3dbe0fd50b3d69ddf6eea7e699">clearChangedSubAnimations</a> ()</td></tr>
-<tr class="memdesc:a6b059f3dbe0fd50b3d69ddf6eea7e699"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear (forget) all pending subanimations.  <a href="#a6b059f3dbe0fd50b3d69ddf6eea7e699"></a><br/></td></tr>
+<tr class="memdesc:a6b059f3dbe0fd50b3d69ddf6eea7e699"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear (forget) all pending sub-animations.  <a href="#a6b059f3dbe0fd50b3d69ddf6eea7e699"></a><br/></td></tr>
 <tr class="memitem:af03ba510a9db0a516151d0e45cadb9e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html#af03ba510a9db0a516151d0e45cadb9e1">clearChanges</a> ()</td></tr>
 <tr class="memdesc:af03ba510a9db0a516151d0e45cadb9e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all pending change notifications.  <a href="#af03ba510a9db0a516151d0e45cadb9e1"></a><br/></td></tr>
 </table><table class="memberdecls">
@@ -554,10 +553,10 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add a sub-animation to the group. </p>
-<p>The subanimation is optionally retained and lives until explicitly removed or the group is released.</p>
+<p>The sub-animation is optionally retained and lives until explicitly removed or the group is released.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">animation</td><td>Subanimation to add to the group. </td></tr>
+    <tr><td class="paramname">animation</td><td>Sub-animation to add to the group. </td></tr>
     <tr><td class="paramname">strong</td><td>true if the animation should be additionally stored in a strong reference. </td></tr>
   </table>
   </dd>
@@ -614,7 +613,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Register a sub-animation at the parent as running. </p>
-<p>Internal use only. Note that we must not change the running subanimations while animating; so for this case we keep a list of animations to be added or removed.</p>
+<p>Internal use only. Note that we must not change the running sub-animations while animating; so for this case we keep a list of animations to be added or removed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">animation</td><td>Animation to add to the parent's running list. </td></tr>
@@ -679,7 +678,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Overload for base function. </p>
-<p>Take subanimations into account. A group is running if it's marked as running, or if any subanimation is registered for running. The running flag is not set by the current implementation of <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html" title="An animation group for grouping other animations.">PDEAnimationGroup</a>, but it might used by a derived class.</p>
+<p>Take sub-animations into account. A group is running if it's marked as running, or if any sub-animation is registered for running. The running flag is not set by the current implementation of <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html" title="An animation group for grouping other animations.">PDEAnimationGroup</a>, but it might used by a derived class.</p>
 <dl class="section return"><dt>Returns</dt><dd>true if this instance should actually be running. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#ada9858c1fde7e698cac15337600cfe6e">de.telekom.pde.codelibrary.ui.animation.PDEAnimation</a>.</p>
@@ -803,7 +802,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set changed flag. </p>
-<p>Modified from base behaviour to accomodate the fact that we can have children interested in change management.</p>
+<p>Modified from base behaviour to accommodate the fact that we can have children interested in change management.</p>
 <p>Set the changed flag if either we are sending out notifications, or if we have clients needing a change. </p>
 
 <p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#a571f0c92622ddbd2a51f99e17fcaddb6">de.telekom.pde.codelibrary.ui.animation.PDEAnimation</a>.</p>
@@ -834,11 +833,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Register one of our subanimations for change handling. </p>
-<p>Register a subanimation for change handling. The subanimation is added to the list. After the animation phase is done, the list is processed.</p>
+<p>Register one of our sub-animations for change handling. </p>
+<p>Register a sub-animation for change handling. The sub-animation is added to the list. After the animation phase is done, the list is processed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">animation</td><td>Subanimation to add to the list. </td></tr>
+    <tr><td class="paramname">animation</td><td>Sub-animation to add to the list. </td></tr>
   </table>
   </dd>
 </dl>
@@ -871,7 +870,7 @@ Protected Attributes</h2></td></tr>
 <p>This is an expensive operation. Only use it when absolutely necessary (e.g. for cleaning up / removing animations from the tree). Normally, the list is processed in one piece and then cleared afterwards.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">animation</td><td>Subanimation to remove from the list. </td></tr>
+    <tr><td class="paramname">animation</td><td>Sub-animation to remove from the list. </td></tr>
   </table>
   </dd>
 </dl>
@@ -899,7 +898,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Clear (forget) all pending subanimations. </p>
+<p>Clear (forget) all pending sub-animations. </p>
 
 </div>
 </div>
@@ -925,7 +924,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Send out all pending change notifications. </p>
-<p>First processes the subanimations, then sends out our own animations to get the correct order. </p>
+<p>First processes the sub-animations, then sends out our own animations to get the correct order. </p>
 
 <p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.html#abb1c1fcb36fc29943016660a7607a5ea">de.telekom.pde.codelibrary.ui.animation.PDEAnimation</a>.</p>
 

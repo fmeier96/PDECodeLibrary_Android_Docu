@@ -7,6 +7,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_tim
     [ "postFrameCallback", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_choreographer.html#a5c9f14f4829dec9c93a7acd3a06d9f22", null ],
     [ "removeFrameCallback", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_choreographer.html#a967927bb89e7a631b6d1314c53afc4ea", null ],
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_choreographer.html#af52ee2e236dbc9654368f6123b56a9ef", null ],
-    [ "DEBUGPARAMS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_choreographer.html#aefe507a80b5faf8f2e897360bff546ce", null ],
+    [ "DEBUG_PARAMS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_choreographer.html#a6401e09668b3eb9bc5916f4ab8f3abff", null ],
     [ "mFrameCallbackSet", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_choreographer.html#adac0a95396880b071debd9b11211c6ce", null ]
 ];

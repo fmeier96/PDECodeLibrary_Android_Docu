@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -331,23 +330,23 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:aa2c2d58051a2c2ddcba354bd681881b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set ratio of icon height to text height.  <a href="#aa2c2d58051a2c2ddcba354bd681881b2"></a><br/></td></tr>
 <tr class="memitem:ae4c6e4aa5e4390339736eeb0dd90d231"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#ae4c6e4aa5e4390339736eeb0dd90d231">getIconToTextHeightRatio</a> ()</td></tr>
 <tr class="memdesc:ae4c6e4aa5e4390339736eeb0dd90d231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get ratio of icon height to text height.  <a href="#ae4c6e4aa5e4390339736eeb0dd90d231"></a><br/></td></tr>
-<tr class="memitem:a0808ea8a34f0b16f61e9d23ed55d8da4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a0808ea8a34f0b16f61e9d23ed55d8da4">setParameters</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a> parameters)</td></tr>
+<tr class="memitem:a0808ea8a34f0b16f61e9d23ed55d8da4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a0808ea8a34f0b16f61e9d23ed55d8da4">setParameters</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a> parameters)</td></tr>
 <tr class="memdesc:a0808ea8a34f0b16f61e9d23ed55d8da4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for all parameters.  <a href="#a0808ea8a34f0b16f61e9d23ed55d8da4"></a><br/></td></tr>
 <tr class="memitem:ada0770e5b9356ad93432a6fb4c88575f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#ada0770e5b9356ad93432a6fb4c88575f">setParameter</a> (String name, String value)</td></tr>
 <tr class="memdesc:ada0770e5b9356ad93432a6fb4c88575f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set parameter, distribute changes.  <a href="#ada0770e5b9356ad93432a6fb4c88575f"></a><br/></td></tr>
 <tr class="memitem:affcab8bb3f3dab0fbd33c7081c6d21e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#affcab8bb3f3dab0fbd33c7081c6d21e1">setParameter</a> (String name, Object object)</td></tr>
 <tr class="memdesc:affcab8bb3f3dab0fbd33c7081c6d21e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set parameter, distribute changes.  <a href="#affcab8bb3f3dab0fbd33c7081c6d21e1"></a><br/></td></tr>
-<tr class="memitem:a4ca743412c9cb87450b42fce752ed626"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a4ca743412c9cb87450b42fce752ed626">setParameter</a> (String name, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a> parameter)</td></tr>
+<tr class="memitem:a4ca743412c9cb87450b42fce752ed626"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a4ca743412c9cb87450b42fce752ed626">setParameter</a> (String name, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a> parameter)</td></tr>
 <tr class="memdesc:a4ca743412c9cb87450b42fce752ed626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set parameter, distribute changes.  <a href="#a4ca743412c9cb87450b42fce752ed626"></a><br/></td></tr>
-<tr class="memitem:a858914d4ef04ec47dd37b16185399866"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a858914d4ef04ec47dd37b16185399866">setParameter</a> (String name, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a> dictionary)</td></tr>
+<tr class="memitem:a858914d4ef04ec47dd37b16185399866"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a858914d4ef04ec47dd37b16185399866">setParameter</a> (String name, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a> dictionary)</td></tr>
 <tr class="memdesc:a858914d4ef04ec47dd37b16185399866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set parameter, distribute changes.  <a href="#a858914d4ef04ec47dd37b16185399866"></a><br/></td></tr>
 <tr class="memitem:ad4a731f19090ed5cf258332b660dfa54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#ad4a731f19090ed5cf258332b660dfa54">mergeParameter</a> (String name, String value, String subKey)</td></tr>
 <tr class="memdesc:ad4a731f19090ed5cf258332b660dfa54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set parameter, distribute changes.  <a href="#ad4a731f19090ed5cf258332b660dfa54"></a><br/></td></tr>
 <tr class="memitem:a5aa165dd92455a950452ff35748034fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a5aa165dd92455a950452ff35748034fc">mergeParameter</a> (String name, Object object, String subKey)</td></tr>
 <tr class="memdesc:a5aa165dd92455a950452ff35748034fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set parameter, distribute changes.  <a href="#a5aa165dd92455a950452ff35748034fc"></a><br/></td></tr>
-<tr class="memitem:a3ec402626ae26520117c2a3cb227f654"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a3ec402626ae26520117c2a3cb227f654">mergeParameter</a> (String name, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a> parameter)</td></tr>
+<tr class="memitem:a3ec402626ae26520117c2a3cb227f654"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a3ec402626ae26520117c2a3cb227f654">mergeParameter</a> (String name, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a> parameter)</td></tr>
 <tr class="memdesc:a3ec402626ae26520117c2a3cb227f654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set parameter, distribute changes.  <a href="#a3ec402626ae26520117c2a3cb227f654"></a><br/></td></tr>
-<tr class="memitem:a11ff935e8f45c106e718741ce00d6a60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a11ff935e8f45c106e718741ce00d6a60">mergeParameter</a> (String name, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a> dictionary)</td></tr>
+<tr class="memitem:a11ff935e8f45c106e718741ce00d6a60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a11ff935e8f45c106e718741ce00d6a60">mergeParameter</a> (String name, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a> dictionary)</td></tr>
 <tr class="memdesc:a11ff935e8f45c106e718741ce00d6a60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set parameter, distribute changes.  <a href="#a11ff935e8f45c106e718741ce00d6a60"></a><br/></td></tr>
 <tr class="memitem:a22e86397994470d0a9cdaee83af3dfb6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a22e86397994470d0a9cdaee83af3dfb6">getMainState</a> ()</td></tr>
 <tr class="memdesc:a22e86397994470d0a9cdaee83af3dfb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the button's current state.  <a href="#a22e86397994470d0a9cdaee83af3dfb6"></a><br/></td></tr>
@@ -357,12 +356,17 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:aa51c5bdff310cf0560a16ce0245a2430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve selected state from main state.  <a href="#aa51c5bdff310cf0560a16ce0245a2430"></a><br/></td></tr>
 <tr class="memitem:a61da71d6bebffdf1eea64f6ce80e541d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a61da71d6bebffdf1eea64f6ce80e541d">setSelected</a> (boolean selected)</td></tr>
 <tr class="memdesc:a61da71d6bebffdf1eea64f6ce80e541d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set selected state.  <a href="#a61da71d6bebffdf1eea64f6ce80e541d"></a><br/></td></tr>
+<tr class="memitem:a0469d2912c546f566392ef4918604507"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a0469d2912c546f566392ef4918604507">setEnabled</a> (boolean enabled)</td></tr>
+<tr class="memdesc:a0469d2912c546f566392ef4918604507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enabled state (overridden from Android).  <a href="#a0469d2912c546f566392ef4918604507"></a><br/></td></tr>
+<tr class="memitem:a47edc41eb368fc2af0d4c3ef072e7837"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a47edc41eb368fc2af0d4c3ef072e7837">isEnabled</a> ()</td></tr>
+<tr class="memdesc:a47edc41eb368fc2af0d4c3ef072e7837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check enabled state (overridden from Android).  <a href="#a47edc41eb368fc2af0d4c3ef072e7837"></a><br/></td></tr>
 <tr class="memitem:a1ee46cd62c2ba87ee519096cdae08524"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a1ee46cd62c2ba87ee519096cdae08524">addHint</a> (Object hint, String key)</td></tr>
 <tr class="memdesc:a1ee46cd62c2ba87ee519096cdae08524"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a user-defined hint to the button.  <a href="#a1ee46cd62c2ba87ee519096cdae08524"></a><br/></td></tr>
 <tr class="memitem:a47fd1c6a30347f2b81dc75ac91feb5e2"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a47fd1c6a30347f2b81dc75ac91feb5e2">hintForKey</a> (String key)</td></tr>
 <tr class="memdesc:a47fd1c6a30347f2b81dc75ac91feb5e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a hint from the merged hints.  <a href="#a47fd1c6a30347f2b81dc75ac91feb5e2"></a><br/></td></tr>
 <tr class="memitem:acd715d6ce3f707bb8470e1065996797d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#acd715d6ce3f707bb8470e1065996797d">collectHintsFromLayers</a> ()</td></tr>
 <tr class="memdesc:acd715d6ce3f707bb8470e1065996797d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect hints from all layers.  <a href="#acd715d6ce3f707bb8470e1065996797d"></a><br/></td></tr>
+<tr class="memitem:a29ecc9e288d6b57c0aee60601f064605"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a29ecc9e288d6b57c0aee60601f064605">setLayoutParams</a> (ViewGroup.LayoutParams params)</td></tr>
 <tr class="memitem:a7f9973a5bec8a4adc559361c8f33a29a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a7f9973a5bec8a4adc559361c8f33a29a">getMainLayoutTop</a> ()</td></tr>
 <tr class="memdesc:a7f9973a5bec8a4adc559361c8f33a29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper for offset calculations.  <a href="#a7f9973a5bec8a4adc559361c8f33a29a"></a><br/></td></tr>
 <tr class="memitem:a24eaa5fded3a1070e8a89aab5f4693ab"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a24eaa5fded3a1070e8a89aab5f4693ab">getNeededPadding</a> ()</td></tr>
@@ -372,12 +376,12 @@ Public Methods</h2></td></tr>
 <tr class="memitem:aa376bb68a3c5cbf72fd727e6a5795f9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#aa376bb68a3c5cbf72fd727e6a5795f9a">getEventSource</a> ()</td></tr>
 <tr class="memdesc:aa376bb68a3c5cbf72fd727e6a5795f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the eventSource which is responsible for sending PDEEvents events. Most of the events are coming form the PDEAgentController.  <a href="#aa376bb68a3c5cbf72fd727e6a5795f9a"></a><br/></td></tr>
 <tr class="memitem:a3da751b0fa6b495c92645b98f09911b4"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a3da751b0fa6b495c92645b98f09911b4">addListener</a> (Object target, String methodName)</td></tr>
-<tr class="memdesc:a3da751b0fa6b495c92645b98f09911b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Add event Listener.  <a href="#a3da751b0fa6b495c92645b98f09911b4"></a><br/></td></tr>
+<tr class="memdesc:a3da751b0fa6b495c92645b98f09911b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add event Listener.  <a href="#a3da751b0fa6b495c92645b98f09911b4"></a><br/></td></tr>
 <tr class="memitem:a064c2cb4fd0ccd5560c643c96dd85a9a"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a064c2cb4fd0ccd5560c643c96dd85a9a">addListener</a> (Object target, String methodName, String eventMask)</td></tr>
-<tr class="memdesc:a064c2cb4fd0ccd5560c643c96dd85a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Add event Listener.  <a href="#a064c2cb4fd0ccd5560c643c96dd85a9a"></a><br/></td></tr>
+<tr class="memdesc:a064c2cb4fd0ccd5560c643c96dd85a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add event Listener.  <a href="#a064c2cb4fd0ccd5560c643c96dd85a9a"></a><br/></td></tr>
 <tr class="memitem:a1413beaf77eca91b3ece645060a75da3"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a1413beaf77eca91b3ece645060a75da3">removeListener</a> (Object listener)</td></tr>
 <tr class="memitem:a0b213b1eaf9a4a73a76d01cecf3b0c82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a0b213b1eaf9a4a73a76d01cecf3b0c82">setOnClickListener</a> (OnClickListener l)</td></tr>
-<tr class="memdesc:a0b213b1eaf9a4a73a76d01cecf3b0c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Register a android style callback to be invoked when this view is clicked - NOTE better use the more flexible addListener approach. The <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html" title="Basic button, controlled by agent states.">PDEButton</a> also supports the OnClickListener approach of Android. But in order to write Telekom StyleGuide compartible code you are encouraged to use the PDEEvent (PDEEventSource). The onClick of the Listen will be called when the WillBeSelected PDEEvent is sent. If you need to react on the Selected-Event please use the addListener approach.  <a href="#a0b213b1eaf9a4a73a76d01cecf3b0c82"></a><br/></td></tr>
+<tr class="memdesc:a0b213b1eaf9a4a73a76d01cecf3b0c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a android style callback to be invoked when this view is clicked - NOTE better use the more flexible addListener approach. The <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html" title="Basic button, controlled by agent states.">PDEButton</a> also supports the OnClickListener approach of Android. But in order to write Telekom StyleGuide compartible code you are encouraged to use the PDEEvent (PDEEventSource). The onClick of the Listen will be called when the WillBeSelected PDEEvent is sent. If you need to react on the Selected-Event please use the addListener approach.  <a href="#a0b213b1eaf9a4a73a76d01cecf3b0c82"></a><br/></td></tr>
 <tr class="memitem:a1fdb7b972f66a1a89c105c8f01ebef00"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a1fdb7b972f66a1a89c105c8f01ebef00">performPDEButtonClick</a> ()</td></tr>
 <tr class="memitem:a8a680747dfc8d0da4191249287519c46"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a8a680747dfc8d0da4191249287519c46">callOnPDEButtonClick</a> ()</td></tr>
 <tr class="memitem:a52e87e8f53f6d2dd7e6a857c5b321adc"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a52e87e8f53f6d2dd7e6a857c5b321adc">hasOnClickListeners</a> ()</td></tr>
@@ -388,8 +392,10 @@ Protected Methods</h2></td></tr>
 <tr class="memitem:af4da162b39caf68889fa4ff106cbeda7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#af4da162b39caf68889fa4ff106cbeda7">init</a> (AttributeSet attrs)</td></tr>
 <tr class="memdesc:af4da162b39caf68889fa4ff106cbeda7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal initialisation.  <a href="#af4da162b39caf68889fa4ff106cbeda7"></a><br/></td></tr>
 <tr class="memitem:ade0c0f635d2621518d1607cf7369f9c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#ade0c0f635d2621518d1607cf7369f9c0">onMeasure</a> (int widthMeasureSpec, int heightMeasureSpec)</td></tr>
+<tr class="memdesc:ade0c0f635d2621518d1607cf7369f9c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine layout size of element.  <a href="#ade0c0f635d2621518d1607cf7369f9c0"></a><br/></td></tr>
 <tr class="memitem:a60dc5bd0a7ee204b7480905f3e608ccf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a60dc5bd0a7ee204b7480905f3e608ccf">onLayout</a> (boolean changed, int l, int t, int r, int b)</td></tr>
-<tr class="memitem:aeeedc0f17ea8ef8e4d39ee6d6c7d4500"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#aeeedc0f17ea8ef8e4d39ee6d6c7d4500">onSizeChanged</a> (int w, int h, int oldw, int oldh)</td></tr>
+<tr class="memitem:ae9dfba9c0a81da7731aaff4b0fbec543"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#ae9dfba9c0a81da7731aaff4b0fbec543">onSizeChanged</a> (int width, int height, int oldWidth, int oldHeight)</td></tr>
+<tr class="memdesc:ae9dfba9c0a81da7731aaff4b0fbec543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size changed.  <a href="#ae9dfba9c0a81da7731aaff4b0fbec543"></a><br/></td></tr>
 <tr class="memitem:a1343391161095921fea2c0e17d0b50b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a1343391161095921fea2c0e17d0b50b5">resolveButtonPadding</a> ()</td></tr>
 <tr class="memitem:a85359ff04795a6570ac03dba38df1e8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a85359ff04795a6570ac03dba38df1e8d">collectButtonPaddingRequests</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_button_padding.html">PDEButtonPadding</a> buttonPadding, <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_interface.html">PDEButtonLayerInterface</a> layer)</td></tr>
 <tr class="memitem:aa8310964b0faa32c7c816ac04760eb5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#aa8310964b0faa32c7c816ac04760eb5c">onRestoreInstanceState</a> (Parcelable state)</td></tr>
@@ -412,15 +418,25 @@ Private Methods</h2></td></tr>
 <tr class="memdesc:af8248f3986978ec89de2257d561e71c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select one of the default foregrounds.  <a href="#af8248f3986978ec89de2257d561e71c4"></a><br/></td></tr>
 <tr class="memitem:a6294128b8960b8b6d8e7df71bcb65869"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a6294128b8960b8b6d8e7df71bcb65869">sendParametersToLayers</a> ()</td></tr>
 <tr class="memdesc:a6294128b8960b8b6d8e7df71bcb65869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function. Distribute the parameters to all sub components.  <a href="#a6294128b8960b8b6d8e7df71bcb65869"></a><br/></td></tr>
-<tr class="memitem:ab18b883a58dad631ffb3a228499f8f10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#ab18b883a58dad631ffb3a228499f8f10">sendParameters</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a> parameters, <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_interface.html">PDEButtonLayerInterface</a> layer)</td></tr>
+<tr class="memitem:ab18b883a58dad631ffb3a228499f8f10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#ab18b883a58dad631ffb3a228499f8f10">sendParameters</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a> parameters, <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_interface.html">PDEButtonLayerInterface</a> layer)</td></tr>
 <tr class="memdesc:ab18b883a58dad631ffb3a228499f8f10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send parameters to specified layer.  <a href="#ab18b883a58dad631ffb3a228499f8f10"></a><br/></td></tr>
-<tr class="memitem:a40d3adaee5d465eb87ef97832687a51e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a40d3adaee5d465eb87ef97832687a51e">collectHints</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a> hints, <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_interface.html">PDEButtonLayerInterface</a> layer)</td></tr>
+<tr class="memitem:aa43309d4d853bb0b521608cc09cbeed3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#aa43309d4d853bb0b521608cc09cbeed3">setVisualEnabled</a> (boolean enabled)</td></tr>
+<tr class="memdesc:aa43309d4d853bb0b521608cc09cbeed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visual enabled state.  <a href="#aa43309d4d853bb0b521608cc09cbeed3"></a><br/></td></tr>
+<tr class="memitem:a88d1f10618a78b93a47c35082c6e5637"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a88d1f10618a78b93a47c35082c6e5637">isVisualEnabled</a> ()</td></tr>
+<tr class="memdesc:a88d1f10618a78b93a47c35082c6e5637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read visual enabled state.  <a href="#a88d1f10618a78b93a47c35082c6e5637"></a><br/></td></tr>
+<tr class="memitem:a087753ac2845c7bfb2620101d0305eb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a087753ac2845c7bfb2620101d0305eb1">setUserInteractionEnabled</a> (boolean enabled)</td></tr>
+<tr class="memdesc:a087753ac2845c7bfb2620101d0305eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">User interaction enabled state.  <a href="#a087753ac2845c7bfb2620101d0305eb1"></a><br/></td></tr>
+<tr class="memitem:aaee559efe465df6b3fdaa8000a84ce8b"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#aaee559efe465df6b3fdaa8000a84ce8b">isUserInteractionEnabled</a> ()</td></tr>
+<tr class="memdesc:aaee559efe465df6b3fdaa8000a84ce8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read user interaction enabled state.  <a href="#aaee559efe465df6b3fdaa8000a84ce8b"></a><br/></td></tr>
+<tr class="memitem:a0e7b4b1c853e0f6a01aa4fc19b7fbd99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a0e7b4b1c853e0f6a01aa4fc19b7fbd99">updateAlpha</a> ()</td></tr>
+<tr class="memdesc:a0e7b4b1c853e0f6a01aa4fc19b7fbd99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple alpha update for disabled.  <a href="#a0e7b4b1c853e0f6a01aa4fc19b7fbd99"></a><br/></td></tr>
+<tr class="memitem:a40d3adaee5d465eb87ef97832687a51e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a40d3adaee5d465eb87ef97832687a51e">collectHints</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a> hints, <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_interface.html">PDEButtonLayerInterface</a> layer)</td></tr>
 <tr class="memdesc:a40d3adaee5d465eb87ef97832687a51e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect a hints from one layer.  <a href="#a40d3adaee5d465eb87ef97832687a51e"></a><br/></td></tr>
 <tr class="memitem:af13b1e4a672308b42da0bf39509e3764"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#af13b1e4a672308b42da0bf39509e3764">mergeHints</a> ()</td></tr>
 <tr class="memdesc:af13b1e4a672308b42da0bf39509e3764"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge layer hints and global user hints.  <a href="#af13b1e4a672308b42da0bf39509e3764"></a><br/></td></tr>
 <tr class="memitem:abd772cbaf1f079e168b03c2cde328350"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#abd772cbaf1f079e168b03c2cde328350">sendHintsToLayers</a> ()</td></tr>
 <tr class="memdesc:abd772cbaf1f079e168b03c2cde328350"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send out hints to all layers.  <a href="#abd772cbaf1f079e168b03c2cde328350"></a><br/></td></tr>
-<tr class="memitem:a222239132c8ee14b6232e084f2626078"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a222239132c8ee14b6232e084f2626078">sendHints</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a> hints, <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_interface.html">PDEButtonLayerInterface</a> layer)</td></tr>
+<tr class="memitem:a222239132c8ee14b6232e084f2626078"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a222239132c8ee14b6232e084f2626078">sendHints</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a> hints, <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_interface.html">PDEButtonLayerInterface</a> layer)</td></tr>
 <tr class="memdesc:a222239132c8ee14b6232e084f2626078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send out hints to all layers.  <a href="#a222239132c8ee14b6232e084f2626078"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-static-attribs"></a>
@@ -469,19 +485,19 @@ Static Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a2d374599872e1382cfbe77d8007f022b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a2d374599872e1382cfbe77d8007f022b">mLayerHints</a></td></tr>
-<tr class="memitem:a1311ff97cd5b4d584c7c17ee0c8a2afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a1311ff97cd5b4d584c7c17ee0c8a2afb">mMergedHints</a></td></tr>
+<tr class="memitem:a2d374599872e1382cfbe77d8007f022b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a2d374599872e1382cfbe77d8007f022b">mLayerHints</a></td></tr>
+<tr class="memitem:a1311ff97cd5b4d584c7c17ee0c8a2afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a1311ff97cd5b4d584c7c17ee0c8a2afb">mMergedHints</a></td></tr>
 <tr class="memitem:adbcdbbdf77d189faa91b81e2c822e099"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#adbcdbbdf77d189faa91b81e2c822e099">mEventSource</a></td></tr>
 <tr class="memitem:ad4ec3c4dc312fd12821efbe7918da2a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_button_padding.html">PDEButtonPadding</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#ad4ec3c4dc312fd12821efbe7918da2a9">mButtonPadding</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pac-attribs"></a>
 Package Attributes</h2></td></tr>
-<tr class="memitem:a3dabb0b481dab93fc279bb405dcb5221"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a3dabb0b481dab93fc279bb405dcb5221">mParameters</a></td></tr>
+<tr class="memitem:a3dabb0b481dab93fc279bb405dcb5221"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a3dabb0b481dab93fc279bb405dcb5221">mParameters</a></td></tr>
 <tr class="memitem:a3791c830b5f6b7c4d506e2c8e7e08c7a"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_1_1_p_d_e_button_layer_holder.html">PDEButtonLayerHolder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a3791c830b5f6b7c4d506e2c8e7e08c7a">mButtonLayers</a></td></tr>
-<tr class="memitem:a915f6e91a2099fd18973b37d1fd8031a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a915f6e91a2099fd18973b37d1fd8031a">mHints</a></td></tr>
-<tr class="memitem:a2ded1acee155cab9b149924e5c68bf46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a2ded1acee155cab9b149924e5c68bf46">mAcceptedTypes</a></td></tr>
-<tr class="memitem:a900c658b2714b52a41dd2ff858e7938c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_button_layout_helper.html">PDEButtonLayoutHelper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a900c658b2714b52a41dd2ff858e7938c">mLayout</a></td></tr>
+<tr class="memitem:a915f6e91a2099fd18973b37d1fd8031a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a915f6e91a2099fd18973b37d1fd8031a">mHints</a></td></tr>
+<tr class="memitem:a2ded1acee155cab9b149924e5c68bf46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#a2ded1acee155cab9b149924e5c68bf46">mAcceptedTypes</a></td></tr>
 <tr class="memitem:af9e6773fc30220568be1df64f0092d18"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#af9e6773fc30220568be1df64f0092d18">mMinButtonPadding</a></td></tr>
+<tr class="memitem:ac9d690e577168f57eed5236d83bd654e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_agent_helper.html">PDEAgentHelper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html#ac9d690e577168f57eed5236d83bd654e">mAgentHelper</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -2409,7 +2425,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set configuration which corners should be rounded. </p>
-<p>Works only for plate background for now. </p>
 
 </div>
 </div>
@@ -2474,7 +2489,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.setParameters </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a>&#160;</td>
           <td class="paramname"><em>parameters</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2579,7 +2594,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a>&#160;</td>
           <td class="paramname"><em>parameter</em>&#160;</td>
         </tr>
         <tr>
@@ -2615,7 +2630,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
           <td class="paramname"><em>dictionary</em>&#160;</td>
         </tr>
         <tr>
@@ -2735,7 +2750,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a>&#160;</td>
           <td class="paramname"><em>parameter</em>&#160;</td>
         </tr>
         <tr>
@@ -2771,7 +2786,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
           <td class="paramname"><em>dictionary</em>&#160;</td>
         </tr>
         <tr>
@@ -2827,7 +2842,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.sendParameters </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a>&#160;</td>
           <td class="paramname"><em>parameters</em>, </td>
         </tr>
         <tr>
@@ -2960,6 +2975,188 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0469d2912c546f566392ef4918604507"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.setEnabled </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enabled state (overridden from Android). </p>
+<p>Sets interaction and visual state to enabled/disabled. You can also set both states individually by calling the respective functions. </p>
+
+</div>
+</div>
+<a class="anchor" id="a47edc41eb368fc2af0d4c3ef072e7837"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.isEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check enabled state (overridden from Android). </p>
+<p>We're truly enabled only if visual and user interaction are enabled. If you set these individually, you max get inconsistent results. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa43309d4d853bb0b521608cc09cbeed3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.setVisualEnabled </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Visual enabled state. </p>
+<p>Only affects visuals - interaction state is not changed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a88d1f10618a78b93a47c35082c6e5637"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.isVisualEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read visual enabled state. </p>
+
+</div>
+</div>
+<a class="anchor" id="a087753ac2845c7bfb2620101d0305eb1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.setUserInteractionEnabled </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>User interaction enabled state. </p>
+<p>Only affects interaction - visual state is not changed. </p>
+
+</div>
+</div>
+<a class="anchor" id="aaee559efe465df6b3fdaa8000a84ce8b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.isUserInteractionEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read user interaction enabled state. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0e7b4b1c853e0f6a01aa4fc19b7fbd99"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.updateAlpha </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Simple alpha update for disabled. </p>
+
+</div>
+</div>
 <a class="anchor" id="a1ee46cd62c2ba87ee519096cdae08524"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3059,7 +3256,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.collectHints </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
           <td class="paramname"><em>hints</em>, </td>
         </tr>
         <tr>
@@ -3147,7 +3344,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.sendHints </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
           <td class="paramname"><em>hints</em>, </td>
         </tr>
         <tr>
@@ -3170,6 +3367,37 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Send out hints to all layers. </p>
+
+</div>
+</div>
+<a class="anchor" id="a29ecc9e288d6b57c0aee60601f064605"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.setLayoutParams </td>
+          <td>(</td>
+          <td class="paramtype">ViewGroup.LayoutParams&#160;</td>
+          <td class="paramname"><em>params</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Change inner layout params according to the root layout </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">params</td><td>new params </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -3204,14 +3432,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>onMeasure</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">widthMeasureSpec</td><td>int </td></tr>
-    <tr><td class="paramname">heightMeasureSpec</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+
+<p>Determine layout size of element. </p>
 
 <p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1layout_1_1_p_d_e_absolute_layout.html#ae78847c8eb5022645c09a470e64b7f0d">de.telekom.pde.codelibrary.ui.layout.PDEAbsoluteLayout</a>.</p>
 
@@ -3271,7 +3493,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aeeedc0f17ea8ef8e4d39ee6d6c7d4500"></a>
+<a class="anchor" id="ae9dfba9c0a81da7731aaff4b0fbec543"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3282,25 +3504,25 @@ Private Attributes</h2></td></tr>
           <td class="memname">void de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.onSizeChanged </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
+          <td class="paramname"><em>width</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>h</em>, </td>
+          <td class="paramname"><em>height</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>oldw</em>, </td>
+          <td class="paramname"><em>oldWidth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>oldh</em>&#160;</td>
+          <td class="paramname"><em>oldHeight</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3314,6 +3536,17 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Size changed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>New width. </td></tr>
+    <tr><td class="paramname">height</td><td>New height. </td></tr>
+    <tr><td class="paramname">oldWidth</td><td>Old width. </td></tr>
+    <tr><td class="paramname">oldHeight</td><td>Old height. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -3556,7 +3789,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>: Add event Listener. </p>
+<p>Add event Listener. </p>
 <p>PDEIEventSource Interface implementation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -3610,7 +3843,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>: Add event Listener. </p>
+<p>Add event Listener. </p>
 <p>PDEIEventSource Interface implementation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -3673,7 +3906,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>: Register a android style callback to be invoked when this view is clicked - NOTE better use the more flexible addListener approach. The <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html" title="Basic button, controlled by agent states.">PDEButton</a> also supports the OnClickListener approach of Android. But in order to write Telekom StyleGuide compartible code you are encouraged to use the PDEEvent (PDEEventSource). The onClick of the Listen will be called when the WillBeSelected PDEEvent is sent. If you need to react on the Selected-Event please use the addListener approach. </p>
+<p>Register a android style callback to be invoked when this view is clicked - NOTE better use the more flexible addListener approach. The <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html" title="Basic button, controlled by agent states.">PDEButton</a> also supports the OnClickListener approach of Android. But in order to write Telekom StyleGuide compartible code you are encouraged to use the PDEEvent (PDEEventSource). The onClick of the Listen will be called when the WillBeSelected PDEEvent is sent. If you need to react on the Selected-Event please use the addListener approach. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">l</td><td>The callback that will run </td></tr>
@@ -4629,7 +4862,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mParameters</td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html">PDEParameterDictionary</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mParameters</td>
         </tr>
       </table>
   </td>
@@ -4669,7 +4902,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mHints</td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mHints</td>
         </tr>
       </table>
   </td>
@@ -4689,7 +4922,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mAcceptedTypes</td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mAcceptedTypes</td>
         </tr>
       </table>
   </td>
@@ -4709,7 +4942,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mLayerHints</td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mLayerHints</td>
         </tr>
       </table>
   </td>
@@ -4729,7 +4962,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mMergedHints</td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mMergedHints</td>
         </tr>
       </table>
   </td>
@@ -4801,26 +5034,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a900c658b2714b52a41dd2ff858e7938c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_button_layout_helper.html">PDEButtonLayoutHelper</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mLayout</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="af9e6773fc30220568be1df64f0092d18"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4875,6 +5088,26 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac9d690e577168f57eed5236d83bd654e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_agent_helper.html">PDEAgentHelper</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButton.mAgentHelper</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

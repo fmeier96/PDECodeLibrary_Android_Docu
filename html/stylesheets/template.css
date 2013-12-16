@@ -7,481 +7,25 @@
  * @license		GPL
  * @version		$Id$
  */
-/* wished pixel size of an em */
-/* default pixel font size in most browsers */
-@encoding "UTF-8";
-@font-face {
-  font-family: 'Tele-Icon';
-  src: url("../fonts/Tele-Icon.eot");
-  src: url("../fonts/Tele-Icon.eot?#iefix") format("embedded-opentype"), url("../fonts/Tele-Icon.svg#Tele-Icon") format("svg"), url("../fonts/Tele-Icon.woff") format("woff"), url("../fonts/Tele-Icon.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* line 16, ../../sass/_fonts.scss */
-.icon:before, .icon .before {
-  font-family: Tele-Icon;
-}
-
-/* line 20, ../../sass/_fonts.scss */
-.icon-add .icon:before {
-  content: "\2b";
-}
-
-/* line 23, ../../sass/_fonts.scss */
-.icon-add-to-watchlist .icon:before {
-  content: "\50";
-}
-
-/* line 26, ../../sass/_fonts.scss */
-.icon-attachment .icon:before {
-  content: "\61";
-}
-
-/* line 29, ../../sass/_fonts.scss */
-.icon-bookmark .icon:before {
-  content: "\62";
-}
-
-/* line 32, ../../sass/_fonts.scss */
-.icon-calendar .icon:before {
-  content: "\41";
-}
-
-/* line 35, ../../sass/_fonts.scss */
-.icon-cancel .icon:before {
-  content: "\58";
-}
-
-/* line 38, ../../sass/_fonts.scss */
-.icon-clock .icon:before {
-  content: "\4f";
-}
-
-/* line 41, ../../sass/_fonts.scss */
-.icon-cloud .icon:before {
-  content: "\59";
-}
-
-/* line 44, ../../sass/_fonts.scss */
-.icon-comment .icon:before {
-  content: "\49";
-}
-
-/* line 47, ../../sass/_fonts.scss */
-.icon-computer .icon:before {
-  content: "\51";
-}
-
-/* line 50, ../../sass/_fonts.scss */
-.icon-confirm .icon:before {
-  content: "\56";
-}
-
-/* line 53, ../../sass/_fonts.scss */
-.icon-context-menu .icon:before {
-  content: "\63";
-}
-
-/* line 56, ../../sass/_fonts.scss */
-.icon-copy .icon:before {
-  content: "\43";
-}
-
-/* line 59, ../../sass/_fonts.scss */
-.icon-cover-view .icon:before {
-  content: "\df";
-}
-
-/* line 62, ../../sass/_fonts.scss */
-.icon-decrease .icon:before {
-  content: "\2d";
-}
-
-/* line 65, ../../sass/_fonts.scss */
-.icon-digits .icon:before {
-  content: "\54";
-}
-
-/* line 68, ../../sass/_fonts.scss */
-.icon-download .icon:before {
-  content: "\64";
-}
-
-/* line 71, ../../sass/_fonts.scss */
-.icon-edit .icon:before {
-  content: "\65";
-}
-
-/* line 74, ../../sass/_fonts.scss */
-.icon-end-call .icon:before {
-  content: "\6a";
-}
-
-/* line 77, ../../sass/_fonts.scss */
-.icon-error .icon:before {
-  content: "\78";
-}
-
-/* line 80, ../../sass/_fonts.scss */
-.icon-export .icon:before {
-  content: "\26";
-}
-
-/* line 83, ../../sass/_fonts.scss */
-.icon-fast-forward .icon:before {
-  content: "\37";
-}
-
-/* line 86, ../../sass/_fonts.scss */
-.icon-favorites .icon:before {
-  content: "\2a";
-}
-
-/* line 89, ../../sass/_fonts.scss */
-.icon-file .icon:before {
-  content: "\66";
-}
-
-/* line 92, ../../sass/_fonts.scss */
-.icon-filter .icon:before {
-  content: "\47";
-}
-
-/* line 95, ../../sass/_fonts.scss */
-.icon-folder .icon:before {
-  content: "\46";
-}
-
-/* line 98, ../../sass/_fonts.scss */
-.icon-forward .icon:before {
-  content: "\77";
-}
-
-/* line 101, ../../sass/_fonts.scss */
-.icon-help .icon:before {
-  content: "\3f";
-}
-
-/* line 104, ../../sass/_fonts.scss */
-.icon-help_2 .icon:before {
-  content: "\3c";
-}
-
-/* line 107, ../../sass/_fonts.scss */
-.icon-home .icon:before {
-  content: "\68";
-}
-
-/* line 110, ../../sass/_fonts.scss */
-.icon-import .icon:before {
-  content: "\28";
-}
-
-/* line 113, ../../sass/_fonts.scss */
-.icon-information .icon:before {
-  content: "\69";
-}
-
-/* line 116, ../../sass/_fonts.scss */
-.icon-information_2 .icon:before {
-  content: "\3e";
-}
-
-/* line 119, ../../sass/_fonts.scss */
-.icon-iptv .icon:before {
-  content: "\52";
-}
-
-/* line 122, ../../sass/_fonts.scss */
-.icon-link .icon:before {
-  content: "\6c";
-}
-
-/* line 125, ../../sass/_fonts.scss */
-.icon-list-view .icon:before {
-  content: "\3d";
-}
-
-/* line 128, ../../sass/_fonts.scss */
-.icon-loading-indicator .icon:before {
-  content: "\6f";
-}
-
-/* line 131, ../../sass/_fonts.scss */
-.icon-lock .icon:before {
-  content: "\4c";
-}
-
-/* line 134, ../../sass/_fonts.scss */
-.icon-login .icon:before {
-  content: "\48";
-}
-
-/* line 137, ../../sass/_fonts.scss */
-.icon-message .icon:before {
-  content: "\6d";
-}
-
-/* line 140, ../../sass/_fonts.scss */
-.icon-microphone-socket .icon:before {
-  content: "\4d";
-}
-
-/* line 143, ../../sass/_fonts.scss */
-.icon-more .icon:before {
-  content: "\3a";
-}
-
-/* line 146, ../../sass/_fonts.scss */
-.icon-move-to-trash .icon:before {
-  content: "\44";
-}
-
-/* line 149, ../../sass/_fonts.scss */
-.icon-my-profile .icon:before {
-  content: "\55";
-}
-
-/* line 152, ../../sass/_fonts.scss */
-.icon-navigation-down .icon:before {
-  content: "\24";
-}
-
-/* line 155, ../../sass/_fonts.scss */
-.icon-navigation-left .icon:before {
-  content: "\25";
-}
-
-/* line 158, ../../sass/_fonts.scss */
-.icon-navigation-right .icon:before {
-  content: "\a7";
-}
-
-/* line 161, ../../sass/_fonts.scss */
-.icon-navigation-up .icon:before {
-  content: "\22";
-}
-
-/* line 164, ../../sass/_fonts.scss */
-.icon-next .icon:before {
-  content: "\38";
-}
-
-/* line 167, ../../sass/_fonts.scss */
-.icon-pause .icon:before {
-  content: "\35";
-}
-
-/* line 170, ../../sass/_fonts.scss */
-.icon-play .icon:before {
-  content: "\34";
-}
-
-/* line 173, ../../sass/_fonts.scss */
-.icon-previous .icon:before {
-  content: "\32";
-}
-
-/* line 176, ../../sass/_fonts.scss */
-.icon-print .icon:before {
-  content: "\70";
-}
-
-/* line 179, ../../sass/_fonts.scss */
-.icon-record .icon:before {
-  content: "\2e";
-}
-
-/* line 182, ../../sass/_fonts.scss */
-.icon-reload .icon:before {
-  content: "\67";
-}
-
-/* line 185, ../../sass/_fonts.scss */
-.icon-reply .icon:before, .icon-reply .icon {
-  before: "\72";
-  content: "\72";
-}
-
-/* line 189, ../../sass/_fonts.scss */
-.icon-rewind .icon:before {
-  content: "\33";
-}
-
-/* line 192, ../../sass/_fonts.scss */
-.icon-ringtone-off .icon:before {
-  content: "\4e";
-}
-
-/* line 195, ../../sass/_fonts.scss */
-.icon-ringtone-on .icon:before {
-  content: "\6e";
-}
-
-/* line 198, ../../sass/_fonts.scss */
-.icon-scroll-left .icon:before {
-  content: "\29";
-}
-
-/* line 201, ../../sass/_fonts.scss */
-.icon-scroll-right .icon:before {
-  content: "\2f";
-}
-
-/* line 204, ../../sass/_fonts.scss */
-.icon-search .icon:before {
-  content: "\71";
-}
-
-/* line 207, ../../sass/_fonts.scss */
-.icon-settings .icon:before {
-  content: "\53";
-}
-
-/* line 210, ../../sass/_fonts.scss */
-.icon-share .icon:before {
-  content: "\79";
-}
-
-/* line 213, ../../sass/_fonts.scss */
-.icon-shopping-cart .icon:before {
-  content: "\42";
-}
-
-/* line 216, ../../sass/_fonts.scss */
-.icon-skip-to-end .icon:before {
-  content: "\39";
-}
-
-/* line 219, ../../sass/_fonts.scss */
-.icon-skip-to-start .icon:before {
-  content: "\31";
-}
-
-/* line 222, ../../sass/_fonts.scss */
-.icon-smartphone .icon:before {
-  content: "\57";
-}
-
-/* line 225, ../../sass/_fonts.scss */
-.icon-speaker-off .icon:before {
-  content: "\4b";
-}
-
-/* line 228, ../../sass/_fonts.scss */
-.icon-speaker-on .icon:before {
-  content: "\6b";
-}
-
-/* line 231, ../../sass/_fonts.scss */
-.icon-start-call .icon:before {
-  content: "\4a";
-}
-
-/* line 234, ../../sass/_fonts.scss */
-.icon-stop .icon:before {
-  content: "\36";
-}
-
-/* line 237, ../../sass/_fonts.scss */
-.icon-success .icon:before {
-  content: "\76";
-}
-
-/* line 240, ../../sass/_fonts.scss */
-.icon-synchronize .icon:before, .icon-synchronize .icon {
-  before: "\73";
-  content: "\73";
-}
-
-/* line 244, ../../sass/_fonts.scss */
-.icon-tablet-pc .icon:before {
-  content: "\45";
-}
-
-/* line 247, ../../sass/_fonts.scss */
-.icon-telekom-1T1 .icon:before {
-  content: "\74";
-}
-
-/* line 250, ../../sass/_fonts.scss */
-.icon-minimize .icon:before {
-  content: "\fc";
-}
-
-/* line 253, ../../sass/_fonts.scss */
-.icon-maximize .icon:before {
-  content: "\dc";
-}
-
-/* line 256, ../../sass/_fonts.scss */
-.icon-tile-view .icon:before {
-  content: "\30";
-}
-
-/* line 259, ../../sass/_fonts.scss */
-.icon-upload .icon:before {
-  content: "\75";
-}
-
-/* line 262, ../../sass/_fonts.scss */
-.icon-warning .icon:before {
-  content: "\21";
-}
-
-/* line 265, ../../sass/_fonts.scss */
-.icon-warning_2 .icon:before {
-  content: "\e4";
-}
-
-/* line 268, ../../sass/_fonts.scss */
-.icon-zoom-in .icon:before {
-  content: "\7a";
-}
-
-/* line 271, ../../sass/_fonts.scss */
-.icon-zoom-out .icon:before {
-  content: "\5a";
-}
-
-/* line 276, ../../sass/_fonts.scss */
-.icon-radiobutton_outer:before {
-  content: "\2c";
-}
-
-/* line 279, ../../sass/_fonts.scss */
-.icon-radiobutton_inner:before {
-  content: "\3b";
-}
-
-/* line 282, ../../sass/_fonts.scss */
-.icon-radiobutton_shadow:before {
-  content: "\f6";
-}
-
-/* Specific styles for the IE 7 :before :after polyfill */
 @font-face {
   font-family: 'TeleGrotesk';
-  src: url("../fonts/TeleGroteskNormal.eot?") format("eot"), url("../fonts/TeleGroteskNormal.woff") format("woff");
-}
+  src: url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-grotesknor-webfont.eot") format("eot"), url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-grotesknor-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'TeleGroteskHal';
-  src: url("../fonts/TeleGroteskHalbfett.eot?") format("eot"), url("../fonts/TeleGroteskHalbfett.woff") format("woff");
-}
+  src: url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-groteskhal-webfont.eot") format("eot"), url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-groteskhal-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'TeleGroteskFet';
-  src: url("../fonts/TeleGroteskFett.eot?") format("eot"), url("../fonts/TeleGroteskFett.woff") format("woff");
-}
+  src: url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-groteskfet-webfont.eot") format("eot"), url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-groteskfet-webfont.woff") format("woff"); }
 
-/* Border title */
-/* Border image */
-/* Text */
-/* Border default */
-/* Border list */
-/* Hyperlink */
+@font-face {
+  font-family: 'TeleGroteskUlt';
+  src: url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-grotesk-ult-webfont.eot") format("eot"), url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-grotesk-ult-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: 'DTAGIconWebfont'; }
+
 /**
  * Basic screen CSS
  *
@@ -491,227 +35,160 @@
  * @license		GPL
  * @version		$Id$
  */
-/* wished pixel size of an em */
-/* default pixel font size in most browsers */
-/* Border title */
-/* Border image */
-/* Text */
-/* Border default */
-/* Border list */
-/* Hyperlink */
-/* line 20, ../../sass/_grid.scss */
 .dtag-grid-container {
-  clear: both;
-}
-/* line 23, ../../sass/_grid.scss */
-.dtag-grid-container .dtag-grid-col {
-  display: block;
-  float: none;
-  width: 100%;
-  padding: 0 .5em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  *padding: 0;
-  float: left;
-}
-/* line 38, ../../sass/_grid.scss */
-.dtag-grid-container.dtag-grid-10-6 .dtag-grid-col-left {
-  width: 67%;
-}
-/* line 41, ../../sass/_grid.scss */
-.dtag-grid-container.dtag-grid-10-6 .dtag-grid-col-right {
-  width: 33%;
-}
+  clear: both; }
+  .dtag-grid-container .dtag-grid-col {
+    display: block;
+    float: none;
+    width: 100%;
+    padding: 0 .5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    *padding: 0;
+    float: left; }
+  .dtag-grid-container.dtag-grid-10-6 .dtag-grid-col-left {
+    width: 67%; }
+  .dtag-grid-container.dtag-grid-10-6 .dtag-grid-col-right {
+    width: 33%; }
 
-/* line 68, ../../sass/_grid.scss */
-#uid190 .dtag-grid-container .dtag-grid-col, #uid189 .dtag-grid-container .dtag-grid-col {
-  min-height: 4em;
-  background: #99cce5;
-}
-
-/* line 76, ../../sass/_grid.scss */
 .dtag-main .dtag-grid-col {
-  margin-bottom: 2em;
-}
+  margin-bottom: 2em; }
 
 @media screen and (min-width: 715px) {
-  /* line 88, ../../sass/_grid.scss */
   .dtag-grid-container .dtag-grid-col {
-    padding: 0;
-  }
-  /* line 96, ../../sass/_grid.scss */
+    padding: 0; }
   .dtag-grid-container.dtag-grid-6-6 .dtag-grid-col-left,
   .dtag-grid-container.dtag-grid-6-6 .dtag-grid-col-right {
-    width: 34em;
-  }
-  /* line 102, ../../sass/_grid.scss */
+    width: 34em; }
   .dtag-grid-container.dtag-grid-4-8 .dtag-grid-col-left {
-    width: 22em;
-  }
-  /* line 105, ../../sass/_grid.scss */
+    width: 22em; }
   .dtag-grid-container.dtag-grid-4-8 .dtag-grid-col-right {
-    width: 46em;
-  }
-  /* line 111, ../../sass/_grid.scss */
+    width: 46em; }
   .dtag-grid-container.dtag-grid-8-4 .dtag-grid-col-left {
-    width: 46em;
-  }
-  /* line 114, ../../sass/_grid.scss */
+    width: 46em; }
   .dtag-grid-container.dtag-grid-8-4 .dtag-grid-col-right {
-    width: 22em;
-  }
-  /* line 120, ../../sass/_grid.scss */
+    width: 22em; }
   .dtag-grid-container.dtag-grid-4-4-4 .dtag-grid-col {
-    width: 22em;
-  }
-  /* line 126, ../../sass/_grid.scss */
+    width: 22em; }
   .dtag-grid-container.dtag-grid-3-3-3-3 .dtag-grid-col {
-    width: 16em;
-  }
+    width: 16em; }
+  .dtag-grid-container.dtag-grid-3-3-3 .dtag-grid-col {
+    width: 30%;
+    margin-right: 5%; }
+  .dtag-grid-container.dtag-grid-3-3-3 .dtag-grid-col-right {
+    margin-right: 0; }
 
-  /* line 133, ../../sass/_grid.scss */
   .dtag-main .dtag-grid-col {
-    margin-right: 2em;
-  }
-  /* line 136, ../../sass/_grid.scss */
+    margin-right: 2em; }
   .dtag-main .dtag-grid-col-right {
-    margin-right: 0;
-  }
-}
+    margin-right: 0; } }
 @media screen and (min-width: 960px) {
-  /* line 150, ../../sass/_grid.scss */
   .dtag-grid-container .dtag-grid-col {
-    margin-right: 2em;
-  }
-  /* line 154, ../../sass/_grid.scss */
+    margin-right: 2em; }
   .dtag-grid-container .dtag-grid-col-right {
-    margin-right: 0;
-  }
-  /* line 158, ../../sass/_grid.scss */
+    margin-right: 0; }
   .dtag-grid-container.dtag-grid-5-6-5 .dtag-grid-col {
-    width: 28em;
-  }
-  /* line 161, ../../sass/_grid.scss */
+    width: 28em; }
   .dtag-grid-container.dtag-grid-5-6-5 .dtag-grid-col-center {
-    width: 34em;
-  }
-  /* line 167, ../../sass/_grid.scss */
+    width: 34em; }
+  .dtag-grid-container.dtag-grid-4-8-4 .dtag-grid-col {
+    width: 22em; }
+  .dtag-grid-container.dtag-grid-4-8-4 .dtag-grid-col-center {
+    width: 46em; }
+  .dtag-grid-container.dtag-grid-12-4 .dtag-grid-col-left {
+    width: 70em; }
+  .dtag-grid-container.dtag-grid-12-4 .dtag-grid-col-right {
+    width: 22em; }
   .dtag-grid-container.dtag-grid-4-12 .dtag-grid-col-left {
-    width: 22em;
-  }
-  /* line 170, ../../sass/_grid.scss */
+    width: 22em; }
   .dtag-grid-container.dtag-grid-4-12 .dtag-grid-col-right {
-    width: 70em;
-  }
-  /* line 176, ../../sass/_grid.scss */
+    width: 70em; }
   .dtag-grid-container.dtag-grid-10-6 .dtag-grid-col-left {
-    width: 58em;
-  }
-  /* line 179, ../../sass/_grid.scss */
+    width: 58em; }
   .dtag-grid-container.dtag-grid-10-6 .dtag-grid-col-right {
-    width: 34em;
-  }
-  /* line 185, ../../sass/_grid.scss */
+    width: 34em; }
   .dtag-grid-container.dtag-grid-6-10 .dtag-grid-col-left {
-    width: 34em;
-  }
-  /* line 188, ../../sass/_grid.scss */
+    width: 34em; }
   .dtag-grid-container.dtag-grid-6-10 .dtag-grid-col-right {
-    width: 58em;
-  }
-  /* line 194, ../../sass/_grid.scss */
+    width: 58em; }
   .dtag-grid-container.dtag-grid-4-4-4-4 .dtag-grid-col {
-    width: 22em;
-  }
-  /* line 200, ../../sass/_grid.scss */
+    width: 22em; }
   .dtag-grid-container.dtag-grid-3-3-3-3-3 .dtag-grid-col {
-    width: 16em;
-  }
-  /* line 205, ../../sass/_grid.scss */
+    width: 16em; }
   .dtag-grid-container.dtag-grid-3-3-3-3-3-centered {
-    margin-left: 3em;
-  }
-  /* line 206, ../../sass/_grid.scss */
-  .dtag-grid-container.dtag-grid-3-3-3-3-3-centered .dtag-grid-col {
-    width: 16em;
-  }
-  /* line 214, ../../sass/_grid.scss */
+    margin-left: 3em; }
+    .dtag-grid-container.dtag-grid-3-3-3-3-3-centered .dtag-grid-col {
+      width: 16em; }
+  .dtag-grid-container.dtag-grid-3-3-3 .dtag-grid-col {
+    width: 28em;
+    margin-right: 5em; }
+  .dtag-grid-container.dtag-grid-3-3-3 .dtag-grid-col-right {
+    margin-right: 0; }
   .dtag-grid-container.dtag-grid-8-8 .dtag-grid-col-left,
   .dtag-grid-container.dtag-grid-8-8 .dtag-grid-col-right {
-    width: 46em;
-  }
-}
-/* line 235, ../../sass/_grid.scss */
+    width: 46em; } }
 .dtag-layout-no-marginal .dtag-marginal {
-  display: none;
-}
-/* line 239, ../../sass/_grid.scss */
+  display: none; }
 .dtag-layout-no-marginal .dtag-main {
   float: left;
-  width: 100%;
-}
+  width: 100%; }
 
 @media screen and (min-width: 960px) {
-  /* line 252, ../../sass/_grid.scss */
   .dtag-layout-marginal-left .dtag-marginal {
     display: block;
     float: left;
-    width: 20em;
-  }
-  /* line 257, ../../sass/_grid.scss */
+    width: 20em; }
   .dtag-layout-marginal-left .dtag-main {
     float: right;
-    width: 70em;
-  }
-}
+    width: 70em; } }
+.dtag-layout-marginal-both #dtag_right {
+  width: 100%;
+  float: left;
+  clear: left; }
+@media screen and (min-width: 960px) {
+  .dtag-layout-marginal-both .dtag-marginal {
+    display: block;
+    float: left;
+    width: 20em; }
+  .dtag-layout-marginal-both .dtag-main {
+    float: left;
+    width: 46em; }
+  .dtag-layout-marginal-both #dtag_left {
+    margin-right: 4em; }
+  .dtag-layout-marginal-both #dtag_right {
+    width: 20em;
+    clear: none;
+    margin-left: 4em; } }
+
 @media screen and (max-width: 960px) {
-  /* line 267, ../../sass/_grid.scss */
   section .dtag-marginal {
-    display: none;
-  }
-}
-/* line 28, ../../sass/templatecomponents/_tool-chooser.scss */
+    display: none; } }
 #dtag_toolchooser img {
   width: 100%;
-  height: auto;
-}
-/* line 32, ../../sass/templatecomponents/_tool-chooser.scss */
+  height: auto; }
 #dtag_toolchooser ul {
   margin: 0;
-  padding: 0 0 2em;
-}
+  padding: 0 0 2em; }
+  @media screen and (min-width: 480px) {
+    #dtag_toolchooser ul {
+      text-align: center; } }
 @media screen and (min-width: 480px) {
-  /* line 32, ../../sass/templatecomponents/_tool-chooser.scss */
-  #dtag_toolchooser ul {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 480px) {
-  /* line 43, ../../sass/templatecomponents/_tool-chooser.scss */
   #dtag_toolchooser.aligned-left ul {
     text-align: left;
-    padding-left: 4em;
-  }
-}
-/* line 49, ../../sass/templatecomponents/_tool-chooser.scss */
+    padding-left: 4em; } }
 #dtag_toolchooser li.tool-tile {
   float: left;
   clear: both;
   width: 100%;
   display: block;
   margin: 0;
-  padding: 0;
-}
-@media screen and (min-width: 480px) {
-  /* line 49, ../../sass/templatecomponents/_tool-chooser.scss */
-  #dtag_toolchooser li.tool-tile {
-    width: auto;
-    display: inline-block;
-    float: none;
-  }
-}
-/* line 65, ../../sass/templatecomponents/_tool-chooser.scss */
+  padding: 0; }
+  @media screen and (min-width: 480px) {
+    #dtag_toolchooser li.tool-tile {
+      width: auto;
+      display: inline-block;
+      float: none; } }
 #dtag_toolchooser a {
   display: block;
   padding: 0 .5em;
@@ -719,265 +196,176 @@
   line-height: 6em;
   margin: 0;
   font-weight: normal;
-}
-/* line 73, ../../sass/templatecomponents/_tool-chooser.scss */
-#dtag_toolchooser a span.tool-image {
-  float: left;
-  height: 5.5em;
-  width: 5.5em;
-  overflow: hidden;
-  position: static;
-  margin-right: 1em;
-}
-/* line 82, ../../sass/templatecomponents/_tool-chooser.scss */
-#dtag_toolchooser a span.tool-title {
-  display: inline-block;
-  font-size: 1.6em;
-  color: #ededed;
-  padding: 0.125em 0.3125em 0.25em;
-  line-height: 1.125em;
-}
-/* line 91, ../../sass/templatecomponents/_tool-chooser.scss */
-#dtag_toolchooser a:hover {
-  background-color: #c7c7c7;
-  background-color: rgba(199, 199, 199, 0.1);
-}
-/* line 96, ../../sass/templatecomponents/_tool-chooser.scss */
-#dtag_toolchooser a.tool-active span.tool-title {
-  background: #e20074;
-  -webkit-border-radius: 0.20833em;
-  -moz-border-radius: 0.20833em;
-  -ms-border-radius: 0.20833em;
-  -o-border-radius: 0.20833em;
-  border-radius: 0.20833em;
-  font-weight: normal;
-}
-/* line 103, ../../sass/templatecomponents/_tool-chooser.scss */
-#dtag_toolchooser a:active {
-  background-color: #c7c7c7;
-  background-color: rgba(199, 199, 199, 0.05);
-}
-@media screen and (min-width: 480px) {
-  /* line 65, ../../sass/templatecomponents/_tool-chooser.scss */
-  #dtag_toolchooser a {
-    -webkit-border-radius: 0.33333em;
-    -moz-border-radius: 0.33333em;
-    -ms-border-radius: 0.33333em;
-    -o-border-radius: 0.33333em;
-    border-radius: 0.33333em;
-    text-align: center;
-    width: 13.5em;
-    height: 10.5em;
-    padding: 0;
-    margin: 0 0.4em 1em;
-    line-height: 1em;
-  }
-  /* line 118, ../../sass/templatecomponents/_tool-chooser.scss */
+  background: #383838; }
   #dtag_toolchooser a span.tool-image {
-    display: block;
     float: left;
-    vertical-align: middle;
-    position: relative;
-    height: 6.4em;
-    width: 6.4em;
-    margin: 0 0 0 3.55em;
-  }
-  /* line 127, ../../sass/templatecomponents/_tool-chooser.scss */
+    height: 5.5em;
+    width: 5.5em;
+    overflow: hidden;
+    position: static;
+    margin-right: 1em; }
   #dtag_toolchooser a span.tool-title {
-    text-align: center;
-    margin-top: .5em;
-  }
-}
+    display: inline-block;
+    font-size: 1.6em;
+    color: #d0d0d0;
+    padding: 0.125em 0.3125em 0.25em;
+    line-height: 1.125em; }
+  #dtag_toolchooser a:hover {
+    background: #424242; }
+  #dtag_toolchooser a.tool-active {
+    background: #4b4b4b; }
+  #dtag_toolchooser a:active {
+    background: #4b4b4b; }
+  @media screen and (min-width: 480px) {
+    #dtag_toolchooser a {
+      -webkit-border-radius: 0.33333em;
+      -moz-border-radius: 0.33333em;
+      -ms-border-radius: 0.33333em;
+      -o-border-radius: 0.33333em;
+      border-radius: 0.33333em;
+      text-align: center;
+      width: 13.5em;
+      height: 10.5em;
+      padding: 0;
+      margin: 0 0.4em 1em;
+      line-height: 1em; }
+      #dtag_toolchooser a span.tool-image {
+        display: block;
+        float: left;
+        vertical-align: middle;
+        position: relative;
+        height: 6.4em;
+        width: 6.4em;
+        margin: .25em 0 0 3.55em; }
+      #dtag_toolchooser a span.tool-title {
+        text-align: center;
+        margin-top: .25em; } }
 
-/* line 7, ../../sass/templatecomponents/_dialogs.scss */
-.dialog-content .box-content {
-  padding: 0 2em;
-}
-
-/* line 12, ../../sass/templatecomponents/_dialogs.scss */
-.dialog-footer p {
-  margin: 0;
-}
-
-/* line 20, ../../sass/templatecomponents/_dialogs.scss */
-#tx_dtaghelpdesk_dialog #dialog_window #dialog #dialog_footer {
-  text-align: center;
-}
-/* line 26, ../../sass/templatecomponents/_dialogs.scss */
-#tx_dtaghelpdesk_dialog #dialog_window #dialog .box-content {
-  padding: 0 2em;
-}
-/* line 31, ../../sass/templatecomponents/_dialogs.scss */
-#tx_dtaghelpdesk_dialog #tx_dtaghelpdesk_submit {
-  margin-top: 0.625em;
-}
-
-/* line 37, ../../sass/templatecomponents/_dialogs.scss */
-#dialog .dtag-main {
-  width: 100%;
-}
-
-/* line 4, ../../sass/templatecomponents/_search-input.scss */
 .search-input-wrapper {
   padding: 0 .5em;
-  position: relative;
-}
-/* line 8, ../../sass/templatecomponents/_search-input.scss */
-.search-input-wrapper label {
-  display: none;
-}
-/* line 12, ../../sass/templatecomponents/_search-input.scss */
-.search-input-wrapper form {
-  display: block;
-  width: 100%;
-}
-/* line 16, ../../sass/templatecomponents/_search-input.scss */
-.search-input-wrapper fieldset {
-  position: relative;
-  display: block;
-}
-@media screen and (min-width: 480px) {
-  /* line 23, ../../sass/templatecomponents/_search-input.scss */
-  #dtag_brandlevel .search-input-wrapper form {
-    display: inline-block;
-    width: 60%;
-  }
-  /* line 27, ../../sass/templatecomponents/_search-input.scss */
-  #dtag_brandlevel .search-input-wrapper fieldset {
-    display: inline-block;
-    vertical-align: middle;
-  }
-}
-/* line 35, ../../sass/templatecomponents/_search-input.scss */
-.dtag-main .search-input-wrapper {
-  margin: 1em auto;
-}
-@media screen and (min-width: 720px) {
-  /* line 35, ../../sass/templatecomponents/_search-input.scss */
+  position: relative; }
+  .search-input-wrapper .labeltext {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+  .search-input-wrapper form {
+    display: block;
+    width: 100%; }
+  .search-input-wrapper fieldset {
+    position: relative;
+    display: block; }
+  @media screen and (min-width: 480px) {
+    #dtag_brandlevel .search-input-wrapper form {
+      display: inline-block;
+      width: 60%; }
+    #dtag_brandlevel .search-input-wrapper fieldset {
+      display: inline-block;
+      vertical-align: middle; } }
   .dtag-main .search-input-wrapper {
-    width: 41em;
-  }
-}
+    margin: 1em auto; }
+    @media screen and (min-width: 720px) {
+      .dtag-main .search-input-wrapper {
+        width: 41em; } }
 
-/* line 48, ../../sass/templatecomponents/_search-input.scss */
 #dtag_search {
-  width: 85%;
-  float: left;
-}
-/* line 53, ../../sass/templatecomponents/_search-input.scss */
-#dtag_search .search-input-wrapper {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-/* line 56, ../../sass/templatecomponents/_search-input.scss */
-#dtag_search .search-input-wrapper input {
   width: 100%;
-}
+  float: left; }
+  #dtag_search .search-input-wrapper {
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    #dtag_search .search-input-wrapper input {
+      width: 100%; }
 
-/* line 67, ../../sass/templatecomponents/_search-input.scss */
 #dtag_brandlevel .search-input-wrapper {
-  display: inline;
-}
+  display: inline; }
 
 @media screen and (min-width: 960px) {
-  /* line 78, ../../sass/templatecomponents/_search-input.scss */
   .search-input-wrapper {
-    border: none;
-  }
-  /* line 80, ../../sass/templatecomponents/_search-input.scss */
-  .search-input-wrapper input {
-    width: 150px;
-    display: inline-block;
-  }
-}
-/* line 17, ../../sass/templatecomponents/_breadcrumb.scss */
-#dtag_breadcrumb {
-  padding: .33em .5em;
-}
-/* line 20, ../../sass/templatecomponents/_breadcrumb.scss */
+    border: none; }
+    .search-input-wrapper input {
+      width: 150px;
+      display: inline-block; } }
+.tx-dtagsearch > .numfound-viewswitch-header:first-child {
+  margin-top: 7em; }
+.tx-dtagsearch #tx_dtagsearch_results {
+  clear: left;
+  border-top: 1px solid #b2b2b2; }
+  .tx-dtagsearch #tx_dtagsearch_results .list-item-title strong {
+    font-family: TeleGroteskHal; }
+
 #dtag_breadcrumb ul {
   margin: 0;
   padding: 0;
-  loist-style: none;
-}
-/* line 26, ../../sass/templatecomponents/_breadcrumb.scss */
+  list-style: none; }
 #dtag_breadcrumb li {
   display: inline-block;
-  color: #a4a4a4;
-  font-size: 1.3em;
-  margin-right: 0.25385em;
-}
-/* line 33, ../../sass/templatecomponents/_breadcrumb.scss */
-#dtag_breadcrumb a {
-  color: #a4a4a4;
-  margin-right: 0.25385em;
-}
-/* line 36, ../../sass/templatecomponents/_breadcrumb.scss */
+  color: #a4a4a4 !important;
+  vertical-align: middle; }
+  #dtag_breadcrumb li:before {
+    content: '>';
+    margin: 0 0.3125em;
+    font-size: 1.6em; }
+  #dtag_breadcrumb li:first-child span,
+  #dtag_breadcrumb li:first-child a {
+    font-size: 21px;
+    color: #d0d0d0 !important;
+    text-transform: uppercase; }
+  #dtag_breadcrumb li:first-child a:hover {
+    text-decoration: none;
+    color: #a4a4a4 !important; }
+  #dtag_breadcrumb li:first-child:before {
+    display: none;
+    content: ''; }
+#dtag_breadcrumb a, #dtag_breadcrumb li > span {
+  padding-top: .15em;
+  font-size: 1.6em;
+  display: inline-block;
+  color: #a4a4a4 !important; }
 #dtag_breadcrumb a:hover {
   text-decoration: none;
-}
-@media screen and (min-width: 960px) {
-  /* line 17, ../../sass/templatecomponents/_breadcrumb.scss */
-  #dtag_breadcrumb {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 1em;
-    padding: .33em 0;
-  }
-}
+  color: #d0d0d0 !important; }
 
-/* line 18, ../../sass/templatecomponents/_meta-navigation.scss */
 #dtag_metanavigation ul {
   margin: 0;
-  padding: 0.4em 0 .6em;
-}
-/* line 23, ../../sass/templatecomponents/_meta-navigation.scss */
+  padding: 0.4em 0 .6em; }
 #dtag_metanavigation li {
   display: inline-block;
   margin: 0 0 0 1em;
   padding: 0;
-  list-style: none;
-}
-/* line 30, ../../sass/templatecomponents/_meta-navigation.scss */
+  list-style: none; }
 #dtag_metanavigation strong,
 #dtag_metanavigation a {
   display: inline-block;
   font-size: 1.3em;
-  color: #ededed;
+  color: #d0d0d0;
   padding: 0.15385em 0.38462em 0.30769em;
   line-height: 1.38462em;
   -webkit-border-radius: 0.25641em;
   -moz-border-radius: 0.25641em;
   -ms-border-radius: 0.25641em;
   -o-border-radius: 0.25641em;
-  border-radius: 0.25641em;
-}
-/* line 38, ../../sass/templatecomponents/_meta-navigation.scss */
-#dtag_metanavigation strong:hover,
-#dtag_metanavigation a:hover {
-  background-color: #c7c7c7;
-  background-color: rgba(199, 199, 199, 0.2);
-  text-decoration: none;
-}
-/* line 45, ../../sass/templatecomponents/_meta-navigation.scss */
+  border-radius: 0.25641em; }
+  #dtag_metanavigation strong:hover,
+  #dtag_metanavigation a:hover {
+    background-color: #c7c7c7;
+    background-color: rgba(199, 199, 199, 0.2);
+    text-decoration: none; }
 #dtag_metanavigation a:active,
 #dtag_metanavigation a.active,
 #dtag_metanavigation strong {
   background-color: #c7c7c7;
-  background-color: rgba(199, 199, 199, 0.1);
-}
-/* line 48, ../../sass/templatecomponents/_meta-navigation.scss */
+  background-color: rgba(199, 199, 199, 0.1); }
 #dtag_metanavigation strong {
   font-family: TeleGrotesk;
-  font-weight: normal;
-}
+  font-weight: normal; }
 @media screen and (min-width: 480px) {
-  /* line 17, ../../sass/templatecomponents/_meta-navigation.scss */
   #dtag_metanavigation {
-    text-align: right;
-  }
-}
+    text-align: right; } }
 
 /**
  * CSS for presentation purposes
@@ -988,494 +376,32 @@
  * @license		GPL
  * @version		$Id$
  */
-/* wished pixel size of an em */
-/* default pixel font size in most browsers */
-@encoding "UTF-8";
-@font-face {
-  font-family: 'Tele-Icon';
-  src: url("../fonts/Tele-Icon.eot");
-  src: url("../fonts/Tele-Icon.eot?#iefix") format("embedded-opentype"), url("../fonts/Tele-Icon.svg#Tele-Icon") format("svg"), url("../fonts/Tele-Icon.woff") format("woff"), url("../fonts/Tele-Icon.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* line 16, ../../sass/_fonts.scss */
-.icon:before, .icon .before {
-  font-family: Tele-Icon;
-}
-
-/* line 20, ../../sass/_fonts.scss */
-.icon-add .icon:before {
-  content: "\2b";
-}
-
-/* line 23, ../../sass/_fonts.scss */
-.icon-add-to-watchlist .icon:before {
-  content: "\50";
-}
-
-/* line 26, ../../sass/_fonts.scss */
-.icon-attachment .icon:before {
-  content: "\61";
-}
-
-/* line 29, ../../sass/_fonts.scss */
-.icon-bookmark .icon:before {
-  content: "\62";
-}
-
-/* line 32, ../../sass/_fonts.scss */
-.icon-calendar .icon:before {
-  content: "\41";
-}
-
-/* line 35, ../../sass/_fonts.scss */
-.icon-cancel .icon:before {
-  content: "\58";
-}
-
-/* line 38, ../../sass/_fonts.scss */
-.icon-clock .icon:before {
-  content: "\4f";
-}
-
-/* line 41, ../../sass/_fonts.scss */
-.icon-cloud .icon:before {
-  content: "\59";
-}
-
-/* line 44, ../../sass/_fonts.scss */
-.icon-comment .icon:before {
-  content: "\49";
-}
-
-/* line 47, ../../sass/_fonts.scss */
-.icon-computer .icon:before {
-  content: "\51";
-}
-
-/* line 50, ../../sass/_fonts.scss */
-.icon-confirm .icon:before {
-  content: "\56";
-}
-
-/* line 53, ../../sass/_fonts.scss */
-.icon-context-menu .icon:before {
-  content: "\63";
-}
-
-/* line 56, ../../sass/_fonts.scss */
-.icon-copy .icon:before {
-  content: "\43";
-}
-
-/* line 59, ../../sass/_fonts.scss */
-.icon-cover-view .icon:before {
-  content: "\df";
-}
-
-/* line 62, ../../sass/_fonts.scss */
-.icon-decrease .icon:before {
-  content: "\2d";
-}
-
-/* line 65, ../../sass/_fonts.scss */
-.icon-digits .icon:before {
-  content: "\54";
-}
-
-/* line 68, ../../sass/_fonts.scss */
-.icon-download .icon:before {
-  content: "\64";
-}
-
-/* line 71, ../../sass/_fonts.scss */
-.icon-edit .icon:before {
-  content: "\65";
-}
-
-/* line 74, ../../sass/_fonts.scss */
-.icon-end-call .icon:before {
-  content: "\6a";
-}
-
-/* line 77, ../../sass/_fonts.scss */
-.icon-error .icon:before {
-  content: "\78";
-}
-
-/* line 80, ../../sass/_fonts.scss */
-.icon-export .icon:before {
-  content: "\26";
-}
-
-/* line 83, ../../sass/_fonts.scss */
-.icon-fast-forward .icon:before {
-  content: "\37";
-}
-
-/* line 86, ../../sass/_fonts.scss */
-.icon-favorites .icon:before {
-  content: "\2a";
-}
-
-/* line 89, ../../sass/_fonts.scss */
-.icon-file .icon:before {
-  content: "\66";
-}
-
-/* line 92, ../../sass/_fonts.scss */
-.icon-filter .icon:before {
-  content: "\47";
-}
-
-/* line 95, ../../sass/_fonts.scss */
-.icon-folder .icon:before {
-  content: "\46";
-}
-
-/* line 98, ../../sass/_fonts.scss */
-.icon-forward .icon:before {
-  content: "\77";
-}
-
-/* line 101, ../../sass/_fonts.scss */
-.icon-help .icon:before {
-  content: "\3f";
-}
-
-/* line 104, ../../sass/_fonts.scss */
-.icon-help_2 .icon:before {
-  content: "\3c";
-}
-
-/* line 107, ../../sass/_fonts.scss */
-.icon-home .icon:before {
-  content: "\68";
-}
-
-/* line 110, ../../sass/_fonts.scss */
-.icon-import .icon:before {
-  content: "\28";
-}
-
-/* line 113, ../../sass/_fonts.scss */
-.icon-information .icon:before {
-  content: "\69";
-}
-
-/* line 116, ../../sass/_fonts.scss */
-.icon-information_2 .icon:before {
-  content: "\3e";
-}
-
-/* line 119, ../../sass/_fonts.scss */
-.icon-iptv .icon:before {
-  content: "\52";
-}
-
-/* line 122, ../../sass/_fonts.scss */
-.icon-link .icon:before {
-  content: "\6c";
-}
-
-/* line 125, ../../sass/_fonts.scss */
-.icon-list-view .icon:before {
-  content: "\3d";
-}
-
-/* line 128, ../../sass/_fonts.scss */
-.icon-loading-indicator .icon:before {
-  content: "\6f";
-}
-
-/* line 131, ../../sass/_fonts.scss */
-.icon-lock .icon:before {
-  content: "\4c";
-}
-
-/* line 134, ../../sass/_fonts.scss */
-.icon-login .icon:before {
-  content: "\48";
-}
-
-/* line 137, ../../sass/_fonts.scss */
-.icon-message .icon:before {
-  content: "\6d";
-}
-
-/* line 140, ../../sass/_fonts.scss */
-.icon-microphone-socket .icon:before {
-  content: "\4d";
-}
-
-/* line 143, ../../sass/_fonts.scss */
-.icon-more .icon:before {
-  content: "\3a";
-}
-
-/* line 146, ../../sass/_fonts.scss */
-.icon-move-to-trash .icon:before {
-  content: "\44";
-}
-
-/* line 149, ../../sass/_fonts.scss */
-.icon-my-profile .icon:before {
-  content: "\55";
-}
-
-/* line 152, ../../sass/_fonts.scss */
-.icon-navigation-down .icon:before {
-  content: "\24";
-}
-
-/* line 155, ../../sass/_fonts.scss */
-.icon-navigation-left .icon:before {
-  content: "\25";
-}
-
-/* line 158, ../../sass/_fonts.scss */
-.icon-navigation-right .icon:before {
-  content: "\a7";
-}
-
-/* line 161, ../../sass/_fonts.scss */
-.icon-navigation-up .icon:before {
-  content: "\22";
-}
-
-/* line 164, ../../sass/_fonts.scss */
-.icon-next .icon:before {
-  content: "\38";
-}
-
-/* line 167, ../../sass/_fonts.scss */
-.icon-pause .icon:before {
-  content: "\35";
-}
-
-/* line 170, ../../sass/_fonts.scss */
-.icon-play .icon:before {
-  content: "\34";
-}
-
-/* line 173, ../../sass/_fonts.scss */
-.icon-previous .icon:before {
-  content: "\32";
-}
-
-/* line 176, ../../sass/_fonts.scss */
-.icon-print .icon:before {
-  content: "\70";
-}
-
-/* line 179, ../../sass/_fonts.scss */
-.icon-record .icon:before {
-  content: "\2e";
-}
-
-/* line 182, ../../sass/_fonts.scss */
-.icon-reload .icon:before {
-  content: "\67";
-}
-
-/* line 185, ../../sass/_fonts.scss */
-.icon-reply .icon:before, .icon-reply .icon {
-  before: "\72";
-  content: "\72";
-}
-
-/* line 189, ../../sass/_fonts.scss */
-.icon-rewind .icon:before {
-  content: "\33";
-}
-
-/* line 192, ../../sass/_fonts.scss */
-.icon-ringtone-off .icon:before {
-  content: "\4e";
-}
-
-/* line 195, ../../sass/_fonts.scss */
-.icon-ringtone-on .icon:before {
-  content: "\6e";
-}
-
-/* line 198, ../../sass/_fonts.scss */
-.icon-scroll-left .icon:before {
-  content: "\29";
-}
-
-/* line 201, ../../sass/_fonts.scss */
-.icon-scroll-right .icon:before {
-  content: "\2f";
-}
-
-/* line 204, ../../sass/_fonts.scss */
-.icon-search .icon:before {
-  content: "\71";
-}
-
-/* line 207, ../../sass/_fonts.scss */
-.icon-settings .icon:before {
-  content: "\53";
-}
-
-/* line 210, ../../sass/_fonts.scss */
-.icon-share .icon:before {
-  content: "\79";
-}
-
-/* line 213, ../../sass/_fonts.scss */
-.icon-shopping-cart .icon:before {
-  content: "\42";
-}
-
-/* line 216, ../../sass/_fonts.scss */
-.icon-skip-to-end .icon:before {
-  content: "\39";
-}
-
-/* line 219, ../../sass/_fonts.scss */
-.icon-skip-to-start .icon:before {
-  content: "\31";
-}
-
-/* line 222, ../../sass/_fonts.scss */
-.icon-smartphone .icon:before {
-  content: "\57";
-}
-
-/* line 225, ../../sass/_fonts.scss */
-.icon-speaker-off .icon:before {
-  content: "\4b";
-}
-
-/* line 228, ../../sass/_fonts.scss */
-.icon-speaker-on .icon:before {
-  content: "\6b";
-}
-
-/* line 231, ../../sass/_fonts.scss */
-.icon-start-call .icon:before {
-  content: "\4a";
-}
-
-/* line 234, ../../sass/_fonts.scss */
-.icon-stop .icon:before {
-  content: "\36";
-}
-
-/* line 237, ../../sass/_fonts.scss */
-.icon-success .icon:before {
-  content: "\76";
-}
-
-/* line 240, ../../sass/_fonts.scss */
-.icon-synchronize .icon:before, .icon-synchronize .icon {
-  before: "\73";
-  content: "\73";
-}
-
-/* line 244, ../../sass/_fonts.scss */
-.icon-tablet-pc .icon:before {
-  content: "\45";
-}
-
-/* line 247, ../../sass/_fonts.scss */
-.icon-telekom-1T1 .icon:before {
-  content: "\74";
-}
-
-/* line 250, ../../sass/_fonts.scss */
-.icon-minimize .icon:before {
-  content: "\fc";
-}
-
-/* line 253, ../../sass/_fonts.scss */
-.icon-maximize .icon:before {
-  content: "\dc";
-}
-
-/* line 256, ../../sass/_fonts.scss */
-.icon-tile-view .icon:before {
-  content: "\30";
-}
-
-/* line 259, ../../sass/_fonts.scss */
-.icon-upload .icon:before {
-  content: "\75";
-}
-
-/* line 262, ../../sass/_fonts.scss */
-.icon-warning .icon:before {
-  content: "\21";
-}
-
-/* line 265, ../../sass/_fonts.scss */
-.icon-warning_2 .icon:before {
-  content: "\e4";
-}
-
-/* line 268, ../../sass/_fonts.scss */
-.icon-zoom-in .icon:before {
-  content: "\7a";
-}
-
-/* line 271, ../../sass/_fonts.scss */
-.icon-zoom-out .icon:before {
-  content: "\5a";
-}
-
-/* line 276, ../../sass/_fonts.scss */
-.icon-radiobutton_outer:before {
-  content: "\2c";
-}
-
-/* line 279, ../../sass/_fonts.scss */
-.icon-radiobutton_inner:before {
-  content: "\3b";
-}
-
-/* line 282, ../../sass/_fonts.scss */
-.icon-radiobutton_shadow:before {
-  content: "\f6";
-}
-
-/* Specific styles for the IE 7 :before :after polyfill */
 @font-face {
   font-family: 'TeleGrotesk';
-  src: url("../fonts/TeleGroteskNormal.eot?") format("eot"), url("../fonts/TeleGroteskNormal.woff") format("woff");
-}
+  src: url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-grotesknor-webfont.eot") format("eot"), url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-grotesknor-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'TeleGroteskHal';
-  src: url("../fonts/TeleGroteskHalbfett.eot?") format("eot"), url("../fonts/TeleGroteskHalbfett.woff") format("woff");
-}
+  src: url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-groteskhal-webfont.eot") format("eot"), url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-groteskhal-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: 'TeleGroteskFet';
-  src: url("../fonts/TeleGroteskFett.eot?") format("eot"), url("../fonts/TeleGroteskFett.woff") format("woff");
-}
+  src: url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-groteskfet-webfont.eot") format("eot"), url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-groteskfet-webfont.woff") format("woff"); }
 
-/* Border title */
-/* Border image */
-/* Text */
-/* Border default */
-/* Border list */
-/* Hyperlink */
-/* line 21, ../../sass/templatecomponents/_presentation.scss */
+@font-face {
+  font-family: 'TeleGroteskUlt';
+  src: url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-grotesk-ult-webfont.eot") format("eot"), url("/typo3conf/ext/dtag_base_unify/res/assets/fonts/tele-grotesk-ult-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: 'DTAGIconWebfont'; }
+
 .box-content {
   clear: both;
-  margin: 2em .5em 0;
-}
-@media screen and (min-width: 960px) {
-  /* line 21, ../../sass/templatecomponents/_presentation.scss */
-  .box-content {
-    margin: 2em 0;
-  }
-}
+  margin: 2em .5em 0; }
+  @media screen and (min-width: 960px) {
+    .box-content {
+      margin: 2em 0; } }
 
-/* line 33, ../../sass/templatecomponents/_presentation.scss */
 #dtag_drawer .dtag-inner [data-is-settings-caller="true"] {
   background: none !important;
   border: none !important;
@@ -1486,376 +412,283 @@
   color: #fff;
   position: absolute;
   top: .65em;
-  right: .5em;
-}
+  right: .5em; }
 
-/* line 49, ../../sass/templatecomponents/_presentation.scss */
-#dtag_brandlevel #dtag_settingslist {
-  position: absolute;
-  right: 1em;
-  top: 4.5em;
-}
-/* line 53, ../../sass/templatecomponents/_presentation.scss */
-#dtag_brandlevel #dtag_settingslist .dropdown-decorated {
-  position: relative;
-}
-
-/* line 77, ../../sass/templatecomponents/_presentation.scss */
 .dtag-marginal span.headline {
   border-bottom: 1px solid #9A9A9A;
   display: block;
   line-height: 4em;
-  margin-top: 1.9em;
-}
+  margin-top: 1.9em; }
 
-/* line 89, ../../sass/templatecomponents/_presentation.scss */
 .icon-toolbox .icon {
   width: 1.875em;
-  height: 1.875em;
-}
-/* line 93, ../../sass/templatecomponents/_presentation.scss */
+  height: 1.875em; }
 .icon-toolbox img {
   width: 100%;
-  height: auto;
-}
+  height: auto; }
 
-/* line 102, ../../sass/templatecomponents/_presentation.scss */
 .box-content {
   clear: both;
-  margin: 2em .5em 0;
-}
-@media screen and (min-width: 960px) {
-  /* line 102, ../../sass/templatecomponents/_presentation.scss */
-  .box-content {
-    margin: 2em 0;
-  }
-}
+  margin: 2em .5em 0; }
+  @media screen and (min-width: 960px) {
+    .box-content {
+      margin: 2em 0; } }
 
 @media screen and (max-width: 960px) {
-  /* line 114, ../../sass/templatecomponents/_presentation.scss */
   .centered {
-    text-align: center;
-  }
-}
-/* line 124, ../../sass/templatecomponents/_presentation.scss */
-#dtag_servicelevel #dtag_helpdesklist {
-  position: absolute;
-  right: 1em;
-  top: 4.5em;
-}
-/* line 128, ../../sass/templatecomponents/_presentation.scss */
-#dtag_servicelevel #dtag_helpdesklist .dropdown-decorated {
-  position: relative;
-}
-
-/* line 134, ../../sass/templatecomponents/_presentation.scss */
-.title-bar #dtag_helpdesklist {
-  position: absolute;
-  right: 0;
-  top: 3.5em;
-}
-/* line 138, ../../sass/templatecomponents/_presentation.scss */
-.title-bar #dtag_helpdesklist .dropdown-decorated {
-  position: relative;
-}
-
-/* line 147, ../../sass/templatecomponents/_presentation.scss */
+    text-align: center; } }
+#dtag_settingslist.dropdown-drop {
+  top: 4em !important; }
 #dtag_settingslist .dropdown-decorated {
-  width: 20em;
-  text-align: left;
-}
-/* line 152, ../../sass/templatecomponents/_presentation.scss */
-#dtag_settingslist #dtag_settings_username {
-  border-bottom: 1px solid gainsboro;
-}
-/* line 155, ../../sass/templatecomponents/_presentation.scss */
-#dtag_settingslist #dtag_settings_logout {
-  border-top: 1px solid gainsboro;
-}
+  width: 22em;
+  text-align: left; }
+  #dtag_settingslist .dropdown-decorated strong {
+    font-family: TeleGrotesk; }
+  #dtag_settingslist .dropdown-decorated #dtag_settings_username {
+    border-bottom: 1px solid gainsboro; }
+  #dtag_settingslist .dropdown-decorated #dtag_settings_logout {
+    border-top: 1px solid gainsboro; }
+    #dtag_settingslist .dropdown-decorated #dtag_settings_logout button {
+      text-align: left; }
 
-/* line 160, ../../sass/templatecomponents/_presentation.scss */
-#dtag_helpdesklist {
-  display: none;
-}
-/* line 162, ../../sass/templatecomponents/_presentation.scss */
 #dtag_helpdesklist .dropdown-decorated {
-  width: 20em;
-  text-align: left;
-}
-/* line 166, ../../sass/templatecomponents/_presentation.scss */
+  width: 22em;
+  text-align: left; }
+  #dtag_helpdesklist .dropdown-decorated strong {
+    font-family: TeleGrotesk; }
 #dtag_helpdesklist #helpdesk_phonenumber {
-  border-top: 1px solid gainsboro;
-}
+  border-top: 1px solid black; }
 
-/* line 26, ../../sass/template.scss */
+#dtag_settingslist ul.list-decorated li > *,
+#dtag_helpdesklist ul.list-decorated li > * {
+  display: block;
+  font-size: 1.6em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+  #dtag_settingslist ul.list-decorated li > * button,
+  #dtag_helpdesklist ul.list-decorated li > * button {
+    font-size: 1em;
+    text-align: left;
+    padding: 0; }
+
+.js #dtag_settingslist,
+.js #dtag_helpdesklist {
+  display: none; }
+
+.dropdown-holder {
+  display: inline-block;
+  position: relative; }
+  .dropdown-holder .dropdown-drop {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .dropdown-holder .dropdown-decorated {
+    position: relative; }
+
 body {
-  color: #4b4b4b;
+  color: #383838;
   padding: 0;
   margin: 0;
-  font: 75% TeleGrotesk;
-  text-align: left;
-  overflow-y: scroll;
-}
-@media screen and (min-width: 960px) {
-  /* line 34, ../../sass/template.scss */
-  body.DTExperience {
-    font-size: 62.5%;
-  }
-}
+  font-size: 75%;
+  text-align: left; }
+  @media screen and (min-width: 960px) {
+    body.DTExperience {
+      font-size: 62.5%; } }
 
-/* line 61, ../../sass/template.scss */
 #dtag_wrapper {
   text-align: left;
   margin: 0;
-  overflow: hidden;
   padding-bottom: 75em;
-}
+  width: 100%;
+  float: left; }
 
-/* line 76, ../../sass/template.scss */
 .dtag-outer {
   width: 100%;
   margin: 0 auto;
   position: relative;
   clear: both;
-  float: left;
-}
+  float: left; }
 
-/* line 92, ../../sass/template.scss */
 .dtag-inner {
   margin: 0 auto;
   padding: 0;
-  position: relative;
-}
+  position: relative; }
 
 @media screen and (min-width: 960px) {
-  /* line 99, ../../sass/template.scss */
   .dtag-inner {
     width: 94em;
-    padding: 0 1em;
-  }
-}
-/* line 109, ../../sass/template.scss */
-#mq_helper {
-  display: none;
-  font-family: smartphone;
-  /*/mediaquery*/
-  /*/mediaquery*/
-}
-@media screen and (min-width: 480px) {
-  /* line 109, ../../sass/template.scss */
-  #mq_helper {
-    font-family: tablet;
-  }
-}
-@media screen and (min-width: 960px) {
-  /* line 109, ../../sass/template.scss */
-  #mq_helper {
-    font-family: desktop;
-  }
-}
-
-/* line 123, ../../sass/template.scss */
-#dtag_jumpmarks {
+    padding: 0 1em; } }
+#dtag_jumpmarks a {
+  position: absolute;
+  left: -9999px; }
+#dtag_drawer #dtag_jumpmarks {
   clear: both;
   float: left;
   width: 100%;
-}
-/* line 128, ../../sass/template.scss */
-#dtag_jumpmarks a {
-  color: white;
-  font-size: 1.6em;
-  padding: 0 .5em;
-}
+  margin: 0 0 0 .75em; }
+  #dtag_drawer #dtag_jumpmarks a {
+    color: black;
+    font-size: 1.3em;
+    padding: .5em;
+    display: inline-block; }
+  #dtag_drawer #dtag_jumpmarks a {
+    color: white; }
+#dtag_servicelevel #dtag_jumpmarks {
+  display: inline; }
+  #dtag_servicelevel #dtag_jumpmarks a {
+    color: #31c3f7;
+    background: black;
+    text-decoration: underline;
+    font-size: 1.3em;
+    padding: 0 0.76923em;
+    line-height: 1.92308em;
+    display: inline-block;
+    margin-left: 0.76923em;
+    -webkit-border-radius: 0.25385em;
+    -moz-border-radius: 0.25385em;
+    -ms-border-radius: 0.25385em;
+    -o-border-radius: 0.25385em;
+    border-radius: 0.25385em; }
+    #dtag_servicelevel #dtag_jumpmarks a:focus {
+      position: static !important; }
 
-@media screen and (min-width: 480px) {
-  /* line 137, ../../sass/template.scss */
-  #dtag_jumpmarks {
-    display: none;
-  }
-}
-/* line 145, ../../sass/template.scss */
 #dtag_metanavigation {
   clear: both;
   float: left;
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 159, ../../sass/template.scss */
 #dtag_brandlevel {
-  background: #f2f2f2;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
-  background: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
-  background: -moz-linear-gradient(top, #ffffff, #e6e6e6);
-  background: -o-linear-gradient(top, #ffffff, #e6e6e6);
-  background: linear-gradient(top, #ffffff, #e6e6e6);
-  -webkit-box-shadow: 0 0 1em -0.4em black;
-  -moz-box-shadow: 0 0 1em -0.4em black;
-  box-shadow: 0 0 1em -0.4em black;
+  background: white;
   z-index: 2;
-  border-bottom: 0.1em solid #d0d0d0;
-}
-/* line 175, ../../sass/template.scss */
-#dtag_brandlevel .dtag-grid-col {
-  line-height: 4.9em;
-  padding: 0 .5em;
-}
-/* line 179, ../../sass/template.scss */
-#dtag_brandlevel .dtag-grid-col-left {
-  width: 50%;
-}
-/* line 182, ../../sass/template.scss */
-#dtag_brandlevel .dtag-grid-col-center {
-  display: none;
-  text-align: center;
-}
-/* line 186, ../../sass/template.scss */
-#dtag_brandlevel .dtag-grid-col-right {
-  width: 50%;
-  text-align: right;
-  float: right;
-}
-@media screen and (max-width: 480px) {
-  /* line 159, ../../sass/template.scss */
-  #dtag_brandlevel {
-    position: fixed;
-    top: 0;
-  }
-}
-@media screen and (min-width: 480px) {
-  /* line 159, ../../sass/template.scss */
-  #dtag_brandlevel {
-    height: auto;
-  }
-  /* line 201, ../../sass/template.scss */
+  border-bottom: 0.1em solid #b2b2b2; }
   #dtag_brandlevel .dtag-grid-col {
-    width: 33%;
-  }
-  /* line 204, ../../sass/template.scss */
+    line-height: 5em;
+    padding: 0 .5em; }
+  #dtag_brandlevel .dtag-grid-col-left {
+    width: 35%; }
   #dtag_brandlevel .dtag-grid-col-center {
-    display: inline-block;
-    width: 34%;
-  }
-}
-@media screen and (min-width: 960px) {
-  /* line 159, ../../sass/template.scss */
-  #dtag_brandlevel {
-    height: 4.9em;
-  }
-  /* line 212, ../../sass/template.scss */
-  #dtag_brandlevel .dtag-grid-col {
-    width: 28em;
-    padding: 0;
-  }
-  /* line 216, ../../sass/template.scss */
-  #dtag_brandlevel .dtag-grid-col-center {
-    width: 34em;
-  }
-}
+    display: none;
+    text-align: center; }
+  #dtag_brandlevel .dtag-grid-col-right {
+    width: 65%;
+    text-align: right;
+    float: right; }
+    @media screen and (max-width: 480px) {
+      #dtag_brandlevel .dtag-grid-col-right a.button {
+        margin-left: 0.3125em; } }
+  #dtag_brandlevel a.button {
+    text-transform: uppercase !important; }
+  @media screen and (min-width: 480px) {
+    #dtag_brandlevel {
+      height: auto; }
+      #dtag_brandlevel .dtag-grid-col {
+        width: 33%; }
+      #dtag_brandlevel .dtag-grid-col-center {
+        display: inline-block;
+        width: 34%; } }
+  @media screen and (min-width: 960px) {
+    #dtag_brandlevel {
+      padding-top: 3.5em;
+      padding-bottom: .5em;
+      height: 5em; }
+      #dtag_brandlevel .dtag-grid-col {
+        width: 28em;
+        padding: 0; }
+      #dtag_brandlevel .dtag-grid-col-center {
+        width: 34em; } }
 
-/* line 225, ../../sass/template.scss */
 #dtag_servicelevel {
-  background: #f2f2f2;
-  border-bottom: 0.1em solid #d0d0d0;
-  z-index: 1;
-  overflow: hidden;
-}
-/* line 237, ../../sass/template.scss */
-#dtag_servicelevel h2 {
-  margin: 0;
-}
-/* line 241, ../../sass/template.scss */
-#dtag_servicelevel .dtag-grid-col {
-  line-height: 4.9em;
-  padding: 0 .5em;
-}
-/* line 246, ../../sass/template.scss */
-#dtag_servicelevel .dtag-grid-col-left {
-  line-height: 4.9em;
-  width: 80%;
-  padding: 0 .5em;
-}
-/* line 252, ../../sass/template.scss */
-#dtag_servicelevel .dtag-grid-col-right {
-  width: 20%;
-  text-align: right;
-}
-@media screen and (min-width: 960px) {
-  /* line 225, ../../sass/template.scss */
-  #dtag_servicelevel {
-    overflow: visible;
-    height: 4.9em;
-  }
-  /* line 261, ../../sass/template.scss */
+  background: #383838;
+  z-index: 1; }
+  #dtag_servicelevel h1, #dtag_servicelevel h2 {
+    margin: 0;
+    display: inline-block; }
   #dtag_servicelevel .dtag-grid-col {
-    width: 46em;
-    padding: 0;
-  }
-}
+    padding: 1em .5em;
+    vertical-align: middle; }
+  #dtag_servicelevel .dtag-grid-col-left {
+    width: 70%; }
+  #dtag_servicelevel .dtag-grid-col-right {
+    width: 30%;
+    text-align: right; }
+  @media screen and (min-width: 960px) {
+    #dtag_servicelevel {
+      overflow: visible; }
+      #dtag_servicelevel .dtag-grid-col {
+        height: 5em;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0; } }
 
-/* line 271, ../../sass/template.scss */
 #dtag_drawer {
   position: relative;
-  background-color: #6c6c6c;
-  background-image: url('../images/19aef50e.drawer-pattern.png');
-  -webkit-box-shadow: inset 0 -3em 1.2em -3em black;
-  -moz-box-shadow: inset 0 -3em 1.2em -3em black;
-  box-shadow: inset 0 -3em 1.2em -3em black;
-}
-@media screen and (max-width: 480px) {
-  /* line 271, ../../sass/template.scss */
-  #dtag_drawer {
-    margin-top: 5em;
-  }
-}
-@media screen and (max-width: 480px) {
-  /* line 294, ../../sass/template.scss */
-  #dtag_drawer .dtag-inner {
-    float: left;
+  background-color: #383838; }
+  @media screen and (max-width: 480px) {
+    #dtag_drawer .dtag-inner {
+      float: left;
+      width: 100%; } }
+
+@media screen and (min-width: 960px) {
+  #dtag_header {
     width: 100%;
-  }
-}
+    float: left;
+    clear: left; }
 
-/* line 305, ../../sass/template.scss */
-#dtag_drawer {
-  height: 0;
+  #dtag_servicelevel {
+    -webkit-transition: padding-top 0.25s ease-in-out;
+    -webkit-transition-delay: 0s;
+    -moz-transition: padding-top 0.25s ease-in-out 0s;
+    -o-transition: padding-top 0.25s ease-in-out 0s;
+    transition: padding-top 0.25s ease-in-out 0s;
+    margin-top: -5px;
+    padding-top: 5px; }
+
+  .dtag-servicelevel-fixed #dtag_brandlevel {
+    border-color: transparent;
+    background: #383838;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 55px; }
+  .dtag-servicelevel-fixed #dtag_servicelevel {
+    z-index: 41;
+    padding-top: 0px;
+    margin-top: 0px;
+    position: fixed;
+    left: 0;
+    top: 0; }
+  .dtag-servicelevel-fixed #dtag_main {
+    margin-top: 140px; } }
+.js #dtag_drawer {
+  margin-top: -999px;
   overflow: hidden;
-}
+  visibility: hidden; }
 
-/* line 314, ../../sass/template.scss */
 #dtag_transitionwrapper > section {
   float: left;
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 323, ../../sass/template.scss */
-a#dtag_tool_title {
-  color: #4b4b4b;
-  text-decoration: none;
-}
+#dtag_left > .left-inner {
+  margin-top: 12.7em;
+  border-top: 1px solid #b2b2b2; }
 
-/* line 333, ../../sass/template.scss */
+#dtag_right > .right-inner {
+  margin-top: 12.8em; }
+
 #dtag_logo {
   color: #e20074;
-  width: 15em;
+  width: 6em;
   height: 2.9em;
   position: relative;
-  top: 1em;
+  top: 1.25em;
   overflow: hidden;
   display: inline-block;
-  background: url('../images/d6d52401.deutsche-telekom-brand-logo-mobile.png') no-repeat 0 2px;
-}
-/* line 341, ../../sass/template.scss */
-#dtag_logo .text {
-  position: absolute;
-  left: -9999px;
-}
-/* line 345, ../../sass/template.scss */
-#dtag_logo .icon {
-  display: none;
-}
-@media screen and (min-width: 960px) {
-  /* line 333, ../../sass/template.scss */
-  #dtag_logo {
-    background: url('../images/71d2ba7c.deutsche-telekom-brand-logo-web.png') no-repeat 0 2px;
-  }
-}
+  background: url('/typo3conf/ext/dtag_base_unify/res/assets/images/deutsche-telekom-brand-logo-mobile-2013.png?1384333742') no-repeat 0 2px; }
+  #dtag_logo .text {
+    position: absolute;
+    left: -9999px; }
+  #dtag_logo .icon {
+    display: none; }
+  @media screen and (min-width: 960px) {
+    #dtag_logo {
+      background: url('/typo3conf/ext/dtag_base_unify/res/assets/images/deutsche-telekom-brand-logo-web-2013.png?1384333742') no-repeat 0 2px; } }

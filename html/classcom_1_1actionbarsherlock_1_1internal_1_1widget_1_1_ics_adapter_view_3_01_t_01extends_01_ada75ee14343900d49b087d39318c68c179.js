@@ -1,7 +1,0 @@
-var classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01_ada75ee14343900d49b087d39318c68c179 =
-[
-    [ "AdapterContextMenuInfo", "classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01_ada75ee14343900d49b087d39318c68c179.html#a5cb3d985cae2941c2531324d84c09eb3", null ],
-    [ "targetView", "classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01_ada75ee14343900d49b087d39318c68c179.html#a37df1099928b2c47e5aab1e68e7a10fe", null ],
-    [ "position", "classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01_ada75ee14343900d49b087d39318c68c179.html#afb0aca96fa4e2b6f0109a2effdbe6f81", null ],
-    [ "id", "classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01_ada75ee14343900d49b087d39318c68c179.html#adfce1d826606a20fb3203d1ca0d67f7c", null ]
-];

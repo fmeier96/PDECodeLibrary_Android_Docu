@@ -39,5 +39,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e
     [ "FONTSIZE_SMALL", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_base_login_screen_activity.html#ad1d9573dd144501ed6de04631a9b6a75", null ],
     [ "FONTSIZE_SMALLER", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_base_login_screen_activity.html#a125ce15ef6a698cbc9c3bbddf837fe87", null ],
     [ "DEFAULT_TYPEFACE", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_base_login_screen_activity.html#a2d49a30c10dbcf3207009328ff69b1ad", null ],
-    [ "DTUI_LINKCOLOR", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_base_login_screen_activity.html#a021b2ff47e21a46cf1775bdeb271ead7", null ]
+    [ "DTUI_LINKCOLOR", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_base_login_screen_activity.html#a021b2ff47e21a46cf1775bdeb271ead7", null ],
+    [ "mStyle", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_base_login_screen_activity.html#ad479421f9bf2abfbc2aee850c0e74a00", null ]
 ];

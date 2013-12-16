@@ -84,7 +84,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e
     [ "mAlpha", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#a48ddc5af6410e2293361bd1ddc624d73", null ],
     [ "mDither", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#a65e8f55ec97ad25cca31e52e2be9cc9c", null ],
     [ "mColorFilter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#a7c5d8c4f3dd0d7e7a0f9250fb5829525", null ],
-    [ "mDrawingBitmap", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#a3462ed4e4db2c587960a70dd2eed764b", null ],
     [ "mTextSize", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#a5f9e8927dbfa38e5a7c747f7affddf23", null ],
     [ "mTypeface", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#a22d14a2246228f951330c8eef4e5db7d", null ],
     [ "mEllipsize", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#a55fb4c0b262a7d09a1c60d6854582490", null ],

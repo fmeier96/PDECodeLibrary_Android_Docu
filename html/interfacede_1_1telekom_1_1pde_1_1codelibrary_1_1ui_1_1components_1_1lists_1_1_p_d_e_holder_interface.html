@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -194,16 +193,16 @@ Inheritance diagram for de.telekom.pde.codelibrary.ui.components.lists.PDEHolder
  </div></div>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Interface for PDE (List) Holder classes. </p>
-<p>If you want to use a holder class that is able to use the maximum comfort given by the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html" title="Base adapter for all PDELists.">PDEListBaseAdapter</a> class, implement this Interface when creating a holder class. You can also use a completly custom holder class, but then you have to do the complete handling (creation, initialization and value updating) on your own. </p>
+<p>If you want to use a holder class that is able to use the maximum comfort given by the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html" title="Base adapter for all PDELists.">PDEListBaseAdapter</a> class, implement this Interface when creating a holder class. You can also use a completely custom holder class, but then you have to do the complete handling (creation, initialization and value updating) on your own. </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Methods</h2></td></tr>
 <tr class="memitem:ad0857257fed8a3efc605b391c662f3ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder_interface.html#ad0857257fed8a3efc605b391c662f3ca">initHolder</a> (View layoutView, int[] targetViewIDs)</td></tr>
 <tr class="memdesc:ad0857257fed8a3efc605b391c662f3ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init the desired subViews of the row item layout.  <a href="#ad0857257fed8a3efc605b391c662f3ca"></a><br/></td></tr>
 <tr class="memitem:a5ce3c322e2c66da4f815e7ba77075a63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder_interface.html#a5ce3c322e2c66da4f815e7ba77075a63">setTargetViewContent</a> (int targetViewID, String value)</td></tr>
-<tr class="memdesc:a5ce3c322e2c66da4f815e7ba77075a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set s content for our target view.  <a href="#a5ce3c322e2c66da4f815e7ba77075a63"></a><br/></td></tr>
+<tr class="memdesc:a5ce3c322e2c66da4f815e7ba77075a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a content for our target view.  <a href="#a5ce3c322e2c66da4f815e7ba77075a63"></a><br/></td></tr>
 <tr class="memitem:a5651310de1d16f7a3c44dff6240424cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder_interface.html#a5651310de1d16f7a3c44dff6240424cf">setTargetViewContent</a> (int targetViewID, int value)</td></tr>
-<tr class="memdesc:a5651310de1d16f7a3c44dff6240424cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set s content for our target view.  <a href="#a5651310de1d16f7a3c44dff6240424cf"></a><br/></td></tr>
+<tr class="memdesc:a5651310de1d16f7a3c44dff6240424cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a content for our target view.  <a href="#a5651310de1d16f7a3c44dff6240424cf"></a><br/></td></tr>
 </table>
 <h2>Member Function Documentation</h2>
 <a class="anchor" id="ad0857257fed8a3efc605b391c662f3ca"></a>
@@ -268,7 +267,7 @@ Public Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set s content for our target view. </p>
+<p>Set a content for our target view. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">targetViewID</td><td>the ID of the view that should receive the content. </td></tr>
@@ -305,7 +304,7 @@ Public Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set s content for our target view. </p>
+<p>Set a content for our target view. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">targetViewID</td><td>the ID of the view that should receive the content. </td></tr>

@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-library-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button flat" href="https://www.design.telekom.com/">
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1d10ea9500037b1fd00b757599beaa13f.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Wrapper class hosting a PDEDrawableVideoMetaphorHaptic for usage in Layouts.  
+ <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#details">More...</a></p>
+
+<p>Inherits View.</p>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Wrapper class hosting a PDEDrawableVideoMetaphorHaptic for usage in Layouts. </p>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:ab9386855193f742497fa27641d168b79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#ab9386855193f742497fa27641d168b79">PDEVideoMetaphorView</a> (Context context)</td></tr>
+<tr class="memdesc:ab9386855193f742497fa27641d168b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ab9386855193f742497fa27641d168b79"></a><br/></td></tr>
+<tr class="memitem:a79cfef4d7cf5232609eff50c9d49424d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a79cfef4d7cf5232609eff50c9d49424d">PDEVideoMetaphorView</a> (Context context, AttributeSet attrs)</td></tr>
+<tr class="memdesc:a79cfef4d7cf5232609eff50c9d49424d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a79cfef4d7cf5232609eff50c9d49424d"></a><br/></td></tr>
+<tr class="memitem:a82ab836d6dcd248cf1b16bbbdc2fbbce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a82ab836d6dcd248cf1b16bbbdc2fbbce">PDEVideoMetaphorView</a> (Context context, AttributeSet attrs, int defStyle)</td></tr>
+<tr class="memdesc:a82ab836d6dcd248cf1b16bbbdc2fbbce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a82ab836d6dcd248cf1b16bbbdc2fbbce"></a><br/></td></tr>
+<tr class="memitem:a37756fb438805ae5e5fe444170eac667"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a37756fb438805ae5e5fe444170eac667">setContentStyle</a> (PDEConstants.PDEContentStyle style)</td></tr>
+<tr class="memdesc:a37756fb438805ae5e5fe444170eac667"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set visual style.  <a href="#a37756fb438805ae5e5fe444170eac667"></a><br/></td></tr>
+<tr class="memitem:aec76717cfc672264f00f69ea4e9004dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#aec76717cfc672264f00f69ea4e9004dd">setContentStyle</a> (int style)</td></tr>
+<tr class="memdesc:aec76717cfc672264f00f69ea4e9004dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set visual style.  <a href="#aec76717cfc672264f00f69ea4e9004dd"></a><br/></td></tr>
+<tr class="memitem:a703b87ed4425c4afda107515f0abcde5"><td class="memItemLeft" align="right" valign="top">PDEConstants.PDEContentStyle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a703b87ed4425c4afda107515f0abcde5">getStyle</a> ()</td></tr>
+<tr class="memdesc:a703b87ed4425c4afda107515f0abcde5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get visual style.  <a href="#a703b87ed4425c4afda107515f0abcde5"></a><br/></td></tr>
+<tr class="memitem:a955e919af2cfabd98bee882df80fdf0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a955e919af2cfabd98bee882df80fdf0c">setPhotoFromID</a> (int id)</td></tr>
+<tr class="memdesc:a955e919af2cfabd98bee882df80fdf0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set picture from int id.  <a href="#a955e919af2cfabd98bee882df80fdf0c"></a><br/></td></tr>
+<tr class="memitem:a6434d5529ce47ed9e3da56752ddf7194"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a6434d5529ce47ed9e3da56752ddf7194">setPictureDrawable</a> (Drawable drawable)</td></tr>
+<tr class="memdesc:a6434d5529ce47ed9e3da56752ddf7194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set picture drawable.  <a href="#a6434d5529ce47ed9e3da56752ddf7194"></a><br/></td></tr>
+<tr class="memitem:aec15118bedab3cd835705bf0ab398f9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#aec15118bedab3cd835705bf0ab398f9d">setPictureString</a> (String path)</td></tr>
+<tr class="memdesc:aec15118bedab3cd835705bf0ab398f9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set picture drawable.  <a href="#aec15118bedab3cd835705bf0ab398f9d"></a><br/></td></tr>
+<tr class="memitem:af232e47a308b3b6876855eeddb5087f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#af232e47a308b3b6876855eeddb5087f2">setTimeString</a> (String timeString)</td></tr>
+<tr class="memdesc:af232e47a308b3b6876855eeddb5087f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set time string.  <a href="#af232e47a308b3b6876855eeddb5087f2"></a><br/></td></tr>
+<tr class="memitem:a48284ff469452d1e8972d56db0fcfe0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a48284ff469452d1e8972d56db0fcfe0f">set169Format</a> (boolean f169)</td></tr>
+<tr class="memdesc:a48284ff469452d1e8972d56db0fcfe0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if 16/9 format.  <a href="#a48284ff469452d1e8972d56db0fcfe0f"></a><br/></td></tr>
+<tr class="memitem:a639b2f72c8ff0b7a5ba201aba90e3c90"><td class="memItemLeft" align="right" valign="top">Drawable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a639b2f72c8ff0b7a5ba201aba90e3c90">getPictureDrawable</a> ()</td></tr>
+<tr class="memdesc:a639b2f72c8ff0b7a5ba201aba90e3c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get icon drawable.  <a href="#a639b2f72c8ff0b7a5ba201aba90e3c90"></a><br/></td></tr>
+<tr class="memitem:a43622dda887a4e6eb3eb7631192b0f12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a43622dda887a4e6eb3eb7631192b0f12">setShadowEnabled</a> (boolean enabled)</td></tr>
+<tr class="memdesc:a43622dda887a4e6eb3eb7631192b0f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate shadow.  <a href="#a43622dda887a4e6eb3eb7631192b0f12"></a><br/></td></tr>
+<tr class="memitem:af20f2055ec0112cafa5badbf3a1d2080"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#af20f2055ec0112cafa5badbf3a1d2080">getShadowEnabled</a> ()</td></tr>
+<tr class="memdesc:af20f2055ec0112cafa5badbf3a1d2080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if shadow is activated.  <a href="#af20f2055ec0112cafa5badbf3a1d2080"></a><br/></td></tr>
+<tr class="memitem:a84e19ef9bf102ddfe97cc75d73cc443d"><td class="memItemLeft" align="right" valign="top">Point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a84e19ef9bf102ddfe97cc75d73cc443d">getNativeSize</a> ()</td></tr>
+<tr class="memdesc:a84e19ef9bf102ddfe97cc75d73cc443d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the native size of the icon (e.g. from resource image)  <a href="#a84e19ef9bf102ddfe97cc75d73cc443d"></a><br/></td></tr>
+<tr class="memitem:a4ddbe72b7bcba291a6eae688cc90a743"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a4ddbe72b7bcba291a6eae688cc90a743">hasPicture</a> ()</td></tr>
+<tr class="memdesc:a4ddbe72b7bcba291a6eae688cc90a743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if element has an icon drawable or icon string set.  <a href="#a4ddbe72b7bcba291a6eae688cc90a743"></a><br/></td></tr>
+<tr class="memitem:a5dbeae0c185eed83bce77c877eac2557"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a5dbeae0c185eed83bce77c877eac2557">getElementWidth</a> ()</td></tr>
+<tr class="memdesc:a5dbeae0c185eed83bce77c877eac2557"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets element width.  <a href="#a5dbeae0c185eed83bce77c877eac2557"></a><br/></td></tr>
+<tr class="memitem:a3903ef89cbc087a171682e7d3495d6b9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a3903ef89cbc087a171682e7d3495d6b9">getElementHeight</a> ()</td></tr>
+<tr class="memdesc:a3903ef89cbc087a171682e7d3495d6b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets element height.  <a href="#a3903ef89cbc087a171682e7d3495d6b9"></a><br/></td></tr>
+<tr class="memitem:a4eda2e97c4f397fb9f86f5016c8ba42a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a4eda2e97c4f397fb9f86f5016c8ba42a">setViewSize</a> (float width, float height)</td></tr>
+<tr class="memdesc:a4eda2e97c4f397fb9f86f5016c8ba42a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Size.  <a href="#a4eda2e97c4f397fb9f86f5016c8ba42a"></a><br/></td></tr>
+<tr class="memitem:aeca7f1c7b6da15bf34c0d4c76fa78fd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#aeca7f1c7b6da15bf34c0d4c76fa78fd8">setViewOffset</a> (float x, float y)</td></tr>
+<tr class="memdesc:aeca7f1c7b6da15bf34c0d4c76fa78fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Offset.  <a href="#aeca7f1c7b6da15bf34c0d4c76fa78fd8"></a><br/></td></tr>
+<tr class="memitem:a192b9bdaef5d104a8c0cf58651bf6a30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a192b9bdaef5d104a8c0cf58651bf6a30">setViewLayoutRect</a> (Rect rect)</td></tr>
+<tr class="memdesc:a192b9bdaef5d104a8c0cf58651bf6a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Rect.  <a href="#a192b9bdaef5d104a8c0cf58651bf6a30"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Methods</h2></td></tr>
+<tr class="memitem:ab3c189d13d662d0e0512778eecd7f2b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#ab3c189d13d662d0e0512778eecd7f2b8">init</a> (AttributeSet attrs)</td></tr>
+<tr class="memdesc:ab3c189d13d662d0e0512778eecd7f2b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize.  <a href="#ab3c189d13d662d0e0512778eecd7f2b8"></a><br/></td></tr>
+<tr class="memitem:a3e40f192b8844a4f3d126c0c92143160"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a3e40f192b8844a4f3d126c0c92143160">onMeasure</a> (int widthMeasureSpec, int heightMeasureSpec)</td></tr>
+<tr class="memdesc:a3e40f192b8844a4f3d126c0c92143160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine layout size of element.  <a href="#a3e40f192b8844a4f3d126c0c92143160"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
+Private Methods</h2></td></tr>
+<tr class="memitem:a0ac8acfdab7333ad4ebe8d557429f826"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a0ac8acfdab7333ad4ebe8d557429f826">setAttributes</a> (AttributeSet attrs)</td></tr>
+<tr class="memdesc:a0ac8acfdab7333ad4ebe8d557429f826"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load XML attributes.  <a href="#a0ac8acfdab7333ad4ebe8d557429f826"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2aba5bd50575f67978309326d3c28503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_video_metaphor.html">PDEDrawableVideoMetaphor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a2aba5bd50575f67978309326d3c28503">mVideo</a></td></tr>
+</table>
+<h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ab9386855193f742497fa27641d168b79"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.PDEVideoMetaphorView </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="a79cfef4d7cf5232609eff50c9d49424d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.PDEVideoMetaphorView </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="a82ab836d6dcd248cf1b16bbbdc2fbbce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.PDEVideoMetaphorView </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>defStyle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="ab3c189d13d662d0e0512778eecd7f2b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.init </td>
+          <td>(</td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0ac8acfdab7333ad4ebe8d557429f826"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setAttributes </td>
+          <td>(</td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load XML attributes. </p>
+
+</div>
+</div>
+<a class="anchor" id="a37756fb438805ae5e5fe444170eac667"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setContentStyle </td>
+          <td>(</td>
+          <td class="paramtype">PDEConstants.PDEContentStyle&#160;</td>
+          <td class="paramname"><em>style</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set visual style. </p>
+
+</div>
+</div>
+<a class="anchor" id="aec76717cfc672264f00f69ea4e9004dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setContentStyle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>style</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set visual style. </p>
+
+</div>
+</div>
+<a class="anchor" id="a703b87ed4425c4afda107515f0abcde5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PDEConstants.PDEContentStyle de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.getStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get visual style. </p>
+
+</div>
+</div>
+<a class="anchor" id="a955e919af2cfabd98bee882df80fdf0c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setPhotoFromID </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set picture from int id. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6434d5529ce47ed9e3da56752ddf7194"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setPictureDrawable </td>
+          <td>(</td>
+          <td class="paramtype">Drawable&#160;</td>
+          <td class="paramname"><em>drawable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set picture drawable. </p>
+
+</div>
+</div>
+<a class="anchor" id="aec15118bedab3cd835705bf0ab398f9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setPictureString </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set picture drawable. </p>
+
+</div>
+</div>
+<a class="anchor" id="af232e47a308b3b6876855eeddb5087f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setTimeString </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>timeString</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set time string. </p>
+
+</div>
+</div>
+<a class="anchor" id="a48284ff469452d1e8972d56db0fcfe0f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.set169Format </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>f169</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set if 16/9 format. </p>
+
+</div>
+</div>
+<a class="anchor" id="a639b2f72c8ff0b7a5ba201aba90e3c90"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Drawable de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.getPictureDrawable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get icon drawable. </p>
+
+</div>
+</div>
+<a class="anchor" id="a43622dda887a4e6eb3eb7631192b0f12"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setShadowEnabled </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Activate shadow. </p>
+
+</div>
+</div>
+<a class="anchor" id="af20f2055ec0112cafa5badbf3a1d2080"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.getShadowEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get if shadow is activated. </p>
+
+</div>
+</div>
+<a class="anchor" id="a84e19ef9bf102ddfe97cc75d73cc443d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Point de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.getNativeSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the native size of the icon (e.g. from resource image) </p>
+
+</div>
+</div>
+<a class="anchor" id="a4ddbe72b7bcba291a6eae688cc90a743"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.hasPicture </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns if element has an icon drawable or icon string set. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5dbeae0c185eed83bce77c877eac2557"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.getElementWidth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets element width. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3903ef89cbc087a171682e7d3495d6b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.getElementHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets element height. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4eda2e97c4f397fb9f86f5016c8ba42a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setViewSize </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set View Size. </p>
+
+</div>
+</div>
+<a class="anchor" id="aeca7f1c7b6da15bf34c0d4c76fa78fd8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setViewOffset </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set View Offset. </p>
+
+</div>
+</div>
+<a class="anchor" id="a192b9bdaef5d104a8c0cf58651bf6a30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setViewLayoutRect </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>rect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set View Rect. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3e40f192b8844a4f3d126c0c92143160"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.onMeasure </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>widthMeasureSpec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>heightMeasureSpec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine layout size of element. </p>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="a2aba5bd50575f67978309326d3c28503"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_video_metaphor.html">PDEDrawableVideoMetaphor</a> de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.mVideo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/src/de/telekom/pde/codelibrary/ui/components/elementwrappers/metaphors/<a class="el" href="_p_d_e_video_metaphor_view_8java.html">PDEVideoMetaphorView.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

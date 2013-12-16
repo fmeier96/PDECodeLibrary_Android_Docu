@@ -1,4 +1,0 @@
-var classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_list_popup_window_1_1_resize_popup_runnable =
-[
-    [ "run", "classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_list_popup_window_1_1_resize_popup_runnable.html#aea21bfeabdd870f7c83e70643dd4ca8d", null ]
-];

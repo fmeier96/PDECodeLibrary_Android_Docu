@@ -12,7 +12,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d
     [ "setElementShapeRect", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#afb21581e29811712b1ebbed752369726", null ],
     [ "setElementShapeRoundedRect", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#a1f0cdedcdd3f3bcc524eafb8be314331", null ],
     [ "setElementShapeOval", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#aaffdb6c9792c9ef2514d1a13bcdbefaa", null ],
-    [ "draw", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#a8f557ea06bae7be3c00f554065226d8d", null ],
     [ "updateAllPaints", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#ac9d3db86f7d7d97ee86e5c29d5e556b8", null ],
     [ "createBackgroundPaint", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#afc91547edc32b53f70c14715a507cc70", null ],
     [ "createDrawingBitmap", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_shadow.html#a951d526a9be3166c708133f1fce657d6", null ],

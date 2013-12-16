@@ -1,6 +1,0 @@
-var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1actionbar_1_1_activity_action_bar_spinner_1_1_spinner_listener =
-[
-    [ "SpinnerListener", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1actionbar_1_1_activity_action_bar_spinner_1_1_spinner_listener.html#acf9745f65aa46f944dec52a635c33158", null ],
-    [ "onNavigationItemSelected", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1actionbar_1_1_activity_action_bar_spinner_1_1_spinner_listener.html#a2f76fff52ebe00ec476d3e1fa47ff959", null ],
-    [ "options", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1actionbar_1_1_activity_action_bar_spinner_1_1_spinner_listener.html#a1b5465536444d19e7bab43a05ef106f3", null ]
-];

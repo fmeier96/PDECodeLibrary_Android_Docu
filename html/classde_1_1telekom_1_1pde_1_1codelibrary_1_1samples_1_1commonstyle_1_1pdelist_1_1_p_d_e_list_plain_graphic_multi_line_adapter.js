@@ -1,0 +1,10 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter =
+[
+    [ "PDEListPlainGraphicMultiLineAdapter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter.html#a44d86acb510fa30577bd734915a4ed51", null ],
+    [ "getItem", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter.html#ab8ddb4aaca33f7502b232f3232434102", null ],
+    [ "getItemId", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter.html#a785651fb8757f578cd8b5abe73603b0e", null ],
+    [ "fillListItem", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter.html#a66ddf9c7f0f21c423dd58f589c523398", null ],
+    [ "setJustTwoLines", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter.html#a96d205085c05a96172883083810f42e5", null ],
+    [ "hasJustTwoLines", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter.html#ad70e557a38f4dd3424625f384f77b17d", null ],
+    [ "mJustTwoLines", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_graphic_multi_line_adapter.html#ad65f082d223ea3353d8dd1c800f210f6", null ]
+];

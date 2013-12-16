@@ -1,4 +1,0 @@
-var namespacecom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1view_1_1animation =
-[
-    [ "AnimatorProxy", "classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1view_1_1animation_1_1_animator_proxy.html", "classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1view_1_1animation_1_1_animator_proxy" ]
-];

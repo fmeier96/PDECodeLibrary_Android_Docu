@@ -31,7 +31,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_
     [ "performLayout", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a6d5cc00b936213f372b527eb0b8417b5", null ],
     [ "calculateWantedWidth", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#ad85c8fa90cf1f46c280fc303c37972b2", null ],
     [ "onMeasure", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a3458a696012253e292928559fd374427", null ],
-    [ "onSizeChanged", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a65925a4cee1973d78dfc374700af2fe5", null ],
+    [ "onSizeChanged", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#abd3c1879db586b40b531e49f6c0cfcd2", null ],
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a4e55176c247c8e196abf493a6782b93b", null ],
     [ "DEBUGPARAMS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#af010851df0dc2ef85bfe37c0265071e2", null ],
     [ "SHOW_DEBUG_LOGS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#ad6fc799a0fe771750e764ad50edf97db", null ],

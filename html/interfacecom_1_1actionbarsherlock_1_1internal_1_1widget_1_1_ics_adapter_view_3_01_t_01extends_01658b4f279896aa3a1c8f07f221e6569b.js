@@ -1,5 +1,0 @@
-var interfacecom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01658b4f279896aa3a1c8f07f221e6569b =
-[
-    [ "onItemSelected", "interfacecom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01658b4f279896aa3a1c8f07f221e6569b.html#af12b0c9814bedf065c542939cf124542", null ],
-    [ "onNothingSelected", "interfacecom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_adapter_view_3_01_t_01extends_01658b4f279896aa3a1c8f07f221e6569b.html#aa044457fb5563db6f2feccfdbbcc3beb", null ]
-];

@@ -1,4 +1,0 @@
-var interfacecom_1_1actionbarsherlock_1_1widget_1_1_activity_chooser_model_1_1_on_choose_activity_listener =
-[
-    [ "onChooseActivity", "interfacecom_1_1actionbarsherlock_1_1widget_1_1_activity_chooser_model_1_1_on_choose_activity_listener.html#ad051a17240dd0c39d184f685d89b2340", null ]
-];

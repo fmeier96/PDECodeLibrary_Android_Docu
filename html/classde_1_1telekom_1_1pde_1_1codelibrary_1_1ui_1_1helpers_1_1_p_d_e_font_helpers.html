@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -194,25 +193,45 @@ Static Public Methods</h2></td></tr>
 <tr class="memitem:ac576c11ec4d540f9b1c6d74379824f4f"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#ac576c11ec4d540f9b1c6d74379824f4f">calculateFontSize</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> font, float wantedCapHeight)</td></tr>
 <tr class="memdesc:ac576c11ec4d540f9b1c6d74379824f4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the needed font size (in pixels) to come close to the wanted CapHeight.  <a href="#ac576c11ec4d540f9b1c6d74379824f4f"></a><br/></td></tr>
 <tr class="memitem:acb144b79ccb0b0f2a8b3ca40e9362078"><td class="memItemLeft" align="right" valign="top">static Paint.FontMetrics&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#acb144b79ccb0b0f2a8b3ca40e9362078">getFontMetrics</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> font, float size)</td></tr>
-<tr class="memdesc:acb144b79ccb0b0f2a8b3ca40e9362078"><td class="mdescLeft">&#160;</td><td class="mdescRight">: Convenience function to get the font metrics.  <a href="#acb144b79ccb0b0f2a8b3ca40e9362078"></a><br/></td></tr>
+<tr class="memdesc:acb144b79ccb0b0f2a8b3ca40e9362078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function to get the font metrics.  <a href="#acb144b79ccb0b0f2a8b3ca40e9362078"></a><br/></td></tr>
 <tr class="memitem:a8920f995ed7824906de4a3e0d61bd323"><td class="memItemLeft" align="right" valign="top">static Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a8920f995ed7824906de4a3e0d61bd323">getTextViewBounds</a> (String text, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> font, float textSize)</td></tr>
 <tr class="memdesc:a8920f995ed7824906de4a3e0d61bd323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get normalized bounding rect for the text with the chosen size.  <a href="#a8920f995ed7824906de4a3e0d61bd323"></a><br/></td></tr>
+<tr class="memitem:a8b24c688520520e6b9ee71e9ee3a4acb"><td class="memItemLeft" align="right" valign="top">static Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a8b24c688520520e6b9ee71e9ee3a4acb">getTextViewBounds</a> (String text, Typeface typeface, float textSize)</td></tr>
+<tr class="memdesc:a8b24c688520520e6b9ee71e9ee3a4acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get normalized bounding rect for the text with the chosen size.  <a href="#a8b24c688520520e6b9ee71e9ee3a4acb"></a><br/></td></tr>
 <tr class="memitem:aac8cd466209c7b0a587b93a0ed618f60"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#aac8cd466209c7b0a587b93a0ed618f60">getPixelsAboveBaseLine</a> (String text, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> font, float textSize)</td></tr>
 <tr class="memdesc:aac8cd466209c7b0a587b93a0ed618f60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get (positive) distance from the top to the baseline.  <a href="#aac8cd466209c7b0a587b93a0ed618f60"></a><br/></td></tr>
 <tr class="memitem:a22fdb0566ab42cedc42937199673af9e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a22fdb0566ab42cedc42937199673af9e">getPixelsBelowBaseLine</a> (String text, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> font, float textSize)</td></tr>
 <tr class="memdesc:a22fdb0566ab42cedc42937199673af9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get (positive) distance from the baseline to the bottom.  <a href="#a22fdb0566ab42cedc42937199673af9e"></a><br/></td></tr>
 <tr class="memitem:a981ae5b2299ea13483588bffa713fcb7"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a981ae5b2299ea13483588bffa713fcb7">getCapHeight</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> font, float textSize)</td></tr>
 <tr class="memdesc:a981ae5b2299ea13483588bffa713fcb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the height of the bounding rect for a caption D - equals CapHeight.  <a href="#a981ae5b2299ea13483588bffa713fcb7"></a><br/></td></tr>
+<tr class="memitem:a6201949b50018e6a1609a5a57e058ee4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a6201949b50018e6a1609a5a57e058ee4">getCapHeight</a> (Typeface font, float textSize)</td></tr>
+<tr class="memdesc:a6201949b50018e6a1609a5a57e058ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the height of the bounding rect for a caption D - equals CapHeight.  <a href="#a6201949b50018e6a1609a5a57e058ee4"></a><br/></td></tr>
 <tr class="memitem:a2c34a87489886f7d881513881a17b134"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a2c34a87489886f7d881513881a17b134">getHeight</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> font, float size)</td></tr>
 <tr class="memdesc:a2c34a87489886f7d881513881a17b134"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the metrics height for the font.  <a href="#a2c34a87489886f7d881513881a17b134"></a><br/></td></tr>
 <tr class="memitem:a49e164a1cf582cdfdf19ebe5db958fc8"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a49e164a1cf582cdfdf19ebe5db958fc8">getTopHeight</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> font, float size)</td></tr>
 <tr class="memitem:a59e7d4e0fdffe7285885665fd7976650"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a59e7d4e0fdffe7285885665fd7976650">getTeleGroteskNormal</a> (final Context context)</td></tr>
+<tr class="memdesc:a59e7d4e0fdffe7285885665fd7976650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of normal telekom font.  <a href="#a59e7d4e0fdffe7285885665fd7976650"></a><br/></td></tr>
+<tr class="memitem:a5287586e1cefac3fa71284c0117adbde"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a5287586e1cefac3fa71284c0117adbde">getDefault</a> ()</td></tr>
+<tr class="memdesc:a5287586e1cefac3fa71284c0117adbde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get default typeface.  <a href="#a5287586e1cefac3fa71284c0117adbde"></a><br/></td></tr>
+<tr class="memitem:a687cc2f4443922341babf51f87573819"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a687cc2f4443922341babf51f87573819">getNormal</a> ()</td></tr>
+<tr class="memdesc:a687cc2f4443922341babf51f87573819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get default typeface.  <a href="#a687cc2f4443922341babf51f87573819"></a><br/></td></tr>
 <tr class="memitem:a9a77890404d41ed7b0dde9b05e4b9ca3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a9a77890404d41ed7b0dde9b05e4b9ca3">getTeleGroteskFett</a> (final Context context)</td></tr>
-<tr class="memitem:a8c67e5ea71fa0fb57abf0388dd2b848b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a8c67e5ea71fa0fb57abf0388dd2b848b">getTeleGroteskHalbFettl</a> (final Context context)</td></tr>
+<tr class="memitem:a7073e575cfa4a5f7be8571fad27977e5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a7073e575cfa4a5f7be8571fad27977e5">getBold</a> ()</td></tr>
+<tr class="memdesc:a7073e575cfa4a5f7be8571fad27977e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get default Bold typeface.  <a href="#a7073e575cfa4a5f7be8571fad27977e5"></a><br/></td></tr>
+<tr class="memitem:ac2cade1ebf9649a970a8dc25c33113e5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#ac2cade1ebf9649a970a8dc25c33113e5">getTeleGroteskHalbFett</a> (final Context context)</td></tr>
+<tr class="memdesc:ac2cade1ebf9649a970a8dc25c33113e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of halbfett telekom font.  <a href="#ac2cade1ebf9649a970a8dc25c33113e5"></a><br/></td></tr>
+<tr class="memitem:a619e5233627ddb003b43013a41ecd86a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a619e5233627ddb003b43013a41ecd86a">getSemiBold</a> ()</td></tr>
+<tr class="memdesc:a619e5233627ddb003b43013a41ecd86a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get default Semi Bold typeface.  <a href="#a619e5233627ddb003b43013a41ecd86a"></a><br/></td></tr>
 <tr class="memitem:ac0fce8581d0d06b7bfc324af6e5b4b7a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#ac0fce8581d0d06b7bfc324af6e5b4b7a">getTeleGroteskUltra</a> (final Context context)</td></tr>
+<tr class="memdesc:ac0fce8581d0d06b7bfc324af6e5b4b7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of ultra telekom font.  <a href="#ac0fce8581d0d06b7bfc324af6e5b4b7a"></a><br/></td></tr>
+<tr class="memitem:a04929d2888dc0d27e8d9ecdbe952f3f6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a04929d2888dc0d27e8d9ecdbe952f3f6">getUltra</a> ()</td></tr>
+<tr class="memdesc:a04929d2888dc0d27e8d9ecdbe952f3f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get default Ultra typeface.  <a href="#a04929d2888dc0d27e8d9ecdbe952f3f6"></a><br/></td></tr>
 <tr class="memitem:aee7b17ea6c994670d8267c50de47261b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#aee7b17ea6c994670d8267c50de47261b">getTeleGroteskIconFont</a> (final Context context)</td></tr>
+<tr class="memdesc:aee7b17ea6c994670d8267c50de47261b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of telekom iconfont.  <a href="#aee7b17ea6c994670d8267c50de47261b"></a><br/></td></tr>
+<tr class="memitem:af26e9df7e487fb43fef6e206a35701e2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#af26e9df7e487fb43fef6e206a35701e2">getIconFont</a> (final Context context)</td></tr>
+<tr class="memdesc:af26e9df7e487fb43fef6e206a35701e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get IconFont.  <a href="#af26e9df7e487fb43fef6e206a35701e2"></a><br/></td></tr>
 <tr class="memitem:adbfc96eec86e8f0dd9f25eb8461df14b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#adbfc96eec86e8f0dd9f25eb8461df14b">setViewFontTo</a> (@Nonnull final TextView view,@Nonnull final Typeface typeface)</td></tr>
-<tr class="memitem:a00995cd10b01f22b17f038474c589f17"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a00995cd10b01f22b17f038474c589f17">setViewFontTo</a> (@Nonnull final <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1wrapper_1_1_p_d_e_layer_text_view.html">PDELayerTextView</a> view,@Nonnull final Typeface typeface)</td></tr>
+<tr class="memitem:a00995cd10b01f22b17f038474c589f17"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a00995cd10b01f22b17f038474c589f17">setViewFontTo</a> (@Nonnull final <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_layer_text_view.html">PDELayerTextView</a> view,@Nonnull final Typeface typeface)</td></tr>
 <tr class="memitem:ac6faa2d4b4bde46cdc85da63cc9120d4"><td class="memItemLeft" align="right" valign="top">static SpannableString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#ac6faa2d4b4bde46cdc85da63cc9120d4">createSpannableDefaultFontString</a> (final CharSequence text)</td></tr>
 <tr class="memitem:a268120d4200268853b3fcf9740afa4ac"><td class="memItemLeft" align="right" valign="top">static SpannableString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a268120d4200268853b3fcf9740afa4ac">createSpannableDefaultFontString</a> (final String text)</td></tr>
 <tr class="memitem:a98b88f8e6ec134cf618fce84e626e2ee"><td class="memItemLeft" align="right" valign="top">static SpannableString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a98b88f8e6ec134cf618fce84e626e2ee">createSpannableString</a> (final CharSequence text, final <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> typeface)</td></tr>
@@ -221,7 +240,7 @@ Static Public Methods</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:aa3baa0645bb125053cc3ede9aa790ede"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#aa3baa0645bb125053cc3ede9aa790ede">LOG_TAG</a> = PDEFontHelpers.class.getName()</td></tr>
 <tr class="memdesc:aa3baa0645bb125053cc3ede9aa790ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#aa3baa0645bb125053cc3ede9aa790ede"></a><br/></td></tr>
-<tr class="memitem:ac36e3b1a8e45c828c1aeec8027ca615c"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#ac36e3b1a8e45c828c1aeec8027ca615c">DEBUGPARAMS</a> = false</td></tr>
+<tr class="memitem:a8a06e45c9e3ad01ae8b5e4e47262193f"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_font_helpers.html#a8a06e45c9e3ad01ae8b5e4e47262193f">DEBUG_PARAMS</a> = false</td></tr>
 </table>
 <h2>Member Function Documentation</h2>
 <a class="anchor" id="aecde5037b69ceadf6397bb1156f20388"></a>
@@ -297,16 +316,8 @@ Static Private Attributes</h2></td></tr>
 
 <p>Parse the font size string. The string may has to be of the following format: float[unit]. </p>
 <ul>
-<li>a float value followed by a optional unit. A float value with no unit means a standard point size for the font. Recognized units are: % - percentage of the default copy size (as defined in the Styleguide) BU - font size in Building Units Caps - Capheight of the font</li>
+<li>a float value followed by a optional unit. A float value with no unit means a standard point size for the font. Recognized units are: % - percentage of the default copy size (as defined in the Styleguide) BU - font size in Building Units Caps - CapHeight of the font </li>
 </ul>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">fontSizeString</td><td></td></tr>
-    <tr><td class="paramname">font</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -343,14 +354,6 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a minimum font size based on the font name. Caution: Font name is not available most of the time -&gt; and thus not evaluated here. Returns a minimum size of 12 currently, no matter whats in fontName. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">font</td><td></td></tr>
-    <tr><td class="paramname">size</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -387,14 +390,6 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the default font size for certain fonts. Caution: we don't have always the font name!!! </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">font</td><td></td></tr>
-    <tr><td class="paramname">percent</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -431,15 +426,7 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calculate the needed font size (in pixels) to come close to the wanted CapHeight. </p>
-<p>Iterates as long as it takes through the font sizes until it finds a fitting size which matches the requested CapHeight.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">font</td><td></td></tr>
-    <tr><td class="paramname">wantedCapHeight</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<p>Iterates as long as it takes through the font sizes until it finds a fitting size which matches the requested CapHeight. </p>
 
 </div>
 </div>
@@ -475,15 +462,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>: Convenience function to get the font metrics. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">font</td><td></td></tr>
-    <tr><td class="paramname">size</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<p>Convenience function to get the font metrics. </p>
 
 </div>
 </div>
@@ -540,6 +519,59 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8b24c688520520e6b9ee71e9ee3a4acb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Rect de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.getTextViewBounds </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Typeface&#160;</td>
+          <td class="paramname"><em>typeface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>textSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get normalized bounding rect for the text with the chosen size. </p>
+<p>This function returns a bounding rect which starts at 0, 0. Thus it can be directly used for creating a text view. Take care, that the text view doesn't e.g. draw a border around the text (per default it has a 9-tile as background which add a border). AntiAliasing is on.</p>
+<p>It might be useful to add some additional pixels, since the font calculation is not always trustworthy.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>title which is used for the bound </td></tr>
+    <tr><td class="paramname">typeface</td><td>the font / typeface </td></tr>
+    <tr><td class="paramname">textSize</td><td>in pixels </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>normalized bounding rect </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aac8cd466209c7b0a587b93a0ed618f60"></a>
 <div class="memitem">
 <div class="memproto">
@@ -579,15 +611,6 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get (positive) distance from the top to the baseline. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">text</td><td></td></tr>
-    <tr><td class="paramname">font</td><td></td></tr>
-    <tr><td class="paramname">textSize</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -630,15 +653,6 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get (positive) distance from the baseline to the bottom. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">text</td><td></td></tr>
-    <tr><td class="paramname">font</td><td></td></tr>
-    <tr><td class="paramname">textSize</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -675,14 +689,42 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the height of the bounding rect for a caption D - equals CapHeight. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">font</td><td></td></tr>
-    <tr><td class="paramname">textSize</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6201949b50018e6a1609a5a57e058ee4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.getCapHeight </td>
+          <td>(</td>
+          <td class="paramtype">Typeface&#160;</td>
+          <td class="paramname"><em>font</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>textSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the height of the bounding rect for a caption D - equals CapHeight. </p>
 
 </div>
 </div>
@@ -719,14 +761,6 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the metrics height for the font. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">font</td><td></td></tr>
-    <tr><td class="paramname">size</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -761,15 +795,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>#brief Get the metics (positive) top for the font. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">font</td><td></td></tr>
-    <tr><td class="paramname">size</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<p>#brief Get the metrics (positive) top for the font. </p>
 
 </div>
 </div>
@@ -794,14 +820,58 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of normal telekom font </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>typeface </dd></dl>
+
+<p>Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of normal telekom font. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5287586e1cefac3fa71284c0117adbde"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.getDefault </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get default typeface. </p>
+
+</div>
+</div>
+<a class="anchor" id="a687cc2f4443922341babf51f87573819"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.getNormal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get default typeface. </p>
 
 </div>
 </div>
@@ -826,18 +896,11 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of fett telekom font </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>typeface </dd></dl>
+<p>brief Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of fett(bold) telekom font </p>
 
 </div>
 </div>
-<a class="anchor" id="a8c67e5ea71fa0fb57abf0388dd2b848b"></a>
+<a class="anchor" id="a7073e575cfa4a5f7be8571fad27977e5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -845,7 +908,32 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.getTeleGroteskHalbFettl </td>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.getBold </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get default Bold typeface. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac2cade1ebf9649a970a8dc25c33113e5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.getTeleGroteskHalbFett </td>
           <td>(</td>
           <td class="paramtype">final Context&#160;</td>
           <td class="paramname"><em>context</em></td><td>)</td>
@@ -858,14 +946,33 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of halbfett telekom font </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>typeface </dd></dl>
+
+<p>Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of halbfett telekom font. </p>
+
+</div>
+</div>
+<a class="anchor" id="a619e5233627ddb003b43013a41ecd86a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.getSemiBold </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get default Semi Bold typeface. </p>
 
 </div>
 </div>
@@ -890,14 +997,33 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of ultra telekom font </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>typeface </dd></dl>
+
+<p>Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of ultra telekom font. </p>
+
+</div>
+</div>
+<a class="anchor" id="a04929d2888dc0d27e8d9ecdbe952f3f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.getUltra </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get default Ultra typeface. </p>
 
 </div>
 </div>
@@ -922,14 +1048,34 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of telekom iconfont </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>typeface </dd></dl>
+
+<p>Helper function to get <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html" title="Helper class to have additional information to android typeface.">PDETypeface</a> of telekom iconfont. </p>
+
+</div>
+</div>
+<a class="anchor" id="af26e9df7e487fb43fef6e206a35701e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.getIconFont </td>
+          <td>(</td>
+          <td class="paramtype">final Context&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get IconFont. </p>
 
 </div>
 </div>
@@ -977,7 +1123,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">static void de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.setViewFontTo </td>
           <td>(</td>
-          <td class="paramtype">@Nonnull final <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1wrapper_1_1_p_d_e_layer_text_view.html">PDELayerTextView</a>&#160;</td>
+          <td class="paramtype">@Nonnull final <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_layer_text_view.html">PDELayerTextView</a>&#160;</td>
           <td class="paramname"><em>view</em>, </td>
         </tr>
         <tr>
@@ -1106,7 +1252,7 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac36e3b1a8e45c828c1aeec8027ca615c"></a>
+<a class="anchor" id="a8a06e45c9e3ad01ae8b5e4e47262193f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1114,7 +1260,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final boolean de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.DEBUGPARAMS = false</td>
+          <td class="memname">final boolean de.telekom.pde.codelibrary.ui.helpers.PDEFontHelpers.DEBUG_PARAMS = false</td>
         </tr>
       </table>
   </td>

@@ -1,5 +1,0 @@
-var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1actionbar_1_1_activity_list_multiple_selection_1_1_my_array_adapter =
-[
-    [ "MyArrayAdapter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1actionbar_1_1_activity_list_multiple_selection_1_1_my_array_adapter.html#aa4fc6a5614a0c8a0bf0f6ae680bd94f3", null ],
-    [ "getView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1actionbar_1_1_activity_list_multiple_selection_1_1_my_array_adapter.html#af23c00f1b426bad247801c6f74ea2ed5", null ]
-];

@@ -1,6 +1,0 @@
-var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_layer_text_test_scree63468cec6efd06170955ffadbb6c580d =
-[
-    [ "NEVER", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_layer_text_test_scree63468cec6efd06170955ffadbb6c580d.html#a77c1807da63337b304b51118cd22c4d2", null ],
-    [ "ALWAYS", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_layer_text_test_scree63468cec6efd06170955ffadbb6c580d.html#a97a137c2027f1e7d6e20014ab5c7477e", null ],
-    [ "ON_SIZE_CHANGE", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_layer_text_test_scree63468cec6efd06170955ffadbb6c580d.html#ab822444c0ee857a504e57c89909a317c", null ]
-];

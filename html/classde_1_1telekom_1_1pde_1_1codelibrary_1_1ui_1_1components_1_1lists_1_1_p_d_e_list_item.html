@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -183,11 +182,18 @@ $(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibra
 
 <p>List item wrapper that holds the styleguide agentstate highlight logic.  
  <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#details">More...</a></p>
-
-<p>Inherits LinearLayout.</p>
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.ui.components.lists.PDEListItem:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.png" usemap="#de.telekom.pde.codelibrary.ui.components.lists.PDEListItem_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.ui.components.lists.PDEListItem_map" name="de.telekom.pde.codelibrary.ui.components.lists.PDEListItem_map">
+<area href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html" title="Interface for Classes that use PDEEventSource." alt="de.telekom.pde.codelibrary.ui.events.PDEIEventSource" shape="rect" coords="0,0,346,24"/>
+</map>
+ </div></div>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>List item wrapper that holds the styleguide agentstate highlight logic. </p>
-<p>This wrapper is needed in order to give the list items the highlight/selection behaviour which is definded by styleguide. </p>
+<p>This wrapper is needed in order to give the list items the highlight/selection behaviour which is defined by styleguide. </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Methods</h2></td></tr>
@@ -211,11 +217,14 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:a3ee700b356d6385ed45778060cb71ff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store holder object for this list item.  <a href="#a3ee700b356d6385ed45778060cb71ff0"></a><br/></td></tr>
 <tr class="memitem:a32d4b88167d3a30cf7017f41ef46a1ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder_interface.html">PDEHolderInterface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#a32d4b88167d3a30cf7017f41ef46a1ac">getHolder</a> ()</td></tr>
 <tr class="memdesc:a32d4b88167d3a30cf7017f41ef46a1ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current holder object for this list item.  <a href="#a32d4b88167d3a30cf7017f41ef46a1ac"></a><br/></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
-Protected Methods</h2></td></tr>
-<tr class="memitem:a89a777963685346f04f80a1360f041be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html">PDEAgentControllerAdapterView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#a89a777963685346f04f80a1360f041be">getAgentAdapter</a> ()</td></tr>
-<tr class="memdesc:a89a777963685346f04f80a1360f041be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Agent Adapter.  <a href="#a89a777963685346f04f80a1360f041be"></a><br/></td></tr>
+<tr class="memitem:aa4a3647642cc02132c8bb58451f5123f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#aa4a3647642cc02132c8bb58451f5123f">getEventSource</a> ()</td></tr>
+<tr class="memdesc:aa4a3647642cc02132c8bb58451f5123f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the eventSource which is responsible for sending PDEEvents events. Most of the events are coming form the PDEAgentController.  <a href="#aa4a3647642cc02132c8bb58451f5123f"></a><br/></td></tr>
+<tr class="memitem:accd199cacbb2a147e803b18386ebfe09"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#accd199cacbb2a147e803b18386ebfe09">addListener</a> (Object target, String methodName)</td></tr>
+<tr class="memdesc:accd199cacbb2a147e803b18386ebfe09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add event Listener.  <a href="#accd199cacbb2a147e803b18386ebfe09"></a><br/></td></tr>
+<tr class="memitem:a46f82ed8f781b0d87740965a17a03ffc"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#a46f82ed8f781b0d87740965a17a03ffc">addListener</a> (Object target, String methodName, String eventMask)</td></tr>
+<tr class="memdesc:a46f82ed8f781b0d87740965a17a03ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add event Listener.  <a href="#a46f82ed8f781b0d87740965a17a03ffc"></a><br/></td></tr>
+<tr class="memitem:abb50163e815bec5eda813080d7c1d842"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#abb50163e815bec5eda813080d7c1d842">removeListener</a> (Object listener)</td></tr>
+<tr class="memdesc:abb50163e815bec5eda813080d7c1d842"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove event listener that was added before.  <a href="#abb50163e815bec5eda813080d7c1d842"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pac-methods"></a>
 Package Methods</h2></td></tr>
@@ -237,7 +246,11 @@ Private Methods</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ace23569b97cf76d769a6239bb959a6d8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#ace23569b97cf76d769a6239bb959a6d8">PDEListItemGlobalColorDefault</a> = null</td></tr>
+<tr class="memitem:ace23569b97cf76d769a6239bb959a6d8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#ace23569b97cf76d769a6239bb959a6d8">PDEListItemGlobalColorDefault</a> = null</td></tr>
+<tr class="memitem:abafa69a173286c36ceb8448062d7565c"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#abafa69a173286c36ceb8448062d7565c">PDE_LIST_ITEM_EVENT_ACTION_SELECTED</a> = &quot;PDEListItem.action.selected&quot;</td></tr>
+<tr class="memdesc:abafa69a173286c36ceb8448062d7565c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event is sent when a list item was successfully selected.  <a href="#abafa69a173286c36ceb8448062d7565c"></a><br/></td></tr>
+<tr class="memitem:ab274a161698670b5eb58473711640744"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#ab274a161698670b5eb58473711640744">PDE_LIST_ITEM_EVENT_ACTION_WILL_BE_SELECTED</a> = &quot;PDEListItem.action.willBeSelected&quot;</td></tr>
+<tr class="memdesc:ab274a161698670b5eb58473711640744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event is sent immediately when user successfully selects the list item.  <a href="#ab274a161698670b5eb58473711640744"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -249,12 +262,12 @@ Static Private Attributes</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a349fc7fa70448fc631c3c118e404131e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html">PDEAgentController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#a349fc7fa70448fc631c3c118e404131e">mAgentController</a></td></tr>
 <tr class="memitem:a95373f382869327a88b9d96cd0605788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html">PDEAgentControllerAdapterView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#a95373f382869327a88b9d96cd0605788">mAgentAdapter</a></td></tr>
-<tr class="memitem:aa1e7f77b54ef41822d55c965a7e856ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_interface.html">PDEButtonLayerInterface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#aa1e7f77b54ef41822d55c965a7e856ff">mButtonLayerToInitialize</a></td></tr>
 <tr class="memitem:ad4a06c905a69c3b123dd48146f3a092b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_agent_helper.html">PDEAgentHelper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#ad4a06c905a69c3b123dd48146f3a092b">mAgentHelper</a></td></tr>
 <tr class="memitem:a646bbcb251407fcf0f2149ddaf261c72"><td class="memItemLeft" align="right" valign="top">View&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#a646bbcb251407fcf0f2149ddaf261c72">mLayoutedView</a></td></tr>
-<tr class="memitem:ae9c07d8b73c9fbbc080f6184a61cf77b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#ae9c07d8b73c9fbbc080f6184a61cf77b">PDEListItemGlobalParamColor</a></td></tr>
+<tr class="memitem:ae9c07d8b73c9fbbc080f6184a61cf77b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#ae9c07d8b73c9fbbc080f6184a61cf77b">PDEListItemGlobalParamColor</a></td></tr>
 <tr class="memitem:ad613dc596585fcab2d830d3124338912"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#ad613dc596585fcab2d830d3124338912">mListPosition</a> = -1</td></tr>
 <tr class="memitem:a115fc0593d4022fda420a7c1f035f26b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder_interface.html">PDEHolderInterface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#a115fc0593d4022fda420a7c1f035f26b">mHolder</a></td></tr>
+<tr class="memitem:af82b5ba5f4e561fadfd74cff2453d25c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#af82b5ba5f4e561fadfd74cff2453d25c">mEventSource</a> = null</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -284,12 +297,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -326,13 +333,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td></td></tr>
-    <tr><td class="paramname">attrs</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -375,14 +375,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td></td></tr>
-    <tr><td class="paramname">attrs</td><td></td></tr>
-    <tr><td class="paramname">defStyle</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -485,7 +477,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Update the background color of this list item. </p>
-<p>Depending on the received touch events we enter several agentstates. Each agentstate does it own animation of the elements background color. This function updates the background color depending on the current agentstate. </p>
+<p>Depending on the received touch events we enter several AgentStates. Each AgentState does it own animation of the elements background color. This function updates the background color depending on the current AgentState. </p>
 
 </div>
 </div>
@@ -545,33 +537,6 @@ Private Attributes</h2></td></tr>
 
 <p>Deliver the already layouted row view. </p>
 <dl class="section return"><dt>Returns</dt><dd>The already layouted row view. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a89a777963685346f04f80a1360f041be"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html">PDEAgentControllerAdapterView</a> de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.getAgentAdapter </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the Agent Adapter. </p>
-<p>Needed for the cancel-workaround.</p>
-<dl class="section return"><dt>Returns</dt><dd>the agent adapter </dd></dl>
 
 </div>
 </div>
@@ -810,6 +775,170 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa4a3647642cc02132c8bb58451f5123f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a> de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.getEventSource </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the eventSource which is responsible for sending PDEEvents events. Most of the events are coming form the PDEAgentController. </p>
+<dl class="section return"><dt>Returns</dt><dd>PDEEventSource </dd></dl>
+
+<p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#a9f87fbb4eed399a3a84cf5a5d77f1fb8">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="accd199cacbb2a147e803b18386ebfe09"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.addListener </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>methodName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add event Listener. </p>
+<p>PDEIEventSource Interface implementation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>Object which will be called in case of an event. </td></tr>
+    <tr><td class="paramname">methodName</td><td>Function in the target object which will be called. The method must accept one parameter of the type PDEEvent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#abafb4678d2cf095ee7cb20a1a0f3139a" title="Add a listener to the list.">de.telekom.pde.codelibrary.ui.events.PDEEventSource::addListener</a> </dd></dl>
+
+<p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#a1ff7001cbb6bfe41c71e596708dcf4d6">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a46f82ed8f781b0d87740965a17a03ffc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.addListener </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>methodName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>eventMask</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add event Listener. </p>
+<p>PDEIEventSource Interface implementation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>Object which will be called in case of an event. </td></tr>
+    <tr><td class="paramname">methodName</td><td>Function in the target object which will be called. The method must accept one parameter of the type PDEEvent </td></tr>
+    <tr><td class="paramname">eventMask</td><td>PDEAgentController event mask. Will be most of the time <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a9a9a08895a4bf1e66dbb6ab4abe3c9bb" title="Event is sent when the agent was successfully selected.">PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ACTION_SELECTED</a> or <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a3015498387499b98340a1c2916e708a9" title="Event is sent immediately when user successfully selects the agents.">PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ACTION_WILL_BE_SELECTED</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#abafb4678d2cf095ee7cb20a1a0f3139a" title="Add a listener to the list.">de.telekom.pde.codelibrary.ui.events.PDEEventSource::addListener</a> </dd></dl>
+
+<p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#ae9c0f545e7c68b5684a0497c471a0eb9">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abb50163e815bec5eda813080d7c1d842"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.removeListener </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>listener</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remove event listener that was added before. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listener</td><td>the event listener that should be removed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns whether we have found &amp; removed the listener or not </dd></dl>
+
+</div>
+</div>
 <h2>Member Data Documentation</h2>
 <a class="anchor" id="a0a5bf98d50bd4e2e5268f178caaf6a85"></a>
 <div class="memitem">
@@ -893,26 +1022,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa1e7f77b54ef41822d55c965a7e856ff"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_interface.html">PDEButtonLayerInterface</a> de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.mButtonLayerToInitialize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ad4a06c905a69c3b123dd48146f3a092b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -961,7 +1070,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a> de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.PDEListItemGlobalParamColor</td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a> de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.PDEListItemGlobalParamColor</td>
         </tr>
       </table>
   </td>
@@ -981,7 +1090,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a> de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.PDEListItemGlobalColorDefault = null</td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a> de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.PDEListItemGlobalColorDefault = null</td>
         </tr>
       </table>
   </td>
@@ -1050,6 +1159,72 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af82b5ba5f4e561fadfd74cff2453d25c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a> de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.mEventSource = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abafa69a173286c36ceb8448062d7565c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.PDE_LIST_ITEM_EVENT_ACTION_SELECTED = &quot;PDEListItem.action.selected&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event is sent when a list item was successfully selected. </p>
+<p>The event is after the animation has successfully displayed the active state to the user. Normally, you would use this event for all interaction, since it ensures that there's a proper visual response to the user's action. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab274a161698670b5eb58473711640744"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.components.lists.PDEListItem.PDE_LIST_ITEM_EVENT_ACTION_WILL_BE_SELECTED = &quot;PDEListItem.action.willBeSelected&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event is sent immediately when user successfully selects the list item. </p>
+<p>The list still needs some time to display the selection to the user. Use this event only if the selection triggers another action inside the same screen, and the list has the opportunity of finishing it's animations afterwards. </p>
 
 </div>
 </div>

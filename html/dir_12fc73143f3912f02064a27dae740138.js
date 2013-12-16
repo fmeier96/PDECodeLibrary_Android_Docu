@@ -1,0 +1,4 @@
+var dir_12fc73143f3912f02064a27dae740138 =
+[
+    [ "telekom", "dir_11c2a293890c594bb2c756e60c302ab7.html", "dir_11c2a293890c594bb2c756e60c302ab7" ]
+];

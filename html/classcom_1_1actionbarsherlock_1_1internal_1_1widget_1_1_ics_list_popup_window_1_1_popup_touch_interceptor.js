@@ -1,4 +1,0 @@
-var classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_list_popup_window_1_1_popup_touch_interceptor =
-[
-    [ "onTouch", "classcom_1_1actionbarsherlock_1_1internal_1_1widget_1_1_ics_list_popup_window_1_1_popup_touch_interceptor.html#ac0eb8eeab144abdfc9112defff9da08e", null ]
-];

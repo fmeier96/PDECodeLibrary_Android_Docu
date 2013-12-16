@@ -17,7 +17,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_con
     [ "actionTouchUpOutside", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a8d8c7bce1392dd03d491af3b991e551b", null ],
     [ "actionTouchCancel", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#aa11b76164a16aba57fefcadfeb5156db", null ],
     [ "postDelayed", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a0df974d1ab2091655d80ff4a02a1ade0", null ],
-    [ "doCancel", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#ac281a727ab7cf4567bea308c68fcd042", null ],
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a4fa0d62e98c611fa0e276765300cdb6c", null ],
     [ "DEBUG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a03c344ee84d30d887c070ef7bf62876c", null ],
     [ "mAgentController", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller_adapter_view.html#a6e59b33e79575af5535b1fdce0560789", null ],

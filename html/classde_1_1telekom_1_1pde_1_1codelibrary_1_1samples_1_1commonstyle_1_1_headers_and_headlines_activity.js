@@ -1,0 +1,4 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1_headers_and_headlines_activity =
+[
+    [ "onCreate", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1_headers_and_headlines_activity.html#ae8a4e66cc26c16ff8287a13b4ce7c506", null ]
+];

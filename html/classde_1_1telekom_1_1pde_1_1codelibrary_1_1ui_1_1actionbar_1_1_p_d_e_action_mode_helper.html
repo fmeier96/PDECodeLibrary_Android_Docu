@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -180,28 +179,19 @@ $(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibra
 <div class="title">de.telekom.pde.codelibrary.ui.actionbar.PDEActionModeHelper Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for de.telekom.pde.codelibrary.ui.actionbar.PDEActionModeHelper:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1actionbar_1_1_p_d_e_action_mode_helper.png" usemap="#de.telekom.pde.codelibrary.ui.actionbar.PDEActionModeHelper_map" alt=""/>
-  <map id="de.telekom.pde.codelibrary.ui.actionbar.PDEActionModeHelper_map" name="de.telekom.pde.codelibrary.ui.actionbar.PDEActionModeHelper_map">
-<area href="interfacecom_1_1actionbarsherlock_1_1view_1_1_action_mode_1_1_callback.html" alt="com.actionbarsherlock.view.ActionMode.Callback" shape="rect" coords="0,0,372,24"/>
-</map>
- </div></div>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Helper class to display the <a class="el" href="">ActionMode</a> for an </p>
 <div class="fragment"><div class="line">Activity </div>
 </div><!-- fragment --><p> . It will use a custom view to display the title using the Telegrotesk font. Use <a class="el" href="">setTitle(String)</a> on this class, to set the title for this action mode. </p>
-<p><b>Make sure to make the call to super() for <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_action_mode_1_1_callback.html#a5fcac7324773ac4a154164b99cb0d2af">onCreateActionMode(ActionMode, Menu)</a>, because this is where the custom View gets set for this <a class="el" href="">ActionMode</a>.</b> </p>
+<p><b>Make sure to make the call to super() for <a class="el" href="">onCreateActionMode(ActionMode, Menu)</a>, because this is where the custom View gets set for this <a class="el" href="">ActionMode</a>.</b> </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Methods</h2></td></tr>
 <tr class="memitem:acd3cbb03644a568c90adc31a0d58a5d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1actionbar_1_1_p_d_e_action_mode_helper.html#acd3cbb03644a568c90adc31a0d58a5d9">PDEActionModeHelper</a> (final Context ctx)</td></tr>
-<tr class="memitem:a5597023640ed8e8b54c3b777039b346a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1actionbar_1_1_p_d_e_action_mode_helper.html#a5597023640ed8e8b54c3b777039b346a">onActionItemClicked</a> (final <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html">ActionMode</a> mode, final <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu_item.html">MenuItem</a> item)</td></tr>
-<tr class="memitem:a076d29e0a594079c8b6f4fd116b8036e"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1actionbar_1_1_p_d_e_action_mode_helper.html#a076d29e0a594079c8b6f4fd116b8036e">onCreateActionMode</a> (final <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html">ActionMode</a> mode, final <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu.html">Menu</a> menu)</td></tr>
-<tr class="memitem:ab3c32381b4570bec3eed9308db0a0b6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1actionbar_1_1_p_d_e_action_mode_helper.html#ab3c32381b4570bec3eed9308db0a0b6c">onDestroyActionMode</a> (final <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html">ActionMode</a> mode)</td></tr>
-<tr class="memitem:a95b8ba308d2609b4ac14d8f1fe580db2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1actionbar_1_1_p_d_e_action_mode_helper.html#a95b8ba308d2609b4ac14d8f1fe580db2">onPrepareActionMode</a> (final <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html">ActionMode</a> mode, final <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu.html">Menu</a> menu)</td></tr>
+<tr class="memitem:a5597023640ed8e8b54c3b777039b346a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1actionbar_1_1_p_d_e_action_mode_helper.html#a5597023640ed8e8b54c3b777039b346a">onActionItemClicked</a> (final ActionMode mode, final MenuItem item)</td></tr>
+<tr class="memitem:a076d29e0a594079c8b6f4fd116b8036e"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1actionbar_1_1_p_d_e_action_mode_helper.html#a076d29e0a594079c8b6f4fd116b8036e">onCreateActionMode</a> (final ActionMode mode, final Menu menu)</td></tr>
+<tr class="memitem:ab3c32381b4570bec3eed9308db0a0b6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1actionbar_1_1_p_d_e_action_mode_helper.html#ab3c32381b4570bec3eed9308db0a0b6c">onDestroyActionMode</a> (final ActionMode mode)</td></tr>
+<tr class="memitem:a95b8ba308d2609b4ac14d8f1fe580db2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1actionbar_1_1_p_d_e_action_mode_helper.html#a95b8ba308d2609b4ac14d8f1fe580db2">onPrepareActionMode</a> (final ActionMode mode, final Menu menu)</td></tr>
 <tr class="memitem:a0d0855eb8f342267770a1104e5c352f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1actionbar_1_1_p_d_e_action_mode_helper.html#a0d0855eb8f342267770a1104e5c352f2">setTitle</a> (final String text)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
@@ -245,13 +235,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">boolean de.telekom.pde.codelibrary.ui.actionbar.PDEActionModeHelper.onActionItemClicked </td>
           <td>(</td>
-          <td class="paramtype">final <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html">ActionMode</a>&#160;</td>
+          <td class="paramtype">final ActionMode&#160;</td>
           <td class="paramname"><em>mode</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">final <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu_item.html">MenuItem</a>&#160;</td>
+          <td class="paramtype">final MenuItem&#160;</td>
           <td class="paramname"><em>item</em>&#160;</td>
         </tr>
         <tr>
@@ -279,13 +269,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">boolean de.telekom.pde.codelibrary.ui.actionbar.PDEActionModeHelper.onCreateActionMode </td>
           <td>(</td>
-          <td class="paramtype">final <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html">ActionMode</a>&#160;</td>
+          <td class="paramtype">final ActionMode&#160;</td>
           <td class="paramname"><em>mode</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">final <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu.html">Menu</a>&#160;</td>
+          <td class="paramtype">final Menu&#160;</td>
           <td class="paramname"><em>menu</em>&#160;</td>
         </tr>
         <tr>
@@ -313,7 +303,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void de.telekom.pde.codelibrary.ui.actionbar.PDEActionModeHelper.onDestroyActionMode </td>
           <td>(</td>
-          <td class="paramtype">final <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html">ActionMode</a>&#160;</td>
+          <td class="paramtype">final ActionMode&#160;</td>
           <td class="paramname"><em>mode</em></td><td>)</td>
           <td></td>
         </tr>
@@ -337,13 +327,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">boolean de.telekom.pde.codelibrary.ui.actionbar.PDEActionModeHelper.onPrepareActionMode </td>
           <td>(</td>
-          <td class="paramtype">final <a class="el" href="classcom_1_1actionbarsherlock_1_1view_1_1_action_mode.html">ActionMode</a>&#160;</td>
+          <td class="paramtype">final ActionMode&#160;</td>
           <td class="paramname"><em>mode</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">final <a class="el" href="interfacecom_1_1actionbarsherlock_1_1view_1_1_menu.html">Menu</a>&#160;</td>
+          <td class="paramtype">final Menu&#160;</td>
           <td class="paramname"><em>menu</em>&#160;</td>
         </tr>
         <tr>

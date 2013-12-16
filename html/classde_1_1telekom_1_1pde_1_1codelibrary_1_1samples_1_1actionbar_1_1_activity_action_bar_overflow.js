@@ -1,4 +1,0 @@
-var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1actionbar_1_1_activity_action_bar_overflow =
-[
-    [ "onCreate", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1actionbar_1_1_activity_action_bar_overflow.html#a47c1eccc64590241e200d5f115b9f650", null ]
-];

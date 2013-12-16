@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['objectanimator_2ejava',['ObjectAnimator.java',['../_object_animator_8java.html',1,'']]],
   ['okdialog_2ejava',['OKDialog.java',['../_o_k_dialog_8java.html',1,'']]],
   ['oneidmloginusagesampleactivity_2ejava',['OneIDMLoginUsageSampleActivity.java',['../_one_i_d_m_login_usage_sample_activity_8java.html',1,'']]]
 ];

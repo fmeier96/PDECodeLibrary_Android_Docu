@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -183,8 +182,15 @@ $(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibra
 
 <p>List that can deal with styleguide conform list items (those with agent states).  
  <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#details">More...</a></p>
-
-<p>Inherits ListView.</p>
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.ui.components.lists.PDEListView:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.png" usemap="#de.telekom.pde.codelibrary.ui.components.lists.PDEListView_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.ui.components.lists.PDEListView_map" name="de.telekom.pde.codelibrary.ui.components.lists.PDEListView_map">
+<area href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html" title="Interface for Classes that use PDEEventSource." alt="de.telekom.pde.codelibrary.ui.events.PDEIEventSource" shape="rect" coords="0,0,352,24"/>
+</map>
+ </div></div>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>List that can deal with styleguide conform list items (those with agent states). </p>
 </div><table class="memberdecls">
@@ -198,10 +204,21 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:a730e62bddc46ed4994b4f331577383c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="#a730e62bddc46ed4994b4f331577383c2"></a><br/></td></tr>
 <tr class="memitem:ac663dfb5a112851a1b5fe117f23c5d3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#ac663dfb5a112851a1b5fe117f23c5d3a">init</a> ()</td></tr>
 <tr class="memdesc:ac663dfb5a112851a1b5fe117f23c5d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init properties.  <a href="#ac663dfb5a112851a1b5fe117f23c5d3a"></a><br/></td></tr>
-<tr class="memitem:a33a2ffacf54c1626c1f4f64208763d6c"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a33a2ffacf54c1626c1f4f64208763d6c">onInterceptTouchEvent</a> (MotionEvent ev)</td></tr>
-<tr class="memdesc:a33a2ffacf54c1626c1f4f64208763d6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intercept touch events on the way down to the actual list items.  <a href="#a33a2ffacf54c1626c1f4f64208763d6c"></a><br/></td></tr>
-<tr class="memitem:adbdc6a28fe6f4cd305350546c92df6e3"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#adbdc6a28fe6f4cd305350546c92df6e3">dispatchTouchEvent</a> (MotionEvent ev)</td></tr>
-<tr class="memdesc:adbdc6a28fe6f4cd305350546c92df6e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intercept events before they get dispatched.  <a href="#adbdc6a28fe6f4cd305350546c92df6e3"></a><br/></td></tr>
+<tr class="memitem:acfab1c26061446bb94634bc4a57ae46d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#acfab1c26061446bb94634bc4a57ae46d">onPDEListItemClicked</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html">PDEEvent</a> event)</td></tr>
+<tr class="memdesc:acfab1c26061446bb94634bc4a57ae46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Listener for clicked list items.  <a href="#acfab1c26061446bb94634bc4a57ae46d"></a><br/></td></tr>
+<tr class="memitem:a363887b20cc82b4deae76cdefa2b92b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a363887b20cc82b4deae76cdefa2b92b6">getEventSource</a> ()</td></tr>
+<tr class="memdesc:a363887b20cc82b4deae76cdefa2b92b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the eventSource which is responsible for sending PDEEvents events. Most of the events are coming form the PDEAgentController.  <a href="#a363887b20cc82b4deae76cdefa2b92b6"></a><br/></td></tr>
+<tr class="memitem:a5243c8286e6a4d630a46395641deaa07"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a5243c8286e6a4d630a46395641deaa07">addListener</a> (Object target, String methodName)</td></tr>
+<tr class="memdesc:a5243c8286e6a4d630a46395641deaa07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add event Listener.  <a href="#a5243c8286e6a4d630a46395641deaa07"></a><br/></td></tr>
+<tr class="memitem:a5157af8fe8ae665252a8802bf7b0e52b"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a5157af8fe8ae665252a8802bf7b0e52b">addListener</a> (Object target, String methodName, String eventMask)</td></tr>
+<tr class="memdesc:a5157af8fe8ae665252a8802bf7b0e52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add event Listener.  <a href="#a5157af8fe8ae665252a8802bf7b0e52b"></a><br/></td></tr>
+<tr class="memitem:a6df1af5d84c7b28eb489f19b9834f4a6"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a6df1af5d84c7b28eb489f19b9834f4a6">removeListener</a> (Object listener)</td></tr>
+<tr class="memdesc:a6df1af5d84c7b28eb489f19b9834f4a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove event listener that was added before.  <a href="#a6df1af5d84c7b28eb489f19b9834f4a6"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Methods</h2></td></tr>
+<tr class="memitem:a0b2f5ad5c3c4c8dd83132b1986070369"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a0b2f5ad5c3c4c8dd83132b1986070369">sendListEvent</a> (String type, int listPosition)</td></tr>
+<tr class="memdesc:a0b2f5ad5c3c4c8dd83132b1986070369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function for sending events.  <a href="#a0b2f5ad5c3c4c8dd83132b1986070369"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -209,11 +226,10 @@ Static Private Attributes</h2></td></tr>
 <tr class="memdesc:a8d687c2ccce98c506044eaff777b524d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#a8d687c2ccce98c506044eaff777b524d"></a><br/></td></tr>
 <tr class="memitem:aaa39cf6a83c735ff1e507a790ad19eea"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#aaa39cf6a83c735ff1e507a790ad19eea">DEBUG</a> = false</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a1a096f3edf85ceac180f83fce5fd352b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a1a096f3edf85ceac180f83fce5fd352b">mTapDownPosition</a></td></tr>
-<tr class="memitem:a244d6de1d1cf63869ac18a5e9f712727"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a244d6de1d1cf63869ac18a5e9f712727">mIsScrolling</a></td></tr>
-<tr class="memitem:a33f6acdff6e9868766d0e5962cbf5c41"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a33f6acdff6e9868766d0e5962cbf5c41">mTapped</a></td></tr>
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a647630f702d415d319bb9d8a83584d82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a647630f702d415d319bb9d8a83584d82">mEventSource</a></td></tr>
+<tr class="memdesc:a647630f702d415d319bb9d8a83584d82"><td class="mdescLeft">&#160;</td><td class="mdescRight">PDEEventSource instance that provides the event sending behaviour.  <a href="#a647630f702d415d319bb9d8a83584d82"></a><br/></td></tr>
 </table>
 <h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aded1e3174896a61bb5e089ff89c0744a"></a>
@@ -346,7 +362,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a33a2ffacf54c1626c1f4f64208763d6c"></a>
+<a class="anchor" id="acfab1c26061446bb94634bc4a57ae46d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -354,10 +370,10 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.lists.PDEListView.onInterceptTouchEvent </td>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.lists.PDEListView.onPDEListItemClicked </td>
           <td>(</td>
-          <td class="paramtype">MotionEvent&#160;</td>
-          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html">PDEEvent</a>&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -368,19 +384,18 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Intercept touch events on the way down to the actual list items. </p>
-<p>We want to have list elements with their own agentstate-selection-behaviour when they get touched. Not the native behaviour of android list elements. In order to do this, our list-elements have to be clickable and have to process the touch elements themselves. This means when they consume the motion events, the list itself doesn't get them anymore and therefore its OnItemClickListener won't fire anymore. So users of the list wouldn't be informed anymore which item of the list was clicked. In order to avoid this we intercept the motion events on their way down to the list items. When we get an UP-Event we have to put it in the onTouchEvent-Listener manually to be sure, that the list itself is informed about the click.</p>
+<p>Listener for clicked list items. </p>
+<p>All PDEListItems which are added by PDEListAdapter add this listener function. So it receives the PDE_AGENT_CONTROLLER_EVENT_ACTION_WILL_BE_SELECTED and PDE_AGENT_CONTROLLER_EVENT_ACTION_SELECTED events of any clicked <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html" title="List item wrapper that holds the styleguide agentstate highlight logic.">PDEListItem</a>. In this way we inform the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html" title="List that can deal with styleguide conform list items (those with agent states).">PDEListView</a> about the click on one of its items. Now the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html" title="List that can deal with styleguide conform list items (those with agent states).">PDEListView</a> can publish the information about the click on one of its items to the world by sending its own events. The user has the choice to listen to this PDE list events by the use of <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a5243c8286e6a4d630a46395641deaa07" title="Add event Listener.">addListener()</a> or he registers the standard android OnItemClickListener. Listening to the PDE events has the advantage that it is possible to distinguish between will_be_selected and selected events.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ev</td><td>The motion/touch event that occured on the list / list item.</td></tr>
+    <tr><td class="paramname">event</td><td>PDEEvent which is sent by a list item. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>If the list view handles the event itself true is returned. When we return true the list item doesn't receive the original motion event anymore. Instead it receives a cancel-event. When we return false, the original motion event can pass to the list item. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="adbdc6a28fe6f4cd305350546c92df6e3"></a>
+<a class="anchor" id="a0b2f5ad5c3c4c8dd83132b1986070369"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -388,10 +403,184 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.lists.PDEListView.dispatchTouchEvent </td>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.lists.PDEListView.sendListEvent </td>
           <td>(</td>
-          <td class="paramtype">MotionEvent&#160;</td>
-          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>listPosition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function for sending events. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>type of the event </td></tr>
+    <tr><td class="paramname">listPosition</td><td>position of the list element that triggered the sending of the event. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a363887b20cc82b4deae76cdefa2b92b6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a> de.telekom.pde.codelibrary.ui.components.lists.PDEListView.getEventSource </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the eventSource which is responsible for sending PDEEvents events. Most of the events are coming form the PDEAgentController. </p>
+<dl class="section return"><dt>Returns</dt><dd>PDEEventSource </dd></dl>
+
+<p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#a9f87fbb4eed399a3a84cf5a5d77f1fb8">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5243c8286e6a4d630a46395641deaa07"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object de.telekom.pde.codelibrary.ui.components.lists.PDEListView.addListener </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>methodName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add event Listener. </p>
+<p>PDEIEventSource Interface implementation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>Object which will be called in case of an event. </td></tr>
+    <tr><td class="paramname">methodName</td><td>Function in the target object which will be called. The method must accept one parameter of the type PDEEvent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#abafb4678d2cf095ee7cb20a1a0f3139a" title="Add a listener to the list.">de.telekom.pde.codelibrary.ui.events.PDEEventSource::addListener</a> </dd></dl>
+
+<p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#a1ff7001cbb6bfe41c71e596708dcf4d6">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5157af8fe8ae665252a8802bf7b0e52b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object de.telekom.pde.codelibrary.ui.components.lists.PDEListView.addListener </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>methodName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>eventMask</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add event Listener. </p>
+<p>PDEIEventSource Interface implementation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>Object which will be called in case of an event. </td></tr>
+    <tr><td class="paramname">methodName</td><td>Function in the target object which will be called. The method must accept one parameter of the type PDEEvent </td></tr>
+    <tr><td class="paramname">eventMask</td><td>PDEAgentController event mask. Will be most of the time <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a9a9a08895a4bf1e66dbb6ab4abe3c9bb" title="Event is sent when the agent was successfully selected.">PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ACTION_SELECTED</a> or <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1agents_1_1_p_d_e_agent_controller.html#a3015498387499b98340a1c2916e708a9" title="Event is sent immediately when user successfully selects the agents.">PDEAgentController.PDE_AGENT_CONTROLLER_EVENT_ACTION_WILL_BE_SELECTED</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#abafb4678d2cf095ee7cb20a1a0f3139a" title="Add a listener to the list.">de.telekom.pde.codelibrary.ui.events.PDEEventSource::addListener</a> </dd></dl>
+
+<p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#ae9c0f545e7c68b5684a0497c471a0eb9">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6df1af5d84c7b28eb489f19b9834f4a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.lists.PDEListView.removeListener </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>listener</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -402,15 +591,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Intercept events before they get dispatched. </p>
-<p>In order to give list elements our own behaviour we have to manipulate events that are send to the list (see description of onInterceptTouchEvent for more explanation). Formerly we had an approach that worked only with the onInterceptTouchEvent-Handler to intercept and manipulate events if necessary. This approach worked completly fine with Android 4.0+ devices, but didn't really work with lower devices. On lower devices when the finger moves out of the tapped element, onInterceptTouchEvent stops receiving further events and so we can't manipulate them any more. So now we capture them at an earlier point and manipulate where necessary.</p>
+<p>Remove event listener that was added before. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ev</td><td>The motion/touch event that occured on the list / list item. </td></tr>
+    <tr><td class="paramname">listener</td><td>the event listener that should be removed </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns whether we have found &amp; removed the listener or not </dd></dl>
 
 </div>
 </div>
@@ -457,7 +645,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1a096f3edf85ceac180f83fce5fd352b"></a>
+<a class="anchor" id="a647630f702d415d319bb9d8a83584d82"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -465,55 +653,17 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int de.telekom.pde.codelibrary.ui.components.lists.PDEListView.mTapDownPosition</td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a> de.telekom.pde.codelibrary.ui.components.lists.PDEListView.mEventSource</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a244d6de1d1cf63869ac18a5e9f712727"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.lists.PDEListView.mIsScrolling</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a33f6acdff6e9868766d0e5962cbf5c41"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.lists.PDEListView.mTapped</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>PDEEventSource instance that provides the event sending behaviour. </p>
 
 </div>
 </div>

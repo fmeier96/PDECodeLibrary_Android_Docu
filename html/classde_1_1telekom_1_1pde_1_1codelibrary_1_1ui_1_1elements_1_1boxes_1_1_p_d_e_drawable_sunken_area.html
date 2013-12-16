@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -186,8 +185,10 @@ Inheritance diagram for de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawable
  <div class="center">
   <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.png" usemap="#de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea_map" alt=""/>
   <map id="de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea_map" name="de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea_map">
-<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_multilayer.html" alt="de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableMultilayer" shape="rect" coords="0,56,452,80"/>
-<area href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_interface.html" alt="de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableInterface" shape="rect" coords="0,0,452,24"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_area.html" alt="de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableArea" shape="rect" coords="0,112,443,136"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_multilayer.html" alt="de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableMultilayer" shape="rect" coords="0,56,443,80"/>
+<area href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_interface.html" alt="de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableInterface" shape="rect" coords="0,0,443,24"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1boxes_1_1_p_d_e_drawable_cutout_haptic.html" alt="de.telekom.pde.codelibrary.ui.components.boxes.PDEDrawableCutoutHaptic" shape="rect" coords="0,224,443,248"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -195,14 +196,6 @@ Inheritance diagram for de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawable
 Public Methods</h2></td></tr>
 <tr class="memitem:a163e0f82ffd41328b2ee2757314aed0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a163e0f82ffd41328b2ee2757314aed0f">PDEDrawableSunkenArea</a> ()</td></tr>
 <tr class="memdesc:a163e0f82ffd41328b2ee2757314aed0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a163e0f82ffd41328b2ee2757314aed0f"></a><br/></td></tr>
-<tr class="memitem:ae8cf04d7d137edba15fa96e2a4d3f5b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#ae8cf04d7d137edba15fa96e2a4d3f5b7">getElementSunkenBackgroundColor</a> ()</td></tr>
-<tr class="memdesc:ae8cf04d7d137edba15fa96e2a4d3f5b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the background color.  <a href="#ae8cf04d7d137edba15fa96e2a4d3f5b7"></a><br/></td></tr>
-<tr class="memitem:ad66c6252abd352a06e42269a4155931d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#ad66c6252abd352a06e42269a4155931d">setElementSunkenBackgroundColor</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
-<tr class="memdesc:ad66c6252abd352a06e42269a4155931d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new background color.  <a href="#ad66c6252abd352a06e42269a4155931d"></a><br/></td></tr>
-<tr class="memitem:a7db82ea9ca1cb3e9dbbb1fd15b834931"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a7db82ea9ca1cb3e9dbbb1fd15b834931">getElementSunkenBorderColor</a> ()</td></tr>
-<tr class="memdesc:a7db82ea9ca1cb3e9dbbb1fd15b834931"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get border color.  <a href="#a7db82ea9ca1cb3e9dbbb1fd15b834931"></a><br/></td></tr>
-<tr class="memitem:a532e8f935e32cac8962097d19745a482"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a532e8f935e32cac8962097d19745a482">setElementSunkenBorderColor</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
-<tr class="memdesc:a532e8f935e32cac8962097d19745a482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new border color.  <a href="#a532e8f935e32cac8962097d19745a482"></a><br/></td></tr>
 <tr class="memitem:a8abfbef6db8da4ca49513e5b71339d76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a8abfbef6db8da4ca49513e5b71339d76">getElementInnerShadowColor</a> ()</td></tr>
 <tr class="memdesc:a8abfbef6db8da4ca49513e5b71339d76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get inner shadow color.  <a href="#a8abfbef6db8da4ca49513e5b71339d76"></a><br/></td></tr>
 <tr class="memitem:a1b8eb5b9af4a55bbaa4456dc0eeb5ae1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a1b8eb5b9af4a55bbaa4456dc0eeb5ae1">setElementInnerShadowColor</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
@@ -226,35 +219,22 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:ab48280060941b796ea1b4db1d5696e83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the shape of the sunken layer to a rounded rectangle.  <a href="#ab48280060941b796ea1b4db1d5696e83"></a><br/></td></tr>
 <tr class="memitem:a7e4b652bf56c445fa90e56b2b7d8082c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a7e4b652bf56c445fa90e56b2b7d8082c">setElementShapeOval</a> ()</td></tr>
 <tr class="memdesc:a7e4b652bf56c445fa90e56b2b7d8082c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the shape of the sunken layer to an oval.  <a href="#a7e4b652bf56c445fa90e56b2b7d8082c"></a><br/></td></tr>
-<tr class="memitem:a807d69c479b92b5f03a88639f667ace5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1wrapper_1_1_p_d_e_view_wrapper.html">PDEViewWrapper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a807d69c479b92b5f03a88639f667ace5">getWrapperView</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Methods</h2></td></tr>
+<tr class="memitem:a6fe41f869a3eff4591fa80a25fb668b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a6fe41f869a3eff4591fa80a25fb668b2">initLayers</a> ()</td></tr>
 <tr class="memitem:a7f83603eb7bc041956f2fbca4d0f37f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a7f83603eb7bc041956f2fbca4d0f37f8">doLayout</a> ()</td></tr>
 <tr class="memdesc:a7f83603eb7bc041956f2fbca4d0f37f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates and applies new layout values.  <a href="#a7f83603eb7bc041956f2fbca4d0f37f8"></a><br/></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
-Private Methods</h2></td></tr>
-<tr class="memitem:a6fe41f869a3eff4591fa80a25fb668b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a6fe41f869a3eff4591fa80a25fb668b2">initLayers</a> ()</td></tr>
-<tr class="memitem:a532037e3a7d1f3ed9d7ef2355480754a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a532037e3a7d1f3ed9d7ef2355480754a">updateBackgroundDrawable</a> (Rect bounds)</td></tr>
-<tr class="memdesc:a532037e3a7d1f3ed9d7ef2355480754a"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the backgroundLayer when the bounds change.  <a href="#a532037e3a7d1f3ed9d7ef2355480754a"></a><br/></td></tr>
-<tr class="memitem:acacd2f0420408ef02837e0f1e7908af2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#acacd2f0420408ef02837e0f1e7908af2">updateBorderLine</a> (Rect bounds)</td></tr>
-<tr class="memdesc:acacd2f0420408ef02837e0f1e7908af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the border line when the bounds change.  <a href="#acacd2f0420408ef02837e0f1e7908af2"></a><br/></td></tr>
 <tr class="memitem:a41ca79ee891eac360058a0472985edb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a41ca79ee891eac360058a0472985edb3">updateInnerShadow</a> (Rect bounds)</td></tr>
 <tr class="memdesc:a41ca79ee891eac360058a0472985edb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the inner shadow when the bounds change.  <a href="#a41ca79ee891eac360058a0472985edb3"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ac920f372383367a64ce70de7eab8e450"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html">PDEDrawableBorderLine</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#ac920f372383367a64ce70de7eab8e450">mElementBorderLine</a></td></tr>
 <tr class="memitem:a4097cba6b15c04f22d37a910d36ca4dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html">PDEDrawableShapedInnerShadow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a4097cba6b15c04f22d37a910d36ca4dd">mElementInnerShadow</a></td></tr>
-<tr class="memitem:a19fa6837fbf9b309c8e2d5e27d86568c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shape.html">PDEDrawableShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a19fa6837fbf9b309c8e2d5e27d86568c">mElementBackground</a></td></tr>
-<tr class="memitem:acbfee1d9eb0584c140abda919805b57e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#acbfee1d9eb0584c140abda919805b57e">mElementSunkenBackgroundColor</a></td></tr>
-<tr class="memitem:ad7fc84d0518e1651d7bf65e29cf50ae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#ad7fc84d0518e1651d7bf65e29cf50ae2">mElementSunkenBorderColor</a></td></tr>
 <tr class="memitem:ac75181bb8150272669d42a618c014d9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#ac75181bb8150272669d42a618c014d9f">mElementInnerShadowColor</a></td></tr>
 <tr class="memitem:a7ab65d7317de52bdceb9335656f442dd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a7ab65d7317de52bdceb9335656f442dd">mElementInnerShadowOpacity</a></td></tr>
 <tr class="memitem:a7c3bd96a3effbbe832dbfdb9d29fb93d"><td class="memItemLeft" align="right" valign="top">Point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a7c3bd96a3effbbe832dbfdb9d29fb93d">mElementInnerShadowOffset</a></td></tr>
 <tr class="memitem:a2c87141a45cdd83a8b500b35e40ba98b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#a2c87141a45cdd83a8b500b35e40ba98b">mElementInnerShadowBlurRadius</a></td></tr>
-<tr class="memitem:ac63dfaddc3d47205fe61338d57c62a9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1wrapper_1_1_p_d_e_view_wrapper.html">PDEViewWrapper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_sunken_area.html#ac63dfaddc3d47205fe61338d57c62a9c">mWrapperView</a></td></tr>
 </table>
 <h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a163e0f82ffd41328b2ee2757314aed0f"></a>
@@ -299,126 +279,12 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="ae8cf04d7d137edba15fa96e2a4d3f5b7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.getElementSunkenBackgroundColor </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the background color. </p>
-<dl class="section return"><dt>Returns</dt><dd>background color </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ad66c6252abd352a06e42269a4155931d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.setElementSunkenBackgroundColor </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td>
-          <td class="paramname"><em>color</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set a new background color. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">color</td><td>new background color </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a7db82ea9ca1cb3e9dbbb1fd15b834931"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.getElementSunkenBorderColor </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get border color. </p>
-<dl class="section return"><dt>Returns</dt><dd>border color </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a532e8f935e32cac8962097d19745a482"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.setElementSunkenBorderColor </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td>
-          <td class="paramname"><em>color</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set new border color. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">color</td><td>new border color </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_area.html#a18a58413641b3d2e22288801e887fef6">de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableArea</a>.</p>
 
 </div>
 </div>
@@ -701,71 +567,7 @@ Protected Attributes</h2></td></tr>
 
 <p>calculates and applies new layout values. </p>
 
-<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1drawables_1_1_p_d_e_drawable_multilayer.html#a486ff6bdaa230fc608d796b9de062911">de.telekom.pde.codelibrary.ui.components.drawables.PDEDrawableMultilayer</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a532037e3a7d1f3ed9d7ef2355480754a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.updateBackgroundDrawable </td>
-          <td>(</td>
-          <td class="paramtype">Rect&#160;</td>
-          <td class="paramname"><em>bounds</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>update the backgroundLayer when the bounds change. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bounds</td><td>new bounds </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="acacd2f0420408ef02837e0f1e7908af2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.updateBorderLine </td>
-          <td>(</td>
-          <td class="paramtype">Rect&#160;</td>
-          <td class="paramname"><em>bounds</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>update the border line when the bounds change. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bounds</td><td>new bounds </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_area.html#a87c9d38ad945dfa99553ddf1769583f4">de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableArea</a>.</p>
 
 </div>
 </div>
@@ -786,7 +588,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -824,6 +626,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Set the shape of the layer to a rectangle with the given size. </p>
 
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_area.html#a8536127292d34cba6283572e09e5426f">de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableArea</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ab48280060941b796ea1b4db1d5696e83"></a>
@@ -856,6 +660,8 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_area.html#a945042ddb45ddba402162529d7e4509f">de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableArea</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a7e4b652bf56c445fa90e56b2b7d8082c"></a>
@@ -881,52 +687,11 @@ Protected Attributes</h2></td></tr>
 
 <p>Set the shape of the sunken layer to an oval. </p>
 
-</div>
-</div>
-<a class="anchor" id="a807d69c479b92b5f03a88639f667ace5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1wrapper_1_1_p_d_e_view_wrapper.html">PDEViewWrapper</a> de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.getWrapperView </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1boxes_1_1_p_d_e_drawable_area.html#ad756600a5654421d735b7a65218d576d">de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableArea</a>.</p>
 
 </div>
 </div>
 <h2>Member Data Documentation</h2>
-<a class="anchor" id="ac920f372383367a64ce70de7eab8e450"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_border_line.html">PDEDrawableBorderLine</a> de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.mElementBorderLine</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a4097cba6b15c04f22d37a910d36ca4dd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -936,66 +701,6 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html">PDEDrawableShapedInnerShadow</a> de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.mElementInnerShadow</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a19fa6837fbf9b309c8e2d5e27d86568c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shape.html">PDEDrawableShape</a> de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.mElementBackground</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="acbfee1d9eb0584c140abda919805b57e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.mElementSunkenBackgroundColor</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad7fc84d0518e1651d7bf65e29cf50ae2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.mElementSunkenBorderColor</td>
         </tr>
       </table>
   </td>
@@ -1076,26 +781,6 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">float de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.mElementInnerShadowBlurRadius</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac63dfaddc3d47205fe61338d57c62a9c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1wrapper_1_1_p_d_e_view_wrapper.html">PDEViewWrapper</a> de.telekom.pde.codelibrary.ui.elements.boxes.PDEDrawableSunkenArea.mWrapperView</td>
         </tr>
       </table>
   </td>

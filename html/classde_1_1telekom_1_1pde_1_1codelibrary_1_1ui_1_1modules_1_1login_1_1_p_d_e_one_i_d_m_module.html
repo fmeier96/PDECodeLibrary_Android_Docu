@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -225,9 +224,9 @@ Public Methods</h2></td></tr>
 Private Methods</h2></td></tr>
 <tr class="memitem:ada49ef7b764a5ce05497367453c2fa73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_one_i_d_m_module.html#ada49ef7b764a5ce05497367453c2fa73">init</a> ()</td></tr>
 <tr class="memdesc:ada49ef7b764a5ce05497367453c2fa73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common init function.  <a href="#ada49ef7b764a5ce05497367453c2fa73"></a><br/></td></tr>
-<tr class="memitem:ad216a3a5abf1f281bdc9a1603ffa8de2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_one_i_d_m_module.html#ad216a3a5abf1f281bdc9a1603ffa8de2">fillJSONTokenIntoDict</a> (JSONTokener tokener, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a> dict)  throws JSONException</td></tr>
+<tr class="memitem:ad216a3a5abf1f281bdc9a1603ffa8de2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_one_i_d_m_module.html#ad216a3a5abf1f281bdc9a1603ffa8de2">fillJSONTokenIntoDict</a> (JSONTokener tokener, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a> dict)  throws JSONException</td></tr>
 <tr class="memdesc:ad216a3a5abf1f281bdc9a1603ffa8de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract JSON Data and copies it into the dictionary.  <a href="#ad216a3a5abf1f281bdc9a1603ffa8de2"></a><br/></td></tr>
-<tr class="memitem:a4ce1626aa9575baff103ae1a92f852bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_one_i_d_m_module.html#a4ce1626aa9575baff103ae1a92f852bf">fillJSONObjectIntoDict</a> (JSONObject object, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a> dict)  throws JSONException</td></tr>
+<tr class="memitem:a4ce1626aa9575baff103ae1a92f852bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_one_i_d_m_module.html#a4ce1626aa9575baff103ae1a92f852bf">fillJSONObjectIntoDict</a> (JSONObject object, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a> dict)  throws JSONException</td></tr>
 <tr class="memdesc:a4ce1626aa9575baff103ae1a92f852bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function for fillJSONTokenIntoDict.  <a href="#a4ce1626aa9575baff103ae1a92f852bf"></a><br/></td></tr>
 <tr class="memitem:aa83e03170264744c89b6cf27ddf8bbb0"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1modules_1_1login_1_1_p_d_e_one_i_d_m_module.html#aa83e03170264744c89b6cf27ddf8bbb0">readIt</a> (InputStream stream)  throws IOException </td></tr>
 <tr class="memdesc:aa83e03170264744c89b6cf27ddf8bbb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads an InputStream and converts it to a String.  <a href="#aa83e03170264744c89b6cf27ddf8bbb0"></a><br/></td></tr>
@@ -629,7 +628,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
           <td class="paramname"><em>dict</em>&#160;</td>
         </tr>
         <tr>
@@ -678,7 +677,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1parameters_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td>
           <td class="paramname"><em>dict</em>&#160;</td>
         </tr>
         <tr>

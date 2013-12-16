@@ -1,6 +1,0 @@
-var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_slider_sizetest_regul53b959728ae4e8f48473cde8d3410bdd =
-[
-    [ "Postion", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_slider_sizetest_regul53b959728ae4e8f48473cde8d3410bdd.html#ae982361f625e8e1a68b124c2b16ce44a", null ],
-    [ "StartPostion", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_slider_sizetest_regul53b959728ae4e8f48473cde8d3410bdd.html#a01f071f01a681e994c7ba347d69cab6b", null ],
-    [ "PageSize", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1developerscreens_1_1_slider_sizetest_regul53b959728ae4e8f48473cde8d3410bdd.html#adb1fc8956b00b23956573fe79e2b1770", null ]
-];

@@ -1,5 +1,0 @@
-var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_multid9ec48717ade6bfe31be480f2ffbd531 =
-[
-    [ "two", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_multid9ec48717ade6bfe31be480f2ffbd531.html#ab8b6357f9aa7042837504a4c806398e9", null ],
-    [ "multiple", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelist_1_1_p_d_e_list_plain_graphic_multid9ec48717ade6bfe31be480f2ffbd531.html#a1e4548daefffeaaab36f6551460afdd9", null ]
-];

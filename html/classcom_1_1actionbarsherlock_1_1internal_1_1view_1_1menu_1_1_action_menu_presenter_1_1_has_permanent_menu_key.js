@@ -1,4 +1,0 @@
-var classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu_presenter_1_1_has_permanent_menu_key =
-[
-    [ "get", "classcom_1_1actionbarsherlock_1_1internal_1_1view_1_1menu_1_1_action_menu_presenter_1_1_has_permanent_menu_key.html#add92c479666adf295943da184ce7ac0c", null ]
-];

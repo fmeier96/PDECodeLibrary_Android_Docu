@@ -260,7 +260,7 @@ function implementToggleFullscreenButton() {
 		if($('#toggle-fullscreen').length > 0) {
 			$('#toggle-fullscreen').remove();
 		}
-		var toggleFullscreenButton = $('<a href="#" id="toggle-fullscreen" class="button icon-only">' +
+		var toggleFullscreenButton = $('<a href="#" id="toggle-fullscreen" class="button dark icon-only">' +
 		'	<span class="icon" aria-hidden="true"></span>' +
 		'	<span class="buttontext">Fullscreen</span>' +
 		'</a>');

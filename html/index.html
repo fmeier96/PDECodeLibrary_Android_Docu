@@ -11,7 +11,7 @@
   <link href="images/favicon.ico" rel="shortcut icon" />
   <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
 	<script type="text/javascript">
-		var headerBaseUrl = '/code-library/code-components-android/';
+		var headerBaseUrl = '/code-library/code-library-android/';
 	</script>
 	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="jquery.js"></script>
@@ -24,10 +24,12 @@
 	<script type="text/javascript">$(document).ready(initResizable);</script>
 	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
 	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
-	<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie7.css" media="screen,print"> <![endif]-->
-  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie8.css" media="screen,print"> <![endif]-->
-  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/dtag-ie9.css" media="screen,print"> <![endif]-->
-  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/dtag.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
   <!-- for all IE's -->
   <!--[if IE]>
     <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
@@ -59,10 +61,7 @@
 					</a>
 				</div>
 				<div class="dtag-grid-col dtag-grid-col-center">
-					<a class="button beveled minimal icon-toolbox" href="https://www.design.telekom.com/">
-						<span class="icon">
-							<img src="images/164a7a1f.toolbox-icon.png" alt="" />
-						</span>
+					<a class="button flat" href="https://www.design.telekom.com/">
 						<span class="buttontext">Menu</span>
 					</a>
 				</div>
@@ -113,7 +112,7 @@
         <nav id="dtag_breadcrumb">
             <ul>
                 <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
-                <li>Android Code Library</li>
+                <li>Android</li>
             </ul>
         </nav>
 			</div>
@@ -237,15 +236,17 @@ $(document).ready(function(){initNavTree('index.html','');});
 </ol>
 <p>Modern development environments support sharing source code with Git. Please refer to the manual of your tool and enter the URL in the configuration.</p>
 <h2>Branches</h2>
-<p>The master branch of the Git-system contains the latest version of the software components. Currently, the Code Library version 2.0 is available in the master branch.</p>
-<p>Previous versions are available in specific branches. Currently, the Code Library version 1.0.2 is available in the branch "release-1.0.2". You can clone directly by using the option "-b release-1.0.2".</p>
+<p>The master branch of the Git-system contains the latest version of the software components. Currently, the Code Library version 3.0 is available in the master branch. Previous versions are available in specific branches.</p>
+<p>The Code Library versions 1.0 and 2.0 are available in the branches "release-X.Y". The branch can be cloned directly by using the option "-b". Please replace "X" with the major release number and "Y" with the minor release number.</p>
+<p>Example</p>
+<p>git clone -b release-2.0 <a href="https://git.design.telekom.com/git/PDECodeLibrary_Android.git">https://git.design.telekom.com/git/PDECodeLibrary_Android.git</a></p>
 <h1>Installation</h1>
 <p>The Code Library and code samples for Android include project files for easy integration into Eclipse. The preceding sections list the steps to integrate the Code Library into Eclipse and IntelliJ. For the use of other development environments, please refer to your tool's manual on how to work with external libraries and existing source code.</p>
 <h2>System requirements</h2>
 <p>There are no specific requirements for using the Code Library and samples. You need a development environment for developing Android applications. This includes the correct version of the SDK that supports your Android target. You also need a web browser to view the documentation online or offline.</p>
 <h2>Dependencies</h2>
 <p>The Code Library was built for Android 4.1.2 (API16). Since version 1.10.0 (Integration of the action bar, the Code Library depends on the ActionBarSherlock. Its repository on GitHub has been added as submodule.</p>
-<p>Note: do not forget to use the flag "--recursive" for cloning (or activate the checkbox "submodules" in your tool).</p>
+<p>Note: do not forget to use the flag "&minus;&minus;recursive" for cloning (or activate the checkbox "submodules" in your tool).</p>
 <p>The samples were built for Android 2.3.3 (API10) or higher. To build and run the samples, you need the Code Library. The bundle contains a project file with the correct use of the library in Eclipse. Without the library, you can only browse the source code.</p>
 <p>Note for Mac-users: if you are running OS X Mountain Lion (OS 10.8.x), you may need to additionally install the latest Java plug-in to use the components.</p>
 <p>The documentation has no dependencies.</p>
@@ -376,8 +377,6 @@ protected void onCreate(Bundle savedInstanceState) {
 <h2>Uninstalling the documentation</h2>
 <p>Simply remove the folder from your local hard drive.</p>
 <h1>Known issues</h1>
-<p><b>Version 1.12.9</b><br/>
- The progress indicator is not styled to meet the requirements of Deutsche Telekom.</p>
 <p><b>Version 1.12.4</b><br/>
  The icon font has problems with the visual appearance if the size of the displayed icons varies.</p>
 <p><b>Version 1.10.3</b><br/>
@@ -386,11 +385,41 @@ protected void onCreate(Bundle savedInstanceState) {
  The width of the areas in the bottom bar on the phone do not conform to the Styleguide of Deutsche Telekom. The width is set by the Android system, according to the number of the items. The case of a single item uses the full screen width for the single area. The cases of 2 and 3 items use areas of rather small width placed at the corners and the central position. Cases of more items scale the width of the areas to fill the full screen width. The right and left corner item are misplaced. It runs out of the screen, therefore it looks smaller and the icon does not appear central aligned (actually it is, but using invisible screen parts).<br/>
  All tooltips should appear close to the control it relates to. Currently, the tooltips in the split action bar appear horizontal centralized.<br/>
 </p>
-<h1>Release Notes</h1>
+<h1>Release notes</h1>
 <p><b>Current public version</b><br/>
- 2.0.1</p>
+ 3.0</p>
 <p><b>Current non-public version</b><br/>
- 2.0.1</p>
+ 3.0</p>
+<h2>Major 3.0 (public)</h2>
+<p><b>Date</b><br/>
+ 13.12.2013</p>
+<p><b>Server</b><br/>
+ git.design.telekom.com</p>
+<p><b>Repositories</b><br/>
+ PDECodeLibrary_Android.git, PDECodeSamples_Android.git, PDECodeLibrary_Android_Docu.git</p>
+<p><b>Branch</b><br/>
+ master</p>
+<p><b>Content</b><br/>
+</p>
+<p>The Code Library version 3 implements the major update of the visual design for Deutsche Telekom Apps. The components are available in the styles "flat" and "haptic" The other stiles of previous versions are deprecated.</p>
+<h2>Patch 2.0.4 (non-public)</h2>
+<p>Minor list improvements and list documentation updates.</p>
+<h2>Patch 2.0.3 (non-public)</h2>
+<p>Minor slider improvements.</p>
+<h2>Patch 2.0.2 (public)</h2>
+<p><b>Date</b><br/>
+ 27.08.2013</p>
+<p><b>Server</b><br/>
+ git.design.telekom.com</p>
+<p><b>Repositories</b><br/>
+ PDECodeLibrary_Android.git, PDECodeSamples_Android.git</p>
+<p><b>Branch</b><br/>
+ release-2.0</p>
+<p><b>Content</b><br/>
+</p>
+<p>hotfix: colors of dark style and text layer fixed</p>
+<p>Some colors of dark style were not set, some were not correkt. Switching from light to dark style would have lead to incorrect visual appearenace. The colors have been fixed, in code as well as XML settings.</p>
+<p>The handling of long strings inside the text components has been fixed.</p>
 <h2>Patch 2.0.1 (public)</h2>
 <p><b>Date</b><br/>
  01.08.2013</p>
@@ -399,7 +428,7 @@ protected void onCreate(Bundle savedInstanceState) {
 <p><b>Repositories</b><br/>
  PDECodeLibrary_Android.git, PDECodeLibrary_Android_Docu.git</p>
 <p><b>Branch</b><br/>
- master</p>
+ release-2.0</p>
 <p><b>Content</b><br/>
 </p>
 <p>hotfix-2.0.1: corner radius of buttons fixed</p>
@@ -414,7 +443,7 @@ protected void onCreate(Bundle savedInstanceState) {
 <p><b>Repositories</b><br/>
  PDECodeLibrary_Android.git, PDECodeSamples_Android.git, PDECodeLibrary_Android_Docu.git</p>
 <p><b>Branch</b><br/>
- master</p>
+ release-2.0</p>
 <p><b>Content</b><br/>
 </p>
 <p>The Code Library version 2.0 contains the <b>components</b> for Buttons, Checkboxes, Radiobuttons, Inputfields, and Lists.</p>
@@ -491,7 +520,7 @@ protected void onCreate(Bundle savedInstanceState) {
 <p>The implementation reproduces the look&amp;feel and behavior of the standard actionbar to large extend. The implementation uses XML-styling as much as possible. Implementation and adaptation in Java is second option if realization with XML is not sufficient in terms of design, style or behavior; or not feasible in terms of economic, legal or time issues.</p>
 <h2>Feature 1.9.0 (non-public)</h2>
 <p>activities: splash screen</p>
-<p>The splash screen is the first screen of the application. It is shown right after activation, the launch of the application is performed in background. The splash screen informs the user that the application has successfulyy been started. The design of the splash screen enables the user to link the application with Deutsche Telekom.</p>
+<p>The splash screen is the first screen of the application. It is shown right after activation, the launch of the application is performed in background. The splash screen informs the user that the application has successfully been started. The design of the splash screen enables the user to link the application with Deutsche Telekom.</p>
 <p>The splash screen of Deutsche Telekom uses standard colors, font and layout.</p>
 <h2>Feature 1.8.0 (non-public)</h2>
 <p>sample: telegrotesk test screen</p>

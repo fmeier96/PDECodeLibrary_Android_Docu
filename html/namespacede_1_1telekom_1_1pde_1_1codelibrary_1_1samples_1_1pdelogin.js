@@ -1,5 +1,0 @@
-var namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelogin =
-[
-    [ "OneIDMLoginUsageSampleActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelogin_1_1_one_i_d_m_login_usage_sample_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelogin_1_1_one_i_d_m_login_usage_sample_activity" ],
-    [ "SampleAppLoginActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelogin_1_1_sample_app_login_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1pdelogin_1_1_sample_app_login_activity" ]
-];

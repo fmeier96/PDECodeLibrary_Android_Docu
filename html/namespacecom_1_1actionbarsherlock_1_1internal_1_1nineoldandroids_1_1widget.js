@@ -1,6 +1,0 @@
-var namespacecom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1widget =
-[
-    [ "NineFrameLayout", "classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1widget_1_1_nine_frame_layout.html", "classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1widget_1_1_nine_frame_layout" ],
-    [ "NineHorizontalScrollView", "classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1widget_1_1_nine_horizontal_scroll_view.html", "classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1widget_1_1_nine_horizontal_scroll_view" ],
-    [ "NineLinearLayout", "classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1widget_1_1_nine_linear_layout.html", "classcom_1_1actionbarsherlock_1_1internal_1_1nineoldandroids_1_1widget_1_1_nine_linear_layout" ]
-];
