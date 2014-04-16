@@ -79,7 +79,7 @@
 				</div>
 				<div id="dtag_jumpmarks">
 					<a href="#dtag_main">Jump to Content</a>
-					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
 						<span aria-hidden="true" class="icon"></span>
 						<span class="buttontext">Helpdesk</span>
 					</a>
@@ -221,12 +221,6 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:ae543a86d5b567306405676f2a48b0c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate shadow.  <a href="#ae543a86d5b567306405676f2a48b0c2a"></a><br/></td></tr>
 <tr class="memitem:a119c31f5d2e0894a52d68e5828c59dd0"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#a119c31f5d2e0894a52d68e5828c59dd0">getShadowEnabled</a> ()</td></tr>
 <tr class="memdesc:a119c31f5d2e0894a52d68e5828c59dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if shadow is activated.  <a href="#a119c31f5d2e0894a52d68e5828c59dd0"></a><br/></td></tr>
-<tr class="memitem:a142a63d52d04f9f3abb23db336f60387"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#a142a63d52d04f9f3abb23db336f60387">setViewSize</a> (float width, float height)</td></tr>
-<tr class="memdesc:a142a63d52d04f9f3abb23db336f60387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Size.  <a href="#a142a63d52d04f9f3abb23db336f60387"></a><br/></td></tr>
-<tr class="memitem:a7c69932cf709f21e44f9abb058fe4816"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#a7c69932cf709f21e44f9abb058fe4816">setViewOffset</a> (float x, float y)</td></tr>
-<tr class="memdesc:a7c69932cf709f21e44f9abb058fe4816"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Offset.  <a href="#a7c69932cf709f21e44f9abb058fe4816"></a><br/></td></tr>
-<tr class="memitem:a862d4a2085e798d407364bd82d2cdacb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#a862d4a2085e798d407364bd82d2cdacb">setViewLayoutRect</a> (Rect rect)</td></tr>
-<tr class="memdesc:a862d4a2085e798d407364bd82d2cdacb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Rect.  <a href="#a862d4a2085e798d407364bd82d2cdacb"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Methods</h2></td></tr>
@@ -243,6 +237,7 @@ Private Methods</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ac31866ebd960e9e1c2afdd9c95bcb6a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html">PDEDrawablePhotoFrame</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#ac31866ebd960e9e1c2afdd9c95bcb6a1">mPhoto</a></td></tr>
+<tr class="memitem:a5dd4cc4b7ef6ae3e63d7fed7337bfd4e"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#a5dd4cc4b7ef6ae3e63d7fed7337bfd4e">mInternalCalculateAspectRatioBounds</a></td></tr>
 </table>
 <h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab76c827c63da0e3c3218f4e073903231"></a>
@@ -733,104 +728,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a142a63d52d04f9f3abb23db336f60387"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEPhotoFrameView.setViewSize </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set View Size. </p>
-
-</div>
-</div>
-<a class="anchor" id="a7c69932cf709f21e44f9abb058fe4816"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEPhotoFrameView.setViewOffset </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set View Offset. </p>
-
-</div>
-</div>
-<a class="anchor" id="a862d4a2085e798d407364bd82d2cdacb"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEPhotoFrameView.setViewLayoutRect </td>
-          <td>(</td>
-          <td class="paramtype">Rect&#160;</td>
-          <td class="paramname"><em>rect</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set View Rect. </p>
-
-</div>
-</div>
 <a class="anchor" id="a57a24b2e38b7948297df09885e976225"></a>
 <div class="memitem">
 <div class="memproto">
@@ -877,6 +774,26 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html">PDEDrawablePhotoFrame</a> de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEPhotoFrameView.mPhoto</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5dd4cc4b7ef6ae3e63d7fed7337bfd4e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rect de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEPhotoFrameView.mInternalCalculateAspectRatioBounds</td>
         </tr>
       </table>
   </td>

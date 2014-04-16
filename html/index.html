@@ -79,7 +79,7 @@
 				</div>
 				<div id="dtag_jumpmarks">
 					<a href="#dtag_main">Jump to Content</a>
-					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
 						<span aria-hidden="true" class="icon"></span>
 						<span class="buttontext">Helpdesk</span>
 					</a>
@@ -226,31 +226,51 @@ $(document).ready(function(){initNavTree('index.html','');});
  E-mail: <a href="#" onclick="location.href='mai'+'lto:'+'des'+'ig'+'n-s'+'up'+'por'+'t@'+'tel'+'ek'+'om.'+'de'; return false;">desig<span style="display: none;">.nosp@m.</span>n-su<span style="display: none;">.nosp@m.</span>pport<span style="display: none;">.nosp@m.</span>@tel<span style="display: none;">.nosp@m.</span>ekom.<span style="display: none;">.nosp@m.</span>de</a><br/>
  Phone: +49 (0) 228 181-22222</p>
 <h1>The Code Library for Android</h1>
-<h2>Getting the Code Library</h2>
-<p>You can clone from three repositories:</p>
+<h2>Structure</h2>
 <ol type="1">
-<li>The library for Android, including source code and minimal set of resources: <a href="https://git.design.telekom.com/git/PDECodeLibrary_Android.git">https://git.design.telekom.com/git/PDECodeLibrary_Android.git</a></li>
-<li>The sample project for Android: <a href="https://git.design.telekom.com/git/PDECodeSamples_Android.git">https://git.design.telekom.com/git/PDECodeSamples_Android.git</a></li>
-<li>The documentation of the Android library in html for offline use: <a href="https://git.design.telekom.com/git/PDECodeLibrary_Android_Docu.git">https://git.design.telekom.com/git/PDECodeLibrary_Android_Docu.git</a> <br/>
- The documentation is also available online as part of the Experience Toolbox.</li>
+<li>PDECodeLibrary_Android: The library for Android, including source code and minimal set of resources.</li>
+<li>PDECodeSamples_Android: The sample project for Android.</li>
+<li>PDECodeLibrary_Android_Docu: The documentation of the Android library in html for offline use. The documentation is also available online as part of the Experience Toolbox.</li>
 </ol>
-<p>Modern development environments support sharing source code with Git. Please refer to the manual of your tool and enter the URL in the configuration.</p>
+<h2>Getting the Code Library</h2>
+<p>You can clone the repositories using a git tool, such as the git bash, TortoiseGit or GitExtensions. Use commands such as </p>
+<pre class="fragment">git clone https://git.design.telekom.com/git/PDECodeLibrary_Android.git
+git clone https://git.design.telekom.com/git/PDECodeSamples_Android.git
+git clone https://git.design.telekom.com/git/PDECodeLibrary_Android_Docu.git
+</pre><p>Modern development environments support sharing source code with Git. Please refer to the manual of your tool and enter the URL in the configuration.</p>
 <h2>Branches</h2>
-<p>The master branch of the Git-system contains the latest version of the software components. Currently, the Code Library version 3.0 is available in the master branch. Previous versions are available in specific branches.</p>
-<p>The Code Library versions 1.0 and 2.0 are available in the branches "release-X.Y". The branch can be cloned directly by using the option "-b". Please replace "X" with the major release number and "Y" with the minor release number.</p>
-<p>Example</p>
-<p>git clone -b release-2.0 <a href="https://git.design.telekom.com/git/PDECodeLibrary_Android.git">https://git.design.telekom.com/git/PDECodeLibrary_Android.git</a></p>
-<h1>Installation</h1>
+<p>The master branch of the Git-system contains the latest version of the software components. Currently, the Code Library version 4.0 is available in the master branch. Previous versions are available in specific branches.</p>
+<p>The Code Library versions 1.0, 2.0, and 3.0 are available in the branches "release-X.Y". The branch can be cloned directly by using the option "-b". Please replace "X" with the major release number and "Y" with the minor release number.</p>
+<p><em>Example</em> </p>
+<pre class="fragment">git clone -b release-3.0 https://git.design.telekom.com/git/PDECodeLibrary_Android.git
+git clone -b release-3.0 https://git.design.telekom.com/git/PDECodeSamples_Android.git
+</pre><h1>Installation</h1>
 <p>The Code Library and code samples for Android include project files for easy integration into Eclipse. The preceding sections list the steps to integrate the Code Library into Eclipse and IntelliJ. For the use of other development environments, please refer to your tool's manual on how to work with external libraries and existing source code.</p>
 <h2>System requirements</h2>
 <p>There are no specific requirements for using the Code Library and samples. You need a development environment for developing Android applications. This includes the correct version of the SDK that supports your Android target. You also need a web browser to view the documentation online or offline.</p>
 <h2>Dependencies</h2>
-<p>The Code Library was built for Android 4.1.2 (API16). Since version 1.10.0 (Integration of the action bar, the Code Library depends on the ActionBarSherlock. Its repository on GitHub has been added as submodule.</p>
-<p>Note: do not forget to use the flag "&minus;&minus;recursive" for cloning (or activate the checkbox "submodules" in your tool).</p>
+<p>The Code Library was built for Android 4.4 (API19). Since version 4.0 the PDECodeLibrary depends on ActionBar Compat, which replaces the ActionBarSherlock used in previous versions. The ActionBar Compat is part of the Android v7 Support Library. Please refer to <a href="http://developer.android.com/tools/support-library/features.html#v7">http://developer.android.com/tools/support-library/features.html#v7</a> for details. You must have installed the Android v7 support library to re-compile the Code Library for Android, v4.0.</p>
 <p>The samples were built for Android 2.3.3 (API10) or higher. To build and run the samples, you need the Code Library. The bundle contains a project file with the correct use of the library in Eclipse. Without the library, you can only browse the source code.</p>
 <p>Note for Mac-users: if you are running OS X Mountain Lion (OS 10.8.x), you may need to additionally install the latest Java plug-in to use the components.</p>
 <p>The documentation has no dependencies.</p>
+<h2>Installing support libraries</h2>
+<p>Ensure you have installed the support libraries. You find the support libraries in the SDK Manager, section "Extras". Select the checkbox "Support Library" and install the packages selected by the SDK Manager. Please refer to <a href="http://developer.android.com/tools/support-library/setup.html">http://developer.android.com/tools/support-library/setup.html</a> for detailed instructions and screenshot to install support libraries.</p>
+<p>The library is located in the &lt;sdk&gt;/extras/android/support/v7/appcompat/ directory after you download the Android Support Libraries.</p>
 <h2>Installation in Eclipse</h2>
+<h3>Create a library project for the v7 support library</h3>
+<p>To include the v7 support library in your application project, follow the instructions for adding libraries with resources at <a href="http://developer.android.com/tools/support-library/setup.html#libs-with-res">http://developer.android.com/tools/support-library/setup.html#libs-with-res</a> from which the following instructions are reproduced:</p>
+<ol type="1">
+<li>Select "File" -&gt; "Import"</li>
+<li>Select "Existing Android Code Into Workspace" and click "Next".</li>
+<li>Browse to the SDK installation directory and then to the Support Library folder, like &lt;sdk&gt;/extras/android/support/v7/appcompat/.<br/>
+ <em>Important note</em>: If you installed the sdk in a system folder, such as C:/Program Files/Android/android-sdk, then you need to copy the library into your workspace. Otherwise Eclipse will fail to generate the library files. Select the checkbox "Copy projects into workspace" to do so.</li>
+<li>Click "Finish" to import the project. For the v7 appcompat project, you should now see a new project titled "android-support-v7-appcompat".</li>
+<li>In the new library project, expand the "libs/" folder, right-click each .jar file and select "Build Path" -&gt; "Add to Build Path". For example, when creating the the v7 appcompat project, add both the "android-support-v4.jar" and "android-support-v7-appcompat.jar" files to the build path.</li>
+<li>Right-click the library project folder and select "Build Path" -&gt; "Configure Build Path".</li>
+<li>In the "Order and Export" tab, check the .jar files you just added to the build path, so they are available to projects that depend on this library project. For example, the appcompat project requires you to export both the "android-support-v4.jar" and "android-support-v7-appcompat.jar" files.</li>
+<li>Uncheck "Android Dependencies".</li>
+<li>Click "Ok" to complete the changes.</li>
+</ol>
 <h3>Creating a library project</h3>
 <ol type="1">
 <li>Open "File"; select "New" and then "Project".</li>
@@ -259,7 +279,25 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>Enter the root directory. Navigate to the folder "PDECodeLibrary_Android", and select the subfolder "PDECodeLibrary".</li>
 <li>The project appears. Select the checkbox. If the checkbox is disabled, check if you already have a project with the same name.</li>
 <li>Select "Finish".</li>
+<li>Right click on the project and select "Properties".</li>
+<li>Select section "Android" from the list on the left side.</li>
+<li>Ensure that the checkbox "Is Library" is selected.</li>
+<li>Click "Add" to open a selection of available libraries.</li>
+<li>Select "android-support-v7-appcompat" from the list.</li>
+<li>Click "Ok" to apply the selection.</li>
+<li>Select a recent Project Build Target (e.g. Android 4.4.2)</li>
+<li>Click "Ok" to complete the changes.</li>
 </ol>
+<h3>Update the PDECodeLibrary project from v3.0 to v4.0</h3>
+<p>If you have installed the PDECodeLibrary v3.0, then you need to remove the dependency to ActionBarSherlock from your project settings.</p>
+<ol type="1">
+<li>Right click on the project and select "Properties".</li>
+<li>Select section "Android" from the list on the left side.</li>
+<li>Select the actionbarsherlock library in the right lower area.</li>
+<li>Select "Remove".</li>
+<li>Click "Ok" to complete the changes.</li>
+</ol>
+<p>Pull the latest version of the CodeLibrary for Android, v4.0 from the master branch of the git. The sub-module will be removed from the git-files. The local files of the ActionBarSherlock are not removed because they might be in use in your other projects. If this is not the case, you might want to remove the files from the local file system by hand.</p>
 <h3>Creating the sample project</h3>
 <ol type="1">
 <li>Open "File", then "New" and then "Project".</li>
@@ -268,31 +306,46 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>Enter the root directory. Navigate to the folder "PDECodeSamples_Android", and select the subfolder "PDECodeSamples".</li>
 <li>The project appears. Select the checkbox. If the checkbox is disabled, check if you already have a project with the same name.</li>
 <li>Select "Finish".</li>
+<li>Right click on the project and select "Properties".</li>
+<li>Select section "Android" from the list on the left side.</li>
+<li>Select a recent Project Build Target (e.g. Android 4.4.2)</li>
+<li>Select PDECodeLibrary as reference.</li>
+<li>Click "Ok" to complete the changes.</li>
 </ol>
-<p>You should now be able to build and run the sample in the emulator or on your device, if connected.</p>
+<p>Clean the project with "Project" -&gt; "Clean". You should now be able to build and run the sample in the emulator or on your device, if connected.</p>
 <h2>Installation in IntelliJ</h2>
 <h3>Creating the library project</h3>
 <ol type="1">
-<li>Open "File", and select "New Project".</li>
-<li>Select "Create project from existing sources", and select "Next".</li>
-<li>Enter the project root. Select the project files location and PDECodeLibrary folder.</li>
-<li>The name of the project is selected. Select "Next".</li>
-<li>A list with two entries ("gen" and "src" folder) appears. Select "Next".</li>
-<li>A list with two entries ("classes.jar" and "pdecodelibrary.jar") in the library and one entry in the library contents ("classes.jar") appears. Select "Next".</li>
-<li>A list with one entry in the modules ("PDECodeLibrary") appears. Select "Next".</li>
-<li>Several frameworks are detected in the project (Android - AndroidManifest.xml file). Select "Finish".</li>
+<li>Import Project</li>
+<li>Select Directory to Import: PDECodeLibrary</li>
+<li>Create project from existing sources -&gt; Next</li>
+<li>Keep "PDECodeLibrary" and the project location -&gt; Next</li>
+<li>Source files for your project have been found Dialog Keep ...PDECodeLibrary (Android) and ...PDECodeLibrary/src (Java) both checked. -&gt; Next</li>
+<li>Libraries screen Split the library content in individual libraries and name them according to the content. At the end you should see 2 separate library for android-support-v4.jar, android-support-v7-appcompat.jar. Selected -&gt; Next</li>
+<li>Please review suggested module structure for the project Keep as it is -&gt; Next</li>
+<li>Please select project SDK. We suggest to use the most recent Android Platform. -&gt; Next</li>
+<li>Several frameworks are detected in the project. Keep as it is -&gt; Next =&gt; the Project will be created. Now add Module support-v7</li>
+<li>Open "File", and select "Import Module".</li>
+<li>In Select File or Directory to Import Dialog select support/v7/appcompat -&gt; OK</li>
+<li>Create project from existing sources -&gt; Next</li>
+<li>Source files for your project have been found Dialog Keep ...appcompat (Android) checked. -&gt; Next</li>
+<li>Several frameworks are detected in the project. Keep as it is -&gt; Finish</li>
+</ol>
+<ol type="1">
+<li>Select "Project Structure" Button (or File-&gt;Project Structure) Module -&gt; appcompat (expand) -&gt; Android: Make sure the check box "Library module" is selected Module -&gt; PDECodeLibrary (expand) -&gt; Android: Make sure the check box "Library module" is selected (Apply!) Module -&gt; PDECodeLibrary -&gt; Dependencies: Add - Module Dependency: appcompat -&gt; Apply or OK</li>
 </ol>
 <h3>Creating the sample project</h3>
+<p>(We assume you just created the library project as shown above)</p>
 <ol type="1">
-<li>Open "File", and select "New Project".</li>
-<li>Select "Create project from existing sources", and select "Next".</li>
-<li>Enter the project root. Select the project files location and PDECodeSamples folder.</li>
-<li>The name of the project is selected. Select "Next".</li>
-<li>A list with two entries ("gen" and "src" folder) appears. Selec "Next".</li>
-<li>A list with one entry ("classes.jar") in the library and one entry in the library contents ("classes.jar") appears. Select "Next".</li>
-<li>A list with one entry in the modules ("PDECodeSamples") and one entry in the module dependencies ("classes.jar") appears. Select "Next".</li>
-<li>Several frameworks are detected in the project (Android - AndroidManifest.xml file). Select "Finish".</li>
-<li>A popup appears to import Android dependencies from property files (Import library module PDECodeLibrary from path....). Add the dependency "PDECodeSamples" to "PDECodeLibrary". Select the checkboxes. Select "OK".</li>
+<li>Open "File", and select "Import Module".</li>
+<li>In Select File or Directory to Import Dialog select "PDECodeSamples" -&gt; OK</li>
+<li>Create module from existing sources -&gt; Next</li>
+<li>Source files for your project have been found Dialog Keep ...PDECodeSamples (Android) and ...PDECodeSamples/src (Java) both checked. -&gt; Next</li>
+<li>Libraries screen Unselect the libraries (we will add the libs from the PDECodeLibrary) selected -&gt; Next</li>
+<li>Please review suggested module structure for the project Keep as it is -&gt; Next</li>
+<li>Several frameworks are detected in the project. Keep as it is -&gt; Finish =&gt; the Module will be created.</li>
+<li>Select "Project Structure" Button (or File-&gt;Project Structure)</li>
+<li>Select Module PDECodeSamples -&gt; Dependencies: Add - Module Dependency: PDECodeLibrary Add - Library: Select android-support-v4.jar &amp; android-support-v7-appcompat.jar (the libraries you created in step 7 of the "Create the library project" section)</li>
 </ol>
 <p>You should now be able to build and run the sample in the emulator or on your device, if connected.</p>
 <h2>Installing the Documentation</h2>
@@ -379,17 +432,78 @@ protected void onCreate(Bundle savedInstanceState) {
 <h1>Known issues</h1>
 <p><b>Version 1.12.4</b><br/>
  The icon font has problems with the visual appearance if the size of the displayed icons varies.</p>
-<p><b>Version 1.10.3</b><br/>
- The height of the action bar does not conform to the Styleguide of Deutsche Telekom.<br/>
- The action bar does not support vertical divider between icons. It only provides a styled vertical divider to be used between a text and an icon. The styling uses standard color and thickness.<br/>
- The width of the areas in the bottom bar on the phone do not conform to the Styleguide of Deutsche Telekom. The width is set by the Android system, according to the number of the items. The case of a single item uses the full screen width for the single area. The cases of 2 and 3 items use areas of rather small width placed at the corners and the central position. Cases of more items scale the width of the areas to fill the full screen width. The right and left corner item are misplaced. It runs out of the screen, therefore it looks smaller and the icon does not appear central aligned (actually it is, but using invisible screen parts).<br/>
- All tooltips should appear close to the control it relates to. Currently, the tooltips in the split action bar appear horizontal centralized.<br/>
-</p>
 <h1>Release notes</h1>
 <p><b>Current public version</b><br/>
- 3.0</p>
+ 4.0</p>
 <p><b>Current non-public version</b><br/>
- 3.0</p>
+ 4.0</p>
+<h2>Major 4.0 (public)</h2>
+<p><b>Date</b><br/>
+ 01.04.2014</p>
+<p><b>Server</b><br/>
+ git.design.telekom.com</p>
+<p><b>Repositories</b><br/>
+ PDECodeLibrary_Android.git, PDECodeSamples_Android.git, PDECodeLibrary_Android_Docu.git</p>
+<p><b>Branch</b><br/>
+ master</p>
+<p><b>Content</b><br/>
+</p>
+<p>The Code Library version 4.0 adds dialogs to the Code Library. A set of error messages approved by language department has been added unifying standard error dialogs.</p>
+<p>The Code Library version 4.0 replaces the ActionBarSherlock submodule with the use of ActionBar Compat. The submodule has been removed. You must install Android support v7 library, e.g. by the SDK Manager.</p>
+<h2>Feature 4.0 (closed beta)</h2>
+<p>ActionBarSherlock removed from git and project files.</p>
+<h2>Patch 3.10.2 (non-public)</h2>
+<p>PDEDialog: texts updated</p>
+<p>The language department has modified the dialog titles and texts. All new strings have been added to the Dialog.string files.</p>
+<h2>Patch 3.10.1 (non-public)</h2>
+<p>PDEDialog: initializing / caching of dictionaries implemented</p>
+<h2>Feature 3.10.0 (non-public)</h2>
+<p>PDEDialog: Moved defines from PDEDialogActivity to PDEDialog to avoid unnecessary imports of PDEDialogActivity.</p>
+<h2>Feature 3.9.0 (non-public)</h2>
+<p>PDELayerTextView renamed to PDETextView</p>
+<h2>Feature 3.8.0 (non-public)</h2>
+<p>ActionBar: ActionBarSherlock replaced with ActionBar Compat</p>
+<p>The ActionBarSherlock is not supported anymore. It got replaced with ActionBar Compat.</p>
+<h2>Patch 3.7.6 (non-public)</h2>
+<p>convertToPosition now uses PDEString.stringToPoint</p>
+<h2>Patch 3.7.5 (non-public)</h2>
+<p>Metphores onMeasure logic fixed</p>
+<h2>Patch 3.7.4 (non-public)</h2>
+<p>Removed outer shadow from dialogs.</p>
+<h2>Patch 3.7.3 (non-public)</h2>
+<p>PDELayerText: Support for new line added</p>
+<h2>Patch 3.7.2 (non-public)</h2>
+<p>PDELayerTextView: Basis canged from View to ImageView to enable for more comfortable set of a background drawable behind the text.</p>
+<h2>Patch 3.7.1 (non-public)</h2>
+<p>Login: Use of PDEDialogs.</p>
+<h2>Feature 3.7.0 (non-public)</h2>
+<p>PDEDialog: ScrollView added.</p>
+<p>The message is added to a ScrollView in order to fix visual appeareance on small screens.</p>
+<h2>Patch 3.6.1 (non-public)</h2>
+<p>PDEDialog: Max width set.</p>
+<p>Two constraints determine the width of the PDEDialog: (a): The dialog must have a padding to the screen border of 2BU on the left and right. (b) The dialog must not exceed a total width of 26BUs.</p>
+<p>The first constraint is default on most phones, the second has been added in particular for the use on large screens and tablets.</p>
+<h2>Feature 3.6.0 (non-public)</h2>
+<p>PDEDialog: visual update</p>
+<p>Special caseadded without message string.</p>
+<h2>Feature 3.5.0 (non-public)</h2>
+<p>PDEDialog: Custom dialog added</p>
+<p>The custom dialog aloows to set title, text, and buttons at runtime.</p>
+<h2>Feature 3.4.0 (non-public)</h2>
+<p>PDEDialog: standard messages implemented</p>
+<p>Texts, titles and standard buttons have been added for pre-defined standrad dialogs. Localised files for 55 standard error messages added in German and English. All texts phrases have been approved by language department.</p>
+<h2>Feature 3.4.0 (non-public)</h2>
+<p>Implementation of PDEDialogs.</p>
+<h2>Feature 3.3.0 (non-public)</h2>
+<p>OneIDMModule removed</p>
+<h2>Patch 3.2.1 (non-public)</h2>
+<p>PDEButton: collect hints in clearButtonLayerForLayerId</p>
+<h2>Feature 3.2.0 (non-public)</h2>
+<p>Slider: handler is now set automatically when content is set. Redundant calls of setHandler removed from examples.</p>
+<h2>Patch 3.1.1 (non-public)</h2>
+<p>PDELayerTextView: BU logic fixed</p>
+<h2>Feature 3.1.0 (non-public)</h2>
+<p>Metaphors: Remodeled multilayer.</p>
 <h2>Major 3.0 (public)</h2>
 <p><b>Date</b><br/>
  13.12.2013</p>
@@ -398,7 +512,7 @@ protected void onCreate(Bundle savedInstanceState) {
 <p><b>Repositories</b><br/>
  PDECodeLibrary_Android.git, PDECodeSamples_Android.git, PDECodeLibrary_Android_Docu.git</p>
 <p><b>Branch</b><br/>
- master</p>
+ release-3.0</p>
 <p><b>Content</b><br/>
 </p>
 <p>The Code Library version 3 implements the major update of the visual design for Deutsche Telekom Apps. The components are available in the styles "flat" and "haptic" The other stiles of previous versions are deprecated.</p>

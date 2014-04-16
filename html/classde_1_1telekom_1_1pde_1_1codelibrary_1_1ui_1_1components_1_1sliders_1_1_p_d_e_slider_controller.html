@@ -79,7 +79,7 @@
 				</div>
 				<div id="dtag_jumpmarks">
 					<a href="#dtag_main">Jump to Content</a>
-					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
 						<span aria-hidden="true" class="icon"></span>
 						<span class="buttontext">Helpdesk</span>
 					</a>
@@ -195,14 +195,14 @@ Inheritance diagram for de.telekom.pde.codelibrary.ui.components.sliders.PDESlid
  </div></div>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>This is used to control Sliders. </p>
-<p>Every change of it's properties sends a Event with id -1 and all stored values to listening Sliders. The Slider will decide, what he wants to do with the sended information.</p>
+<p>Every change of it's properties sends a Event with id -1 and all stored values to listening Sliders. The Slider will decide, what he wants to do with the received information.</p>
 <p>Also a user has the possibility to define his own range of values, he wants to set to a controller. For default the range is 0...1. The controller will transform given values into 0..1 range according to the User's defined range. If range start is bigger than end, increasing user values will decrease the actual values.</p>
 <p>!!! If you are working with your own defined range, values that are matching your max value will be converted to 1! This causes, that you will have to set the position of your scrollBar handle to your max value, if you want it to be at the end of the range. </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controllc6da1477f300b649577f5dcfbf6f164e.html">PDESliderControllerChanges</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell Event wich changes where made on Controller.  <a href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controllc6da1477f300b649577f5dcfbf6f164e.html#details">More...</a><br/></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell Event which changes where made on Controller.  <a href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controllc6da1477f300b649577f5dcfbf6f164e.html#details">More...</a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Methods</h2></td></tr>
@@ -241,7 +241,7 @@ Public Methods</h2></td></tr>
 <tr class="memitem:a18da6b9000c8027c32d9314ad2cb5a71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#a18da6b9000c8027c32d9314ad2cb5a71">setSliderValueRangeMinimum</a> (float sliderValueRangeMinimum)</td></tr>
 <tr class="memdesc:a18da6b9000c8027c32d9314ad2cb5a71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Start value of the user defined range. The old start position and position value will be kept if they are in the new range. The page size will be converted into the new range.  <a href="#a18da6b9000c8027c32d9314ad2cb5a71"></a><br/></td></tr>
 <tr class="memitem:a0c82018ce4d2f83bbe969459b4acab47"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#a0c82018ce4d2f83bbe969459b4acab47">getSliderValueRangeMaximum</a> ()</td></tr>
-<tr class="memdesc:a0c82018ce4d2f83bbe969459b4acab47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the End value of the definable value range. Default value is 0.  <a href="#a0c82018ce4d2f83bbe969459b4acab47"></a><br/></td></tr>
+<tr class="memdesc:a0c82018ce4d2f83bbe969459b4acab47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the end value of the definable value range. Default value is 1.  <a href="#a0c82018ce4d2f83bbe969459b4acab47"></a><br/></td></tr>
 <tr class="memitem:a90d3217875db59f3e7eadb93a184feee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#a90d3217875db59f3e7eadb93a184feee">setSliderValueRangeMaximum</a> (float sliderValueRangeMaximum)</td></tr>
 <tr class="memdesc:a90d3217875db59f3e7eadb93a184feee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set end value of the user defined range. The old start position and position value will be kept if they are in the new range. The page size will be converted into the new range.  <a href="#a90d3217875db59f3e7eadb93a184feee"></a><br/></td></tr>
 <tr class="memitem:af6268aa7c77cfb61d868317b69c8b7e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#af6268aa7c77cfb61d868317b69c8b7e4">eventSourceDidAddListener</a> (Object listener)</td></tr>
@@ -268,19 +268,19 @@ Private Methods</h2></td></tr>
 <tr class="memitem:aa0203ad90ce7933d4d21cc856fcad7cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#aa0203ad90ce7933d4d21cc856fcad7cc">setStartPosition</a> (float internalValue, float userValue)</td></tr>
 <tr class="memdesc:aa0203ad90ce7933d4d21cc856fcad7cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the start position of the slider informs that changes will be made and sends a final event.  <a href="#aa0203ad90ce7933d4d21cc856fcad7cc"></a><br/></td></tr>
 <tr class="memitem:a9f64f6069892259c41492b83be8c2304"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#a9f64f6069892259c41492b83be8c2304">setPageSize</a> (float internalValue, float userValue)</td></tr>
-<tr class="memdesc:a9f64f6069892259c41492b83be8c2304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the pagesize of the slider informs that changes will be made and sends a final event.  <a href="#a9f64f6069892259c41492b83be8c2304"></a><br/></td></tr>
+<tr class="memdesc:a9f64f6069892259c41492b83be8c2304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the page size of the slider informs that changes will be made and sends a final event.  <a href="#a9f64f6069892259c41492b83be8c2304"></a><br/></td></tr>
 <tr class="memitem:a381eab0ac4d14eb8c8420d3a69b5000c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#a381eab0ac4d14eb8c8420d3a69b5000c">checkInternalValue</a> (float value)</td></tr>
-<tr class="memdesc:a381eab0ac4d14eb8c8420d3a69b5000c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this value is in between 0..1 range. If this is not the case it will limitate the value to the next border of the range.  <a href="#a381eab0ac4d14eb8c8420d3a69b5000c"></a><br/></td></tr>
+<tr class="memdesc:a381eab0ac4d14eb8c8420d3a69b5000c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this value is in between 0..1 range. If this is not the case it will limit the value to the next border of the range.  <a href="#a381eab0ac4d14eb8c8420d3a69b5000c"></a><br/></td></tr>
 <tr class="memitem:a3003389c5851a5814495e4438f74b442"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#a3003389c5851a5814495e4438f74b442">checkUserRangeValue</a> (float value)</td></tr>
-<tr class="memdesc:a3003389c5851a5814495e4438f74b442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this value is in between the User defined range. If this is not the case it will limitate the value to the next border of the range.  <a href="#a3003389c5851a5814495e4438f74b442"></a><br/></td></tr>
+<tr class="memdesc:a3003389c5851a5814495e4438f74b442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this value is in between the User defined range. If this is not the case it will limit the value to the next border of the range.  <a href="#a3003389c5851a5814495e4438f74b442"></a><br/></td></tr>
 <tr class="memitem:a144cf813b059f4bc1f8c001660a9e95e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_event_slider_controller_state.html">PDEEventSliderControllerState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#a144cf813b059f4bc1f8c001660a9e95e">createStateEvent</a> ()</td></tr>
 <tr class="memdesc:a144cf813b059f4bc1f8c001660a9e95e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event data helper. Create a new Event with ID -1 and our stored data.  <a href="#a144cf813b059f4bc1f8c001660a9e95e"></a><br/></td></tr>
 <tr class="memitem:a2cec929b8ed2b061135aeb31e1f58102"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#a2cec929b8ed2b061135aeb31e1f58102">convertUserPositionValueIntoInternal</a> (float value)</td></tr>
 <tr class="memdesc:a2cec929b8ed2b061135aeb31e1f58102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper to turn given user coordinates positions back into 0..1 range.  <a href="#a2cec929b8ed2b061135aeb31e1f58102"></a><br/></td></tr>
 <tr class="memitem:a650a92ee4f45f59d7771d5588d22de11"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#a650a92ee4f45f59d7771d5588d22de11">convertUserPageSizeIntoInternal</a> (float value)</td></tr>
-<tr class="memdesc:a650a92ee4f45f59d7771d5588d22de11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper to turn given user coordinates pagesize back into 0..1 range.  <a href="#a650a92ee4f45f59d7771d5588d22de11"></a><br/></td></tr>
+<tr class="memdesc:a650a92ee4f45f59d7771d5588d22de11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper to translate user coordinates page size into internal 0..1 range.  <a href="#a650a92ee4f45f59d7771d5588d22de11"></a><br/></td></tr>
 <tr class="memitem:af70d1fd65e2e8a4e8371171866a90703"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#af70d1fd65e2e8a4e8371171866a90703">convertInternalPositionValueIntoUserValue</a> (float value)</td></tr>
-<tr class="memdesc:af70d1fd65e2e8a4e8371171866a90703"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper to turn given 0..1 range into User Coordinates.  <a href="#af70d1fd65e2e8a4e8371171866a90703"></a><br/></td></tr>
+<tr class="memdesc:af70d1fd65e2e8a4e8371171866a90703"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper to translate 0..1 range into user defined coordinates.  <a href="#af70d1fd65e2e8a4e8371171866a90703"></a><br/></td></tr>
 <tr class="memitem:ab0b377b892feaf7b6eea6bff0a8552f2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_controller.html#ab0b377b892feaf7b6eea6bff0a8552f2">convertInternalPageSizeValueIntoUserValue</a> (float value)</td></tr>
 <tr class="memdesc:ab0b377b892feaf7b6eea6bff0a8552f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper to turn given 0..1 range into User Coordinates.  <a href="#ab0b377b892feaf7b6eea6bff0a8552f2"></a><br/></td></tr>
 </table><table class="memberdecls">
@@ -865,7 +865,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the End value of the definable value range. Default value is 0. </p>
+<p>Returns the end value of the definable value range. Default value is 1. </p>
 
 </div>
 </div>
@@ -1025,7 +1025,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets the pagesize of the slider informs that changes will be made and sends a final event. </p>
+<p>Sets the page size of the slider informs that changes will be made and sends a final event. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">internalValue</td><td>value out of 0...1 range </td></tr>
@@ -1058,8 +1058,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Check if this value is in between 0..1 range. If this is not the case it will limitate the value to the next border of the range. </p>
-<dl class="section return"><dt>Returns</dt><dd>limitated value </dd></dl>
+<p>Check if this value is in between 0..1 range. If this is not the case it will limit the value to the next border of the range. </p>
+<dl class="section return"><dt>Returns</dt><dd>limited value </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>value to check </td></tr>
@@ -1091,8 +1091,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Check if this value is in between the User defined range. If this is not the case it will limitate the value to the next border of the range. </p>
-<dl class="section return"><dt>Returns</dt><dd>limitated value </dd></dl>
+<p>Check if this value is in between the User defined range. If this is not the case it will limit the value to the next border of the range. </p>
+<dl class="section return"><dt>Returns</dt><dd>limited value </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>value to check </td></tr>
@@ -1183,7 +1183,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Helper to turn given user coordinates pagesize back into 0..1 range. </p>
+<p>Helper to translate user coordinates page size into internal 0..1 range. </p>
 <dl class="section return"><dt>Returns</dt><dd>page size value out of range 0..1 </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1216,7 +1216,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Helper to turn given 0..1 range into User Coordinates. </p>
+<p>Helper to translate 0..1 range into user defined coordinates. </p>
 <dl class="section return"><dt>Returns</dt><dd>position value in user range </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

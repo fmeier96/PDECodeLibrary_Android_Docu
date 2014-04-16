@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['navigatiomodesortadapter_2ejava',['NavigatioModeSortAdapter.java',['../_navigatio_mode_sort_adapter_8java.html',1,'']]]
+  ['navigationmodesortadapter_2ejava',['NavigationModeSortAdapter.java',['../_navigation_mode_sort_adapter_8java.html',1,'']]]
 ];

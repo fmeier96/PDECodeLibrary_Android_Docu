@@ -18,9 +18,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrapp
     [ "getElementHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a1821a576715d59ddc608e5e9a0cfe53c", null ],
     [ "setShadowEnabled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a83ac830712f8ee0b202510362a0c287a", null ],
     [ "getShadowEnabled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a1b0fdf90e95c663dfd27b1af5691d5d0", null ],
-    [ "setViewSize", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a068ef30e08766401282ad73b4602b532", null ],
-    [ "setViewOffset", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#aea3ae4db81f2c86af834a0f7d7e98e05", null ],
-    [ "setViewLayoutRect", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a1089a58dec3654ea94d1c100d4c7e068", null ],
     [ "onMeasure", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a2e2d094d221ec1dc09adc7978aed7747", null ],
-    [ "mMusic", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a507018c0a150effe7d5a15df4b8976f9", null ]
+    [ "mMusic", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a507018c0a150effe7d5a15df4b8976f9", null ],
+    [ "mInternalCalculateAspectRatioBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#ab93cdf5b50dc8e6efaa59e5323608d15", null ]
 ];

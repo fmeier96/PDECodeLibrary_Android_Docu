@@ -10,6 +10,9 @@ var dir_8fed5f49c061c730437fe3e80654dc32 =
     [ "PDEListHeaderView.java", "_p_d_e_list_header_view_8java.html", [
       [ "PDEListHeaderView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_list_header_view.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_list_header_view" ]
     ] ],
+    [ "PDETextView.java", "_p_d_e_text_view_8java.html", [
+      [ "PDETextView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view" ]
+    ] ],
     [ "PDEViewWrapper.java", "_p_d_e_view_wrapper_8java.html", [
       [ "PDEViewWrapper", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_view_wrapper.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_view_wrapper" ]
     ] ]

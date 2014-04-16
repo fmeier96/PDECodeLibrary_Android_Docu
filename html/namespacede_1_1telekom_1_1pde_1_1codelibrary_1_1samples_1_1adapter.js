@@ -1,4 +1,4 @@
 var namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1adapter =
 [
-    [ "NavigatioModeSortAdapter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1adapter_1_1_navigatio_mode_sort_adapter.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1adapter_1_1_navigatio_mode_sort_adapter" ]
+    [ "NavigationModeSortAdapter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1adapter_1_1_navigation_mode_sort_adapter.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1adapter_1_1_navigation_mode_sort_adapter" ]
 ];

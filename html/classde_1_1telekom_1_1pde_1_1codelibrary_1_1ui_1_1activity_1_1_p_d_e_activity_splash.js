@@ -4,5 +4,5 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activit
     [ "onCreate", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity_splash.html#adac3a92bb0974dddb0f43c605412d63b", null ],
     [ "setSplashAppName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity_splash.html#a52752db72cfe1b354c8c3ce16ca30929", null ],
     [ "setupLayout", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity_splash.html#a62f479b62602537afb1eaddc616dace7", null ],
-    [ "splashAppName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity_splash.html#aeab124d01851a676b8c0511ca178273b", null ]
+    [ "splashAppName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity_splash.html#ab78c00b6e58cbe79b24a5198483e9c41", null ]
 ];

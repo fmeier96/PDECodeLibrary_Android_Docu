@@ -9,6 +9,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_
     [ "isHandleOnly", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_content_scroll_bar.html#a62ccd5ffff62cb7ed6b31155bb17559e", null ],
     [ "getHandleFrame", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_content_scroll_bar.html#a8b7942cac9017fcd23cfe99bf5636e4b", null ],
     [ "getContentFrame", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_content_scroll_bar.html#a67750b31eeef8f5a4d44b296764ca36d", null ],
+    [ "getContentOrientation", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_content_scroll_bar.html#a2c2d08e1dfa1732f3b96c390211ab35c", null ],
     [ "getLayer", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_content_scroll_bar.html#a0290f1ee195dda98b0e335828a6e8f1c", null ],
     [ "sliderEvent", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_content_scroll_bar.html#afe7b2a9b6bc3ad751c0f13a20a70d71f", null ],
     [ "getSliderContentPadding", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_content_scroll_bar.html#aace4c277c6eb3267ca5941e29251fbce", null ],

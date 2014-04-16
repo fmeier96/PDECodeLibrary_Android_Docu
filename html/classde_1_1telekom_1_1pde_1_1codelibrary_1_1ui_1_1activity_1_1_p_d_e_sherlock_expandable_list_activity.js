@@ -1,4 +1,0 @@
-var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_expandable_list_activity =
-[
-    [ "onCreate", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_expandable_list_activity.html#a315909ac87bb3442f8ef2c701f30c9e8", null ]
-];

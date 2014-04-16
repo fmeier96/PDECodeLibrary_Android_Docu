@@ -1,0 +1,2322 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-library-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button flat" href="https://www.design.telekom.com/">
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Wrapper class hosting a PDELayerText for usage in Layouts.  
+ <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.png" usemap="#de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView_map" name="de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView_map">
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_layer_text_view.html" title="PDELayerTextView is Deprecated, since it has a inconsistent name -&gt; use PDETextView instead..." alt="de.telekom.pde.codelibrary.ui.components.elementwrappers.PDELayerTextView" shape="rect" coords="0,56,464,80"/>
+</map>
+ </div></div>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Wrapper class hosting a PDELayerText for usage in Layouts. </p>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:a3812d5788a816d75f98ce894d4c7e91c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a3812d5788a816d75f98ce894d4c7e91c">PDETextView</a> (Context context)</td></tr>
+<tr class="memdesc:a3812d5788a816d75f98ce894d4c7e91c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a3812d5788a816d75f98ce894d4c7e91c"></a><br/></td></tr>
+<tr class="memitem:a18dd2a325791addbf1a7d79e0c02fec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a18dd2a325791addbf1a7d79e0c02fec0">PDETextView</a> (Context context, AttributeSet attrs)</td></tr>
+<tr class="memdesc:a18dd2a325791addbf1a7d79e0c02fec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a18dd2a325791addbf1a7d79e0c02fec0"></a><br/></td></tr>
+<tr class="memitem:a644d6a9a47a86c3abf1f144891cf25aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a644d6a9a47a86c3abf1f144891cf25aa">PDETextView</a> (Context context, AttributeSet attrs, int defStyle)</td></tr>
+<tr class="memdesc:a644d6a9a47a86c3abf1f144891cf25aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a644d6a9a47a86c3abf1f144891cf25aa"></a><br/></td></tr>
+<tr class="memitem:a20c2f4b0b35f15405485ffdaffddd36c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a20c2f4b0b35f15405485ffdaffddd36c">setText</a> (String text)</td></tr>
+<tr class="memdesc:a20c2f4b0b35f15405485ffdaffddd36c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set text.  <a href="#a20c2f4b0b35f15405485ffdaffddd36c"></a><br/></td></tr>
+<tr class="memitem:a0a12dabcdc169c68806b2d4d6bdbdd5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a0a12dabcdc169c68806b2d4d6bdbdd5e">setTextFromID</a> (int id)</td></tr>
+<tr class="memdesc:a0a12dabcdc169c68806b2d4d6bdbdd5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set text from resource ID.  <a href="#a0a12dabcdc169c68806b2d4d6bdbdd5e"></a><br/></td></tr>
+<tr class="memitem:afe931480106323ea4101d0c4fdd72d01"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#afe931480106323ea4101d0c4fdd72d01">getText</a> ()</td></tr>
+<tr class="memdesc:afe931480106323ea4101d0c4fdd72d01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text.  <a href="#afe931480106323ea4101d0c4fdd72d01"></a><br/></td></tr>
+<tr class="memitem:a2d54e36240f4f02e95c56cececdcb774"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a2d54e36240f4f02e95c56cececdcb774">setMaxLines</a> (int lines)</td></tr>
+<tr class="memdesc:a2d54e36240f4f02e95c56cececdcb774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set maximum lines.  <a href="#a2d54e36240f4f02e95c56cececdcb774"></a><br/></td></tr>
+<tr class="memitem:a8b82a89252d6b93d4bb3d4fb6b41d06a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a8b82a89252d6b93d4bb3d4fb6b41d06a">getMaxLines</a> ()</td></tr>
+<tr class="memdesc:a8b82a89252d6b93d4bb3d4fb6b41d06a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum lines.  <a href="#a8b82a89252d6b93d4bb3d4fb6b41d06a"></a><br/></td></tr>
+<tr class="memitem:a95d03ff6285f0059107d29e806a50a3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a95d03ff6285f0059107d29e806a50a3b">setEllipsize</a> (boolean e)</td></tr>
+<tr class="memdesc:a95d03ff6285f0059107d29e806a50a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set ellipsize enabled.  <a href="#a95d03ff6285f0059107d29e806a50a3b"></a><br/></td></tr>
+<tr class="memitem:a44ae8eb2038208ba7566433ad5470577"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a44ae8eb2038208ba7566433ad5470577">getEllipsize</a> ()</td></tr>
+<tr class="memdesc:a44ae8eb2038208ba7566433ad5470577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if ellipsize is enabled.  <a href="#a44ae8eb2038208ba7566433ad5470577"></a><br/></td></tr>
+<tr class="memitem:a600db8212eac9b74a84321c278c13bd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a600db8212eac9b74a84321c278c13bd1">setAlignmentMode</a> (PDELayerText.PDELayerTextAlignmentMode mode)</td></tr>
+<tr class="memdesc:a600db8212eac9b74a84321c278c13bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set alignment mode.  <a href="#a600db8212eac9b74a84321c278c13bd1"></a><br/></td></tr>
+<tr class="memitem:af217b4321e467c279cdf7cc6d6edd0a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#af217b4321e467c279cdf7cc6d6edd0a8">setAlignmentMode</a> (int mode)</td></tr>
+<tr class="memdesc:af217b4321e467c279cdf7cc6d6edd0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set alignment mode.  <a href="#af217b4321e467c279cdf7cc6d6edd0a8"></a><br/></td></tr>
+<tr class="memitem:ad17e2921789af853020cb8209dbd7994"><td class="memItemLeft" align="right" valign="top">PDELayerText.PDELayerTextAlignmentMode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#ad17e2921789af853020cb8209dbd7994">getAlignmentMode</a> ()</td></tr>
+<tr class="memdesc:ad17e2921789af853020cb8209dbd7994"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get alignment mode.  <a href="#ad17e2921789af853020cb8209dbd7994"></a><br/></td></tr>
+<tr class="memitem:ada2dd3d3ac9667fa83823829a69cd4c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#ada2dd3d3ac9667fa83823829a69cd4c2">setHorizontalAlignment</a> (PDEConstants.PDEAlignment alignment)</td></tr>
+<tr class="memdesc:ada2dd3d3ac9667fa83823829a69cd4c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set horizontal alignment.  <a href="#ada2dd3d3ac9667fa83823829a69cd4c2"></a><br/></td></tr>
+<tr class="memitem:abe0bf507ed677f6e9edbd352361665a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#abe0bf507ed677f6e9edbd352361665a6">setHorizontalAlignment</a> (int alignment)</td></tr>
+<tr class="memdesc:abe0bf507ed677f6e9edbd352361665a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set horizontal alignment.  <a href="#abe0bf507ed677f6e9edbd352361665a6"></a><br/></td></tr>
+<tr class="memitem:a977ce0bb17369553f4c569f903c0dddf"><td class="memItemLeft" align="right" valign="top">PDEConstants.PDEAlignment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a977ce0bb17369553f4c569f903c0dddf">getHorizontalAlignment</a> ()</td></tr>
+<tr class="memdesc:a977ce0bb17369553f4c569f903c0dddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get horizontal alignment.  <a href="#a977ce0bb17369553f4c569f903c0dddf"></a><br/></td></tr>
+<tr class="memitem:af6eb363850c986218ab2302bdb2e2632"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#af6eb363850c986218ab2302bdb2e2632">setVerticalAlignment</a> (PDEConstants.PDEVerticalAlignment alignment)</td></tr>
+<tr class="memdesc:af6eb363850c986218ab2302bdb2e2632"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set vertical alignment.  <a href="#af6eb363850c986218ab2302bdb2e2632"></a><br/></td></tr>
+<tr class="memitem:a3689fd646536af1f5acd02ae17bc191c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a3689fd646536af1f5acd02ae17bc191c">setVerticalAlignment</a> (int alignment)</td></tr>
+<tr class="memdesc:a3689fd646536af1f5acd02ae17bc191c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set vertical alignment.  <a href="#a3689fd646536af1f5acd02ae17bc191c"></a><br/></td></tr>
+<tr class="memitem:a94ff41bdcae9b0fda1ec18adbdfcfe97"><td class="memItemLeft" align="right" valign="top">PDEConstants.PDEVerticalAlignment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a94ff41bdcae9b0fda1ec18adbdfcfe97">getVerticalAlignment</a> ()</td></tr>
+<tr class="memdesc:a94ff41bdcae9b0fda1ec18adbdfcfe97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get vertical alignment.  <a href="#a94ff41bdcae9b0fda1ec18adbdfcfe97"></a><br/></td></tr>
+<tr class="memitem:ab651b8d32ef5cf30bcfa3e8b3a5ec84d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#ab651b8d32ef5cf30bcfa3e8b3a5ec84d">setPaddingAll</a> (int padding)</td></tr>
+<tr class="memdesc:ab651b8d32ef5cf30bcfa3e8b3a5ec84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set same padding on all sides.  <a href="#ab651b8d32ef5cf30bcfa3e8b3a5ec84d"></a><br/></td></tr>
+<tr class="memitem:a42e12ad55b0ceb99fe2f2e8f3fef13fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a42e12ad55b0ceb99fe2f2e8f3fef13fe">setPaddingAll</a> (int left, int top, int right, int bottom)</td></tr>
+<tr class="memdesc:a42e12ad55b0ceb99fe2f2e8f3fef13fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set paddings on all sides.  <a href="#a42e12ad55b0ceb99fe2f2e8f3fef13fe"></a><br/></td></tr>
+<tr class="memitem:a4e80e586c08262bd923230d36947bad9"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a4e80e586c08262bd923230d36947bad9">getPaddingRect</a> ()</td></tr>
+<tr class="memdesc:a4e80e586c08262bd923230d36947bad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get padding rect.  <a href="#a4e80e586c08262bd923230d36947bad9"></a><br/></td></tr>
+<tr class="memitem:a2ad626f0b73142ac86f7d37ed92dc0fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a2ad626f0b73142ac86f7d37ed92dc0fe">setPaddingLeft</a> (int padding)</td></tr>
+<tr class="memdesc:a2ad626f0b73142ac86f7d37ed92dc0fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set left padding.  <a href="#a2ad626f0b73142ac86f7d37ed92dc0fe"></a><br/></td></tr>
+<tr class="memitem:ae56344716a1b194d43770c4ef5d5c173"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#ae56344716a1b194d43770c4ef5d5c173">getPaddingLeft</a> ()</td></tr>
+<tr class="memdesc:ae56344716a1b194d43770c4ef5d5c173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get left padding.  <a href="#ae56344716a1b194d43770c4ef5d5c173"></a><br/></td></tr>
+<tr class="memitem:a51226adb5b5522024dff855f0ff4ea35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a51226adb5b5522024dff855f0ff4ea35">setPaddingTop</a> (int padding)</td></tr>
+<tr class="memdesc:a51226adb5b5522024dff855f0ff4ea35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set top padding.  <a href="#a51226adb5b5522024dff855f0ff4ea35"></a><br/></td></tr>
+<tr class="memitem:a7d3ff9f95364019c92029868e2bd19e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a7d3ff9f95364019c92029868e2bd19e6">getPaddingTop</a> ()</td></tr>
+<tr class="memdesc:a7d3ff9f95364019c92029868e2bd19e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get top padding.  <a href="#a7d3ff9f95364019c92029868e2bd19e6"></a><br/></td></tr>
+<tr class="memitem:a1c5cf1b7445b237aaf69a158d58b6fbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a1c5cf1b7445b237aaf69a158d58b6fbf">setPaddingRight</a> (int padding)</td></tr>
+<tr class="memdesc:a1c5cf1b7445b237aaf69a158d58b6fbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set right padding.  <a href="#a1c5cf1b7445b237aaf69a158d58b6fbf"></a><br/></td></tr>
+<tr class="memitem:a0e784e195590108d48fd196fcc0f253f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a0e784e195590108d48fd196fcc0f253f">getPaddingRight</a> ()</td></tr>
+<tr class="memdesc:a0e784e195590108d48fd196fcc0f253f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get right padding.  <a href="#a0e784e195590108d48fd196fcc0f253f"></a><br/></td></tr>
+<tr class="memitem:a3a63ac2ecfc50ae1ab11a729928118ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a3a63ac2ecfc50ae1ab11a729928118ef">setPaddingBottom</a> (int padding)</td></tr>
+<tr class="memdesc:a3a63ac2ecfc50ae1ab11a729928118ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set bottom padding.  <a href="#a3a63ac2ecfc50ae1ab11a729928118ef"></a><br/></td></tr>
+<tr class="memitem:a6526cc1ee1cf9032247e1cdc67163027"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a6526cc1ee1cf9032247e1cdc67163027">getPaddingBottom</a> ()</td></tr>
+<tr class="memdesc:a6526cc1ee1cf9032247e1cdc67163027"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bottom padding.  <a href="#a6526cc1ee1cf9032247e1cdc67163027"></a><br/></td></tr>
+<tr class="memitem:a57e1439064d273b3f6c80c53744cb5fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a57e1439064d273b3f6c80c53744cb5fb">setBaseLine</a> (int baseline)</td></tr>
+<tr class="memdesc:a57e1439064d273b3f6c80c53744cb5fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set baseline.  <a href="#a57e1439064d273b3f6c80c53744cb5fb"></a><br/></td></tr>
+<tr class="memitem:a10aea9ffea4bdf1a777d1d006d5a5445"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a10aea9ffea4bdf1a777d1d006d5a5445">getBaseLine</a> ()</td></tr>
+<tr class="memdesc:a10aea9ffea4bdf1a777d1d006d5a5445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get baseline.  <a href="#a10aea9ffea4bdf1a777d1d006d5a5445"></a><br/></td></tr>
+<tr class="memitem:aa602660b9bdacbb61ab9675946313eb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#aa602660b9bdacbb61ab9675946313eb1">setTextColor</a> (int color)</td></tr>
+<tr class="memdesc:aa602660b9bdacbb61ab9675946313eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set text color.  <a href="#aa602660b9bdacbb61ab9675946313eb1"></a><br/></td></tr>
+<tr class="memitem:aa240bb1f05322a435da35effa72cd21a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#aa240bb1f05322a435da35effa72cd21a">setTextColor</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
+<tr class="memdesc:aa240bb1f05322a435da35effa72cd21a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set text color.  <a href="#aa240bb1f05322a435da35effa72cd21a"></a><br/></td></tr>
+<tr class="memitem:a3a9b2ad802711f2a67f1b1eb6f19e291"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a3a9b2ad802711f2a67f1b1eb6f19e291">getTextColor</a> ()</td></tr>
+<tr class="memdesc:a3a9b2ad802711f2a67f1b1eb6f19e291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text color.  <a href="#a3a9b2ad802711f2a67f1b1eb6f19e291"></a><br/></td></tr>
+<tr class="memitem:ae59252911e025743acbfd9e2f6ba0e49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#ae59252911e025743acbfd9e2f6ba0e49">setBackgroundColor</a> (int color)</td></tr>
+<tr class="memdesc:ae59252911e025743acbfd9e2f6ba0e49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set background color.  <a href="#ae59252911e025743acbfd9e2f6ba0e49"></a><br/></td></tr>
+<tr class="memitem:a4a25b0e1c62a1ea88632f349470ef89b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a4a25b0e1c62a1ea88632f349470ef89b">setBackgroundColor</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
+<tr class="memdesc:a4a25b0e1c62a1ea88632f349470ef89b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set background color.  <a href="#a4a25b0e1c62a1ea88632f349470ef89b"></a><br/></td></tr>
+<tr class="memitem:a629afc198032bf5fb133fcf0a195d5d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a629afc198032bf5fb133fcf0a195d5d3">getBackgroundColor</a> ()</td></tr>
+<tr class="memdesc:a629afc198032bf5fb133fcf0a195d5d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get background color.  <a href="#a629afc198032bf5fb133fcf0a195d5d3"></a><br/></td></tr>
+<tr class="memitem:a85040bf872df1d01dd65435a124cd7d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a85040bf872df1d01dd65435a124cd7d6">setBackgroundDrawableCustom</a> (Drawable bg)</td></tr>
+<tr class="memdesc:a85040bf872df1d01dd65435a124cd7d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a custom background drawable for our text view.  <a href="#a85040bf872df1d01dd65435a124cd7d6"></a><br/></td></tr>
+<tr class="memitem:a3abc125fd4f9c621fd2c6f5f74aa632b"><td class="memItemLeft" align="right" valign="top">Drawable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a3abc125fd4f9c621fd2c6f5f74aa632b">getBackgroundDrawableCustom</a> ()</td></tr>
+<tr class="memdesc:a3abc125fd4f9c621fd2c6f5f74aa632b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the drawable which is currently used as background.  <a href="#a3abc125fd4f9c621fd2c6f5f74aa632b"></a><br/></td></tr>
+<tr class="memitem:a9f63ba4722a93738103364e4848b87a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a9f63ba4722a93738103364e4848b87a0">setShadowColor</a> (int color)</td></tr>
+<tr class="memdesc:a9f63ba4722a93738103364e4848b87a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set shadow color.  <a href="#a9f63ba4722a93738103364e4848b87a0"></a><br/></td></tr>
+<tr class="memitem:a7e8c4e1044e93517dea9472d7b2a92a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a7e8c4e1044e93517dea9472d7b2a92a3">setShadowColor</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
+<tr class="memdesc:a7e8c4e1044e93517dea9472d7b2a92a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set shadow color.  <a href="#a7e8c4e1044e93517dea9472d7b2a92a3"></a><br/></td></tr>
+<tr class="memitem:aed417081b39bff10472d54bcaba528a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#aed417081b39bff10472d54bcaba528a3">getShadowColor</a> ()</td></tr>
+<tr class="memdesc:aed417081b39bff10472d54bcaba528a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get shadow color.  <a href="#aed417081b39bff10472d54bcaba528a3"></a><br/></td></tr>
+<tr class="memitem:ae1df3b051acc05da5e4ca2a1367bbe1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#ae1df3b051acc05da5e4ca2a1367bbe1a">setShadowOffsetX</a> (float offset)</td></tr>
+<tr class="memdesc:ae1df3b051acc05da5e4ca2a1367bbe1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set shadow x offset.  <a href="#ae1df3b051acc05da5e4ca2a1367bbe1a"></a><br/></td></tr>
+<tr class="memitem:a134a3def517ab313ff162c0246969de0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a134a3def517ab313ff162c0246969de0">getShadowOffsetX</a> ()</td></tr>
+<tr class="memdesc:a134a3def517ab313ff162c0246969de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get shadow x offset.  <a href="#a134a3def517ab313ff162c0246969de0"></a><br/></td></tr>
+<tr class="memitem:a8f5a0fd4e4083b92cfb7231a20def599"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a8f5a0fd4e4083b92cfb7231a20def599">setShadowOffsetY</a> (float offset)</td></tr>
+<tr class="memdesc:a8f5a0fd4e4083b92cfb7231a20def599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set shadow y offset.  <a href="#a8f5a0fd4e4083b92cfb7231a20def599"></a><br/></td></tr>
+<tr class="memitem:a76bd9660fc7fecdb6fd5631cdd99871e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a76bd9660fc7fecdb6fd5631cdd99871e">getShadowOffsetY</a> ()</td></tr>
+<tr class="memdesc:a76bd9660fc7fecdb6fd5631cdd99871e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get shadow y offset.  <a href="#a76bd9660fc7fecdb6fd5631cdd99871e"></a><br/></td></tr>
+<tr class="memitem:a896ee0406ea3c6696f7f0d33ffd956c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a896ee0406ea3c6696f7f0d33ffd956c7">setShadowEnabled</a> (boolean enabled)</td></tr>
+<tr class="memdesc:a896ee0406ea3c6696f7f0d33ffd956c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set shadow enabled.  <a href="#a896ee0406ea3c6696f7f0d33ffd956c7"></a><br/></td></tr>
+<tr class="memitem:a18cff36bad04493c69fd8a7cc2a0491f"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a18cff36bad04493c69fd8a7cc2a0491f">getShadowEnabled</a> ()</td></tr>
+<tr class="memdesc:a18cff36bad04493c69fd8a7cc2a0491f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if shadow is enabled.  <a href="#a18cff36bad04493c69fd8a7cc2a0491f"></a><br/></td></tr>
+<tr class="memitem:ab36b060b683006cb892213668b37749a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#ab36b060b683006cb892213668b37749a">setTextSize</a> (float textsize)</td></tr>
+<tr class="memdesc:ab36b060b683006cb892213668b37749a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set text size.  <a href="#ab36b060b683006cb892213668b37749a"></a><br/></td></tr>
+<tr class="memitem:afcbe5a1f46e7bd7ee27239238fb58708"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#afcbe5a1f46e7bd7ee27239238fb58708">getTextSize</a> ()</td></tr>
+<tr class="memdesc:afcbe5a1f46e7bd7ee27239238fb58708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text size.  <a href="#afcbe5a1f46e7bd7ee27239238fb58708"></a><br/></td></tr>
+<tr class="memitem:a51144aca08ccdd2167da808993211daa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a51144aca08ccdd2167da808993211daa">setLineDistanceFactor</a> (float distanceFactor)</td></tr>
+<tr class="memdesc:a51144aca08ccdd2167da808993211daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set line distance factor.  <a href="#a51144aca08ccdd2167da808993211daa"></a><br/></td></tr>
+<tr class="memitem:a7b2b19816dbecbbfc696cdcca9b52297"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a7b2b19816dbecbbfc696cdcca9b52297">getLineDistanceFactor</a> ()</td></tr>
+<tr class="memdesc:a7b2b19816dbecbbfc696cdcca9b52297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get line distance factor.  <a href="#a7b2b19816dbecbbfc696cdcca9b52297"></a><br/></td></tr>
+<tr class="memitem:ad8fd693248b6a6dacd6b0a61f552eddb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#ad8fd693248b6a6dacd6b0a61f552eddb">setTypeface</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> typeface)</td></tr>
+<tr class="memdesc:ad8fd693248b6a6dacd6b0a61f552eddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set typeface.  <a href="#ad8fd693248b6a6dacd6b0a61f552eddb"></a><br/></td></tr>
+<tr class="memitem:a619e6f9c6cfce154d0e9243962f4c2c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a619e6f9c6cfce154d0e9243962f4c2c3">getTypeface</a> ()</td></tr>
+<tr class="memdesc:a619e6f9c6cfce154d0e9243962f4c2c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get typeface.  <a href="#a619e6f9c6cfce154d0e9243962f4c2c3"></a><br/></td></tr>
+<tr class="memitem:a4e6d342377b9c0fe8180d1bb37742d8b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a4e6d342377b9c0fe8180d1bb37742d8b">getElementInternalBaseLine</a> ()</td></tr>
+<tr class="memdesc:a4e6d342377b9c0fe8180d1bb37742d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get baseline, resulting from set baseline, padding and vertical alignment.  <a href="#a4e6d342377b9c0fe8180d1bb37742d8b"></a><br/></td></tr>
+<tr class="memitem:acf23a791e21204ca485a55b549d45f82"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#acf23a791e21204ca485a55b549d45f82">getTextOffset</a> ()</td></tr>
+<tr class="memdesc:acf23a791e21204ca485a55b549d45f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text offset.  <a href="#acf23a791e21204ca485a55b549d45f82"></a><br/></td></tr>
+<tr class="memitem:aca66fb623ec98f91e76e7dd22a2b7d6d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#aca66fb623ec98f91e76e7dd22a2b7d6d">getTextHeight</a> ()</td></tr>
+<tr class="memdesc:aca66fb623ec98f91e76e7dd22a2b7d6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text height.  <a href="#aca66fb623ec98f91e76e7dd22a2b7d6d"></a><br/></td></tr>
+<tr class="memitem:a7a4a5fb0dd2bdc6586a383748f8bda05"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a7a4a5fb0dd2bdc6586a383748f8bda05">getTextHeightForWidth</a> (String text, float width)</td></tr>
+<tr class="memdesc:a7a4a5fb0dd2bdc6586a383748f8bda05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns necessary height for text, based on given width.  <a href="#a7a4a5fb0dd2bdc6586a383748f8bda05"></a><br/></td></tr>
+<tr class="memitem:a894ab9debbac0507d02a083ed11f62d2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a894ab9debbac0507d02a083ed11f62d2">getElementHeightForWidth</a> (String text, float width)</td></tr>
+<tr class="memdesc:a894ab9debbac0507d02a083ed11f62d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns necessary height of element, which consists of text height and padding bottom.  <a href="#a894ab9debbac0507d02a083ed11f62d2"></a><br/></td></tr>
+<tr class="memitem:a1e25fe50ef6dc619d7d43a4340b5b423"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a1e25fe50ef6dc619d7d43a4340b5b423">getTextWidth</a> (String text, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> font, float fontsize)</td></tr>
+<tr class="memdesc:a1e25fe50ef6dc619d7d43a4340b5b423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns text width for given text, typeface and fontsize.  <a href="#a1e25fe50ef6dc619d7d43a4340b5b423"></a><br/></td></tr>
+<tr class="memitem:a178ea6be2466e5b6d700b17834053897"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a178ea6be2466e5b6d700b17834053897">getTextWidth</a> (String text)</td></tr>
+<tr class="memdesc:a178ea6be2466e5b6d700b17834053897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns text width for given text.  <a href="#a178ea6be2466e5b6d700b17834053897"></a><br/></td></tr>
+<tr class="memitem:a5abbaf85cbd1c205b986499595242e90"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a5abbaf85cbd1c205b986499595242e90">getTextWidth</a> ()</td></tr>
+<tr class="memdesc:a5abbaf85cbd1c205b986499595242e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns text width for set text.  <a href="#a5abbaf85cbd1c205b986499595242e90"></a><br/></td></tr>
+<tr class="memitem:a495819786c9ddcd558037b9acc74b9ba"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a495819786c9ddcd558037b9acc74b9ba">getElementWidth</a> ()</td></tr>
+<tr class="memdesc:a495819786c9ddcd558037b9acc74b9ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns width of the PDELayerText, including padding.  <a href="#a495819786c9ddcd558037b9acc74b9ba"></a><br/></td></tr>
+<tr class="memitem:a43eda8738c3bbfc895d62d02149728e9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a43eda8738c3bbfc895d62d02149728e9">getElementWidth</a> (String text)</td></tr>
+<tr class="memdesc:a43eda8738c3bbfc895d62d02149728e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns width of PDELayerText for a given text, including padding  <a href="#a43eda8738c3bbfc895d62d02149728e9"></a><br/></td></tr>
+<tr class="memitem:a884a9882a67b61f7cde92c1f69a7d254"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a884a9882a67b61f7cde92c1f69a7d254">parseDimension</a> (String dimensionString)</td></tr>
+<tr class="memdesc:a884a9882a67b61f7cde92c1f69a7d254"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes dimension string from resources and transforms it in pixel value.  <a href="#a884a9882a67b61f7cde92c1f69a7d254"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Methods</h2></td></tr>
+<tr class="memitem:a1ffa3159f6f2dcd9fdcf69259f54cfb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a1ffa3159f6f2dcd9fdcf69259f54cfb6">init</a> (AttributeSet attrs)</td></tr>
+<tr class="memdesc:a1ffa3159f6f2dcd9fdcf69259f54cfb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize.  <a href="#a1ffa3159f6f2dcd9fdcf69259f54cfb6"></a><br/></td></tr>
+<tr class="memitem:afd238a06ab6c9049908d9efb7b412ccd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#afd238a06ab6c9049908d9efb7b412ccd">onMeasure</a> (int widthMeasureSpec, int heightMeasureSpec)</td></tr>
+<tr class="memdesc:afd238a06ab6c9049908d9efb7b412ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine layout size of element.  <a href="#afd238a06ab6c9049908d9efb7b412ccd"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
+Private Methods</h2></td></tr>
+<tr class="memitem:ad4d49b2411568843f5e420f67935e889"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#ad4d49b2411568843f5e420f67935e889">setAttributes</a> (AttributeSet attrs)</td></tr>
+<tr class="memdesc:ad4d49b2411568843f5e420f67935e889"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load XML attributes.  <a href="#ad4d49b2411568843f5e420f67935e889"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ab639e435826ac0be7f96048c483ec298"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#ab639e435826ac0be7f96048c483ec298">LOG_TAG</a> = PDETextView.class.getName()</td></tr>
+<tr class="memitem:ab12d3efb071d5f86f75daddab606b0cd"><td class="memItemLeft" align="right" valign="top">static final Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#ab12d3efb071d5f86f75daddab606b0cd">DEBUG_OUTPUT_MEASUREMENT</a> = false</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a5df5f8f13a535a2e8782201251563d37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html">PDELayerText</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#a5df5f8f13a535a2e8782201251563d37">mLayerText</a></td></tr>
+<tr class="memitem:af08e42e634a24f3cbf86cc5baff6724b"><td class="memItemLeft" align="right" valign="top">Drawable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_text_view.html#af08e42e634a24f3cbf86cc5baff6724b">mBackgroundDrawable</a></td></tr>
+</table>
+<h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a3812d5788a816d75f98ce894d4c7e91c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.PDETextView </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="a18dd2a325791addbf1a7d79e0c02fec0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.PDETextView </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="a644d6a9a47a86c3abf1f144891cf25aa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.PDETextView </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>defStyle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="a1ffa3159f6f2dcd9fdcf69259f54cfb6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.init </td>
+          <td>(</td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attrs</td><td>Attribute set from the constructor. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad4d49b2411568843f5e420f67935e889"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setAttributes </td>
+          <td>(</td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load XML attributes. </p>
+
+</div>
+</div>
+<a class="anchor" id="a20c2f4b0b35f15405485ffdaffddd36c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setText </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set text. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0a12dabcdc169c68806b2d4d6bdbdd5e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setTextFromID </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set text from resource ID. </p>
+
+</div>
+</div>
+<a class="anchor" id="afe931480106323ea4101d0c4fdd72d01"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get text. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2d54e36240f4f02e95c56cececdcb774"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setMaxLines </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lines</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set maximum lines. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8b82a89252d6b93d4bb3d4fb6b41d06a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getMaxLines </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get maximum lines. </p>
+
+</div>
+</div>
+<a class="anchor" id="a95d03ff6285f0059107d29e806a50a3b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setEllipsize </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set ellipsize enabled. </p>
+
+</div>
+</div>
+<a class="anchor" id="a44ae8eb2038208ba7566433ad5470577"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getEllipsize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get if ellipsize is enabled. </p>
+
+</div>
+</div>
+<a class="anchor" id="a600db8212eac9b74a84321c278c13bd1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setAlignmentMode </td>
+          <td>(</td>
+          <td class="paramtype">PDELayerText.PDELayerTextAlignmentMode&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set alignment mode. </p>
+<p>Possible values are Standard Mode (default), where there is a little distance over and under the text, Baseline Mode where one has to set the baseline and CapHeight Mode, where there is no distance over and under the text. </p>
+
+</div>
+</div>
+<a class="anchor" id="af217b4321e467c279cdf7cc6d6edd0a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setAlignmentMode </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set alignment mode. </p>
+<p>Possible values are 0 for Standard Mode (default), where there is a little distance over and under the text, 1 for Baseline Mode where one has to set the baseline and 2 for CapHeight Mode, where there is no distance over and under the text. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad17e2921789af853020cb8209dbd7994"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PDELayerText.PDELayerTextAlignmentMode de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getAlignmentMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get alignment mode. </p>
+
+</div>
+</div>
+<a class="anchor" id="ada2dd3d3ac9667fa83823829a69cd4c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setHorizontalAlignment </td>
+          <td>(</td>
+          <td class="paramtype">PDEConstants.PDEAlignment&#160;</td>
+          <td class="paramname"><em>alignment</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set horizontal alignment. </p>
+
+</div>
+</div>
+<a class="anchor" id="abe0bf507ed677f6e9edbd352361665a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setHorizontalAlignment </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>alignment</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set horizontal alignment. </p>
+
+</div>
+</div>
+<a class="anchor" id="a977ce0bb17369553f4c569f903c0dddf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PDEConstants.PDEAlignment de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getHorizontalAlignment </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get horizontal alignment. </p>
+
+</div>
+</div>
+<a class="anchor" id="af6eb363850c986218ab2302bdb2e2632"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setVerticalAlignment </td>
+          <td>(</td>
+          <td class="paramtype">PDEConstants.PDEVerticalAlignment&#160;</td>
+          <td class="paramname"><em>alignment</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set vertical alignment. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3689fd646536af1f5acd02ae17bc191c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setVerticalAlignment </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>alignment</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set vertical alignment. </p>
+
+</div>
+</div>
+<a class="anchor" id="a94ff41bdcae9b0fda1ec18adbdfcfe97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PDEConstants.PDEVerticalAlignment de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getVerticalAlignment </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get vertical alignment. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab651b8d32ef5cf30bcfa3e8b3a5ec84d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setPaddingAll </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>padding</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set same padding on all sides. </p>
+
+</div>
+</div>
+<a class="anchor" id="a42e12ad55b0ceb99fe2f2e8f3fef13fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setPaddingAll </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bottom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set paddings on all sides. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4e80e586c08262bd923230d36947bad9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rect de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getPaddingRect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get padding rect. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2ad626f0b73142ac86f7d37ed92dc0fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setPaddingLeft </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>padding</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set left padding. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae56344716a1b194d43770c4ef5d5c173"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getPaddingLeft </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get left padding. </p>
+
+</div>
+</div>
+<a class="anchor" id="a51226adb5b5522024dff855f0ff4ea35"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setPaddingTop </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>padding</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set top padding. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7d3ff9f95364019c92029868e2bd19e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getPaddingTop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get top padding. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1c5cf1b7445b237aaf69a158d58b6fbf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setPaddingRight </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>padding</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set right padding. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0e784e195590108d48fd196fcc0f253f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getPaddingRight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get right padding. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3a63ac2ecfc50ae1ab11a729928118ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setPaddingBottom </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>padding</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set bottom padding. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6526cc1ee1cf9032247e1cdc67163027"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getPaddingBottom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get bottom padding. </p>
+
+</div>
+</div>
+<a class="anchor" id="a57e1439064d273b3f6c80c53744cb5fb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setBaseLine </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>baseline</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set baseline. </p>
+
+</div>
+</div>
+<a class="anchor" id="a10aea9ffea4bdf1a777d1d006d5a5445"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getBaseLine </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get baseline. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa602660b9bdacbb61ab9675946313eb1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setTextColor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set text color. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa240bb1f05322a435da35effa72cd21a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setTextColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set text color. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3a9b2ad802711f2a67f1b1eb6f19e291"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getTextColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get text color. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae59252911e025743acbfd9e2f6ba0e49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setBackgroundColor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set background color. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4a25b0e1c62a1ea88632f349470ef89b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setBackgroundColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set background color. </p>
+
+</div>
+</div>
+<a class="anchor" id="a629afc198032bf5fb133fcf0a195d5d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getBackgroundColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get background color. </p>
+
+</div>
+</div>
+<a class="anchor" id="a85040bf872df1d01dd65435a124cd7d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setBackgroundDrawableCustom </td>
+          <td>(</td>
+          <td class="paramtype">Drawable&#160;</td>
+          <td class="paramname"><em>bg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set a custom background drawable for our text view. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bg</td><td>the drawable which should be used as background. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3abc125fd4f9c621fd2c6f5f74aa632b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Drawable de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getBackgroundDrawableCustom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the drawable which is currently used as background. </p>
+<p>If there's currently no drawable used as background this returns null.</p>
+<dl class="section return"><dt>Returns</dt><dd>the drawable which is currently used as background. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9f63ba4722a93738103364e4848b87a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setShadowColor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set shadow color. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7e8c4e1044e93517dea9472d7b2a92a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setShadowColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set shadow color. </p>
+
+</div>
+</div>
+<a class="anchor" id="aed417081b39bff10472d54bcaba528a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getShadowColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get shadow color. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae1df3b051acc05da5e4ca2a1367bbe1a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setShadowOffsetX </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>offset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set shadow x offset. </p>
+
+</div>
+</div>
+<a class="anchor" id="a134a3def517ab313ff162c0246969de0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getShadowOffsetX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get shadow x offset. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8f5a0fd4e4083b92cfb7231a20def599"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setShadowOffsetY </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>offset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set shadow y offset. </p>
+
+</div>
+</div>
+<a class="anchor" id="a76bd9660fc7fecdb6fd5631cdd99871e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getShadowOffsetY </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get shadow y offset. </p>
+
+</div>
+</div>
+<a class="anchor" id="a896ee0406ea3c6696f7f0d33ffd956c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setShadowEnabled </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set shadow enabled. </p>
+
+</div>
+</div>
+<a class="anchor" id="a18cff36bad04493c69fd8a7cc2a0491f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getShadowEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get if shadow is enabled. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab36b060b683006cb892213668b37749a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setTextSize </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>textsize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set text size. </p>
+
+</div>
+</div>
+<a class="anchor" id="afcbe5a1f46e7bd7ee27239238fb58708"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getTextSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get text size. </p>
+
+</div>
+</div>
+<a class="anchor" id="a51144aca08ccdd2167da808993211daa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setLineDistanceFactor </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>distanceFactor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set line distance factor. </p>
+<p>Standard distance is 1, for 0 there is no distance between lines. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7b2b19816dbecbbfc696cdcca9b52297"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getLineDistanceFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get line distance factor. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad8fd693248b6a6dacd6b0a61f552eddb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.setTypeface </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td>
+          <td class="paramname"><em>typeface</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set typeface. </p>
+
+</div>
+</div>
+<a class="anchor" id="a619e6f9c6cfce154d0e9243962f4c2c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a> de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getTypeface </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get typeface. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4e6d342377b9c0fe8180d1bb37742d8b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getElementInternalBaseLine </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get baseline, resulting from set baseline, padding and vertical alignment. </p>
+
+</div>
+</div>
+<a class="anchor" id="acf23a791e21204ca485a55b549d45f82"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getTextOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get text offset. </p>
+
+</div>
+</div>
+<a class="anchor" id="aca66fb623ec98f91e76e7dd22a2b7d6d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getTextHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get text height. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7a4a5fb0dd2bdc6586a383748f8bda05"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getTextHeightForWidth </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>width</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns necessary height for text, based on given width. </p>
+
+</div>
+</div>
+<a class="anchor" id="a894ab9debbac0507d02a083ed11f62d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getElementHeightForWidth </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>width</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns necessary height of element, which consists of text height and padding bottom. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1e25fe50ef6dc619d7d43a4340b5b423"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getTextWidth </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html">PDETypeface</a>&#160;</td>
+          <td class="paramname"><em>font</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fontsize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns text width for given text, typeface and fontsize. </p>
+
+</div>
+</div>
+<a class="anchor" id="a178ea6be2466e5b6d700b17834053897"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getTextWidth </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns text width for given text. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5abbaf85cbd1c205b986499595242e90"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getTextWidth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns text width for set text. </p>
+
+</div>
+</div>
+<a class="anchor" id="a495819786c9ddcd558037b9acc74b9ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getElementWidth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns width of the PDELayerText, including padding. </p>
+
+</div>
+</div>
+<a class="anchor" id="a43eda8738c3bbfc895d62d02149728e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.getElementWidth </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns width of PDELayerText for a given text, including padding </p>
+
+</div>
+</div>
+<a class="anchor" id="afd238a06ab6c9049908d9efb7b412ccd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.onMeasure </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>widthMeasureSpec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>heightMeasureSpec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine layout size of element. </p>
+
+</div>
+</div>
+<a class="anchor" id="a884a9882a67b61f7cde92c1f69a7d254"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.parseDimension </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>dimensionString</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Takes dimension string from resources and transforms it in pixel value. </p>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="ab639e435826ac0be7f96048c483ec298"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.LOG_TAG = PDETextView.class.getName()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab12d3efb071d5f86f75daddab606b0cd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final Boolean de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.DEBUG_OUTPUT_MEASUREMENT = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5df5f8f13a535a2e8782201251563d37"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html">PDELayerText</a> de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.mLayerText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af08e42e634a24f3cbf86cc5baff6724b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Drawable de.telekom.pde.codelibrary.ui.components.elementwrappers.PDETextView.mBackgroundDrawable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/src/de/telekom/pde/codelibrary/ui/components/elementwrappers/<a class="el" href="_p_d_e_text_view_8java.html">PDETextView.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

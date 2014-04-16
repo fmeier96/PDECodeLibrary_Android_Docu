@@ -12,5 +12,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_
     [ "removeListener", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a6df1af5d84c7b28eb489f19b9834f4a6", null ],
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a8d687c2ccce98c506044eaff777b524d", null ],
     [ "DEBUG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#aaa39cf6a83c735ff1e507a790ad19eea", null ],
-    [ "mEventSource", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a647630f702d415d319bb9d8a83584d82", null ]
+    [ "mEventSource", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a647630f702d415d319bb9d8a83584d82", null ],
+    [ "mStrongPDEEventListenerHolder", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#afc618a07ffc1c14e319b435728a983f2", null ]
 ];

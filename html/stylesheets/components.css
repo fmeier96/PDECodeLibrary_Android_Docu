@@ -2075,7 +2075,7 @@ styleguide 1.1.1
 .headline, h1, h2, h3, h4, h5, h6, legend {
   display: block;
   width: 100%;
-  font-size: 2.1em;
+ /* font-size: 2.1em; */
   font-weight: normal;
   color: #383838; }
   .headline.x-large, h1.x-large, h2.x-large, h3.x-large, h4.x-large, h5.x-large, h6.x-large, legend.x-large {
@@ -5188,3 +5188,79 @@ styleguide 4.0.1
   .tooltip-display-bottom-left .qtip-content .tooltip-icon:before {
     content: '\22';
     margin-left: -0.26316em; }
+	
+.dtx h1, .dtx .h1, h1 {
+  font-size: 24px;
+  display: block;
+ /*&.underline {
+ 	border-bottom: $headlinewrap-border-width $headlinewrap-border-style $headline-underline-border-color;
+ 	padding-top:0;
+ 	padding-bottom:10px;
+ 	margin: $headline-underline-margin;
+	height: 100%;
+ }*/
+}
+.dtx h2, .dtx .h2, h2 {
+  font-size: 21px;
+  display: block;
+ /*&.underline {
+ 	border-bottom: $headlinewrap-border-width $headlinewrap-border-style $headline-underline-border-color;
+ 	padding-top:0;
+ 	padding-bottom:10px;
+ 	margin: $headline-underline-margin;
+	height: 100%;
+ }*/
+}
+.dtx h3, .dtx .h3, h3 {
+  font-size: 19px;
+  display: block;
+ /*&.underline {
+ 	border-bottom: $headlinewrap-border-width $headlinewrap-border-style $headline-underline-border-color;
+ 	padding-top:0;
+ 	padding-bottom:10px;
+ 	margin: $headline-underline-margin;
+	height: 100%;
+ }*/
+}
+.dtx h4, .dtx .h4, h4 {
+  font-size: 16px;
+  display: block;
+ /*&.underline {
+ 	border-bottom: $headlinewrap-border-width $headlinewrap-border-style $headline-underline-border-color;
+ 	padding-top:0;
+ 	padding-bottom:10px;
+ 	margin: $headline-underline-margin;
+	height: 100%;
+ }*/
+}
+.dtx h5, .dtx .h5, h5 {
+  font-size: 13px;
+  display: block;
+ /*&.underline {
+ 	border-bottom: $headlinewrap-border-width $headlinewrap-border-style $headline-underline-border-color;
+ 	padding-top:0;
+ 	padding-bottom:10px;
+ 	margin: $headline-underline-margin;
+	height: 100%;
+ }*/
+}
+.dtx h6, .dtx .h6, h6 {
+  font-size: 13px;
+  display: block;
+ /*&.underline {
+ 	border-bottom: $headlinewrap-border-width $headlinewrap-border-style $headline-underline-border-color;
+ 	padding-top:0;
+ 	padding-bottom:10px;
+ 	margin: $headline-underline-margin;
+	height: 100%;
+ }*/
+}
+.dtx h1, .dtx .h1, .dtx h2, .dtx .h2, .dtx h3, .dtx .h3, h1, h2 ,h3 {
+  margin: 10px 0 10px 0;
+}
+.dtx h4, .dtx .h4, h4 {
+  margin: 5px 0 5px 0;
+}
+.dtx h5, .dtx .h5, .dtx h6, .dtx .h6, h5, h6 {
+  margin: 5px 0 5px 0;
+}

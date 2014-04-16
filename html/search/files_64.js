@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['dialoghelper_2ejava',['DialogHelper.java',['../_dialog_helper_8java.html',1,'']]]
+  ['dialoghelper_2ejava',['DialogHelper.java',['../_dialog_helper_8java.html',1,'']]],
+  ['dialogsdefaultgenericactivity_2ejava',['DialogsDefaultGenericActivity.java',['../_dialogs_default_generic_activity_8java.html',1,'']]],
+  ['dialogsdefaultgenericlistadapter_2ejava',['DialogsDefaultGenericListAdapter.java',['../_dialogs_default_generic_list_adapter_8java.html',1,'']]],
+  ['dialogsprogrammingsamplegenericactivity_2ejava',['DialogsProgrammingSampleGenericActivity.java',['../_dialogs_programming_sample_generic_activity_8java.html',1,'']]]
 ];

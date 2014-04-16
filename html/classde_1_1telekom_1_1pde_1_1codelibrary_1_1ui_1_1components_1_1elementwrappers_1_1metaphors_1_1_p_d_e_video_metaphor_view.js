@@ -20,9 +20,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrapp
     [ "hasPicture", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a4ddbe72b7bcba291a6eae688cc90a743", null ],
     [ "getElementWidth", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a5dbeae0c185eed83bce77c877eac2557", null ],
     [ "getElementHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a3903ef89cbc087a171682e7d3495d6b9", null ],
-    [ "setViewSize", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a4eda2e97c4f397fb9f86f5016c8ba42a", null ],
-    [ "setViewOffset", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#aeca7f1c7b6da15bf34c0d4c76fa78fd8", null ],
-    [ "setViewLayoutRect", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a192b9bdaef5d104a8c0cf58651bf6a30", null ],
     [ "onMeasure", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a3e40f192b8844a4f3d126c0c92143160", null ],
-    [ "mVideo", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a2aba5bd50575f67978309326d3c28503", null ]
+    [ "mVideo", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a2aba5bd50575f67978309326d3c28503", null ],
+    [ "mInternalCalculateAspectRatioBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a8c2baf23f58c38f827eae813ef244ee1", null ]
 ];

@@ -1,0 +1,3428 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-library-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button flat" href="https://www.design.telekom.com/">
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.samples.R.drawable Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a4d1d8515832f6bc725e058bad662927f"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a4d1d8515832f6bc725e058bad662927f">ab_dropdown_background</a> = 0x7f020000</td></tr>
+<tr class="memitem:a6944a245c0f243767963c8236c396c13"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a6944a245c0f243767963c8236c396c13">ab_ic_menu_overflow_normal</a> = 0x7f020001</td></tr>
+<tr class="memitem:af7acfcdf9963d85d99f9be0ff915c0a5"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af7acfcdf9963d85d99f9be0ff915c0a5">ab_stacked_solid_pde</a> = 0x7f020002</td></tr>
+<tr class="memitem:a630e77572869bf18cbb115bc46229cca"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a630e77572869bf18cbb115bc46229cca">ab_transparent_pde</a> = 0x7f020003</td></tr>
+<tr class="memitem:a1aafe2753514d0a76dd62b099511296d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a1aafe2753514d0a76dd62b099511296d">abc_ab_bottom_solid_dark_holo</a> = 0x7f020004</td></tr>
+<tr class="memitem:ab0d550d39c080a5fe21051c70c2a3c68"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ab0d550d39c080a5fe21051c70c2a3c68">abc_ab_bottom_solid_light_holo</a> = 0x7f020005</td></tr>
+<tr class="memitem:a478ce053ebbd7510d5189510626bba03"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a478ce053ebbd7510d5189510626bba03">abc_ab_bottom_transparent_dark_holo</a> = 0x7f020006</td></tr>
+<tr class="memitem:a91d8578d9bbbe4d6241ee6dcd3b4a000"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a91d8578d9bbbe4d6241ee6dcd3b4a000">abc_ab_bottom_transparent_light_holo</a> = 0x7f020007</td></tr>
+<tr class="memitem:a580960aac681d995d58c20c28706ee5f"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a580960aac681d995d58c20c28706ee5f">abc_ab_share_pack_holo_dark</a> = 0x7f020008</td></tr>
+<tr class="memitem:a0b4f563077104877356451f20809c2d7"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a0b4f563077104877356451f20809c2d7">abc_ab_share_pack_holo_light</a> = 0x7f020009</td></tr>
+<tr class="memitem:af75117c9724f1f55fb7e91c974c10cc9"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af75117c9724f1f55fb7e91c974c10cc9">abc_ab_solid_dark_holo</a> = 0x7f02000a</td></tr>
+<tr class="memitem:aaad58911dc7801ef19a31d00a4cfc4e6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aaad58911dc7801ef19a31d00a4cfc4e6">abc_ab_solid_light_holo</a> = 0x7f02000b</td></tr>
+<tr class="memitem:aaa36994265f7c8ee1a122c3c131e742c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aaa36994265f7c8ee1a122c3c131e742c">abc_ab_stacked_solid_dark_holo</a> = 0x7f02000c</td></tr>
+<tr class="memitem:a84309a015eb99004cb0fb735e31d9e04"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a84309a015eb99004cb0fb735e31d9e04">abc_ab_stacked_solid_light_holo</a> = 0x7f02000d</td></tr>
+<tr class="memitem:a8a1ba88ccdc97cec34e0afd88e11ba4c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a8a1ba88ccdc97cec34e0afd88e11ba4c">abc_ab_stacked_transparent_dark_holo</a> = 0x7f02000e</td></tr>
+<tr class="memitem:a6015b0745789fcf9e866aefb6cd0d05c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a6015b0745789fcf9e866aefb6cd0d05c">abc_ab_stacked_transparent_light_holo</a> = 0x7f02000f</td></tr>
+<tr class="memitem:a9922cd7174eb5244532de458ac5927ac"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a9922cd7174eb5244532de458ac5927ac">abc_ab_transparent_dark_holo</a> = 0x7f020010</td></tr>
+<tr class="memitem:a74239d9354702adf4f65638e8c50a653"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a74239d9354702adf4f65638e8c50a653">abc_ab_transparent_light_holo</a> = 0x7f020011</td></tr>
+<tr class="memitem:af0253c35da33f5d36f36cedde1010a10"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af0253c35da33f5d36f36cedde1010a10">abc_cab_background_bottom_holo_dark</a> = 0x7f020012</td></tr>
+<tr class="memitem:a0ce3bbbb41eba58568e3cbf1e7cbe14e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a0ce3bbbb41eba58568e3cbf1e7cbe14e">abc_cab_background_bottom_holo_light</a> = 0x7f020013</td></tr>
+<tr class="memitem:ae88654a78484a304a52e6493442bddf0"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ae88654a78484a304a52e6493442bddf0">abc_cab_background_top_holo_dark</a> = 0x7f020014</td></tr>
+<tr class="memitem:a3d4b11e0037beb4479b45ec36bcd8489"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a3d4b11e0037beb4479b45ec36bcd8489">abc_cab_background_top_holo_light</a> = 0x7f020015</td></tr>
+<tr class="memitem:a76a98131c9f382da54e6a8c89bb16976"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a76a98131c9f382da54e6a8c89bb16976">abc_ic_ab_back_holo_dark</a> = 0x7f020016</td></tr>
+<tr class="memitem:ae3354e5c6913fcfdec71eb2e421a054b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ae3354e5c6913fcfdec71eb2e421a054b">abc_ic_ab_back_holo_light</a> = 0x7f020017</td></tr>
+<tr class="memitem:a88d23b9e22ce580acecd1222d03dd7cf"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a88d23b9e22ce580acecd1222d03dd7cf">abc_ic_cab_done_holo_dark</a> = 0x7f020018</td></tr>
+<tr class="memitem:a835f104f097e16aa0b36f7c1993c7bba"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a835f104f097e16aa0b36f7c1993c7bba">abc_ic_cab_done_holo_light</a> = 0x7f020019</td></tr>
+<tr class="memitem:aace5fdacebc963c313deb55651638a2a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aace5fdacebc963c313deb55651638a2a">abc_ic_clear</a> = 0x7f02001a</td></tr>
+<tr class="memitem:a9c5f28249034d8877c8ae2f5773b0277"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a9c5f28249034d8877c8ae2f5773b0277">abc_ic_clear_disabled</a> = 0x7f02001b</td></tr>
+<tr class="memitem:a2038b4fe675431c337c93b5d52f3593c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a2038b4fe675431c337c93b5d52f3593c">abc_ic_clear_holo_light</a> = 0x7f02001c</td></tr>
+<tr class="memitem:a11228683779f57ecbf951bea097d34ed"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a11228683779f57ecbf951bea097d34ed">abc_ic_clear_normal</a> = 0x7f02001d</td></tr>
+<tr class="memitem:ad453f59ecbccf0faf7b94eb567d23418"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ad453f59ecbccf0faf7b94eb567d23418">abc_ic_clear_search_api_disabled_holo_light</a> = 0x7f02001e</td></tr>
+<tr class="memitem:a1768d4ae905550e3fa9c046f28736626"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a1768d4ae905550e3fa9c046f28736626">abc_ic_clear_search_api_holo_light</a> = 0x7f02001f</td></tr>
+<tr class="memitem:a01279a6fe626ab9aa06de330df3fe930"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a01279a6fe626ab9aa06de330df3fe930">abc_ic_commit_search_api_holo_dark</a> = 0x7f020020</td></tr>
+<tr class="memitem:af7a6456488cf5e2b766e055dd8140901"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af7a6456488cf5e2b766e055dd8140901">abc_ic_commit_search_api_holo_light</a> = 0x7f020021</td></tr>
+<tr class="memitem:a9a1af92bf6ae34c4881d3e31ecf0adb9"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a9a1af92bf6ae34c4881d3e31ecf0adb9">abc_ic_go</a> = 0x7f020022</td></tr>
+<tr class="memitem:a4280747f3d32858797c172bf25a735b5"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a4280747f3d32858797c172bf25a735b5">abc_ic_go_search_api_holo_light</a> = 0x7f020023</td></tr>
+<tr class="memitem:aea7055c8bdd84d44318372444afe223e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aea7055c8bdd84d44318372444afe223e">abc_ic_menu_moreoverflow_normal_holo_dark</a> = 0x7f020024</td></tr>
+<tr class="memitem:a5e0cef922ce5ba140927729a4071f913"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a5e0cef922ce5ba140927729a4071f913">abc_ic_menu_moreoverflow_normal_holo_light</a> = 0x7f020025</td></tr>
+<tr class="memitem:a52c3b036586dc23e3f2850210cca95dd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a52c3b036586dc23e3f2850210cca95dd">abc_ic_menu_share_holo_dark</a> = 0x7f020026</td></tr>
+<tr class="memitem:afaf77d6c43380293f40693ef892d9320"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#afaf77d6c43380293f40693ef892d9320">abc_ic_menu_share_holo_light</a> = 0x7f020027</td></tr>
+<tr class="memitem:a212c4904b16d343080e00a393366d85f"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a212c4904b16d343080e00a393366d85f">abc_ic_search</a> = 0x7f020028</td></tr>
+<tr class="memitem:aa18697dd515a7aa611ab7b7ef97fe660"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aa18697dd515a7aa611ab7b7ef97fe660">abc_ic_search_api_holo_light</a> = 0x7f020029</td></tr>
+<tr class="memitem:ad3d296aa4b9bbd45ec4b0b2cc8ea774e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ad3d296aa4b9bbd45ec4b0b2cc8ea774e">abc_ic_voice_search</a> = 0x7f02002a</td></tr>
+<tr class="memitem:a1cff83214c149d7006ff71c05f5390aa"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a1cff83214c149d7006ff71c05f5390aa">abc_ic_voice_search_api_holo_light</a> = 0x7f02002b</td></tr>
+<tr class="memitem:a007db07b100eff000e6ab77df8d566c3"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a007db07b100eff000e6ab77df8d566c3">abc_item_background_holo_dark</a> = 0x7f02002c</td></tr>
+<tr class="memitem:af14ce48cd2f2d957f53c7df71e1c8134"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af14ce48cd2f2d957f53c7df71e1c8134">abc_item_background_holo_light</a> = 0x7f02002d</td></tr>
+<tr class="memitem:ae151876117cec69a62b468a929b12cb8"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ae151876117cec69a62b468a929b12cb8">abc_list_divider_holo_dark</a> = 0x7f02002e</td></tr>
+<tr class="memitem:a5220ea9bb03911e070f368186798992b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a5220ea9bb03911e070f368186798992b">abc_list_divider_holo_light</a> = 0x7f02002f</td></tr>
+<tr class="memitem:a2cc12e9870c2d34634ad5609a16cd4ab"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a2cc12e9870c2d34634ad5609a16cd4ab">abc_list_focused_holo</a> = 0x7f020030</td></tr>
+<tr class="memitem:ad4cc43067e13b146df461927b76bab79"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ad4cc43067e13b146df461927b76bab79">abc_list_longpressed_holo</a> = 0x7f020031</td></tr>
+<tr class="memitem:a738280128784670004a8f07f74aa7ee8"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a738280128784670004a8f07f74aa7ee8">abc_list_pressed_holo_dark</a> = 0x7f020032</td></tr>
+<tr class="memitem:a0ff8d92e236270d1dbc2b8e65741e507"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a0ff8d92e236270d1dbc2b8e65741e507">abc_list_pressed_holo_light</a> = 0x7f020033</td></tr>
+<tr class="memitem:a70aa3cb542064f84f13ddb1b33ce3c86"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a70aa3cb542064f84f13ddb1b33ce3c86">abc_list_selector_background_transition_holo_dark</a> = 0x7f020034</td></tr>
+<tr class="memitem:a67f3201183e7f37c665fc05cac6b85c2"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a67f3201183e7f37c665fc05cac6b85c2">abc_list_selector_background_transition_holo_light</a> = 0x7f020035</td></tr>
+<tr class="memitem:abaa3a398c5140c154cb95857108255cf"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#abaa3a398c5140c154cb95857108255cf">abc_list_selector_disabled_holo_dark</a> = 0x7f020036</td></tr>
+<tr class="memitem:ae28383c8a65ef89a1894044ebc2e27bb"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ae28383c8a65ef89a1894044ebc2e27bb">abc_list_selector_disabled_holo_light</a> = 0x7f020037</td></tr>
+<tr class="memitem:a4c401e2f2473737b490cc3359ccb8ac1"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a4c401e2f2473737b490cc3359ccb8ac1">abc_list_selector_holo_dark</a> = 0x7f020038</td></tr>
+<tr class="memitem:a9516460f3068851201206a0ac7df5550"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a9516460f3068851201206a0ac7df5550">abc_list_selector_holo_light</a> = 0x7f020039</td></tr>
+<tr class="memitem:a5ee1c0040856269b1c5da38ddad47338"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a5ee1c0040856269b1c5da38ddad47338">abc_menu_dropdown_panel_holo_dark</a> = 0x7f02003a</td></tr>
+<tr class="memitem:afab2ec50a20f849d5aa80186630546ac"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#afab2ec50a20f849d5aa80186630546ac">abc_menu_dropdown_panel_holo_light</a> = 0x7f02003b</td></tr>
+<tr class="memitem:adbe9f0c71b45005251d4e1bc116499ab"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#adbe9f0c71b45005251d4e1bc116499ab">abc_menu_hardkey_panel_holo_dark</a> = 0x7f02003c</td></tr>
+<tr class="memitem:a214f9386bc381372572d424ce7a81ec4"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a214f9386bc381372572d424ce7a81ec4">abc_menu_hardkey_panel_holo_light</a> = 0x7f02003d</td></tr>
+<tr class="memitem:adf51e5335472e6c1df99be8b5ca80b3c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#adf51e5335472e6c1df99be8b5ca80b3c">abc_search_dropdown_dark</a> = 0x7f02003e</td></tr>
+<tr class="memitem:a20a875af8dbdaa3675809f6e3ffd67ec"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a20a875af8dbdaa3675809f6e3ffd67ec">abc_search_dropdown_light</a> = 0x7f02003f</td></tr>
+<tr class="memitem:a1dc0f905d835d8fb2b4feccca57dad0e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a1dc0f905d835d8fb2b4feccca57dad0e">abc_spinner_ab_default_holo_dark</a> = 0x7f020040</td></tr>
+<tr class="memitem:a429c87c86610d581b4834b0edbb53218"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a429c87c86610d581b4834b0edbb53218">abc_spinner_ab_default_holo_light</a> = 0x7f020041</td></tr>
+<tr class="memitem:ac4adb960a1f4d63f9f18a42b58ec1749"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ac4adb960a1f4d63f9f18a42b58ec1749">abc_spinner_ab_disabled_holo_dark</a> = 0x7f020042</td></tr>
+<tr class="memitem:ae1827bea36ae20c6b71b1a4b42421f7b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ae1827bea36ae20c6b71b1a4b42421f7b">abc_spinner_ab_disabled_holo_light</a> = 0x7f020043</td></tr>
+<tr class="memitem:abba535e634925060e190e4beb3bb9b97"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#abba535e634925060e190e4beb3bb9b97">abc_spinner_ab_focused_holo_dark</a> = 0x7f020044</td></tr>
+<tr class="memitem:a74d3fdeb0a12b80464fd6ff98eab68b3"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a74d3fdeb0a12b80464fd6ff98eab68b3">abc_spinner_ab_focused_holo_light</a> = 0x7f020045</td></tr>
+<tr class="memitem:a27fecc1350686bbfd72f2ef2bed33ae7"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a27fecc1350686bbfd72f2ef2bed33ae7">abc_spinner_ab_holo_dark</a> = 0x7f020046</td></tr>
+<tr class="memitem:a5999c9025fa8bd66f2ac4f97e7c4c01d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a5999c9025fa8bd66f2ac4f97e7c4c01d">abc_spinner_ab_holo_light</a> = 0x7f020047</td></tr>
+<tr class="memitem:afbd19d839627ae597a2fee24402d12b4"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#afbd19d839627ae597a2fee24402d12b4">abc_spinner_ab_pressed_holo_dark</a> = 0x7f020048</td></tr>
+<tr class="memitem:ace7862016ffad014cb0ea465e1f7f11b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ace7862016ffad014cb0ea465e1f7f11b">abc_spinner_ab_pressed_holo_light</a> = 0x7f020049</td></tr>
+<tr class="memitem:a6dd2df66320bec2bbd5dac30d10f030f"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a6dd2df66320bec2bbd5dac30d10f030f">abc_tab_indicator_ab_holo</a> = 0x7f02004a</td></tr>
+<tr class="memitem:a971ac36252a6678b540e26b0b43db076"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a971ac36252a6678b540e26b0b43db076">abc_tab_selected_focused_holo</a> = 0x7f02004b</td></tr>
+<tr class="memitem:af7e3146d0273d1a8e68496822cf39479"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af7e3146d0273d1a8e68496822cf39479">abc_tab_selected_holo</a> = 0x7f02004c</td></tr>
+<tr class="memitem:ad8c90f5e3b08df9faac9f0c598b72512"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ad8c90f5e3b08df9faac9f0c598b72512">abc_tab_selected_pressed_holo</a> = 0x7f02004d</td></tr>
+<tr class="memitem:af659f206a7c4ba5e5959ced42745a56c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af659f206a7c4ba5e5959ced42745a56c">abc_tab_unselected_pressed_holo</a> = 0x7f02004e</td></tr>
+<tr class="memitem:a106c1b38824ca1c12abd24af74333031"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a106c1b38824ca1c12abd24af74333031">abc_textfield_search_default_holo_dark</a> = 0x7f02004f</td></tr>
+<tr class="memitem:a9940c208af7b90aa2b1929c36aa12374"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a9940c208af7b90aa2b1929c36aa12374">abc_textfield_search_default_holo_light</a> = 0x7f020050</td></tr>
+<tr class="memitem:a4b4a0080c6806f35ed8f78902191ad3f"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a4b4a0080c6806f35ed8f78902191ad3f">abc_textfield_search_right_default_holo_dark</a> = 0x7f020051</td></tr>
+<tr class="memitem:aad21a3930029f098ea0575ffe46710fd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aad21a3930029f098ea0575ffe46710fd">abc_textfield_search_right_default_holo_light</a> = 0x7f020052</td></tr>
+<tr class="memitem:ad3fb66168de0b6f2b69a5e3c7243b5d6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ad3fb66168de0b6f2b69a5e3c7243b5d6">abc_textfield_search_right_selected_holo_dark</a> = 0x7f020053</td></tr>
+<tr class="memitem:a95f63c8579b938cfaf4247abf098e6d6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a95f63c8579b938cfaf4247abf098e6d6">abc_textfield_search_right_selected_holo_light</a> = 0x7f020054</td></tr>
+<tr class="memitem:a2b5ed84141460e57d6f5dd690f0c5215"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a2b5ed84141460e57d6f5dd690f0c5215">abc_textfield_search_selected_holo_dark</a> = 0x7f020055</td></tr>
+<tr class="memitem:a96d964ab6a0e52f2bcae9a350b36b6c5"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a96d964ab6a0e52f2bcae9a350b36b6c5">abc_textfield_search_selected_holo_light</a> = 0x7f020056</td></tr>
+<tr class="memitem:a684c675b563a7d2d2b4b5b1b6673ec82"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a684c675b563a7d2d2b4b5b1b6673ec82">abc_textfield_searchview_holo_dark</a> = 0x7f020057</td></tr>
+<tr class="memitem:a4675d5d744223196501e839e1a6a3f22"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a4675d5d744223196501e839e1a6a3f22">abc_textfield_searchview_holo_light</a> = 0x7f020058</td></tr>
+<tr class="memitem:af9b0af58395a1b12344c159cdb9f4919"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af9b0af58395a1b12344c159cdb9f4919">abc_textfield_searchview_right_holo_dark</a> = 0x7f020059</td></tr>
+<tr class="memitem:aafbfc758f722fdcaf93851df4b006b04"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aafbfc758f722fdcaf93851df4b006b04">abc_textfield_searchview_right_holo_light</a> = 0x7f02005a</td></tr>
+<tr class="memitem:a5d6b0798c061c71939af3df98912197e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a5d6b0798c061c71939af3df98912197e">action_comment</a> = 0x7f02005b</td></tr>
+<tr class="memitem:acaf1611a6ff41c63fc7f2cf56aa85b54"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#acaf1611a6ff41c63fc7f2cf56aa85b54">action_comment_small</a> = 0x7f02005c</td></tr>
+<tr class="memitem:ae6f1c38daa408c3ac4b8f8bec99292f7"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ae6f1c38daa408c3ac4b8f8bec99292f7">action_delete</a> = 0x7f02005d</td></tr>
+<tr class="memitem:a855eaae6b1fb653e768d76bc9e43b271"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a855eaae6b1fb653e768d76bc9e43b271">action_delete_small</a> = 0x7f02005e</td></tr>
+<tr class="memitem:ab8c44620bd914dc5b410f57798226b68"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ab8c44620bd914dc5b410f57798226b68">action_donwload_small</a> = 0x7f02005f</td></tr>
+<tr class="memitem:a98a05498daa903d68ac25d735c7b2748"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a98a05498daa903d68ac25d735c7b2748">action_download</a> = 0x7f020060</td></tr>
+<tr class="memitem:af4861137ddde28b77e9d030698c9b955"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af4861137ddde28b77e9d030698c9b955">action_download_small</a> = 0x7f020061</td></tr>
+<tr class="memitem:a1cababc1d4960431a51d715e882aa8a9"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a1cababc1d4960431a51d715e882aa8a9">action_edit</a> = 0x7f020062</td></tr>
+<tr class="memitem:abfb51ad8ff7fb85072e60579e616dbb9"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#abfb51ad8ff7fb85072e60579e616dbb9">action_mode_background</a> = 0x7f020063</td></tr>
+<tr class="memitem:a33a14680d13c25d4c8df9c40508eccb0"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a33a14680d13c25d4c8df9c40508eccb0">action_mode_split_background</a> = 0x7f020064</td></tr>
+<tr class="memitem:a5b01f3aa78da9b54d3644edd19fd1715"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a5b01f3aa78da9b54d3644edd19fd1715">action_move</a> = 0x7f020065</td></tr>
+<tr class="memitem:a7db71de8592fa71d67772e16b7c96b7d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a7db71de8592fa71d67772e16b7c96b7d">action_move_small</a> = 0x7f020066</td></tr>
+<tr class="memitem:a5f96edcfa24b51909d47027b5c714970"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a5f96edcfa24b51909d47027b5c714970">action_selectall</a> = 0x7f020067</td></tr>
+<tr class="memitem:ac5bc6b0fd9bc9db980042471001b4488"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ac5bc6b0fd9bc9db980042471001b4488">action_share</a> = 0x7f020068</td></tr>
+<tr class="memitem:a620fbe3efd06eb841867a33edfd177da"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a620fbe3efd06eb841867a33edfd177da">action_share_small</a> = 0x7f020069</td></tr>
+<tr class="memitem:ad61c83b6d9466d0acfb0e405332ed71f"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ad61c83b6d9466d0acfb0e405332ed71f">action_upload</a> = 0x7f02006a</td></tr>
+<tr class="memitem:a1a6a95bf1e20303ac97a208b8829cea2"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a1a6a95bf1e20303ac97a208b8829cea2">actionbar_bottom_line</a> = 0x7f02006b</td></tr>
+<tr class="memitem:a84bb02b4566fea23ca4da9682474c527"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a84bb02b4566fea23ca4da9682474c527">baum2008</a> = 0x7f02006c</td></tr>
+<tr class="memitem:ac5e4373d31e53e4798d499fdece452de"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ac5e4373d31e53e4798d499fdece452de">blue_bounds</a> = 0x7f02006d</td></tr>
+<tr class="memitem:ae6809d3dfc06054dd8368742565d91da"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ae6809d3dfc06054dd8368742565d91da">btn_cab_done_default_pde</a> = 0x7f02006e</td></tr>
+<tr class="memitem:aa25806b34f492a0bdc7d245d074fd600"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aa25806b34f492a0bdc7d245d074fd600">btn_cab_done_focused_pde</a> = 0x7f02006f</td></tr>
+<tr class="memitem:af0ea22dd96be08168c812f1a5dc8c31a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af0ea22dd96be08168c812f1a5dc8c31a">btn_cab_done_pde</a> = 0x7f020070</td></tr>
+<tr class="memitem:aa2b53ec80c5bf5b7567fe829aa846b8b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aa2b53ec80c5bf5b7567fe829aa846b8b">btn_cab_done_pressed_pde</a> = 0x7f020071</td></tr>
+<tr class="memitem:a43d93e3cc6a08caaadee638c1903a0e3"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a43d93e3cc6a08caaadee638c1903a0e3">checkmark_light_l</a> = 0x7f020072</td></tr>
+<tr class="memitem:ac3218a713f2f02d4b18de2510fcdc648"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ac3218a713f2f02d4b18de2510fcdc648">checkmark_light_m</a> = 0x7f020073</td></tr>
+<tr class="memitem:af1334ac59d90b22dfc34ac47fb2f056c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af1334ac59d90b22dfc34ac47fb2f056c">code_samples_launcher_icon</a> = 0x7f020074</td></tr>
+<tr class="memitem:ad61946cdcf4200ec7edf06430ae2bb86"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ad61946cdcf4200ec7edf06430ae2bb86">code_samples_splash_icon</a> = 0x7f020075</td></tr>
+<tr class="memitem:a71c40faf46399a876b0bc923f2a34015"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a71c40faf46399a876b0bc923f2a34015">couple</a> = 0x7f020076</td></tr>
+<tr class="memitem:a24da439b02bebd1fdf2a8951c09afc0d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a24da439b02bebd1fdf2a8951c09afc0d">cursor_drawable</a> = 0x7f020077</td></tr>
+<tr class="memitem:ae8a86af4f824e436265b187c39a60405"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ae8a86af4f824e436265b187c39a60405">ic_drawer</a> = 0x7f020078</td></tr>
+<tr class="memitem:a861d170b43a080ee218335fb95048ed5"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a861d170b43a080ee218335fb95048ed5">ic_launcher</a> = 0x7f020079</td></tr>
+<tr class="memitem:a9d0a24c19e1e22a3d28ca4c3dc199fb8"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a9d0a24c19e1e22a3d28ca4c3dc199fb8">information_icon</a> = 0x7f02007a</td></tr>
+<tr class="memitem:ad4fe19957fec7bd3dae7acd824ba224b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ad4fe19957fec7bd3dae7acd824ba224b">kids</a> = 0x7f02007b</td></tr>
+<tr class="memitem:abf60c0e83863e9d2c39763b999e80588"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#abf60c0e83863e9d2c39763b999e80588">leftmenu_background</a> = 0x7f02007c</td></tr>
+<tr class="memitem:a77ade831e5fa3b84f6996e53de2bd1d8"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a77ade831e5fa3b84f6996e53de2bd1d8">leftmenu_button_default</a> = 0x7f02007d</td></tr>
+<tr class="memitem:a9a73f1d21e73f5910767694984c7cb53"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a9a73f1d21e73f5910767694984c7cb53">leftmenu_button_pressed</a> = 0x7f02007e</td></tr>
+<tr class="memitem:a698181ceb446b58e37a87d8e83a00afb"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a698181ceb446b58e37a87d8e83a00afb">leftmenu_button_selector</a> = 0x7f02007f</td></tr>
+<tr class="memitem:aa1226af5cc2693381b57ef6160a77093"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aa1226af5cc2693381b57ef6160a77093">list_focused_pde</a> = 0x7f020080</td></tr>
+<tr class="memitem:a383466a1e4591bb32af638c197f7b0f7"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a383466a1e4591bb32af638c197f7b0f7">logo_1t3_2bu</a> = 0x7f020081</td></tr>
+<tr class="memitem:a54e45f265de332f364bedd5880066e5e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a54e45f265de332f364bedd5880066e5e">logo_1t3_3bu</a> = 0x7f020082</td></tr>
+<tr class="memitem:a623e9db67df87d5a6aed676bf159443f"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a623e9db67df87d5a6aed676bf159443f">mainlist_icon_folder</a> = 0x7f020083</td></tr>
+<tr class="memitem:a1d06da34127c02010a5255124aed6f42"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a1d06da34127c02010a5255124aed6f42">mainlist_icon_settings</a> = 0x7f020084</td></tr>
+<tr class="memitem:afe8df0e88a8b64ec73bc80ef9ce91298"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#afe8df0e88a8b64ec73bc80ef9ce91298">mainlist_icon_share</a> = 0x7f020085</td></tr>
+<tr class="memitem:a6702aa69aed0738a1b8137471b85eb60"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a6702aa69aed0738a1b8137471b85eb60">multiple_select_listitem_selector</a> = 0x7f020086</td></tr>
+<tr class="memitem:ad88d03e226582557784e939b5790a75d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ad88d03e226582557784e939b5790a75d">pressed_background_pde</a> = 0x7f020087</td></tr>
+<tr class="memitem:a7f84d09efeaf30b9e10e934bc447744b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a7f84d09efeaf30b9e10e934bc447744b">progress_bg_pde</a> = 0x7f020088</td></tr>
+<tr class="memitem:aefeb5aec4fc82aec49dccb9ea2d7ae06"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aefeb5aec4fc82aec49dccb9ea2d7ae06">progress_horizontal_pde</a> = 0x7f020089</td></tr>
+<tr class="memitem:ad00dacefacb1def4eea110b205961527"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ad00dacefacb1def4eea110b205961527">progress_primary_pde</a> = 0x7f02008a</td></tr>
+<tr class="memitem:ada53a86b8cf095dffe30875917c87133"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ada53a86b8cf095dffe30875917c87133">progress_secondary_pde</a> = 0x7f02008b</td></tr>
+<tr class="memitem:a735970bb6d7307c491c2439b67429940"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a735970bb6d7307c491c2439b67429940">red_bounds</a> = 0x7f02008c</td></tr>
+<tr class="memitem:a49cc303bc7c46ccde1d725574942b93b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a49cc303bc7c46ccde1d725574942b93b">selectable_background_pde</a> = 0x7f02008d</td></tr>
+<tr class="memitem:a2b1f2a5392664ee5dbe275c793971850"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a2b1f2a5392664ee5dbe275c793971850">spinner_ab_default_pde</a> = 0x7f02008e</td></tr>
+<tr class="memitem:af98f87b2ec19e154bbde5d75cd9d87c9"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af98f87b2ec19e154bbde5d75cd9d87c9">spinner_ab_disabled_pde</a> = 0x7f02008f</td></tr>
+<tr class="memitem:af55d95955e2d21d0429b7afdaa03759d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af55d95955e2d21d0429b7afdaa03759d">spinner_ab_focused_pde</a> = 0x7f020090</td></tr>
+<tr class="memitem:a57ec30706db6fa8551e311986ec8107a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a57ec30706db6fa8551e311986ec8107a">spinner_ab_pressed_pde</a> = 0x7f020091</td></tr>
+<tr class="memitem:afecc73e4fd4c8ca40426a0f7ed976fc1"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#afecc73e4fd4c8ca40426a0f7ed976fc1">spinner_background_ab_pde</a> = 0x7f020092</td></tr>
+<tr class="memitem:ae48aa6a878356a2e36826d305461cbce"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#ae48aa6a878356a2e36826d305461cbce">synchronize_generic_plain_center</a> = 0x7f020093</td></tr>
+<tr class="memitem:a0d43318301a723e3efba1d2e5bbe7466"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a0d43318301a723e3efba1d2e5bbe7466">tab_indicator_ab_pde</a> = 0x7f020094</td></tr>
+<tr class="memitem:aeb9c0ea452834bb886ae269221a17f08"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#aeb9c0ea452834bb886ae269221a17f08">tab_selected_focused_pde</a> = 0x7f020095</td></tr>
+<tr class="memitem:af774e6338767f6f68a78df985940abd5"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#af774e6338767f6f68a78df985940abd5">tab_selected_pde</a> = 0x7f020096</td></tr>
+<tr class="memitem:a3e5cd33b7b0710ed33987eaa972b40ba"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a3e5cd33b7b0710ed33987eaa972b40ba">tab_selected_pressed_pde</a> = 0x7f020097</td></tr>
+<tr class="memitem:a2bf5ba6414b23b515508584206af17d9"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a2bf5ba6414b23b515508584206af17d9">tab_unselected_focused_pde</a> = 0x7f020098</td></tr>
+<tr class="memitem:a05536ab859a3c9ef6e4142363b6ac522"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1drawable.html#a05536ab859a3c9ef6e4142363b6ac522">tab_unselected_pressed_pde</a> = 0x7f020099</td></tr>
+</table>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="a4d1d8515832f6bc725e058bad662927f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.ab_dropdown_background = 0x7f020000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6944a245c0f243767963c8236c396c13"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.ab_ic_menu_overflow_normal = 0x7f020001</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af7acfcdf9963d85d99f9be0ff915c0a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.ab_stacked_solid_pde = 0x7f020002</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a630e77572869bf18cbb115bc46229cca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.ab_transparent_pde = 0x7f020003</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1aafe2753514d0a76dd62b099511296d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_bottom_solid_dark_holo = 0x7f020004</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab0d550d39c080a5fe21051c70c2a3c68"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_bottom_solid_light_holo = 0x7f020005</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a478ce053ebbd7510d5189510626bba03"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_bottom_transparent_dark_holo = 0x7f020006</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a91d8578d9bbbe4d6241ee6dcd3b4a000"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_bottom_transparent_light_holo = 0x7f020007</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a580960aac681d995d58c20c28706ee5f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_share_pack_holo_dark = 0x7f020008</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0b4f563077104877356451f20809c2d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_share_pack_holo_light = 0x7f020009</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af75117c9724f1f55fb7e91c974c10cc9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_solid_dark_holo = 0x7f02000a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaad58911dc7801ef19a31d00a4cfc4e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_solid_light_holo = 0x7f02000b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaa36994265f7c8ee1a122c3c131e742c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_stacked_solid_dark_holo = 0x7f02000c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a84309a015eb99004cb0fb735e31d9e04"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_stacked_solid_light_holo = 0x7f02000d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8a1ba88ccdc97cec34e0afd88e11ba4c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_stacked_transparent_dark_holo = 0x7f02000e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6015b0745789fcf9e866aefb6cd0d05c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_stacked_transparent_light_holo = 0x7f02000f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9922cd7174eb5244532de458ac5927ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_transparent_dark_holo = 0x7f020010</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a74239d9354702adf4f65638e8c50a653"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ab_transparent_light_holo = 0x7f020011</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af0253c35da33f5d36f36cedde1010a10"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_cab_background_bottom_holo_dark = 0x7f020012</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0ce3bbbb41eba58568e3cbf1e7cbe14e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_cab_background_bottom_holo_light = 0x7f020013</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae88654a78484a304a52e6493442bddf0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_cab_background_top_holo_dark = 0x7f020014</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3d4b11e0037beb4479b45ec36bcd8489"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_cab_background_top_holo_light = 0x7f020015</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a76a98131c9f382da54e6a8c89bb16976"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_ab_back_holo_dark = 0x7f020016</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae3354e5c6913fcfdec71eb2e421a054b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_ab_back_holo_light = 0x7f020017</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a88d23b9e22ce580acecd1222d03dd7cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_cab_done_holo_dark = 0x7f020018</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a835f104f097e16aa0b36f7c1993c7bba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_cab_done_holo_light = 0x7f020019</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aace5fdacebc963c313deb55651638a2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_clear = 0x7f02001a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9c5f28249034d8877c8ae2f5773b0277"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_clear_disabled = 0x7f02001b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2038b4fe675431c337c93b5d52f3593c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_clear_holo_light = 0x7f02001c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a11228683779f57ecbf951bea097d34ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_clear_normal = 0x7f02001d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad453f59ecbccf0faf7b94eb567d23418"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_clear_search_api_disabled_holo_light = 0x7f02001e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1768d4ae905550e3fa9c046f28736626"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_clear_search_api_holo_light = 0x7f02001f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a01279a6fe626ab9aa06de330df3fe930"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_commit_search_api_holo_dark = 0x7f020020</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af7a6456488cf5e2b766e055dd8140901"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_commit_search_api_holo_light = 0x7f020021</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9a1af92bf6ae34c4881d3e31ecf0adb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_go = 0x7f020022</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4280747f3d32858797c172bf25a735b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_go_search_api_holo_light = 0x7f020023</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aea7055c8bdd84d44318372444afe223e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_menu_moreoverflow_normal_holo_dark = 0x7f020024</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5e0cef922ce5ba140927729a4071f913"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_menu_moreoverflow_normal_holo_light = 0x7f020025</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a52c3b036586dc23e3f2850210cca95dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_menu_share_holo_dark = 0x7f020026</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afaf77d6c43380293f40693ef892d9320"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_menu_share_holo_light = 0x7f020027</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a212c4904b16d343080e00a393366d85f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_search = 0x7f020028</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa18697dd515a7aa611ab7b7ef97fe660"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_search_api_holo_light = 0x7f020029</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad3d296aa4b9bbd45ec4b0b2cc8ea774e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_voice_search = 0x7f02002a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1cff83214c149d7006ff71c05f5390aa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_ic_voice_search_api_holo_light = 0x7f02002b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a007db07b100eff000e6ab77df8d566c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_item_background_holo_dark = 0x7f02002c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af14ce48cd2f2d957f53c7df71e1c8134"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_item_background_holo_light = 0x7f02002d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae151876117cec69a62b468a929b12cb8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_divider_holo_dark = 0x7f02002e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5220ea9bb03911e070f368186798992b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_divider_holo_light = 0x7f02002f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2cc12e9870c2d34634ad5609a16cd4ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_focused_holo = 0x7f020030</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad4cc43067e13b146df461927b76bab79"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_longpressed_holo = 0x7f020031</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a738280128784670004a8f07f74aa7ee8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_pressed_holo_dark = 0x7f020032</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0ff8d92e236270d1dbc2b8e65741e507"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_pressed_holo_light = 0x7f020033</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a70aa3cb542064f84f13ddb1b33ce3c86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_selector_background_transition_holo_dark = 0x7f020034</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a67f3201183e7f37c665fc05cac6b85c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_selector_background_transition_holo_light = 0x7f020035</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abaa3a398c5140c154cb95857108255cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_selector_disabled_holo_dark = 0x7f020036</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae28383c8a65ef89a1894044ebc2e27bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_selector_disabled_holo_light = 0x7f020037</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4c401e2f2473737b490cc3359ccb8ac1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_selector_holo_dark = 0x7f020038</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9516460f3068851201206a0ac7df5550"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_list_selector_holo_light = 0x7f020039</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5ee1c0040856269b1c5da38ddad47338"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_menu_dropdown_panel_holo_dark = 0x7f02003a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afab2ec50a20f849d5aa80186630546ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_menu_dropdown_panel_holo_light = 0x7f02003b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adbe9f0c71b45005251d4e1bc116499ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_menu_hardkey_panel_holo_dark = 0x7f02003c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a214f9386bc381372572d424ce7a81ec4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_menu_hardkey_panel_holo_light = 0x7f02003d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adf51e5335472e6c1df99be8b5ca80b3c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_search_dropdown_dark = 0x7f02003e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a20a875af8dbdaa3675809f6e3ffd67ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_search_dropdown_light = 0x7f02003f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1dc0f905d835d8fb2b4feccca57dad0e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_spinner_ab_default_holo_dark = 0x7f020040</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a429c87c86610d581b4834b0edbb53218"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_spinner_ab_default_holo_light = 0x7f020041</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac4adb960a1f4d63f9f18a42b58ec1749"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_spinner_ab_disabled_holo_dark = 0x7f020042</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae1827bea36ae20c6b71b1a4b42421f7b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_spinner_ab_disabled_holo_light = 0x7f020043</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abba535e634925060e190e4beb3bb9b97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_spinner_ab_focused_holo_dark = 0x7f020044</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a74d3fdeb0a12b80464fd6ff98eab68b3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_spinner_ab_focused_holo_light = 0x7f020045</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a27fecc1350686bbfd72f2ef2bed33ae7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_spinner_ab_holo_dark = 0x7f020046</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5999c9025fa8bd66f2ac4f97e7c4c01d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_spinner_ab_holo_light = 0x7f020047</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afbd19d839627ae597a2fee24402d12b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_spinner_ab_pressed_holo_dark = 0x7f020048</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ace7862016ffad014cb0ea465e1f7f11b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_spinner_ab_pressed_holo_light = 0x7f020049</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6dd2df66320bec2bbd5dac30d10f030f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_tab_indicator_ab_holo = 0x7f02004a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a971ac36252a6678b540e26b0b43db076"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_tab_selected_focused_holo = 0x7f02004b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af7e3146d0273d1a8e68496822cf39479"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_tab_selected_holo = 0x7f02004c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad8c90f5e3b08df9faac9f0c598b72512"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_tab_selected_pressed_holo = 0x7f02004d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af659f206a7c4ba5e5959ced42745a56c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_tab_unselected_pressed_holo = 0x7f02004e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a106c1b38824ca1c12abd24af74333031"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_search_default_holo_dark = 0x7f02004f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9940c208af7b90aa2b1929c36aa12374"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_search_default_holo_light = 0x7f020050</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4b4a0080c6806f35ed8f78902191ad3f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_search_right_default_holo_dark = 0x7f020051</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aad21a3930029f098ea0575ffe46710fd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_search_right_default_holo_light = 0x7f020052</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad3fb66168de0b6f2b69a5e3c7243b5d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_search_right_selected_holo_dark = 0x7f020053</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a95f63c8579b938cfaf4247abf098e6d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_search_right_selected_holo_light = 0x7f020054</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2b5ed84141460e57d6f5dd690f0c5215"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_search_selected_holo_dark = 0x7f020055</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a96d964ab6a0e52f2bcae9a350b36b6c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_search_selected_holo_light = 0x7f020056</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a684c675b563a7d2d2b4b5b1b6673ec82"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_searchview_holo_dark = 0x7f020057</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4675d5d744223196501e839e1a6a3f22"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_searchview_holo_light = 0x7f020058</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af9b0af58395a1b12344c159cdb9f4919"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_searchview_right_holo_dark = 0x7f020059</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aafbfc758f722fdcaf93851df4b006b04"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.abc_textfield_searchview_right_holo_light = 0x7f02005a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5d6b0798c061c71939af3df98912197e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_comment = 0x7f02005b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acaf1611a6ff41c63fc7f2cf56aa85b54"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_comment_small = 0x7f02005c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae6f1c38daa408c3ac4b8f8bec99292f7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_delete = 0x7f02005d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a855eaae6b1fb653e768d76bc9e43b271"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_delete_small = 0x7f02005e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8c44620bd914dc5b410f57798226b68"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_donwload_small = 0x7f02005f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a98a05498daa903d68ac25d735c7b2748"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_download = 0x7f020060</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af4861137ddde28b77e9d030698c9b955"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_download_small = 0x7f020061</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1cababc1d4960431a51d715e882aa8a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_edit = 0x7f020062</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abfb51ad8ff7fb85072e60579e616dbb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_mode_background = 0x7f020063</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a33a14680d13c25d4c8df9c40508eccb0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_mode_split_background = 0x7f020064</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5b01f3aa78da9b54d3644edd19fd1715"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_move = 0x7f020065</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7db71de8592fa71d67772e16b7c96b7d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_move_small = 0x7f020066</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5f96edcfa24b51909d47027b5c714970"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_selectall = 0x7f020067</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac5bc6b0fd9bc9db980042471001b4488"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_share = 0x7f020068</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a620fbe3efd06eb841867a33edfd177da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_share_small = 0x7f020069</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad61c83b6d9466d0acfb0e405332ed71f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.action_upload = 0x7f02006a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1a6a95bf1e20303ac97a208b8829cea2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.actionbar_bottom_line = 0x7f02006b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a84bb02b4566fea23ca4da9682474c527"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.baum2008 = 0x7f02006c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac5e4373d31e53e4798d499fdece452de"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.blue_bounds = 0x7f02006d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae6809d3dfc06054dd8368742565d91da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.btn_cab_done_default_pde = 0x7f02006e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa25806b34f492a0bdc7d245d074fd600"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.btn_cab_done_focused_pde = 0x7f02006f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af0ea22dd96be08168c812f1a5dc8c31a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.btn_cab_done_pde = 0x7f020070</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa2b53ec80c5bf5b7567fe829aa846b8b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.btn_cab_done_pressed_pde = 0x7f020071</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a43d93e3cc6a08caaadee638c1903a0e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.checkmark_light_l = 0x7f020072</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac3218a713f2f02d4b18de2510fcdc648"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.checkmark_light_m = 0x7f020073</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af1334ac59d90b22dfc34ac47fb2f056c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.code_samples_launcher_icon = 0x7f020074</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad61946cdcf4200ec7edf06430ae2bb86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.code_samples_splash_icon = 0x7f020075</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a71c40faf46399a876b0bc923f2a34015"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.couple = 0x7f020076</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a24da439b02bebd1fdf2a8951c09afc0d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.cursor_drawable = 0x7f020077</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae8a86af4f824e436265b187c39a60405"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.ic_drawer = 0x7f020078</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a861d170b43a080ee218335fb95048ed5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.ic_launcher = 0x7f020079</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9d0a24c19e1e22a3d28ca4c3dc199fb8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.information_icon = 0x7f02007a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad4fe19957fec7bd3dae7acd824ba224b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.kids = 0x7f02007b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abf60c0e83863e9d2c39763b999e80588"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.leftmenu_background = 0x7f02007c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a77ade831e5fa3b84f6996e53de2bd1d8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.leftmenu_button_default = 0x7f02007d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9a73f1d21e73f5910767694984c7cb53"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.leftmenu_button_pressed = 0x7f02007e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a698181ceb446b58e37a87d8e83a00afb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.leftmenu_button_selector = 0x7f02007f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa1226af5cc2693381b57ef6160a77093"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.list_focused_pde = 0x7f020080</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a383466a1e4591bb32af638c197f7b0f7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.logo_1t3_2bu = 0x7f020081</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a54e45f265de332f364bedd5880066e5e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.logo_1t3_3bu = 0x7f020082</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a623e9db67df87d5a6aed676bf159443f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.mainlist_icon_folder = 0x7f020083</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1d06da34127c02010a5255124aed6f42"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.mainlist_icon_settings = 0x7f020084</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afe8df0e88a8b64ec73bc80ef9ce91298"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.mainlist_icon_share = 0x7f020085</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6702aa69aed0738a1b8137471b85eb60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.multiple_select_listitem_selector = 0x7f020086</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad88d03e226582557784e939b5790a75d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.pressed_background_pde = 0x7f020087</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7f84d09efeaf30b9e10e934bc447744b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.progress_bg_pde = 0x7f020088</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aefeb5aec4fc82aec49dccb9ea2d7ae06"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.progress_horizontal_pde = 0x7f020089</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad00dacefacb1def4eea110b205961527"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.progress_primary_pde = 0x7f02008a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ada53a86b8cf095dffe30875917c87133"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.progress_secondary_pde = 0x7f02008b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a735970bb6d7307c491c2439b67429940"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.red_bounds = 0x7f02008c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a49cc303bc7c46ccde1d725574942b93b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.selectable_background_pde = 0x7f02008d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2b1f2a5392664ee5dbe275c793971850"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.spinner_ab_default_pde = 0x7f02008e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af98f87b2ec19e154bbde5d75cd9d87c9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.spinner_ab_disabled_pde = 0x7f02008f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af55d95955e2d21d0429b7afdaa03759d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.spinner_ab_focused_pde = 0x7f020090</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a57ec30706db6fa8551e311986ec8107a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.spinner_ab_pressed_pde = 0x7f020091</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afecc73e4fd4c8ca40426a0f7ed976fc1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.spinner_background_ab_pde = 0x7f020092</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae48aa6a878356a2e36826d305461cbce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.synchronize_generic_plain_center = 0x7f020093</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0d43318301a723e3efba1d2e5bbe7466"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.tab_indicator_ab_pde = 0x7f020094</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeb9c0ea452834bb886ae269221a17f08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.tab_selected_focused_pde = 0x7f020095</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af774e6338767f6f68a78df985940abd5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.tab_selected_pde = 0x7f020096</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3e5cd33b7b0710ed33987eaa972b40ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.tab_selected_pressed_pde = 0x7f020097</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2bf5ba6414b23b515508584206af17d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.tab_unselected_focused_pde = 0x7f020098</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a05536ab859a3c9ef6e4142363b6ac522"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.drawable.tab_unselected_pressed_pde = 0x7f020099</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeSamples/gen/de/telekom/pde/codelibrary/samples/<a class="el" href="_p_d_e_code_samples_2gen_2de_2telekom_2pde_2codelibrary_2samples_2_r_8java.html">R.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

@@ -32,6 +32,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_
     [ "mListPosition", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#ad613dc596585fcab2d830d3124338912", null ],
     [ "mHolder", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#a115fc0593d4022fda420a7c1f035f26b", null ],
     [ "mEventSource", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#af82b5ba5f4e561fadfd74cff2453d25c", null ],
+    [ "mStrongPDEEventListenerHolder", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#a4988b7d5de44be6ed016cfe421fef32c", null ],
     [ "PDE_LIST_ITEM_EVENT_ACTION_SELECTED", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#abafa69a173286c36ceb8448062d7565c", null ],
     [ "PDE_LIST_ITEM_EVENT_ACTION_WILL_BE_SELECTED", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html#ab274a161698670b5eb58473711640744", null ]
 ];

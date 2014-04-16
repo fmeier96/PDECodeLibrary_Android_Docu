@@ -1,0 +1,3581 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-library-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button flat" href="https://www.design.telekom.com/">
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.samples.R.style Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a35646e685ee842da5a9696a3db332de5"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a35646e685ee842da5a9696a3db332de5">ActionBar_Solid_Pde</a> = 0x7f0c008b</td></tr>
+<tr class="memitem:ad079ecd1d3368d165dd730288f12f1c2"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ad079ecd1d3368d165dd730288f12f1c2">ActionBar_Transparent_Pde</a> = 0x7f0c008c</td></tr>
+<tr class="memitem:a5996058f36bf9d8d8c60d7390f8c73c9"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a5996058f36bf9d8d8c60d7390f8c73c9">ActionBarTabStyle_Pde</a> = 0x7f0c008f</td></tr>
+<tr class="memitem:ae08486ced8e85079a9d5d8d69c484f7d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ae08486ced8e85079a9d5d8d69c484f7d">ActionButton_CloseMode_Pde</a> = 0x7f0c0092</td></tr>
+<tr class="memitem:a2050ef483e63d3a97fd6d98e1bb87b53"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a2050ef483e63d3a97fd6d98e1bb87b53">AppBaseTheme</a> = 0x7f0c009c</td></tr>
+<tr class="memitem:af58a599a686a67efcfd7dc45f573b528"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#af58a599a686a67efcfd7dc45f573b528">DropDownListView_Pde</a> = 0x7f0c008e</td></tr>
+<tr class="memitem:a1a0ad3ac748996ef8353738649f74664"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a1a0ad3ac748996ef8353738649f74664">DropDownNav_Pde</a> = 0x7f0c0090</td></tr>
+<tr class="memitem:a7457ffd8cb7bafc7cab9ed047dfeeef7"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a7457ffd8cb7bafc7cab9ed047dfeeef7">FontTestViewTextStyle</a> = 0x7f0c009b</td></tr>
+<tr class="memitem:a54f2e249fa8c90637e19b7f124f90768"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a54f2e249fa8c90637e19b7f124f90768">OverFlow_PDE</a> = 0x7f0c0095</td></tr>
+<tr class="memitem:ad24852153ed8dbd3952dea67f7f7ab73"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ad24852153ed8dbd3952dea67f7f7ab73">PopupMenu_Pde</a> = 0x7f0c008d</td></tr>
+<tr class="memitem:a861cdc7185985a4539a9a2a70d74d20a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a861cdc7185985a4539a9a2a70d74d20a">ProgressBar_Pde</a> = 0x7f0c0091</td></tr>
+<tr class="memitem:ad5bf21f4d146648b2d4e665275619949"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ad5bf21f4d146648b2d4e665275619949">SlidingMenu_Btn</a> = 0x7f0c0094</td></tr>
+<tr class="memitem:ab16930ba959a544d438490378bf36f77"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ab16930ba959a544d438490378bf36f77">TextAppearance_AppCompat_Base_CompactMenu_Dialog</a> = 0x7f0c0063</td></tr>
+<tr class="memitem:a52828ce414263fb216498852c38e679a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a52828ce414263fb216498852c38e679a">TextAppearance_AppCompat_Base_SearchResult</a> = 0x7f0c006d</td></tr>
+<tr class="memitem:a80ec03180a011812f339e5e8675dff22"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a80ec03180a011812f339e5e8675dff22">TextAppearance_AppCompat_Base_SearchResult_Subtitle</a> = 0x7f0c006f</td></tr>
+<tr class="memitem:ac44b574d9004c157b201a2cb116a4afd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ac44b574d9004c157b201a2cb116a4afd">TextAppearance_AppCompat_Base_SearchResult_Title</a> = 0x7f0c006e</td></tr>
+<tr class="memitem:a09634dc3c0f519417739678c430afbd0"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a09634dc3c0f519417739678c430afbd0">TextAppearance_AppCompat_Base_Widget_PopupMenu_Large</a> = 0x7f0c0069</td></tr>
+<tr class="memitem:aef229a4dc8ece68a06747e7ac5065b80"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aef229a4dc8ece68a06747e7ac5065b80">TextAppearance_AppCompat_Base_Widget_PopupMenu_Small</a> = 0x7f0c006a</td></tr>
+<tr class="memitem:ab0e0000f70ad678ea64dd96ee21405b4"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ab0e0000f70ad678ea64dd96ee21405b4">TextAppearance_AppCompat_Light_Base_SearchResult</a> = 0x7f0c0070</td></tr>
+<tr class="memitem:a7c9468c972ec4aa4e7bc34d002aa85e3"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a7c9468c972ec4aa4e7bc34d002aa85e3">TextAppearance_AppCompat_Light_Base_SearchResult_Subtitle</a> = 0x7f0c0072</td></tr>
+<tr class="memitem:aa331ae9005982aaf1e36f9d561dcbdd5"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aa331ae9005982aaf1e36f9d561dcbdd5">TextAppearance_AppCompat_Light_Base_SearchResult_Title</a> = 0x7f0c0071</td></tr>
+<tr class="memitem:a066fcf001de80c0f4f5b4e9289382a7c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a066fcf001de80c0f4f5b4e9289382a7c">TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Large</a> = 0x7f0c006b</td></tr>
+<tr class="memitem:abfce3afed200a01a82613a3388bffcd6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#abfce3afed200a01a82613a3388bffcd6">TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Small</a> = 0x7f0c006c</td></tr>
+<tr class="memitem:ad665d8d14ebfdf43affe2899c734dddf"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ad665d8d14ebfdf43affe2899c734dddf">TextAppearance_AppCompat_Light_SearchResult_Subtitle</a> = 0x7f0c0035</td></tr>
+<tr class="memitem:aba89d078a3a3527348b869aa6a0062a2"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aba89d078a3a3527348b869aa6a0062a2">TextAppearance_AppCompat_Light_SearchResult_Title</a> = 0x7f0c0034</td></tr>
+<tr class="memitem:a048b5b94ab3bc84870e9857e14f8b8e6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a048b5b94ab3bc84870e9857e14f8b8e6">TextAppearance_AppCompat_Light_Widget_PopupMenu_Large</a> = 0x7f0c0030</td></tr>
+<tr class="memitem:a9b7daa1feddecb794756dd3b590d9acd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a9b7daa1feddecb794756dd3b590d9acd">TextAppearance_AppCompat_Light_Widget_PopupMenu_Small</a> = 0x7f0c0031</td></tr>
+<tr class="memitem:a5bae036658e5a9fc8052b84ffcfce877"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a5bae036658e5a9fc8052b84ffcfce877">TextAppearance_AppCompat_SearchResult_Subtitle</a> = 0x7f0c0033</td></tr>
+<tr class="memitem:ae1c0ec9aae1831ea4b72a8d032639339"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ae1c0ec9aae1831ea4b72a8d032639339">TextAppearance_AppCompat_SearchResult_Title</a> = 0x7f0c0032</td></tr>
+<tr class="memitem:a0081a61729971a92ea66a9dfa55c2c37"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a0081a61729971a92ea66a9dfa55c2c37">TextAppearance_AppCompat_Widget_ActionBar_Menu</a> = 0x7f0c001a</td></tr>
+<tr class="memitem:a206e729b4e412427d45e3fc85f5b5735"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a206e729b4e412427d45e3fc85f5b5735">TextAppearance_AppCompat_Widget_ActionBar_Subtitle</a> = 0x7f0c0006</td></tr>
+<tr class="memitem:ac45033e9e48efb1b3f5dfb2ac01cfb82"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ac45033e9e48efb1b3f5dfb2ac01cfb82">TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse</a> = 0x7f0c0008</td></tr>
+<tr class="memitem:ae63b17390ddd7ed78998b1646b8d2c5b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ae63b17390ddd7ed78998b1646b8d2c5b">TextAppearance_AppCompat_Widget_ActionBar_Title</a> = 0x7f0c0005</td></tr>
+<tr class="memitem:a4761e876f934df50f71737171c05372e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a4761e876f934df50f71737171c05372e">TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse</a> = 0x7f0c0007</td></tr>
+<tr class="memitem:acc5b8e62da9dc0f2826f759345b90fcd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#acc5b8e62da9dc0f2826f759345b90fcd">TextAppearance_AppCompat_Widget_ActionMode_Subtitle</a> = 0x7f0c001e</td></tr>
+<tr class="memitem:a4d0fae07f6837e4ed731915c63486453"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a4d0fae07f6837e4ed731915c63486453">TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse</a> = 0x7f0c0020</td></tr>
+<tr class="memitem:ae6aa54a2b8ea7b6dd85802f10400561b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ae6aa54a2b8ea7b6dd85802f10400561b">TextAppearance_AppCompat_Widget_ActionMode_Title</a> = 0x7f0c001d</td></tr>
+<tr class="memitem:a9e6dda4639e13786c892f1ab85b349da"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a9e6dda4639e13786c892f1ab85b349da">TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse</a> = 0x7f0c001f</td></tr>
+<tr class="memitem:a47c1f8ebf9b157e183a5fe2c28b9e175"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a47c1f8ebf9b157e183a5fe2c28b9e175">TextAppearance_AppCompat_Widget_Base_ActionBar_Menu</a> = 0x7f0c0054</td></tr>
+<tr class="memitem:ad8a74cdedf6c6b297260d53d1497d5cd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ad8a74cdedf6c6b297260d53d1497d5cd">TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle</a> = 0x7f0c0056</td></tr>
+<tr class="memitem:a8254c2ee5e111e2d03e85a337dfa1c93"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a8254c2ee5e111e2d03e85a337dfa1c93">TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle_Inverse</a> = 0x7f0c0058</td></tr>
+<tr class="memitem:a02921b6315b061afa1f01784b0fe844e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a02921b6315b061afa1f01784b0fe844e">TextAppearance_AppCompat_Widget_Base_ActionBar_Title</a> = 0x7f0c0055</td></tr>
+<tr class="memitem:ab4cc546b00769076f05fb4c7a8cb0b4c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ab4cc546b00769076f05fb4c7a8cb0b4c">TextAppearance_AppCompat_Widget_Base_ActionBar_Title_Inverse</a> = 0x7f0c0057</td></tr>
+<tr class="memitem:a9381c98ac60a3feacd027d9ec2033378"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a9381c98ac60a3feacd027d9ec2033378">TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle</a> = 0x7f0c0051</td></tr>
+<tr class="memitem:ad1bd7427e56c7bf631ff7a64b85522c6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ad1bd7427e56c7bf631ff7a64b85522c6">TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle_Inverse</a> = 0x7f0c0053</td></tr>
+<tr class="memitem:a72511f5e771db2875392d0380360f6dd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a72511f5e771db2875392d0380360f6dd">TextAppearance_AppCompat_Widget_Base_ActionMode_Title</a> = 0x7f0c0050</td></tr>
+<tr class="memitem:a3a20dd13c5ac81d145af557ee0361646"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a3a20dd13c5ac81d145af557ee0361646">TextAppearance_AppCompat_Widget_Base_ActionMode_Title_Inverse</a> = 0x7f0c0052</td></tr>
+<tr class="memitem:aa623f7f66006557ead237a3b4d5fe0ef"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aa623f7f66006557ead237a3b4d5fe0ef">TextAppearance_AppCompat_Widget_Base_DropDownItem</a> = 0x7f0c0061</td></tr>
+<tr class="memitem:a82cf77aae4ac4e1f437eae02bd9d2809"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a82cf77aae4ac4e1f437eae02bd9d2809">TextAppearance_AppCompat_Widget_DropDownItem</a> = 0x7f0c0021</td></tr>
+<tr class="memitem:a19805ff12ddc9aa833fa14a15114d9a1"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a19805ff12ddc9aa833fa14a15114d9a1">TextAppearance_AppCompat_Widget_PopupMenu_Large</a> = 0x7f0c002e</td></tr>
+<tr class="memitem:a562a13a6e11300f502465b85b99155b5"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a562a13a6e11300f502465b85b99155b5">TextAppearance_AppCompat_Widget_PopupMenu_Small</a> = 0x7f0c002f</td></tr>
+<tr class="memitem:a6369d432de318b2629b6e2a72d740474"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a6369d432de318b2629b6e2a72d740474">TextAppearance_Widget_AppCompat_Base_ExpandedMenu_Item</a> = 0x7f0c0062</td></tr>
+<tr class="memitem:afba2411369d5a75480127846f70ebf59"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#afba2411369d5a75480127846f70ebf59">TextAppearance_Widget_AppCompat_ExpandedMenu_Item</a> = 0x7f0c0028</td></tr>
+<tr class="memitem:a994389a2c6c5b9a8295207dc0de3634e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a994389a2c6c5b9a8295207dc0de3634e">TextAppearance_TeleGrotesk_DefaultSize_DTDarkUIText</a> = 0x7f0c009d</td></tr>
+<tr class="memitem:a7f906a04d6ce2dcb47b02034e2623baf"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a7f906a04d6ce2dcb47b02034e2623baf">TextAppearance_TeleGrotesk_DefaultSize_DTLightUIText</a> = 0x7f0c009e</td></tr>
+<tr class="memitem:a657f6464015e3f20eed02893cfe0912a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a657f6464015e3f20eed02893cfe0912a">Theme_AppCompat</a> = 0x7f0c0077</td></tr>
+<tr class="memitem:a56c0c66efe11454403c757cd187b9c18"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a56c0c66efe11454403c757cd187b9c18">Theme_AppCompat_Base_CompactMenu</a> = 0x7f0c0083</td></tr>
+<tr class="memitem:ad3ad8b366ed2662aaf3bec1f7fb111f5"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ad3ad8b366ed2662aaf3bec1f7fb111f5">Theme_AppCompat_Base_CompactMenu_Dialog</a> = 0x7f0c0084</td></tr>
+<tr class="memitem:aae7deb713f0f1f746f5f456c03f4a1a8"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aae7deb713f0f1f746f5f456c03f4a1a8">Theme_AppCompat_CompactMenu</a> = 0x7f0c007c</td></tr>
+<tr class="memitem:aed543ceed2228cb63825d9c06840aa09"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aed543ceed2228cb63825d9c06840aa09">Theme_AppCompat_CompactMenu_Dialog</a> = 0x7f0c007d</td></tr>
+<tr class="memitem:a32054d95f0843a50c5c7ae0c9216de6b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a32054d95f0843a50c5c7ae0c9216de6b">Theme_AppCompat_DialogWhenLarge</a> = 0x7f0c007a</td></tr>
+<tr class="memitem:a1fae71ad33f262892e4c1e87113d1bcd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a1fae71ad33f262892e4c1e87113d1bcd">Theme_AppCompat_Light</a> = 0x7f0c0078</td></tr>
+<tr class="memitem:aef3f92a2393b0e66f3611de6814f81c2"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aef3f92a2393b0e66f3611de6814f81c2">Theme_AppCompat_Light_DarkActionBar</a> = 0x7f0c0079</td></tr>
+<tr class="memitem:ab6f1fda104158e5255ab7c8d76cf3c2c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ab6f1fda104158e5255ab7c8d76cf3c2c">Theme_AppCompat_Light_DialogWhenLarge</a> = 0x7f0c007b</td></tr>
+<tr class="memitem:a4073e8e326053d2d9de473c97a702637"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a4073e8e326053d2d9de473c97a702637">Theme_Base</a> = 0x7f0c007e</td></tr>
+<tr class="memitem:a846a6605a380a48aa7820cd4f16604b6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a846a6605a380a48aa7820cd4f16604b6">Theme_Base_AppCompat</a> = 0x7f0c0080</td></tr>
+<tr class="memitem:af3b335453e0c08cd1b23375905854345"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#af3b335453e0c08cd1b23375905854345">Theme_Base_AppCompat_Dialog_FixedSize</a> = 0x7f0c0087</td></tr>
+<tr class="memitem:aaca12f52ce4861d4d72fbd8429efac1c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aaca12f52ce4861d4d72fbd8429efac1c">Theme_Base_AppCompat_Dialog_Light_FixedSize</a> = 0x7f0c0088</td></tr>
+<tr class="memitem:a64d6824c3367fc274aed7340f82e79a4"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a64d6824c3367fc274aed7340f82e79a4">Theme_Base_AppCompat_DialogWhenLarge</a> = 0x7f0c0085</td></tr>
+<tr class="memitem:aed3bdec587c19b7ff2475503e203ca2d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aed3bdec587c19b7ff2475503e203ca2d">Theme_Base_AppCompat_DialogWhenLarge_Base</a> = 0x7f0c0089</td></tr>
+<tr class="memitem:ae62dc6903ee6ae88850cb45f2d99897c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ae62dc6903ee6ae88850cb45f2d99897c">Theme_Base_AppCompat_Light</a> = 0x7f0c0081</td></tr>
+<tr class="memitem:a06c8fd0a071e12d397685cb590f3b904"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a06c8fd0a071e12d397685cb590f3b904">Theme_Base_AppCompat_Light_DarkActionBar</a> = 0x7f0c0082</td></tr>
+<tr class="memitem:a16b1a784d1ed2d54b621c9f8ec4334a3"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a16b1a784d1ed2d54b621c9f8ec4334a3">Theme_Base_AppCompat_Light_DialogWhenLarge</a> = 0x7f0c0086</td></tr>
+<tr class="memitem:a4bdca3d378026f4c5d096667eb7b478c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a4bdca3d378026f4c5d096667eb7b478c">Theme_Base_AppCompat_Light_DialogWhenLarge_Base</a> = 0x7f0c008a</td></tr>
+<tr class="memitem:a294b2e3568a28f3c383ba6ba609c0a96"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a294b2e3568a28f3c383ba6ba609c0a96">Theme_Base_Light</a> = 0x7f0c007f</td></tr>
+<tr class="memitem:a2c9c28b49a602f41ebbe4343dc901cbe"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a2c9c28b49a602f41ebbe4343dc901cbe">Theme_PDE</a> = 0x7f0c0096</td></tr>
+<tr class="memitem:a814f655b7e9f626a5bd5ea07de65a715"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a814f655b7e9f626a5bd5ea07de65a715">Theme_PDE_NoActionBar</a> = 0x7f0c0097</td></tr>
+<tr class="memitem:accaf474ae04b55f93ab7c6ae2ac283f4"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#accaf474ae04b55f93ab7c6ae2ac283f4">Theme_PDEDialog</a> = 0x7f0c009a</td></tr>
+<tr class="memitem:a521b9c67274822279219591830ef601b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a521b9c67274822279219591830ef601b">Theme_Pde</a> = 0x7f0c0099</td></tr>
+<tr class="memitem:a8e7ae66e562b28999f4be0be62206d8a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a8e7ae66e562b28999f4be0be62206d8a">Theme_Pde_Widget</a> = 0x7f0c0093</td></tr>
+<tr class="memitem:aa7d64115c83b1fb2745bec1676296dbf"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aa7d64115c83b1fb2745bec1676296dbf">Widget_AppCompat_ActionBar</a> = 0x7f0c0000</td></tr>
+<tr class="memitem:aea9af9da86abf04d2b2d2de83ff0c055"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aea9af9da86abf04d2b2d2de83ff0c055">Widget_AppCompat_ActionBar_Solid</a> = 0x7f0c0002</td></tr>
+<tr class="memitem:a5c6183b3b809f6f4ca7c3996356f3973"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a5c6183b3b809f6f4ca7c3996356f3973">Widget_AppCompat_ActionBar_TabBar</a> = 0x7f0c0011</td></tr>
+<tr class="memitem:af050203ca12b03800bec2a83185132a3"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#af050203ca12b03800bec2a83185132a3">Widget_AppCompat_ActionBar_TabText</a> = 0x7f0c0017</td></tr>
+<tr class="memitem:adb6ae4190ec1aadf7277bf9bee7341c8"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#adb6ae4190ec1aadf7277bf9bee7341c8">Widget_AppCompat_ActionBar_TabView</a> = 0x7f0c0014</td></tr>
+<tr class="memitem:a6bfc31aea927a7ef85846b6a4b60f14c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a6bfc31aea927a7ef85846b6a4b60f14c">Widget_AppCompat_ActionButton</a> = 0x7f0c000b</td></tr>
+<tr class="memitem:a44d204f35a458870a2c1c87b4fe98ff3"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a44d204f35a458870a2c1c87b4fe98ff3">Widget_AppCompat_ActionButton_CloseMode</a> = 0x7f0c000d</td></tr>
+<tr class="memitem:a37dcbecf6d1ff9624d73140744553a70"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a37dcbecf6d1ff9624d73140744553a70">Widget_AppCompat_ActionButton_Overflow</a> = 0x7f0c000f</td></tr>
+<tr class="memitem:a419cace07433ba8d3dbb081ae5364fd6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a419cace07433ba8d3dbb081ae5364fd6">Widget_AppCompat_ActionMode</a> = 0x7f0c001b</td></tr>
+<tr class="memitem:a7f9c1c1d10f59c300d73ffc71aefdd81"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a7f9c1c1d10f59c300d73ffc71aefdd81">Widget_AppCompat_ActivityChooserView</a> = 0x7f0c0038</td></tr>
+<tr class="memitem:ada18647c99c75a78208e46761c89d9dc"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ada18647c99c75a78208e46761c89d9dc">Widget_AppCompat_AutoCompleteTextView</a> = 0x7f0c0036</td></tr>
+<tr class="memitem:ae9c93244bc49a1dae891d652b420e0f3"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ae9c93244bc49a1dae891d652b420e0f3">Widget_AppCompat_Base_ActionBar</a> = 0x7f0c003a</td></tr>
+<tr class="memitem:a4c7bb44cdf639829fdc572c5ffbb68bf"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a4c7bb44cdf639829fdc572c5ffbb68bf">Widget_AppCompat_Base_ActionBar_Solid</a> = 0x7f0c003c</td></tr>
+<tr class="memitem:ad3aa290936ea72bd07ec3aef01c161c7"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ad3aa290936ea72bd07ec3aef01c161c7">Widget_AppCompat_Base_ActionBar_TabBar</a> = 0x7f0c0045</td></tr>
+<tr class="memitem:a494ef7fc2ec073c119590676edc60e64"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a494ef7fc2ec073c119590676edc60e64">Widget_AppCompat_Base_ActionBar_TabText</a> = 0x7f0c004b</td></tr>
+<tr class="memitem:afffd4a210dcf901d61f979e0c7086b94"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#afffd4a210dcf901d61f979e0c7086b94">Widget_AppCompat_Base_ActionBar_TabView</a> = 0x7f0c0048</td></tr>
+<tr class="memitem:a769f30c316af9a1e03aaa467cc5b9110"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a769f30c316af9a1e03aaa467cc5b9110">Widget_AppCompat_Base_ActionButton</a> = 0x7f0c003f</td></tr>
+<tr class="memitem:aee8f05d9d9722c770dbee457e8927488"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aee8f05d9d9722c770dbee457e8927488">Widget_AppCompat_Base_ActionButton_CloseMode</a> = 0x7f0c0041</td></tr>
+<tr class="memitem:a9ffb786a17345207e3a9739b87eff018"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a9ffb786a17345207e3a9739b87eff018">Widget_AppCompat_Base_ActionButton_Overflow</a> = 0x7f0c0043</td></tr>
+<tr class="memitem:a5c32af24be7a90832879c5844a4da2b0"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a5c32af24be7a90832879c5844a4da2b0">Widget_AppCompat_Base_ActionMode</a> = 0x7f0c004e</td></tr>
+<tr class="memitem:a22bbe07a80c5f615b5976c26b5dd2bbb"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a22bbe07a80c5f615b5976c26b5dd2bbb">Widget_AppCompat_Base_ActivityChooserView</a> = 0x7f0c0075</td></tr>
+<tr class="memitem:a16ce8989aa3a4ab71f43ab7854ff8338"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a16ce8989aa3a4ab71f43ab7854ff8338">Widget_AppCompat_Base_AutoCompleteTextView</a> = 0x7f0c0073</td></tr>
+<tr class="memitem:a8fe0854e19dafdc5004477fae4e09aec"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a8fe0854e19dafdc5004477fae4e09aec">Widget_AppCompat_Base_DropDownItem_Spinner</a> = 0x7f0c005d</td></tr>
+<tr class="memitem:a5cb507c412e7ab1443300659d2f38c91"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a5cb507c412e7ab1443300659d2f38c91">Widget_AppCompat_Base_ListPopupWindow</a> = 0x7f0c0065</td></tr>
+<tr class="memitem:ab648867f699bc9f15a6c880e37244a25"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ab648867f699bc9f15a6c880e37244a25">Widget_AppCompat_Base_ListView_DropDown</a> = 0x7f0c005f</td></tr>
+<tr class="memitem:a3802fb101baba90dc1c3c8ddea9dd653"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a3802fb101baba90dc1c3c8ddea9dd653">Widget_AppCompat_Base_ListView_Menu</a> = 0x7f0c0064</td></tr>
+<tr class="memitem:a7893603e99755c60add5376550565601"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a7893603e99755c60add5376550565601">Widget_AppCompat_Base_PopupMenu</a> = 0x7f0c0067</td></tr>
+<tr class="memitem:a274f2448648f10d2d3ad0008600259ca"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a274f2448648f10d2d3ad0008600259ca">Widget_AppCompat_Base_ProgressBar</a> = 0x7f0c005a</td></tr>
+<tr class="memitem:a3268c77921ad373ea346f5ad61546442"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a3268c77921ad373ea346f5ad61546442">Widget_AppCompat_Base_ProgressBar_Horizontal</a> = 0x7f0c0059</td></tr>
+<tr class="memitem:a75f478c45a380e18a0393becc48e3c76"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a75f478c45a380e18a0393becc48e3c76">Widget_AppCompat_Base_Spinner</a> = 0x7f0c005b</td></tr>
+<tr class="memitem:abddd36166659c758760d90c4e49482e8"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#abddd36166659c758760d90c4e49482e8">Widget_AppCompat_DropDownItem_Spinner</a> = 0x7f0c0024</td></tr>
+<tr class="memitem:af2d4f553c25ad21d5c7012430a064791"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#af2d4f553c25ad21d5c7012430a064791">Widget_AppCompat_Light_ActionBar</a> = 0x7f0c0001</td></tr>
+<tr class="memitem:ac57815e85794d41fed963034e4c4999b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ac57815e85794d41fed963034e4c4999b">Widget_AppCompat_Light_ActionBar_Solid</a> = 0x7f0c0003</td></tr>
+<tr class="memitem:ac86b0dd59eb55c9c951b45c655312dbc"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ac86b0dd59eb55c9c951b45c655312dbc">Widget_AppCompat_Light_ActionBar_Solid_Inverse</a> = 0x7f0c0004</td></tr>
+<tr class="memitem:aaa2253c0218b8d3c7d87990a32c10968"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aaa2253c0218b8d3c7d87990a32c10968">Widget_AppCompat_Light_ActionBar_TabBar</a> = 0x7f0c0012</td></tr>
+<tr class="memitem:aa51d777c4da5d37e744b7dee6cc4a581"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aa51d777c4da5d37e744b7dee6cc4a581">Widget_AppCompat_Light_ActionBar_TabBar_Inverse</a> = 0x7f0c0013</td></tr>
+<tr class="memitem:ae22f339b0e9fd063d5238df1b92bef4e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ae22f339b0e9fd063d5238df1b92bef4e">Widget_AppCompat_Light_ActionBar_TabText</a> = 0x7f0c0018</td></tr>
+<tr class="memitem:a1b6e83a42ca1a1ae5c3025133b54ad60"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a1b6e83a42ca1a1ae5c3025133b54ad60">Widget_AppCompat_Light_ActionBar_TabText_Inverse</a> = 0x7f0c0019</td></tr>
+<tr class="memitem:a03c9e8e15854534306d438c2a752f1bd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a03c9e8e15854534306d438c2a752f1bd">Widget_AppCompat_Light_ActionBar_TabView</a> = 0x7f0c0015</td></tr>
+<tr class="memitem:a094eec8ec274a0b34df7a15b46c92704"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a094eec8ec274a0b34df7a15b46c92704">Widget_AppCompat_Light_ActionBar_TabView_Inverse</a> = 0x7f0c0016</td></tr>
+<tr class="memitem:a2bcf8ecdf3114d77928e765e6f1e95e0"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a2bcf8ecdf3114d77928e765e6f1e95e0">Widget_AppCompat_Light_ActionButton</a> = 0x7f0c000c</td></tr>
+<tr class="memitem:a14e71754879d6202d9371d6bf23ef41f"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a14e71754879d6202d9371d6bf23ef41f">Widget_AppCompat_Light_ActionButton_CloseMode</a> = 0x7f0c000e</td></tr>
+<tr class="memitem:a49282d3a3242f616c09a31fcba212333"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a49282d3a3242f616c09a31fcba212333">Widget_AppCompat_Light_ActionButton_Overflow</a> = 0x7f0c0010</td></tr>
+<tr class="memitem:a1cf1b23f0e166dce36b12230ddee5c68"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a1cf1b23f0e166dce36b12230ddee5c68">Widget_AppCompat_Light_ActionMode_Inverse</a> = 0x7f0c001c</td></tr>
+<tr class="memitem:a659b0efaac977d34622ad6d9f4dad2ba"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a659b0efaac977d34622ad6d9f4dad2ba">Widget_AppCompat_Light_ActivityChooserView</a> = 0x7f0c0039</td></tr>
+<tr class="memitem:aad0ae272c1dbe9a299c53624c31dd862"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aad0ae272c1dbe9a299c53624c31dd862">Widget_AppCompat_Light_AutoCompleteTextView</a> = 0x7f0c0037</td></tr>
+<tr class="memitem:aacef6416ed59b4bad489d188f578fbfb"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aacef6416ed59b4bad489d188f578fbfb">Widget_AppCompat_Light_Base_ActionBar</a> = 0x7f0c003b</td></tr>
+<tr class="memitem:a834fc718e249a71fb9e585d6477b4419"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a834fc718e249a71fb9e585d6477b4419">Widget_AppCompat_Light_Base_ActionBar_Solid</a> = 0x7f0c003d</td></tr>
+<tr class="memitem:ac5854a52abf9c2e8186e890212648d9a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ac5854a52abf9c2e8186e890212648d9a">Widget_AppCompat_Light_Base_ActionBar_Solid_Inverse</a> = 0x7f0c003e</td></tr>
+<tr class="memitem:a6f1340b2410ebb89b4ec04c64c293962"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a6f1340b2410ebb89b4ec04c64c293962">Widget_AppCompat_Light_Base_ActionBar_TabBar</a> = 0x7f0c0046</td></tr>
+<tr class="memitem:a42d1ecae627edc6ce592164bc9f88a12"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a42d1ecae627edc6ce592164bc9f88a12">Widget_AppCompat_Light_Base_ActionBar_TabBar_Inverse</a> = 0x7f0c0047</td></tr>
+<tr class="memitem:a8a580e0b77419ac80e69b9a33e0ebc43"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a8a580e0b77419ac80e69b9a33e0ebc43">Widget_AppCompat_Light_Base_ActionBar_TabText</a> = 0x7f0c004c</td></tr>
+<tr class="memitem:a9414fd6866f553ab8242d84e2c1a638d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a9414fd6866f553ab8242d84e2c1a638d">Widget_AppCompat_Light_Base_ActionBar_TabText_Inverse</a> = 0x7f0c004d</td></tr>
+<tr class="memitem:a50d8a66d93c194dc2cc2a5facf2ae2ad"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a50d8a66d93c194dc2cc2a5facf2ae2ad">Widget_AppCompat_Light_Base_ActionBar_TabView</a> = 0x7f0c0049</td></tr>
+<tr class="memitem:a711b5426bda2ddbe66700f07a41c3da1"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a711b5426bda2ddbe66700f07a41c3da1">Widget_AppCompat_Light_Base_ActionBar_TabView_Inverse</a> = 0x7f0c004a</td></tr>
+<tr class="memitem:ab0c50848b9bc59809851708708737b72"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ab0c50848b9bc59809851708708737b72">Widget_AppCompat_Light_Base_ActionButton</a> = 0x7f0c0040</td></tr>
+<tr class="memitem:a1a84773dd49b9afa12e8794a865807bd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a1a84773dd49b9afa12e8794a865807bd">Widget_AppCompat_Light_Base_ActionButton_CloseMode</a> = 0x7f0c0042</td></tr>
+<tr class="memitem:a8793630a4cd50bbfc320a00095f40e44"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a8793630a4cd50bbfc320a00095f40e44">Widget_AppCompat_Light_Base_ActionButton_Overflow</a> = 0x7f0c0044</td></tr>
+<tr class="memitem:a12631a7d2f4d7d0dee711b125c62a465"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a12631a7d2f4d7d0dee711b125c62a465">Widget_AppCompat_Light_Base_ActionMode_Inverse</a> = 0x7f0c004f</td></tr>
+<tr class="memitem:ac6ec214e7121a93ed35b5baaf276ece0"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ac6ec214e7121a93ed35b5baaf276ece0">Widget_AppCompat_Light_Base_ActivityChooserView</a> = 0x7f0c0076</td></tr>
+<tr class="memitem:a1fc7f885093e86afcb6748ad47c46723"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a1fc7f885093e86afcb6748ad47c46723">Widget_AppCompat_Light_Base_AutoCompleteTextView</a> = 0x7f0c0074</td></tr>
+<tr class="memitem:aa31f65846e03eb06528e7fb3a3458865"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aa31f65846e03eb06528e7fb3a3458865">Widget_AppCompat_Light_Base_DropDownItem_Spinner</a> = 0x7f0c005e</td></tr>
+<tr class="memitem:a4b58a54357631afde114f97889e314c1"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a4b58a54357631afde114f97889e314c1">Widget_AppCompat_Light_Base_ListPopupWindow</a> = 0x7f0c0066</td></tr>
+<tr class="memitem:aa9c14e86a24a02316bf21c35b90a1424"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aa9c14e86a24a02316bf21c35b90a1424">Widget_AppCompat_Light_Base_ListView_DropDown</a> = 0x7f0c0060</td></tr>
+<tr class="memitem:a9f2be7e6fadc9f0979524d3e4de94911"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a9f2be7e6fadc9f0979524d3e4de94911">Widget_AppCompat_Light_Base_PopupMenu</a> = 0x7f0c0068</td></tr>
+<tr class="memitem:a4036eebcfb99a6dda82f081f4838a4e3"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a4036eebcfb99a6dda82f081f4838a4e3">Widget_AppCompat_Light_Base_Spinner</a> = 0x7f0c005c</td></tr>
+<tr class="memitem:aa1a193561be3feb2ff2a825c3631af75"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aa1a193561be3feb2ff2a825c3631af75">Widget_AppCompat_Light_DropDownItem_Spinner</a> = 0x7f0c0025</td></tr>
+<tr class="memitem:a1bc0a979cee1632e772e1528e4c3a0c0"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a1bc0a979cee1632e772e1528e4c3a0c0">Widget_AppCompat_Light_ListPopupWindow</a> = 0x7f0c002a</td></tr>
+<tr class="memitem:a21b3262aef654217a26fd294c773b5b2"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a21b3262aef654217a26fd294c773b5b2">Widget_AppCompat_Light_ListView_DropDown</a> = 0x7f0c0027</td></tr>
+<tr class="memitem:a526213b2c0c9d59db34ad1a94cc7b19d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a526213b2c0c9d59db34ad1a94cc7b19d">Widget_AppCompat_Light_PopupMenu</a> = 0x7f0c002c</td></tr>
+<tr class="memitem:abdef98d5c1f9c1d93e866e6bc9bb6a0c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#abdef98d5c1f9c1d93e866e6bc9bb6a0c">Widget_AppCompat_Light_Spinner_DropDown_ActionBar</a> = 0x7f0c0023</td></tr>
+<tr class="memitem:a0010779eb90f15de9e53a3ec3ecddda7"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a0010779eb90f15de9e53a3ec3ecddda7">Widget_AppCompat_ListPopupWindow</a> = 0x7f0c0029</td></tr>
+<tr class="memitem:ad3c34df981e81ffa8fed508c93379793"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#ad3c34df981e81ffa8fed508c93379793">Widget_AppCompat_ListView_DropDown</a> = 0x7f0c0026</td></tr>
+<tr class="memitem:a16b8e00e3467e142e3d2b19a31444ebe"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a16b8e00e3467e142e3d2b19a31444ebe">Widget_AppCompat_ListView_Menu</a> = 0x7f0c002d</td></tr>
+<tr class="memitem:a0c600726da66dc05d94ba857a7d8a68d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a0c600726da66dc05d94ba857a7d8a68d">Widget_AppCompat_PopupMenu</a> = 0x7f0c002b</td></tr>
+<tr class="memitem:aab179cdff06998879216701dd82abd51"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aab179cdff06998879216701dd82abd51">Widget_AppCompat_ProgressBar</a> = 0x7f0c000a</td></tr>
+<tr class="memitem:aff0a4628903a74a7cd98d936a5f452d6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#aff0a4628903a74a7cd98d936a5f452d6">Widget_AppCompat_ProgressBar_Horizontal</a> = 0x7f0c0009</td></tr>
+<tr class="memitem:a7df4c3bec6c485b3734a10faa64a253f"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a7df4c3bec6c485b3734a10faa64a253f">Widget_AppCompat_Spinner_DropDown_ActionBar</a> = 0x7f0c0022</td></tr>
+<tr class="memitem:a3802f8ede702c2e9ddd2b02e13ab40a8"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1_r_1_1style.html#a3802f8ede702c2e9ddd2b02e13ab40a8">actionBarStyle</a> = 0x7f0c0098</td></tr>
+</table>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="a35646e685ee842da5a9696a3db332de5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.ActionBar_Solid_Pde = 0x7f0c008b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad079ecd1d3368d165dd730288f12f1c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.ActionBar_Transparent_Pde = 0x7f0c008c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5996058f36bf9d8d8c60d7390f8c73c9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.ActionBarTabStyle_Pde = 0x7f0c008f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae08486ced8e85079a9d5d8d69c484f7d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.ActionButton_CloseMode_Pde = 0x7f0c0092</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2050ef483e63d3a97fd6d98e1bb87b53"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.AppBaseTheme = 0x7f0c009c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">   Base application theme for API 11+. This theme completely replaces
+   AppBaseTheme from res/values/styles.xml on API 11+ devices.
+</pre><p>API 11 theme customizations can go here. </p>
+<pre class="fragment">   Base application theme for API 11+. This theme completely replaces
+   AppBaseTheme from res/values/styles.xml on API 11+ devices.
+</pre><p>API 11 theme customizations can go here. </p>
+<pre class="fragment">   Base application theme for API 14+. This theme completely replaces
+   AppBaseTheme from BOTH res/values/styles.xml and
+   res/values-v11/styles.xml on API 14+ devices.
+</pre><p>API 14 theme customizations can go here. </p>
+
+</div>
+</div>
+<a class="anchor" id="af58a599a686a67efcfd7dc45f573b528"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.DropDownListView_Pde = 0x7f0c008e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1a0ad3ac748996ef8353738649f74664"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.DropDownNav_Pde = 0x7f0c0090</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7457ffd8cb7bafc7cab9ed047dfeeef7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.FontTestViewTextStyle = 0x7f0c009b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a54f2e249fa8c90637e19b7f124f90768"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.OverFlow_PDE = 0x7f0c0095</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad24852153ed8dbd3952dea67f7f7ab73"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.PopupMenu_Pde = 0x7f0c008d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a861cdc7185985a4539a9a2a70d74d20a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.ProgressBar_Pde = 0x7f0c0091</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>todo check this?! Light? </p>
+
+</div>
+</div>
+<a class="anchor" id="ad5bf21f4d146648b2d4e665275619949"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.SlidingMenu_Btn = 0x7f0c0094</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab16930ba959a544d438490378bf36f77"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Base_CompactMenu_Dialog = 0x7f0c0063</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Mimic text appearance in select_dialog_item.xml </p>
+
+</div>
+</div>
+<a class="anchor" id="a52828ce414263fb216498852c38e679a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Base_SearchResult = 0x7f0c006d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a80ec03180a011812f339e5e8675dff22"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Base_SearchResult_Subtitle = 0x7f0c006f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac44b574d9004c157b201a2cb116a4afd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Base_SearchResult_Title = 0x7f0c006e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Search View result styles </p>
+
+</div>
+</div>
+<a class="anchor" id="a09634dc3c0f519417739678c430afbd0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Base_Widget_PopupMenu_Large = 0x7f0c0069</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aef229a4dc8ece68a06747e7ac5065b80"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Base_Widget_PopupMenu_Small = 0x7f0c006a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab0e0000f70ad678ea64dd96ee21405b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Light_Base_SearchResult = 0x7f0c0070</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7c9468c972ec4aa4e7bc34d002aa85e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Light_Base_SearchResult_Subtitle = 0x7f0c0072</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa331ae9005982aaf1e36f9d561dcbdd5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Light_Base_SearchResult_Title = 0x7f0c0071</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>TextAppearance.Holo.Light.SearchResult.* are private so we extend from the default versions instead (which are exactly the same). </p>
+
+</div>
+</div>
+<a class="anchor" id="a066fcf001de80c0f4f5b4e9289382a7c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Large = 0x7f0c006b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abfce3afed200a01a82613a3388bffcd6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Small = 0x7f0c006c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad665d8d14ebfdf43affe2899c734dddf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = 0x7f0c0035</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aba89d078a3a3527348b869aa6a0062a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Light_SearchResult_Title = 0x7f0c0034</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a048b5b94ab3bc84870e9857e14f8b8e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 0x7f0c0030</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9b7daa1feddecb794756dd3b590d9acd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 0x7f0c0031</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5bae036658e5a9fc8052b84ffcfce877"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_SearchResult_Subtitle = 0x7f0c0033</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae1c0ec9aae1831ea4b72a8d032639339"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_SearchResult_Title = 0x7f0c0032</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0081a61729971a92ea66a9dfa55c2c37"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_ActionBar_Menu = 0x7f0c001a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a206e729b4e412427d45e3fc85f5b5735"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 0x7f0c0006</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac45033e9e48efb1b3f5dfb2ac01cfb82"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 0x7f0c0008</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae63b17390ddd7ed78998b1646b8d2c5b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_ActionBar_Title = 0x7f0c0005</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4761e876f934df50f71737171c05372e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 0x7f0c0007</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acc5b8e62da9dc0f2826f759345b90fcd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 0x7f0c001e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4d0fae07f6837e4ed731915c63486453"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 0x7f0c0020</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae6aa54a2b8ea7b6dd85802f10400561b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_ActionMode_Title = 0x7f0c001d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9e6dda4639e13786c892f1ab85b349da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 0x7f0c001f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a47c1f8ebf9b157e183a5fe2c28b9e175"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_Base_ActionBar_Menu = 0x7f0c0054</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad8a74cdedf6c6b297260d53d1497d5cd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle = 0x7f0c0056</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8254c2ee5e111e2d03e85a337dfa1c93"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle_Inverse = 0x7f0c0058</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a02921b6315b061afa1f01784b0fe844e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_Base_ActionBar_Title = 0x7f0c0055</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab4cc546b00769076f05fb4c7a8cb0b4c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_Base_ActionBar_Title_Inverse = 0x7f0c0057</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9381c98ac60a3feacd027d9ec2033378"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle = 0x7f0c0051</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad1bd7427e56c7bf631ff7a64b85522c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle_Inverse = 0x7f0c0053</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a72511f5e771db2875392d0380360f6dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_Base_ActionMode_Title = 0x7f0c0050</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3a20dd13c5ac81d145af557ee0361646"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_Base_ActionMode_Title_Inverse = 0x7f0c0052</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa623f7f66006557ead237a3b4d5fe0ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_Base_DropDownItem = 0x7f0c0061</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a82cf77aae4ac4e1f437eae02bd9d2809"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_DropDownItem = 0x7f0c0021</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a19805ff12ddc9aa833fa14a15114d9a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_PopupMenu_Large = 0x7f0c002e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a562a13a6e11300f502465b85b99155b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_AppCompat_Widget_PopupMenu_Small = 0x7f0c002f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6369d432de318b2629b6e2a72d740474"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_Widget_AppCompat_Base_ExpandedMenu_Item = 0x7f0c0062</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afba2411369d5a75480127846f70ebf59"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 0x7f0c0028</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a994389a2c6c5b9a8295207dc0de3634e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_TeleGrotesk_DefaultSize_DTDarkUIText = 0x7f0c009d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>/Tele_GroteskNor </p>
+
+</div>
+</div>
+<a class="anchor" id="a7f906a04d6ce2dcb47b02034e2623baf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.TextAppearance_TeleGrotesk_DefaultSize_DTLightUIText = 0x7f0c009e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>/Tele_GroteskNor </p>
+
+</div>
+</div>
+<a class="anchor" id="a657f6464015e3f20eed02893cfe0912a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_AppCompat = 0x7f0c0077</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">        Themes in the "Theme.AppCompat" family will contain an action bar by default.
+    If Holo themes are available on the current platform version they will be used.
+    A limited Holo-styled action bar will be provided on platform versions older
+    than 3.0. (API 11)
+
+    These theme declarations contain any version-independent specification. Items
+    that need to vary based on platform version should be defined in the corresponding
+    "Theme.Base" theme. 
+</pre><p> Platform-independent theme providing an action bar in a dark-themed activity. </p>
+
+</div>
+</div>
+<a class="anchor" id="a56c0c66efe11454403c757cd187b9c18"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_AppCompat_Base_CompactMenu = 0x7f0c0083</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Menu/item attributes </p>
+
+</div>
+</div>
+<a class="anchor" id="ad3ad8b366ed2662aaf3bec1f7fb111f5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_AppCompat_Base_CompactMenu_Dialog = 0x7f0c0084</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aae7deb713f0f1f746f5f456c03f4a1a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_AppCompat_CompactMenu = 0x7f0c007c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Menu/item attributes </p>
+
+</div>
+</div>
+<a class="anchor" id="aed543ceed2228cb63825d9c06840aa09"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_AppCompat_CompactMenu_Dialog = 0x7f0c007d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a32054d95f0843a50c5c7ae0c9216de6b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_AppCompat_DialogWhenLarge = 0x7f0c007a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1fae71ad33f262892e4c1e87113d1bcd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_AppCompat_Light = 0x7f0c0078</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Platform-independent theme providing an action bar in a light-themed activity. </p>
+
+</div>
+</div>
+<a class="anchor" id="aef3f92a2393b0e66f3611de6814f81c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_AppCompat_Light_DarkActionBar = 0x7f0c0079</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Platform-independent theme providing an action bar in a dark-themed activity. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab6f1fda104158e5255ab7c8d76cf3c2c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_AppCompat_Light_DialogWhenLarge = 0x7f0c007b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4073e8e326053d2d9de473c97a702637"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Base = 0x7f0c007e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Base platform-dependent theme </p>
+
+</div>
+</div>
+<a class="anchor" id="a846a6605a380a48aa7820cd4f16604b6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Base_AppCompat = 0x7f0c0080</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">        Base platform-dependent theme providing an action bar in a dark-themed activity. 
+</pre><p> Base platform-dependent theme providing an action bar in a dark-themed activity. </p>
+
+</div>
+</div>
+<a class="anchor" id="af3b335453e0c08cd1b23375905854345"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Base_AppCompat_Dialog_FixedSize = 0x7f0c0087</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaca12f52ce4861d4d72fbd8429efac1c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Base_AppCompat_Dialog_Light_FixedSize = 0x7f0c0088</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a64d6824c3367fc274aed7340f82e79a4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Base_AppCompat_DialogWhenLarge = 0x7f0c0085</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aed3bdec587c19b7ff2475503e203ca2d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Base_AppCompat_DialogWhenLarge_Base = 0x7f0c0089</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>As we have defined the theme in values-large (for compat) and values-large takes precedence over values-v14, we need to reset back to the Holo parent in values-large-v14. As the themes in values-v14 &amp; values-large-v14 are exactly the same, these "double base" themes can be inherited from in both values-v14 and values-large-v14. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae62dc6903ee6ae88850cb45f2d99897c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Base_AppCompat_Light = 0x7f0c0081</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">        Base platform-dependent theme providing an action bar in a light-themed activity. 
+</pre><p> Base platform-dependent theme providing an action bar in a light-themed activity. </p>
+
+</div>
+</div>
+<a class="anchor" id="a06c8fd0a071e12d397685cb590f3b904"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Base_AppCompat_Light_DarkActionBar = 0x7f0c0082</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">        Base platform-dependent theme providing a dark action bar in a light-themed activity. 
+</pre><p> Base platform-dependent theme providing a dark action bar in a light-themed activity. </p>
+
+</div>
+</div>
+<a class="anchor" id="a16b1a784d1ed2d54b621c9f8ec4334a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Base_AppCompat_Light_DialogWhenLarge = 0x7f0c0086</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4bdca3d378026f4c5d096667eb7b478c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Base_AppCompat_Light_DialogWhenLarge_Base = 0x7f0c008a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a294b2e3568a28f3c383ba6ba609c0a96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Base_Light = 0x7f0c007f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Base platform-dependent theme providing a light-themed activity. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2c9c28b49a602f41ebbe4343dc901cbe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_PDE = 0x7f0c0096</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a814f655b7e9f626a5bd5ea07de65a715"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_PDE_NoActionBar = 0x7f0c0097</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="accaf474ae04b55f93ab7c6ae2ac283f4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_PDEDialog = 0x7f0c009a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a521b9c67274822279219591830ef601b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Pde = 0x7f0c0099</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<h6></h6>
+
+</div>
+</div>
+<a class="anchor" id="a8e7ae66e562b28999f4be0be62206d8a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Theme_Pde_Widget = 0x7f0c0093</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>this style is only referenced in a Light.DarkActionBar based theme </p>
+
+</div>
+</div>
+<a class="anchor" id="aa7d64115c83b1fb2745bec1676296dbf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ActionBar = 0x7f0c0000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">Styles in here can be extended for customisation in your application. Each utilises
+</pre><p> one of the Base styles. If Holo themes are available on the current platform version they will be used instead of the compat styles. </p>
+
+</div>
+</div>
+<a class="anchor" id="aea9af9da86abf04d2b2d2de83ff0c055"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ActionBar_Solid = 0x7f0c0002</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5c6183b3b809f6f4ca7c3996356f3973"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ActionBar_TabBar = 0x7f0c0011</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af050203ca12b03800bec2a83185132a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ActionBar_TabText = 0x7f0c0017</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adb6ae4190ec1aadf7277bf9bee7341c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ActionBar_TabView = 0x7f0c0014</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6bfc31aea927a7ef85846b6a4b60f14c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ActionButton = 0x7f0c000b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a44d204f35a458870a2c1c87b4fe98ff3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ActionButton_CloseMode = 0x7f0c000d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a37dcbecf6d1ff9624d73140744553a70"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ActionButton_Overflow = 0x7f0c000f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a419cace07433ba8d3dbb081ae5364fd6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ActionMode = 0x7f0c001b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7f9c1c1d10f59c300d73ffc71aefdd81"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ActivityChooserView = 0x7f0c0038</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ada18647c99c75a78208e46761c89d9dc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_AutoCompleteTextView = 0x7f0c0036</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae9c93244bc49a1dae891d652b420e0f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ActionBar = 0x7f0c003a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4c7bb44cdf639829fdc572c5ffbb68bf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ActionBar_Solid = 0x7f0c003c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad3aa290936ea72bd07ec3aef01c161c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ActionBar_TabBar = 0x7f0c0045</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a494ef7fc2ec073c119590676edc60e64"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ActionBar_TabText = 0x7f0c004b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afffd4a210dcf901d61f979e0c7086b94"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ActionBar_TabView = 0x7f0c0048</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a769f30c316af9a1e03aaa467cc5b9110"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ActionButton = 0x7f0c003f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Action Button Styles </p>
+
+</div>
+</div>
+<a class="anchor" id="aee8f05d9d9722c770dbee457e8927488"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ActionButton_CloseMode = 0x7f0c0041</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9ffb786a17345207e3a9739b87eff018"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ActionButton_Overflow = 0x7f0c0043</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5c32af24be7a90832879c5844a4da2b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ActionMode = 0x7f0c004e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a22bbe07a80c5f615b5976c26b5dd2bbb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ActivityChooserView = 0x7f0c0075</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a16ce8989aa3a4ab71f43ab7854ff8338"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_AutoCompleteTextView = 0x7f0c0073</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>AutoCompleteTextView styles (for SearchView) </p>
+
+</div>
+</div>
+<a class="anchor" id="a8fe0854e19dafdc5004477fae4e09aec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_DropDownItem_Spinner = 0x7f0c005d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5cb507c412e7ab1443300659d2f38c91"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ListPopupWindow = 0x7f0c0065</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Popup Menu </p>
+
+</div>
+</div>
+<a class="anchor" id="ab648867f699bc9f15a6c880e37244a25"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ListView_DropDown = 0x7f0c005f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Spinner Widgets </p>
+
+</div>
+</div>
+<a class="anchor" id="a3802fb101baba90dc1c3c8ddea9dd653"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ListView_Menu = 0x7f0c0064</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7893603e99755c60add5376550565601"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_PopupMenu = 0x7f0c0067</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a274f2448648f10d2d3ad0008600259ca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ProgressBar = 0x7f0c005a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3268c77921ad373ea346f5ad61546442"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_ProgressBar_Horizontal = 0x7f0c0059</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Progress Bar </p>
+
+</div>
+</div>
+<a class="anchor" id="a75f478c45a380e18a0393becc48e3c76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Base_Spinner = 0x7f0c005b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Action Bar Spinner Widgets </p>
+
+</div>
+</div>
+<a class="anchor" id="abddd36166659c758760d90c4e49482e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_DropDownItem_Spinner = 0x7f0c0024</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af2d4f553c25ad21d5c7012430a064791"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionBar = 0x7f0c0001</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac57815e85794d41fed963034e4c4999b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionBar_Solid = 0x7f0c0003</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac86b0dd59eb55c9c951b45c655312dbc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = 0x7f0c0004</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaa2253c0218b8d3c7d87990a32c10968"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionBar_TabBar = 0x7f0c0012</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa51d777c4da5d37e744b7dee6cc4a581"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 0x7f0c0013</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae22f339b0e9fd063d5238df1b92bef4e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionBar_TabText = 0x7f0c0018</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1b6e83a42ca1a1ae5c3025133b54ad60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = 0x7f0c0019</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a03c9e8e15854534306d438c2a752f1bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionBar_TabView = 0x7f0c0015</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a094eec8ec274a0b34df7a15b46c92704"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = 0x7f0c0016</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2bcf8ecdf3114d77928e765e6f1e95e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionButton = 0x7f0c000c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a14e71754879d6202d9371d6bf23ef41f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionButton_CloseMode = 0x7f0c000e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a49282d3a3242f616c09a31fcba212333"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionButton_Overflow = 0x7f0c0010</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1cf1b23f0e166dce36b12230ddee5c68"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActionMode_Inverse = 0x7f0c001c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a659b0efaac977d34622ad6d9f4dad2ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ActivityChooserView = 0x7f0c0039</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aad0ae272c1dbe9a299c53624c31dd862"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_AutoCompleteTextView = 0x7f0c0037</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aacef6416ed59b4bad489d188f578fbfb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionBar = 0x7f0c003b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a834fc718e249a71fb9e585d6477b4419"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionBar_Solid = 0x7f0c003d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac5854a52abf9c2e8186e890212648d9a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionBar_Solid_Inverse = 0x7f0c003e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6f1340b2410ebb89b4ec04c64c293962"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionBar_TabBar = 0x7f0c0046</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a42d1ecae627edc6ce592164bc9f88a12"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionBar_TabBar_Inverse = 0x7f0c0047</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8a580e0b77419ac80e69b9a33e0ebc43"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionBar_TabText = 0x7f0c004c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9414fd6866f553ab8242d84e2c1a638d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionBar_TabText_Inverse = 0x7f0c004d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a50d8a66d93c194dc2cc2a5facf2ae2ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionBar_TabView = 0x7f0c0049</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a711b5426bda2ddbe66700f07a41c3da1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionBar_TabView_Inverse = 0x7f0c004a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab0c50848b9bc59809851708708737b72"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionButton = 0x7f0c0040</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1a84773dd49b9afa12e8794a865807bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionButton_CloseMode = 0x7f0c0042</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8793630a4cd50bbfc320a00095f40e44"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionButton_Overflow = 0x7f0c0044</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a12631a7d2f4d7d0dee711b125c62a465"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActionMode_Inverse = 0x7f0c004f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac6ec214e7121a93ed35b5baaf276ece0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ActivityChooserView = 0x7f0c0076</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1fc7f885093e86afcb6748ad47c46723"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_AutoCompleteTextView = 0x7f0c0074</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa31f65846e03eb06528e7fb3a3458865"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_DropDownItem_Spinner = 0x7f0c005e</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4b58a54357631afde114f97889e314c1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ListPopupWindow = 0x7f0c0066</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa9c14e86a24a02316bf21c35b90a1424"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_ListView_DropDown = 0x7f0c0060</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9f2be7e6fadc9f0979524d3e4de94911"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_PopupMenu = 0x7f0c0068</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4036eebcfb99a6dda82f081f4838a4e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Base_Spinner = 0x7f0c005c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa1a193561be3feb2ff2a825c3631af75"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_DropDownItem_Spinner = 0x7f0c0025</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1bc0a979cee1632e772e1528e4c3a0c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ListPopupWindow = 0x7f0c002a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a21b3262aef654217a26fd294c773b5b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_ListView_DropDown = 0x7f0c0027</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a526213b2c0c9d59db34ad1a94cc7b19d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_PopupMenu = 0x7f0c002c</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abdef98d5c1f9c1d93e866e6bc9bb6a0c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 0x7f0c0023</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0010779eb90f15de9e53a3ec3ecddda7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ListPopupWindow = 0x7f0c0029</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad3c34df981e81ffa8fed508c93379793"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ListView_DropDown = 0x7f0c0026</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a16b8e00e3467e142e3d2b19a31444ebe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ListView_Menu = 0x7f0c002d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0c600726da66dc05d94ba857a7d8a68d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_PopupMenu = 0x7f0c002b</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aab179cdff06998879216701dd82abd51"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ProgressBar = 0x7f0c000a</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aff0a4628903a74a7cd98d936a5f452d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_ProgressBar_Horizontal = 0x7f0c0009</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7df4c3bec6c485b3734a10faa64a253f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.Widget_AppCompat_Spinner_DropDown_ActionBar = 0x7f0c0022</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3802f8ede702c2e9ddd2b02e13ab40a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.samples.R.style.actionBarStyle = 0x7f0c0098</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeSamples/gen/de/telekom/pde/codelibrary/samples/<a class="el" href="_p_d_e_code_samples_2gen_2de_2telekom_2pde_2codelibrary_2samples_2_r_8java.html">R.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

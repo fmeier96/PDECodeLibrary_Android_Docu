@@ -18,9 +18,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrapp
     [ "getElementHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#abbcdd03a692875bb19883f4c394691d3", null ],
     [ "setShadowEnabled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#ae543a86d5b567306405676f2a48b0c2a", null ],
     [ "getShadowEnabled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#a119c31f5d2e0894a52d68e5828c59dd0", null ],
-    [ "setViewSize", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#a142a63d52d04f9f3abb23db336f60387", null ],
-    [ "setViewOffset", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#a7c69932cf709f21e44f9abb058fe4816", null ],
-    [ "setViewLayoutRect", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#a862d4a2085e798d407364bd82d2cdacb", null ],
     [ "onMeasure", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#a57a24b2e38b7948297df09885e976225", null ],
-    [ "mPhoto", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#ac31866ebd960e9e1c2afdd9c95bcb6a1", null ]
+    [ "mPhoto", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#ac31866ebd960e9e1c2afdd9c95bcb6a1", null ],
+    [ "mInternalCalculateAspectRatioBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_photo_frame_view.html#a5dd4cc4b7ef6ae3e63d7fed7337bfd4e", null ]
 ];

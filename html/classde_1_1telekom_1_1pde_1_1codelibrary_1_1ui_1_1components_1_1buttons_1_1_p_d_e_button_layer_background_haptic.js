@@ -26,7 +26,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_
     [ "onMeasure", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_haptic.html#ab062248ebc1ae17fab855e5c094db9f1", null ],
     [ "onSizeChanged", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_haptic.html#ace8c1198ea63c93c6b058dd6535d7bdb", null ],
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_haptic.html#a653650713cd129a5114cd1552c5fb4e8", null ],
-    [ "DEBUGPARAMS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_haptic.html#aac82aeae5b81ea2b9b7fd517de79e686", null ],
+    [ "DEBUG_PARAMS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_haptic.html#a84dda1e3348b20be730b2d7e86623cd1", null ],
     [ "SHOW_DEBUG_LOGS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_haptic.html#af3d84bbb40bbd7651a62a1a5f022d1b3", null ],
     [ "mParameters", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_haptic.html#aadf89333146a17e0ac9ca5ed6ed04f0c", null ],
     [ "mParamColor", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_haptic.html#a6eadc5dc4bf5bb04b473bb0f948a2612", null ],

@@ -79,7 +79,7 @@
 				</div>
 				<div id="dtag_jumpmarks">
 					<a href="#dtag_main">Jump to Content</a>
-					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
 						<span aria-hidden="true" class="icon"></span>
 						<span class="buttontext">Helpdesk</span>
 					</a>
@@ -185,7 +185,7 @@ Inheritance diagram for de.telekom.pde.codelibrary.samples.commonstyle.actionbar
  <div class="center">
   <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_drawer_layout.png" usemap="#de.telekom.pde.codelibrary.samples.commonstyle.actionbar.ActivityDrawerLayout_map" alt=""/>
   <map id="de.telekom.pde.codelibrary.samples.commonstyle.actionbar.ActivityDrawerLayout_map" name="de.telekom.pde.codelibrary.samples.commonstyle.actionbar.ActivityDrawerLayout_map">
-<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_fragment_activity.html" alt="de.telekom.pde.codelibrary.ui.activity.PDESherlockFragmentActivity" shape="rect" coords="0,0,474,24"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_activity.html" alt="de.telekom.pde.codelibrary.ui.activity.PDEActionBarActivity" shape="rect" coords="0,0,474,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -195,6 +195,7 @@ Public Methods</h2></td></tr>
 <tr class="memitem:ac885199ec20dbaf79ec628b91d3ca93d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_drawer_layout.html#ac885199ec20dbaf79ec628b91d3ca93d">onOptionsItemSelected</a> (MenuItem item)</td></tr>
 <tr class="memitem:ad567d6311b06df3a73ddc72bdb936b6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_drawer_layout.html#ad567d6311b06df3a73ddc72bdb936b6a">onConfigurationChanged</a> (Configuration newConfig)</td></tr>
 <tr class="memitem:ac25c07605b6f4ed25dafe124e0ab6ab0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_drawer_layout.html#ac25c07605b6f4ed25dafe124e0ab6ab0">onClick</a> (View v)</td></tr>
+<tr class="memdesc:ac25c07605b6f4ed25dafe124e0ab6ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">On Click callback for the drawer items.  <a href="#ac25c07605b6f4ed25dafe124e0ab6ab0"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Methods</h2></td></tr>
@@ -202,8 +203,8 @@ Protected Methods</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a33486b06b4d8e74e83fbad62f830c439"><td class="memItemLeft" align="right" valign="top">DrawerLayout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_drawer_layout.html#a33486b06b4d8e74e83fbad62f830c439">drawerLayout</a></td></tr>
-<tr class="memitem:af5d8228bd6c03b57df823e3aacdcdc07"><td class="memItemLeft" align="right" valign="top">ActionBarDrawerToggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_drawer_layout.html#af5d8228bd6c03b57df823e3aacdcdc07">drawerToggle</a></td></tr>
+<tr class="memitem:a1869ad17a218810c8c519209c76487aa"><td class="memItemLeft" align="right" valign="top">DrawerLayout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_drawer_layout.html#a1869ad17a218810c8c519209c76487aa">mDrawerLayout</a></td></tr>
+<tr class="memitem:ae3919e15ba7ae55cb925202f4e5b2683"><td class="memItemLeft" align="right" valign="top">ActionBarDrawerToggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_drawer_layout.html#ae3919e15ba7ae55cb925202f4e5b2683">mDrawerToggle</a></td></tr>
 </table>
 <h2>Member Function Documentation</h2>
 <a class="anchor" id="a5e84fe5170add68ab3b426d51e73498a"></a>
@@ -228,7 +229,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_fragment_activity.html#a642506f49e30d681bc79b8d6441c7b45">de.telekom.pde.codelibrary.ui.activity.PDESherlockFragmentActivity</a>.</p>
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_activity.html#a7adca8cba5c910dfbd5541f131d82906">de.telekom.pde.codelibrary.ui.activity.PDEActionBarActivity</a>.</p>
 
 </div>
 </div>
@@ -326,10 +327,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>On Click callback for the drawer items. </p>
+
 </div>
 </div>
 <h2>Member Data Documentation</h2>
-<a class="anchor" id="a33486b06b4d8e74e83fbad62f830c439"></a>
+<a class="anchor" id="a1869ad17a218810c8c519209c76487aa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -337,7 +340,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">DrawerLayout de.telekom.pde.codelibrary.samples.commonstyle.actionbar.ActivityDrawerLayout.drawerLayout</td>
+          <td class="memname">DrawerLayout de.telekom.pde.codelibrary.samples.commonstyle.actionbar.ActivityDrawerLayout.mDrawerLayout</td>
         </tr>
       </table>
   </td>
@@ -349,7 +352,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af5d8228bd6c03b57df823e3aacdcdc07"></a>
+<a class="anchor" id="ae3919e15ba7ae55cb925202f4e5b2683"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -357,7 +360,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ActionBarDrawerToggle de.telekom.pde.codelibrary.samples.commonstyle.actionbar.ActivityDrawerLayout.drawerToggle</td>
+          <td class="memname">ActionBarDrawerToggle de.telekom.pde.codelibrary.samples.commonstyle.actionbar.ActivityDrawerLayout.mDrawerToggle</td>
         </tr>
       </table>
   </td>

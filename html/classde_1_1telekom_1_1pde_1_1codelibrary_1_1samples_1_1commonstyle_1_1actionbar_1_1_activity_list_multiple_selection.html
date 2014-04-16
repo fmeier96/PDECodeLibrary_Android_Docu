@@ -79,7 +79,7 @@
 				</div>
 				<div id="dtag_jumpmarks">
 					<a href="#dtag_main">Jump to Content</a>
-					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
 						<span aria-hidden="true" class="icon"></span>
 						<span class="buttontext">Helpdesk</span>
 					</a>
@@ -186,7 +186,7 @@ Inheritance diagram for de.telekom.pde.codelibrary.samples.commonstyle.actionbar
  <div class="center">
   <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_list_multiple_selection.png" usemap="#de.telekom.pde.codelibrary.samples.commonstyle.actionbar.ActivityListMultipleSelection_map" alt=""/>
   <map id="de.telekom.pde.codelibrary.samples.commonstyle.actionbar.ActivityListMultipleSelection_map" name="de.telekom.pde.codelibrary.samples.commonstyle.actionbar.ActivityListMultipleSelection_map">
-<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_list_activity.html" alt="de.telekom.pde.codelibrary.ui.activity.PDESherlockListActivity" shape="rect" coords="0,0,509,24"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html" alt="de.telekom.pde.codelibrary.ui.activity.PDEActionBarListActivity" shape="rect" coords="0,0,509,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -232,7 +232,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_list_activity.html#aa6078bf9455721c09fb0dc569ee1a867">de.telekom.pde.codelibrary.ui.activity.PDESherlockListActivity</a>.</p>
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#ac46e0d03f409b2e29121daa005e360f8">de.telekom.pde.codelibrary.ui.activity.PDEActionBarListActivity</a>.</p>
 
 </div>
 </div>
@@ -300,29 +300,27 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> <span class="keyword">new</span> PDEActionModeHelper(<span class="keyword">this</span>)</div>
-<div class="line">                                                    {</div>
+<b>Initial value:</b><div class="fragment"><div class="line"> <span class="keyword">new</span> PDEActionModeHelper(<span class="keyword">this</span>) {</div>
+<div class="line">                    @Override</div>
+<div class="line">                    <span class="keyword">public</span> <span class="keywordtype">void</span> onDestroyActionMode(ActionMode mode)</div>
+<div class="line">                    {</div>
+<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_list_multiple_selection.html#a0eb578c4da37002b92e05223997972df">actionMode</a> = null;</div>
+<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().setChoiceMode(ListView.CHOICE_MODE_NONE);</div>
+<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().clearChoices();</div>
+<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().setAdapter(<a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#a141bedf7dfa6c0ee66c7be875d04b9aa">getListAdapter</a>());</div>
 <div class="line"></div>
-<div class="line">                                                        @Override</div>
-<div class="line">                                                        <span class="keyword">public</span> <span class="keywordtype">void</span> onDestroyActionMode(ActionMode mode)</div>
-<div class="line">                                                        {</div>
-<div class="line">                                                            <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_list_multiple_selection.html#a0eb578c4da37002b92e05223997972df">actionMode</a> = null;</div>
-<div class="line">                                                            getListView().setChoiceMode(ListView.CHOICE_MODE_NONE);</div>
-<div class="line">                                                            getListView().clearChoices();</div>
-<div class="line">                                                            getListView().setAdapter(getListAdapter());</div>
+<div class="line">                    }</div>
 <div class="line"></div>
-<div class="line">                                                        }</div>
+<div class="line">                    @Override</div>
+<div class="line">                    <span class="keyword">public</span> <span class="keywordtype">boolean</span> onCreateActionMode(ActionMode mode, Menu menu)</div>
+<div class="line">                    {</div>
+<div class="line">                        super.onCreateActionMode(mode, menu);</div>
+<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_list_multiple_selection.html#a0eb578c4da37002b92e05223997972df">actionMode</a> = mode;</div>
+<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);</div>
+<div class="line">                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line">                    }</div>
 <div class="line"></div>
-<div class="line">                                                        @Override</div>
-<div class="line">                                                        <span class="keyword">public</span> <span class="keywordtype">boolean</span> onCreateActionMode(ActionMode mode, Menu menu)</div>
-<div class="line">                                                        {</div>
-<div class="line">                                                            super.onCreateActionMode(mode, menu);</div>
-<div class="line">                                                            <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_list_multiple_selection.html#a0eb578c4da37002b92e05223997972df">actionMode</a> = mode;</div>
-<div class="line">                                                            getListView().setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);</div>
-<div class="line">                                                            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line">                                                        }</div>
-<div class="line">                                                        </div>
-<div class="line">                                                    }</div>
+<div class="line">                }</div>
 </div><!-- fragment -->
 </div>
 </div>

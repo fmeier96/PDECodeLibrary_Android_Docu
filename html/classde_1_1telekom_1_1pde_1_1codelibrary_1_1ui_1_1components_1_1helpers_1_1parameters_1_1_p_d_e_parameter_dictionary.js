@@ -35,6 +35,8 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1p
     [ "parameterBoolForName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html#ad5ba1348c2840b7a37bd0ab3277d9acb", null ],
     [ "parameterBoolForName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html#a4dbda98efeb65e008b97a8b010dc93d4", null ],
     [ "parameterBoolForName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html#a863bbe978b801a901e24da8daa13a97a", null ],
+    [ "parameterIntForName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html#a5ee5effb04789210dd6f58499b45db71", null ],
+    [ "parameterIntForName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html#ae3b14d48b75e9c1d675136f7e4e2c16b", null ],
     [ "parameterFloatForName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html#af1b6687bd3c9c27d36a69464c20e6945", null ],
     [ "parameterFloatForName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html#a17df36eb9efc310f23be23e62742759a", null ],
     [ "parameterFloatForName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter_dictionary.html#ac294de8525eb45ac5c0bcf2754592da4", null ],

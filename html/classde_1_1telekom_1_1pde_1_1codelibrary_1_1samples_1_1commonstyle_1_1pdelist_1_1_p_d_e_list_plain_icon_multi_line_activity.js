@@ -6,7 +6,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelis
     [ "setAdapterForNumberOfLines", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_activity.html#adde91fae09ad2207f1f98a50a16f9136", null ],
     [ "onCreateOptionsMenu", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_activity.html#ac57448ce685f9ad77d76049f4b677496", null ],
     [ "onPrepareOptionsMenu", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_activity.html#a818ccb3e2898b65676a0373b0f529a96", null ],
-    [ "onMenuItemSelected", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_activity.html#aff5dccda3571ddc390d1a107f47a3bea", null ],
+    [ "onOptionsItemSelected", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_activity.html#a4cd4449924ea697cb1bc66e52931373e", null ],
     [ "onSaveInstanceState", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_activity.html#a830cb670f1a44d2460cc849efc4d8315", null ],
     [ "onRestoreInstanceState", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_activity.html#a04977125497c57b45dce77e2b3597371", null ],
     [ "NUMBER_OF_LIST_ITEMS_SHOWN", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_icon_multi_line_activity.html#ae29de1a6d7be4bdce467bbd3c7cd5a11", null ],

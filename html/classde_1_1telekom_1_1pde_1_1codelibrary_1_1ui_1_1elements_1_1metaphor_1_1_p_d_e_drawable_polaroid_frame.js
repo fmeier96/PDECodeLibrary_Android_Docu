@@ -20,7 +20,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p
     [ "polaroidRelativeValue", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_polaroid_frame.html#a93a4fc800db403941d90c7a6a0746f86", null ],
     [ "updatePolaroidDrawable", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_polaroid_frame.html#a72e937325ae6bfb42327449a9968f151", null ],
     [ "updateElementImageDrawable", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_polaroid_frame.html#a064886274e79d133455365d7110f0719", null ],
-    [ "CONST_ASPECTRATIO", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_polaroid_frame.html#ab18959154840971463b932b6e5140e1b", null ],
+    [ "CONST_ASPECT_RATIO", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_polaroid_frame.html#a94bb3f41e695c795208cab6492700aa4", null ],
     [ "mElementBackgroundColor", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_polaroid_frame.html#a8f5e9168701427d27ddc9c825ab48d4a", null ],
     [ "mElementPolaroidFrameColor", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_polaroid_frame.html#a9bc3525f86bb3c6a32213b1ec0adae2b", null ],
     [ "mElementCornerRadius", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_polaroid_frame.html#a4fe564dee59a6dfba0186b2758aae2e1", null ],

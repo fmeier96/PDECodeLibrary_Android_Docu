@@ -18,9 +18,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrapp
     [ "getElementHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#a02a106027dd43e415efa4360b2936e9e", null ],
     [ "setShadowEnabled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#a19595b1e696c144bf184a2645245ad2f", null ],
     [ "getShadowEnabled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#a29c4513e665e787b5d8e9cf5dc92b99b", null ],
-    [ "setViewSize", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#a764ba63e3e31e950020f86e949e28199", null ],
-    [ "setViewOffset", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#a0b199d94818d60260bbbb87746177cf9", null ],
-    [ "setViewLayoutRect", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#a8b1476d6569cd7f1b63802ae691d4296", null ],
     [ "onMeasure", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#a16620ba693b32485110e2fbb9ad7f04e", null ],
-    [ "mFilm", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#aa507adbbdbfeaa693acaf35cc7bcaea9", null ]
+    [ "mFilm", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#aa507adbbdbfeaa693acaf35cc7bcaea9", null ],
+    [ "mInternalCalculateAspectRatioBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#ac3695434b0e7cbff46205246e9ddee67", null ]
 ];

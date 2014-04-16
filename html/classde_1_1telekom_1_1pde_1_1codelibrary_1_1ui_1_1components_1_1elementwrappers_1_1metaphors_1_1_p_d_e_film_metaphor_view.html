@@ -79,7 +79,7 @@
 				</div>
 				<div id="dtag_jumpmarks">
 					<a href="#dtag_main">Jump to Content</a>
-					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
 						<span aria-hidden="true" class="icon"></span>
 						<span class="buttontext">Helpdesk</span>
 					</a>
@@ -221,12 +221,6 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:a19595b1e696c144bf184a2645245ad2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate shadow.  <a href="#a19595b1e696c144bf184a2645245ad2f"></a><br/></td></tr>
 <tr class="memitem:a29c4513e665e787b5d8e9cf5dc92b99b"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#a29c4513e665e787b5d8e9cf5dc92b99b">getShadowEnabled</a> ()</td></tr>
 <tr class="memdesc:a29c4513e665e787b5d8e9cf5dc92b99b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if shadow is activated.  <a href="#a29c4513e665e787b5d8e9cf5dc92b99b"></a><br/></td></tr>
-<tr class="memitem:a764ba63e3e31e950020f86e949e28199"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#a764ba63e3e31e950020f86e949e28199">setViewSize</a> (float width, float height)</td></tr>
-<tr class="memdesc:a764ba63e3e31e950020f86e949e28199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Size.  <a href="#a764ba63e3e31e950020f86e949e28199"></a><br/></td></tr>
-<tr class="memitem:a0b199d94818d60260bbbb87746177cf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#a0b199d94818d60260bbbb87746177cf9">setViewOffset</a> (float x, float y)</td></tr>
-<tr class="memdesc:a0b199d94818d60260bbbb87746177cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Offset.  <a href="#a0b199d94818d60260bbbb87746177cf9"></a><br/></td></tr>
-<tr class="memitem:a8b1476d6569cd7f1b63802ae691d4296"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#a8b1476d6569cd7f1b63802ae691d4296">setViewLayoutRect</a> (Rect rect)</td></tr>
-<tr class="memdesc:a8b1476d6569cd7f1b63802ae691d4296"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Rect.  <a href="#a8b1476d6569cd7f1b63802ae691d4296"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Methods</h2></td></tr>
@@ -243,6 +237,7 @@ Private Methods</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aa507adbbdbfeaa693acaf35cc7bcaea9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_film_metaphor.html">PDEDrawableFilmMetaphor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#aa507adbbdbfeaa693acaf35cc7bcaea9">mFilm</a></td></tr>
+<tr class="memitem:ac3695434b0e7cbff46205246e9ddee67"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_film_metaphor_view.html#ac3695434b0e7cbff46205246e9ddee67">mInternalCalculateAspectRatioBounds</a></td></tr>
 </table>
 <h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a4022c3c56de7935114058b396ceccae8"></a>
@@ -733,104 +728,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a764ba63e3e31e950020f86e949e28199"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEFilmMetaphorView.setViewSize </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set View Size. </p>
-
-</div>
-</div>
-<a class="anchor" id="a0b199d94818d60260bbbb87746177cf9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEFilmMetaphorView.setViewOffset </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set View Offset. </p>
-
-</div>
-</div>
-<a class="anchor" id="a8b1476d6569cd7f1b63802ae691d4296"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEFilmMetaphorView.setViewLayoutRect </td>
-          <td>(</td>
-          <td class="paramtype">Rect&#160;</td>
-          <td class="paramname"><em>rect</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set View Rect. </p>
-
-</div>
-</div>
 <a class="anchor" id="a16620ba693b32485110e2fbb9ad7f04e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -877,6 +774,26 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_film_metaphor.html">PDEDrawableFilmMetaphor</a> de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEFilmMetaphorView.mFilm</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac3695434b0e7cbff46205246e9ddee67"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rect de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEFilmMetaphorView.mInternalCalculateAspectRatioBounds</td>
         </tr>
       </table>
   </td>

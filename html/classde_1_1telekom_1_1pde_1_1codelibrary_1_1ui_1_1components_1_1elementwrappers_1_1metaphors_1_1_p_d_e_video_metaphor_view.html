@@ -79,7 +79,7 @@
 				</div>
 				<div id="dtag_jumpmarks">
 					<a href="#dtag_main">Jump to Content</a>
-					<a data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
 						<span aria-hidden="true" class="icon"></span>
 						<span class="buttontext">Helpdesk</span>
 					</a>
@@ -225,12 +225,6 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:a5dbeae0c185eed83bce77c877eac2557"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets element width.  <a href="#a5dbeae0c185eed83bce77c877eac2557"></a><br/></td></tr>
 <tr class="memitem:a3903ef89cbc087a171682e7d3495d6b9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a3903ef89cbc087a171682e7d3495d6b9">getElementHeight</a> ()</td></tr>
 <tr class="memdesc:a3903ef89cbc087a171682e7d3495d6b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets element height.  <a href="#a3903ef89cbc087a171682e7d3495d6b9"></a><br/></td></tr>
-<tr class="memitem:a4eda2e97c4f397fb9f86f5016c8ba42a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a4eda2e97c4f397fb9f86f5016c8ba42a">setViewSize</a> (float width, float height)</td></tr>
-<tr class="memdesc:a4eda2e97c4f397fb9f86f5016c8ba42a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Size.  <a href="#a4eda2e97c4f397fb9f86f5016c8ba42a"></a><br/></td></tr>
-<tr class="memitem:aeca7f1c7b6da15bf34c0d4c76fa78fd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#aeca7f1c7b6da15bf34c0d4c76fa78fd8">setViewOffset</a> (float x, float y)</td></tr>
-<tr class="memdesc:aeca7f1c7b6da15bf34c0d4c76fa78fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Offset.  <a href="#aeca7f1c7b6da15bf34c0d4c76fa78fd8"></a><br/></td></tr>
-<tr class="memitem:a192b9bdaef5d104a8c0cf58651bf6a30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a192b9bdaef5d104a8c0cf58651bf6a30">setViewLayoutRect</a> (Rect rect)</td></tr>
-<tr class="memdesc:a192b9bdaef5d104a8c0cf58651bf6a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set View Rect.  <a href="#a192b9bdaef5d104a8c0cf58651bf6a30"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Methods</h2></td></tr>
@@ -247,6 +241,7 @@ Private Methods</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a2aba5bd50575f67978309326d3c28503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_video_metaphor.html">PDEDrawableVideoMetaphor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a2aba5bd50575f67978309326d3c28503">mVideo</a></td></tr>
+<tr class="memitem:a8c2baf23f58c38f827eae813ef244ee1"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a8c2baf23f58c38f827eae813ef244ee1">mInternalCalculateAspectRatioBounds</a></td></tr>
 </table>
 <h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab9386855193f742497fa27641d168b79"></a>
@@ -789,104 +784,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4eda2e97c4f397fb9f86f5016c8ba42a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setViewSize </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set View Size. </p>
-
-</div>
-</div>
-<a class="anchor" id="aeca7f1c7b6da15bf34c0d4c76fa78fd8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setViewOffset </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set View Offset. </p>
-
-</div>
-</div>
-<a class="anchor" id="a192b9bdaef5d104a8c0cf58651bf6a30"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.setViewLayoutRect </td>
-          <td>(</td>
-          <td class="paramtype">Rect&#160;</td>
-          <td class="paramname"><em>rect</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set View Rect. </p>
-
-</div>
-</div>
 <a class="anchor" id="a3e40f192b8844a4f3d126c0c92143160"></a>
 <div class="memitem">
 <div class="memproto">
@@ -933,6 +830,26 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_video_metaphor.html">PDEDrawableVideoMetaphor</a> de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.mVideo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8c2baf23f58c38f827eae813ef244ee1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rect de.telekom.pde.codelibrary.ui.components.elementwrappers.metaphors.PDEVideoMetaphorView.mInternalCalculateAspectRatioBounds</td>
         </tr>
       </table>
   </td>

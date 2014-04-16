@@ -1,6 +1,7 @@
 var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1layout_1_1_p_d_e_absolute_layout =
 [
     [ "LayoutParams", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1layout_1_1_p_d_e_absolute_layout_1_1_layout_params.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1layout_1_1_p_d_e_absolute_layout_1_1_layout_params" ],
+    [ "PDEAbsoluteLayoutHelper", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1layout_1_1_p_d_e_absolute_layout_1_1_p_d_e_absolute_layout_helper.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1layout_1_1_p_d_e_absolute_layout_1_1_p_d_e_absolute_layout_helper" ],
     [ "PDEAbsoluteLayout", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1layout_1_1_p_d_e_absolute_layout.html#a37a650556d9f8b026f04dea3ddc95c02", null ],
     [ "PDEAbsoluteLayout", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1layout_1_1_p_d_e_absolute_layout.html#acc93052d5a111fc72060b029abcbcbf6", null ],
     [ "PDEAbsoluteLayout", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1layout_1_1_p_d_e_absolute_layout.html#a2d80e0780b4ac3cf41c8b3f288be3782", null ],

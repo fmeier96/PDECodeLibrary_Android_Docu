@@ -1260,9 +1260,7 @@ h2 {
 }
 
 /* line 36, ../../sass/_doxygen_original.scss */
-h3 {
-  font-size: 100%;
-}
+
 
 /* line 40, ../../sass/_doxygen_original.scss */
 h1, h2, h3, h4, h5, h6 {
@@ -1326,7 +1324,7 @@ span.legend {
 
 /* line 91, ../../sass/_doxygen_original.scss */
 h3.version {
-  font-size: 90%;
+
   text-align: center;
 }
 
@@ -3518,7 +3516,7 @@ body a, table a, div a, p a, dl a {
 }
 
 #dtag_servicelevel h2 {
-  font-size: 21px;
+ 
   color: #d0d0d0;
   text-transform: uppercase;
   margin-top: 3px !important;
@@ -4079,8 +4077,8 @@ DIV.searchresults {
   margin: 0;
   padding: 0 0 10px 0;
   position: absolute;
-  font-size: 21px;
-  line-height: 21px;
+  font-size: 24px;
+  line-height: 24px;
   margin-bottom: 10px;
   white-space: nowrap;
   text-align: center;
@@ -4146,9 +4144,9 @@ DIV.searchresults {
   width: 100%;
   margin: 3.75em 0 0.625em 0;
   border-bottom: 1px solid #a4a4a4;
+  font-size: 21px;
+  line-height: 21px;
   padding: 0 0 5px  0;
-  font-size: 1.3125em;
-  line-height: 1.3125em;
   font-weight: normal;
   white-space: nowrap;
   text-align: center;
@@ -4158,9 +4156,8 @@ DIV.searchresults {
 .contents h2 {
   width: 100%;
   padding: 0 0 5px  0;
-  margin: 1.875em 0 0.625em 0;
   border-bottom: 1px solid #a4a4a4;
-  font-size: 1.1875em;
+
   font-weight: normal;
 }
 /* line 604, ../../sass/dtag_doxygen.scss */

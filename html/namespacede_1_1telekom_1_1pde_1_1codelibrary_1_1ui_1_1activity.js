@@ -1,15 +1,12 @@
 var namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity =
 [
     [ "PDEAccountAuthenticatorActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_account_authenticator_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_account_authenticator_activity" ],
+    [ "PDEActionBarActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_activity" ],
+    [ "PDEActionBarListActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity" ],
     [ "PDEActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity" ],
     [ "PDEActivitySplash", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity_splash.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_activity_splash" ],
     [ "PDEAliasActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_alias_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_alias_activity" ],
     [ "PDEExpandableListActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_expandable_list_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_expandable_list_activity" ],
     [ "PDEFragmentActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_fragment_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_fragment_activity" ],
-    [ "PDEListActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_list_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_list_activity" ],
-    [ "PDESherlockActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_activity" ],
-    [ "PDESherlockExpandableListActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_expandable_list_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_expandable_list_activity" ],
-    [ "PDESherlockFragmentActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_fragment_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_fragment_activity" ],
-    [ "PDESherlockListActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_list_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_list_activity" ],
-    [ "PDESherlockPreferenceActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_preference_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_sherlock_preference_activity" ]
+    [ "PDEListActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_list_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_list_activity" ]
 ];
