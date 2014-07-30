@@ -9,6 +9,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_
     [ "setParameters", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a1eecfeb04f589fbd7880b987e85f1b21", null ],
     [ "prepareColors", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#afa2401334d2b676dcbb1cf9670498e4a", null ],
     [ "prepareCornerRadius", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a696f5852590de1a178bbd72dcb9b7bf4", null ],
+    [ "prepareCornerConfiguration", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a0f279e884eda03dafbe2f10a3e061009", null ],
     [ "setOutlineWidth", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#ae6dd94e2d0f226ca0f8b0f379c3fa0c1", null ],
     [ "setDefaultColor", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a278689d69d32fbd2a86e62f7a37cb064", null ],
     [ "updateColors", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a7d4cc843c6bd5ac79f443e72670cba79", null ],
@@ -30,6 +31,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_
     [ "mBorderLineDrawable", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a986ded762f89031c983e9bce97939774", null ],
     [ "mCornerRadius", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a6f6b4918d722e31d4984de049d6aee34", null ],
     [ "mOutlineWidth", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a98c2039c9ed1358094e52e2adb3db0c1", null ],
+    [ "mCornerConfiguration", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#af0764345002297e40a9e2aecc15b0555", null ],
     [ "mAgentHelper", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#a9f4fb459305f1a5a744475a336ce29fb", null ],
     [ "PDEButtonLayerBackgroundFlatGlobalColorDefault", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#affbd393b3e318500cdf50596cc40005d", null ],
     [ "PDEButtonLayerBackgroundFlatGlobalBorderDefault", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_background_flat.html#aba8219cb723b2c220c84d5909d3fa1a8", null ]

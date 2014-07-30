@@ -5,6 +5,5 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdesl
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdeslider_1_1_progress_badaf8bfb96a7e846c0e3dc1543b4f9f8b.html#aa2cee59b57b8c913b777e9bc425d8715", null ],
     [ "mPDEProgressBar", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdeslider_1_1_progress_badaf8bfb96a7e846c0e3dc1543b4f9f8b.html#ad381664c3649274245f321b8cd3f285c", null ],
     [ "mNativeProgressBar", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdeslider_1_1_progress_badaf8bfb96a7e846c0e3dc1543b4f9f8b.html#ae9cbe310153051ef38fcb16b9b7c2265", null ],
-    [ "regulatorSliderbar", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdeslider_1_1_progress_badaf8bfb96a7e846c0e3dc1543b4f9f8b.html#a4275759f61e5418a52a59a75463c7b63", null ],
     [ "mStyle", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdeslider_1_1_progress_badaf8bfb96a7e846c0e3dc1543b4f9f8b.html#a33a420b2def94189aa8a01afa463d7d5", null ]
 ];

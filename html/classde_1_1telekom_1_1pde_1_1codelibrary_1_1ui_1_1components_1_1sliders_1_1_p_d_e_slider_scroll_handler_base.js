@@ -16,6 +16,8 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_
     [ "actionTouchesMoved", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_base.html#ad9a059854cf5d0d029a308a1db034d6a", null ],
     [ "actionTouchesEnded", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_base.html#a3241bdacc9b8b961bf2359a429a398d4", null ],
     [ "actionTouchesCancelled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_base.html#a0fc9725970bfb17d3aaca9f67394edcb", null ],
+    [ "addHighlight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_base.html#a212263f020ae0e089e19cd9652f3f5bc", null ],
+    [ "removeHighlight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_base.html#aeac97e054e4877b6b79fbe44480c5baa", null ],
     [ "getTouchLocation", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_base.html#aa451315f28d5c43fab8e7d6a24498865", null ],
     [ "turnLocationFrameIntoSliderPosition", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_base.html#a3271875d37b2f533cc515295adc2899c", null ],
     [ "startDragging", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_base.html#a49613f255adc54733a938765cd5be733", null ],

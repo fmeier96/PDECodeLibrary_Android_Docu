@@ -3,6 +3,9 @@ var dir_727b34c07d4bcb921a8b4b79dd8695bc =
     [ "PDEAvailableShapes.java", "_p_d_e_available_shapes_8java.html", [
       [ "PDEAvailableShapes", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_available_shapes.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_available_shapes" ]
     ] ],
+    [ "PDECornerConfigurations.java", "_p_d_e_corner_configurations_8java.html", [
+      [ "PDECornerConfigurations", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_corner_configurations.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_corner_configurations" ]
+    ] ],
     [ "PDEDrawableBase.java", "_p_d_e_drawable_base_8java.html", [
       [ "PDEDrawableBase", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_base.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_base" ]
     ] ],

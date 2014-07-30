@@ -223,6 +223,8 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:a0e0ed68285abb8da6c2eb77f1f2a2465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set darkstyle color.  <a href="#a0e0ed68285abb8da6c2eb77f1f2a2465"></a><br/></td></tr>
 <tr class="memitem:aef101b69718e5c002ded79588abc6e10"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_video_metaphor_image.html#aef101b69718e5c002ded79588abc6e10">getElementDarkStyle</a> ()</td></tr>
 <tr class="memdesc:aef101b69718e5c002ded79588abc6e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if element is colored in dark style.  <a href="#aef101b69718e5c002ded79588abc6e10"></a><br/></td></tr>
+<tr class="memitem:aa0a98e617c677aaff56bd3fae4bc0e0c"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_video_metaphor_image.html#aa0a98e617c677aaff56bd3fae4bc0e0c">elementCalculateAspectRatioBounds</a> (Rect bounds)</td></tr>
+<tr class="memdesc:aa0a98e617c677aaff56bd3fae4bc0e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the correct aspect ratio bounds.  <a href="#aa0a98e617c677aaff56bd3fae4bc0e0c"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Methods</h2></td></tr>
@@ -259,8 +261,14 @@ Private Methods</h2></td></tr>
 <tr class="memdesc:a40da2daf6155d794fded1b01a69c38dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the paint for the outline.  <a href="#a40da2daf6155d794fded1b01a69c38dd"></a><br/></td></tr>
 <tr class="memitem:a00bfcaf4644be455aa8ff70bdf5e708e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_video_metaphor_image.html#a00bfcaf4644be455aa8ff70bdf5e708e">createPictureBackgroundPaint</a> ()</td></tr>
 <tr class="memdesc:a00bfcaf4644be455aa8ff70bdf5e708e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create paint for picture background.  <a href="#a00bfcaf4644be455aa8ff70bdf5e708e"></a><br/></td></tr>
+<tr class="memitem:ac70756af1905d956f446c3134575c94c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_video_metaphor_image.html#ac70756af1905d956f446c3134575c94c">getElementAspectRatio</a> ()</td></tr>
+<tr class="memdesc:ac70756af1905d956f446c3134575c94c"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to get aspect ratio  <a href="#ac70756af1905d956f446c3134575c94c"></a><br/></td></tr>
 <tr class="memitem:ab397cb4906ede2282cc3cefe771a5f68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_video_metaphor_image.html#ab397cb4906ede2282cc3cefe771a5f68">updateDrawingBitmapHaptic</a> (Canvas c, Rect bounds)</td></tr>
 <tr class="memdesc:ab397cb4906ede2282cc3cefe771a5f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates our drawing bitmap and triggers a redraw of this element.  <a href="#ab397cb4906ede2282cc3cefe771a5f68"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a1c45defc61b6d33adf0ba1025bbfd18d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_video_metaphor_image.html#a1c45defc61b6d33adf0ba1025bbfd18d">mMiddleAligned</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -990,6 +998,64 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa0a98e617c677aaff56bd3fae4bc0e0c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rect de.telekom.pde.codelibrary.ui.elements.metaphor.PDEDrawableVideoMetaphorImage.elementCalculateAspectRatioBounds </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>bounds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the correct aspect ratio bounds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bounds</td><td>Available space </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Rect with correct aspect ratio, fitting in available space </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac70756af1905d956f446c3134575c94c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.metaphor.PDEDrawableVideoMetaphorImage.getElementAspectRatio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>helper function to get aspect ratio </p>
+
+</div>
+</div>
 <a class="anchor" id="a92b4083671602bea9fb52f49403ac764"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1199,6 +1265,18 @@ Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1c45defc61b6d33adf0ba1025bbfd18d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.elements.metaphor.PDEDrawableVideoMetaphorImage.mMiddleAligned</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

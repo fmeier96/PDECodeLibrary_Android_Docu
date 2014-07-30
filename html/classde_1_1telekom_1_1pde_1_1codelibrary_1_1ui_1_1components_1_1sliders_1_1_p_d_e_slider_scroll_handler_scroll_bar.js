@@ -9,6 +9,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_
     [ "getHandleClickFrame", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_scroll_bar.html#ad851f7a78ae3bd02513a1ac6e22fa0e0", null ],
     [ "getContentClickFrame", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_scroll_bar.html#a633a048247b8759f77de36fdfb76337e", null ],
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_scroll_bar.html#a2dbcfe8dbf60dd948191c14121a9ba62", null ],
-    [ "DEBUGPARAMS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_scroll_bar.html#a5563df2c8a9d41bf0e23509501df27a1", null ],
+    [ "DEBUG_PARAMS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_scroll_bar.html#a36ea6918470f05500e97d009915c5cd0", null ],
     [ "mHandleIsDragged", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1sliders_1_1_p_d_e_slider_scroll_handler_scroll_bar.html#a3420eaa73ca29d72ffe8d41014b4ce69", null ]
 ];

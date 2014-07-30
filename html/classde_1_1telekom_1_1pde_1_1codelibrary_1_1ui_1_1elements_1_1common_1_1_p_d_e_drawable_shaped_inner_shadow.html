@@ -221,6 +221,7 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:ad69f2c60aafbe09f0a5dace4af1f68da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a rectangular path with rounded corners.  <a href="#ad69f2c60aafbe09f0a5dace4af1f68da"></a><br/></td></tr>
 <tr class="memitem:a137a6f0abe3baebe99b527f7ab43f427"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#a137a6f0abe3baebe99b527f7ab43f427">setElementShapeOval</a> ()</td></tr>
 <tr class="memdesc:a137a6f0abe3baebe99b527f7ab43f427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a oval inscribing the rect. Use a square to get a circle.  <a href="#a137a6f0abe3baebe99b527f7ab43f427"></a><br/></td></tr>
+<tr class="memitem:aded4b07a2fa633ebc86b312b3ac0550f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#aded4b07a2fa633ebc86b312b3ac0550f">setElementShapeCustomCorners</a> (int cornerConfiguration, float cornerRadius)</td></tr>
 <tr class="memitem:ae2d8bcd713dffb51d7cd3fb80dc6bc7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#ae2d8bcd713dffb51d7cd3fb80dc6bc7a">draw</a> (android.graphics.Canvas canvas)</td></tr>
 <tr class="memdesc:ae2d8bcd713dffb51d7cd3fb80dc6bc7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws the inner shadow  <a href="#ae2d8bcd713dffb51d7cd3fb80dc6bc7a"></a><br/></td></tr>
 <tr class="memitem:a495bef6ff6c9ba6511452295ffbc218d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#a495bef6ff6c9ba6511452295ffbc218d">setElementLightIncidenceOffset</a> (PointF offset)</td></tr>
@@ -260,6 +261,7 @@ Package Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a7e9d99859b09b8f49155fdaeb8ef9ec3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#a7e9d99859b09b8f49155fdaeb8ef9ec3">mShapeType</a></td></tr>
+<tr class="memitem:aee984d6de4edfe2b90b4ada0067123d3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#aee984d6de4edfe2b90b4ada0067123d3">mElementCornerConfiguration</a></td></tr>
 <tr class="memitem:a0646aaec268d86f056a42973231e088d"><td class="memItemLeft" align="right" valign="top">Paint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#a0646aaec268d86f056a42973231e088d">mBackgroundPaint</a> = null</td></tr>
 <tr class="memitem:aa97a522daf448c106bb00694de14368e"><td class="memItemLeft" align="right" valign="top">Paint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#aa97a522daf448c106bb00694de14368e">mPaint2</a> = null</td></tr>
 <tr class="memitem:a789bcf88478bd8b20cfc513c13c9be61"><td class="memItemLeft" align="right" valign="top">Paint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_shaped_inner_shadow.html#a789bcf88478bd8b20cfc513c13c9be61">mPaint3</a> = null</td></tr>
@@ -587,6 +589,40 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set a oval inscribing the rect. Use a square to get a circle. </p>
+
+</div>
+</div>
+<a class="anchor" id="aded4b07a2fa633ebc86b312b3ac0550f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedInnerShadow.setElementShapeCustomCorners </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cornerConfiguration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>cornerRadius</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -921,6 +957,26 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedInnerShadow.mShapeType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aee984d6de4edfe2b90b4ada0067123d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableShapedInnerShadow.mElementCornerConfiguration</td>
         </tr>
       </table>
   </td>

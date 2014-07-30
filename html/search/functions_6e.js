@@ -2,6 +2,7 @@ var searchData=
 [
   ['nativepixel',['nativePixel',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a5b985f5c0e3840c5bce9c7925f1876f0',1,'de::telekom::pde::codelibrary::ui::buildingunits::PDEBuildingUnits']]],
   ['navigationmodesortadapter',['NavigationModeSortAdapter',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1adapter_1_1_navigation_mode_sort_adapter.html#a1e8ad6eed60d532eb347443a65ab6f36',1,'de::telekom::pde::codelibrary::samples::adapter::NavigationModeSortAdapter']]],
+  ['negativemultiplywithcolor',['negativeMultiplyWithColor',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a0be6582cd814da23624df5e323dc80da',1,'de::telekom::pde::codelibrary::ui::color::PDEColor']]],
   ['newcolorwithcombinedalpha',['newColorWithCombinedAlpha',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#afa5a824a068b425e69fc07c246945b4f',1,'de::telekom::pde::codelibrary::ui::color::PDEColor']]],
   ['newintegercolorwithcombinedalpha',['newIntegerColorWithCombinedAlpha',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a9182309759d5eece1a6b5508e874d113',1,'de::telekom::pde::codelibrary::ui::color::PDEColor']]],
   ['newposty',['newPosty',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1timing_1_1_p_d_e_frame_timing_ordinary.html#a994dec1fa75dbe2c8b808c87c2743349',1,'de::telekom::pde::codelibrary::ui::timing::PDEFrameTimingOrdinary']]],

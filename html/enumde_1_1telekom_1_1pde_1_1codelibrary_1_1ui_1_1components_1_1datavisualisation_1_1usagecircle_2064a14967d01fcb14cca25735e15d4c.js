@@ -1,0 +1,8 @@
+var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1datavisualisation_1_1usagecircle_2064a14967d01fcb14cca25735e15d4c =
+[
+    [ "PDEUsageCircleStyleDefault", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1datavisualisation_1_1usagecircle_2064a14967d01fcb14cca25735e15d4c.html#a538d09c7600a96a624db3d9d82ab2160", null ],
+    [ "PDEUsageCircleStyleLeadCircle", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1datavisualisation_1_1usagecircle_2064a14967d01fcb14cca25735e15d4c.html#a5e07304f2493b25ed0c48a0282adf47e", null ],
+    [ "PDEUsageCircleStyleSlimCircle", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1datavisualisation_1_1usagecircle_2064a14967d01fcb14cca25735e15d4c.html#a8d2e2b945ba8c5e35d1acecba4b0dc11", null ],
+    [ "PDEUsageCircleStyleSegmented", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1datavisualisation_1_1usagecircle_2064a14967d01fcb14cca25735e15d4c.html#a8d47fdaed9565bb42752477221d23835", null ],
+    [ "PDEUsageCircleStyleDivided", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1datavisualisation_1_1usagecircle_2064a14967d01fcb14cca25735e15d4c.html#aa06a1ce0c4cc3a218e81c6775ee27e6c", null ]
+];

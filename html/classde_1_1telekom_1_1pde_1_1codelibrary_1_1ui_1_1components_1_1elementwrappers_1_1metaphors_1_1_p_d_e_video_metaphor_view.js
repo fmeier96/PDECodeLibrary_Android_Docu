@@ -3,8 +3,8 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrapp
     [ "PDEVideoMetaphorView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#ab9386855193f742497fa27641d168b79", null ],
     [ "PDEVideoMetaphorView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a79cfef4d7cf5232609eff50c9d49424d", null ],
     [ "PDEVideoMetaphorView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a82ab836d6dcd248cf1b16bbbdc2fbbce", null ],
-    [ "init", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#ab3c189d13d662d0e0512778eecd7f2b8", null ],
-    [ "setAttributes", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a0ac8acfdab7333ad4ebe8d557429f826", null ],
+    [ "init", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#ab9b5473e632d762ff173627b8e3ab271", null ],
+    [ "setAttributes", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a258ad0deb2728863aec253060d034502", null ],
     [ "setContentStyle", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a37756fb438805ae5e5fe444170eac667", null ],
     [ "setContentStyle", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#aec76717cfc672264f00f69ea4e9004dd", null ],
     [ "getStyle", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a703b87ed4425c4afda107515f0abcde5", null ],
@@ -21,6 +21,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrapp
     [ "getElementWidth", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a5dbeae0c185eed83bce77c877eac2557", null ],
     [ "getElementHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a3903ef89cbc087a171682e7d3495d6b9", null ],
     [ "onMeasure", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a3e40f192b8844a4f3d126c0c92143160", null ],
+    [ "elementCalculateAspectRatioBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#abde71d23183fd0ea50dcd73667bd289f", null ],
     [ "mVideo", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a2aba5bd50575f67978309326d3c28503", null ],
     [ "mInternalCalculateAspectRatioBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_video_metaphor_view.html#a8c2baf23f58c38f827eae813ef244ee1", null ]
 ];

@@ -1,0 +1,6 @@
+var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_5eaf5f47b468e8e53b7493f41b1bfc12 =
+[
+    [ "ModeLinear", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_5eaf5f47b468e8e53b7493f41b1bfc12.html#af32573683be9ef78133c977e085a10ad", null ],
+    [ "ModeB3", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_5eaf5f47b468e8e53b7493f41b1bfc12.html#a197d02a54cd658f53f4821a53384232a", null ],
+    [ "ModeB5", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_5eaf5f47b468e8e53b7493f41b1bfc12.html#a1d226743733ad8bacad3b5df306a7bf8", null ]
+];

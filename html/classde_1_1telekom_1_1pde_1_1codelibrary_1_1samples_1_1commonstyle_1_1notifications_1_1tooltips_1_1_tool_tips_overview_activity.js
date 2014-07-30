@@ -1,0 +1,5 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1notifications_1_1tooltips_1_1_tool_tips_overview_activity =
+[
+    [ "onCreate", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1notifications_1_1tooltips_1_1_tool_tips_overview_activity.html#ab08a2eb2760a5f25817c06b296ebdfd6", null ],
+    [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1notifications_1_1tooltips_1_1_tool_tips_overview_activity.html#ace07aa51658f846df732bb6e32643aef", null ]
+];

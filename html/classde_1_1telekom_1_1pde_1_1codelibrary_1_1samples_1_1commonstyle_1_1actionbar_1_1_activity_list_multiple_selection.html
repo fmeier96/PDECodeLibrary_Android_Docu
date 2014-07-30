@@ -277,9 +277,26 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> <span class="keyword">new</span> String[] { <span class="stringliteral">&quot;item 1&quot;</span>, <span class="stringliteral">&quot;item 2&quot;</span>, <span class="stringliteral">&quot;item 3&quot;</span>, <span class="stringliteral">&quot;item 4&quot;</span>, <span class="stringliteral">&quot;item 5&quot;</span>,</div>
-<div class="line">            <span class="stringliteral">&quot;item 6&quot;</span>, <span class="stringliteral">&quot;item 7&quot;</span>, <span class="stringliteral">&quot;item 8&quot;</span>, <span class="stringliteral">&quot;item 9&quot;</span>, <span class="stringliteral">&quot;item 10&quot;</span>, <span class="stringliteral">&quot;item 11&quot;</span>, <span class="stringliteral">&quot;item 12&quot;</span>, <span class="stringliteral">&quot;item 13&quot;</span>, <span class="stringliteral">&quot;item 14&quot;</span>, <span class="stringliteral">&quot;item 15&quot;</span>,</div>
-<div class="line">            <span class="stringliteral">&quot;item 16&quot;</span>, <span class="stringliteral">&quot;item 17&quot;</span>, <span class="stringliteral">&quot;item 18&quot;</span>, <span class="stringliteral">&quot;item 19&quot;</span>, <span class="stringliteral">&quot;item 20&quot;</span> }</div>
+<b>Initial value:</b><div class="fragment"><div class="line"> <span class="keyword">new</span> String[]{<span class="stringliteral">&quot;item 1&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 2&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 3&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 4&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 5&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 6&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 7&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 8&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 9&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 10&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 11&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 12&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 13&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 14&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 15&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 16&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 17&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 18&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 19&quot;</span>,</div>
+<div class="line">                                                <span class="stringliteral">&quot;item 20&quot;</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -300,27 +317,25 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"> <span class="keyword">new</span> PDEActionModeHelper(<span class="keyword">this</span>) {</div>
-<div class="line">                    @Override</div>
-<div class="line">                    <span class="keyword">public</span> <span class="keywordtype">void</span> onDestroyActionMode(ActionMode mode)</div>
-<div class="line">                    {</div>
-<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_list_multiple_selection.html#a0eb578c4da37002b92e05223997972df">actionMode</a> = null;</div>
-<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().setChoiceMode(ListView.CHOICE_MODE_NONE);</div>
-<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().clearChoices();</div>
-<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().setAdapter(<a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#a141bedf7dfa6c0ee66c7be875d04b9aa">getListAdapter</a>());</div>
+<b>Initial value:</b><div class="fragment"><div class="line"> <span class="keyword">new</span> PDEActionModeHelper() {</div>
+<div class="line">        @Override</div>
+<div class="line">        <span class="keyword">public</span> <span class="keywordtype">void</span> onDestroyActionMode(ActionMode mode) {</div>
+<div class="line">            <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_list_multiple_selection.html#a0eb578c4da37002b92e05223997972df">actionMode</a> = null;</div>
+<div class="line">            <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().setChoiceMode(ListView.CHOICE_MODE_NONE);</div>
+<div class="line">            <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().clearChoices();</div>
+<div class="line">            <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().setAdapter(<a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#a141bedf7dfa6c0ee66c7be875d04b9aa">getListAdapter</a>());</div>
+<div class="line">        }</div>
 <div class="line"></div>
-<div class="line">                    }</div>
 <div class="line"></div>
-<div class="line">                    @Override</div>
-<div class="line">                    <span class="keyword">public</span> <span class="keywordtype">boolean</span> onCreateActionMode(ActionMode mode, Menu menu)</div>
-<div class="line">                    {</div>
-<div class="line">                        super.onCreateActionMode(mode, menu);</div>
-<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_list_multiple_selection.html#a0eb578c4da37002b92e05223997972df">actionMode</a> = mode;</div>
-<div class="line">                        <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);</div>
-<div class="line">                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line">                    }</div>
+<div class="line">        @Override</div>
+<div class="line">        <span class="keyword">public</span> <span class="keywordtype">boolean</span> onCreateActionMode(ActionMode mode, Menu menu) {</div>
+<div class="line">            super.onCreateActionMode(mode, menu);</div>
+<div class="line">            <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_list_multiple_selection.html#a0eb578c4da37002b92e05223997972df">actionMode</a> = mode;</div>
+<div class="line">            <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_list_activity.html#afca8b46f3f43602f283ccbdeae810adf">getListView</a>().setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);</div>
+<div class="line">            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line">        }</div>
 <div class="line"></div>
-<div class="line">                }</div>
+<div class="line">    }</div>
 </div><!-- fragment -->
 </div>
 </div>

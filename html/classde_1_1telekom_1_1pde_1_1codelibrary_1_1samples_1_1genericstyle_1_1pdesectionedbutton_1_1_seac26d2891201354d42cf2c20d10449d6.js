@@ -1,0 +1,7 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdesectionedbutton_1_1_seac26d2891201354d42cf2c20d10449d6 =
+[
+    [ "ButtonColor", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdesectionedbutton_1_1_seac26d2891201354d42cf2c20d10449d6.html#aaa3055f371e71126ff2d1c222a92e091", null ],
+    [ "toString", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdesectionedbutton_1_1_seac26d2891201354d42cf2c20d10449d6.html#ab32b3e6a878cb46283a6ae1c0fc5d4e2", null ],
+    [ "mName", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdesectionedbutton_1_1_seac26d2891201354d42cf2c20d10449d6.html#ae5abea65c268e85008ae9c6c363525dd", null ],
+    [ "mColor", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdesectionedbutton_1_1_seac26d2891201354d42cf2c20d10449d6.html#a5a06585aca4503d87761dd69d1608332", null ]
+];

@@ -227,9 +227,9 @@ Public Methods</h2></td></tr>
 <tr class="memitem:ae1d0619050dc03e02fcbdefd0e090ff2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#ae1d0619050dc03e02fcbdefd0e090ff2">sendEvent</a> (String type, Object listenerObject)</td></tr>
 <tr class="memdesc:ae1d0619050dc03e02fcbdefd0e090ff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function for quick event sending.  <a href="#ae1d0619050dc03e02fcbdefd0e090ff2"></a><br/></td></tr>
 <tr class="memitem:a527cdc9b179b2e1ee63a9b9a45777572"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a527cdc9b179b2e1ee63a9b9a45777572">forwardEvents</a> (<a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html">PDEIEventSource</a> eventSource)</td></tr>
-<tr class="memdesc:a527cdc9b179b2e1ee63a9b9a45777572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function. Forward all events from another source to all listeners on this EventSource.  <a href="#a527cdc9b179b2e1ee63a9b9a45777572"></a><br/></td></tr>
+<tr class="memdesc:a527cdc9b179b2e1ee63a9b9a45777572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward all events from another source to all listeners on this EventSource. Convenience function.  <a href="#a527cdc9b179b2e1ee63a9b9a45777572"></a><br/></td></tr>
 <tr class="memitem:abf7d1f844f9edcb867e6d4ed794a283e"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#abf7d1f844f9edcb867e6d4ed794a283e">forwardEvents</a> (<a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html">PDEIEventSource</a> eventSource, String eventMask)</td></tr>
-<tr class="memdesc:abf7d1f844f9edcb867e6d4ed794a283e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function. Forward events from another source through ourself.  <a href="#abf7d1f844f9edcb867e6d4ed794a283e"></a><br/></td></tr>
+<tr class="memdesc:abf7d1f844f9edcb867e6d4ed794a283e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward events from another source through ourself. Convenience function.  <a href="#abf7d1f844f9edcb867e6d4ed794a283e"></a><br/></td></tr>
 <tr class="memitem:a85e3a136913aaa2a25a5bc6c0c155437"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a85e3a136913aaa2a25a5bc6c0c155437">forwardEventHelper</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html">PDEEvent</a> event)</td></tr>
 <tr class="memdesc:a85e3a136913aaa2a25a5bc6c0c155437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function doing the actual event forwarding.  <a href="#a85e3a136913aaa2a25a5bc6c0c155437"></a><br/></td></tr>
 <tr class="memitem:a002f7c6434865dcb6c76c633052296b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#a002f7c6434865dcb6c76c633052296b3">setEventDefaultSender</a> (Object eventDefaultSender, boolean override)</td></tr>
@@ -879,7 +879,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Convenience function. Forward all events from another source to all listeners on this EventSource. </p>
+<p>Forward all events from another source to all listeners on this EventSource. Convenience function. </p>
 <p>You can build event processing trees with this - just add our event source as forwarder to another source and all events get routed to all our listeners. At the moment, the delegate functions when a new listener is added are not passed on to the sources.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -923,7 +923,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Convenience function. Forward events from another source through ourself. </p>
+<p>Forward events from another source through ourself. Convenience function. </p>
 <p>You can build event processing trees with this - just add our event source as forwarder to another source and all events get routed to all our listeners. With the EventMask you can specify which events are listened to. At the moment, the delegate functions when a new listener is added are not passed on to the sources.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

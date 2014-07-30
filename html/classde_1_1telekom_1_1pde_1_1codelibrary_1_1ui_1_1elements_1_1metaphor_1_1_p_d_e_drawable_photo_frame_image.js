@@ -17,9 +17,12 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p
     [ "performLayoutCalculations", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#aeab892439ae42175d9d827617cf5ac99", null ],
     [ "performLayoutCalculationsFlat", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a8e69fe0afa3d8dfd382e60a4d37616fd", null ],
     [ "performLayoutCalculationsHaptic", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#adeff69bb3ecd5452a267035a1607e539", null ],
+    [ "correctBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#ad30e49f05fa718b06f823977d9b94919", null ],
     [ "updateDrawingBitmap", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#ad9534efad9218414fc38443c73ea9cd0", null ],
     [ "updateDrawingBitmapFlat", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#ab1e3a79ffd813a3173e8ff94b6f83fdc", null ],
     [ "updateDrawingBitmapHaptic", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a97887b4f8507d8976de5780300d077b2", null ],
+    [ "elementCalculateAspectRatioBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#ae59617f109be57cf7ed1ddfef96e4526", null ],
+    [ "getElementAspectRatio", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a8cfdf2650479d3fa9f4e6508a762f39b", null ],
     [ "updateAllPaints", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#abd01fd525f62f190939c59e56485d597", null ],
     [ "createOutlineFlatPaint", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a93d6ee757644ec1ccb8ae1e8b7fbd1b6", null ],
     [ "createBorderPaint", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#aedd9a164bf03b392651925581e91c895", null ],
@@ -27,6 +30,8 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p
     [ "createOutlineHapticPaint", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a2574c6c0bd96f05b096db63e4bc84269", null ],
     [ "updateHook", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a2eb6df9def83a6a457edfe1823ccf12b", null ],
     [ "mStyle", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#afc482e620129c743e92a749b263c7cb6", null ],
+    [ "mMiddleAligned", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a176e725f0ef07f22efe2bb497e5fafea", null ],
+    [ "CONST_ASPECT_RATIO", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#afc2876fbf8dcf647c2402177b690c3ff", null ],
     [ "mPicture", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a8c4cc5d886196b05231bcdd238b28fdc", null ],
     [ "mElementShadowDrawable", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a1b39dbedbd7e5e6fbd57d2181df89d61", null ],
     [ "mOutlineRect", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a0ce8ae88fd0553affcf5562fa8492e56", null ],
@@ -40,5 +45,9 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p
     [ "mOutlineHapticColor", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#ac9e29746e806506aaa0a97454ea7e4cd", null ],
     [ "mBorderRect", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a6e26a2002c984e57529aa3ca4c50c1ba", null ],
     [ "mBorderPaint", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#ad44508d56038ead88ac9c50395072442", null ],
-    [ "mBorderColor", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a523ec01aa6541f01b8e8472e84f9350b", null ]
+    [ "mBorderColor", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a523ec01aa6541f01b8e8472e84f9350b", null ],
+    [ "mPaddingTop", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#accfd65ab16be84a43445477861ea0f74", null ],
+    [ "mPaddingLeft", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a86ef3558f7bb0c7d46799138b4ddd39e", null ],
+    [ "mPaddingRight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#a3aeb3ccf60a745b6f74a9b59f41e6555", null ],
+    [ "mPaddingBottom", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame_image.html#ada240917b3b228f953aa80401b17770b", null ]
 ];

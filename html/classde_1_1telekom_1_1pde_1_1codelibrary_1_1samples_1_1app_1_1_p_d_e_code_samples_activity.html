@@ -617,7 +617,9 @@ Static Private Attributes</h2></td></tr>
 <div class="line">        <span class="keyword">private</span> <span class="keyword">final</span> Collator collator = Collator.getInstance();</div>
 <div class="line"></div>
 <div class="line">        </div>
-<div class="line">        <span class="keyword">public</span> <span class="keywordtype">int</span> compare(Map&lt;String, Object&gt; map1, Map&lt;String, Object&gt; map2) {</div>
+<div class="line">        </div>
+<div class="line">        @SuppressWarnings(<span class="stringliteral">&quot;SuspiciousMethodCalls&quot;</span>)</div>
+<div class="line">        public <span class="keywordtype">int</span> compare(Map&lt;String, Object&gt; map1, Map&lt;String, Object&gt; map2) {</div>
 <div class="line">            <span class="keywordtype">int</span> index1 = <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1app_1_1_p_d_e_code_samples_activity.html#a00a06be0be7b7dfa699d75f94d3478e5">sortOrderArray</a>.indexOf(map1.get(<span class="stringliteral">&quot;activity_title&quot;</span>));</div>
 <div class="line">            <span class="keywordtype">int</span> index2 = <a class="code" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1app_1_1_p_d_e_code_samples_activity.html#a00a06be0be7b7dfa699d75f94d3478e5">sortOrderArray</a>.indexOf(map2.get(<span class="stringliteral">&quot;activity_title&quot;</span>));</div>
 <div class="line"></div>

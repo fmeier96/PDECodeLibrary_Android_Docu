@@ -1,5 +1,9 @@
 var dir_738b571bccb8d093b16e8adf1b3aeb6d =
 [
+    [ "DefaultResizeActivity.java", "_default_resize_activity_8java.html", [
+      [ "DefaultResizeActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_default_resize_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_default_resize_activity" ],
+      [ "LEFT_RIGHT_BUTTON", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_default_resize_activity_1_4e5d187a3be947ebc8b6cc23b2783374.html", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_default_resize_activity_1_4e5d187a3be947ebc8b6cc23b2783374" ]
+    ] ],
     [ "DialogHelper.java", "_dialog_helper_8java.html", [
       [ "DialogHelper", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_dialog_helper.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_dialog_helper" ],
       [ "ChoiceListOnItemClickListener", "interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_dialog_helper_1_1_choice_list_on_item_click_listener.html", "interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_dialog_helper_1_1_choice_list_on_item_click_listener" ]

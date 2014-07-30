@@ -70,6 +70,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e
     [ "getElementWidth", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#ae62712ea526404243b4161b55bdc503b", null ],
     [ "getIntrinsicHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#a9a8609dbb94a476672bea2bde7043760", null ],
     [ "refreshMetrics", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#aaf6504403bab292a2adb3f6a06daf0f1", null ],
+    [ "getCapHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#a15d5f136e253f08a31720551cf18c653", null ],
     [ "mText", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#aa338307d38055f97efa4096094a43417", null ],
     [ "EllipsizeString", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#a88eae88ef08ecc943a4c9db625be5bbb", null ],
     [ "mMaxLines", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1text_1_1_p_d_e_layer_text.html#ab73bb5d38f53084b264b182106140b9e", null ],

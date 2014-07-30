@@ -389,10 +389,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Listener for clicked list items. </p>
-<p>All PDEListItems which are added by PDEListAdapter add this listener function. So it receives the PDE_AGENT_CONTROLLER_EVENT_ACTION_WILL_BE_SELECTED and PDE_AGENT_CONTROLLER_EVENT_ACTION_SELECTED events of any clicked <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html" title="List item wrapper that holds the styleguide agentstate highlight logic.">PDEListItem</a>. In this way we inform the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html" title="List that can deal with styleguide conform list items (those with agent states).">PDEListView</a> about the click on one of its items. Now the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html" title="List that can deal with styleguide conform list items (those with agent states).">PDEListView</a> can publish the information about the click on one of its items to the world by sending its own events. The user has the choice to listen to this PDE list events by the use of <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a5243c8286e6a4d630a46395641deaa07" title="Add event Listener.">addListener()</a> or he registers the standard android OnItemClickListener. Listening to the PDE events has the advantage that it is possible to distinguish between will_be_selected and selected events.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">event</td><td>PDEEvent which is sent by a list item. </td></tr>
+    <tr><td class="paramname">event</td><td>PDEEvent which is sent by a list item. All PDEListItems which are added by PDEListAdapter add this listener function. So it receives the PDE_AGENT_CONTROLLER_EVENT_ACTION_WILL_BE_SELECTED and PDE_AGENT_CONTROLLER_EVENT_ACTION_SELECTED events of any clicked <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html" title="List item wrapper that holds the styleguide agentstate highlight logic.">PDEListItem</a>. In this way we inform the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html" title="List that can deal with styleguide conform list items (those with agent states).">PDEListView</a> about the click on one of its items. Now the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html" title="List that can deal with styleguide conform list items (those with agent states).">PDEListView</a> can publish the information about the click on one of its items to the world by sending its own events. The user has the choice to listen to this PDE list events by the use of <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html#a5243c8286e6a4d630a46395641deaa07" title="Add event Listener.">addListener()</a> or he registers the standard android OnItemClickListener. Listening to the PDE events has the advantage that it is possible to distinguish between will_be_selected and selected events. </td></tr>
   </table>
   </dd>
 </dl>
@@ -503,7 +502,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add event Listener. </p>
-<p>PDEIEventSource Interface implementation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">target</td><td>Object which will be called in case of an event. </td></tr>
@@ -511,7 +509,7 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener PDEIEventSource Interface implementation. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#abafb4678d2cf095ee7cb20a1a0f3139a" title="Add a listener to the list.">de.telekom.pde.codelibrary.ui.events.PDEEventSource::addListener</a> </dd></dl>
 
 <p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#a1ff7001cbb6bfe41c71e596708dcf4d6">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
@@ -557,7 +555,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add event Listener. </p>
-<p>PDEIEventSource Interface implementation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">target</td><td>Object which will be called in case of an event. </td></tr>
@@ -566,7 +563,7 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener PDEIEventSource Interface implementation. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#abafb4678d2cf095ee7cb20a1a0f3139a" title="Add a listener to the list.">de.telekom.pde.codelibrary.ui.events.PDEEventSource::addListener</a> </dd></dl>
 
 <p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#ae9c0f545e7c68b5684a0497c471a0eb9">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>

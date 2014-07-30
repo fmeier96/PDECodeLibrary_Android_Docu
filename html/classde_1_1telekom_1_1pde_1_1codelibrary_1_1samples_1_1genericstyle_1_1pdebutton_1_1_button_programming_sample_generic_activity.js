@@ -6,6 +6,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdebu
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdebutton_1_1_button_programming_sample_generic_activity.html#ae650674bf28b377065f7c205ffa3ab5a", null ],
     [ "mPDEButton", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdebutton_1_1_button_programming_sample_generic_activity.html#a5f600f2203d8369c193df46914c40694", null ],
     [ "mStandardButton", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdebutton_1_1_button_programming_sample_generic_activity.html#a9cd571d5c851ee70b264aaef613f7384", null ],
-    [ "buttonWidth", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdebutton_1_1_button_programming_sample_generic_activity.html#a753b494c3c23437801ee10df052b7880", null ],
+    [ "buttonWidth", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdebutton_1_1_button_programming_sample_generic_activity.html#a2185dc423c3b432eb1bffb2bcb1b32e6", null ],
     [ "mStyle", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1genericstyle_1_1pdebutton_1_1_button_programming_sample_generic_activity.html#a35c9d08c5d029d1a152374a746f78e1c", null ]
 ];

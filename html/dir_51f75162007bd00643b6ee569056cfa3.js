@@ -14,5 +14,14 @@ var dir_51f75162007bd00643b6ee569056cfa3 =
     ] ],
     [ "PDELinearAnimation.java", "_p_d_e_linear_animation_8java.html", [
       [ "PDELinearAnimation", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation" ]
+    ] ],
+    [ "PDEParametricCurveAnimation.java", "_p_d_e_parametric_curve_animation_8java.html", [
+      [ "PDEParametricCurveAnimation", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation" ],
+      [ "PDEParametricCurveAnimationMode", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_5eaf5f47b468e8e53b7493f41b1bfc12.html", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_5eaf5f47b468e8e53b7493f41b1bfc12" ],
+      [ "PDEParametricCurveAnimationTimeMode", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_a7737669272f7a0cd3c341faf2be22d8.html", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_a7737669272f7a0cd3c341faf2be22d8" ],
+      [ "PDEParametricCurveAnimationEase", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_32b7dd4fa06c3a381e37607a157adfcd.html", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_32b7dd4fa06c3a381e37607a157adfcd" ]
+    ] ],
+    [ "PDEParametricCurveAnimationEssentials.java", "_p_d_e_parametric_curve_animation_essentials_8java.html", [
+      [ "PDEParametricCurveAnimationEssentials", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_essentials.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_essentials" ]
     ] ]
 ];

@@ -188,9 +188,11 @@ Inheritance diagram for de.telekom.pde.codelibrary.ui.animation.PDEAnimation:</d
  <div class="center">
   <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation.png" usemap="#de.telekom.pde.codelibrary.ui.animation.PDEAnimation_map" alt=""/>
   <map id="de.telekom.pde.codelibrary.ui.animation.PDEAnimation_map" name="de.telekom.pde.codelibrary.ui.animation.PDEAnimation_map">
-<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html" title="An animation group for grouping other animations." alt="de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup" shape="rect" coords="0,56,357,80"/>
-<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html" title="Animation helper for PDEAgentController." alt="de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation" shape="rect" coords="367,56,724,80"/>
-<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html" title="The root animation." alt="de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot" shape="rect" coords="0,112,357,136"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group.html" title="An animation group for grouping other animations." alt="de.telekom.pde.codelibrary.ui.animation.PDEAnimationGroup" shape="rect" coords="0,56,473,80"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html" title="Animation helper for PDEAgentController." alt="de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation" shape="rect" coords="483,56,956,80"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation.html" title="Private methods and properties." alt="de.telekom.pde.codelibrary.ui.animation.PDEParametricCurveAnimation" shape="rect" coords="966,56,1439,80"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_essentials.html" title="Private methods and properties." alt="de.telekom.pde.codelibrary.ui.animation.PDEParametricCurveAnimationEssentials" shape="rect" coords="1449,56,1922,80"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_root.html" title="The root animation." alt="de.telekom.pde.codelibrary.ui.animation.PDEAnimationRoot" shape="rect" coords="0,112,473,136"/>
 </map>
  </div></div>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
@@ -953,7 +955,7 @@ Protected Attributes</h2></td></tr>
 <p>Implement this function in derived classes. </p>
 <p>When this function is called, the time value did change and we're running. If the time value changes for another reason (e.g. because someone changed the timebase manually), animate won't get called. This is per design, because mostly the timebase gets changed by the animation itself when reconfiguring - and we wouldn't want an explicit animate in this case. </p>
 
-<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#ae2ddc261c1632bf9d84226d02beb43c6">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>.</p>
+<p>Reimplemented in <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation.html#a727f061262c7249cef25681ccf76ac8d">de.telekom.pde.codelibrary.ui.animation.PDEParametricCurveAnimation</a>, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_essentials.html#ae10071fc14d0c7cbfa903ab10a75f4a5">de.telekom.pde.codelibrary.ui.animation.PDEParametricCurveAnimationEssentials</a>, and <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_linear_animation.html#ae2ddc261c1632bf9d84226d02beb43c6">de.telekom.pde.codelibrary.ui.animation.PDELinearAnimation</a>.</p>
 
 </div>
 </div>

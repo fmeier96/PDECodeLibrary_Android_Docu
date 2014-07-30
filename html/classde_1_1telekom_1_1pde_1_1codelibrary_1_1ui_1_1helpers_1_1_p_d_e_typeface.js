@@ -29,6 +29,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface
     [ "sIconFont", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#aa78926fc8cfbc012bd0e27d8c9c21128", null ],
     [ "sTeleGroteskDefaultSize", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a6d423afbac3394594faf2252a03d41b6", null ],
     [ "sOtherFontsDefaultSize", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a616d3d74f968cab7b1df90f1cfbc77d9", null ],
-    [ "mTypefaceCache", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#ab35cf3253728a5acafc616870bd9a379", null ],
-    [ "TELE_GROTESK_STRINGRESOURCE_ID", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#aa81ad19a61868fe300a85d2a3032eed3", null ]
+    [ "mTypefaceCache", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a31b2a3de8b62435e2c35133c24de9bf7", null ],
+    [ "TELE_GROTESK_STRINGRESOURCE_ID", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_typeface.html#a3e91f6ef7ee9dbbc6e72ed3ff40140ff", null ]
 ];

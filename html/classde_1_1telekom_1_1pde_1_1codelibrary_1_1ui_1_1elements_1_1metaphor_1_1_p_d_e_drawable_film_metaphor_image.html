@@ -217,6 +217,8 @@ Public Methods</h2></td></tr>
 <tr class="memdesc:aa7620892ee39ecdb0a0e0a1f76262384"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if element is colored in dark style.  <a href="#aa7620892ee39ecdb0a0e0a1f76262384"></a><br/></td></tr>
 <tr class="memitem:a21b77eb262c7157cdfba2192dd2a0ee6"><td class="memItemLeft" align="right" valign="top">Drawable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_film_metaphor_image.html#a21b77eb262c7157cdfba2192dd2a0ee6">getElementPicture</a> ()</td></tr>
 <tr class="memdesc:a21b77eb262c7157cdfba2192dd2a0ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Picture.  <a href="#a21b77eb262c7157cdfba2192dd2a0ee6"></a><br/></td></tr>
+<tr class="memitem:add8b24b9b3c0e7a07467dbb99f40682a"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_film_metaphor_image.html#add8b24b9b3c0e7a07467dbb99f40682a">elementCalculateAspectRatioBounds</a> (Rect bounds)</td></tr>
+<tr class="memdesc:add8b24b9b3c0e7a07467dbb99f40682a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the correct aspect ratio bounds.  <a href="#add8b24b9b3c0e7a07467dbb99f40682a"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Methods</h2></td></tr>
@@ -263,6 +265,14 @@ Private Methods</h2></td></tr>
 <tr class="memdesc:a93867d44a0dbbb3b9f5955840ff7e37b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates our drawing bitmap and triggers a redraw of this element.  <a href="#a93867d44a0dbbb3b9f5955840ff7e37b"></a><br/></td></tr>
 <tr class="memitem:ac0fa28dc62a8758dad267011a509ced0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_film_metaphor_image.html#ac0fa28dc62a8758dad267011a509ced0">updateDrawingBitmapHaptic</a> (Canvas c, Rect bounds)</td></tr>
 <tr class="memdesc:ac0fa28dc62a8758dad267011a509ced0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates our drawing bitmap and triggers a redraw of this element.  <a href="#ac0fa28dc62a8758dad267011a509ced0"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ad7c4474e67600a46ec407c30cb89c78a"><td class="memItemLeft" align="right" valign="top">static final float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_film_metaphor_image.html#ad7c4474e67600a46ec407c30cb89c78a">CONST_ASPECT_RATIO</a> = 20.0f / 29.0f</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ad1e070419a010b2fd351df468503e5f9"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_film_metaphor_image.html#ad1e070419a010b2fd351df468503e5f9">mMiddleAligned</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -1008,6 +1018,39 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="add8b24b9b3c0e7a07467dbb99f40682a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rect de.telekom.pde.codelibrary.ui.elements.metaphor.PDEDrawableFilmMetaphorImage.elementCalculateAspectRatioBounds </td>
+          <td>(</td>
+          <td class="paramtype">Rect&#160;</td>
+          <td class="paramname"><em>bounds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the correct aspect ratio bounds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bounds</td><td>Available space </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Rect with correct aspect ratio, fitting in available space </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a824646a14756772c5efd4592fa11bdd7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1141,6 +1184,26 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad7c4474e67600a46ec407c30cb89c78a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final float de.telekom.pde.codelibrary.ui.elements.metaphor.PDEDrawableFilmMetaphorImage.CONST_ASPECT_RATIO = 20.0f / 29.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a7da9dfb43a9ef17f093b18801798b709"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1157,6 +1220,18 @@ Private Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad1e070419a010b2fd351df468503e5f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.elements.metaphor.PDEDrawableFilmMetaphorImage.mMiddleAligned</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

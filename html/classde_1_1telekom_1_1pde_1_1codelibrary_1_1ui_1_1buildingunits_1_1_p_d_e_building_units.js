@@ -24,6 +24,8 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_bu
     [ "roundToScreenCoordinates", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a91f91f1b91438572536538c2c05c1956", null ],
     [ "roundUpToScreenCoordinates", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a87fd4124f0bfbc357b4436c747d61311", null ],
     [ "parseSize", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a9fddd894df3f72eedceddbf2cadbd916", null ],
+    [ "DEBUG_PARAMS", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a9f24ad4c149cda9ff1e10e1ab3251069", null ],
+    [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a3b99b5977f507f551b7d4934c961b95c", null ],
     [ "BU", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#aab52e45ec69ae215d2f5be755c0f16cb", null ],
     [ "BU_1_6", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a55cce4c176b84b005a318639a0dbd2cc", null ],
     [ "BU_1_4", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1buildingunits_1_1_p_d_e_building_units.html#a76ac7862e0acd3bdcae92a5a0525a2de", null ],

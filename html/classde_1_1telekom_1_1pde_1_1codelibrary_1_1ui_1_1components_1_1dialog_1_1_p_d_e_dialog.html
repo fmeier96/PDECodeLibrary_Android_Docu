@@ -202,11 +202,11 @@ Static Public Methods</h2></td></tr>
 <tr class="memitem:a6829349befd78466d9a622b0a4d8262b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a6829349befd78466d9a622b0a4d8262b">constructDialog</a> (String title, String message, String button1Text, String button2Text)</td></tr>
 <tr class="memdesc:a6829349befd78466d9a622b0a4d8262b"><td class="mdescLeft">&#160;</td><td class="mdescRight">static helper for constructor for custom dialogs  <a href="#a6829349befd78466d9a622b0a4d8262b"></a><br/></td></tr>
 <tr class="memitem:ac5fc6893c2e489b6f7452083e766b4cd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ac5fc6893c2e489b6f7452083e766b4cd">initializeDialogDictionary</a> ()</td></tr>
-<tr class="memdesc:ac5fc6893c2e489b6f7452083e766b4cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preloads the dictionaries for faster initialization of predefined default dialogs.  <a href="#ac5fc6893c2e489b6f7452083e766b4cd"></a><br/></td></tr>
+<tr class="memdesc:ac5fc6893c2e489b6f7452083e766b4cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-loads the dictionaries for faster initialization of predefined default dialogs. Before one of the predefined default dialogs is shown for the first time, it's necessary to parse the content data from two XMLs in two dictionaries. This might result in a short delay when one of these dialogs should be shown for the first time. To speed up things, this static method can be called at the start of the application, so the dictionaries will already be cached when they're needed for the first time.  <a href="#ac5fc6893c2e489b6f7452083e766b4cd"></a><br/></td></tr>
 <tr class="memitem:aa41f5afb35b4dd67b4f5281016ee115f"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#aa41f5afb35b4dd67b4f5281016ee115f">isDialogDictionaryInitialized</a> ()</td></tr>
 <tr class="memdesc:aa41f5afb35b4dd67b4f5281016ee115f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the dictionaries of the predefined default dialogs and their buttons are initialized or not.  <a href="#aa41f5afb35b4dd67b4f5281016ee115f"></a><br/></td></tr>
 <tr class="memitem:a3562a2f624dfe3ad78073dac979227de"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a3562a2f624dfe3ad78073dac979227de">getPDEDialogIdentifiers</a> ()</td></tr>
-<tr class="memdesc:a3562a2f624dfe3ad78073dac979227de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the dictionary that contains data about the predefined default dialogs.  <a href="#a3562a2f624dfe3ad78073dac979227de"></a><br/></td></tr>
+<tr class="memdesc:a3562a2f624dfe3ad78073dac979227de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the dictionary that contains data about the predefined default dialogs. The data which can be found in the dictionary is the title, the message and which types of buttons are used.  <a href="#a3562a2f624dfe3ad78073dac979227de"></a><br/></td></tr>
 <tr class="memitem:ab68c78da0085f432509089ad821778a6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_dictionary.html">PDEDictionary</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ab68c78da0085f432509089ad821778a6">getPDEDialogButtonsIdentifiers</a> ()</td></tr>
 <tr class="memdesc:ab68c78da0085f432509089ad821778a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the dictionary that contains the labels of the buttons which are used in the predefined default dialogs.  <a href="#ab68c78da0085f432509089ad821778a6"></a><br/></td></tr>
 </table><table class="memberdecls">
@@ -215,25 +215,25 @@ Public Methods</h2></td></tr>
 <tr class="memitem:af167ce22ac106bfca472c8b475f57618"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#af167ce22ac106bfca472c8b475f57618">PDEDialog</a> ()</td></tr>
 <tr class="memdesc:af167ce22ac106bfca472c8b475f57618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard constructor.  <a href="#af167ce22ac106bfca472c8b475f57618"></a><br/></td></tr>
 <tr class="memitem:a732c1daa44fe0f11bd8aac37134fd985"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a732c1daa44fe0f11bd8aac37134fd985">PDEDialog</a> (String dialogType)</td></tr>
-<tr class="memdesc:a732c1daa44fe0f11bd8aac37134fd985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a predefined dialog.  <a href="#a732c1daa44fe0f11bd8aac37134fd985"></a><br/></td></tr>
+<tr class="memdesc:a732c1daa44fe0f11bd8aac37134fd985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a predefined dialog. There is a bunch of predefined PDE Dialogs. By delivering the correct dialog type you get them pre-configured out of the box.  <a href="#a732c1daa44fe0f11bd8aac37134fd985"></a><br/></td></tr>
 <tr class="memitem:a390130ac4fef9161ce96b9a635ea9b6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a390130ac4fef9161ce96b9a635ea9b6e">PDEDialog</a> (String title, String message, String button1Text)</td></tr>
 <tr class="memdesc:a390130ac4fef9161ce96b9a635ea9b6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for custom dialog with one button.  <a href="#a390130ac4fef9161ce96b9a635ea9b6e"></a><br/></td></tr>
 <tr class="memitem:ab917eaf9440db0765b1e1c9f30b78182"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ab917eaf9440db0765b1e1c9f30b78182">PDEDialog</a> (String title, String message, String button1Text, String button2Text)</td></tr>
 <tr class="memdesc:ab917eaf9440db0765b1e1c9f30b78182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for custom dialog with two buttons.  <a href="#ab917eaf9440db0765b1e1c9f30b78182"></a><br/></td></tr>
 <tr class="memitem:a1f8574b462f05a7a8226863685a0779f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a1f8574b462f05a7a8226863685a0779f">show</a> (Activity activity)</td></tr>
-<tr class="memdesc:a1f8574b462f05a7a8226863685a0779f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the dialog on screen with the current configuration.  <a href="#a1f8574b462f05a7a8226863685a0779f"></a><br/></td></tr>
+<tr class="memdesc:a1f8574b462f05a7a8226863685a0779f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the dialog on screen with the current configuration. After all configurations of the dialog are finished, call this method to bring the dialog activity on screen.  <a href="#a1f8574b462f05a7a8226863685a0779f"></a><br/></td></tr>
 <tr class="memitem:abf62f2ab096f6f04eece5c25467a9758"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#abf62f2ab096f6f04eece5c25467a9758">cancel</a> ()</td></tr>
-<tr class="memdesc:abf62f2ab096f6f04eece5c25467a9758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancels a shown dialog.  <a href="#abf62f2ab096f6f04eece5c25467a9758"></a><br/></td></tr>
+<tr class="memdesc:abf62f2ab096f6f04eece5c25467a9758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancels a shown dialog. Nearly the same as dismiss, but additionally sends a cancel message.  <a href="#abf62f2ab096f6f04eece5c25467a9758"></a><br/></td></tr>
 <tr class="memitem:a8945d330de359d6030f5178bf78b73e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a8945d330de359d6030f5178bf78b73e8">dismiss</a> ()</td></tr>
 <tr class="memdesc:a8945d330de359d6030f5178bf78b73e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dismisses a shown dialog.  <a href="#a8945d330de359d6030f5178bf78b73e8"></a><br/></td></tr>
 <tr class="memitem:a47c06f267cf3e8515b83261c9d89978f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html">PDEEventSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a47c06f267cf3e8515b83261c9d89978f">getEventSource</a> ()</td></tr>
 <tr class="memdesc:a47c06f267cf3e8515b83261c9d89978f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the eventSource which is responsible for sending PDEEvents events. Most of the events are coming form the PDEAgentController.  <a href="#a47c06f267cf3e8515b83261c9d89978f"></a><br/></td></tr>
 <tr class="memitem:ac4a104b67fc45081360eb4fff97a69aa"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ac4a104b67fc45081360eb4fff97a69aa">addListener</a> (Object target, String methodName)</td></tr>
-<tr class="memdesc:ac4a104b67fc45081360eb4fff97a69aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add event Listener - hold strong pointer to it.  <a href="#ac4a104b67fc45081360eb4fff97a69aa"></a><br/></td></tr>
+<tr class="memdesc:ac4a104b67fc45081360eb4fff97a69aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add event Listener - hold strong pointer to it. PDEIEventSource Interface implementation, with additional local storage of (strong) pointer to it.  <a href="#ac4a104b67fc45081360eb4fff97a69aa"></a><br/></td></tr>
 <tr class="memitem:a74ff285e1b24e5341aac27129bd64607"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a74ff285e1b24e5341aac27129bd64607">addListener</a> (Object target, String methodName, String eventMask)</td></tr>
-<tr class="memdesc:a74ff285e1b24e5341aac27129bd64607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add event Listener - hold strong pointer to it.  <a href="#a74ff285e1b24e5341aac27129bd64607"></a><br/></td></tr>
+<tr class="memdesc:a74ff285e1b24e5341aac27129bd64607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add event Listener - hold strong pointer to it. PDEIEventSource Interface implementation, with additional local storage of (strong) pointer to it.  <a href="#a74ff285e1b24e5341aac27129bd64607"></a><br/></td></tr>
 <tr class="memitem:a55985e84abc0bcbe00c4e682034b7de3"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a55985e84abc0bcbe00c4e682034b7de3">removeListener</a> (Object listener)</td></tr>
-<tr class="memdesc:a55985e84abc0bcbe00c4e682034b7de3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove event listener that was added before.  <a href="#a55985e84abc0bcbe00c4e682034b7de3"></a><br/></td></tr>
+<tr class="memdesc:a55985e84abc0bcbe00c4e682034b7de3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove event listener that was added before. Also deletes local strong pointer.  <a href="#a55985e84abc0bcbe00c4e682034b7de3"></a><br/></td></tr>
 <tr class="memitem:af9c7a4d98fc50d2ec2917efa094ffefd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#af9c7a4d98fc50d2ec2917efa094ffefd">sendResult</a> (int result)</td></tr>
 <tr class="memdesc:af9c7a4d98fc50d2ec2917efa094ffefd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an event with the dialog result (which button was pressed)  <a href="#af9c7a4d98fc50d2ec2917efa094ffefd"></a><br/></td></tr>
 <tr class="memitem:a74255c7d6ddca78b862f1c0268873b13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a74255c7d6ddca78b862f1c0268873b13">setOnClickListenerButton1</a> (DialogInterface.OnClickListener l)</td></tr>
@@ -263,77 +263,95 @@ Public Methods</h2></td></tr>
 <tr class="memitem:a7d6bab2adff3cb3323a7e6cc4df89ed2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a7d6bab2adff3cb3323a7e6cc4df89ed2">setButton1TextCustom</a> (String text)</td></tr>
 <tr class="memdesc:a7d6bab2adff3cb3323a7e6cc4df89ed2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the label text of button1 (leftmost).  <a href="#a7d6bab2adff3cb3323a7e6cc4df89ed2"></a><br/></td></tr>
 <tr class="memitem:ac2ab75174189f9ffd91ede6e7cda0979"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ac2ab75174189f9ffd91ede6e7cda0979">setButton1DefaultButton</a> (String defaultButtonLabelID)</td></tr>
-<tr class="memdesc:ac2ab75174189f9ffd91ede6e7cda0979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set one of the predefined default buttons for button1.  <a href="#ac2ab75174189f9ffd91ede6e7cda0979"></a><br/></td></tr>
+<tr class="memdesc:ac2ab75174189f9ffd91ede6e7cda0979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set one of the predefined default buttons for button1. There are several default buttons predefined for the default dialogs. When the user wants to use one of these buttons within a custom dialog he can do so by delivering the button label ID of the button he wants to use. In this way the internal button label ID is set to this value and the label text is localized. When the user relies on PDEEvents he can also check after the click for this concrete ID.  <a href="#ac2ab75174189f9ffd91ede6e7cda0979"></a><br/></td></tr>
 <tr class="memitem:a0dae6fdd9468153d1fb366f0e818391a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a0dae6fdd9468153d1fb366f0e818391a">getButton1TextCustom</a> ()</td></tr>
 <tr class="memdesc:a0dae6fdd9468153d1fb366f0e818391a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the label text of button1 (leftmost).  <a href="#a0dae6fdd9468153d1fb366f0e818391a"></a><br/></td></tr>
 <tr class="memitem:a6021c95bfa74a669e00ef251923fd7e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a6021c95bfa74a669e00ef251923fd7e1">setTitleTextColorCustom</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
-<tr class="memdesc:a6021c95bfa74a669e00ef251923fd7e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the title text.  <a href="#a6021c95bfa74a669e00ef251923fd7e1"></a><br/></td></tr>
+<tr class="memdesc:a6021c95bfa74a669e00ef251923fd7e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the title text. If the user sets no custom color, the default title color is used. Convenience function.  <a href="#a6021c95bfa74a669e00ef251923fd7e1"></a><br/></td></tr>
 <tr class="memitem:a706a4cb64fc12e801025f770d4444844"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a706a4cb64fc12e801025f770d4444844">setTitleTextColorCustom</a> (int color)</td></tr>
-<tr class="memdesc:a706a4cb64fc12e801025f770d4444844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color of the title text.  <a href="#a706a4cb64fc12e801025f770d4444844"></a><br/></td></tr>
+<tr class="memdesc:a706a4cb64fc12e801025f770d4444844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color of the title text. If the user sets no custom color, the default title color is used.  <a href="#a706a4cb64fc12e801025f770d4444844"></a><br/></td></tr>
 <tr class="memitem:ac9dde5840b5f81c8d35c48586528c02b"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ac9dde5840b5f81c8d35c48586528c02b">getTitleTextColorCustom</a> ()</td></tr>
-<tr class="memdesc:ac9dde5840b5f81c8d35c48586528c02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom color of the title text.  <a href="#ac9dde5840b5f81c8d35c48586528c02b"></a><br/></td></tr>
+<tr class="memdesc:ac9dde5840b5f81c8d35c48586528c02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom color of the title text. If the user hasn't explicitly set his own custom title text color, the default color will be used. In case of the default color, this getter delivers null.  <a href="#ac9dde5840b5f81c8d35c48586528c02b"></a><br/></td></tr>
 <tr class="memitem:a36e217d934b2d147014f376722c97ed4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a36e217d934b2d147014f376722c97ed4">setMessageTextColorCustom</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
-<tr class="memdesc:a36e217d934b2d147014f376722c97ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the message text.  <a href="#a36e217d934b2d147014f376722c97ed4"></a><br/></td></tr>
+<tr class="memdesc:a36e217d934b2d147014f376722c97ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the message text. If the user sets no custom color, the default message color is used. Convenience function.  <a href="#a36e217d934b2d147014f376722c97ed4"></a><br/></td></tr>
 <tr class="memitem:a6c0bb7a312008a12b350b42d5f224bcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a6c0bb7a312008a12b350b42d5f224bcd">setMessageTextColorCustom</a> (int color)</td></tr>
-<tr class="memdesc:a6c0bb7a312008a12b350b42d5f224bcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the message text.  <a href="#a6c0bb7a312008a12b350b42d5f224bcd"></a><br/></td></tr>
+<tr class="memdesc:a6c0bb7a312008a12b350b42d5f224bcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the message text. If the user sets no custom color, the default message color is used.  <a href="#a6c0bb7a312008a12b350b42d5f224bcd"></a><br/></td></tr>
 <tr class="memitem:aaa5dbed850f020028f1751242f1b680e"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#aaa5dbed850f020028f1751242f1b680e">getMessageTextColorCustom</a> ()</td></tr>
-<tr class="memdesc:aaa5dbed850f020028f1751242f1b680e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom color of the message text.  <a href="#aaa5dbed850f020028f1751242f1b680e"></a><br/></td></tr>
+<tr class="memdesc:aaa5dbed850f020028f1751242f1b680e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom color of the message text. If the user hasn't explicitly set his own custom message text color, the default color will be used. In case of the default color, this getter delivers null.  <a href="#aaa5dbed850f020028f1751242f1b680e"></a><br/></td></tr>
 <tr class="memitem:add4944c350572ec05aa4f96c848b1bae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#add4944c350572ec05aa4f96c848b1bae">setButton2TextCustom</a> (String text)</td></tr>
 <tr class="memdesc:add4944c350572ec05aa4f96c848b1bae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the label text of button2.  <a href="#add4944c350572ec05aa4f96c848b1bae"></a><br/></td></tr>
 <tr class="memitem:a3cc82b33c97519cc997c18f1c43d1843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a3cc82b33c97519cc997c18f1c43d1843">setButton2DefaultButton</a> (String defaultButtonLabelID)</td></tr>
-<tr class="memdesc:a3cc82b33c97519cc997c18f1c43d1843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set one of the predefined default buttons for button2.  <a href="#a3cc82b33c97519cc997c18f1c43d1843"></a><br/></td></tr>
+<tr class="memdesc:a3cc82b33c97519cc997c18f1c43d1843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set one of the predefined default buttons for button2. There are several default buttons predefined for the default dialogs. When the user wants to use one of these buttons within a custom dialog he can do so by delivering the button label ID of the button he wants to use. In this way the internal button label ID is set to this value and the label text is localized. When the user relies on PDEEvents he can also check after the click for this concrete ID.  <a href="#a3cc82b33c97519cc997c18f1c43d1843"></a><br/></td></tr>
 <tr class="memitem:ae5ec23bace9a2bc7d34264a4b47adb06"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ae5ec23bace9a2bc7d34264a4b47adb06">getButton2TextCustom</a> ()</td></tr>
 <tr class="memdesc:ae5ec23bace9a2bc7d34264a4b47adb06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the label text of button1 (leftmost).  <a href="#ae5ec23bace9a2bc7d34264a4b47adb06"></a><br/></td></tr>
 <tr class="memitem:a1c4f7fbf94528bdad6496488826b75cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a1c4f7fbf94528bdad6496488826b75cf">setMessageFormatParameters</a> (Object...varargs)</td></tr>
-<tr class="memdesc:a1c4f7fbf94528bdad6496488826b75cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parameters that should be put in for the wildcards in the message text.  <a href="#a1c4f7fbf94528bdad6496488826b75cf"></a><br/></td></tr>
+<tr class="memdesc:a1c4f7fbf94528bdad6496488826b75cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parameters that should be put in for the wildcards in the message text. Some message texts contain wildcards in order to be able to dynamically place values into the text. With this method you can deliver the values that should be shown instead of the wildcards.  <a href="#a1c4f7fbf94528bdad6496488826b75cf"></a><br/></td></tr>
 <tr class="memitem:ad87593bb516542f5d5a4f45b9abdc087"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ad87593bb516542f5d5a4f45b9abdc087">setTitleFormatParameters</a> (Object...varargs)</td></tr>
-<tr class="memdesc:ad87593bb516542f5d5a4f45b9abdc087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parameters that should be put in for the wildcards in the title text.  <a href="#ad87593bb516542f5d5a4f45b9abdc087"></a><br/></td></tr>
+<tr class="memdesc:ad87593bb516542f5d5a4f45b9abdc087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parameters that should be put in for the wildcards in the title text. Some title texts contain wildcards in order to be able to dynamically place values into the text. With this method you can deliver the values that should be shown instead of the wildcards.  <a href="#ad87593bb516542f5d5a4f45b9abdc087"></a><br/></td></tr>
 <tr class="memitem:af8baaaa9a6a3a42ad24c7fd5a81d5f01"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#af8baaaa9a6a3a42ad24c7fd5a81d5f01">isShowing</a> ()</td></tr>
-<tr class="memdesc:af8baaaa9a6a3a42ad24c7fd5a81d5f01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the dialog is already shown.  <a href="#af8baaaa9a6a3a42ad24c7fd5a81d5f01"></a><br/></td></tr>
+<tr class="memdesc:af8baaaa9a6a3a42ad24c7fd5a81d5f01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the dialog is already shown. Internal state that remembers if the show-command was already successfully sent. So the dialog activity was already told to start and nobody dismissed it since.  <a href="#af8baaaa9a6a3a42ad24c7fd5a81d5f01"></a><br/></td></tr>
 <tr class="memitem:a75afdc22d4b008dbe840fa8b541b1a46"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a75afdc22d4b008dbe840fa8b541b1a46">isAndroidHardwareBackButtonEnabled</a> ()</td></tr>
-<tr class="memdesc:a75afdc22d4b008dbe840fa8b541b1a46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the hardware back button is enabled for the dialog.  <a href="#a75afdc22d4b008dbe840fa8b541b1a46"></a><br/></td></tr>
+<tr class="memdesc:a75afdc22d4b008dbe840fa8b541b1a46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the hardware back button is enabled for the dialog. If the hardware back button is enabled, the dialog gets canceled when the user pushes the back button. The back button can be turned off. Then nothing happens when the user pushes it. The back button is enabled by default.  <a href="#a75afdc22d4b008dbe840fa8b541b1a46"></a><br/></td></tr>
 <tr class="memitem:a39af05d5333f2a050e1a1b02b7cb8b7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a39af05d5333f2a050e1a1b02b7cb8b7b">setAndroidHardwareBackButtonEnabled</a> (boolean enabled)</td></tr>
 <tr class="memdesc:a39af05d5333f2a050e1a1b02b7cb8b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/Disable hardware back button.  <a href="#a39af05d5333f2a050e1a1b02b7cb8b7b"></a><br/></td></tr>
 <tr class="memitem:a74bc2f84c26635aa0568ece58774fd4d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a74bc2f84c26635aa0568ece58774fd4d">isRunning</a> ()</td></tr>
 <tr class="memdesc:a74bc2f84c26635aa0568ece58774fd4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the dialog activity is running and ready to receive broadcast messages.  <a href="#a74bc2f84c26635aa0568ece58774fd4d"></a><br/></td></tr>
 <tr class="memitem:aaf87d650f31461e05c281bca3597223e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#aaf87d650f31461e05c281bca3597223e">setButton1BackgroundColorCustom</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
-<tr class="memdesc:aaf87d650f31461e05c281bca3597223e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom background color of button1.  <a href="#aaf87d650f31461e05c281bca3597223e"></a><br/></td></tr>
+<tr class="memdesc:aaf87d650f31461e05c281bca3597223e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom background color of button1. If the user sets no custom color, the default color is used. Convenience function.  <a href="#aaf87d650f31461e05c281bca3597223e"></a><br/></td></tr>
 <tr class="memitem:a426522606fe15bde0102cd764a5185e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a426522606fe15bde0102cd764a5185e1">setButton1BackgroundColorCustom</a> (int color)</td></tr>
-<tr class="memdesc:a426522606fe15bde0102cd764a5185e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom background color of button1.  <a href="#a426522606fe15bde0102cd764a5185e1"></a><br/></td></tr>
+<tr class="memdesc:a426522606fe15bde0102cd764a5185e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom background color of button1. If the user sets no custom color, the default color is used.  <a href="#a426522606fe15bde0102cd764a5185e1"></a><br/></td></tr>
 <tr class="memitem:a37dcd911263c57e1ce3d504edc2a6098"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a37dcd911263c57e1ce3d504edc2a6098">getButton1BackgroundColorCustom</a> ()</td></tr>
-<tr class="memdesc:a37dcd911263c57e1ce3d504edc2a6098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom background color of button1.  <a href="#a37dcd911263c57e1ce3d504edc2a6098"></a><br/></td></tr>
+<tr class="memdesc:a37dcd911263c57e1ce3d504edc2a6098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom background color of button1. If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null.  <a href="#a37dcd911263c57e1ce3d504edc2a6098"></a><br/></td></tr>
 <tr class="memitem:ade6ceed0ab35b056cc7aaca26917bbd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ade6ceed0ab35b056cc7aaca26917bbd3">setButton2BackgroundColorCustom</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
-<tr class="memdesc:ade6ceed0ab35b056cc7aaca26917bbd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom background color of button2.  <a href="#ade6ceed0ab35b056cc7aaca26917bbd3"></a><br/></td></tr>
+<tr class="memdesc:ade6ceed0ab35b056cc7aaca26917bbd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom background color of button2. If the user sets no custom color, the default color is used. Convenience function.  <a href="#ade6ceed0ab35b056cc7aaca26917bbd3"></a><br/></td></tr>
 <tr class="memitem:ac5eeb24fa0df2b85fb70795ea4d10b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ac5eeb24fa0df2b85fb70795ea4d10b0a">setButton2BackgroundColorCustom</a> (int color)</td></tr>
-<tr class="memdesc:ac5eeb24fa0df2b85fb70795ea4d10b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom background color of button2.  <a href="#ac5eeb24fa0df2b85fb70795ea4d10b0a"></a><br/></td></tr>
+<tr class="memdesc:ac5eeb24fa0df2b85fb70795ea4d10b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom background color of button2. If the user sets no custom color, the default color is used.  <a href="#ac5eeb24fa0df2b85fb70795ea4d10b0a"></a><br/></td></tr>
 <tr class="memitem:acf600b775525e6becc2f6b5dd571cfb5"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#acf600b775525e6becc2f6b5dd571cfb5">getButton2BackgroundColorCustom</a> ()</td></tr>
-<tr class="memdesc:acf600b775525e6becc2f6b5dd571cfb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom background color of button2.  <a href="#acf600b775525e6becc2f6b5dd571cfb5"></a><br/></td></tr>
+<tr class="memdesc:acf600b775525e6becc2f6b5dd571cfb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom background color of button2. If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null.  <a href="#acf600b775525e6becc2f6b5dd571cfb5"></a><br/></td></tr>
+<tr class="memitem:a08b29349a8fd680adf1527940878790d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a08b29349a8fd680adf1527940878790d">setGlobalTypefaceByName</a> (String typefaceName)</td></tr>
+<tr class="memdesc:a08b29349a8fd680adf1527940878790d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a new typeface for all textual elements of the dialog. This function can be used to set a new typeface for all textual elements (title, message, buttons) of the dialog. The typeface has to be delivered by name.  <a href="#a08b29349a8fd680adf1527940878790d"></a><br/></td></tr>
+<tr class="memitem:abb6b28d2a882c639e9c175534a321c88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#abb6b28d2a882c639e9c175534a321c88">setTitleTypefaceByName</a> (String typefaceName)</td></tr>
+<tr class="memdesc:abb6b28d2a882c639e9c175534a321c88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a new typeface for the title of the dialog. This function can be used to set a new typeface for the title of the dialog. The typeface has to be delivered by name.  <a href="#abb6b28d2a882c639e9c175534a321c88"></a><br/></td></tr>
+<tr class="memitem:a48b23d1f4a748a866a6d91b02bd43c50"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a48b23d1f4a748a866a6d91b02bd43c50">getTypefaceNameTitle</a> ()</td></tr>
+<tr class="memdesc:a48b23d1f4a748a866a6d91b02bd43c50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delivers the name of the typeface that is currently used for the title of the dialog.  <a href="#a48b23d1f4a748a866a6d91b02bd43c50"></a><br/></td></tr>
+<tr class="memitem:ac167c5ab839ac54ffcb74711cc8c0d1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ac167c5ab839ac54ffcb74711cc8c0d1e">setMessageTypefaceByName</a> (String typefaceName)</td></tr>
+<tr class="memdesc:ac167c5ab839ac54ffcb74711cc8c0d1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a new typeface for the message of the dialog. This function can be used to set a new typeface for the message of the dialog. The typeface has to be delivered by name.  <a href="#ac167c5ab839ac54ffcb74711cc8c0d1e"></a><br/></td></tr>
+<tr class="memitem:a7354d0fb51c5dc6b11c97e91b7731751"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a7354d0fb51c5dc6b11c97e91b7731751">getTypefaceNameMessage</a> ()</td></tr>
+<tr class="memdesc:a7354d0fb51c5dc6b11c97e91b7731751"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delivers the name of the typeface that is currently used for the message of the dialog.  <a href="#a7354d0fb51c5dc6b11c97e91b7731751"></a><br/></td></tr>
+<tr class="memitem:ad21988490a0fa5969081f67fa74740a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ad21988490a0fa5969081f67fa74740a9">setButton1TypefaceByName</a> (String typefaceName)</td></tr>
+<tr class="memdesc:ad21988490a0fa5969081f67fa74740a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a new typeface for the label of button1 of the dialog. This function can be used to set a new typeface for the label of button1 of the dialog. The typeface has to be delivered by name.  <a href="#ad21988490a0fa5969081f67fa74740a9"></a><br/></td></tr>
+<tr class="memitem:a66d7ce19d6e978b18f9a718c269d12d9"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a66d7ce19d6e978b18f9a718c269d12d9">getTypefaceNameButton1</a> ()</td></tr>
+<tr class="memdesc:a66d7ce19d6e978b18f9a718c269d12d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delivers the name of the typeface that is currently used for the label of button1 of the dialog.  <a href="#a66d7ce19d6e978b18f9a718c269d12d9"></a><br/></td></tr>
+<tr class="memitem:a569b5ca304f30ed635d2787f816f36e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a569b5ca304f30ed635d2787f816f36e0">setButton2TypefaceByName</a> (String typefaceName)</td></tr>
+<tr class="memdesc:a569b5ca304f30ed635d2787f816f36e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a new typeface for the label of button2 of the dialog. This function can be used to set a new typeface for the label of button2 of the dialog. The typeface has to be delivered by name.  <a href="#a569b5ca304f30ed635d2787f816f36e0"></a><br/></td></tr>
+<tr class="memitem:ab06f0679ee351cf0cec4c1ee5bc8e4fe"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ab06f0679ee351cf0cec4c1ee5bc8e4fe">getTypefaceNameButton2</a> ()</td></tr>
+<tr class="memdesc:ab06f0679ee351cf0cec4c1ee5bc8e4fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delivers the name of the typeface that is currently used for the label of button1 of the dialog.  <a href="#ab06f0679ee351cf0cec4c1ee5bc8e4fe"></a><br/></td></tr>
 <tr class="memitem:ad6bcbbdad9cb68d92b50782e9e1f2e1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ad6bcbbdad9cb68d92b50782e9e1f2e1c">setTitleFontSizeCustom</a> (float size)</td></tr>
-<tr class="memdesc:ad6bcbbdad9cb68d92b50782e9e1f2e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom font size for the title.  <a href="#ad6bcbbdad9cb68d92b50782e9e1f2e1c"></a><br/></td></tr>
+<tr class="memdesc:ad6bcbbdad9cb68d92b50782e9e1f2e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom font size for the title. If the user sets no custom font size, the default size is used.  <a href="#ad6bcbbdad9cb68d92b50782e9e1f2e1c"></a><br/></td></tr>
 <tr class="memitem:a1a3795d81a1d953a0221da8a296cbb01"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a1a3795d81a1d953a0221da8a296cbb01">getTitleFontSizeCustom</a> ()</td></tr>
-<tr class="memdesc:a1a3795d81a1d953a0221da8a296cbb01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom font size of the title.  <a href="#a1a3795d81a1d953a0221da8a296cbb01"></a><br/></td></tr>
+<tr class="memdesc:a1a3795d81a1d953a0221da8a296cbb01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom font size of the title. If the user hasn't explicitly set his own custom font size, the default size will be used. In case of the default size, this getter delivers -1.0f.  <a href="#a1a3795d81a1d953a0221da8a296cbb01"></a><br/></td></tr>
 <tr class="memitem:a46e0c917fb9f9fa09ef8abc8ce589698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a46e0c917fb9f9fa09ef8abc8ce589698">setMessageFontSizeCustom</a> (float size)</td></tr>
-<tr class="memdesc:a46e0c917fb9f9fa09ef8abc8ce589698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom font size for the message.  <a href="#a46e0c917fb9f9fa09ef8abc8ce589698"></a><br/></td></tr>
+<tr class="memdesc:a46e0c917fb9f9fa09ef8abc8ce589698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom font size for the message. If the user sets no custom font size, the default size is used.  <a href="#a46e0c917fb9f9fa09ef8abc8ce589698"></a><br/></td></tr>
 <tr class="memitem:a60700f0e946066455afadcd7ed32381b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a60700f0e946066455afadcd7ed32381b">getMessageFontSizeCustom</a> ()</td></tr>
-<tr class="memdesc:a60700f0e946066455afadcd7ed32381b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom font size of the message.  <a href="#a60700f0e946066455afadcd7ed32381b"></a><br/></td></tr>
+<tr class="memdesc:a60700f0e946066455afadcd7ed32381b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom font size of the message. If the user hasn't explicitly set his own custom font size, the default size will be used. In case of the default size, this getter delivers -1.0f.  <a href="#a60700f0e946066455afadcd7ed32381b"></a><br/></td></tr>
 <tr class="memitem:aabffd38823f445efe2898b659f540549"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#aabffd38823f445efe2898b659f540549">setDialogBackgroundColorCustom</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
-<tr class="memdesc:aabffd38823f445efe2898b659f540549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the dialog background.  <a href="#aabffd38823f445efe2898b659f540549"></a><br/></td></tr>
+<tr class="memdesc:aabffd38823f445efe2898b659f540549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the dialog background. If the user sets no custom color, the default color is used. Convenience function.  <a href="#aabffd38823f445efe2898b659f540549"></a><br/></td></tr>
 <tr class="memitem:aa8f7689dfc8aceaf81b8b41832e6fe02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#aa8f7689dfc8aceaf81b8b41832e6fe02">setDialogBackgroundColorCustom</a> (int color)</td></tr>
-<tr class="memdesc:aa8f7689dfc8aceaf81b8b41832e6fe02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the dialog background.  <a href="#aa8f7689dfc8aceaf81b8b41832e6fe02"></a><br/></td></tr>
+<tr class="memdesc:aa8f7689dfc8aceaf81b8b41832e6fe02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the dialog background. If the user sets no custom color, the default color is used.  <a href="#aa8f7689dfc8aceaf81b8b41832e6fe02"></a><br/></td></tr>
 <tr class="memitem:afaa8d13b3f3f66916d8b0f737b624679"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#afaa8d13b3f3f66916d8b0f737b624679">getDialogBackgroundColorCustom</a> ()</td></tr>
-<tr class="memdesc:afaa8d13b3f3f66916d8b0f737b624679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom color of the dialog background.  <a href="#afaa8d13b3f3f66916d8b0f737b624679"></a><br/></td></tr>
+<tr class="memdesc:afaa8d13b3f3f66916d8b0f737b624679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom color of the dialog background. If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null.  <a href="#afaa8d13b3f3f66916d8b0f737b624679"></a><br/></td></tr>
 <tr class="memitem:a44046fd018530d9871d7e60dad825cb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a44046fd018530d9871d7e60dad825cb6">setDialogOutlineColorCustom</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
-<tr class="memdesc:a44046fd018530d9871d7e60dad825cb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the dialog outline.  <a href="#a44046fd018530d9871d7e60dad825cb6"></a><br/></td></tr>
+<tr class="memdesc:a44046fd018530d9871d7e60dad825cb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the dialog outline. If the user sets no custom color, the default color is used. Convenience function.  <a href="#a44046fd018530d9871d7e60dad825cb6"></a><br/></td></tr>
 <tr class="memitem:a50e463162b0dcdb33fe48d5f11725587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a50e463162b0dcdb33fe48d5f11725587">setDialogOutlineColorCustom</a> (int color)</td></tr>
-<tr class="memdesc:a50e463162b0dcdb33fe48d5f11725587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the dialog outline.  <a href="#a50e463162b0dcdb33fe48d5f11725587"></a><br/></td></tr>
+<tr class="memdesc:a50e463162b0dcdb33fe48d5f11725587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for the dialog outline. If the user sets no custom color, the default color is used.  <a href="#a50e463162b0dcdb33fe48d5f11725587"></a><br/></td></tr>
 <tr class="memitem:a9b31f761d0fbff3c38a874c5a2e12f0b"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a9b31f761d0fbff3c38a874c5a2e12f0b">getDialogOutlineColorCustom</a> ()</td></tr>
-<tr class="memdesc:a9b31f761d0fbff3c38a874c5a2e12f0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom color of the dialog outline.  <a href="#a9b31f761d0fbff3c38a874c5a2e12f0b"></a><br/></td></tr>
+<tr class="memdesc:a9b31f761d0fbff3c38a874c5a2e12f0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom color of the dialog outline. If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null.  <a href="#a9b31f761d0fbff3c38a874c5a2e12f0b"></a><br/></td></tr>
 <tr class="memitem:a96a61c9100fcb6f648ef463f0d5d7661"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a96a61c9100fcb6f648ef463f0d5d7661">setSeparatorColorCustom</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
-<tr class="memdesc:a96a61c9100fcb6f648ef463f0d5d7661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for separator.  <a href="#a96a61c9100fcb6f648ef463f0d5d7661"></a><br/></td></tr>
+<tr class="memdesc:a96a61c9100fcb6f648ef463f0d5d7661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for separator. If the user sets no custom color, the default color is used. Convenience function.  <a href="#a96a61c9100fcb6f648ef463f0d5d7661"></a><br/></td></tr>
 <tr class="memitem:aa5ef6cd685029a6c62111ca3712b70d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#aa5ef6cd685029a6c62111ca3712b70d8">setSeparatorColorCustom</a> (int color)</td></tr>
-<tr class="memdesc:aa5ef6cd685029a6c62111ca3712b70d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for separator.  <a href="#aa5ef6cd685029a6c62111ca3712b70d8"></a><br/></td></tr>
+<tr class="memdesc:aa5ef6cd685029a6c62111ca3712b70d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a custom color for separator. If the user sets no custom color, the default color is used.  <a href="#aa5ef6cd685029a6c62111ca3712b70d8"></a><br/></td></tr>
 <tr class="memitem:ac2fd1e064a5f0c2bffcd6645e2f2a923"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ac2fd1e064a5f0c2bffcd6645e2f2a923">getSeparatorColorCustom</a> ()</td></tr>
-<tr class="memdesc:ac2fd1e064a5f0c2bffcd6645e2f2a923"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom color of the separator.  <a href="#ac2fd1e064a5f0c2bffcd6645e2f2a923"></a><br/></td></tr>
+<tr class="memdesc:ac2fd1e064a5f0c2bffcd6645e2f2a923"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the custom color of the separator. If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null.  <a href="#ac2fd1e064a5f0c2bffcd6645e2f2a923"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Methods</h2></td></tr>
@@ -346,25 +364,25 @@ Protected Methods</h2></td></tr>
 <tr class="memitem:aeb39b5f6596004f89efc4b6aaf1e428b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#aeb39b5f6596004f89efc4b6aaf1e428b">registerResultBroadcastReceiver</a> ()</td></tr>
 <tr class="memdesc:aeb39b5f6596004f89efc4b6aaf1e428b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register the broadcast receiver for the results of the dialog.  <a href="#aeb39b5f6596004f89efc4b6aaf1e428b"></a><br/></td></tr>
 <tr class="memitem:ac5ceb887da3438ac9d98e9c7e8a8967d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ac5ceb887da3438ac9d98e9c7e8a8967d">unregisterResultBroadcastReceiver</a> ()</td></tr>
-<tr class="memdesc:ac5ceb887da3438ac9d98e9c7e8a8967d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister result broadcast receiver as soon as it's not needed any more.  <a href="#ac5ceb887da3438ac9d98e9c7e8a8967d"></a><br/></td></tr>
+<tr class="memdesc:ac5ceb887da3438ac9d98e9c7e8a8967d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister result broadcast receiver as soon as it's not needed any more. Don't forget to unregister, otherwise the broadcast receiver stays alive for quite a long time.  <a href="#ac5ceb887da3438ac9d98e9c7e8a8967d"></a><br/></td></tr>
 <tr class="memitem:a5ca9e43697780d631c4b78fb15cdfd1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a5ca9e43697780d631c4b78fb15cdfd1f">createRunningBroadcastReceiver</a> ()</td></tr>
-<tr class="memdesc:a5ca9e43697780d631c4b78fb15cdfd1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a broadcast receiver that determines if the dialog activity is already up and running.  <a href="#a5ca9e43697780d631c4b78fb15cdfd1f"></a><br/></td></tr>
+<tr class="memdesc:a5ca9e43697780d631c4b78fb15cdfd1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a broadcast receiver that determines if the dialog activity is already up and running. After the start command for the dialog activity it might take a short while until this activity is completely up and running and ready to receive intent-messages. We need to know when the activity is ready to communicate with this object via intent, so the first thing the activity does is to send us an intent that tells us that the activity is now ready to go. The broadcast receiver that is created with this function listens on this event.  <a href="#a5ca9e43697780d631c4b78fb15cdfd1f"></a><br/></td></tr>
 <tr class="memitem:aa40d124a34e20419f7bae3f139253e86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#aa40d124a34e20419f7bae3f139253e86">registerRunningBroadcastReceiver</a> ()</td></tr>
 <tr class="memdesc:aa40d124a34e20419f7bae3f139253e86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register the broadcast receiver that listens on the "up &amp; running"-intent of the dialog.  <a href="#aa40d124a34e20419f7bae3f139253e86"></a><br/></td></tr>
 <tr class="memitem:a8e4d68b881c3588b0d59101ba3bfb0a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a8e4d68b881c3588b0d59101ba3bfb0a9">unregisterRunningBroadcastReceiver</a> ()</td></tr>
-<tr class="memdesc:a8e4d68b881c3588b0d59101ba3bfb0a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister broadcast receiver as soon as it's not needed any more.  <a href="#a8e4d68b881c3588b0d59101ba3bfb0a9"></a><br/></td></tr>
+<tr class="memdesc:a8e4d68b881c3588b0d59101ba3bfb0a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister broadcast receiver as soon as it's not needed any more. Don't forget to unregister, otherwise the broadcast receiver stays alive for quite a long time.  <a href="#a8e4d68b881c3588b0d59101ba3bfb0a9"></a><br/></td></tr>
 <tr class="memitem:a08fcadfdb057860e3a42212c5d0aac4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a08fcadfdb057860e3a42212c5d0aac4b">sendDialogDismissBroadcast</a> ()</td></tr>
 <tr class="memdesc:a08fcadfdb057860e3a42212c5d0aac4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends broadcast message with the dismiss-command to the dialog activity.  <a href="#a08fcadfdb057860e3a42212c5d0aac4b"></a><br/></td></tr>
 <tr class="memitem:a17685308c37dc20e221e5851c7e48326"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a17685308c37dc20e221e5851c7e48326">sendBroadcastMessage</a> (Intent intent)</td></tr>
 <tr class="memdesc:a17685308c37dc20e221e5851c7e48326"><td class="mdescLeft">&#160;</td><td class="mdescRight">General Helper for sending broadcast messages.  <a href="#a17685308c37dc20e221e5851c7e48326"></a><br/></td></tr>
 <tr class="memitem:a4482949b449e4f432ef0dbc4bdea01c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a4482949b449e4f432ef0dbc4bdea01c9">loadDialogType</a> (String dialogType)</td></tr>
-<tr class="memdesc:a4482949b449e4f432ef0dbc4bdea01c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all needed text data for one of the predefined dialog types.  <a href="#a4482949b449e4f432ef0dbc4bdea01c9"></a><br/></td></tr>
+<tr class="memdesc:a4482949b449e4f432ef0dbc4bdea01c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all needed text data for one of the predefined dialog types. For the predefined dialog types all texts (title, message, button labels) are stored in a XML-Structure. This function parses the XML-Structure and fills the class members with the texts.  <a href="#a4482949b449e4f432ef0dbc4bdea01c9"></a><br/></td></tr>
 <tr class="memitem:a13931bc3e41460f0b67d34bee882f707"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a13931bc3e41460f0b67d34bee882f707">loadButtons</a> (String buttonIdentifier)</td></tr>
-<tr class="memdesc:a13931bc3e41460f0b67d34bee882f707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads config of predefined buttons.  <a href="#a13931bc3e41460f0b67d34bee882f707"></a><br/></td></tr>
+<tr class="memdesc:a13931bc3e41460f0b67d34bee882f707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads config of predefined buttons. There are several dialog buttons predefined in a XML-Structure. A button ID can define one or more buttons and the text labels of the buttons. This function parses the XML-Structure and fetches the texts for the button labels.  <a href="#a13931bc3e41460f0b67d34bee882f707"></a><br/></td></tr>
 <tr class="memitem:ad60712ac30571bc5226947a23ec39027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#ad60712ac30571bc5226947a23ec39027">setButton1Text</a> (String text)</td></tr>
-<tr class="memdesc:ad60712ac30571bc5226947a23ec39027"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the label text of button1 (leftmost).  <a href="#ad60712ac30571bc5226947a23ec39027"></a><br/></td></tr>
+<tr class="memdesc:ad60712ac30571bc5226947a23ec39027"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the label text of button1 (leftmost). internal function.  <a href="#ad60712ac30571bc5226947a23ec39027"></a><br/></td></tr>
 <tr class="memitem:a3faeab8f0f0124a0b6ef1aae8d33aff5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html">PDEDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a3faeab8f0f0124a0b6ef1aae8d33aff5">setButton2Text</a> (String text)</td></tr>
-<tr class="memdesc:a3faeab8f0f0124a0b6ef1aae8d33aff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the label text of button2.  <a href="#a3faeab8f0f0124a0b6ef1aae8d33aff5"></a><br/></td></tr>
+<tr class="memdesc:a3faeab8f0f0124a0b6ef1aae8d33aff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the label text of button2. internal function.  <a href="#a3faeab8f0f0124a0b6ef1aae8d33aff5"></a><br/></td></tr>
 <tr class="memitem:a7b5ff119a527b13969944a625232b22d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a7b5ff119a527b13969944a625232b22d">setShowing</a> (boolean <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a1f8574b462f05a7a8226863685a0779f">show</a>)</td></tr>
 <tr class="memdesc:a7b5ff119a527b13969944a625232b22d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the internal show state.  <a href="#a7b5ff119a527b13969944a625232b22d"></a><br/></td></tr>
 <tr class="memitem:a825b8acd9e5e66df8fb349ea38e89834"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1dialog_1_1_p_d_e_dialog.html#a825b8acd9e5e66df8fb349ea38e89834">setRunning</a> (boolean run)</td></tr>
@@ -472,8 +490,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructor for a predefined dialog. </p>
-<p>There is a bunch of predefined PDE Dialogs. By delivering the correct dialog type you get them pre-configured out of the box.</p>
+<p>Constructor for a predefined dialog. There is a bunch of predefined PDE Dialogs. By delivering the correct dialog type you get them pre-configured out of the box. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dialogType</td><td>id of a predefined constructDialog type </td></tr>
@@ -802,8 +819,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Shows the dialog on screen with the current configuration. </p>
-<p>After all configurations of the dialog are finished, call this method to bring the dialog activity on screen.</p>
+<p>Shows the dialog on screen with the current configuration. After all configurations of the dialog are finished, call this method to bring the dialog activity on screen. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">activity</td><td>the activity that started the dialog. (just needed to start a new activity) </td></tr>
@@ -834,8 +850,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Cancels a shown dialog. </p>
-<p>Nearly the same as dismiss, but additionally sends a cancel message. </p>
+<p>Cancels a shown dialog. Nearly the same as dismiss, but additionally sends a cancel message. </p>
 
 </div>
 </div>
@@ -968,8 +983,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Add event Listener - hold strong pointer to it. </p>
-<p>PDEIEventSource Interface implementation, with additional local storage of (strong) pointer to it.</p>
+<p>Add event Listener - hold strong pointer to it. PDEIEventSource Interface implementation, with additional local storage of (strong) pointer to it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">target</td><td>Object which will be called in case of an event. </td></tr>
@@ -977,7 +991,7 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#abafb4678d2cf095ee7cb20a1a0f3139a" title="Add a listener to the list.">de.telekom.pde.codelibrary.ui.events.PDEEventSource::addListener</a> </dd></dl>
 
 <p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#a1ff7001cbb6bfe41c71e596708dcf4d6">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
@@ -1022,8 +1036,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Add event Listener - hold strong pointer to it. </p>
-<p>PDEIEventSource Interface implementation, with additional local storage of (strong) pointer to it.</p>
+<p>Add event Listener - hold strong pointer to it. PDEIEventSource Interface implementation, with additional local storage of (strong) pointer to it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">target</td><td>Object which will be called in case of an event. </td></tr>
@@ -1032,7 +1045,7 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Object which can be used to remove this listener </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event_source.html#abafb4678d2cf095ee7cb20a1a0f3139a" title="Add a listener to the list.">de.telekom.pde.codelibrary.ui.events.PDEEventSource::addListener</a> </dd></dl>
 
 <p>Implements <a class="el" href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_i_event_source.html#ae9c0f545e7c68b5684a0497c471a0eb9">de.telekom.pde.codelibrary.ui.events.PDEIEventSource</a>.</p>
@@ -1061,8 +1074,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Remove event listener that was added before. </p>
-<p>Also deletes local strong pointer.</p>
+<p>Remove event listener that was added before. Also deletes local strong pointer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">listener</td><td>the event listener that should be removed </td></tr>
@@ -1124,7 +1136,7 @@ Private Attributes</h2></td></tr>
 <p>Register an Android-style onClick listener for button1. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">l</td><td>the listener </td></tr>
+    <tr><td class="paramname">l</td><td>the OnClickListener </td></tr>
   </table>
   </dd>
 </dl>
@@ -1188,7 +1200,7 @@ Private Attributes</h2></td></tr>
 <p>Register an Android-style onClick listener for the Android hardware Back-Button. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">l</td><td>the listener </td></tr>
+    <tr><td class="paramname">l</td><td>the OnClickListener </td></tr>
   </table>
   </dd>
 </dl>
@@ -1220,7 +1232,7 @@ Private Attributes</h2></td></tr>
 <p>Register an Android-style listener for cancel-events. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">listener</td><td>the listener </td></tr>
+    <tr><td class="paramname">listener</td><td>the OnCancelListener </td></tr>
   </table>
   </dd>
 </dl>
@@ -1252,7 +1264,7 @@ Private Attributes</h2></td></tr>
 <p>Register an Android-style listener for dismiss-events. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">listener</td><td>the listener </td></tr>
+    <tr><td class="paramname">listener</td><td>the OnShowListener </td></tr>
   </table>
   </dd>
 </dl>
@@ -1284,7 +1296,7 @@ Private Attributes</h2></td></tr>
 <p>Register an Android-style listener for show-events. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">listener</td><td>the listener </td></tr>
+    <tr><td class="paramname">listener</td><td>the OnShowListener </td></tr>
   </table>
   </dd>
 </dl>
@@ -1362,8 +1374,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Unregister result broadcast receiver as soon as it's not needed any more. </p>
-<p>Don't forget to unregister, otherwise the broadcast receiver stays alive for quite a long time. </p>
+<p>Unregister result broadcast receiver as soon as it's not needed any more. Don't forget to unregister, otherwise the broadcast receiver stays alive for quite a long time. </p>
 
 </div>
 </div>
@@ -1388,8 +1399,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Create a broadcast receiver that determines if the dialog activity is already up and running. </p>
-<p>After the start command for the dialog activity it might take a short while until this activity is completely up and running and ready to receive intent-messages. We need to know when the activity is ready to communicate with this object via intent, so the first thing the activity does is to send us an intent that tells us that the activity is now ready to go. The broadcast receiver that is created with this function listens on this event. </p>
+<p>Create a broadcast receiver that determines if the dialog activity is already up and running. After the start command for the dialog activity it might take a short while until this activity is completely up and running and ready to receive intent-messages. We need to know when the activity is ready to communicate with this object via intent, so the first thing the activity does is to send us an intent that tells us that the activity is now ready to go. The broadcast receiver that is created with this function listens on this event. </p>
 
 </div>
 </div>
@@ -1439,8 +1449,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Unregister broadcast receiver as soon as it's not needed any more. </p>
-<p>Don't forget to unregister, otherwise the broadcast receiver stays alive for quite a long time. </p>
+<p>Unregister broadcast receiver as soon as it's not needed any more. Don't forget to unregister, otherwise the broadcast receiver stays alive for quite a long time. </p>
 
 </div>
 </div>
@@ -1523,8 +1532,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads all needed text data for one of the predefined dialog types. </p>
-<p>For the predefined dialog types all texts (title, message, button labels) are stored in a XML-Structure. This function parses the XML-Structure and fills the class members with the texts.</p>
+<p>Loads all needed text data for one of the predefined dialog types. For the predefined dialog types all texts (title, message, button labels) are stored in a XML-Structure. This function parses the XML-Structure and fills the class members with the texts. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dialogType</td><td>type of predefined dialogs </td></tr>
@@ -1556,8 +1564,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads config of predefined buttons. </p>
-<p>There are several dialog buttons predefined in a XML-Structure. A button ID can define one or more buttons and the text labels of the buttons. This function parses the XML-Structure and fetches the texts for the button labels.</p>
+<p>Loads config of predefined buttons. There are several dialog buttons predefined in a XML-Structure. A button ID can define one or more buttons and the text labels of the buttons. This function parses the XML-Structure and fetches the texts for the button labels. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">buttonIdentifier</td><td>ID for the button(s) </td></tr>
@@ -1795,8 +1802,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets the label text of button1 (leftmost). </p>
-<p>internal function</p>
+<p>Sets the label text of button1 (leftmost). internal function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">text</td><td>label text of button1 (leftmost) </td></tr>
@@ -1828,8 +1834,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set one of the predefined default buttons for button1. </p>
-<p>There are several default buttons predefined for the default dialogs. When the user wants to use one of these buttons within a custom dialog he can do so by delivering the button label ID of the button he wants to use. In this way the internal button label ID is set to this value and the label text is localized. When the user relies on PDEEvents he can also check after the click for this concrete ID.</p>
+<p>Set one of the predefined default buttons for button1. There are several default buttons predefined for the default dialogs. When the user wants to use one of these buttons within a custom dialog he can do so by delivering the button label ID of the button he wants to use. In this way the internal button label ID is set to this value and the label text is localized. When the user relies on PDEEvents he can also check after the click for this concrete ID. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">defaultButtonLabelID</td><td>label ID of one of the predefined default buttons </td></tr>
@@ -1887,8 +1892,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom color for the title text. </p>
-<p>If the user sets no custom color, the default title color is used. Convenience function.</p>
+<p>Sets a custom color for the title text. If the user sets no custom color, the default title color is used. Convenience function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>the custom color for the title text </td></tr>
@@ -1920,8 +1924,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom color of the title text. </p>
-<p>If the user sets no custom color, the default title color is used.</p>
+<p>Sets a custom color of the title text. If the user sets no custom color, the default title color is used. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom color of the title text </td></tr>
@@ -1952,8 +1955,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the custom color of the title text. </p>
-<p>If the user hasn't explicitly set his own custom title text color, the default color will be used. In case of the default color, this getter delivers null.</p>
+<p>Gets the custom color of the title text. If the user hasn't explicitly set his own custom title text color, the default color will be used. In case of the default color, this getter delivers null. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom color of the title text if the user has explicitly set one, otherwise null (== default color is used) </dd></dl>
 
 </div>
@@ -1980,8 +1982,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom color for the message text. </p>
-<p>If the user sets no custom color, the default message color is used. Convenience function.</p>
+<p>Sets a custom color for the message text. If the user sets no custom color, the default message color is used. Convenience function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom color for the message text </td></tr>
@@ -2013,8 +2014,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom color for the message text. </p>
-<p>If the user sets no custom color, the default message color is used.</p>
+<p>Sets a custom color for the message text. If the user sets no custom color, the default message color is used. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom color for the message text </td></tr>
@@ -2045,8 +2045,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the custom color of the message text. </p>
-<p>If the user hasn't explicitly set his own custom message text color, the default color will be used. In case of the default color, this getter delivers null.</p>
+<p>Gets the custom color of the message text. If the user hasn't explicitly set his own custom message text color, the default color will be used. In case of the default color, this getter delivers null. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom color of the message text </dd></dl>
 
 </div>
@@ -2105,8 +2104,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets the label text of button2. </p>
-<p>internal function</p>
+<p>Sets the label text of button2. internal function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">text</td><td>label text of button2 </td></tr>
@@ -2138,8 +2136,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set one of the predefined default buttons for button2. </p>
-<p>There are several default buttons predefined for the default dialogs. When the user wants to use one of these buttons within a custom dialog he can do so by delivering the button label ID of the button he wants to use. In this way the internal button label ID is set to this value and the label text is localized. When the user relies on PDEEvents he can also check after the click for this concrete ID.</p>
+<p>Set one of the predefined default buttons for button2. There are several default buttons predefined for the default dialogs. When the user wants to use one of these buttons within a custom dialog he can do so by delivering the button label ID of the button he wants to use. In this way the internal button label ID is set to this value and the label text is localized. When the user relies on PDEEvents he can also check after the click for this concrete ID. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">defaultButtonLabelID</td><td>label ID of one of the predefined default buttons </td></tr>
@@ -2197,8 +2194,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set the parameters that should be put in for the wildcards in the message text. </p>
-<p>Some message texts contain wildcards in order to be able to dynamically place values into the text. With this method you can deliver the values that should be shown instead of the wildcards.</p>
+<p>Set the parameters that should be put in for the wildcards in the message text. Some message texts contain wildcards in order to be able to dynamically place values into the text. With this method you can deliver the values that should be shown instead of the wildcards. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">varargs</td><td>Variable arguments that replace the wildcards within the message text. </td></tr>
@@ -2230,8 +2226,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set the parameters that should be put in for the wildcards in the title text. </p>
-<p>Some title texts contain wildcards in order to be able to dynamically place values into the text. With this method you can deliver the values that should be shown instead of the wildcards.</p>
+<p>Set the parameters that should be put in for the wildcards in the title text. Some title texts contain wildcards in order to be able to dynamically place values into the text. With this method you can deliver the values that should be shown instead of the wildcards. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">varargs</td><td>Variable arguments that replace the wildcards within the title text. </td></tr>
@@ -2262,8 +2257,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Check if the dialog is already shown. </p>
-<p>Internal state that remembers if the show-command was already successfully sent. So the dialog activity was already told to start and nobody dismissed it since.</p>
+<p>Check if the dialog is already shown. Internal state that remembers if the show-command was already successfully sent. So the dialog activity was already told to start and nobody dismissed it since. </p>
 <dl class="section return"><dt>Returns</dt><dd>if the dialog is already shown </dd></dl>
 
 </div>
@@ -2321,8 +2315,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Check if the hardware back button is enabled for the dialog. </p>
-<p>If the hardware back button is enabled, the dialog gets canceled when the user pushes the back button. The back button can be turned off. Then nothing happens when the user pushes it. The back button is enabled by default.</p>
+<p>Check if the hardware back button is enabled for the dialog. If the hardware back button is enabled, the dialog gets canceled when the user pushes the back button. The back button can be turned off. Then nothing happens when the user pushes it. The back button is enabled by default. </p>
 <dl class="section return"><dt>Returns</dt><dd>if the back button is enabled </dd></dl>
 
 </div>
@@ -2439,8 +2432,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom background color of button1. </p>
-<p>If the user sets no custom color, the default color is used. Convenience function.</p>
+<p>Sets a custom background color of button1. If the user sets no custom color, the default color is used. Convenience function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom background color of button1 </td></tr>
@@ -2472,8 +2464,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom background color of button1. </p>
-<p>If the user sets no custom color, the default color is used.</p>
+<p>Sets a custom background color of button1. If the user sets no custom color, the default color is used. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom background color of button1 </td></tr>
@@ -2504,8 +2495,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the custom background color of button1. </p>
-<p>If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null.</p>
+<p>Gets the custom background color of button1. If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom background color of button1 or null if no custom color was set </dd></dl>
 
 </div>
@@ -2532,8 +2522,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom background color of button2. </p>
-<p>If the user sets no custom color, the default color is used. Convenience function.</p>
+<p>Sets a custom background color of button2. If the user sets no custom color, the default color is used. Convenience function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom background color of button2 </td></tr>
@@ -2565,8 +2554,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom background color of button2. </p>
-<p>If the user sets no custom color, the default color is used.</p>
+<p>Sets a custom background color of button2. If the user sets no custom color, the default color is used. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom background color of button2 </td></tr>
@@ -2597,9 +2585,268 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the custom background color of button2. </p>
-<p>If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null.</p>
+<p>Gets the custom background color of button2. If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom background color of button2 or null if no custom color was set </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a08b29349a8fd680adf1527940878790d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.dialog.PDEDialog.setGlobalTypefaceByName </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>typefaceName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a new typeface for all textual elements of the dialog. This function can be used to set a new typeface for all textual elements (title, message, buttons) of the dialog. The typeface has to be delivered by name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">typefaceName</td><td>the name of the desired new typeface. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="abb6b28d2a882c639e9c175534a321c88"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.dialog.PDEDialog.setTitleTypefaceByName </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>typefaceName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a new typeface for the title of the dialog. This function can be used to set a new typeface for the title of the dialog. The typeface has to be delivered by name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">typefaceName</td><td>the name of the desired new typeface. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a48b23d1f4a748a866a6d91b02bd43c50"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.ui.components.dialog.PDEDialog.getTypefaceNameTitle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delivers the name of the typeface that is currently used for the title of the dialog. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac167c5ab839ac54ffcb74711cc8c0d1e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.dialog.PDEDialog.setMessageTypefaceByName </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>typefaceName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a new typeface for the message of the dialog. This function can be used to set a new typeface for the message of the dialog. The typeface has to be delivered by name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">typefaceName</td><td>the name of the desired new typeface. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7354d0fb51c5dc6b11c97e91b7731751"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.ui.components.dialog.PDEDialog.getTypefaceNameMessage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delivers the name of the typeface that is currently used for the message of the dialog. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad21988490a0fa5969081f67fa74740a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.dialog.PDEDialog.setButton1TypefaceByName </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>typefaceName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a new typeface for the label of button1 of the dialog. This function can be used to set a new typeface for the label of button1 of the dialog. The typeface has to be delivered by name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">typefaceName</td><td>the name of the desired new typeface. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a66d7ce19d6e978b18f9a718c269d12d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.ui.components.dialog.PDEDialog.getTypefaceNameButton1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delivers the name of the typeface that is currently used for the label of button1 of the dialog. </p>
+
+</div>
+</div>
+<a class="anchor" id="a569b5ca304f30ed635d2787f816f36e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.components.dialog.PDEDialog.setButton2TypefaceByName </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>typefaceName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets a new typeface for the label of button2 of the dialog. This function can be used to set a new typeface for the label of button2 of the dialog. The typeface has to be delivered by name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">typefaceName</td><td>the name of the desired new typeface. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab06f0679ee351cf0cec4c1ee5bc8e4fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String de.telekom.pde.codelibrary.ui.components.dialog.PDEDialog.getTypefaceNameButton2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delivers the name of the typeface that is currently used for the label of button1 of the dialog. </p>
 
 </div>
 </div>
@@ -2625,8 +2872,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom font size for the title. </p>
-<p>If the user sets no custom font size, the default size is used.</p>
+<p>Sets a custom font size for the title. If the user sets no custom font size, the default size is used. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">size</td><td>a custom font size for the title. </td></tr>
@@ -2657,8 +2903,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the custom font size of the title. </p>
-<p>If the user hasn't explicitly set his own custom font size, the default size will be used. In case of the default size, this getter delivers -1.0f.</p>
+<p>Gets the custom font size of the title. If the user hasn't explicitly set his own custom font size, the default size will be used. In case of the default size, this getter delivers -1.0f. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom font size of the title or -1.0f if no custom font size was set </dd></dl>
 
 </div>
@@ -2685,8 +2930,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom font size for the message. </p>
-<p>If the user sets no custom font size, the default size is used.</p>
+<p>Sets a custom font size for the message. If the user sets no custom font size, the default size is used. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">size</td><td>a custom font size for the message. </td></tr>
@@ -2717,8 +2961,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the custom font size of the message. </p>
-<p>If the user hasn't explicitly set his own custom font size, the default size will be used. In case of the default size, this getter delivers -1.0f.</p>
+<p>Gets the custom font size of the message. If the user hasn't explicitly set his own custom font size, the default size will be used. In case of the default size, this getter delivers -1.0f. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom font size of the message or -1.0f if no custom font size was set </dd></dl>
 
 </div>
@@ -2745,8 +2988,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom color for the dialog background. </p>
-<p>If the user sets no custom color, the default color is used. Convenience function.</p>
+<p>Sets a custom color for the dialog background. If the user sets no custom color, the default color is used. Convenience function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom color for the dialog background </td></tr>
@@ -2778,8 +3020,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom color for the dialog background. </p>
-<p>If the user sets no custom color, the default color is used.</p>
+<p>Sets a custom color for the dialog background. If the user sets no custom color, the default color is used. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom color for the dialog background </td></tr>
@@ -2810,8 +3051,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the custom color of the dialog background. </p>
-<p>If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null.</p>
+<p>Gets the custom color of the dialog background. If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom color of the dialog background or null if no custom color was set </dd></dl>
 
 </div>
@@ -2838,8 +3078,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom color for the dialog outline. </p>
-<p>If the user sets no custom color, the default color is used. Convenience function.</p>
+<p>Sets a custom color for the dialog outline. If the user sets no custom color, the default color is used. Convenience function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom color for the dialog outline </td></tr>
@@ -2871,8 +3110,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom color for the dialog outline. </p>
-<p>If the user sets no custom color, the default color is used.</p>
+<p>Sets a custom color for the dialog outline. If the user sets no custom color, the default color is used. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom color for the dialog outline </td></tr>
@@ -2903,8 +3141,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the custom color of the dialog outline. </p>
-<p>If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null.</p>
+<p>Gets the custom color of the dialog outline. If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom color of the dialog outline or null if no custom color was set </dd></dl>
 
 </div>
@@ -2931,8 +3168,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom color for separator. </p>
-<p>If the user sets no custom color, the default color is used. Convenience function.</p>
+<p>Sets a custom color for separator. If the user sets no custom color, the default color is used. Convenience function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom color for separator </td></tr>
@@ -2964,8 +3200,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets a custom color for separator. </p>
-<p>If the user sets no custom color, the default color is used.</p>
+<p>Sets a custom color for separator. If the user sets no custom color, the default color is used. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">color</td><td>a custom color for separator </td></tr>
@@ -2996,8 +3231,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the custom color of the separator. </p>
-<p>If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null.</p>
+<p>Gets the custom color of the separator. If the user hasn't explicitly set his own custom color, the default color will be used. In case of the default color, this getter delivers null. </p>
 <dl class="section return"><dt>Returns</dt><dd>the custom color of the separator or null if no custom color was set </dd></dl>
 
 </div>
@@ -3023,8 +3257,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Preloads the dictionaries for faster initialization of predefined default dialogs. </p>
-<p>Before one of the predefined default dialogs is shown for the first time, it's necessary to parse the content data from two XMLs in two dictionaries. This might result in a short delay when one of these dialogs should be shown for the first time. To speed up things, this static method can be called at the start of the application, so the dictionaries will already be cached when they're needed for the first time. </p>
+<p>Pre-loads the dictionaries for faster initialization of predefined default dialogs. Before one of the predefined default dialogs is shown for the first time, it's necessary to parse the content data from two XMLs in two dictionaries. This might result in a short delay when one of these dialogs should be shown for the first time. To speed up things, this static method can be called at the start of the application, so the dictionaries will already be cached when they're needed for the first time. </p>
 
 </div>
 </div>
@@ -3075,8 +3308,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the dictionary that contains data about the predefined default dialogs. </p>
-<p>The data which can be found in the dictionary is the title, the message and which types of buttons are used.</p>
+<p>Get the dictionary that contains data about the predefined default dialogs. The data which can be found in the dictionary is the title, the message and which types of buttons are used. </p>
 <dl class="section return"><dt>Returns</dt><dd>dictionary that contains data about the predefined default dialogs </dd></dl>
 
 </div>
@@ -3306,7 +3538,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> PDEFontHelpers.calculateFontSize(PDETypeface.sDefaultFont,</div>
-<div class="line">            PDEBuildingUnits.pixelFromBU(8.0f / 6.0f))</div>
+<div class="line">                                                                                PDEBuildingUnits.pixelFromBU(</div>
+<div class="line">                                                                                        8.0f / 6.0f)</div>
+<div class="line">    )</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -3328,7 +3562,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line"> PDEFontHelpers.calculateFontSize(PDETypeface.sDefaultFont,</div>
-<div class="line">            PDEBuildingUnits.BU())</div>
+<div class="line">                                                                                  PDEBuildingUnits.BU())</div>
 </div><!-- fragment -->
 </div>
 </div>

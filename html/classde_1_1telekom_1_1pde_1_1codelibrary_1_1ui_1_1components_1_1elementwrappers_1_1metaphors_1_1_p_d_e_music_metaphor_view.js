@@ -3,8 +3,8 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrapp
     [ "PDEMusicMetaphorView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#aacb757980652c30498c96a565cf74f1b", null ],
     [ "PDEMusicMetaphorView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#af9386163d8da9fea6ba4f2e774b0ee84", null ],
     [ "PDEMusicMetaphorView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#ad40a9e206be1a3b3b6ce20901d037bf4", null ],
-    [ "init", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a797e380df8bdfe2c216011d580927814", null ],
-    [ "setAttributes", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a8a983e4c98e67ff4d83edff2e34b54b2", null ],
+    [ "init", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#ae7e9505b223423101a547ca2a88c64ef", null ],
+    [ "setAttributes", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a761fc17147f05345dee8e994937c135e", null ],
     [ "setContentStyle", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a882bbe276b22d30c48944a350a72b069", null ],
     [ "setContentStyle", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#aed4726ff95fc9b7a6cb33d4d0412c709", null ],
     [ "getContentStyle", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a1aab4e6f5408175f6e6b670daba8a18b", null ],
@@ -19,6 +19,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrapp
     [ "setShadowEnabled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a83ac830712f8ee0b202510362a0c287a", null ],
     [ "getShadowEnabled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a1b0fdf90e95c663dfd27b1af5691d5d0", null ],
     [ "onMeasure", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a2e2d094d221ec1dc09adc7978aed7747", null ],
+    [ "elementCalculateAspectRatioBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a96868489eb6a7906c906f0662ab30053", null ],
     [ "mMusic", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#a507018c0a150effe7d5a15df4b8976f9", null ],
     [ "mInternalCalculateAspectRatioBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1metaphors_1_1_p_d_e_music_metaphor_view.html#ab93cdf5b50dc8e6efaa59e5323608d15", null ]
 ];

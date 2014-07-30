@@ -34,10 +34,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p
     [ "calculateElementWidthHaptic", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#a1f0ce7bd359816a13fc6047e05aa3914", null ],
     [ "setLayoutWidth", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#ab0c81f31017ca89a82795812d8e4e0da", null ],
     [ "setLayoutHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#afbcee73de7a54d88ee80a52331150d03", null ],
-    [ "setBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#a2e0dffc320ebd9742ad23963f8a47c15", null ],
-    [ "setBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#a3759d1fe6b98a09945fd2b88281ffaba", null ],
     [ "elementCalculateAspectRatioBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#ae11c7f8b58b285cec2817df9746b237b", null ],
-    [ "correctBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#ad7fe26de2e2f4cde700606dd004d00ab", null ],
     [ "doLayout", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#ab9bcc85939570e3794837d3d55cf8ff7", null ],
     [ "updateShadowDrawable", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#acbc539f449a68acb8c09fb99d9777f9a", null ],
     [ "updateFilmImageDrawable", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#a4359fa857322febbb8947df73578f875", null ],
@@ -47,12 +44,10 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p
     [ "CONST_ASPECT_RATIO", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#a49601c771cd65d646dc36d1f13c3c07a", null ],
     [ "mOriginalWidth", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#af94c07f907b78a048cb0cc7c65922428", null ],
     [ "mOriginalHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#a66ffc00ce6f276bd0488dd1cddf60ac1", null ],
-    [ "mOriginalBounds", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#af46e414063d67aa09e810ce00b67682a", null ],
     [ "mPaddingTop", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#af7a160b474af1ff85a941528ebf796e9", null ],
     [ "mPaddingLeft", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#aa48815ed4fd566fb707da1d9866d467a", null ],
     [ "mPaddingRight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#afc392a6ee7a5fad03f177d25f2863e63", null ],
     [ "mPaddingBottom", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#a74e6f16fa35b293708abfd380096a58e", null ],
     [ "mShadowEnabled", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#a070c5366c0cc48faa9b9598b727d75eb", null ],
-    [ "mMiddleAligned", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#a29abdb8476a0591b3e217642f4b079b8", null ],
     [ "mElementShadowDrawable", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1metaphor_1_1_p_d_e_drawable_photo_frame.html#a90e23af34f71931e734967a3995fd4e4", null ]
 ];

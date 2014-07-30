@@ -1,0 +1,7 @@
+var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_a7737669272f7a0cd3c341faf2be22d8 =
+[
+    [ "TimeModeConstant", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_a7737669272f7a0cd3c341faf2be22d8.html#a2e7cff83721c4ce3db7d27f9da16e6da", null ],
+    [ "TimeModeLinear", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_a7737669272f7a0cd3c341faf2be22d8.html#aac8cf2dc8cf8163d2428cf29f4c7b97a", null ],
+    [ "TimeModeExponential", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_a7737669272f7a0cd3c341faf2be22d8.html#ac31df8fdb03129f7ff2cd22e1953bf6a", null ],
+    [ "TimeModeAdaptive", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_a7737669272f7a0cd3c341faf2be22d8.html#aecabd983f836f714786bd781a425eb96", null ]
+];

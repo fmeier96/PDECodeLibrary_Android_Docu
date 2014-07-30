@@ -11,6 +11,7 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_utils =
     [ "setGoldenRatioTo", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_utils.html#a44f93d0751120c4ce162812e72cd7c44", null ],
     [ "getStatusBarHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_utils.html#a2c9024d066dffc324e0b89b0045d3e28", null ],
     [ "loadStringFromResources", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_utils.html#aade975c89ec0fab8257b73cce18dc5a3", null ],
+    [ "setLayerTypeSoftwareToView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_utils.html#ac2dc1aed644d2ce0192a3f18c6ac0603", null ],
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_utils.html#aff36d2d8ecdb9cddb7d1c342187bc21d", null ],
     [ "GOLDEN_RATIO_PERCENTAGE", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1helpers_1_1_p_d_e_utils.html#a7939e067023ec14e48d3bcffc6f43660", null ]
 ];

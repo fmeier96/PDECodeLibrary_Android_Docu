@@ -1,0 +1,6 @@
+var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_32b7dd4fa06c3a381e37607a157adfcd =
+[
+    [ "EaseSoft", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_32b7dd4fa06c3a381e37607a157adfcd.html#abe9e49f2738b427a13b4869dcfb118cb", null ],
+    [ "EaseLinear", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_32b7dd4fa06c3a381e37607a157adfcd.html#a834e267de7d990f52c9627dd75c9900e", null ],
+    [ "EaseSpeedOnly", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_parametric_curve_animation_32b7dd4fa06c3a381e37607a157adfcd.html#a3b066ef884c4c8f9d185bd6da3b1ed3e", null ]
+];

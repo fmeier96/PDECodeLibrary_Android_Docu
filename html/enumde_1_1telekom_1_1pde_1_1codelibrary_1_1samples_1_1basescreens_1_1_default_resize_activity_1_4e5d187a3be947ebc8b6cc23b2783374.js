@@ -1,0 +1,5 @@
+var enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_default_resize_activity_1_4e5d187a3be947ebc8b6cc23b2783374 =
+[
+    [ "LEFT", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_default_resize_activity_1_4e5d187a3be947ebc8b6cc23b2783374.html#ab893b340f6e51eedd742340712f9a6a1", null ],
+    [ "RIGHT", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_default_resize_activity_1_4e5d187a3be947ebc8b6cc23b2783374.html#a35d09956f479c10d4737a64be7d0cbb9", null ]
+];

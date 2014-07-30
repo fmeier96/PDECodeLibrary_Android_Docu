@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-library-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button flat" href="https://www.design.telekom.com/">
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usag3ec60ade344fcdbeafc75de9fc32c5c3.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html" title="UsageCircleProgrammingSample activity for a usage circle sample.">UsageCircleProgrammingSample</a> activity for a usage circle sample.  
+ <a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.png" usemap="#de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample_map" alt=""/>
+  <map id="de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample_map" name="de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample_map">
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_activity.html" alt="de.telekom.pde.codelibrary.ui.activity.PDEActionBarActivity" shape="rect" coords="0,0,570,24"/>
+</map>
+ </div></div>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html" title="UsageCircleProgrammingSample activity for a usage circle sample.">UsageCircleProgrammingSample</a> activity for a usage circle sample. </p>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:af52437a411b97944487775c7f9fd0543"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#af52437a411b97944487775c7f9fd0543">onCreate</a> (Bundle savedInstanceState)</td></tr>
+<tr class="memdesc:af52437a411b97944487775c7f9fd0543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the activity.  <a href="#af52437a411b97944487775c7f9fd0543"></a><br/></td></tr>
+<tr class="memitem:aa3458908889852844d7b74e6b4a4f83f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#aa3458908889852844d7b74e6b4a4f83f">usageMinus_click</a> (View v)</td></tr>
+<tr class="memdesc:aa3458908889852844d7b74e6b4a4f83f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for the usage - button clicked event.  <a href="#aa3458908889852844d7b74e6b4a4f83f"></a><br/></td></tr>
+<tr class="memitem:ab56aed45cd93558779c303160f85045b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#ab56aed45cd93558779c303160f85045b">usagePlus_click</a> (View v)</td></tr>
+<tr class="memdesc:ab56aed45cd93558779c303160f85045b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for the usage + button clicked event.  <a href="#ab56aed45cd93558779c303160f85045b"></a><br/></td></tr>
+<tr class="memitem:acdd5ec9c6754c10219160bbf198ae01d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#acdd5ec9c6754c10219160bbf198ae01d">totalMinus_click</a> (View v)</td></tr>
+<tr class="memdesc:acdd5ec9c6754c10219160bbf198ae01d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for the total fill value - button clicked event.  <a href="#acdd5ec9c6754c10219160bbf198ae01d"></a><br/></td></tr>
+<tr class="memitem:ab83a03655fc74b63b9bb0f83cd1895b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#ab83a03655fc74b63b9bb0f83cd1895b4">totalPlus_click</a> (View v)</td></tr>
+<tr class="memdesc:ab83a03655fc74b63b9bb0f83cd1895b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for the total fill value + button clicked event.  <a href="#ab83a03655fc74b63b9bb0f83cd1895b4"></a><br/></td></tr>
+<tr class="memitem:a1b57a48b5581439d34a72234f8e275df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a1b57a48b5581439d34a72234f8e275df">segMinus_click</a> (View v)</td></tr>
+<tr class="memdesc:a1b57a48b5581439d34a72234f8e275df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for the segment- button clicked event.  <a href="#a1b57a48b5581439d34a72234f8e275df"></a><br/></td></tr>
+<tr class="memitem:aec3aef1f555f9fef42ff0e524551ca2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#aec3aef1f555f9fef42ff0e524551ca2f">segPlus_click</a> (View v)</td></tr>
+<tr class="memdesc:aec3aef1f555f9fef42ff0e524551ca2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for the segment+ button clicked event.  <a href="#aec3aef1f555f9fef42ff0e524551ca2f"></a><br/></td></tr>
+<tr class="memitem:a4e9fb119325c27af401712ac78c2c5a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a4e9fb119325c27af401712ac78c2c5a5">twenty_click</a> (View v)</td></tr>
+<tr class="memdesc:a4e9fb119325c27af401712ac78c2c5a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for the 20% button clicked event.  <a href="#a4e9fb119325c27af401712ac78c2c5a5"></a><br/></td></tr>
+<tr class="memitem:ad165845d7712c2096ff9306c09e0ac33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#ad165845d7712c2096ff9306c09e0ac33">eighty_click</a> (View v)</td></tr>
+<tr class="memdesc:ad165845d7712c2096ff9306c09e0ac33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback for the 80% button clicked event.  <a href="#ad165845d7712c2096ff9306c09e0ac33"></a><br/></td></tr>
+<tr class="memitem:a69930e85720115ed1284c97305a17452"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a69930e85720115ed1284c97305a17452">addChoiceArrayList</a> (String buttonText, ArrayList&lt; String &gt; arrayList, DialogHelper.ChoiceListOnItemClickListener clickListener)</td></tr>
+<tr class="memdesc:a69930e85720115ed1284c97305a17452"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a dialog with content for the left or right button and listen to listview item clicks.  <a href="#a69930e85720115ed1284c97305a17452"></a><br/></td></tr>
+<tr class="memitem:a6a7d91b9d8b367ea941ea18f6c5fbeb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a6a7d91b9d8b367ea941ea18f6c5fbeb1">setSelectionPos</a> (int selectionPos)</td></tr>
+<tr class="memdesc:a6a7d91b9d8b367ea941ea18f6c5fbeb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the selection of a listview item (predefined left or right listview).  <a href="#a6a7d91b9d8b367ea941ea18f6c5fbeb1"></a><br/></td></tr>
+<tr class="memitem:a99e6b28fbf55da03412c6135b92958a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a99e6b28fbf55da03412c6135b92958a7">onProgressChanged</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html">PDEEvent</a> event)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
+Private Methods</h2></td></tr>
+<tr class="memitem:a2269f3230c2c7bf1014258cb79552d7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a2269f3230c2c7bf1014258cb79552d7f">fillStyleArray</a> ()</td></tr>
+<tr class="memdesc:a2269f3230c2c7bf1014258cb79552d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill style array.  <a href="#a2269f3230c2c7bf1014258cb79552d7f"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a88f78cfb95b518e677d1a7e579b39078"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a88f78cfb95b518e677d1a7e579b39078">LOG_TAG</a> = UsageCircleProgrammingSample.class.getName()</td></tr>
+<tr class="memdesc:a88f78cfb95b518e677d1a7e579b39078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#a88f78cfb95b518e677d1a7e579b39078"></a><br/></td></tr>
+<tr class="memitem:a7bb556bc83751709115c77d9a17e5062"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a7bb556bc83751709115c77d9a17e5062">STYLE_DEFAULT</a> = &quot;Default&quot;</td></tr>
+<tr class="memitem:aaf3855cd97cc7878997c242b8fc140b9"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#aaf3855cd97cc7878997c242b8fc140b9">STYLE_LEAD_CIRCLE</a> = &quot;Lead Circle&quot;</td></tr>
+<tr class="memitem:affa988975fed8220b19c73bef9cdf463"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#affa988975fed8220b19c73bef9cdf463">STYLE_SLIM_CIRCLE</a> = &quot;Slim Circle&quot;</td></tr>
+<tr class="memitem:a9410a81cc25f8c4b4c665ef9e43466b5"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a9410a81cc25f8c4b4c665ef9e43466b5">STYLE_SEGMENTED</a> = &quot;Segmented&quot;</td></tr>
+<tr class="memitem:ab46cfe7aacac297ea7b613683309d6ab"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#ab46cfe7aacac297ea7b613683309d6ab">STYLE_DIVIDED</a> = &quot;Divided&quot;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pac-attribs"></a>
+Package Attributes</h2></td></tr>
+<tr class="memitem:a26152ef4498c59805c2431b90b34818f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1datavisualisation_1_1usagecircle_1_1_p_d_e_usage_circle.html">PDEUsageCircle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a26152ef4498c59805c2431b90b34818f">mUsageCircle</a></td></tr>
+<tr class="memitem:a27d5138994627564434ee74a56f1e97e"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a27d5138994627564434ee74a56f1e97e">mStyleArrayList</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1f06eaf3e83938d44abf28683a63098d"><td class="memItemLeft" align="right" valign="top">Button&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a1f06eaf3e83938d44abf28683a63098d">mStyleButton</a></td></tr>
+<tr class="memitem:a3b5fa7f2de2466b62855df69ca150d5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_dialog_helper.html">DialogHelper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_programming_sample.html#a3b5fa7f2de2466b62855df69ca150d5c">mStyleDialogHelper</a></td></tr>
+</table>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="af52437a411b97944487775c7f9fd0543"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.onCreate </td>
+          <td>(</td>
+          <td class="paramtype">Bundle&#160;</td>
+          <td class="paramname"><em>savedInstanceState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create the activity. </p>
+
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1activity_1_1_p_d_e_action_bar_activity.html#a7adca8cba5c910dfbd5541f131d82906">de.telekom.pde.codelibrary.ui.activity.PDEActionBarActivity</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2269f3230c2c7bf1014258cb79552d7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.fillStyleArray </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fill style array. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa3458908889852844d7b74e6b4a4f83f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.usageMinus_click </td>
+          <td>(</td>
+          <td class="paramtype">View&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback for the usage - button clicked event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>Clicked view </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab56aed45cd93558779c303160f85045b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.usagePlus_click </td>
+          <td>(</td>
+          <td class="paramtype">View&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback for the usage + button clicked event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>Clicked view </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="acdd5ec9c6754c10219160bbf198ae01d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.totalMinus_click </td>
+          <td>(</td>
+          <td class="paramtype">View&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback for the total fill value - button clicked event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>Clicked view </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab83a03655fc74b63b9bb0f83cd1895b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.totalPlus_click </td>
+          <td>(</td>
+          <td class="paramtype">View&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback for the total fill value + button clicked event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>Clicked view </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1b57a48b5581439d34a72234f8e275df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.segMinus_click </td>
+          <td>(</td>
+          <td class="paramtype">View&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback for the segment- button clicked event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>Clicked view </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aec3aef1f555f9fef42ff0e524551ca2f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.segPlus_click </td>
+          <td>(</td>
+          <td class="paramtype">View&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback for the segment+ button clicked event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>Clicked view </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4e9fb119325c27af401712ac78c2c5a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.twenty_click </td>
+          <td>(</td>
+          <td class="paramtype">View&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback for the 20% button clicked event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>Clicked view </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad165845d7712c2096ff9306c09e0ac33"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.eighty_click </td>
+          <td>(</td>
+          <td class="paramtype">View&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback for the 80% button clicked event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>Clicked view </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a69930e85720115ed1284c97305a17452"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.addChoiceArrayList </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>buttonText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ArrayList&lt; String &gt;&#160;</td>
+          <td class="paramname"><em>arrayList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DialogHelper.ChoiceListOnItemClickListener&#160;</td>
+          <td class="paramname"><em>clickListener</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a dialog with content for the left or right button and listen to listview item clicks. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6a7d91b9d8b367ea941ea18f6c5fbeb1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.setSelectionPos </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>selectionPos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the selection of a listview item (predefined left or right listview). </p>
+
+</div>
+</div>
+<a class="anchor" id="a99e6b28fbf55da03412c6135b92958a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.onProgressChanged </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1events_1_1_p_d_e_event.html">PDEEvent</a>&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Callback for the progress value changed event </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>The received event. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="a88f78cfb95b518e677d1a7e579b39078"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.LOG_TAG = UsageCircleProgrammingSample.class.getName()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Global tag for log outputs. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1f06eaf3e83938d44abf28683a63098d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Button de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.mStyleButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3b5fa7f2de2466b62855df69ca150d5c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1basescreens_1_1_dialog_helper.html">DialogHelper</a> de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.mStyleDialogHelper</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7bb556bc83751709115c77d9a17e5062"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.STYLE_DEFAULT = &quot;Default&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaf3855cd97cc7878997c242b8fc140b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.STYLE_LEAD_CIRCLE = &quot;Lead Circle&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="affa988975fed8220b19c73bef9cdf463"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.STYLE_SLIM_CIRCLE = &quot;Slim Circle&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9410a81cc25f8c4b4c665ef9e43466b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.STYLE_SEGMENTED = &quot;Segmented&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab46cfe7aacac297ea7b613683309d6ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.STYLE_DIVIDED = &quot;Divided&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a26152ef4498c59805c2431b90b34818f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1datavisualisation_1_1usagecircle_1_1_p_d_e_usage_circle.html">PDEUsageCircle</a> de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.mUsageCircle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a27d5138994627564434ee74a56f1e97e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; de.telekom.pde.codelibrary.samples.datavisualisation.usagecircle.UsageCircleProgrammingSample.mStyleArrayList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeSamples/src/de/telekom/pde/codelibrary/samples/datavisualisation/usagecircle/<a class="el" href="_usage_circle_programming_sample_8java.html">UsageCircleProgrammingSample.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>
