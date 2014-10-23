@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Code Library Android</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="images/6f42901d.apple-touch-icon.png" />
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+	<script type="text/javascript">
+		var headerBaseUrl = '/code-library/code-library-android/';
+	</script>
+	<script data-main="scripts/main.min" src="scripts/require-jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/toolChooser.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-resize.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxgen-navtree.js"></script>
+	<script type="text/javascript" src="scripts_doxygen/dtag-doxygen-alt_tag_replace.js"></script>
+	<script type="text/javascript" src="dynsections.js"></script>
+	<script type="text/javascript" src="search/search.js"></script>
+	<script type="text/javascript">$(document).ready(initResizable);</script>
+	<script type="text/javascript">$(document).ready(function() { searchBox.OnSelectItem(0); });</script>
+	<link rel="stylesheet" type="text/css" href="stylesheets_doxygen/dtag_doxygen.css" />
+  <!--[if IE 7]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie7.css" media="screen,print"> <![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if IE 9]> <link rel="stylesheet" type="text/css" href="stylesheets/components-ie9.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/components.css" media="screen,print"> <!--<![endif]-->
+  <!--[if IE 8]> <link rel="stylesheet" type="text/css" href="stylesheets/template-lte-ie8.css" media="screen,print"> <![endif]-->
+  <!--[if gt IE 9]><!--> <link rel="stylesheet" type="text/css" href="stylesheets/template.css" media="screen,print"> <!--<![endif]-->
+  <!-- for all IE's -->
+  <!--[if IE]>
+    <script src="scripts/libs/jquery/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //$('input[placeholder], textarea[placeholder]').placeholder();
+      });
+    </script>
+  <![endif]-->
+  <!-- for IE 8 and lower -->
+  <!--[if lte IE 8]>
+    <script src="scripts/libs/html5shiv/html5shiv.js" type="text/javascript"></script>
+  <![endif]-->
+  <!-- for IE 7 and lower -->
+  <!--[if lte IE 7]>
+    <script src="scripts/libs/jquery/jquery.pseudo.js" type="text/javascript"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="DTExperience">
+<div id="dtag_wrapper">
+	<header id="dtag_header">
+		<div id="dtag_brandlevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-5-6-5">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<a href="#" title="Telekom" id="dtag_logo" class="icon-telekom-3T7">
+						<span class="text">Telekom</span>
+						<span class="icon"></span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-center">
+					<a class="button flat" href="https://www.design.telekom.com/">
+						<span class="buttontext">Menu</span>
+					</a>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div id="dtag_drawer" class="dtag-outer">
+			<div class="dtag-inner">
+				<div id="dtag_search">
+					<div class="dtag-inner">
+						&nbsp;
+					</div>
+				</div>
+				<div id="dtag_jumpmarks">
+					<a href="#dtag_main">Jump to Content</a>
+					<a class="button dark icon-only icon-help_2" data-is-helpdesk-caller="true" href="#dtag_helpdesk">
+						<span aria-hidden="true" class="icon"></span>
+						<span class="buttontext">Helpdesk</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="dtag_servicelevel" class="dtag-outer">
+			<div class="dtag-inner dtag-grid-container dtag-grid-8-8">
+				<div class="dtag-grid-col dtag-grid-col-left">
+					<h2>Code Library Android</h2>
+				</div>
+				<div class="dtag-grid-col dtag-grid-col-right">
+					<nav id="dtag_helpdesklist">
+						<ul class="dropdown-decorated">
+							<li><a href="https://www.design.telekom.com/meta/legal-notice/imprint/">Legal Notice</a></li>
+							<li><a href="https://www.design.telekom.com/myaccount/terms-of-use/">Terms of use</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="dtag_settings" class="dtag-outer">
+	    <div class="dtag-inner">
+				&nbsp;
+	    </div>
+	</div>
+  <div id="dtag_main" class="dtag-outer">
+    <div class="dtag-inner">
+        <nav id="dtag_breadcrumb">
+            <ul>
+                <li><a title="Code Library" href="/code-library/">Code Library</a>&gt;</li>
+                <li>Android</li>
+            </ul>
+        </nav>
+			</div>
+		</div>
+</div>
+</div>
+<div id="doxygen-search">
+	<div id="sb">
+		<div id="searchScope">
+			<a href="#" onclick="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()">
+				<span id="selectedSearchScope"></span><img id="MSearchSelect" src="images_doxygen/icn_search_select.png" alt=""/>
+			</a>
+		</div>
+		<label for="MSearchField" class="hide">Search</label>
+		<input type="text" id="MSearchField" value="" accesskey="S"
+			onfocus="searchBox.OnSearchFieldFocus(true)" 
+			onblur="searchBox.OnSearchFieldFocus(false)" 
+			onkeyup="searchBox.OnSearchFieldChange(event)" placeholder="Search"/>
+		<div id="MSearchIcon" class="DTExperience">
+			<span class="icon-search" style="font-size: 1.2em;"><span aria-hidden="true" class="icon"></span></span>
+		</div>
+		<a id="MSearchClose" class="DTExperience" href="javascript:searchBox.CloseResultsWindow()">
+			<span class="icon-error" style="font-size: 1em;"><span aria-hidden="true" class="icon"></span></span>
+		</a>
+	</div>
+</div>
+<!-- Generated by Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator-members.html">List of all members</a> &#124;
+<a href="#nested-classes">Classes</a>  </div>
+  <div class="headertitle">
+<div class="title">de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Inherits View.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicatocb55ae5f9f7462dfba3c980bed67f7f9.html">PDEActivityIndicatorMode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mode of the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html">PDEActivityIndicator</a>, spinning or trigger.  <a href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicatocb55ae5f9f7462dfba3c980bed67f7f9.html#details">More...</a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Public Methods</h2></td></tr>
+<tr class="memitem:af5a4727e9ce4e00d916a4424dc4f0daa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#af5a4727e9ce4e00d916a4424dc4f0daa">PDEActivityIndicator</a> (Context context)</td></tr>
+<tr class="memdesc:af5a4727e9ce4e00d916a4424dc4f0daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#af5a4727e9ce4e00d916a4424dc4f0daa"></a><br/></td></tr>
+<tr class="memitem:af475a3d708886a988233fe3f3e8a5731"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#af475a3d708886a988233fe3f3e8a5731">PDEActivityIndicator</a> (Context context, AttributeSet attrs)</td></tr>
+<tr class="memdesc:af475a3d708886a988233fe3f3e8a5731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#af475a3d708886a988233fe3f3e8a5731"></a><br/></td></tr>
+<tr class="memitem:ab0b56e6963bb99ced4e592f40432f0c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#ab0b56e6963bb99ced4e592f40432f0c8">PDEActivityIndicator</a> (Context context, AttributeSet attrs, int defStyle)</td></tr>
+<tr class="memdesc:ab0b56e6963bb99ced4e592f40432f0c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ab0b56e6963bb99ced4e592f40432f0c8"></a><br/></td></tr>
+<tr class="memitem:afaf27467c5399d62827975eff8ea4652"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#afaf27467c5399d62827975eff8ea4652">setColor</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a> color)</td></tr>
+<tr class="memdesc:afaf27467c5399d62827975eff8ea4652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Color.  <a href="#afaf27467c5399d62827975eff8ea4652"></a><br/></td></tr>
+<tr class="memitem:a1cd3c5e3bafe0a2d3c93ecf785bc8de4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a1cd3c5e3bafe0a2d3c93ecf785bc8de4">setColor</a> (int color)</td></tr>
+<tr class="memdesc:a1cd3c5e3bafe0a2d3c93ecf785bc8de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Color.  <a href="#a1cd3c5e3bafe0a2d3c93ecf785bc8de4"></a><br/></td></tr>
+<tr class="memitem:a4b72008b9a90a4c9078d8cd14dfd3af3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a4b72008b9a90a4c9078d8cd14dfd3af3">setTriggerPercentage</a> (float pct)</td></tr>
+<tr class="memdesc:a4b72008b9a90a4c9078d8cd14dfd3af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set trigger percentage.  <a href="#a4b72008b9a90a4c9078d8cd14dfd3af3"></a><br/></td></tr>
+<tr class="memitem:aca407e7aa641a3d280f4656d23ce2abf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#aca407e7aa641a3d280f4656d23ce2abf">getTriggerPercentage</a> ()</td></tr>
+<tr class="memdesc:aca407e7aa641a3d280f4656d23ce2abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get trigger percentage.  <a href="#aca407e7aa641a3d280f4656d23ce2abf"></a><br/></td></tr>
+<tr class="memitem:ac55987d9ef90914592ba411d12f57653"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#ac55987d9ef90914592ba411d12f57653">setDiameter</a> (float diameter)</td></tr>
+<tr class="memdesc:ac55987d9ef90914592ba411d12f57653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set circle diameter.  <a href="#ac55987d9ef90914592ba411d12f57653"></a><br/></td></tr>
+<tr class="memitem:a111902ed4fef47170c2a74e1d1f883a5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a111902ed4fef47170c2a74e1d1f883a5">getDiameter</a> ()</td></tr>
+<tr class="memdesc:a111902ed4fef47170c2a74e1d1f883a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get circle diameter.  <a href="#a111902ed4fef47170c2a74e1d1f883a5"></a><br/></td></tr>
+<tr class="memitem:a975cc8681005a04862a5478f94126a79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a975cc8681005a04862a5478f94126a79">setAnimationDuration</a> (int duration)</td></tr>
+<tr class="memdesc:a975cc8681005a04862a5478f94126a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the duration the animation.  <a href="#a975cc8681005a04862a5478f94126a79"></a><br/></td></tr>
+<tr class="memitem:ad9232419391a6188c1535f2844045d30"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#ad9232419391a6188c1535f2844045d30">getAnimationDuration</a> ()</td></tr>
+<tr class="memdesc:ad9232419391a6188c1535f2844045d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get animation duration.  <a href="#ad9232419391a6188c1535f2844045d30"></a><br/></td></tr>
+<tr class="memitem:aef07c2d5cd3195ff47088b4fd72192ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#aef07c2d5cd3195ff47088b4fd72192ec">setMode</a> (<a class="el" href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicatocb55ae5f9f7462dfba3c980bed67f7f9.html">PDEActivityIndicatorMode</a> mode)</td></tr>
+<tr class="memdesc:aef07c2d5cd3195ff47088b4fd72192ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Mode.  <a href="#aef07c2d5cd3195ff47088b4fd72192ec"></a><br/></td></tr>
+<tr class="memitem:a867c1b20db97ae2b6ca79e48c57c05ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a867c1b20db97ae2b6ca79e48c57c05ee">setMode</a> (int mode)</td></tr>
+<tr class="memitem:a689c117bc4b38722f4168dd62c3f1c15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicatocb55ae5f9f7462dfba3c980bed67f7f9.html">PDEActivityIndicatorMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a689c117bc4b38722f4168dd62c3f1c15">getMode</a> ()</td></tr>
+<tr class="memdesc:a689c117bc4b38722f4168dd62c3f1c15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Mode.  <a href="#a689c117bc4b38722f4168dd62c3f1c15"></a><br/></td></tr>
+<tr class="memitem:a875eb512bb82e9c26e738048b2f9f264"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a875eb512bb82e9c26e738048b2f9f264">stop</a> ()</td></tr>
+<tr class="memdesc:a875eb512bb82e9c26e738048b2f9f264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop all animations.  <a href="#a875eb512bb82e9c26e738048b2f9f264"></a><br/></td></tr>
+<tr class="memitem:aef7fd6b1c6a39b40122ab89d04b73158"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#aef7fd6b1c6a39b40122ab89d04b73158">start</a> ()</td></tr>
+<tr class="memdesc:aef7fd6b1c6a39b40122ab89d04b73158"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the animation.  <a href="#aef7fd6b1c6a39b40122ab89d04b73158"></a><br/></td></tr>
+<tr class="memitem:a70683aebf16ac779cf30b000e9a70f94"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a70683aebf16ac779cf30b000e9a70f94">isRunning</a> ()</td></tr>
+<tr class="memdesc:a70683aebf16ac779cf30b000e9a70f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if animation is running.  <a href="#a70683aebf16ac779cf30b000e9a70f94"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
+Protected Methods</h2></td></tr>
+<tr class="memitem:a7cef159d68d36964b66d25f5d7cae6e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a7cef159d68d36964b66d25f5d7cae6e8">init</a> (Context context, AttributeSet attrs)</td></tr>
+<tr class="memdesc:a7cef159d68d36964b66d25f5d7cae6e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize.  <a href="#a7cef159d68d36964b66d25f5d7cae6e8"></a><br/></td></tr>
+<tr class="memitem:a7ccb212d0a9b5d1c948ff1167f9c6c69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a7ccb212d0a9b5d1c948ff1167f9c6c69">onSizeChanged</a> (int w, int h, int oldw, int oldh)</td></tr>
+<tr class="memitem:a059c8bab548e2c74b0427557613fb1a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a059c8bab548e2c74b0427557613fb1a7">onLayout</a> (boolean changed, int left, int top, int right, int bottom)</td></tr>
+<tr class="memitem:a91f163e6b63c51e5a5a22548dbd28cd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a91f163e6b63c51e5a5a22548dbd28cd4">onDraw</a> (Canvas canvas)</td></tr>
+<tr class="memdesc:a91f163e6b63c51e5a5a22548dbd28cd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update layout.  <a href="#a91f163e6b63c51e5a5a22548dbd28cd4"></a><br/></td></tr>
+<tr class="memitem:aa46a29faba49879ae8a186f6301085bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#aa46a29faba49879ae8a186f6301085bb">onMeasure</a> (int widthMeasureSpec, int heightMeasureSpec)</td></tr>
+<tr class="memdesc:aa46a29faba49879ae8a186f6301085bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine layout size of element.  <a href="#aa46a29faba49879ae8a186f6301085bb"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
+Private Methods</h2></td></tr>
+<tr class="memitem:aa40f5a9edcf630f1fa7d5a7504f8bb56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#aa40f5a9edcf630f1fa7d5a7504f8bb56">setAttributes</a> (Context context, AttributeSet attrs)</td></tr>
+<tr class="memdesc:aa40f5a9edcf630f1fa7d5a7504f8bb56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load XML attributes.  <a href="#aa40f5a9edcf630f1fa7d5a7504f8bb56"></a><br/></td></tr>
+<tr class="memitem:ab914e7cd5b3c402b7d3a1b5cd96286fa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#ab914e7cd5b3c402b7d3a1b5cd96286fa">degreesToRadians</a> (float deg)</td></tr>
+<tr class="memdesc:ab914e7cd5b3c402b7d3a1b5cd96286fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to transform degrees to radians.  <a href="#ab914e7cd5b3c402b7d3a1b5cd96286fa"></a><br/></td></tr>
+<tr class="memitem:a696eea416eaf2cdf40a359937e20ffbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a696eea416eaf2cdf40a359937e20ffbc">createCirclePath</a> ()</td></tr>
+<tr class="memdesc:a696eea416eaf2cdf40a359937e20ffbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create path for the circle segment.  <a href="#a696eea416eaf2cdf40a359937e20ffbc"></a><br/></td></tr>
+<tr class="memitem:af3d9c38d8b5392b3235f31d2e1c7f748"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#af3d9c38d8b5392b3235f31d2e1c7f748">drawTrigger</a> (Canvas canvas, int cx, int cy)</td></tr>
+<tr class="memdesc:af3d9c38d8b5392b3235f31d2e1c7f748"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw trigger.  <a href="#af3d9c38d8b5392b3235f31d2e1c7f748"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:adee669aecd924cfece85677a8e87cde5"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#adee669aecd924cfece85677a8e87cde5">LOG_TAG</a> = PDEActivityIndicator.class.getSimpleName()</td></tr>
+<tr class="memitem:ac5dafc7a00b6a2bb0ee5357d2197d1aa"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#ac5dafc7a00b6a2bb0ee5357d2197d1aa">ANIMATION_DURATION</a> = 1120</td></tr>
+<tr class="memitem:abb96cdd43983d3c6844819a3eb0a5ebb"><td class="memItemLeft" align="right" valign="top">static final float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#abb96cdd43983d3c6844819a3eb0a5ebb">DIAMETER</a> = 2.0f*PDEBuildingUnits.BU()</td></tr>
+<tr class="memitem:ac85bfd6713d6bb7bdf7d6eeef8df3e39"><td class="memItemLeft" align="right" valign="top">static final float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#ac85bfd6713d6bb7bdf7d6eeef8df3e39">ARC_RADIUS</a> = 117.0f</td></tr>
+<tr class="memitem:a169bfbd928cb707fde68f7108e817cd3"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a169bfbd928cb707fde68f7108e817cd3">COLOR</a> = <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a77f5df5c4f33fb978d897178c2ac5f99">PDEColor.valueOf</a>(&quot;DTGrey2&quot;).getIntegerColor()</td></tr>
+<tr class="memitem:a2fac7698a3a42b9305fdaacf01e52fa9"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a2fac7698a3a42b9305fdaacf01e52fa9">WHITE_COLOR</a> = <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a77f5df5c4f33fb978d897178c2ac5f99">PDEColor.valueOf</a>(&quot;DTWhite&quot;).getIntegerColor()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pac-attribs"></a>
+Package Attributes</h2></td></tr>
+<tr class="memitem:a3876d45ba54b9772e75a9d16bab78bed"><td class="memItemLeft" align="right" valign="top">Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a3876d45ba54b9772e75a9d16bab78bed">mCirclePath</a> = new Path()</td></tr>
+<tr class="memitem:a1e0c10b66b4074daf7b1b41a9a59be07"><td class="memItemLeft" align="right" valign="top">RectF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a1e0c10b66b4074daf7b1b41a9a59be07">mCircleRect</a> = new RectF()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a136c6ee5eb2cbde7aa3550a60e2b3320"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a136c6ee5eb2cbde7aa3550a60e2b3320">mRunning</a></td></tr>
+<tr class="memitem:afc36b8f24f88c6a6c1c26d78eaf5153c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicatocb55ae5f9f7462dfba3c980bed67f7f9.html">PDEActivityIndicatorMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#afc36b8f24f88c6a6c1c26d78eaf5153c">mMode</a></td></tr>
+<tr class="memitem:a320a8668ad2a053d69fbf4d09616ac49"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a320a8668ad2a053d69fbf4d09616ac49">mAnimationDuration</a></td></tr>
+<tr class="memitem:ae72f8a88c63484dfccb9a90d2634d26b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#ae72f8a88c63484dfccb9a90d2634d26b">mCurrentAngle</a></td></tr>
+<tr class="memitem:ad28503a7679c78a2745a43c564d9442a"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#ad28503a7679c78a2745a43c564d9442a">mTimeDifference</a></td></tr>
+<tr class="memitem:a14bbd55f1b7af6c4fa44ca9f8602a873"><td class="memItemLeft" align="right" valign="top">Paint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a14bbd55f1b7af6c4fa44ca9f8602a873">mPaint</a> = new Paint()</td></tr>
+<tr class="memitem:a5829b72c4378a356c06d411ab2e82491"><td class="memItemLeft" align="right" valign="top">Paint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#a5829b72c4378a356c06d411ab2e82491">mWhitePaint</a> = new Paint()</td></tr>
+<tr class="memitem:ac9f1c82396860563cac6cd96b9a0c96e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#ac9f1c82396860563cac6cd96b9a0c96e">mTriggerPercentage</a></td></tr>
+<tr class="memitem:af6248317803faf02e9c753b208716f1f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#af6248317803faf02e9c753b208716f1f">mDiameter</a></td></tr>
+<tr class="memitem:aeef38e8c7ea0ca01d942b2f4d224896e"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicator.html#aeef38e8c7ea0ca01d942b2f4d224896e">mStartTime</a></td></tr>
+</table>
+<h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="af5a4727e9ce4e00d916a4424dc4f0daa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.PDEActivityIndicator </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="af475a3d708886a988233fe3f3e8a5731"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.PDEActivityIndicator </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab0b56e6963bb99ced4e592f40432f0c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.PDEActivityIndicator </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>defStyle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="a7cef159d68d36964b66d25f5d7cae6e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.init </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa40f5a9edcf630f1fa7d5a7504f8bb56"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.setAttributes </td>
+          <td>(</td>
+          <td class="paramtype">Context&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AttributeSet&#160;</td>
+          <td class="paramname"><em>attrs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load XML attributes. </p>
+
+</div>
+</div>
+<a class="anchor" id="afaf27467c5399d62827975eff8ea4652"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.setColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set Color. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1cd3c5e3bafe0a2d3c93ecf785bc8de4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.setColor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set Color. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4b72008b9a90a4c9078d8cd14dfd3af3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.setTriggerPercentage </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>pct</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set trigger percentage. </p>
+
+</div>
+</div>
+<a class="anchor" id="aca407e7aa641a3d280f4656d23ce2abf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.getTriggerPercentage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get trigger percentage. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac55987d9ef90914592ba411d12f57653"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.setDiameter </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>diameter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set circle diameter. </p>
+
+</div>
+</div>
+<a class="anchor" id="a111902ed4fef47170c2a74e1d1f883a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.getDiameter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get circle diameter. </p>
+
+</div>
+</div>
+<a class="anchor" id="a975cc8681005a04862a5478f94126a79"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.setAnimationDuration </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>duration</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the duration the animation. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad9232419391a6188c1535f2844045d30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.getAnimationDuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get animation duration. </p>
+<dl class="section return"><dt>Returns</dt><dd>in milliseconds </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aef07c2d5cd3195ff47088b4fd72192ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.setMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicatocb55ae5f9f7462dfba3c980bed67f7f9.html">PDEActivityIndicatorMode</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set Mode. </p>
+
+</div>
+</div>
+<a class="anchor" id="a867c1b20db97ae2b6ca79e48c57c05ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.setMode </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a689c117bc4b38722f4168dd62c3f1c15"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicatocb55ae5f9f7462dfba3c980bed67f7f9.html">PDEActivityIndicatorMode</a> de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.getMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get Mode. </p>
+
+</div>
+</div>
+<a class="anchor" id="a875eb512bb82e9c26e738048b2f9f264"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stop all animations. </p>
+
+</div>
+</div>
+<a class="anchor" id="aef7fd6b1c6a39b40122ab89d04b73158"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Starts the animation. </p>
+
+</div>
+</div>
+<a class="anchor" id="a70683aebf16ac779cf30b000e9a70f94"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.isRunning </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get if animation is running. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab914e7cd5b3c402b7d3a1b5cd96286fa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.degreesToRadians </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>deg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function to transform degrees to radians. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7ccb212d0a9b5d1c948ff1167f9c6c69"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.onSizeChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>oldh</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a059c8bab548e2c74b0427557613fb1a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.onLayout </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>changed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bottom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a696eea416eaf2cdf40a359937e20ffbc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.createCirclePath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create path for the circle segment. </p>
+
+</div>
+</div>
+<a class="anchor" id="a91f163e6b63c51e5a5a22548dbd28cd4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.onDraw </td>
+          <td>(</td>
+          <td class="paramtype">Canvas&#160;</td>
+          <td class="paramname"><em>canvas</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update layout. </p>
+
+</div>
+</div>
+<a class="anchor" id="af3d9c38d8b5392b3235f31d2e1c7f748"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.drawTrigger </td>
+          <td>(</td>
+          <td class="paramtype">Canvas&#160;</td>
+          <td class="paramname"><em>canvas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw trigger. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa46a29faba49879ae8a186f6301085bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.onMeasure </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>widthMeasureSpec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>heightMeasureSpec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine layout size of element. </p>
+
+</div>
+</div>
+<h2>Member Data Documentation</h2>
+<a class="anchor" id="adee669aecd924cfece85677a8e87cde5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.LOG_TAG = PDEActivityIndicator.class.getSimpleName()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac5dafc7a00b6a2bb0ee5357d2197d1aa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.ANIMATION_DURATION = 1120</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abb96cdd43983d3c6844819a3eb0a5ebb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final float de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.DIAMETER = 2.0f*PDEBuildingUnits.BU()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac85bfd6713d6bb7bdf7d6eeef8df3e39"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final float de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.ARC_RADIUS = 117.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a169bfbd928cb707fde68f7108e817cd3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.COLOR = <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a77f5df5c4f33fb978d897178c2ac5f99">PDEColor.valueOf</a>(&quot;DTGrey2&quot;).getIntegerColor()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2fac7698a3a42b9305fdaacf01e52fa9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.WHITE_COLOR = <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html#a77f5df5c4f33fb978d897178c2ac5f99">PDEColor.valueOf</a>(&quot;DTWhite&quot;).getIntegerColor()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a136c6ee5eb2cbde7aa3550a60e2b3320"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mRunning</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afc36b8f24f88c6a6c1c26d78eaf5153c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_activity_indicatocb55ae5f9f7462dfba3c980bed67f7f9.html">PDEActivityIndicatorMode</a> de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a320a8668ad2a053d69fbf4d09616ac49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mAnimationDuration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae72f8a88c63484dfccb9a90d2634d26b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mCurrentAngle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad28503a7679c78a2745a43c564d9442a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mTimeDifference</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a14bbd55f1b7af6c4fa44ca9f8602a873"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Paint de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mPaint = new Paint()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5829b72c4378a356c06d411ab2e82491"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Paint de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mWhitePaint = new Paint()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac9f1c82396860563cac6cd96b9a0c96e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mTriggerPercentage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af6248317803faf02e9c753b208716f1f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mDiameter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aeef38e8c7ea0ca01d942b2f4d224896e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mStartTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3876d45ba54b9772e75a9d16bab78bed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Path de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mCirclePath = new Path()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1e0c10b66b4074daf7b1b41a9a59be07"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RectF de.telekom.pde.codelibrary.ui.elements.complex.PDEActivityIndicator.mCircleRect = new RectF()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/de/telekom/pde/codelibrary/ui/elements/complex/<a class="el" href="_p_d_e_activity_indicator_8java.html">PDEActivityIndicator.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+
+</body>
+</html>

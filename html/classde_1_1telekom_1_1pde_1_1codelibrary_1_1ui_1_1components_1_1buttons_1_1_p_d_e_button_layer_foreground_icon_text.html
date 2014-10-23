@@ -195,6 +195,7 @@ Inheritance diagram for de.telekom.pde.codelibrary.ui.components.buttons.PDEButt
  </div></div>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Button-Layer which shows icon and/or text in the <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button.html" title="Basic button, controlled by agent states.">PDEButton</a>. </p>
+<p>Extends absolute layout because of our complex layouting process, where we calculate our sizes and position ourselves. Using the Android Linear Layout was slower, due to other calculation processes. </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -221,8 +222,9 @@ Public Methods</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Methods</h2></td></tr>
-<tr class="memitem:aaa36506e3181defffc39d2251c8b33a0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#aaa36506e3181defffc39d2251c8b33a0">calculateWantedWidth</a> (<a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html">TextInfo</a> textInfo)</td></tr>
-<tr class="memdesc:aaa36506e3181defffc39d2251c8b33a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the wanted width to show the icon (if set) and the whole text.  <a href="#aaa36506e3181defffc39d2251c8b33a0"></a><br/></td></tr>
+<tr class="memitem:a4c6cdf3d02dc99118977c8705c048906"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a4c6cdf3d02dc99118977c8705c048906">getTextWidth</a> (float fontSize)</td></tr>
+<tr class="memitem:a26c377860586d096694f192a579bc048"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a26c377860586d096694f192a579bc048">calculateWantedWidth</a> (int textWidth, float fontSize)</td></tr>
+<tr class="memdesc:a26c377860586d096694f192a579bc048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the wanted width to show the icon (if set) and the whole text.  <a href="#a26c377860586d096694f192a579bc048"></a><br/></td></tr>
 <tr class="memitem:a3458a696012253e292928559fd374427"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a3458a696012253e292928559fd374427">onMeasure</a> (int widthMeasureSpec, int heightMeasureSpec)</td></tr>
 <tr class="memdesc:a3458a696012253e292928559fd374427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine layout size of element.  <a href="#a3458a696012253e292928559fd374427"></a><br/></td></tr>
 <tr class="memitem:abd3c1879db586b40b531e49f6c0cfcd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#abd3c1879db586b40b531e49f6c0cfcd2">onSizeChanged</a> (int width, int height, int oldWidth, int oldHeight)</td></tr>
@@ -261,12 +263,14 @@ Private Methods</h2></td></tr>
 <tr class="memdesc:a02479944064debec451ec988c607119d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function - update all colors. Title colors, shadow colors. All colors are precalculated and only animated.  <a href="#a02479944064debec451ec988c607119d"></a><br/></td></tr>
 <tr class="memitem:a879e766f6d89eea8d1542b3ee4fe93d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a879e766f6d89eea8d1542b3ee4fe93d7">updateFontSize</a> (float displayHeight, boolean apply, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html">TextInfo</a> textInfo, <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_fad1b91255bf8baeef57743c82be22161.html">MetaFontSize</a> fontMetaSize)</td></tr>
 <tr class="memdesc:a879e766f6d89eea8d1542b3ee4fe93d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the new font size and apply it. Also calculate helper values necessary later in the layout process. Important note: This function does not issue a request layout on font changes - ensure a layout run is done properly outside of this function. This avoids recursive calls of updateFontSize and updateLayout.  <a href="#a879e766f6d89eea8d1542b3ee4fe93d7"></a><br/></td></tr>
+<tr class="memitem:ac520c20e7c1f3dfa216ee97954872f85"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#ac520c20e7c1f3dfa216ee97954872f85">calculateFontSize</a> (float displayHeight)</td></tr>
+<tr class="memdesc:ac520c20e7c1f3dfa216ee97954872f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the new font size and apply it. Also calculate helper values necessary later in the layout process. Important note: This function does not issue a request layout on font changes - ensure a layout run is done properly outside of this function. This avoids recursive calls of updateFontSize and updateLayout.  <a href="#ac520c20e7c1f3dfa216ee97954872f85"></a><br/></td></tr>
 <tr class="memitem:a6d5cc00b936213f372b527eb0b8417b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a6d5cc00b936213f372b527eb0b8417b5">performLayout</a> ()</td></tr>
 <tr class="memdesc:a6d5cc00b936213f372b527eb0b8417b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the actual layout tasks. Called when anything has changed. Performs the new layout for all elements and sets it accordingly. The member variables are already set correctly outside.  <a href="#a6d5cc00b936213f372b527eb0b8417b5"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a4e55176c247c8e196abf493a6782b93b"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a4e55176c247c8e196abf493a6782b93b">LOG_TAG</a> = PDEButtonLayerForegroundIconText.class.getName()</td></tr>
+<tr class="memitem:a4e55176c247c8e196abf493a6782b93b"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a4e55176c247c8e196abf493a6782b93b">LOG_TAG</a> = PDEButtonLayerForegroundIconText.class.getSimpleName()</td></tr>
 <tr class="memdesc:a4e55176c247c8e196abf493a6782b93b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global tag for log outputs.  <a href="#a4e55176c247c8e196abf493a6782b93b"></a><br/></td></tr>
 <tr class="memitem:a46f81849ebe6a778a6e40d9bb48ba4ed"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a46f81849ebe6a778a6e40d9bb48ba4ed">DEBUG_PARAMS</a> = false</td></tr>
 <tr class="memitem:ad6fc799a0fe771750e764ad50edf97db"><td class="memItemLeft" align="right" valign="top">static final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#ad6fc799a0fe771750e764ad50edf97db">SHOW_DEBUG_LOGS</a> = false</td></tr>
@@ -281,7 +285,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a6784b6d61b7aac25616bf64aa661ef2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a6784b6d61b7aac25616bf64aa661ef2d">mParamTitleShadowColor</a></td></tr>
 <tr class="memitem:a07da1689bc155caf096264b2aec62bdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1parameters_1_1_p_d_e_parameter.html">PDEParameter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a07da1689bc155caf096264b2aec62bdd">mParamTitleShadowOffset</a></td></tr>
 <tr class="memitem:a78e73fd5112a322969dd65cfc9766677"><td class="memItemLeft" align="right" valign="top">PDEDrawText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a78e73fd5112a322969dd65cfc9766677">mTextView</a></td></tr>
-<tr class="memitem:a90c6542f1f850bb9c47b757c715c9f52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_view_wrapper.html">PDEViewWrapper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a90c6542f1f850bb9c47b757c715c9f52">mDrawableIconWrapperView</a></td></tr>
+<tr class="memitem:ab54effb45027561e9803fe1977ec7018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_icon_view.html">PDEIconView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#ab54effb45027561e9803fe1977ec7018">mDrawableIconWrapperView</a></td></tr>
 <tr class="memitem:a47d2e05bcfc8dff6ea8c5f45cd68a830"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a47d2e05bcfc8dff6ea8c5f45cd68a830">mDefaultColor</a></td></tr>
 <tr class="memitem:a4aefa52c83689436f3c79420854c29e7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a4aefa52c83689436f3c79420854c29e7">mIconToTextHeightRatio</a></td></tr>
 <tr class="memitem:ac85da52e448768689d172c161e22bcb0"><td class="memItemLeft" align="right" valign="top">Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#ac85da52e448768689d172c161e22bcb0">mIconColored</a></td></tr>
@@ -295,13 +299,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a2aa1342de183f67e9669a9019d449333"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a2aa1342de183f67e9669a9019d449333">mHorizontalPadding</a></td></tr>
 <tr class="memitem:a860707198f33f203dac2ba84f25686e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_fad1b91255bf8baeef57743c82be22161.html">MetaFontSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a860707198f33f203dac2ba84f25686e8">mFontMetaSize</a></td></tr>
 <tr class="memitem:a2c54652fdefbe4544e79ce2855a4a711"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html">TextInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a2c54652fdefbe4544e79ce2855a4a711">mTextInfo</a></td></tr>
-<tr class="memitem:aca210495abec118021c5e3ff689944d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_fad1b91255bf8baeef57743c82be22161.html">MetaFontSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#aca210495abec118021c5e3ff689944d0">mOnMeasureFontMetaSize</a></td></tr>
-<tr class="memitem:ace4f6b4bd95b5ab8e33fcf9837cdb0b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html">TextInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#ace4f6b4bd95b5ab8e33fcf9837cdb0b1">mOnMeasureTextInfo</a></td></tr>
 <tr class="memitem:ae343d9ca5f9fa05f2476d8c8fcd28045"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_f14a6ea82a3a2171cab64fd535ee89796.html">FontModeSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#ae343d9ca5f9fa05f2476d8c8fcd28045">mFontModeSizeFromParameters</a></td></tr>
 <tr class="memitem:aed37d261da6670a68b37def43886884a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#aed37d261da6670a68b37def43886884a">mDisplayWidth</a></td></tr>
 <tr class="memitem:aa7ce4df5adac5147b9448e3aebfca7ea"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#aa7ce4df5adac5147b9448e3aebfca7ea">mDisplayHeight</a></td></tr>
 <tr class="memitem:a999b70d5b021d2efce9b1d8974209793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1helpers_1_1_p_d_e_agent_helper.html">PDEAgentHelper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a999b70d5b021d2efce9b1d8974209793">mAgentHelper</a></td></tr>
 <tr class="memitem:a7ccc3938e684b73d394a2f6725030c33"><td class="memItemLeft" align="right" valign="top">Context&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#a7ccc3938e684b73d394a2f6725030c33">mContext</a></td></tr>
+<tr class="memitem:ad0e296134d7fc678e87e7d5b7884f0e4"><td class="memItemLeft" align="right" valign="top">LruCache&lt; Integer, Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foreground_icon_text.html#ad0e296134d7fc678e87e7d5b7884f0e4">mTextWidthSizeCache</a></td></tr>
 </table>
 <h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a6b63d595960506cd76e5bba2b272f610"></a>
@@ -1005,6 +1008,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac520c20e7c1f3dfa216ee97954872f85"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText.calculateFontSize </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>displayHeight</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the new font size and apply it. Also calculate helper values necessary later in the layout process. Important note: This function does not issue a request layout on font changes - ensure a layout run is done properly outside of this function. This avoids recursive calls of updateFontSize and updateLayout. </p>
+
+</div>
+</div>
 <a class="anchor" id="a6d5cc00b936213f372b527eb0b8417b5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1030,7 +1059,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aaa36506e3181defffc39d2251c8b33a0"></a>
+<a class="anchor" id="a4c6cdf3d02dc99118977c8705c048906"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText.getTextWidth </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fontSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a26c377860586d096694f192a579bc048"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1040,9 +1093,19 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">float de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText.calculateWantedWidth </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html">TextInfo</a>&#160;</td>
-          <td class="paramname"><em>textInfo</em></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>textWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>fontSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1160,7 +1223,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText.LOG_TAG = PDEButtonLayerForegroundIconText.class.getName()</td>
+          <td class="memname">final String de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText.LOG_TAG = PDEButtonLayerForegroundIconText.class.getSimpleName()</td>
         </tr>
       </table>
   </td>
@@ -1374,7 +1437,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a90c6542f1f850bb9c47b757c715c9f52"></a>
+<a class="anchor" id="ab54effb45027561e9803fe1977ec7018"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1382,7 +1445,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_view_wrapper.html">PDEViewWrapper</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText.mDrawableIconWrapperView</td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_icon_view.html">PDEIconView</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText.mDrawableIconWrapperView</td>
         </tr>
       </table>
   </td>
@@ -1654,46 +1717,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aca210495abec118021c5e3ff689944d0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_fad1b91255bf8baeef57743c82be22161.html">MetaFontSize</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText.mOnMeasureFontMetaSize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ace4f6b4bd95b5ab8e33fcf9837cdb0b1"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html">TextInfo</a> de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText.mOnMeasureTextInfo</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ae343d9ca5f9fa05f2476d8c8fcd28045"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1794,8 +1817,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad0e296134d7fc678e87e7d5b7884f0e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LruCache&lt;Integer, Integer&gt; de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText.mTextWidthSizeCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/PDECodeLibrary_Android/PDECodeLibrary/src/de/telekom/pde/codelibrary/ui/components/buttons/<a class="el" href="_p_d_e_button_layer_foreground_icon_text_8java.html">PDEButtonLayerForegroundIconText.java</a></li>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/de/telekom/pde/codelibrary/ui/components/buttons/<a class="el" href="_p_d_e_button_layer_foreground_icon_text_8java.html">PDEButtonLayerForegroundIconText.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

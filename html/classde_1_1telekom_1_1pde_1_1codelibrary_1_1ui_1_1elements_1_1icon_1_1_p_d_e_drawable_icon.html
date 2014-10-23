@@ -188,8 +188,8 @@ Inheritance diagram for de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableI
  <div class="center">
   <img src="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.png" usemap="#de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon_map" alt=""/>
   <map id="de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon_map" name="de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon_map">
-<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_base.html" title="Base class for our PDE Drawables." alt="de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBase" shape="rect" coords="0,56,416,80"/>
-<area href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_interface.html" alt="de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableInterface" shape="rect" coords="0,0,416,24"/>
+<area href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_multilayer.html" alt="de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableMultilayer" shape="rect" coords="0,56,422,80"/>
+<area href="interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_interface.html" alt="de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableInterface" shape="rect" coords="0,0,422,24"/>
 </map>
  </div></div>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
@@ -253,9 +253,11 @@ Public Methods</h2></td></tr>
 <tr class="memitem:a6793b2195cf072808b4ec382813a0c24"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a6793b2195cf072808b4ec382813a0c24">getElementPadding</a> ()</td></tr>
 <tr class="memdesc:a6793b2195cf072808b4ec382813a0c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Padding.  <a href="#a6793b2195cf072808b4ec382813a0c24"></a><br/></td></tr>
 <tr class="memitem:a6f8bb20fa1eb84f8cbfbfe7a10732d96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a6f8bb20fa1eb84f8cbfbfe7a10732d96">setLayoutHeight</a> (int height)</td></tr>
-<tr class="memdesc:a6f8bb20fa1eb84f8cbfbfe7a10732d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set element Height.  <a href="#a6f8bb20fa1eb84f8cbfbfe7a10732d96"></a><br/></td></tr>
+<tr class="memdesc:a6f8bb20fa1eb84f8cbfbfe7a10732d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates image color.  <a href="#a6f8bb20fa1eb84f8cbfbfe7a10732d96"></a><br/></td></tr>
 <tr class="memitem:a27aea4d4391a83496feefbb3c29c6dab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a27aea4d4391a83496feefbb3c29c6dab">setLayoutWidth</a> (int width)</td></tr>
 <tr class="memdesc:a27aea4d4391a83496feefbb3c29c6dab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set element Width.  <a href="#a27aea4d4391a83496feefbb3c29c6dab"></a><br/></td></tr>
+<tr class="memitem:a2794c0705df7e0aab0a872bbfa973e77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_icon_view.html">PDEIconView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a2794c0705df7e0aab0a872bbfa973e77">getWrapperView</a> ()</td></tr>
+<tr class="memdesc:a2794c0705df7e0aab0a872bbfa973e77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws image.  <a href="#a2794c0705df7e0aab0a872bbfa973e77"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Methods</h2></td></tr>
@@ -263,26 +265,22 @@ Protected Methods</h2></td></tr>
 <tr class="memdesc:a8ba133f73dfc6d5acabc6cfd56c34d7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the bounds changed.  <a href="#a8ba133f73dfc6d5acabc6cfd56c34d7d"></a><br/></td></tr>
 <tr class="memitem:a5f14ef6df98dc03ddacc8359fd480eb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a5f14ef6df98dc03ddacc8359fd480eb5">doLayout</a> ()</td></tr>
 <tr class="memdesc:a5f14ef6df98dc03ddacc8359fd480eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update all of my sublayers.  <a href="#a5f14ef6df98dc03ddacc8359fd480eb5"></a><br/></td></tr>
-<tr class="memitem:a1e1319ed9a87df6b6d632236fb9c7436"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a1e1319ed9a87df6b6d632236fb9c7436">updateAllPaints</a> ()</td></tr>
-<tr class="memdesc:a1e1319ed9a87df6b6d632236fb9c7436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates image color.  <a href="#a1e1319ed9a87df6b6d632236fb9c7436"></a><br/></td></tr>
-<tr class="memitem:ab16a97570e9deacc2f5483aa46fcacd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#ab16a97570e9deacc2f5483aa46fcacd8">updateDrawingBitmap</a> (Canvas c, Rect bounds)</td></tr>
-<tr class="memdesc:ab16a97570e9deacc2f5483aa46fcacd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws image.  <a href="#ab16a97570e9deacc2f5483aa46fcacd8"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
 Private Methods</h2></td></tr>
-<tr class="memitem:af9b94c1cd1840dbadf9b9a1c4d4eef46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#af9b94c1cd1840dbadf9b9a1c4d4eef46">initialize</a> ()</td></tr>
-<tr class="memdesc:af9b94c1cd1840dbadf9b9a1c4d4eef46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes start values.  <a href="#af9b94c1cd1840dbadf9b9a1c4d4eef46"></a><br/></td></tr>
-<tr class="memitem:a03f33b7a134b2d8fec46d5286ab0f7ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a03f33b7a134b2d8fec46d5286ab0f7ae">updateIconDrawable</a> ()</td></tr>
-<tr class="memdesc:a03f33b7a134b2d8fec46d5286ab0f7ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates icon with drawable or string.  <a href="#a03f33b7a134b2d8fec46d5286ab0f7ae"></a><br/></td></tr>
+<tr class="memitem:a3e53e6b2884c6cbfc0308c36d9fa0555"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a3e53e6b2884c6cbfc0308c36d9fa0555">init</a> ()</td></tr>
+<tr class="memdesc:a3e53e6b2884c6cbfc0308c36d9fa0555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes start values.  <a href="#a3e53e6b2884c6cbfc0308c36d9fa0555"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a29ae53b91b2a9a9a2929afd9b3952341"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a29ae53b91b2a9a9a2929afd9b3952341">LOG_TAG</a> = PDEDrawableIcon.class.getName()</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a55c4ef39afc635273eb65d97eab8d04f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_icon_view.html">PDEIconView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a55c4ef39afc635273eb65d97eab8d04f">mWrapperView</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a067b990c4be0662c439f3c7042895db1"><td class="memItemLeft" align="right" valign="top">Drawable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a067b990c4be0662c439f3c7042895db1">mImage</a></td></tr>
-<tr class="memitem:a1eabb8c5bbbb438ac2d98d45d99f050e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a1eabb8c5bbbb438ac2d98d45d99f050e">mIconString</a></td></tr>
 <tr class="memitem:afe2d9137267053161cf833515bde813a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#afe2d9137267053161cf833515bde813a">mIconColor</a></td></tr>
 <tr class="memitem:ada2c2863dad34714c6c35bae4ca74eb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1color_1_1_p_d_e_color.html">PDEColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#ada2c2863dad34714c6c35bae4ca74eb2">mShadowColor</a></td></tr>
 <tr class="memitem:acde5506ce74b3c96d313daf800ac0971"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#acde5506ce74b3c96d313daf800ac0971">mShadowEnabled</a></td></tr>
@@ -292,7 +290,6 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a96b879ba3108caa44dd308c16571fa0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon_font.html">PDEDrawableIconFont</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a96b879ba3108caa44dd308c16571fa0e">mIconFont</a></td></tr>
 <tr class="memitem:ae73abb29e6658bf55a06c5ce9f3d0dd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon_image.html">PDEDrawableIconImage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#ae73abb29e6658bf55a06c5ce9f3d0dd0">mIconImage</a></td></tr>
 <tr class="memitem:a9439ee4ad21b8f154a302de62534c853"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a9439ee4ad21b8f154a302de62534c853">mDoBoundsChange</a></td></tr>
-<tr class="memitem:a87608e510247f2193fe01339c12e871e"><td class="memItemLeft" align="right" valign="top">Drawable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1icon_1_1_p_d_e_drawable_icon.html#a87608e510247f2193fe01339c12e871e">mIconDrawable</a></td></tr>
 </table>
 <h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a344e8a7326381d2c07c6dd990291c335"></a>
@@ -379,7 +376,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2>Member Function Documentation</h2>
-<a class="anchor" id="af9b94c1cd1840dbadf9b9a1c4d4eef46"></a>
+<a class="anchor" id="a3e53e6b2884c6cbfc0308c36d9fa0555"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -387,7 +384,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon.initialize </td>
+          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon.init </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -401,31 +398,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initializes start values. </p>
-
-</div>
-</div>
-<a class="anchor" id="a03f33b7a134b2d8fec46d5286ab0f7ae"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon.updateIconDrawable </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Updates icon with drawable or string. </p>
 
 </div>
 </div>
@@ -1064,7 +1036,7 @@ Private Attributes</h2></td></tr>
 <p>Called when the bounds changed. </p>
 <p>Gets bounds of the child drawable after bounds have changed and sets these bounds. While doing this onBoundsChange is deactivated to prevent recursion. </p>
 
-<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_base.html#a48b7696ec3565db769d110c47da85588">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBase</a>.</p>
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_multilayer.html#a3f25c18205bba668528786da9c770922">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableMultilayer</a>.</p>
 
 </div>
 </div>
@@ -1091,34 +1063,7 @@ Private Attributes</h2></td></tr>
 
 <p>Update all of my sublayers. </p>
 
-<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_base.html#a0830fe273c23fda00b6bedaa87e0eee2">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBase</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1e1319ed9a87df6b6d632236fb9c7436"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon.updateAllPaints </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Updates image color. </p>
-
-<p>Implements <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_base.html#ad6dc2152f0ccf84bd7f0b1518e199264">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBase</a>.</p>
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_multilayer.html#a28a7b5a68ca9750305263eb74176ecda">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableMultilayer</a>.</p>
 
 </div>
 </div>
@@ -1144,9 +1089,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Updates image color. </p>
 <p>Set element Height. </p>
 
-<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_base.html#ab97caca72a37d394272e045d4f43f094">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBase</a>.</p>
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_multilayer.html#ae056d9d9de7c8c825c75b52ec5f6a9dd">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableMultilayer</a>.</p>
 
 </div>
 </div>
@@ -1174,11 +1120,11 @@ Private Attributes</h2></td></tr>
 
 <p>Set element Width. </p>
 
-<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_base.html#a3542380ac5b98e607335f42596a29fc3">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBase</a>.</p>
+<p>Reimplemented from <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_multilayer.html#a782e23f08e1d9db5ce0fe96b47787433">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableMultilayer</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab16a97570e9deacc2f5483aa46fcacd8"></a>
+<a class="anchor" id="a2794c0705df7e0aab0a872bbfa973e77"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1186,26 +1132,15 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon.updateDrawingBitmap </td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_icon_view.html">PDEIconView</a> de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon.getWrapperView </td>
           <td>(</td>
-          <td class="paramtype">Canvas&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">Rect&#160;</td>
-          <td class="paramname"><em>bounds</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1214,12 +1149,12 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">c</td><td>the Canvas of the DrawingBitmap we want to draw into. </td></tr>
-    <tr><td class="paramname">bounds</td><td>the current bounding rect of our Drawable. </td></tr>
+    <tr><td class="paramname">bounds</td><td>the current bounding rect of our Drawable. Delivers its own Wrapper-View.</td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Implements <a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1common_1_1_p_d_e_drawable_base.html#af55d2f1e95177c24fc0f02bb6f0ebdff">de.telekom.pde.codelibrary.ui.elements.common.PDEDrawableBase</a>.</p>
+<p>If we want to use a Drawable within a ViewGroup/Layout we have to put it into some view first. We could write a lot of specialised Views that simply forward all functions we need to configure the underlying drawable or we can use one standardized View with only some basic functions to wrap all our custom Drawables within. Configuration is then done directly on the Drawable. In order to keep a better overview and spare a lot of maintenance-intensive View-Code we decided for the latter option. Every custom drawable carries its own Wrapper-View which is created on demand and places the drawable within.</p>
+<dl class="section return"><dt>Returns</dt><dd>a simple view that wraps this Drawable. </dd></dl>
 
 </div>
 </div>
@@ -1238,46 +1173,6 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a067b990c4be0662c439f3c7042895db1"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Drawable de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon.mImage</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1eabb8c5bbbb438ac2d98d45d99f050e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">String de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon.mIconString</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1464,7 +1359,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a87608e510247f2193fe01339c12e871e"></a>
+<a class="anchor" id="a55c4ef39afc635273eb65d97eab8d04f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1472,12 +1367,12 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Drawable de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon.mIconDrawable</td>
+          <td class="memname"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1elementwrappers_1_1_p_d_e_icon_view.html">PDEIconView</a> de.telekom.pde.codelibrary.ui.elements.icon.PDEDrawableIcon.mWrapperView</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1485,7 +1380,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/PDECodeLibrary_Android/PDECodeLibrary/src/de/telekom/pde/codelibrary/ui/elements/icon/<a class="el" href="_p_d_e_drawable_icon_8java.html">PDEDrawableIcon.java</a></li>
+<li>D:/PDECodeLibrary_Android/PDECodeLibrary/de/telekom/pde/codelibrary/ui/elements/icon/<a class="el" href="_p_d_e_drawable_icon_8java.html">PDEDrawableIcon.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

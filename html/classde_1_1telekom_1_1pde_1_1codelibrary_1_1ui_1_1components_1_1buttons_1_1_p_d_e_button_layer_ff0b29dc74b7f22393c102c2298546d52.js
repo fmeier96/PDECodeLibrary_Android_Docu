@@ -8,11 +8,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_
     [ "textWidthFirstLetterPlusEllipsis", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html#a5990c29e914dd7e4ec51e273f47ab072", null ],
     [ "textWidthFirstLetter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html#a3150e0b36a4e3078d752eb4bec4e3db0", null ],
     [ "textSizeFull", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html#a0ee1f22f3a7e4cc15716a12f21e3433b", null ],
-    [ "fontAscenderHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html#a397d2d7ac04e66d45f6634e49756ce73", null ],
-    [ "fontTopHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html#aedd991c0beec28d46acb28d8304341cb", null ],
-    [ "fontCapHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html#aca081c583528178a3b09815de10520c6", null ],
-    [ "fontOverallHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html#a041545cb9e9399053d89cb78445d4549", null ],
-    [ "fontTopOverallHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html#a131d7170dff3d7f668701276c6794f54", null ],
     [ "firstLetterEllipsis", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html#a23e1586670a0667f4d008d6a61eec574", null ],
     [ "firstLetter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_ff0b29dc74b7f22393c102c2298546d52.html#a677190d72b8508fb0e869c4650b87efe", null ]
 ];

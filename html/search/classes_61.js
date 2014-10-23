@@ -8,8 +8,5 @@ var searchData=
   ['activitydrawerlayout',['ActivityDrawerLayout',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_drawer_layout.html',1,'de::telekom::pde::codelibrary::samples::commonstyle::actionbar']]],
   ['activitylistmultipleselection',['ActivityListMultipleSelection',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1actionbar_1_1_activity_list_multiple_selection.html',1,'de::telekom::pde::codelibrary::samples::commonstyle::actionbar']]],
   ['activitysplashsample',['ActivitySplashSample',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1splashscreen_1_1_activity_splash_sample.html',1,'de::telekom::pde::codelibrary::samples::splashscreen']]],
-  ['anim',['anim',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1anim.html',1,'de::telekom::pde::codelibrary::ui::R']]],
-  ['animationholder',['AnimationHolder',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_animation_holder.html',1,'de::telekom::pde::codelibrary::ui::animation::PDEAnimationGroup']]],
-  ['array',['array',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1array.html',1,'de::telekom::pde::codelibrary::ui::R']]],
-  ['attr',['attr',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1attr.html',1,'de::telekom::pde::codelibrary::ui::R']]]
+  ['animationholder',['AnimationHolder',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1animation_1_1_p_d_e_animation_group_1_1_animation_holder.html',1,'de::telekom::pde::codelibrary::ui::animation::PDEAnimationGroup']]]
 ];

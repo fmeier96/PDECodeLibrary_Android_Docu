@@ -1,12 +1,7 @@
 var searchData=
 [
   ['undefined',['Undefined',['../enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_layer_foc86b80b05005749af1d1868fc39ae289.html#a9da05308219ee6eb15fa778977643970',1,'de.telekom.pde.codelibrary.ui.components.buttons.PDEButtonLayerForegroundIconText.PDEButtonLayerForegroundIconTextFontMode.Undefined()'],['../enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1inputfields_1_1_p_d_e_input_fieldc5d568c455ef29a0b8bf353bccaa16e7.html#aa10ddd653e4264bef46b9abe7991eaf9',1,'de.telekom.pde.codelibrary.ui.components.inputfields.PDEInputField.PDEInputFieldFontMode.Undefined()']]],
-  ['unkown_5ferror_5ftext',['UNKOWN_ERROR_text',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1string.html#aa17d6cf67373b01742f0378858a8baa8',1,'de::telekom::pde::codelibrary::ui::R::string']]],
-  ['unkown_5ferror_5ftitle',['UNKOWN_ERROR_title',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1string.html#a878c15c12a5f86d0643aeac850dc6300',1,'de::telekom::pde::codelibrary::ui::R::string']]],
-  ['up',['up',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1id.html#aba279c52c80683bf6687e28bbd81614c',1,'de::telekom::pde::codelibrary::ui::R::id']]],
-  ['upload_5ffailed_5ftext',['UPLOAD_FAILED_text',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1string.html#a499997d44dadf28212e35d0e7e1a0891',1,'de::telekom::pde::codelibrary::ui::R::string']]],
-  ['upload_5ffailed_5ftitle',['UPLOAD_FAILED_title',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1string.html#a29573fbabbebdb5d91868c7f50463bed',1,'de::telekom::pde::codelibrary::ui::R::string']]],
+  ['uniquetypeidautoassignment',['uniqueTypeIDAutoAssignment',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_sectioned_list_adapter.html#a22dc48d883345bfa0686f0534e058382',1,'de::telekom::pde::codelibrary::ui::components::lists::PDESectionedListAdapter']]],
   ['usagecircle',['usageCircle',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1datavisualisation_1_1usagecircle_1_1_usage_circle_overview_activity.html#ad35d509b1128c62ba97b64de395d51bd',1,'de::telekom::pde::codelibrary::samples::datavisualisation::usagecircle::UsageCircleOverviewActivity']]],
-  ['uselogo',['useLogo',['../classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_r_1_1id.html#acf951dbe313769d32065b3b499f2fe38',1,'de::telekom::pde::codelibrary::ui::R::id']]],
   ['user',['User',['../enumde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1buttons_1_1_p_d_e_button_1_1_p_d_e_button_layer_type.html#a57853b1a39c7fc79c9c1209eccdb6d1e',1,'de::telekom::pde::codelibrary::ui::components::buttons::PDEButton::PDEButtonLayerType']]]
 ];

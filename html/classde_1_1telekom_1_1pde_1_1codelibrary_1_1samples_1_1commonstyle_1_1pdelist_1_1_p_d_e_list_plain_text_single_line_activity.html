@@ -221,6 +221,8 @@ Public Methods</h2></td></tr>
 Protected Methods</h2></td></tr>
 <tr class="memitem:a91d81c55f59108a5553fbd3c3337cde5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_single_line_activity.html#a91d81c55f59108a5553fbd3c3337cde5">onResume</a> ()</td></tr>
 <tr class="memdesc:a91d81c55f59108a5553fbd3c3337cde5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create adapter for current size on resume.  <a href="#a91d81c55f59108a5553fbd3c3337cde5"></a><br/></td></tr>
+<tr class="memitem:a888afc8e5db1f8042de30943f052abfa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_single_line_activity.html#a888afc8e5db1f8042de30943f052abfa">createDataSet</a> ()</td></tr>
+<tr class="memdesc:a888afc8e5db1f8042de30943f052abfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper that creates the whole data set with the configured number of items.  <a href="#a888afc8e5db1f8042de30943f052abfa"></a><br/></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
 Private Methods</h2></td></tr>
@@ -231,10 +233,13 @@ Private Methods</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:ae146ee789fb23c8ba44d024feb5418a1"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_single_line_activity.html#ae146ee789fb23c8ba44d024feb5418a1">NUMBER_OF_LIST_ITEMS_SHOWN</a> = 1000</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pac-attribs"></a>
+Package Attributes</h2></td></tr>
+<tr class="memitem:a65c79d33d43d5f8b7fc5ebc087b1c96c"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_single_line_activity.html#a65c79d33d43d5f8b7fc5ebc087b1c96c">mDataSet</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a57bcefc567d97d5b9cb76eb588c82f2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html">PDEListView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_single_line_activity.html#a57bcefc567d97d5b9cb76eb588c82f2a">mList</a></td></tr>
-<tr class="memitem:a4a983771008ddae1496209ebf1819c64"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_single_line_activity.html#a4a983771008ddae1496209ebf1819c64">mTargetViewIDs</a> = new int[]{R.id.PDEList_ItemText}</td></tr>
 <tr class="memitem:a9de8f63553d81af820dd93429efec03a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plai35f4f3d8ab204187135cdad664037ee4.html">sample_size</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_single_line_activity.html#a9de8f63553d81af820dd93429efec03a">mCurrentlyShownSize</a></td></tr>
 </table>
 <h2>Member Function Documentation</h2>
@@ -320,6 +325,31 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a888afc8e5db1f8042de30943f052abfa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void de.telekom.pde.codelibrary.samples.commonstyle.pdelist.PDEListPlainTextSingleLineActivity.createDataSet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper that creates the whole data set with the configured number of items. </p>
 
 </div>
 </div>
@@ -526,26 +556,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4a983771008ddae1496209ebf1819c64"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int [] de.telekom.pde.codelibrary.samples.commonstyle.pdelist.PDEListPlainTextSingleLineActivity.mTargetViewIDs = new int[]{R.id.PDEList_ItemText}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a9de8f63553d81af820dd93429efec03a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -566,8 +576,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a65c79d33d43d5f8b7fc5ebc087b1c96c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;String&gt; de.telekom.pde.codelibrary.samples.commonstyle.pdelist.PDEListPlainTextSingleLineActivity.mDataSet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/PDECodeLibrary_Android/PDECodeSamples/src/de/telekom/pde/codelibrary/samples/commonstyle/pdelist/<a class="el" href="_p_d_e_list_plain_text_single_line_activity_8java.html">PDEListPlainTextSingleLineActivity.java</a></li>
+<li>D:/PDECodeLibrary_Android/PDECodeSamples/de/telekom/pde/codelibrary/samples/commonstyle/pdelist/<a class="el" href="_p_d_e_list_plain_text_single_line_activity_8java.html">PDEListPlainTextSingleLineActivity.java</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['codesamplesimpleadapter_2ejava',['CodeSampleSimpleAdapter.java',['../_code_sample_simple_adapter_8java.html',1,'']]]
+  ['clonedarrayadapter_2ejava',['ClonedArrayAdapter.java',['../_cloned_array_adapter_8java.html',1,'']]],
+  ['contactlistactivity_2ejava',['ContactListActivity.java',['../_contact_list_activity_8java.html',1,'']]]
 ];

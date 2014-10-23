@@ -12,6 +12,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_constants =
     [ "PDEAlignmentStringLeftAttached", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_constants.html#af8521cbca19d4cc16fdb3faea5de9962", null ],
     [ "PDEAlignmentStringRightAttached", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_constants.html#aec26858b73109db0bbe548a9288161ed", null ],
     [ "PDE_CODELIB_EXTRA_CONTENTSTYLE", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_constants.html#a2f30e2a928fb0a419d3cd8bdc2dd4dfc", null ],
-    [ "DefaultPDEButtonLayerForegroundIconTextIconToTextHeightRatio", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_constants.html#ae51b453e6d2dd88405bcd33952643ebf", null ],
+    [ "DefaultPDEButtonIconToTextHeightRatio", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_constants.html#a4de143482077187290a6eef17fb29b8d", null ],
     [ "DefaultPDEEditTextIconToTextHeightRatio", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1_p_d_e_constants.html#a3919eedbac4670bddce9f367b72e6341", null ]
 ];

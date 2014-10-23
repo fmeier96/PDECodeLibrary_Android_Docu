@@ -1,16 +1,23 @@
 var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity =
 [
     [ "sample_number_of_lines", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plaibedbab1b9397caeefcc182b296e97fd2.html", "enumde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plaibedbab1b9397caeefcc182b296e97fd2" ],
+    [ "StringStringHashMap", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_pla217d1f11ee4b6e6145949b786896f0ab.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_pla217d1f11ee4b6e6145949b786896f0ab" ],
     [ "onCreate", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#a0335d30723100c6a2c225acc12702eec", null ],
     [ "onResume", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#a2d8e12ede9be1d6427e1b21f5f155a7f", null ],
     [ "setAdapterForNumberOfLines", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#aa92cc7b62ce33004baafed9a475f6ccd", null ],
+    [ "createItem", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#aaca7dd2a3d9960cb547eded96a415dcb", null ],
+    [ "createDataSet", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#a19b00807fc66e87a184fd010aa5938d6", null ],
     [ "onCreateOptionsMenu", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#a46b5443dc9035d2470918cbcefc3ac07", null ],
     [ "onPrepareOptionsMenu", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#a987b0d5e90b1010d97e79f34acc0d525", null ],
     [ "onOptionsItemSelected", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#a0671f54b001acd97bff7bcaba9bee5f6", null ],
     [ "onSaveInstanceState", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#ab068f48bd6b023a796759bee7d014f48", null ],
     [ "onRestoreInstanceState", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#ae5ff1f9bfef4aa4a52c013ef1e91e14c", null ],
+    [ "ITEM_TITLE", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#abac9da334c0dfca392340aef695cef2e", null ],
+    [ "ITEM_TEXT", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#aeeffd7c02dac34e7ea53abfe865133aa", null ],
     [ "NUMBER_OF_LIST_ITEMS_SHOWN", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#a05fe6da617bdc6f77c9864dfb9acaf32", null ],
     [ "mList", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#a1c06e75bfe384aeaae3697e06c29fcb7", null ],
     [ "targetViewIDs", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#ab407030cc654611b6cba2ab6793e2550", null ],
-    [ "mCurrentlyShownNumberOfLines", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#a8f3c1198ea9082e471396d43e86295d2", null ]
+    [ "mCurrentlyShownNumberOfLines", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#a8f3c1198ea9082e471396d43e86295d2", null ],
+    [ "mDataSet", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#ace92a6498ac4d53a82fc009e16986d40", null ],
+    [ "mDataSetMultiple", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_list_plain_text_multi_line_activity.html#ab8022222df2ebadc2235af39aab48fbf", null ]
 ];

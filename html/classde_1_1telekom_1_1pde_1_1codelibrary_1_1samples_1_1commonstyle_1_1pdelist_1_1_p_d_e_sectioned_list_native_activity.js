@@ -1,0 +1,10 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_sectioned_list_native_activity =
+[
+    [ "StringArrayAdapter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_sectionebf45207fc3b368067f3851657f5e9842.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_sectionebf45207fc3b368067f3851657f5e9842" ],
+    [ "onCreate", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_sectioned_list_native_activity.html#a4fd17f93e4b251422293452f2be4ab22", null ],
+    [ "onCreateOptionsMenu", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_sectioned_list_native_activity.html#a72922b00a853323e4af4204ba4ee93d2", null ],
+    [ "onPrepareOptionsMenu", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_sectioned_list_native_activity.html#a407c3529a49a8da6bb5c65ed3e862c47", null ],
+    [ "onOptionsItemSelected", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_sectioned_list_native_activity.html#acbdcf5e7aef523506c1b37714d207595", null ],
+    [ "onPDEListItemClicked", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_sectioned_list_native_activity.html#aac344b5982c7271e35887831d1cb1151", null ],
+    [ "mAdapter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_sectioned_list_native_activity.html#a60c502663345d68de3c7e7d0335e09c2", null ]
+];

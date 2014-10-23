@@ -1,0 +1,4 @@
+var classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_sectioned3260f0cbe5f4b2edd6cd3b056db47dc =
+[
+    [ "PDEStringArrayAdapter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist_1_1_p_d_e_sectioned3260f0cbe5f4b2edd6cd3b056db47dc.html#aabcbcb479424622a90e365915ba8c3d6", null ]
+];

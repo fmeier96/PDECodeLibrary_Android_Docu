@@ -18,6 +18,9 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_
     [ "getElementSubTextColor", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#ae942d1fe6b032c36dea7baf6a6d12807", null ],
     [ "doLayout", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#a5168c9310e4adfc80af2579892470f9c", null ],
     [ "calculateLayout", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#a71ddc6752e7f44ecece544622bba9733", null ],
+    [ "setDrawDelimiter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#ab6e92bdafdad647459a4c9383f225f99", null ],
+    [ "getDelimiterHeight", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#ad81a62668e9cbaab33c61e08ab4145b3", null ],
+    [ "isDelimiterDrawn", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#aa194c31f6b6fcbf7cce5335453a507c3", null ],
     [ "LOG_TAG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#aa4a9c0d33f99d1a436e73276a59c8367", null ],
     [ "DEBUG", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#ac9aafc5cbe98f121a600ff5ff6957b1b", null ],
     [ "PDEDrawableListHeaderFontSizeMainLabelInPercent", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#a1c526eb0a9fb0d7866c7f8b09657a1eb", null ],
@@ -34,5 +37,6 @@ var classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_
     [ "mFontMetricsMainLabel", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#a3e847997592df74ec7f1a5683e4a8842", null ],
     [ "mFontMetricsSubLabel", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#aa60139af0ab638fe8fec888dfe5bc14b", null ],
     [ "mTextWidthMainLabel", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#ab5512e10db033af330836e7ae8eb4d98", null ],
-    [ "mTextWidthSubLabel", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#a2a73faaa197aa94dd99d173f216a653e", null ]
+    [ "mTextWidthSubLabel", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#a2a73faaa197aa94dd99d173f216a653e", null ],
+    [ "mDrawDelimiter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1elements_1_1complex_1_1_p_d_e_drawable_list_header.html#a8ccb9206296ed5ead32c875fa6ba64f0", null ]
 ];

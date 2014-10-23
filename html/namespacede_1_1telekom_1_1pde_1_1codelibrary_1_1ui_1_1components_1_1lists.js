@@ -1,9 +1,9 @@
 var namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists =
 [
+    [ "adapters", "namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1adapters.html", "namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1adapters" ],
+    [ "viewbinders", "namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1viewbinders.html", "namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1viewbinders" ],
     [ "PDEEventListItem", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_event_list_item.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_event_list_item" ],
-    [ "PDEHolder", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder" ],
-    [ "PDEHolderInterface", "interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder_interface.html", "interfacede_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_holder_interface" ],
-    [ "PDEListBaseAdapter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_base_adapter" ],
     [ "PDEListItem", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_item" ],
-    [ "PDEListView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view" ]
+    [ "PDEListView", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_list_view" ],
+    [ "PDESectionedListAdapter", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_sectioned_list_adapter.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1ui_1_1components_1_1lists_1_1_p_d_e_sectioned_list_adapter" ]
 ];

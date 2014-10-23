@@ -4,5 +4,6 @@ var namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle =
     [ "notifications", "namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1notifications.html", "namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1notifications" ],
     [ "pdelist", "namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist.html", "namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1pdelist" ],
     [ "scrollbars", "namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1scrollbars.html", "namespacede_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1scrollbars" ],
-    [ "HeadersAndHeadlinesActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1_headers_and_headlines_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1_headers_and_headlines_activity" ]
+    [ "HeadersAndHeadlinesActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1_headers_and_headlines_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1_headers_and_headlines_activity" ],
+    [ "SwipeRefreshLayoutListActivity", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1_swipe_refresh_layout_list_activity.html", "classde_1_1telekom_1_1pde_1_1codelibrary_1_1samples_1_1commonstyle_1_1_swipe_refresh_layout_list_activity" ]
 ];
